@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#9A9FAF;">
+	<!ENTITY st1 "fill:#FFFFFF;">
+	<!ENTITY st2 "fill:#E30612;">
+	<!ENTITY st3 "fill:#F7931E;">
+	<!ENTITY st4 "fill:#71B1E4;">
+	<!ENTITY st5 "fill:#39B54A;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="11px" height="10px" viewBox="0 0 11 10" style="enable-background:new 0 0 11 10;" xml:space="preserve">
+<g id="comment.active">
+	<g>
+		<rect style="&st5;" width="11" height="10"/>
+	</g>
+	<path style="&st1;" d="M3,5c0-1.125-0.016-2,1-2c0-0.469,0-1,0-1C2.047,2,2,3.578,2,5s0,3,0,3h3V5H3z"/>
+	<path style="&st1;" d="M7,5c0-1.125-0.016-2,1-2c0-0.469,0-1,0-1C6.047,2,6,3.578,6,5s0,3,0,3h3V5H7z"/>
+</g>
+</svg>

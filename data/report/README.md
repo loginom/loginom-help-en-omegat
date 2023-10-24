@@ -1,17 +1,45 @@
-# Reports
+---
+description: Создание отчётов в Loginom. Справка по созданию и редактированию отчётности. Добавление различных табличных, статистических и графических визуализаторов при построении отчётов. Обновление ранее созданных отчётов.
+---
+# Отчеты
 
-The challenge of knowledge distribution is to give an opportunity to the employees who are not aware of analysis methods and procedure of achievement of a particular result, to receive a response to the analytical requests based on the models provided by the expert. The workflows panel is designated for the expert to build different models in it. The reports panel is designated for the end user.
+Задача тиражирования знаний заключается в предоставлении возможности сотрудникам, не разбирающимся в методиках анализа и способах получения того или иного результата, получать ответ на аналитические запросы на основе моделей, подготовленных экспертом. Для эксперта предназначена панель сценариев, в которой он строит различные модели. Для конечного же пользователя предназначена панель отчетов (Навигация – Отчеты).
 
-To create a report, it is required to add the visualizer used to make the report. Then it is required to select this visualizer and press *Add to reports* button. In this case, the report will be added to "Without group" list. To add the report to the definite group, it is required to select the visualizer and open the drop-down list near *Add to reports* menu. It will be asked to choose to place the report to the pre-created group or create the new group.
+![Панель отчетов](./navigation.png)
 
-It is also possible to add the report by clicking on the required visualizer with the right mouse button. Then it is required to select "Add visualizer to reports" menu option. The report can be added without any group. It is required to select already existing group or create the new one.
+Существует два способа создания отчетов:
 
-It is preferable to group the reports according to their semantic content. For example, the "Analytical reports" group can contain different data cubes, whereas the "Forecast" group can contain the forecast charts of some values. Then the end user opens the reports panel, selects the required group and activates the required report in this group. Upon such choice, the program will automatically execute the workflow compliant with this report and provide the result according to the configured report display.
+* нажать правой кнопкой мыши на необходимом визуализаторе и навести курсор на пункт меню «Добавить визуализатор в отчеты», где можно выбрать:
+  * уже существующую группу;
+    * в дополнительном выпадающем контекстном меню можно выбрать подгруппу, либо создать новую подгруппу;
+  * без группы;
+  * создать новую группу.
 
-Practically it often happens that the user needs to receive the report on some subset of all available data, for example, data on one supplier or client, several groups of goods or regions. Such subset is called a slice in the terms of the multidimensional data model. The analyst can create reports in the predetermined and most highly-demanded slices but he cannot forecast all kinds of reports that can be necessary to the user. To complete this task, a user can configure the required kind of reports by himself. A user cannot save this setting.
+![Определение визуализатора в группу отчетов](./add-to-report.png)
 
-To search for the report created on the basis of the current visualizer, it is required to click on the required visualizer with the right mouse button and select "Show in reports" menu option. In this case, these actions will enable to move to the reports control panel.
+* выбрать визуализатор;
+  * нажать кнопку *Добавить в отчеты*, отчет добавится в список «Без группы»;
+  * открыть выпадающий список рядом с кнопкой, где будет предложено поместить его в заранее созданную группу или создать новую;
+    * в дополнительном выпадающем контекстном меню можно выбрать подгруппу, либо создать новую подгруппу.
 
-To control the created reports, it is required to go to *Reports* group of the package. The reports control panel is designated for creation of new groups of reports, renaming and deletion of existing groups of reports, editing, renaming and deletion of reports. When editing reports, the source visualizer used to make the report is also changed.
+![Определение визуализатора в группу отчетов](./add-main-panel.png)
 
-The reports in the open state are highlighted in green. Such reports can be updated by pressing *Reread data* button. In this case, all nodes located before the node with the report will be deactivated and activated again. Note: In this case, all other reports located on the deactivated nodes will be also deactivated.
+Манипулировать с группами и подгруппами отчетов можно следующим образом:
+* формировать группы отчетов и сами отчеты в отдельную группу;
+* переносить группы отчетов или отчеты в любой уровень вложенности подгрупп;
+* создавать подгруппы отчетов любого уровня вложенности.
+
+
+Отчеты желательно объединять в группы по их смысловому содержанию. Например, группа «Аналитические отчеты» может содержать различные кубы данных, группа «Прогнозы» – диаграммы прогнозов каких-либо величин. Такое объединение очень удобно, когда конечный пользователь открывает панель отчетов, выбирает нужную группу и активизирует нужный отчет. После такого выбора программа автоматически выполняет сценарий и выдает результат в зависимости от настроенного отображения.
+
+Для управления созданными отчетами необходимо перейти в группу *Отчеты* пакета. Панель управления предназначена для создания новых групп отчетов, переименования и удаления существующих групп, а также редактирования, переименования и удаления отчетов. При редактировании изменяется и исходный визуализатор, на основании которого построен отчет.
+
+Отчеты, которые находятся в открытом состоянии, подсвечиваются зеленым цветом. Их можно обновить, нажав кнопку *Перечитать данные*. В этом случае будут деактивированы все узлы, находящиеся перед узлом с отчетом и активированы снова. Примечание: при этом также будут деактивированы все другие отчеты, которые находятся на деактивируемых узлах.
+
+![Управление отчетами](./control-green-reports.png)
+
+На практике часто встречаются ситуации, когда пользователю требуется получить отчет по некоторому подмножеству всех доступных данных, например, только по одному поставщику или клиенту, по нескольким группам товаров или регионам. В терминах многомерной модели данных такое подмножество называется срезом. Аналитик может создавать отчеты в предопределенных, наиболее востребованных разрезах, но не в силах предсказать все виды, которые могут потребоваться. Для решения данной задачи пользователь может самостоятельно настраивать необходимый ему вид отчетов. Сохранить данную настройку пользователь не может.
+
+Для поиска отчета созданного от текущего визуализатора, необходимо щелкнуть на нем правой кнопкой мыши и выбрать пункт меню "Показать в отчетах". При этом произойдет переход на панель управления отчетами.
+
+![Поиск отчета от текущего визуализатора](./see-in-reports.png)

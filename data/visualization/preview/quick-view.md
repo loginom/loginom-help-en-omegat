@@ -1,43 +1,186 @@
-# ![ ](../../images/icons/toolbar-controls/show-fast-viewer_default.svg) Quick Data View
+---
+description: Справка по быстрому просмотру данных в Loginom. Отображение информации в виде двумерной таблицы, дерева или формы. Просмотр данных с выходного порта.
+---
+# ![ ](./../../images/icons/common/toolbar-controls/show-fast-viewer_default.svg) Быстрый просмотр данных
 
-It provides the limited amount of data for information purposes in the form of the flat two-dimensional table. Filtration, change of data view format and search are not available. Real numbers (with floating point) are displayed with two places after decimal separator. The data in the date/time format is displayed without seconds.
+Представляет ограниченное количество данных для ознакомления в виде плоской двумерной таблицы, дерева или формы. Возможности фильтрации, изменения формата отображения данных нет. Вещественные числа (с плавающей точкой) отображаются с двумя знаками после десятичного разделителя, данные в формате Дата/время отображаются без указания секунд.
 
-This visualizer is available in any active output:
+ >**Важно:** Вещественные числа участвуют в обработке с тем количеством знаков после десятичного разделителя, что и в исходном источнике данных (или с тем количеством знаков, которое было определено на предыдущих этапах обработки), и только отображаются с двумя знаками после десятичного разделителя.  Аналогично и данные в формате Дата/время только в визуализаторе представлены в сокращенном формате.
 
-* ![ ](../../images/icons/app/node/ports/outputs/table_active.svg)   table port;
-* ![ ](../../images/icons/app/node/ports/outputs/variable_active.svg)  variables port;
-* ![ ](../../images/icons/app/node/ports/outputs/tree_active.svg) tree port.
+Данный визуализатор доступен в любом активном выходном:
 
-It can be opened as follows:
+* ![ ](./../../images/icons/app/node/ports/outputs/table_active.svg) табличном порту,
+* ![ ](./../../images/icons/app/node/ports/outputs/variable_active.svg) порту переменных,
+* ![ ](./../../images/icons/app/node/ports/outputs/tree_active.svg) порту дерева.
 
-* by selecting ![ ](../../images/icons/toolbar-controls/show-fast-viewer_default.svg) **Quick view…** from the context menu of the port;
-* by double click on the port.
+## Функционал Быстрого просмотра
 
+Открыть *Быстрый просмотр* можно :
 
-## Actions with the Fields
+* кликнуть дважды левой кнопкой мыши по нужному активному порту,
+* кликнуть правой кнопкой мыши по нужному порту и выбрать в контекстном меню ![ ](../../images/icons/common/toolbar-controls/show-fast-viewer_default.svg) **Быстрый просмотр**.
 
-When hovering cursor over the field caption, ![ ](../../images/icons/toolbar-controls/down_default.svg) button with additional functions will appear.
+При первом запуске *Быстрый просмотр* открывается в виде модального окна.
 
-Different ports have different options and constraints:
+> **Примечание.** В окне *Быстрого просмотра* набор данных может отображаться неполностью:
+* для Google Chrome и Opera — 1 млн. записей,
+* для Firefox — 300 тыс. записей,
+* для Microsoft Edge — 50 тыс. записей.
 
-| Port | Sorting | Visibility change | Freezing | Move | Bound |
-|:---|:--:|:--:|:--:|:--:|:---|
-| Table | | • | • | • | 50,000 rows |
-| Tree | • | • | | | 10,000 child nodes |
-| Variables | • | | | | &nbsp; |
+Для отображения полного набора можно воспользоваться визуализатором [Таблица](./../table/README.md).
 
-* ![ ](../../images/icons/toolbar-controls/low-to-hight_default.svg) **Sort ascending** / ![ ](../../images/icons/toolbar-controls/hight-to-low_default.svg) **Sort descending**: sorting enables to sort data by the selected field in ascending or descending order. It is performed only for the current data set according to the set limits.
-* ![ ](../../images/icons/grid/columns.svg) **Columns**: change visibility (disable/enable display) of the defined columns.
-* ![ ](../../images/icons/toolbar-controls/locked_default.svg) **Freeze column** / ![ ](../../images/icons/toolbar-controls/unlocked_default.svg) **Unfreeze column**: the frozen field is fixed in the left part of the window, and it is separated from the unfrozen part with the vertical line.
+## Операции
 
-It is possible to move the fields relative to each other, and it is also possible to move them from the zone of frozen fields to the unfrozen ones and vice versa.
+![ ](../../images/extjs-theme/tools/tool-sprites_18x18/tool-sprites_14.svg) **Закрепить внизу** — переносит панель *Быстрого просмотра* вниз.
 
-Field settings are reset when closing the window.
+![ ](../../images/extjs-theme/tools/tool-sprites_18x18/tool-sprites_04.svg) **Отобразить в окне** — отображает *Быстрый просмотр* в модальном окне.
 
-It is possible to close *Quick view* by pressing *X* or *Close* button.
+![ ](../../images/extjs-theme/tools/tool-sprites_18x18/tool-sprites_03.svg) **Развернуть в окне** — максимизирует панель *Быстрого просмотра*.
 
-If the data set includes more than 50 fields, only the first 50 will be displayed for the table port in *Quick View of Data* visualizer. The number of the displayed fields  can be changed using the additional ![ ](../../images/icons/grid/columns.svg) *Columns* function. The total count of columns in the data set will be shown in the right upper window corner (refer to Figure). When hovering cursor over this area, the tooltip with the number of the displayed fields is shown.
+![ ](../../images/extjs-theme/tools/tool-sprites_18x18/tool-sprites_01.svg)  **Закрыть** — закрывает *Быстрый просмотр*.
 
-The total count of rows in the data set is shown in the left lower corner of *Quick View of Data* window if there is no enough space for all rows in the visualizer window (refer to Figure).
+## Особенности отображения Быстрого просмотра в виде закрепленной панели снизу
 
-![Quick View of Data](./column_amt.png)
+При отображении *Быстрого просмотра* в виде закрепленной панели снизу для просмотра данных достаточно кликнуть левой кнопкой мыши по нужному узлу или порту.
+
+> **Примечание.** Набор данных будет отображаться только у активированных узлов, у неактивированных узлов панель *Быстрого просмотра* будет пустой с надписью *Узел не активирован*.
+
+При выборе узла отображаются данные из первого порта. Если у узла несколько выходных портов, то остальные порты отображаются в виде вкладок. Между вкладками можно переключаться:
+
+* непосредственно в панели *Быстрого просмотра*, выбирая нужную вкладку,
+* кликая левой кнопкой мыши по выходным портам.
+
+## Табличный порт
+
+Быстрое переключение между вариантами отображения данных в Табличном порту реализовано с помощью горячих клавиш:
+
+* Показать таблицу %kbd Alt % + %kbd 1 %;
+* Показать форму %kbd Alt % + %kbd 2 %.
+* Скрыть *Быстрый просмотр* %kbd Esc % — работает при незакрепленной панели *Быстрого просмотра*.
+
+### Таблица
+
+Отображает данные в виде плоской двумерной таблицы.
+
+Если набор данных имеет более 50 полей, то в визуализаторе *Быстрый просмотр данных* для табличного порта будут отображены только первые 50. Количество отображаемых полей можно изменить с помощью дополнительной функции ![ ](./../../images/icons/grid/columns.svg) *Столбцы*. В правом верхнем углу окна будет указано общее количество столбцов в наборе данных (см. рисунок). При наведении указателя мыши на эту область выводится подсказка о количестве отображаемых полей.
+
+В левом нижнем углу окна *Быстрый просмотр данных* выводится общее количество строк в наборе, если все строки не помещаются в окне визуализатора (см. рисунок).
+
+![Быстрый просмотр данных Табличного порта (режим Таблица).](./images/column-amt.png)
+
+> **Примечание.** При выборе Таблица/Форма каждый следующий порт открывается согласно выбранному значению. Узлы, которые были открыты до этого, открываются по "старому" значению.
+
+### Форма
+
+Отображает строку в виде ключ-значение.
+
+В форме по умолчанию отображаются все поля источника данных.
+
+![Быстрый просмотр данных Табличного порта (режим Форма).](./images/form-amt.png)
+
+В режиме Форма есть Поиск, позволяющий найти ключи по Метке или Имени.
+
+>**Примечание**: колонка "Имя" по умолчанию скрыта. Для ее отображения необходимо в выпадающем списке ![](./../../images/icons/grid/columns.svg) "Столбцы" установить галочку напротив столбца "Имя".
+
+%spoiler%Горячие клавиши:%spoiler%
+
+* Переместить выделенные строки вверх %kbd Ctrl % + %kbd Up %;
+* Переместить выделенные строки вниз %kbd Ctrl % + %kbd Down %;
+* Копировать значения выделенных ячеек %kbd Ctrl % + %kbd C % (нет в контекстном меню).
+
+%/spoiler%
+
+#### Навигация
+
+Навигация по таблице осуществляется при помощи мышки и панели навигации в верхней части визуализатора:
+
+* Перейти на ![](./../../images/icons/common/toolbar-controls/prev_default.svg) предыдущую/![](./../../images/icons/common/toolbar-controls/next_default.svg) следующую строку  исходного набора данных;
+* Перейти на ![](./../../images/icons/common/toolbar-controls/first_default.svg) первую/![](./../../images/icons/common/toolbar-controls/last_default.svg) последнюю строку исходного набора данных.
+
+Для перехода на определённую строку необходимо ввести её номер в поле ввода, расположенное между кнопками навигации.
+
+%spoiler%Горячие клавиши:%spoiler%
+
+* Первая строка %kbd Alt % + %kbd Up %;
+* Предыдущая строка %kbd Alt % + %kbd Left %;
+* Следующая строка %kbd Alt % + %kbd Right %;
+* Последняя строка %kbd Alt % + %kbd Down %.
+
+%/spoiler%
+
+## Порт переменных
+
+Отображает переменные в виде ключ-значение.
+
+![Быстрый просмотр данных Порта переменных.](./images/var-amt.png)
+
+## Порт дерева
+
+Отображает данные в виде иерархической (древовидной) формы.
+
+![Быстрый просмотр данных Порта дерева.](./images/tree-amt.png)
+
+## Действия над полями
+
+При наведении курсора к заголовку поля появится кнопка ![ ](./../../images/icons/common/toolbar-controls/down_default.svg) с дополнительными функциями.
+
+Возможности и ограничения у разных портов различаются:
+
+<table>
+<thead>
+  <tr>
+    <th>Порт</th>
+    <th>Режим</th>
+    <th>Сортировка</th>
+    <th>Изменение видимости</th>
+    <th>Закрепление</th>
+    <th>Перемещение</th>
+    <th>Предел</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="2">Таблица</td>
+    <td>Форма</td>
+    <td></td>
+    <td align="center">• (частично)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Таблица</td>
+    <td></td>
+    <td align="center">•</td>
+    <td align="center">•</td>
+    <td align="center">•</td>
+    <td><ul><li>1 млн. строк для <i>Chrome</i> и <i>Chromium</i></li><li>300 тыс. для <i>FireFox</i></li><li>50 тыс. для остальных браузеров (<i>IE</i>)</li></ul></td>
+  </tr>
+  <tr>
+    <td>Дерево</td>
+    <td></td>
+    <td align="center">•</td>
+    <td align="center">•</td>
+    <td></td>
+    <td></td>
+    <td>10 тысяч дочерних узлов</td>
+  </tr>
+  <tr>
+    <td>Переменные</td>
+    <td></td>
+    <td align="center">•</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</tbody>
+</table>
+
+* ![ ](./../../images/icons/common/toolbar-controls/low-to-hight_default.svg) **Сортировать по возрастанию** / ![ ](./../../images/icons/common/toolbar-controls/hight-to-low_default.svg) **Сортировать по убыванию** — сортировка позволяет упорядочить данные по выбранному полю по возрастанию либо убыванию. Проводится только на текущем наборе данных в соответствии с установленными лимитами.
+* ![ ](./../../images/icons/grid/columns.svg) **Столбцы** — позволяет изменить видимость (отключить/включить отображение) определенным столбцам.
+* ![ ](./../../images/icons/common/toolbar-controls/locked_default.svg) **Закрепить столбец** / ![ ](./../../images/icons/common/toolbar-controls/unlocked_default.svg) **Снять закрепление столбца** — закрепленное поле фиксируется в левой части окна и отделяется от незакрепленной части вертикальной линией.
+
+Поля можно перемещать относительно друг друга, а также перемещать их из зоны закрепленных полей к незакрепленным и наоборот.
+
+Настройки полей сбрасываются при закрытии окна.

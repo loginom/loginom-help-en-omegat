@@ -1,88 +1,71 @@
-# Web Service Creation and Publication
+---
+description: Создание и публикация веб-сервиса в Loginom. Реализация методов сервиса. Настройка публикуемых узлов. Совместимость веб-сервисов Loginom с Deductor. Обращение к созданному сервису. SOAP-запрос. REST-запрос.
+---
+# Создание и публикация веб-сервисов
 
-Publication and operation of the web services created in Loginom are available if the [Loginom Integrator](https://loginom.ru/platform/pricing#component-integrator) component is installed.
+Публикация и работа созданных в Loginom веб-сервисов доступна при наличии установленного компонента [Loginom Integrator](https://help.loginom.ru/adminguide/windows/integrator/).
 
-## Implementation of the Service Methods
+## Реализация методов сервиса
 
-Interaction with web service is performed using its methods. Each web service method has a particular identifier and performs the action that matches this identifier. As a rule, the method receives the input data and returns the response (but not necessarily). The action performed by the method is implemented in Loginom by the published Workflow node, and the structure of the input data and response is defined by the input and output ports of this node. The string that consists of the node name and name of the package with the node is used as the method identifier.
+Взаимодействие с веб-сервисом осуществляется при помощи его методов. Каждый метод веб-сервиса имеет определенный идентификатор и выполняет сопоставленное этому идентификатору действие. Как правило, (но не обязательно) 
+метод принимает входные данные и возвращает ответ. Действие, выполняемое методом, в Loginom реализуется публикуемым узлом Сценария, а структура входных данных и ответа определяется входными и выходными портами этого узла. В качестве идентификатора метода используется строка, состоящая из имени узла и имени пакета, в котором узел содержится.
 
-Most frequently, the *[Supernode](../../processors/control/submodel.md)* is used as such node, because a user can implement the random logics in it and set the structure of the input and output data creating and configuring its ports. But, generally, any Workflow node with the settings described in *[Configure published nodes](#nastroyka-publikuemykh-uzlov)* section can be such node. If the package contains several such nodes and several packages are published, the SOAP service method and REST service operation are created for each of such nodes providing that it complies with it. In the case of REST service, the REST service endpoint is created for each of the published packages.
+Чаще всего в качестве такого узла выступает *[Подмодель](./../../processors/control/supernode.md)*, поскольку в ней пользователь имеет возможность реализовать произвольную логику и задать структуру входных и выходных данных, создавая и настраивая ее порты. Но в общем случае таким узлом может быть любой узел Сценария, имеющий настройки, описанные в разделе *[Настройка публикуемых узлов](#nastroyka-publikuemykh-uzlov)*. В случае, если таких узлов в пакете несколько и публикуется несколько пакетов, то для каждого из таких узлов создается соответствующий ему метод SOAP-сервиса и операция REST-сервиса. В случае с REST-сервисом для каждого из публикуемых пакетов создается конечная точка REST-сервиса.
 
-## Configure Published Nodes
+## Настройка публикуемых узлов
 
-The node published as the web service method must have the following settings:
+Публикуемый в качестве метода веб-сервиса узел должен иметь следующие настройки:
 
-* The following *[access modifier](../../scenario/access-modifier.md)* is set: `Published`;
-* The node name that is unique within the package is set in the *access modifier* selection window;
-* The node must be visible from the workflow root, namely, if the node is nested (into the supernode or hierarchy of supernodes), `Public` *access modifier* must be installed for all supernodes that include it;
-* The fields/variables that define the request structure and web service method response are set in the input and output ports.
+* задан *[модификатор доступа](./../../workflow/access-modifier.md)* `Опубликованный`;
+* в окне выбора *модификатора доступа* задано уникальное в пределах пакета имя узла;
+* узел должен быть видимым из корня сценария, т.е. в случае, если узел является вложенным (в подмодель или иерархию подмоделей), то у всех подмоделей, в которых он содержится, должен быть установлен *модификатор доступа* `Открытый`;
+* во входных и выходных портах заданы поля/переменные, определяющие структуру запроса и ответа метода веб-сервиса.
 
-> **Important:** When *[Automapping of fields](../../scenario/ports/field-synchronization.md)* is used, there might be situations in which the fields/variables in ports are defined by the automapping mechanism based on structure of the data supplied to the port. If the port link with the data source is deleted when automapping is enabled, the fields/variables that have been earlier created from the data will be deleted from the port by the automapping mechanism as the temporary ones that are relevant only to the specific data. When publishing such node, the fields/variables in the ports will not be set, correspondingly, structures of the service request/response will not be defined.
+> **Важно:** при использовании *[автосинхронизации полей](./../../workflow/ports/automapping-of-fields.md)* возможны ситуации, когда поля/переменные в портах определены механизмом автосинхронизации из структуры данных, подаваемых в порт. Если при включенной автосинхронизации удалить связь порта с источником данных, то ранее созданные из данных поля/переменные будут удалены из порта механизмом автосинхронизации как временные, актуальные только для конкретных данных. При публикации такого узла поля/переменные в портах не будут заданы, соответственно структуры запроса/ответа сервиса не будут определены.
 >
-> Consequently, ports of the published nodes must be configured using one of the following methods:
-> * It is required to disable *Automapping of fields* and set the required fields/variables (recommended) when applicable.
-> * If the required fields/variables have been already created by the automapping mechanism from the data supplied to the port, it is required to edit any of the following *[parameters](../../processors/transformation/fields-parameters.md)* (*Name*, *Caption*, *Usage type*, etc.) of all required fields/variables. If the changed fields are highlighted in bold in the wizard, and they are reflected as the constant ones expected by the port.
-> * Clean the list and create all required fields/variables manually.
+> В связи с этим порты публикуемых узлов необходимо настроить одним из способов:
+> * Отключить *автосинхронизацию полей* и при необходимости задать нужные поля/переменные (рекомендуется).
+> * Если механизмом автосинхронизации уже созданы необходимые поля/переменные из подаваемых в порт данных, то необходимо отредактировать любой из *[параметров](./../../processors/transformation/fields-features.md)* (*Имя*, *Метку*, *Назначение* и т.д.) всех необходимых полей/переменных. Измененные поля выделяются в мастере настройки порта жирным шрифтом и фиксируются как постоянные, ожидаемые портом.
+> * Очистить список и создать все необходимые поля/переменные вручную.
 
-*Usage type* parameter of the input field affects its property of obligatory specification in the service request. The fields with `Unspecified`or `Useless` *Usage type* are published as optional (they have `minOccurs="0"` attribute in WSDL of SOAP service, they are not included into *required* nodes in the request schema of REST service). The fields with other parameter values are required in the request. All fields are published as the required ones in the service response.
+Параметр *Назначение* входного поля влияет на свойство его обязательности в запросе к сервису. Поля с *Назначением* `Не задано` или `Непригодное` публикуются как необязательные (в WSDL SOAP-сервиса имеют атрибут `minOccurs="0"`, а в схеме запроса REST-сервиса не входят в состав *required*-узлов). Поля с другими значениями параметра являются обязательными в запросе. В ответе сервиса все поля публикуются как обязательные.
 
-## Publication
+## Публикация
 
-When workflow nodes are set as the nodes required for publication, it is necessary to publish the package.
+После того, как необходимые для публикации узлы сценария настроены, необходимо произвести публикацию пакета.
 
-> **Note:** In order to minimise possible problems of connection to the web service using the external clients, it is recommended to use only the English alphabet characters, numbers and underscore character in the name of the published package.
+> **Примечание:** для минимизации возможных проблем подключения к веб-сервису сторонними клиентами рекомендуется использовать в имени публикуемого пакета только символы английского алфавита, числа и символ подчеркивания.
 
-To publish the package, it is required to click on the required package in the [navigation tree](../../interface/main-menu.md#navigatsiya) using the right button, and select *Publish packages…* in the context menu. It will enable to open the package publication wizard with the following settings:
+Для публикации пакета требуется перейти в [редактирование веб-сервиса](./package-publishing-wizard.md#imagesiconssystemtoolbar48x48compasdefaultsvg-navigatsiya). После открытия [навигации](./../../interface/main-menu.md) существует два способа:
+* Перейти во вкладку [Веб-сервисы](./administration-web-services.md) и нажать на кнопку **Добавить**; 
+* Правой кнопкой мыши нажать на публикуемый пакет и выбрать **Опубликовать**.
 
-* **Published packages**: the list of already published packages.
-* **Path to the package file** is manually specified or selected from the drop-down list of the opened packages.
-* **Select namespace**: the namespace of items and attributes that provides their uniqueness in WSDL description of the service. It is required to select one of the options:
-   * Use Loginom Integrator namespace;
-   * Generate unique for package (it is used by default);
-   * Generate unique for each package version;
-   * Custom.
+## Обращение к созданному сервису
 
-The generated namespace that will be used for publication will be displayed in the wizard window.
+WSDL опубликованного SOAP-сервиса можно получить по ссылке:
 
-> **Important:** To avoid the name conflict, it is required to provide uniqueness of the paired values:  `published node name`, `published package namespace`. For this purpose, it is recommended to use *Generate unique for package* or *Generate unique for each package version* option for all published packages, or to set the unique namespaces manually.
+`http://<Server>/<App>/soap?wsdl`, где `<Server>` — хост Loginom Integrator, `<App>` — имя приложения Loginom Integrator (задается при инсталляции Loginom Integrator, при установке по умолчанию `<App>` = `lgi`).
 
-It is required to show the path to the package file, select the namespace and press *Publish* button for publication.
+Пример: `http://localhost/lgi/?wsdl`
 
-### Update Publication
+Информацию о конечных точках, операциях, URL, структуре REST-запросов и ответов можно получить по ссылке:
 
-If the settings of the input/output ports are changed (for example, the number or names of fields/variables) of the node that has been published earlier, it is required to update publication of the package which includes this node. In this regard, it is required to perform the following actions:
+`http://<Server>/<App>/rest/help`, где `<Server>` — хост Loginom Integrator, `<App>` — имя приложения Loginom Integrator (задается при инсталляции Loginom Integrator, при установке по умолчанию `<App>` = `lgi`).
 
-1. Save the package with the changed node;
-2. Select this package in *Published packages* list of *Publish packages…* wizard and press *Update* button.
+Пример: `http://localhost/lgi/rest/help`
 
-> **Important:** After the update, it is required to check operation of the workflow nodes that call the republished web service, and then it is recommended to reconfigure them when applicable.
+Для обращения к опубликованным сервисам из сценария Loginom используются компоненты [*SOAP-запрос*](./../../processors/integration/soap-request.md) и [*REST-запрос*](./../../processors/integration/rest-request.md).
 
-### Delete Publication
+Loginom Integrator поддерживает [OpenAPI](https://en.wikipedia.org/wiki/OpenAPI_Specification) и опционально включает Swagger UI. Для тестирования API можно выполнять запросы на странице `http://<Server>/<App>/openapi/index.html`.
 
-Select the required package in *Published packages* list of *Publish packages…* wizard and press *Delete* button.
+Пример: `http://localhost/lgi/openapi/index.html`
 
-## Access to the Created Service
+## Совместимость веб-сервисов Loginom с Deductor
 
-See the link below to get WSDL of the published SOAP service:
+В продуктах прошлого поколения ([Deductor](https://basegroup.ru/deductor/description)) публикация веб-сервисов осуществлялась DIS ([Deductor Integration Server](https://basegroup.ru/deductor/components/integration-server)), а обращение к веб-сервисам DIS из сценариев Deductor осуществлялось при помощи узла *WEB-сервис*. Чтобы использовать этот узел для обращения к веб-сервисам Loginom, при публикации пакетов должна применятся настройка *Использовать пространство имен Loginom Integrator*.
 
-`http://<Server>/<App>/service.svc?wsdl` where `<Server>`: the Loginom Integrator host, `<App>` is a name of the Loginom Integrator application in IIS (it is set when installing Loginom Integrator, when setting by default `<App>` = `lgi`).
+> **Примечание:** применение настройки *Использовать пространство имен Loginom Integrator* при публикации нескольких пакетов накладывает ограничение на именование публикуемых узлов. Имена, задаваемые при выборе [модификатора доступа](./../../workflow/access-modifier.md), должны быть уникальны в рамках всего набора публикуемых пакетов.
 
-Example: `http://localhost/lgi/service.svc?wsdl`
+Веб-сервисы Loginom имеют следующую особенность: XML ответов и запросов веб-сервисов в своей структуре могут иметь элемент `<PortName>` (элемент содержит имя порта), отсутствующий в веб-сервисах DIS. Для устранения этого различия в публикуемых подмоделях Loginom в имени порта должно указываться *<Не задано>*.
 
-See the link below to get information on endpoints, operations, URL, structure of REST requests and responses:
-
-`http://<Server>/<App>/service.svc/rest/help` where `<Server>`: the Loginom Integrator host, `<App>` is a name of the Loginom Integrator application in IIS (it is set when installing Loginom Integrator, when setting by default `<App>` = `lgi`).
-
-Example: `http://localhost/lgi/service.svc/rest/help`
-
-To provide access to the published services from the Loginom workflow, the [*SOAP request*](../../processors/integration/soap-request.md) and [*REST request*](../../processors/integration/rest-request.md) components are used.
-
-## Compatibility of the Loginom Web Services with Deductor
-
-Web services were published using DIS ([Deductor Integration Server](https://basegroup.ru/deductor/components/integration-server)), DIS web services were accessed from the Deductor workflows using *WEB service* node in the past generation products ([Deductor](https://basegroup.ru/deductor/description)). In order to use this node to get access to the Loginom web services, *Use Loginom Integrator namespace* option must be used to publish packages.
-
-> **Note:** When *Use Loginom Integrator namespace* option is used to publish several packages, it restricts naming of the published packages. The names set when selecting [access modifier](../../scenario/access-modifier.md) must be unique within the whole set of the published packages.
-
-The Loginom web services are distinguished by the following peculiarity: XML responses and requests of web services can have the following item in their structure: `<PortName>` (the item contains the port name). It is not available in the DIS web services. To eliminate this difference in the published Loginom supernodes, it is required to specify *<Unspecified>* in the port name.
-
-> **Note:** *<Unspecified>* option is available while the port naming if this port is the only input or output one. In this case, to provide the request/response random structure, it is convinient to use as the *Supernode* ports the ports of the *Data tree* type that enable to set the data structure by the XSD schema, namely, to use the same mechanism that is used in Deductor Integration Server.
+> **Примечание:** опция *<Не задано>* при именовании порта доступна в случае, если этот порт единственный входной или выходной. В этом случае для формирования произвольной структуры запроса/ответа в качестве портов *Подмодели* удобно использовать порты типа *Дерево данных* с возможностью задать структуру данных XSD-схемой, т.е. использовать тот же механизм, что и в Deductor Integration Server.

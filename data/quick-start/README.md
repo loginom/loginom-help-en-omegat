@@ -1,63 +1,67 @@
-# Start Operation
+---
+description: Основные элементы аналитической платформы Loginom. Стандартные и пользовательские компоненты платформы для реализации произвольного алгоритма анализа данных. Сценарий обработки данных. Узлы сценария.  
+---
 
-To solve the analysis tasks, [**Loginom**](https://loginom.ru) allows for data import from different sources and application of the required processing algorithms. It is possible to view results in the system or to export them to the external data receivers.
+# Начало работы
 
-Thus, the platform can be used both for creation of independent analytical solutions and for development of modules integrated with external systems.
+Для решения задач анализа [**Loginom**](https://loginom.ru) позволяет импортировать данные из различных источников и применять к ним необходимые алгоритмы обработки. Результаты можно просмотреть в самой системе или экспортировать в сторонние приемники данных.
 
-One of the main concepts on which the [**Loginom**](https://loginom.ru) platform is based is the [Workflow](./first-scenario.md).
+Таким образом, платформа может использоваться как для создания автономных аналитических решений, так и для разработки модулей, интегрируемых со сторонними системами.
 
-**Workflow**: sequence of actions that must be performed for data analysis. It is a combination of data processing nodes configured by a user to solve a particular task.
+Одной из основных концепций, на которых базируется платформа [**Loginom**](https://loginom.ru), является [Сценарий](./first-workflow.md).
 
-The workflow node performs a separate operation with data. A list of possible operations is represented by a number of ready *components*.
+**Сценарий** — последовательность действий, которые необходимо провести для анализа данных. Он представляет собой комбинацию узлов обработки данных, настраиваемую пользователем для решения конкретной задачи.
 
-The processing sequence is determined by connection of the previous workflow node output and input of the subsequent one. The handler input and output are *input* and *output [ports](../scenario/ports/README.md)*.
+Узел сценария выполняет отдельную операцию над данными. Перечень возможных операций представлен палитрой готовых *компонентов*.
 
-![Workflow example](./readme-1.png)
+Последовательность обработки задается соединением выхода предыдущего узла сценария с входом последующего. Входом и выходом узла являются *входные* и *выходные [порты](./../workflow/ports/README.md)*.
 
-The workflow nodes are created from 2 types of components :
+![Пример сценария.](./readme-1.png)
 
-* **Standard components** are provided by the platform.
-* **Derived components** are created and configured by a user.
+Узлы сценария создаются из компонентов 2-х типов:
 
-The derived component can be created from combination of the workflow nodes implementing the random processing logics.
+* **Стандартные компоненты** — предоставляются в рамках платформы;
+* **Производные компоненты** — создаются и настраиваются пользователем.
 
-Thus, a set of tools for implementation of different data processing logics is not limited by the standard platform components, and it can be expanded by users.
+Производный компонент можно создать из комбинации узлов сценария, реализующих произвольную логику обработки.
 
-The [supernode](../processors/control/submodel.md) is most commonly used to create the derived component.
+Таким образом, набор средств для реализации различной логики обработки данных не ограничивается стандартными компонентами платформы и может быть расширен самим пользователем.
 
-The supernode is a special node that can include other workflow nodes. Random logics can be implemented in the supernode. At the same time, the workflow handler can consider it as the "[black box](https://wiki.loginom.ru/articles/black-box.html)". The supernode accepts information by means of input ports, performs processing and sends results to output ports. Input and output ports are set by a user.
+Чаще всего для создания производного компонента используется [Подмодель](./../processors/control/supernode.md).
 
-The "Workflow Example" figure shows the ["ABC analysis"](https://wiki.loginom.ru/articles/abc-analysis.html) node that is a derived component - supernode.
+Подмодель является специальным узлом, способным включать в себя другие узлы сценария. Реализованная в подмодели логика может быть произвольной, при этом разработчик сценария может рассматривать её как «[черный ящик](https://wiki.loginom.ru/articles/black-box.html)». Подмодель принимает информацию через входные порты, производит обработку и выдает результат на выходные порты. Входные и выходные порты задаются пользователем.
 
-!["ABC Analysis" Supernode Nodes](./readme-2.png)
+На рисунке «Пример сценария» узел [«ABC-анализ»](https://wiki.loginom.ru/articles/abc-analysis.html) является производным компонентом — подмоделью.
 
-The supernode can also include other supernodes. Nesting of supernodes inside each other is not limited.
+![Узлы подмодели «ABC-анализ».](./readme-2.png)
 
-Types of ports of the workflow nodes:
+В состав подмодели могут также включаться и другие подмодели. Вложенность подмоделей друг в друга не ограничена.
+
+Виды портов узлов сценария:
 
 <table>
     <tr>
-        <th align="left" width="150">Port</th>
-        <th align="left">Description</th>
+        <th align="left" width="150">Порт</th>
+        <th align="left">Описание</th>
     </tr>
     <tr>
-        <td><img src="../images/icons/app/node/ports/inputs/table_inactive.svg"> Table</td>
-        <td>It is a structured set of data that are organised in the form of two-dimensional structure consisting of columns and rows. Cells of such table contain the data items: rows, numbers, dates, logical values.</td>
+        <td><img src="../images/icons/app/node/ports/inputs/table_inactive.svg"> Таблица</td>
+        <td>Представляет собой структурированный набор данных, где все данные упорядочены в двумерную структуру, состоящую из столбцов и строк. В ячейках такой таблицы содержатся элементы данных: строки, числа, даты, логические значения.</td>
     </tr>
     <tr>
-        <td><img src="../images/icons/app/node/ports/inputs/variable_inactive.svg"> Variables</td>
-        <td>They are objects containing only one value. It is possible to convert the data from tables to variables and vice versa using the special handlers.</td>
+        <td><img src="../images/icons/app/node/ports/inputs/variable_inactive.svg"> Переменные</td>
+        <td>Представляют собой объекты, содержащие только одно значение. С помощью специальных компонентов имеется возможность преобразовать данные из таблиц в переменные и обратно.</td>
     </tr>
      <tr>
-        <td><img src="../images/icons/app/node/ports/inputs/tree_inactive.svg"> Data tree</td>
-        <td>It is a set of data in the form of hierarchic tree-like structure.</td>
+        <td><img src="../images/icons/app/node/ports/inputs/tree_inactive.svg"> Дерево</td>
+        <td>Представляет собой набор данных в иерархической древовидной структуре.</td>
     </tr>
     <tr>
-        <td><img src="../images/icons/app/node/ports/inputs/link_inactive.svg"> Connections</td>
-        <td>They define configuration for work with external sources and data receivers.</td>
+        <td><img src="../images/icons/app/node/ports/inputs/link_inactive.svg"> Подключения</td>
+        <td>Определяют настройки для работы с внешними источниками и приемниками данных.</td>
     </tr>
 </table>
 
-As tables, variables and connections have different structure, the ports corresponding to them cannot be connected with each other, and they are differently identified.
+Поскольку таблицы, переменные и подключения имеют разную структуру, то соответствующие им порты не могут быть соединены друг с другом и имеют разное обозначение.
 
-Number of the node inputs and outputs varies according to functionality. The node inputs can be automatically (when providing a link) or manually configured.
+Количество входов и выходов узла варьируется в зависимости от функционала. Входы узла могут настраиваться автоматически (при подключении связи) или вручную.

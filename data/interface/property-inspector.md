@@ -1,44 +1,47 @@
-# Property Inspector
-*Property inspector* is intended for receipt of information on the workflow node properties.
+---
+description: Инспектор свойств аналитической платформы Loginom. Свойства узла сценария в Инспекторе свойств. Копирование данных из ячеек Инспектора свойств.  
+---
+# Инспектор свойств
+*Инспектор свойств* предназначен для получения информации о свойствах узла сценария.
 
-The *Property inspector* window is located in the right part of the screen on the *Workflow* and *Connections* pages. It is collapsed by default.
+Окно *Инспектора свойств* расположено в правой части экрана на страницах *Сценарий* и *Подключения* и по умолчанию находится в свернутом состоянии.
 
-To view the node properties, it is required to select it and press ![Show/hide property inspector](../images/icons/toolbar-controls/info_default.svg) button on the toolbar.
+Чтобы посмотреть свойства узла, необходимо его выделить и нажать на кнопку ![Показать/скрыть инспектор свойств](./../images/icons/common/toolbar-controls/info_default.svg) на панели инструментов. 
 
-> **Note:** ![Show/hide property inspector](../images/icons/toolbar-controls/info_default.svg) button is always located in the far right position on the toolbar.
+> **Примечание:** Кнопка  ![Показать/скрыть инспектор свойств](./../images/icons/common/toolbar-controls/info_default.svg) всегда находится в крайней правой позиции на панели инструментов.
 
-It is possible to open the *Property inspector* window using the context menu of the workflow construction area by ticking ![](../images/icons/toolbar-controls/info_default.svg) **Show/hide property inspector** (tick the box).
+Открыть окно *Инспектора свойств* можно также через контекстное меню области построения сценария, выставив флаг ![](./../images/icons/common/toolbar-controls/info_default.svg) **Показать/скрыть инспектор свойств** (поставить галочку).
 
-The workflow fragment with the opened *Property inspector* window is shown on figure below for the *Calculator* node:
+На рисунке представлен фрагмент сценария с открытым окном *Инспектора свойств* для узла *Калькулятор*:
 
-![Property inspector](./scenario-property-inspector.png)
+![Инспектор свойств](./scenario-property-inspector.png)
 
-The node properties (captions of properties) are displayed in the form of a tree.
+Свойства узла (метки свойств) отображаются в виде дерева.
 
-The tree root in the *Property inspector* contains the component name used as a basis for the workflow node creation. The node caption is displayed in the *Value* column. The root tree node is always expanded. It is not possible to collapse it.
+Корень дерева в *Инспекторе свойств* содержит название компонента, на основе которого создан узел сценария, а в колонке *Значение* выводится метка узла. Корневой узел дерева свойств всегда находится в раскрытом состоянии, его нельзя свернуть.
 
-> **Note:** It is not possible to change the order of the *Properties* and *Value* columns.
+> **Примечание:** Порядок колонок *Свойство* и *Значение* изменить нельзя.
 
-It is possible to sort nodes in the *Property inspector* tree. For this purpose, it is required to click on the header of the *Property* column. Subsequent pressing the header enables to change the sorting order or cancels it.
+Узлы в дереве *Инспектора свойств* можно сортировать, для этого нужно кликнуть мышью на заголовок колонки *Свойство*. Последовательное нажатие на заголовок меняет порядок сортировки или отменяет его.
 
-It is possible to select with mouse cursor any cell or range of cells of the *Property inspector* by clicking and copy its (their) value by pressing *Ctrl+C* combination of keys.
+Любую ячейку или диапазон ячеек *Инспектора свойств* можно выделить указателем мыши и скопировать ее (их) значение, нажав сочетание клавиш *Ctrl+C*.
 
-Screen tooltips are used for the cells in which there is no enough place for text.
+Для ячеек, в которых текст полностью не помещается, предусмотрены всплывающие подсказки.
 
-The *Property inspector* context menu contains the following commands:
+Контекстное меню *Инспектора свойств* содержит команды:
 
-* ![](../images/icons/toolbar-controls/open-all_default.svg) **Expand** enables to expand the tree node.
+* ![](./../images/icons/common/toolbar-controls/open-all_default.svg) **Развернуть** - разворачивает узел дерева.
 
-* ![](../images/icons/toolbar-controls/collapce-all_default.svg) **Collapse** enables to collapse the tree node.
+* ![](./../images/icons/common/toolbar-controls/collapce-all_default.svg) **Свернуть** - сворачивает узел дерева.
 
-The context menu commands enable to collapse/expand all nodes in the properties tree simultaneously. For this purpose, it is required to select the root node and call corresponding command of the context menu.
+Команды контекстного меню позволяют одновременно развернуть/свернуть все узлы в дереве свойств. Для этого нужно выделить корневой узел и вызвать соответствующую команду контекстного меню.
 
-When changing the node settings, the *Property inspector* updates the properties tree.
+При изменений настроек узла *Инспектор свойств* обновляет дерево свойств.
 
-> **Important:** If the node is locked (node execution is in progress or node configuration wizard is opened), it is not possible to view its properties. The following message will be displayed in the *Property inspector* for such node: "Node is locked, try later".
+> **Важно:** Если узел заблокирован (узел выполняется или открыт мастер настройки узла), то его свойства посмотреть нельзя. Для такого узла в *Инспекторе свойств* будет выведено сообщение: "Узел заблокирован, попробуйте позже".
 
-If no node was selected, or several nodes were selected, the following invitation will be in the *Property inspector*: "Select a node to view its properties".
-
-
+Если не выбран ни один узел или выбрано несколько узлов, то в *Инспекторе свойств* будет приглашение "Выделите узел, чтобы посмотреть его свойства".
 
 
+
+ 

@@ -1,57 +1,60 @@
-# ![Variable Union](../../images/icons/components/unionvariables_default.svg) Variable Union
+---
+description: Компонент Соединение (переменные) в Loginom. Общие сведения. Объединение двух или более наборов переменных в один. Мастер настройки. Пример. 
+---
+# ![Соединение-переменные](./../../images/icons/components/unionvariables_default.svg) Соединение (переменные)
 
-The handler is designated for combination of two and more sets of variables into one set.
+Компонент предназначен для объединения двух или более наборов переменных в один набор.
 
-If names of the variables from different sets coincide, names of such variables in the output data set will be supplemented by unique numbers. If the variable name ends with a digit, in this case, names of these variables are numbered in an ascending order in the output data set.
+В случае, когда имена переменных из разных наборов совпадают, в выходном наборе имена таких переменных будут дополнены уникальными номерами. Если имя переменной заканчивается на цифру, то в таких случаях в выходном наборе имена таких переменных пронумеруются по возрастающей.
 
-## Ports
+## Порты
 
-### Input
+### Вход
 
-* ![Input variables](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) **Input variables**: the optional set of variables.
-* ![Added variables](../../images/icons/app/node/ports/inputs/variable_inactive.svg) **Added variables**: the required set of variables.
-* ![Another port](../../images/icons/app/node/ports/add/add_inactive_default.svg) **Add another port** enables to create new input ports for the subsequent sets of variables.
+* ![Входные переменные](./../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) **Входные переменные** — необязательный набор переменных;
+* ![Добавляемые переменные](./../../images/icons/app/node/ports/inputs/variable_inactive.svg) **Добавляемые переменные** — обязательный набор переменных;
+* ![Еще порт](./../../images/icons/app/node/ports/add/add_inactive_default.svg) **Добавление еще одного порта** — создает новые порты входа для последующих наборов переменных.
 
-### Output
+### Выход
 
-* ![Output variables](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Output variables**: the new set of variables.
+* ![Выходные переменные](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Выходные переменные** — новый набор переменных.
 
-%spoiler%Example:%spoiler%
+%spoiler%Пример:%spoiler%
 
-There are three sets of variables:
+Имеется три набора переменных:
 
-* Set A:
+* Набор A:
 
-| Name | Caption | Value |
+|Имя|Метка|Значение|
 |:--|:--|--:|
-| a0 | a | 10 |
-| b | b | 12 |
+|a0|a|10|
+|b|b|12|
 
-* Set B:
+* Набор B:
 
-| Name | Caption | Value |
+|Имя|Метка|Значение|
 |:--|:--|--:|
-| a0 | a | 20 |
-| c | c | 18 |
+|a0|a|20|
+|c|c|18|
 
-* Set C:
+* Набор C:
 
-| Name | Caption | Value |
+|Имя|Метка|Значение|
 |:--|:--|--:|
-| a1 | a | 30 |
-| b | b | 25 |
+|a1|a|30|
+|b|b|25|
 
-It is required to provide serial connection to the node. We will receive the following list of variables at the output (the "Note" column is provided for clarity; it won't be included into the resulting set):
+Последовательно подключим их к узлу соединения, и на выходе получим такой список переменных (столбец "Примечание" приведен для наглядности, в результирующий набор он включен не будет):
 
-| Name | Caption | Value | Note |
+|Имя|Метка|Значение|Примечание|
 |:--|:--|--:|:--|
-| a0 | a | 10 | from set A, variable a0 |
-| b | b | 12 | from set A, variable b |
-| a1 | a | 20 | from set B, variable a0 |
-| c | c | 18 | from set B, variable c |
-| a2 | a | 30 | from set C, variable a1 |
-| b_1 | b | 25 | from set C, variable b |
+|a0|a|10|из набора A, переменная a0|
+|b|b|12|из набора A, переменная b|
+|a1|a|20|из набора B, переменная a0|
+|c|c|18|из набора B, переменная c|
+|a2|a|30|из набора C, переменная a1|
+|b_1|b|25|из набора C, переменная b|
 
-Obviously, the second variable `b` was renamed to `b_1`, whereas the second variable `a0` was renamed to `a1`, and `a1` was renamed to `a2` because after renaming of `a0` to `a1`, it had already been a double.
+Как видно вторая переменная `b` была переименована в `b_1`, в то время как вторая переменная `a0` была переименована в `a1`, и `a1` была переименована в `a2` так как после переименования `a0` в `a1` уже она являлась дублем.
 
 %/spoiler%

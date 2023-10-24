@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="wh-oracle.inverted">
+	<path style="fill:#FFFFFF;" d="M10,8H6c-1.103,0-2,0.897-2,2s0.897,2,2,2h4c1.103,0,2-0.897,2-2S11.103,8,10,8z"/>
+	<path style="fill:#FFFFFF;" d="M4.545,2L1.994,4H2v12h12v-0.01l2-2V2H4.545z M10,13H6c-1.654,0-3-1.346-3-3s1.346-3,3-3h4
+		c1.654,0,3,1.346,3,3S11.654,13,10,13z M13.293,4H3.615l1.276-1h9.402L13.293,4z M15,13.576l-1,1V4.707l1-1V13.576z"/>
+</g>
+</svg>

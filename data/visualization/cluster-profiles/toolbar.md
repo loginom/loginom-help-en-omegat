@@ -1,34 +1,37 @@
-# Toolbar
+---
+description: Панель инструментов для таблицы сравнения кластеров в Loginom. Справка по интерфейсу и навигации. Обзор базовых возможностей и настроек.
+---
+# Панель инструментов
 
-It contains the following control elements:
+Содержит следующие управляющие элементы:
 
-* ![Filtration](../../images/icons/toolbar-controls/filter_default.svg) **Filtration**: show/hide [*Filtration panel*](./filter-panel.md).
-* ![Detailing](../../images/icons/toolbar-controls/show-fast-viewer_default.svg) **Detailing**: show/hide [*Detailing panel*](./details.md).
-* **Detailing method**: switch the *Detailing* display options. When pressing the button, the cyclic change of the *Detailing* methods is performed, and the *Detailing* method can be switched in the drop-down menu when pressing ![Open](../../images/icons/toolbar-controls/down_default.svg) button. *Detailing* methods:
-   * ![Table](../../images/icons/cube/detailing/browse_default.svg) Table.
-   * ![Form](../../images/icons/cube/detailing/form_default.svg) Form.
-   * ![Statistics](../../images/icons/cube/detailing/stat_default.svg) Statistics.
-* **Indicator**: switch the display options of *Indicators*. When pressing the button, the cyclic change of *Indicators* is performed, and also *Indicator* can be switched in the drop-down menu when pressing ![Open](../../images/icons/toolbar-controls/down_default.svg) button. List of *Indicators*:
-   * ![Importance](../../images/icons/viewers/cluster-profiles/cluster-profiles/sliced_18x18/importance_default.svg) Importance.
-   * ![ Histogram](../../images/icons/viewers/cluster-profiles/cluster-profiles/sliced_18x18/histogram_default.svg)  Histogram.
-   * ![Minimum](../../images/icons/toolbar-controls/min_default.svg) Minimum.
-   * ![Maximum](../../images/icons/toolbar-controls/max_default.svg) Maximum.
-   * ![Average](../../images/icons/toolbar-controls/avg_default.svg) Average.
-   * ![Sum](../../images/icons/toolbar-controls/sum_default.svg) Sum.
-   * ![Standard deviation](../../images/icons/toolbar-controls/stddev_default.svg) [Standard deviation](https://wiki.loginom.ru/articles/mean-square-deviation.html).
-   * ![Range](../../images/icons/viewers/cluster-profiles/cluster-profiles/sliced_18x18/range_default.svg) Range.
-   * ![Null count](../../images/icons/toolbar-controls/null-count_default.svg) Null count.
-   * ![Values](../../images/icons/toolbar-controls/count_default.svg) Values.
-   * ![Count of unique values](../../images/icons/toolbar-controls/unique-count_default.svg) Count of unique values.
-   * ![Cluster center](../../images/icons/viewers/cluster-profiles/cluster-profiles/sliced_18x18/cluster-center_default.svg) Cluster center.
-* ![Importance by color](../../images/icons/viewers/cluster-profiles/cluster-profiles/sliced_18x18/heatmap_default.svg) **Importance by color**: show/hide importance as the heat map. This option is reset and becomes inactive when *Histogram* indicator is selected.
-* ![Show null column in histograms ](../../images/icons/toolbar-controls/null-count_default.svg) **Show null column in histograms**: show/hide *null* column. The column visibility with null data is changed in the [*Main table*](./main-table.md) and *Cluster comparison panel* histograms.
-* ![Show "Other" column in histograms](../../images/icons/viewers/cluster-profiles/cluster-profiles/sliced_18x18/residue-count_default.svg) **Show "Other" column in histograms**: show/hide *Other* column. In the discrete histograms of the *Main table* visibility of *Other* column is changed.
-* ![Show universal set in histograms](../../images/icons/toolbar-controls/sum_default.svg) **Show universal set in histograms**: show/hide the [universal set](https://wiki.loginom.ru/articles/general-population.html).
-* **Histogram scaling**: switch the histogram scaling mode. When pressing the button, the cyclic change of histogram scaling modes is performed. It is also possible to switch the mode in the drop-down menu when pressing ![Open](../../images/icons/toolbar-controls/down_default.svg) button. List of the Scaling Modes:
-   * ![Absolute frequencies](../../images/icons/viewers/cluster-profiles/histogram/sliced_18x18/size-scale_default.svg) **Absolute frequencies**: the columns display the real number of values. The universal set columns are always higher or equal to the cluster columns.
-   * ![Relative frequencies](../../images/icons/viewers/cluster-profiles/histogram/sliced_18x18/bar-scale_default.svg) **Relative frequencies**: the universal set columns are equal and stretched to the cell height. Cluster columns have the following height: `Number of values in the column/Number of values in the universal set column`.
-   * ![Density (PDF)](../../images/icons/viewers/cluster-profiles/histogram/sliced_18x18/no-scale_default.svg) **Density (PDF)**: histograms of [cluster](https://wiki.loginom.ru/articles/cluster.html) and universal set are not connected with each other and have the same area. Histograms in the table cell or in the comparison tab are normalized by the height of the highest column.
-* **Cluster position in table**: switch cluster position in the table. When pressing the button, the cyclic change of cluster positions in the table is performed. And it is also possible to change cluster position in the table in the drop-down menu when pressing ![Open](../../images/icons/toolbar-controls/down_default.svg) button. The following positions of clusters are possible:
-   * ![Clusters in rows](../../images/icons/toolbar-controls/rows_default.svg) Clusters in rows.
-   * ![Clusters in columns](../../images/icons/toolbar-controls/columns_default.svg) Clusters in columns.
+* ![Фильтрация](./../../images/icons/common/toolbar-controls/filter_default.svg) **Фильтрация** — показать/скрыть [*Панель фильтрации*](./filtration-panel.md).
+* ![Детализация](./../../images/icons/common/toolbar-controls/show-fast-viewer_default.svg) **Детализация** — показать/скрыть [*Панель детализации*](./details.md).
+* **Способ детализации** — переключить варианты отображения *Детализации*. При нажатии на кнопку происходит циклическая смена способов *Детализации*, также способ *Детализации* можно переключить в выпадающем меню при нажатии на кнопку ![Раскрыть](./../../images/icons/common/toolbar-controls/down_default.svg). Способы *Детализации*:
+  * ![Таблица](./../../images/icons/viewers/cube/detailing/browse_default.svg) Таблица;
+  * ![Форма](./../../images/icons/viewers/cube/detailing/form_default.svg) Форма;
+  * ![Статистика](./../../images/icons/viewers/cube/detailing/stat_default.svg) Статистика.
+* **Индикатор** — переключить варианты отображения *Индикаторов*. При нажатии на кнопку происходит циклическая смена *Индикаторов*, также *Индикатор* можно переключить в выпадающем меню при нажатии на кнопку ![Раскрыть](./../../images/icons/common/toolbar-controls/down_default.svg). Список *Индикаторов*:
+  * ![Значимость](./../../images/icons/viewers/cluster-profiles/cluster-profiles/importance_default.svg) Значимость;
+  * ![Гистограмма](./../../images/icons/viewers/cluster-profiles/cluster-profiles/histogram_default.svg) Гистограмма;
+  * ![Минимум](./../../images/icons/common/toolbar-controls/min_default.svg) Минимум;
+  * ![Максимум](./../../images/icons/common/toolbar-controls/max_default.svg) Максимум;
+  * ![Среднее](./../../images/icons/common/toolbar-controls/avg_default.svg) Среднее;
+  * ![Сумма](./../../images/icons/common/toolbar-controls/sum_default.svg) Сумма;
+  * ![Стандартное отклонение](./../../images/icons/common/toolbar-controls/stddev_default.svg) [Стандартное отклонение](https://wiki.loginom.ru/articles/mean-square-deviation.html);
+  * ![Размах](./../../images/icons/viewers/cluster-profiles/cluster-profiles/range_default.svg) Размах;
+  * ![Пропуски](./../../images/icons/common/toolbar-controls/null-count_default.svg) Пропуски;
+  * ![Значения](./../../images/icons/common/toolbar-controls/count_default.svg) Значения;
+  * ![Количество уникальных значений](./../../images/icons/common/toolbar-controls/unique-count_default.svg) Количество уникальных значений;
+  * ![Центр кластеров](./../../images/icons/viewers/cluster-profiles/cluster-profiles/cluster-center_default.svg) Центр кластеров.
+* ![Значимость цветом](./../../images/icons/viewers/cluster-profiles/cluster-profiles/heatmap_default.svg) **Значимость цветом** — показать/скрыть значимость как тепловую карту. Данная опция сбрасывается и становится неактивной, когда выбран индикатор *Гистограмма*.
+* ![Показывать null столбец в гистограммах](./../../images/icons/common/toolbar-controls/null-count_default.svg) **Показывать null столбец в гистограммах** — показать/скрыть *null* столбец. В гистограммах [*Основной таблицы*](./main-table.md) и *Панели сравнения кластеров* изменяется видимость столбца с пропусками.
+* ![Показывать столбец "Прочие" в гистограммах](./../../images/icons/viewers/cluster-profiles/cluster-profiles/residue-count_default.svg) **Показывать столбец "Прочие" в гистограммах** — показать/скрыть столбец *Прочие*. В дискретных гистограммах *Основной таблицы* изменяется видимость столбца *Прочие*.
+* ![Показывать генеральную совокупность в гистограммах](./../../images/icons/common/toolbar-controls/sum_default.svg) **Показывать генеральную совокупность в гистограммах** — показать/скрыть [генеральную совокупность](https://wiki.loginom.ru/articles/general-population.html).
+* **Масштабирование гистограмм** — переключить режим масштабирования гистограмм. При нажатии на кнопку происходит циклическая смена режимов масштабирования гистограмм, также режим можно переключить в выпадающем меню при нажатии на кнопку ![Раскрыть](./../../images/icons/common/toolbar-controls/down_default.svg). Список режимов масштабирования:
+  * ![Абсолютные частоты](./../../images/icons/viewers/cluster-profiles/histogram/size-scale_default.svg) **Абсолютные частоты** — столбцы отражают реальное количество значений. Столбцы генеральной совокупности всегда выше или равны столбцов кластеров.
+  * ![Относительные частоты](./../../images/icons/viewers/cluster-profiles/histogram/bar-scale_default.svg) **Относительные частоты** — столбцы генеральный совокупности одинаковые и растянуты до высоты ячейки. Столбцы кластеров имеют высоту: `Количество значений в столбце/Количество значений в столбце генеральной совокупности`.
+  * ![Плотность вероятности](./../../images/icons/viewers/cluster-profiles/histogram/no-scale_default.svg) **Плотность вероятности** — гистограммы [кластера](https://wiki.loginom.ru/articles/cluster.html) и генеральной совокупности не связаны с друг другом, и имеют одинаковую площадь. Гистограммы в ячейке таблицы или во вкладке сравнения нормированы по высоте самого высокого столбца.
+* **Положение кластеров в таблице** — переключить положение кластеров в таблице. При нажатии на кнопку происходит циклическая смена положений кластеров в таблице, также сменить положение кластеров в таблице можно в выпадающем меню при нажатии на кнопку ![Раскрыть](./../../images/icons/common/toolbar-controls/down_default.svg). Возможны следующие положения кластеров:
+  * ![Кластеры в строках](./../../images/icons/common/toolbar-controls/rows_default.svg) Кластеры в строках;
+  * ![Кластеры в столбцах](./../../images/icons/common/toolbar-controls/columns_default.svg) Кластеры в столбцах.

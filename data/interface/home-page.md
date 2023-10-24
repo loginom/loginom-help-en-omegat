@@ -1,19 +1,24 @@
-# "Home" Page
+---
+description: Элементы интерфейса начальной страницы аналитической платформы Loginom. Список последних открытых пакетов.
+---
+# Страница «Начало»
 
-Upon the application opening, in the case of the desktop Loginom edition, or authorization, in the case of the server Loginom edition, the "Home" page is opened (refer to  Figure 1).
+После открытия приложения, в случае настольной редакции Loginom, или авторизации, в случае серверной редакции Loginom, появляется страница «Начало» (см. рисунок 1).
 
-!["Home" page](./home-page.png)
+![Страница «Начало».](./home-page.png)
 
-This page contains the following commands to use [packages](../quick-start/package.md):
+Данная страница содержит следующие команды для манипуляции с [пакетами](./../quick-start/package.md):
 
-* **New Package** enables to create and save a new Package.
-* **New Draft** enables to create a temporary Package and work with it without saving.
-* **Open Package** enables to open an existing Package.
+* **Создать новый пакет** — позволяет создать и сохранить новый Пакет.
+* **Ctrl** + **Создать новый пакет** — создает новый пакет и открывает его в новой вкладке.
+* **Создать черновик** — создает временный Пакет и  позволяет работать с ним, не сохраняя его.
+* **Ctrl** + **Создать черновик** — создает черновик и открывает его в новой вкладке.
+* **Открыть пакет** — позволяет открыть существующий Пакет.
+* **Ctrl** + **Открыть пакет** — открывает пакет в новой вкладке.
 
-"Recent opened packages" column is located below. It includes the history of opening of the Packages with the following fields:
+Ниже расположена графа "Последние открытые пакеты", включающая в себя историю открытия Пакетов со следующими полями:
 
-* **Name**: Package file.
-* **Location**: location of the Package on disk (desktop version) or in [file storage](../location_user_files.md) (server version).
-* **Open time**: the date and time of the Package opening.
+* **Имя** — файл Пакета.
+* **Открывался** — дата и время открытия Пакета.
 
-> **Note:** it is possible to open previously opened Package by pressing its name.
+>**Примечание:** можно открыть пакет из списка "Последние открытые пакеты", нажав на его имя. При нажатии **Ctrl** + *выбранный пакет* пакет открывается в новой вкладке.

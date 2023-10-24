@@ -1,58 +1,64 @@
-# ![ ](../../images/icons/data-sources/web-rest-client_default.svg) REST Request
+---
+description: Компонент REST-запрос в Loginom. Взаимодействие с внешним REST-сервисом. Отправка GET, PUT, DELETE, PATCH, POST запросов. Мастер настройки.
+---
+# ![ ](./../../images/icons/common/data-sources/web-rest-client_default.svg) REST-запрос
 
-The component enables to interact with the external [REST service](https://ru.wikipedia.org/wiki/REST). It sends [GET](https://ru.wikipedia.org/wiki/HTTP#GET) or [POST](https://ru.wikipedia.org/wiki/HTTP#POST) requests to it and receives responses. The table with the request parameters is used as the input data set. REST service will get as many requests as there are rows in the input data set.
+Компонент позволяет взаимодействовать с внешним [REST-сервисом](https://ru.wikipedia.org/wiki/REST), отправляя ему GET, PUT, DELETE, PATCH, POST запросы и получая ответы. В качестве входного набора данных используется таблица с параметрами запросов. REST-сервису будет отправлено столько запросов, сколько строк во входном наборе данных.
 
-> **Note**: As the input data set with the request parameters is optional, when it is not provided, the REST service call node will send the only request without parameters.
+> **Примечание**: Поскольку входной набор данных с параметрами запросов является необязательным, то при его отсутствии узел вызова REST-сервиса отправит единичный запрос без параметров.
 
-The following data is generated in the output ports of the handler:
+В выходных портах узла формируются:
 
-- Table of the service responses.
-- Additional data on the results of each request execution.
+- Таблица ответов сервиса;
+- Дополнительные данные о результатах выполнения каждого запроса.
 
-If GET requests are sent, each row of the input data set must contain the GET request parameters, and in the case of POST requests, the [HTTP request body](https://ru.wikipedia.org/wiki/HTTP#Тело_сообщения) must be provided. When configuring the node, the random number of [HTTP request headers](https://ru.wikipedia.org/wiki/HTTP#Заголовки) is set.
+В случае отправки GET и DELETE запросов, каждая строка входного набора должна содержать параметры запроса, а при PUT, PATCH, POST запросах — [тело HTTP-запроса](https://ru.wikipedia.org/wiki/HTTP#Тело_сообщения). При настройке узла задается произвольное количество [заголовков HTTP-запроса](https://ru.wikipedia.org/wiki/HTTP#Заголовки).
 
-It is required to provide the configured [Connection to REST service](../../integration/connections/list/rest-service.md) to work with REST service. The request type (GET or POST) is selected, and the GET request parameters are listed when this connection is configured. The REST service call node checks the response type, and if the received response does not match the one stated in the `"Type of Response Content-Type"` parameter of the used connection, the output data sets of the node will contain error messages.
+Для работы с REST-сервисом необходимо настроенное [подключение к REST-сервису](./../../integration/connections/list/rest-service.md). Выбор метода HTTP-запроса, а так же определение списка параметров запроса осуществляется при настройке этого подключения. Узел вызова REST-сервиса осуществляет проверку типа  ответа, и если полученный ответ не соответствует заявленному в параметре `"Тип Content-type ответа"` используемого подключения, то выходные наборы данных узла будут содержать сообщения об ошибке.
 
-## Ports
+## Порты
 
-### Input Ports
+### Входные порты
 
-* ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) — Connection to REST service (connection to *REST Service Connection* component);
-* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) — Control variables (variables), optional;
-* ![ ](../../images/icons/app/node/ports/inputs-optional/table_inactive.svg) — Request data source (table with the request parameters), optional.
+* ![ ](./../../images/icons/app/node/ports/inputs/link_inactive.svg) — Подключение к REST-сервису (связь с компонентом *Подключение REST-сервиса*);
+* ![ ](./../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) — Управляющие переменные (переменные), необязательный;
+* ![ ](./../../images/icons/app/node/ports/inputs-optional/table_inactive.svg) — Источник данных запроса (таблица с параметрами запроса), необязательный.
 
-### Output Ports
+### Выходные порты
 
-* ![](../../images/icons/app/node/ports/outputs/table_inactive.svg) — Output data set (table with the service responses);
-* ![](../../images/icons/app/node/ports/outputs/table_inactive.svg) — Additional data (table with the results of requests execution, errors description).
+* ![](./../../images/icons/app/node/ports/outputs/table_inactive.svg) — Выходной набор данных (таблица с ответами сервиса);
+* ![](./../../images/icons/app/node/ports/outputs/table_inactive.svg) — Дополнительные данные (таблица с результатами выполнения запросов, описанием ошибок, кодами завершения и состояния HTTP).
 
-## Wizard
+## Настройка
 
-The service call wizard consists of several steps.
+Мастер настройки вызова сервиса состоит из нескольких шагов.
 
-### Configure Request
+### Настройка запроса
 
-The request parameters are set at this stage. The list of the input data set fields is located on the left. The list of the parameters accepted by REST service is located on the right. It is required to establish the links between fields and parameters for provide further setup. It can be done in several ways:
+На данном шаге задаются параметры запроса. Слева расположен список полей входного набора данных. Справа расположен список принимаемых REST-сервисом параметров. Для дальнейшей настройки необходимо проставить связи между полями и параметрами, сделать это можно несколькими способами:
 
-* *Drag-and-drop* method: drag the field caption from the left list of the fields to the item of the request parameters list.
-* It is necessary to select the required request parameter in the right table and select the field caption from the input data set from the drop-down list in the *Related fields* column.
-* Use ![ ](../../images/icons/toolbar-controls/auto-connect_default.svg) *Auto Link All* button. It providies auto linking of the input fields and request parameters based on values of captions and types of fields data of the input data set and parameters.
+* Методом *Drag-and-drop* — перетащить метку поля из левого списка полей на элемент списка параметров запроса;
+* В правой таблице выбрать нужный параметр запроса и в столбце *Связанные поля* выбрать из выпадающего списка метку поля из входного набора;
+* использовать кнопку ![ ](./../../images/icons/common/toolbar-controls/auto-connect_default.svg) *Связать все автоматически*, при этом происходит автоматическое связывание входных полей и параметров запроса, исходя из значений меток и типов данных полей входного набора и параметров.
 
-> **Note**: If the link between the field and object has been incorrectly established, it can be deleted. In order to do that, it is required to select the caption and press ![ ](../../images/icons/link-grid/remove-link_hover.svg) button in the line. If all links are to be deleted, ![ ](../../images/icons/toolbar-controls/remove-all-links_default.svg) *Delete all links* button is used.
+> **Примечание**: Если связь между полем и объектом была установлена неправильно, ее можно удалить. Для этого нужно выбрать метку и нажать на кнопку ![ ](./../../images/icons/link-grid/remove-link_hover.svg) на линии связи. При необходимости удаления всех связей используется кнопка ![ ](./../../images/icons/common/toolbar-controls/remove-all-links_default.svg) *Удалить все связи*.
 
-In the case of POST requests, the input table fields are linked to the predefined `request` parameter that accepts the HTTP request body.
+При PUT, PATCH, POST запросах поля входной таблицы связываются с предопределенным параметром `request`, принимающим тело HTTP-запроса.
 
-**Specify time zone** defines whether the [time zone](https://ru.wikipedia.org/wiki/Список_часовых_поясов_по_странам) information is specified according to [ISO_8601](https://ru.wikipedia.org/wiki/ISO_8601) when GET request parameters of the `Date/Time` type are transferred. Possible values:
+Параметр **Наличие временной зоны** определяет указывается ли информация о [часовом поясе](https://ru.wikipedia.org/wiki/Список_часовых_поясов_по_странам) в рамках стандарта [ISO_8601](https://ru.wikipedia.org/wiki/ISO_8601) при передачи параметров запроса типа `Дата/Время`. Возможные значения:
 
-- Do not specify;
-- Specify always.
+- Не указывать;
+- Указывать всегда.
 
-### Custom User Headers
+### Настройка пользовательских заголовков
 
-HTTP request headers and their values are set at this stage.
+На данном шаге задаются имена заголовков HTTP-запроса и их значения.
 
-### Additional Parameters
+### Дополнительные параметры
 
-- **Provide description of error codes** enables to display description of the errors that occurred while request sending, receipt and parsing of the service response.
-- **Save Request Text to Disk**: all requests sent to the service are written to the specified folder in the file storage.
-- **Simulate request with response in a file**: when this checkbox is selected, no actual request is sent to the service, and the handler substitutes content of the specified file as the service response.
+- **Выдавать описание кодов завершения** — отображать описание ошибок, произошедших при отправке запроса, получении и разборе ответа сервиса.
+
+> **Примечание**: При кодах состояния HTTP >= 400 устанавливается *Код завершения* = 6 (`Ошибка HTTP-клиента`) и выводится соответствующее *Описание ошибки*.
+
+- **Сохранять текст запроса на диск** — все запросы, отправленные сервису, записываются в указанную папку в файловом хранилище.
+- **Имитировать запрос с ответом в файле** — при установке флага фактического запроса к сервису не происходит, а узел в качестве ответа сервиса подставляет содержимое указанного файла.

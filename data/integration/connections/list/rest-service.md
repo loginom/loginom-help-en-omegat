@@ -1,33 +1,41 @@
-# ![](../../../images/icons/data-sources/web-rest_default.svg) REST Service Connection
+---
+description: Интеграция Loginom с REST-сервисом. Параметры подключения. Авторизация при выполнении запроса.
+---
+# ![](./../../../images/icons/common/data-sources/web-rest_default.svg) Подключение REST-сервиса
 
-Parameters of the REST service connection, request and response are set. The output connection data is used by the [REST Request](../../../processors/integration/rest-request.md) node.
+Задаются параметры подключения, запроса и ответа REST-сервиса. Выходные данные подключения используются узлом [REST-запрос](./../../../processors/integration/rest-request.md).
 
-## Connection Parameters
+## Параметры подключения
 
-* **Service URL**: address of request sending to REST service is set.
-* **Method**: one of the HTTP methods used while request sending to the service is selected.
-   * **GET**: when selecting this method, the following settings are available:
-      * Type of the Content-type response: the REST request node that uses this connection checks the response type for consistency with the data specified in this parameter. If the types are inconsistent, the output data set of this node will contain an error message. This test is not performed in the case of the following parameter value:`*/*`.
-      * GET request parameters: a list of GET request parameters, their names and data types are set. Subsequently, values are set for these parameters and the request text is generated in the node used for REST service calling.
-   * **POST**: when selecting this method, the following settings are available:
-      * Type of the Content-type request: the `Content-type` header value of HTTP request to REST service is set. It is allowed both to select from the list of predefined values, and to enter a random value.
-      * Type of the Content-type response: the same as for GET method (refer to the information above).
-* **Connection timeout (ms)**: the maximum time required for TCP server connection expressed in milliseconds upon expiration of which the connection will be terminated with an error status. If this parameter is equal to 0, timeout is not limited.
-* **Data exchange timeout (ms)**: the maximum time that is required to send HTTP request and receive response upon expiration of which the exchange will be terminated with an error status. If this parameter is equal to 0, timeout is not limited.
-* **Ignore SSL certificate errors**: if this checkbox is selected, the errors detected while testing the server certificate to be connected with are ignored.
+* **URL сервиса** — задается адрес отправки запросов к REST-сервису.
+* **Метод** — выбирается один из HTTP-методов, используемых при отправке запросов к сервису: GET, DELETE, POST, PUT, PATCH.
 
-## Authorization for Request Execution
+  * При выборе методов GET, DELETE доступны настройки:
+    * *Допустимый Content-type ответа* — узел REST-запрос, использующий данное подключение, проверяет тип ответа на соответствие заявленному в данном параметре. При несоответствии типов выходной набор этого узла будет содержать сообщение об ошибке. Данная проверка не осуществляется, если параметр имеет значение `*/*`.
+    * *Параметры запроса* — задается перечень параметров запроса, их имена и типы данных. В последующем, в узле вызова REST-сервиса значения параметров подставляются в URL запроса.
+  * При выборе методов POST, PUT, PATCH доступны настройки:
+    * *Тип Content-type запроса* — задается значение заголовка `Content-type` HTTP-запроса к REST-сервису. Доступен как выбор из списка предопределенных значений, так и ввод произвольного значения.
+    * *Допустимый Content-type ответа* — то же, что и для *GET*, *DELETE* методов (см. выше).
+* **Таймаут подключения (мс)** — максимальное время установки TCP-соединения с сервером в миллисекундах, по истечении которого соединение будет прервано со статусом ошибки. Если параметр равен нулю, то таймаут не ограничен.
+* **Таймаут обмена данными (мс)** — максимальное время, которое будет затрачено на отправку HTTP-запроса и получение ответа, по истечении которого обмен будет прерван со статусом ошибки. Если параметр равен нулю, то таймаут не ограничен.
+* **Игнорировать ошибки SSL сертификата** — если данный флаг установлен, то ошибки при проверке сертификата сервера, к которому производится подключение, игнорируются.
 
-* **Authorization Type** provides a drop-down list with authorization options:
-   * **Not required**: when selecting this option, Loginom does not perform authorization when connecting to the service.
-   * **Username and password**: this option is selected when authorization by name/password is required. The following types of authorization by username and password are supported:
-      * Basic;
-      * Digest;
-      * NTLM;
-      * Passport;
-      * Negotiate.
-   * **OAuth token** is selected when connecting to the web service via [OAuth](https://ru.wikipedia.org/wiki/OAuth) 2.0 protocol.
-   * **Provide client certificate** is selected for SSL authorization using the certificate.
-* **Username, Password**: the field becomes active if *Username and password* type is selected. When registering in the web service system, parameters of user authorization are set.
-* **OAuth token**: the field becomes active if *OAuth token* type is selected. The token string is entered.
-* **Certificate store**: the drop-down list that will be available when selecting *Provide client certificate*. One of the certificate stores available in the system is selected from the list. Then it is required to select the certificate used for authorization in the table below the list.
+## Аутентификация для выполнения запроса
+
+* **Тип аутентификации** — представляет выпадающий список с вариантами аутентификации:
+  * **Не требуется** — при выборе этого пункта Loginom не проводит аутентификацию при подключении к сервису.
+  * **Имя пользователя и пароль** — выбирается, если требуется аутентификация по имени/паролю. Поддерживаются следующие типы аутентификации по имени пользователя и паролю:
+    * Basic;
+    * Digest;
+    * NTLM;
+    * Passport;
+    * Negotiate.
+  * **Токен OAuth** — выбирается при подключении к веб-сервису посредством протокола [OAuth](https://ru.wikipedia.org/wiki/OAuth) версии 2.0.
+  * **Клиентский сертификат из хранилища** — выбирается для аутентификации по SSL посредством сертификата. Данный тип аутентификации используется для операционной системы Windows.
+  * **Файлы сертификата клиента** — выбирается, если требуется аутентификация по сертификату клиента. При этом типе аутентификации необходимо выбрать нужный сертификат и приватный ключ из файлового хранилища, а также ввести пароль приватного ключа.
+* **Имя пользователя, Пароль** — поле становится активным, если выбран тип *Имя пользователя и пароль*. Задают параметры аутентификации пользователя при его регистрации в системе веб-сервиса.
+* **Токен OAuth** — поле становится активным, если выбран тип *Токен OAuth*. Вводится строка токена.
+* **Хранилище сертификатов** — выпадающий список, который становится доступен при выборе *Клиентский сертификат из хранилища*. Из списка выбирается одно из хранилищ сертификатов, имеющихся в системе. Затем в таблице под списком выбирается используемый для аутентификации сертификат. 
+* **Сертификат пользователя** — поле становится доступно при выборе *Файлы сертификата клиента*, в нем указывается расположение (в файловом хранилище) сертификата, используемого для подключения к REST-сервису.  
+* **Приватный ключ** — поле становится доступно при выборе *Файлы сертификата клиента*, в нем указывается расположение (в файловом хранилище) приватного ключа, используемого для подключения к REST-сервису. 
+* **Пароль приватного ключа** — поле становится активным, если выбран тип *Файлы сертификата клиента*. Это пароль, позволяющий расшифровать ключ. 

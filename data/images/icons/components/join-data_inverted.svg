@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#BFBFBF;">
+	<!ENTITY st2 "fill:#F7931E;">
+	<!ENTITY st3 "fill:#8C8C8C;">
+	<!ENTITY st4 "fill:#71B1E4;">
+	<!ENTITY st5 "fill:none;stroke:#F7931E;stroke-miterlimit:10;">
+	<!ENTITY st6 "fill:none;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="join-data.inverted">
+	<polygon style="&st0;" points="16,9 10,2 10,6.242 10,11.758 10,16 	"/>
+	<g>
+		<polygon style="&st0;" points="8,8 2.027,8 8,2.027 		"/>
+		
+			<rect x="3.784" y="2.326" transform="matrix(0.7075 -0.7067 0.7067 0.7075 -1.8204 4.3916)" style="&st0;" width="1.223" height="4.138"/>
+	</g>
+	<g>
+		<polygon style="&st0;" points="8,10 2.027,10 8,15.973 		"/>
+		
+			<rect x="2.326" y="12.994" transform="matrix(0.7067 -0.7075 0.7075 0.7067 -8.3366 7.1001)" style="&st0;" width="4.138" height="1.223"/>
+	</g>
+</g>
+</svg>

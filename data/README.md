@@ -1,29 +1,37 @@
-# Loginom — User Manual
+---
+description: Руководство пользователя Loginom – описание интерфейса пользователя, основные функции и рекомендации по их использованию. Обзор редакций платформы.
+---
+# Loginom — руководство пользователя
 
-[**Loginom**](https://loginom.ru) is an analytical platform that enables to execute all business analysis stages in the uniform environment from data consolidation and model training to visualization and integration into business process.
+[**Loginom**](https://loginom.ru) — аналитическая платформа, позволяющая в единой среде выполнить все этапы бизнес-анализа от консолидации данных и построения моделей до визуализации и интеграции в бизнес-процесс. 
 
-![The Loginom platform components](./components.svg)
+![Компоненты платформы Loginom](./components.svg)
 
-Loginom Desktop operation is similar to the Studio operation, with the exception of unavailable mechanisms of integration and teamwork.
+Работа с Loginom Desktop аналогична Studio, за исключением отсутствующих механизмов интеграции и коллективной работы.
 
-| Component functionality | Desktop | Studio |
+| Функционал компонента | Desktop | Studio |
 |:-------------|:------:|:-------:|
-| [Workflows design](./scenario/README.md) | • | • |
-| [Data processing](./processors/README.md) | • | • |
-| [Visualisation](./visualization/README.md) | • | • |
-| [File management](./location_user_files.md) | | • |
-| [Administration](./admin/README.md) | | • |
-| Multiuser operation | | • |
-| [Integration](./integration/README.md) | •/- | • |
+| [Проектирование сценариев](./workflow/README.md) | • | • |
+| [Обработка данных](./processors/README.md) | • | • |
+| [Визуализация](./visualization/README.md) | • | • |
+| [Управление файлами](./location_user_files.md) | | • |
+| [Администрирование](./admin/README.md) | | • |
+| Многопользовательская работа | | • |
+| [Интеграция](./integration/README.md) | •/- | • |
 
-## Platform editions
 
-5 editions of [Loginom](https://loginom.ru) Platform are available:
+ Платформа [Loginom](https://loginom.ru) предлагается в 6-ти редакциях:
 
-![Platform editions](./editions.svg)
+* Community Edition
+* Personal
+* Team
+* Standard
+* Enterprise
+* Cloud
 
-Differences between editions are connected with usage cases and mechanisms of integration into the corporate IT environment.
+Чтобы выбрать подходящую редакцию, необходимо ориентироваться на кейсы использования и интеграцию в корпоративную информационную среду, а не от доступных алгоритмов обработки или способов визуализации, которые во всех версиях одинаковы.
+С более подробным описанием редакций можно ознакомиться в статье "Сравнение редакций".
 
-**See also:**
+**Смотри также:**
 
-* [Official manufacturer website](https://loginom.ru);
+* [Официальный сайт производителя](https://loginom.ru);

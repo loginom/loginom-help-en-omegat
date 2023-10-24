@@ -1,32 +1,35 @@
-# ![Shared Folders](../images/icons/admin-system-objects/sharedfolders_default.svg) Shared Folders
+---
+description: Справка по общим папкам в Loginom. Добавление и настройка общих папок. Редактирование доступа. Доступные горячие клавиши.
+---
+# ![Общие папки](./../images/icons/common/admin-system-objects/sharedfolders_default.svg) Общие папки
 
-This administration subsection is used to control the shared folders and rights of access to them. There are four buttons in the upper part of the section:
+Этот подраздел администрирования используется для управления общими папками и правами доступа к ним. В верхней части раздела имеется четыре кнопки:
 
-* ![Add](../images/icons/toolbar-controls/plus_default.svg) **Add** enables to add a new folder.
-* ![Edit](../images/icons/toolbar-controls/edit_default.svg) **Edit** enables to edit the selected folder.
-* ![Delete](../images/icons/toolbar-controls/delete_default.svg) **Delete** enables to delete the selected folder.
-* ![Update](../images/icons/toolbar-controls/refresh_default.svg) **Update** enables to update the folder list.
+* ![Добавить](./../images/icons/common/toolbar-controls/plus_default.svg) **Добавить** — добавить новую папку;
+* ![Редактировать](./../images/icons/common/toolbar-controls/edit_default.svg) **Редактировать** — редактировать выделенную папку;
+* ![Удалить](./../images/icons/common/toolbar-controls/delete_default.svg) **Удалить** — удалить выделенную папку;
+* ![Обновить](./../images/icons/common/toolbar-controls/refresh_default.svg) **Обновить** — обновить список папок.
 
-%spoiler%Hotkeys%spoiler%
+%spoiler%Горячие клавиши%spoiler%
 
-* **Up**: go up to row.
-* **Down**: go down to row.
-* **Insert**: insert a new folder.
-* **F2**: edit folder.
-* **Delete**: delete folder.
-* **Alt + F5** enables to update the list of folders and their parameters.
+* **Up** — перейти на строку выше;
+* **Down** — перейти на строку ниже;
+* **Insert** — добавить новую папку;
+* **F2** — редактировать папку;
+* **Delete** — удалить папку;
+* **Alt + F5** — обновить список папок и их параметров.
 
 %/spoiler%
 
-When pressing ![Add](../images/icons/toolbar-controls/plus_default.svg) *Add*/![Edit](../images/icons/toolbar-controls/edit_default.svg) *Edit* button, *Add shared folder*/*Configure shared folder* window appears.
+При нажатии на кнопку ![Добавить](./../images/icons/common/toolbar-controls/plus_default.svg) *Добавить*/![Редактировать](./../images/icons/common/toolbar-controls/edit_default.svg) *Редактировать* появляется окно *Добавить общую папку*/*Настройка общей папки*.
 
-Composition of *Add shared folder*/*Configure shared folder* window:
+Состав окна *Добавить общую папку*/*Настройка общей папки*:
 
-* **Name**: the name of the new shared folder is set in this field. This field is not available in the editing window.
-* **Path**: it is displayed here how the path to the folder relative to the root will look like.
-* **Access rights**: table with a list of users.
-   * **Checkbox**: it is displayed in the field whether a user has rights to use a folder. If a checkbox is selected in the field heading, all users will be selected as the ones with folder access rights.
-   * **User**: all registered users are displayed in this column. It is also possible to include the filter for search for a particular user into this field.
-   * **Full name**: the full user name is displayed in this column if it is set in [*Users*](./users.md) section. It is also possible to search by the filter field as in the *User* field.
+* **Имя** — в этом поле задается имя новой общей папки, в окне редактирования это поле не доступно.
+* **Путь** — здесь отображается как будет выглядеть путь к папке относительно корня.
+* **Права доступа** — таблица со списком пользователей.
+  * **Чекбокс** — поле указывает наличие прав у пользователя на использование папки. Если в чекбоксе заголовка поля поставить флажок, то все пользователи будут выделены как имеющие права на доступ к папке.
+  * **Пользователь** — в этом столбце отображаются все зарегистрированные пользователи. Поле имеет также возможность ввода фильтра для поиска определенного пользователя.
+  * **Полное имя** — в этом столбце отображается полное имя пользователя, если оно задано в разделе [*Пользователи*](./users/README.md). Как и поле *Пользователь* имеет возможность поиска через поле фильтра.
 
-> **Note:** If it is required to rename a folder, the new folder is created where the contents of the old one is copied. Then the old folder is deleted.
+> **Примечание:** Если нужно переименовать папку, то создается новая папка куда копируется содержимое старой, затем старая папка удаляется.

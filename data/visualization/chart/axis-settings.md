@@ -1,43 +1,43 @@
-# Configure Axes
+---
+description: Настройка параметров осей диаграммы в Loginom. Справка по интерфейсу. Включение сетки и логарифмической шкалы. Установка минимальных и максимальных значений осей. Включение динамики по значению или в процентах.
+---
+# ![](./../../images/icons/common/toolbar-controls/axis_default.svg) Настройки осей
 
-## Configuration Window
+## Окно настройки
 
-It enables to set parameters according to the chart axes:
+Позволяет задать параметры соответствующим осям диаграммы:
 
-* **Lower.**
-   * Show grid: show/hide the vertical lines of the chart grid.
-   * Header: name of X axis.
-   * Axis type.
-      * Linear.
-      * Logarithmic.
-      * Date-time.
-   * Set minimum value: when the checkbox is active, the value from 0 to 9,999 is specified.
-   * Set maximum value: when the checkbox is active, the value from 1,000 and higher is specified.
-   * X field: the field is set for X axis. It is possible to delete the field that has been earlier selected by pressing ![](../../images/icons/toolbar-controls/delete_default.svg).
-   * Caption field: the field used to set the X axis points marks. It is possible to delete the field that has been earlier selected by pressing ![](../../images/icons/toolbar-controls/delete_default.svg).
-* **Left.**
-   * Show grid: show/hide the horizontal lines of the chart grid. If there is no left axis, the grid is not configured.
-   * Header: name of Y axis (from the left side).
-   * Axis type.
-      * Linear.
-      * Logarithmic.
-      * Date-time.
-   * Set minimum value: when the checkbox is active, the value from 0 to 9,999 is specified.
-   * Set maximum value: when the checkbox is active, the value from 1,000 and higher is specified.
-   * Dynamics.
-      * No.
-      * By value.
-      * In percents.
-* **Right.**
-   * Show grid: show/hide the horizontal lines of the chart grid. If there is no right axis, the grid is not configured.
-   * Header: name of Y axis (from the right side).
-   * Axis type.
-      * Linear.
-      * Logarithmic.
-      * Date-time.
-   * Set minimum value: when the checkbox is active, the value from 0 to 9,999 is specified.
-   * Set maximum: when the checkbox is active, the value from 1,111 and higher is specified.
-   * Dynamics.
-      * No.
-      * By value.
-      * In percents.
+* **Нижняя:**
+  * **Показывать сетку** — отобразить/скрыть вертикальные линии сетки на диаграмме.
+  * **Заголовок** — наименование оси X.
+  * **Тип оси:**
+    * **Линейная** — шкала, длина отрезка которой пропорциональна разности величин, отмеченных на концах этого отрезка.
+    * **Логарифмическая** — шкала, длина отрезка которой пропорциональна логарифму отношения величин, отмеченных на концах этого отрезка. Логарифмическая шкала используется для отображения очень больших диапазонов значений величин.
+    * **Дата/время** — хронологическая шкала с точками во времени.
+  * **Задать интервал** — при активном флаге задаются границы интервала нижней оси.
+  * **Поле X** — задается поле для оси X. Нажатие на ![](./../../images/icons/common/toolbar-controls/delete_default.svg) удаляет ранее выбранное поле.
+  * **Поле меток** — поле для задания обозначений делений оси X. Нажатие на ![](./../../images/icons/common/toolbar-controls/delete_default.svg) удаляет ранее выбранное поле.
+* **Левая:**
+  * **Показывать сетку** — отобразить/скрыть горизонтальные линии сетки на диаграмме. Если левая ось отсутствует, то настройка сетки не осуществляется.
+  * **Заголовок** — наименование оси Y (с левой стороны).
+  * **Тип оси:**
+    * **Линейная** — шкала, длина отрезка которой пропорциональна разности величин, отмеченных на концах этого отрезка.
+    * **Логарифмическая** — шкала, длина отрезка которой пропорциональна логарифму отношения величин, отмеченных на концах этого отрезка. Логарифмическая шкала используется для отображения очень больших диапазонов значений величин.
+    * **Дата/время** — хронологическая шкала с точками во времени.
+  * **Задать интервал** — при активном флаге задаются границы интервала левой оси.
+  * **Динамика:**
+    * **Нет** — сравнение точек графика с началом оси не производится;
+    * **По значению** — сравнение каждой точки графика с началом оси по значению;
+    * **В процентах** — сравнение каждой точки графика с началом оси по процентам.
+* **Правая:**
+  * **Показывать сетку** — отобразить/скрыть горизонтальные линии сетки на диаграмме. Если правая ось отсутствует, то настройка сетки не осуществляется.
+  * **Заголовок** — наименование оси Y (с правой стороны).
+  * **Тип оси:**
+    * **Линейная** — шкала, длина отрезка которой пропорциональна разности величин, отмеченных на концах этого отрезка.
+    * **Логарифмическая** — шкала, длина отрезка которой пропорциональна логарифму отношения величин, отмеченных на концах этого отрезка. Логарифмическая шкала используется для отображения очень больших диапазонов значений величин.
+    * **Дата/время** — хронологическая шкала с точками во времени.
+  * **Задать интервал** — при активном флаге задаются границы интервала правой оси.
+  * **Динамика:**
+    * **Нет** — сравнение точек графика с началом оси не производится;
+    * **По значению** — сравнение каждой точки графика с началом оси по значению;
+    * **В процентах** — сравнение каждой точки графика с началом оси по процентам.

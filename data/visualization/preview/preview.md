@@ -1,19 +1,24 @@
-# Preview
+---
+description: Работа предпросмотра в Loginom. Руководство пользователя по быстрому просмотру данных. Представление данных в Loginom для быстрого просмотра и ознакомления. Фильтрация информации.
+---
+# Предпросмотр
 
-It provides the limited amount of data (not more than 100 first rows of possible resulting data set) for information purposes in the form of the flat two-dimensional table. Filtration, change of data view format and search are not available. Real numbers (with floating point) are displayed with two places after decimal separator.
+Представляет ограниченное количество данных (не более 100 первых строк возможного результирующего набора) для ознакомления в виде плоской двумерной таблицы. Возможности фильтрации, изменения формата отображения данных и поиска нет. Вещественные числа (с плавающей точкой) отображаются с двумя знаками после десятичного разделителя, данные в формате Дата/время отображаются без указания секунд (при этом сокращенный формат представления вещественных чисел и данных в формате Дата/время используется только для визуализации).
 
-It is available in [Import from database](../../integration/import/database.md), [Import from 1С](../../integration/import/1c-db.md) and [JavaScript](../../processors/transformation/java-script/README.md) wizards. When pressing *Preview* button, it is possible to activate all input ports, with the exception of the *Connections* connected with the current node. This window is opened when the activation is successfully finished.
+Доступен в мастерах [Импорт из базы данных](./../../integration/import/database.md), [Импорт из 1С](./../../integration/import/1c-db.md), [JavaScript](./../../processors/programming/java-script/README.md), [Python](./../../processors/programming/python/README.md). При нажатии на кнопку *Предпросмотр* активируются все входные порты, кроме непосредственно соединенных с текущим узлом *Подключений*. При успешном завершении активации открывается данное окно.
 
-When the cursor is hovered over the field caption, ![ ](../../images/icons/toolbar-controls/down_default.svg) button with the additional functions will appear:
+При наведении курсора к заголовку поля появится кнопка ![ ](./../../images/icons/common/toolbar-controls/down_default.svg) с дополнительными функциями:
 
-* ![ ](../../images/icons/toolbar-controls/low-to-hight_default.svg) **Sort ascending** / ![ ](../../images/icons/toolbar-controls/hight-to-low_default.svg) **Sort descending**: sorting enables to sort data by the selected field in ascending or descending order. It is performed only for the current data set according to the set limits.
-* ![ ](../../images/icons/grid/columns.svg) **Columns**: disable/enable display by the defined columns.
-* ![ ](../../images/icons/toolbar-controls/locked_default.svg) **Freeze column** / ![ ](../../images/icons/toolbar-controls/unlocked_default.svg) **Unfreeze column**: the frozen field is fixed in the left part of the window, and it is separated from the unfrozen part with the vertical line.
+* ![ ](./../../images/icons/common/toolbar-controls/low-to-hight_default.svg) **Сортировать по возрастанию** / ![ ](./../../images/icons/common/toolbar-controls/hight-to-low_default.svg) **Сортировать по убыванию** — сортировка позволяет упорядочить данные по выбранному полю по возрастанию либо убыванию. Проводится только на текущем наборе данных в соответствии с установленными лимитами.
+* ![ ](./../../images/icons/grid/columns.svg) **Столбцы** — позволяет отключить/включить отображение определенным столбцам.
+* ![ ](./../../images/icons/common/toolbar-controls/locked_default.svg) **Закрепить столбец** / ![ ](./../../images/icons/common/toolbar-controls/unlocked_default.svg) **Снять закрепление столбца** — закрепленное поле фиксируется в левой части окна и отделяется от незакрепленной части вертикальной линией.
 
-It is possible to move the fields relative to each other, and it is also possible to move them from the zone of frozen fields to the unfrozen ones and vice versa.
+Поля можно перемещать относительно друг друга, а также перемещать их из зоны закрепленных полей к незакрепленным и наоборот.
 
-Field settings are reset when closing the window.
+Настройки полей сбрасываются при закрытии окна.
 
-It is possible to control the script operation in ![console](../../images/icons/javascript/console.svg) of [code debugging console](../../processors/transformation/java-script/console.md) in *Preview* of *JavaScript* node.
+В *Предпросмотре* узла *JavaScript* есть возможность контролировать работу скрипта в ![консоль](./../../images/icons/components/javascript/console.svg) [Консоли отладки кода](./../../processors/programming/java-script/console.md).
 
-It is possible to close *Preview* of *JavaScript* node using only *X* button, in *Import from database* node *Close* button is also available.
+В *Предпросмотре* узла *Python* для отображения сообщений *стандартного вывода* (`sys.stdout`) и *стандартного вывода ошибок* (`sys.stderr`) доступна панель ![консоль](./../../images/icons/components/javascript/console.svg) [Вывод](./../../processors/programming/python/console.md).
+
+Закрыть *Предпросмотр* узлов *JavaScript* и *Python* можно кнопкой *X*, в узле *Импорт из базы данных* также доступна кнопка *Закрыть*.

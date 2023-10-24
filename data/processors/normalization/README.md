@@ -1,33 +1,36 @@
-# Normalization
+---
+description: Справка по нормализации данных в Loginom. Настройки нормализации. Перечень алгоритмов, использующих различные параметры настроек нормализации данных.
+---
+# Нормализация
 
-**Normalization of field values** means the data transformation by the kind that is the most suitable one for algorithm processing.
+**[Нормализация](https://wiki.loginom.ru/articles/data-normalization.html) значений полей** — это преобразование данных к виду, наиболее подходящему для обработки алгоритмом.
 
-Normalization configuration is available as a separate page in the following wizards:
-* [Linear regression](../datamining/linear-regression/README.md).
-* [Logistic regression](../datamining/logistic-regression/README.md).
-* [Neural network (classification)](../datamining/neural-network-classification.md).
-* [Neural network (regression)](../datamining/neural-network-regression.md).
-* [Clustering](../datamining/clustering.md).
-* [EM clustering](../datamining/em-clustering.md).
-* [ARIMAX](../datamining/arimax.md).
-* [Self-organizing networks](../datamining/self-organizing-network.md).
+Настройка нормализации доступна как отдельная страница в мастерах:
+* [Линейная регрессия](./../datamining/linear-regression/README.md);
+* [Логистическая регрессия](./../datamining/logistic-regression/README.md);
+* [Нейросеть (классификация)](./../datamining/neural-network-classification.md);
+* [Нейросеть (регрессия)](./../datamining/neural-network-regression.md);
+* [Кластеризация](./../datamining/clustering.md);
+* [EM Кластеризация](./../datamining/em-clustering.md);
+* [ARIMAX](./../datamining/arimax.md);
+* [Самоорганизующиеся сети](./../datamining/self-organizing-network.md).
 
-## Normalization Settings
+## Настройки нормализации
 
-* **Field**: data set field.
-* **Normalizer**: the selected field normalizer.
-* **Multiplier**; the parameter that enables to define column significance while model training. Zero value means that the column does not take part in the model training process. Higher value as compared with other fields increases a chance that the column will be included into the final model.
-* **Irremovable**: the indicator of the irremovable field. It cannot be removed in the factor selection process. This factor will be always included into the model.
+* **Поле** — поле набора данных.
+* **Нормализатор** — выбранный нормализатор поля.
+* **Множитель** — параметр, определяющий значимость столбца при построении модели. Нулевое значение эквивалентно тому, что столбец не участвует при построении модели. Более высокое значение по сравнению с другими полями увеличивает шансы, что столбец будет присутствовать в финальной модели.
+* **Неудаляемое** — признак неудаляемости поля. Не может быть удалено в процессе отбора факторов. Данный фактор всегда будет присутствовать в модели.
 
-Different parameters of the normalization settings are used by the listed algorithms:
+Перечисленные алгоритмы используют различные параметры настроек нормализации:
 
-| **Component** | **Field** | **Normalizer** | **Multiplier** | **Irremovable** |
+| **Компонент** | **Поле** | **Нормализатор** | **Множитель** | **Неудаляемое** |
 | :--------------------- | :------------: | :------------: | :------------: |:------------: |
-| Linear regression | • | • | • | • |
-| Logistic regression | • | • | • | • |
-| Neural network (classification) | • | • |  |  |
-| Neural network (regression) | • | • |  |  |
-| Clustering | • | • |  |  |
-| EM Clustering | • | • |  |   |
-| ARIMAX | • | • |  |   |
-| Self-organizing networks | • | • |  | &nbsp; |
+| Линейная регрессия        | • | • | • | • |
+| Логистическая регрессия   | • | • | • | • |
+| Нейросеть (классификация) | • | • |  |  |
+| Нейросеть (регрессия)     | • | • |  |  |
+| Кластеризация             | • | • |  |  |
+| EM Кластеризация          | • | • |  |   |
+| ARIMAX                    | • | • |  |   |
+| Самоорганизующиеся сети   | • | • |  | &nbsp; |

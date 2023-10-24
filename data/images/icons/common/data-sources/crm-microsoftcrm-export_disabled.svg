@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="crm-microsoftcrm-export.disabled">
+	<path style="fill:#BFBFBF;" d="M17,6.265c0,3.974,0,10.013,0,10.013c-4.799-1.807-12.169-1.651-16,0.052
+		c2.914-1.703,8.464-2.941,12.284-1.703c0,0,0-2.16,0-4.763C14.787,8.734,15.75,7.577,17,6.265z"/>
+	<path style="fill:#6D6D6D;" d="M1,14.936c0,0,0,0.619,0,1.394c1.909-1.703,6.297-2.684,8.052-2.839c0,0,0-0.477,0-1.255v-2.28V1
+		C7.606,9.619,1.826,14.368,1,14.936z"/>
+	<path style="fill:#8C8C8C;" d="M9.052,9.955v2.28c0,0.778,0,1.255,0,1.255C7.297,13.646,2.909,14.626,1,16.329
+		c2.914-1.703,8.464-2.941,12.284-1.703c0,0,0-2.16,0-4.763V3.58C12.481,6.12,10.869,8.249,9.052,9.955z"/>
+	<rect x="1" y="1" style="fill:#595959;" width="4" height="4"/>
+	<polygon style="fill:#E6E6E6;" points="3,2 3,3 2,3 2,4 3,4 4,4 4,3 4,2 	"/>
+</g>
+</svg>

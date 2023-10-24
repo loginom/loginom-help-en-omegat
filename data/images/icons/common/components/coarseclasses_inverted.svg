@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#8C8C8C;">
+	<!ENTITY st2 "fill:#BFBFBF;">
+	<!ENTITY st3 "fill:#71B1E4;">
+	<!ENTITY st4 "fill:#F7931E;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="coarseclasses.inverted">
+	<polygon style="&st0;" points="13,1 15,3 11,3 	"/>
+	<polygon style="&st0;" points="16,14 16,13 16,11 14,11 12,11 10,11 10,13 10,15 8,15 8,5 8,3 6,3 4,3 2,3 2,5 2,12 1,12 1,14 
+		4,14 4,13 4,12 4,5 6,5 6,15 6,17 8,17 10,17 12,17 12,15 12,13 14,13 14,14 14,16 17,16 17,14 	"/>
+	<rect x="12" y="3" style="&st0;" width="2" height="2"/>
+	
+		<rect x="10" y="10" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 20.9999 1.000000e-04)" style="&st0;" width="1" height="1"/>
+	<rect x="10" y="8" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 18.9999 -1.9999)" style="&st0;" width="1" height="1"/>
+	<rect x="12.5" y="5.5" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 19.5 -6.5)" style="&st0;" width="1" height="2"/>
+	<rect x="10" y="6" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 16.9999 -3.9999)" style="&st0;" width="1" height="1"/>
+	<rect x="15" y="6" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 21.9999 -8.9999)" style="&st0;" width="1" height="1"/>
+	<rect x="15" y="10" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 26 -5)" style="&st0;" width="1" height="1"/>
+	<rect x="15" y="8" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 23.9999 -6.9999)" style="&st0;" width="1" height="1"/>
+</g>
+</svg>

@@ -1,25 +1,32 @@
-# ![ ](../../images/icons/data-sources/file-native-import_default.svg) Import from the LGD File
+---
+description: Импорт данных в Loginom из LGD-файла. Импорт данных в Loginom из DDF-файла. Мастер настройки.
+---
+# ![ ](./../../images/icons/common/data-sources/file-native-import_default.svg) Импорт из LGD-файла
 
-The handler is designated for the table import from the [LGD file](../../data-format/lgd-file.md). The DDF files import from the Deductor platform is supported.
+Узел предназначен для импорта таблицы из [LGD-файла](./../../data-format/lgd-file.md). Поддерживается импорт DDF-файлов платформы Deductor.
 
-LGD: the special format of files optimized for work in Loginom. It provides the maximum writing and reading speed. The file includes settings of fields that simplifies the import process.
+LGD — специальный формат файлов, оптимизированный для работы в Loginom и обеспечивающий максимальную скорость записи и чтения. Файл хранит в себе настройки полей, что упрощает процесс импорта.
 
-## Ports
+## Порты
 
-### Input
+### Вход
 
-* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Control variables](../../scenario/variables/control-variables.md) (optional port): it is possible to set values of the wizard parameters using variables.
+* ![ ](./../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Управляющие переменные](./../../workflow/variables/control-variables.md) (необязательный порт) — переменными можно задать значения параметров мастера настройки.
 
-### Output
+### Выход
 
-* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg)Imported data set
+* ![ ](./../../images/icons/app/node/ports/inputs/table_inactive.svg) Импортированная таблица.
 
-## Wizard
+## Мастер настройки
 
-* **File storage** enables to display information on method of connection to the source file.
-* **File name** enables to set a path to the imported file when the connection is local, or a file name when using connection to a folder. ![ ](../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button calls the file selection dialog.
-* **Compression** enables to display information on the LGD file compression method used for its creation.
-   * None
-   * [LZO](https://ru.wikipedia.org/wiki/LZO).
-   * [LZ4](https://ru.wikipedia.org/wiki/LZ4).
-* **Bitness** enables to display information on bitness of the imported file: 64 or 32 bits.
+* **Имя файла** — задает путь к импортируемому файлу при локальном подключении, либо имя файла при использовании подключения к папке. Кнопка ![ ](./../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) вызывает диалог выбора файла.
+* **Сжатие** — отображает информацию о методе сжатия LGD-файла, использованном при его создании:
+  * Без сжатия.
+  * [LZO](https://ru.wikipedia.org/wiki/LZO).
+  * [LZ4](https://ru.wikipedia.org/wiki/LZ4).
+* **Разрядность** — выводит информацию о разрядности импортируемого файла: 64 или 32 бита.
+* **Контрольная сумма** — информация о контрольной сумме сжатия файла:
+  * Сжатых данных — записана контрольная сумма сжатых данных после каждого блока.
+  * Сжатых и несжатых данных — записана контрольная сумма сжатых данных после каждого блока, а также контрольная сумма всех несжатых данных в конце файла.
+  * Нет — нет контрольной суммы.
+* **Проверять контрольную сумму** — если флаг установлен, то будет выполняться проверка контрольной суммы, если она есть в файле. Это страхует пользователя от незаметных искажений и от Access Violation, если файл по какой-то причине оказался испорчен. В этом случае чтение происходит медленнее на 2%, если контрольная сумма была от сжатых данных, и до 7%, если были оба вида контрольной суммы. По умолчанию проверка контрольной суммы выполняется (флаг установлен).

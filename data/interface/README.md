@@ -1,10 +1,15 @@
-# Interface
+---
+description: Основные блоки интерфейса аналитической платформы Loginom.  Рабочее пространство пользователя платформы. Главное меню. Адресная строка. Панель "процессы". 
+---
 
-Upon creation or opening of the package on the ["Home" page](./home-page.md), the main work application window that consists of four main blocks will appear (refer to  Figure 1):
+# Интерфейс
 
-![Work window of Loginom platform](./interface-blocks.png)
+На рисунке 1 показаны основные блоки интерфейса:
 
-1. [Main menu](./main-menu.md): the panel designated for operations with different settings.
-2. [Address bar](./addres-bar.md): the line that contains a path to the opened object.
-3. [Working space](./workspace.md): the panel of components, toolbar and area of the Workflows construction.
-4. ["Processes" panel](./processes-panel.md): the panel that contains detailed information on the current/finished processes of the current session.
+![Основные блоки интерфейса](./interface-blocks.png)
+
+1. [Главное меню](./main-menu.md) — позволяет пользователю начать/завершить работу, получить доступ к пакетам и настройкам платформы и др.
+Состав элементов *Главного меню* может изменяться в зависимости от редакции платформы (Server/Desktop), прав пользователя, а также при работе с визуализаторами.
+2. [Адресная строка](./address-bar.md) — строка, содержащая путь к открытому объекту.
+3. Рабочее пространство — область, в которой осуществляются основные действия по построению сценария, настройке подключений, отчетов, администрированию платформы и т.п. Состав элементов, доступных команд и визуальное отображение этой области зависят от того, какая страница платформы находится в активном состоянии. На рисунке 1 показано рабочее пространство страницы [«Сценарий»](./workflow.md).
+4. [Панель «Процессы»](./processes-panel.md) — панель, содержащая подробную информацию о процессах обработки данных узлами Сценария.

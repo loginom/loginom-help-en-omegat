@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#BFBFBF;">
+	<!ENTITY st2 "fill:#8C8C8C;">
+	<!ENTITY st3 "fill:#71B1E4;">
+	<!ENTITY st4 "fill:#F7931E;">
+	<!ENTITY st5 "fill:#3E7FAA;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="qa.default">
+	<path style="&st3;" d="M17,17.414L13.586,14H6.509C5.125,14,4,12.875,4,11.491v-0.982h2v0.982C6,11.771,6.229,12,6.509,12h7.905
+		L15,12.586V7.509C15,7.229,14.771,7,14.491,7h-0.982V5h0.982C15.875,5,17,6.125,17,7.509V17.414z"/>
+	<path style="&st4;" d="M1,15.414V4.509C1,3.125,2.125,2,3.509,2h7.982C12.875,2,14,3.125,14,4.509v3.982
+		C14,9.875,12.875,11,11.491,11H5.414L1,15.414z M3.509,4C3.229,4,3,4.229,3,4.509v6.077L4.586,9h6.905C11.771,9,12,8.771,12,8.491
+		V4.509C12,4.229,11.771,4,11.491,4H3.509z"/>
+</g>
+</svg>

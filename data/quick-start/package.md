@@ -1,15 +1,21 @@
-# Package Usage Type and Structure
+---
+description: Проект в аналитической платформе Loginom. Структура пакета и модуля в Loginom. Файлы с расширением lgp и lck. Подключение пакета для повторного использование компонентов.
+---
+# Назначение и структура пакета
 
-All actions with the project in Loginom must be performed within the Package that is a minimum delivery unit and has the form of a container for components, workflows, connections, etc.
+Все действия с проектом в [**Loginom**](https://loginom.ru) осуществляются в рамках Пакета, который является минимальной единицей поставки и представляет собой контейнер для компонентов, сценариев, подключений и т.д.
 
-Packages are saved separately in the form of files with .lgp extension, and they include References and Modules.
+Пакеты сохраняются по отдельности в виде файлов с расширением .lgp, и включают в себя [Ссылки](./../workflow/reference-to-package.md) и Модули.
 
-The References are used for connection of other packages in order to use the derived components created in them and connections in the current project. Corresponding objects are available only if they are published for shared access.
+Ссылки применяются для подключения других пакетов с целью использования созданных в них производных компонентов и подключений в текущем проекте. Соответствующие объекты доступны только в том случае, когда они опубликованы для общего доступа.
 
-Each package contains at least one module. The Module inludes the following items:
+Каждый пакет содержит хотя бы один модуль. Модуль включает в себя:
 
-* The [Workflow](./first-scenario.md) contains sequence of data processing nodes.
-* [Connections](./../integration/connections/README.md) include a list of the external sources and data receivers to be connected with.
-* [Components](./../processors/README.md#standartnye-komponenty) include the supernodes available for work, both created within the current package and borrowed from other packages using references.
+* [Сценарий](./first-workflow.md) — содержит последовательность узлов обработки данных.
+* [Подключения](./../integration/connections/README.md) — в них представлен список внешних источников и приемников данных, к которым можно подключиться.
+* [Компоненты](./../processors/README.md#standartnye-komponenty) — доступные для работы подмодели, как созданные в рамках текущего пакета, так и заимствованные из других пакетов через ссылки.
 
-> Note: In the case of any package opening the file with the following name is created: `<Package_name>.lgp.lck`. This file protects the opened package from possible editing or deleting by other users. This file is deleted upon the package closure.
+>**Примечание:**
+>1. При открытии любого пакета всегда создается файл с именем `<Название_пакета>.lgp.lck`. Он защищает открытый пакет от возможности редактировать или удалить его другими пользователями. После закрытия пакета этот файл удаляется.
+>
+>2. Если включена опция автосохранения пакетов (см. подробнее [Пакеты](./../interface/packages.md)), то рядом с открытым .lgp файлом создается файл с именем `<Название пакета>.lgp.autosave`. Пакет сохраняется в файл с расширением .lgp.autosave с заданной периодичностью. При необходимости можно переименовать файл `<Название пакета>.lgp.autosave` в `<Название пакета>.lgp` и восстановить последнюю сохраненную версию пакета.

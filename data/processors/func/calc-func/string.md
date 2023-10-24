@@ -1,315 +1,319 @@
-# String Functions
+---
+description: Строковые функции Loginom. Функции Chr, Concat, Count, DamLevDist, Find, Format, Left, LevDist, Lower, RegExDomain, RegExEmail, RegExMatch, RegExMatchCount, RegExMatchedExp, RegExReplace, RegExReplaceAll, Repeat, Replace, Right, Space, Str, StrZero, Stuff, SubStr, Trim, Upper, Val
+---
+# Строковые функции
 
 ## Chr
 
-**Chr(Argument)**
+**Chr(Аргумент)**
 
-* Argument - numerical code of Unicode character in the range of [0, 65535].
+* Аргумент - числовой код символа Unicode в диапазоне [0, 65535].
 
-Returns Unicode character according to its code.
+Возвращает символ Unicode по его коду.
 
 ## Concat
 
-**Concat(String, String [, ... String])**
+**Concat(Строка, Строка [, ... Строка])**
 
-* String - string expression.
+* Строка - строковое выражение.
 
-Combines several strings into one.
-Null values are interpreted as the strings with zero length, namely, as "".
+Объединяет несколько строк в одну.
+Пропущенные значения интерпретируются как строки с нулевой длиной, т.е. как "".
 
 ## Count
 
-**Count(String)**
+**Count(Строка)**
 
-* String - string expression.
+* Строка - строковое выражение.
 
-Returns count of characters in the string.
+Возвращает количество символов в строке.
 
 ## DamLevDist
 
-**DamLevDist(String1, String2)**
+**DamLevDist(Строка1, Строка2)**
 
-* String1.
-* String2 - expressions of the string type.
+* Строка1,
+* Строка2 - выражения строкового типа.
 
-Function returns the value of the Damerau–Levenshtein distance for String1, String2. The Damerau–Levenshtein distance is also called the edit distance with reference to transpositions that is the similarity of measurement of the two strings. Its result is the minimum number of the character deletion, insertion, substitution and transposition operations that must be performed in order to convert one string into another.
+Функция возвращает значение расстояния Дамерау-Левенштейна для строк Строка1, Строка2. Расстояние Дамерау-Левенштейна также называют расстоянием редактирования с учетом перестановок, которое является мерой похожести двух строк. Результат - это минимальное количество операций удалений, вставки, замены и перестановок символов, которое нужно произвести, чтобы преобразовать одну строку в другую.
 
 ## Find
 
-**Find(Substring, String[, MatchIndex = 1])**
+**Find(Подстрока, Строка[, Порядок = 1])**
 
-* Substring - searched substring.
-* String - the string in which substring is searched.
-* MatchIndex - optional occurrence index of the Substring in the String to be returned. Argument of the numeric type.
+* Подстрока - искомая подстрока,
+* Строка - строка, в которой ищется подстрока,
+* Порядок - необязательный параметр, позицию какого по счету вхождения Подстроки в Строку возвращать. Аргумент числового типа.
 
-Function returns position of the first character of the Substring of the set MatchIndex in the String.
-The MatchIndex can be both positive and negative. If the MatchIndex is positive, the search is performed from left to right, if it is negative, the search is performed from right to left.
-If there is no occurrence of the set order, the function returns 0.
-For example, Find("A", "A000A00A", 2) will return position of the second left occurrence of substring "A" to string "A000A00A", namely, 5;
-Find("A", "A000A00A", -1) will return position of the first right occurrence of substring "A" to string "A000A00A", namely, 8.
-If the MatchIndex is equal to zero, the function will return the Null value (Null).
+Функция возвращает позицию первого символа Подстроки заданного Порядка в Строке.
+ Порядок может быть как положительным, так и отрицательным. Если Порядок положительный, то поиск происходит слева направо, если отрицательный, то справа налево.
+ Если вхождения заданного порядка нет, то функция возвращает 0.
+ Например, Find("A", "A000A00A", 2) вернет позицию второго слева вхождения подстроки "А" в строку "A000A00A", т.е. 5;
+ Find("A", "A000A00A", -1) вернет позицию первого справа вхождения подстроки "А" в строку "A000A00A", т.е. 8.
+ Если Порядок равен нулю, то функция возвращает Неопределенное значение (Null).
 
 ## Format
 
-**Format(Format\_string, Expression [, ... Expression])**
+**Format(Строка\_формата, Выражение [, ... Выражение])**
 
-* Format\_string - string expression of the special type.
-* Expression - arbitrary string expression.
+* Строка\_формата - строковое выражение специального вида
+* Выражение - произвольное строковое выражение.
 
-Returns the list of expressions in the given format.
-Format\_string is represented below:
-[String] %s [String] [... [[String]%s[String]]]
-String - string expression
-%s - character that is replaced by another Expression from the list.
+Возвращает список выражений в заданном формате.
+Строка\_формата имеет следующий вид:
+       [Строка] %s [Строка] [... [[Строка]%s[Строка]]]
+       Строка - строковое выражение
+       %s - символ, на место которого ставится очередное Выражение из списка.
 
 ## Left
 
-**Left(String, Count\_of\_characters)**
+**Left(Строка, Количество\_символов)**
 
-* String - expression of the string type.
+* Строка - выражение строкового типа.
 
-Returns the given count of characters of the left string part.
+Возвращает заданное количество символов левой части строки.
 
 ## LevDist
 
-**LevDist(String1, String2)**
+**LevDist(Строка1, Строка2)**
 
-* String1.
-* String2 - expressions of the string type.
+* Строка1,
+* Строка2 - выражения строкового типа.
 
-Function returns the value of the Levenshtein distance for String1, String2. The Levenshtein distance is also called the edit distance that is the similarity of measurement of the two strings. Its result is the minimum number of the character deletion, insertion and substitution operations that must be performed in order to convert one string into another.
+Функция возвращает значение расстояния Левенштейна для строк Строка1, Строка2. Расстояние Левенштейна также называют расстоянием редактирования, которое является мерой похожести двух строк. Результат - это минимальное количество операций удалений, вставки и замены символа, которое нужно произвести, чтобы преобразовать одну строку в другую.
 
 ## Lower
 
-**Lower(Argument)**
+**Lower(Аргумент)**
 
-* Argument - string expression.
+* Аргумент - строковое выражение.
 
-Returns the lowercase argument.
+Возвращает аргумент в нижнем регистре.
 
 ## RegExDomain
 
-**RegExDomain(InputString [, OccurenceNumber = 1])**
+**RegExDomain(Вх.Строка [, Ном.Вхожд = 1])**
 
-* InputString - the input string in which Email-address will be searched.
-* OccurenceNumber - the index of Email-address in the searched string.
+* Вх.Строка - входная строка, в которой будет искаться Email-адрес;
+* Ном.Вхожд - порядковый номер Email-адрес-а, в искомой строке.
 
-Returns OccurencesNumber site address from the InputString string, not including www till the top level domain, inclusively.
-Regular expressions are used for search.
+Возвращает Ном.Вхожд-й адрес сайта из строки Вх.Строка не включая www до домена 1-го уровня включительно.
+Для поиска используются регулярные выражения.
 
 ## RegExEmail
 
-**RegExEmail(InputString [, OccurenceNumber = 1])**
+**RegExEmail(Вх.Строка [, Ном.Вхожд = 1])**
 
-* InputString - the input string in which Email-address will be searched.
-* OccurenceNumber - the index of Email-address in the searched string.
+* Вх.Строка - входная строка, в которой будет искаться Email-адрес;
+* Ном.Вхожд - порядковый номер Email-адрес-а, в искомой строке.
 
-Extracts OccurencesNumber Email-address from the InputString string.
-Regular expressions are used for search.
+Извлекает Ном.Вхожд-й Email-адрес из строки Вх.Строка.
+Для поиска используются регулярные выражения.
 
 ## RegExMatch
 
-**RegExMatch(RegularExpression, String)**
+**RegExMatch(Рег.Выр., Строка)**
 
-* RegularExpression - the regular expressions string.
-* String - the input string.
+* Рег.Выр. - строка регулярного выражения;
+* Строка - входная строка.
 
-Checks the string and regular expression matching.
-PCRE2 library is used. Syntax and semantics are compatible with the Perl regular expressions.
+Проверяет соответствие строки регулярному выражению.
+Используется библиотека PCRE2. Синтаксис и семантика совместимы с регулярными выражениями Perl.
 
 ## RegExMatchCount
 
-**RegExMatchCount(RegularExpression, String)**
+**RegExMatchCount(Рег.Выр., Строка)**
 
-* RegularExpression - the regular expressions string.
-* String - the input string.
+* Рег.Выр. - строка регулярного выражения;
+* Строка - входная строка.
 
-Returns the number of the string parts matching the regular expression.
-PCRE2 library is used. Syntax and semantics are compatible with the Perl regular expressions.
+Возвращает кол-во частей строки, соответствующих регулярному выражению.
+Используется библиотека PCRE2. Синтаксис и семантика совместимы с регулярными выражениями Perl.
 
 ## RegExMatchedExp
 
-**RegExMatchedExp(RegularExpression, String [, PartNumber = 1])**
+**RegExMatchedExp(Рег.Выр., Строка [, НомерЧасти = 1])**
 
-* RegularExpression - the regular expressions string.
-* String - the input string.
-* PartNumber - the part index matching the regular expression, input string. Parameter must be included into the range from 1 to RegExMatchCount.
+* Рег.Выр. - строка регулярного выражения;
+* Строка - входная строка;
+* НомерЧасти - порядковый номер части, соответствующей регулярному выражению, входной строки. Параметр должен входить в диапазон от 1 до RegExMatchCount.
 
-Returns the string part matching the regular expression.
-PCRE2 library is used. Syntax and semantics are compatible with the Perl regular expressions.
+Возвращает часть строки, соответствующую регулярному выражению.
+Используется библиотека PCRE2. Синтаксис и семантика совместимы с регулярными выражениями Perl.
 
 ## RegExMatchedNamedSubExp
 
-**RegExMatchedNamedSubExp(RegularExpression, String, GroupName [, PartNumber = 1])**
+**RegExMatchedNamedSubExp(Рег.Выр., Строка, ИмяГруппы [, НомерЧасти = 1])**
 
-* RegularExpression - the regular expressions string.
-* String - the input string.
-* GroupName - name of the group defined by metacharacters (...).
-* PartNumber - the part index matching the regular expression, input string. Parameter must be included into the range from 1 to RegExMatchCount.
+* Рег.Выр. - строка регулярного выражения;
+* Строка - входная строка;
+* ИмяГруппы - имя группы, определяемой метасимволами (...);
+* НомерЧасти - порядковый номер части, соответствующей регулярному выражению, входной строки. Параметр должен входить в диапазон от 1 до RegExMatchCount.
 
-Returns the string part group matching the regular expression.
-Groups are numbered from left to right according to occurrence of opening brackets.
-PCRE2 library is used. Syntax and semantics are compatible with the Perl regular expressions.
+Возвращает группу части строки, соответствующую регулярному выражению.
+Группы нумеруются слева направо, в порядке появления открывающихся скобок.
+Используется библиотека PCRE2. Синтаксис и семантика совместимы с регулярными выражениями Perl.
 
 ## RegExMatchedSubExp
 
-**RegExMatchedSubExp(RegularExpression, String, GroupNumber [, PartNumber = 1])**
+**RegExMatchedSubExp(Рег.Выр., Строка, НомерГруппы [, НомерЧасти = 1])**
 
-* RegularExpression - the regular expressions string.
-* String - the input string.
-* GroupNumber - index number of the group defined by metacharacters (...).
-* PartNumber - the part index matching the regular expression, input string. Parameter must be included into the range from 1 to RegExMatchCount.
+* Рег.Выр. - строка регулярного выражения;
+* Строка - входная строка;
+* НомерГруппы - порядковый номер группы, определяемой метасимволами (...);
+* НомерЧасти - порядковый номер части, соответствующей регулярному выражению, входной строки. Параметр должен входить в диапазон от 1 до RegExMatchCount.
 
-Returns the string part group matching the regular expression.
-Groups are numbered from left to right according to occurrence of opening brackets.
-PCRE2 library is used. Syntax and semantics are compatible with the Perl regular expressions.
+Возвращает группу части строки, соответствующую регулярному выражению.
+Группы нумеруются слева направо, в порядке появления открывающихся скобок.
+Используется библиотека PCRE2. Синтаксис и семантика совместимы с регулярными выражениями Perl.
 
 ## RegExReplace
 
-**RegExReplace(RegularExpression, InputString, ReplaceString [, PartNumber = 1, ExtendedSyntax = False])**
+**RegExReplace(Рег.Выр., Вх.Строка, СтрокаЗамены [, НомерЧасти = 1, Расш.Синтаксис = False])**
 
-* RegularExpression - the regular expressions string.
-* InputString - the input string that will be replaced.
-* ReplaceString - the string that will be inserted instead of the input string part matching the regular expression.
-* PartNumber - the part index matching the regular expression, input string. Parameter must be included into the range from 1 to RegExMatchCount.
-* ExtendedSyntax - extended replacement syntax (only for PCRE2).
+* Рег.Выр. - строка регулярного выражения;
+* Вх.Строка - входная строка, которая будет подвержена замене;
+* СтрокаЗамены - строка, которая будет вставлена вместо части входной строки, соответствующей регулярному выражению;
+* НомерЧасти - порядковый номер части, соответствующей регулярному выражению, входной строки. Параметр должен входить в диапазон от 1 до RegExMatchCount.
+* Расш.Синтаксис - расширенный синтаксис замены (только для PCRE2)
 
-Returns the InputString in which the PartNumber expression occurrence of the RegularExpression will be replaced with the ReplaceString.
-PCRE2 library is used. Syntax and semantics are compatible with the Perl regular expressions.
+Возвращает Вх.Строка, в которой НомерЧасти-ое вхождение выражения Рег.Выр. будет заменено на СтрокаЗамены.
+Используется библиотека PCRE2. Синтаксис и семантика совместимы с регулярными выражениями Perl.
 
 ## RegExReplaceAll
 
-**RegExReplaceAll(RegularExpression, InputString, ReplaceString [, ExtendedSyntax = False])**
+**RegExReplaceAll(Рег.Выр., Вх.Строка, СтрокаЗамены [, Расш.Синтаксис = False])**
 
-* RegularExpression - the regular expressions string.
-* InputString - the input string that will be replaced.
-* ReplaceString - the string that will be inserted instead of the input string parts matching the regular expression.
-* ExtendedSyntax - extended replacement syntax (only for PCRE2).
+* Рег.Выр. - строка регулярного выражения;
+* Вх.Строка - входная строка, которая будет подвержена замене;
+* СтрокаЗамены - строка, которая будет вставлена вместо частей входной строки, соответствующих регулярному выражению.
+* Расш.Синтаксис - расширенный синтаксис замены (только для PCRE2)
 
-Returns the InputString in which all occurrences of the RegularExpression expression will be replaced with the ReplaceString.
-PCRE2 library is used. Syntax and semantics are compatible with the Perl regular expressions.
+Возвращает Вх.Строка, в которой все вхождения выражения Рег.Выр. будут заменены на СтрокаЗамены.
+Используется библиотека PCRE2. Синтаксис и семантика совместимы с регулярными выражениями Perl.
 
 ## Repeat
 
-**Repeat(String, Count\_of\_repeats)**
+**Repeat(Строка, Количество\_повторов)**
 
-* String - string expression.
-* Count\_of\_repeats - integer.
+* Строка - строковое выражение.
+* Количество\_повторов - целое выражение
 
-Returns a string - repeating the given string as many times as necessary.
+Возвращает строку - повторяющую заданную строку необходимое количество раз.
 
 ## Replace
 
-**Replace(String, Old\_template, New\_template [, Replace\_all, Ignore\_case])**
+**Replace(Строка, Старый\_шаблон, Новый\_шаблон [, Заменять\_все, Игнорировать\_регистр])**
 
-* String - the string in which a replacement is required.
-* Old\_template - the replaced substring.
-* New\_template - the string with which the Old template will be replaced.
-* Replace\_all - flag of replacement of all occurrences of the Old template with the New template. Argument of the logical type.
-* Ignore\_case - flag of case sensitivity in the case of replacement. Argument of the logical type.
+* Строка - строка, в которой необходимо сделать замену;
+* Старый\_шаблон - заменяемая подстрока;
+* Новый\_шаблон - строка, на которую будет заменяться Старый шаблон;
+* Заменять\_все - флаг замены всех вхождений Старого шаблона на Новый шаблон. Аргумент логического типа;
+* Игнорировать\_регистр - флаг чувствительности к регистру при замене. Аргумент логического типа.
 
-Function returns the String in which occurrences of the Old template were substituted with the New template.
-If "Replace all" flag has the True (true) meaning, then all occurrences of the Old template will be replaced with the New template in the returned string.
-If "Replace all" flag has the False (false) meaning, then only the first in order occurrence will be replaced in the returned string.
-If "Ignore case" flag has the True (true) meaning, then a search for the replaced fragments (the Old template) will be case insensitive.
-If "Ignore case" flag has the False (false) meaning, then a search for the replaced fragments (the Old template) will be case sensitive.
-Not stating the last two parameters is permitted.
-If "Ignore case" flag is not stated, then a search for the replaced fragments will be case sensitive.
-If "Replace all" flag is not stated, then only the first occurrence of the replaced substring will be replaced.
-For example, Replace("A000а00A", "А", "B", True, True) will return string "B000B00B", namely, it will replace all occurrences of string "А" with string "В" ignoring the character case;
-Replace("A000а00A", "А", "B", True, False) will return string "B000а00B".
-Replace("A000а00A", "А", "B") will return string "B000а00A".
+Функция возвращает Строку, в которой вхождения Старого шаблона были заменены на Новый шаблон.
+ Если флаг "Заменять все" имеет значение True (истина), то в возвращаемой строке будут заменены все
+ вхождения Старого Шаблона на Новый шаблон.
+ Если флаг "Заменять все" имеет значение False (ложь), то в возвращаемой строке будет заменено только первое по порядку вхождение.
+ Если флаг "Игнорировать регистр" имеет значение True (истина), то поиск заменяемых фрагментов (Старый шаблон) будет регистронезависимым.
+ Если флаг "Игнорировать регистр" имеет значение False (ложь), то поиск заменяемых фрагментов (Старый шаблон) будет регистрозависимым.
+ Последние два параметра можно не указывать.
+ Если не указан флаг "Игнорировать регистр", то поиск заменяемых фрагментов будет регистрозависимым .
+ Если не указан флаг "Заменять все", то будет заменено только первое вхождение заменяемой подстроки.
+ Например, Replace("A000а00A", "А", "B", True, True) вернет строку "B000B00B" , т.е. заменит все вхождения строки "А" на строку "В" игнорируя регистр символов;
+ Replace("A000а00A", "А", "B", True, False) вернет строку "B000а00B".
+ Replace("A000а00A", "А", "B") вернет строку "B000а00A".
 
 ## Right
 
-**Right(String, Count\_of\_characters)**
+**Right(Строка, Количество\_символов)**
 
-* String - expression of the string type.
+* Строка - выражение строкового типа.
 
-Returns the given count of characters of the right string part.
+Возвращает заданное количество символов правой части строки.
 
 ## Space
 
-**Space(Count\_of\_spaces)**
+**Space(Количество\_пробелов)**
 
-* Count\_of\_spaces - integer.
+* Количество\_пробелов - целое выражение.
 
-Returns the given count of spaces..
+Возвращает заданное количество пробелов.
 
 ## Str
 
-**Str(Argument)**
+**Str(Аргумент)**
 
-* Argument - expression of the numeric type.
+* Аргумент - выражение числового типа.
 
-Returns the Argument as a string taking into account locales.
+Возвращает строковое представление Аргумента с учетом локали.
 
 ## StrZero
 
-**StrZero(Expression, Total\_length)**
+**StrZero(Выражение, Общая\_длина)**
 
-* Expression - numeric expression.
-* Total\_length - length of the resulting string.
+* Выражение - числовое выражение.
+* Общая\_длина - длина результирующей строки
 
-Adds zeros at the front of the specified expression so that the resulting string length is equal to the Total\_length.
+Добавляет спереди заданного выражения нули так, чтобы длина результирующей строки равнялась Общей\_длине.
 
 ## Stuff
 
-**Stuff(Source, Start\_position, Length [, Inserted_string = ""])**
+**Stuff(Источник, Начало\_позиции, Длина [, Вставляемая\_строка = ""])**
 
-* Source - string expression.
-* Inserted\_string - string expression.
-* Start - position of the insert start.
-* Length - length of the deleted substring.
+* Источник - строковое выражение.
+* Вставляемая\_строка - строковое выражение.
+* Начало - позиция начала вставки
+* Длина - длина удаляемой подстроки
 
-Returns the string of the following type. At first, substring is deleted from the Source, starting from the Start position of the Length length. Then instead of the deleted substring, the Inserted\_string is inserted.
+Возвращает строку следующего вида. Сначала из Источника удаляется подстрока, начиная с позиции Начало длиной Длина. Затем на место удаленной подстроки вставляется Вставляемая\_строка.
 
 ## SubStr
 
-**SubStr(Source, Start, Length)**
+**SubStr(Источник, Начало, Длина)**
 
-* Source - string expression.
-* Start - position of the substring start.
-* Length - the substring length.
+* Источник - строковое выражение.
+* Начало - позиция начало подстроки
+* Длина - длина подстроки
 
-Returns substring from string - source, starting from the Start position of the Length length.
+Возвращает подстроку из строки - источника, начиная с позиции Начало длиной Длина.
 
 ## Trim
 
-**Trim(Argument)**
+**Trim(Аргумент)**
 
-* Argument - string expression.
+* Аргумент - строковое выражение.
 
-Returns the Argument without leading and trailing spaces.
+Возвращает Аргумент без ведущих и ведомых пробелов.
 
 ## TrimLeft
 
-**TrimLeft(Argument)**
+**TrimLeft(Аргумент)**
 
-* Argument - string expression.
+* Аргумент - строковое выражение.
 
-Returns the Argument without leading spaces.
+Возвращает Аргумент без ведущих пробелов.
 
 ## TrimRight
 
-**TrimRight(Argument)**
+**TrimRight(Аргумент)**
 
-* Argument - string expression.
+* Аргумент - строковое выражение.
 
-Returns the Argument without trailing spaces.
+Возвращает Аргумент без ведомых пробелов.
 
 ## Upper
 
-**Upper(Argument)**
+**Upper(Аргумент)**
 
-* Argument - string expression.
+* Аргумент - строковое выражение.
 
-Returns the uppercase argument.
+Возвращает аргумент в верхнем регистре.
 
 ## Val
 
-**Val(String)**
+**Val(Строка)**
 
-* String - string expression.
+* Строка - строковое выражение.
 
-Converts the given string into a number, taking locale into account
+Преобразует заданную строку в число с учетом локали

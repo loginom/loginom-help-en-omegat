@@ -1,68 +1,68 @@
-# System Requirements
+# Системные требования
 
 ## Loginom Desktop
 
-This platform version is designated for installation on the local machine when one user operation is required.
+Данная версия платформы предназначена для установки на локальной машине, когда подразумевается работа одного пользователя.
 
 ### Desktop x86
 
-| Component | Minimum | Recommended |
+| Компонент | Минимальные | Рекомендуемые |
 |:--------- |:-------------|:------------- |
-| OS | Windows 7 and higher | |
+| OS | Windows 7 и выше | |
 | CPU x86 | 1 core | 4 core |
 | RAM | 1 GB | 4 GB |
 | HDD | 10 GB | 100 GB (+ User Data) |
 | USB | 1.0 | 2.0 |
 
-**Note:** The size of the used RAM is limited to 2 GB (restriction of platform x86).
+**Примечание:** Размер используемой оперативной памяти (RAM) ограничен 2 GB (ограничение платформы x86).
 
 ## Desktop x64
 
-| Component | Minimum | Recommended |
+| Компонент | Минимальные | Рекомендуемые |
 |:--------- |:-------------|:------------- |
-| OS | Windows 7 and higher | |
+| OS | Windows 7 и выше | |
 | CPU x64 | 2 core | 4 core |
 | RAM | 4 GB | 8 GB |
 | HDD | 10 GB | 100 GB (+ User Data) |
 | USB | 1.0 | 2.0 |
 
-**Note:** The system requirements can be changed according to data volume and interoperating with third-party applications.
+**Примечание:** системные требования могут меняться в зависимости от объемов данных и взаимодействия со сторонними приложениями.
 
 ## Loginom Server
 
-This platform version is designated for deployment in the internal network when there is more than one user working from different working places.
+Данная версия платформы предназначена для развертывания во внутренней сети, когда подразумевается работа более чем одного пользователя с различных рабочих мест.
 
 ### Server x64
 
-| Component | Minimum | Recommended |
+| Компонент | Минимальные | Рекомендуемые |
 |:--------- |:-------------|:------------- |
-| OS | Windows Server 2012 and higher | |
+| OS | Windows Server 2012 и выше | |
 | CPU x64 | 4 core | 16 core (Users x 1.6 core + 1 core) |
 | RAM | 8 GB | 16 GB (Users x 2GB + 2GB) |
-| HDD | 1 TB | from 1 ТB (+ User Data) |
+| HDD | 1 TB | от 1 ТB (+ User Data) |
 | USB | 1.0 | 2.0 |
 
-### Studio (Web Client)
+### Studio (веб-клиент)
 
-Browsers:
+Браузеры:
 
-* [Chrome](https://www.google.ru/chrome/browse) 39.0 or higher
-* [Firefox](https://www.mozilla.org/en-US/firefox/organizations/) 52.0 or higher
-* [Opera](http://www.opera.com/ru) 37.0 or higher
-* [Safari](https://www.apple.com/ru/safari/) 10.3 or higher
-* [Internet Explorer](https://www.microsoft.com/ru-ru/download/internet-explorer.aspx) 11.0 or higher
-* [Microsoft Edge](https://www.microsoft.com/ru-ru/windows/microsoft-edge)14.0 or higher
+* [Chrome](https://www.google.ru/chrome/browse) не ниже 39.0
+* [Firefox](https://www.mozilla.org/en-US/firefox/organizations/) не ниже 52.0
+* [Opera](http://www.opera.com/ru) не ниже 37.0
+* [Safari](https://www.apple.com/ru/safari/) не ниже 10.3
+* [Internet Explorer](https://www.microsoft.com/ru-ru/download/internet-explorer.aspx) не ниже 11.0
+* [Microsoft Edge](https://www.microsoft.com/ru-ru/windows/microsoft-edge) не ниже 14.0
 
-**Note:** The system requirements can be changed according to data volume and interoperating with third-party applications.
+**Примечание:** системные требования могут меняться в зависимости от объемов данных и взаимодействия со сторонними приложениями.
 
 ## Loginom Integrator
 
-The component is operated in the application form for Internet Information Services (IIS) and gives an opportunity to publish own web services.
+Компонент функционирует в виде приложения для Internet Information Services (IIS) и предоставляет возможность публиковать собственные веб-сервисы.
 
-| Component | Minimum | Recommended |
+| Компонент | Минимальные | Рекомендуемые |
 |:--------- |:-------------|:------------- |
-| OS | Windows Server 2012 and higher | |
-| Software | IIS 8.0 and higher, .NET Framework 4.5 | |
+| OS | Windows Server 2012 и выше | |
+| Software | IIS 8.0 и выше, .NET Framework 4.5 | |
 | CPU | 2 core | 4 core |
 | RAM | 2 GB | 4 GB |
 | HDD | 100 GB | 500 GB |

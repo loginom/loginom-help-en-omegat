@@ -1,80 +1,83 @@
-# ![ ](../../images/icons/data-sources/web-soap-client_default.svg) SOAP Request
+---
+description: Компонент SOAP-запрос в Loginom. Взаимодействие с внешним SOAP-сервисом. Отправка запросов и получение ответов от внешнего SOAP-сервиса. Мастер настройки.
+---
+# ![ ](./../../images/icons/common/data-sources/web-soap-client_default.svg) SOAP-запрос
 
-The component enables to interact with the external [SOAP service](https://ru.wikipedia.org/wiki/SOAP). It sends requests to it and receives responses. It is possible to send several consequent requests generated from the input table rows with the request parameters to SOAP service. Tables with the service responses, returned errors and additional data is generated in the output ports of the handler. The service XML responses are transformed to the table view.
+Компонент позволяет взаимодействовать с внешним [SOAP-сервисом](https://ru.wikipedia.org/wiki/SOAP), отправляя ему запросы и получая ответы. SOAP-сервису может быть отправлено несколько последовательных запросов, формируемых из строк входной таблицы с параметрами запросов. На выходных портах узла формируются таблицы с ответами сервиса, возвращенными ошибками и дополнительными данными. XML-ответы сервиса преобразуются в табличное представление.
 
-The SOAP services description, WSDL 1.1 specification and SOAP protocols, versions 1.1 and 1.2 are supported.
+Поддерживаются описание SOAP-сервисов спецификации WSDL 1.1 и протоколы SOAP версий 1.1 и 1.2.
 
-It is required to provide the configured [Connection to SOAP service](../../integration/connections/list/soap-service.md) to work with SOAP service.
+Для работы с SOAP-сервисом необходимо настроенное [подключение к SOAP-сервису](./../../integration/connections/list/soap-service.md).
 
-## Ports
+## Порты
 
-### Input Ports
+### Входные порты
 
-* ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) — Connection to SOAP Service (connection to *SOAP Service Connection* component);
-* ![ ](../../images/icons/app/node/ports/inputs-optional/table_inactive.svg) — Request data source (table with the request parameters), optional;
-* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) — Control variables (variables), optional.
+* ![ ](./../../images/icons/app/node/ports/inputs/link_inactive.svg) — Подключение к SOAP-сервису (связь с компонентом *Подключение SOAP-сервиса*);
+* ![ ](./../../images/icons/app/node/ports/inputs-optional/table_inactive.svg) — Источник данных запроса (таблица с параметрами запроса), необязательный;
+* ![ ](./../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) — Управляющие переменные (переменные), необязательный.
 
-### Output Ports
+### Выходные порты
 
-* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) — Output data set (table with the SOAP service responses);
-* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) — Exceptions (WSDL fault);
-* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) — Additional data (table) contains description of errors and SOAP responses of the service.
+* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) — Выходной набор данных (таблица с ответами SOAP-сервиса);
+* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) — Исключения (WSDL fault);
+* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) — Дополнительные данные (таблица) содержат описание ошибок и SOAP-ответы сервиса.
 
-## Wizard
+## Настройка
 
-Before setup start, it is required to provide connection with the SOAP service connection node. Setup includes several steps.
+Перед началом настройки требуется установить связь с узлом подключения к SOAP-сервису. Настройка включает несколько шагов.
 
-### Selection of the request method
+### Выбор метода запроса
 
-The radio button is used to select one of the methods (operations) provided by SOAP service.
+Радиокнопкой необходимо выбрать один из предоставляемых SOAP-сервисом методов (операций).
 
-### Configure Request
+### Настройка запроса
 
-The request parameters are set at this stage. The list of the input data set fields is located on the left. The list of the parameters accepted by SOAP service is located on the right. It is required to establish the links between fields and parameters for provide further setup. It can be done in several ways:
+На данном шаге задаются параметры запроса. Слева расположен список полей входного набора данных. Справа расположен список принимаемых SOAP-сервисом параметров. Для дальнейшей настройки необходимо проставить связи между полями и параметрами, сделать это можно несколькими способами:
 
-* *Drag-and-drop* method: drag the field caption from the left list of the fields to the item of the request parameters list.
-* It is necessary to select the required request parameter in the right table and select the field caption from the input data set from the drop-down list in the *Related fields* column.
-* Use ![ ](../../images/icons/toolbar-controls/auto-connect_default.svg) *Auto Link All* button. It providies auto linking of the input fields and request parameters based on values of captions and types of fields data of the input data set and parameters.
+* Методом *Drag-and-drop* — перетащить метку поля из левого списка полей на элемент списка параметров запроса;
+* В правой таблице выбрать нужный параметр запроса и в столбце *Связанные поля* выбрать из выпадающего списка метку поля из входного набора;
+* Использовать кнопку ![ ](./../../images/icons/common/toolbar-controls/auto-connect_default.svg) *Связать все автоматически*, при этом происходит автоматическое связывание входных полей и параметров запроса, исходя из значений меток и типов данных полей входного набора и параметров.
 
-> **Note**: If the link between the field and object has been incorrectly established, it can be deleted. In order to do that, it is required to select the caption and press ![ ](../../images/icons/link-grid/remove-link_hover.svg) button in the line. If all links are to be deleted, ![ ](../../images/icons/toolbar-controls/remove-all-links_default.svg) *Delete all links* button is used.
+> **Примечание**: если связь между полем и объектом была установлена неправильно, ее можно удалить. Для этого нужно выбрать метку и нажать на кнопку ![ ](./../../images/icons/link-grid/remove-link_hover.svg) на линии связи. При необходимости удаления всех связей используется кнопка ![ ](./../../images/icons/common/toolbar-controls/remove-all-links_default.svg) *Удалить все связи*.
 
-* **Specify time zone** defines whether the [time zone](https://ru.wikipedia.org/wiki/Список_часовых_поясов_по_странам) information is specified according to [ISO_8601](https://ru.wikipedia.org/wiki/ISO_8601) when request parameters of the `Date/Time` type are transferred. Possible values:
-   * Do not specify.
-   * Do not specify for date: do not specify the time zone for the SOAP request items related to the [Date](https://www.w3.org/TR/xmlschema-2/#date) type.
-   * Specify always.
+* **Наличие временной зоны** — определяет, указывается ли информация о [часовом поясе](https://ru.wikipedia.org/wiki/Список_часовых_поясов_по_странам) в рамках стандарта [ISO_8601](https://ru.wikipedia.org/wiki/ISO_8601) при передаче параметров запроса типа `Дата/Время`. Возможные значения:
+  * Не указывать.
+  * Не указывать для даты — не указывать временную зону для элементов SOAP-запроса типа [Date](https://www.w3.org/TR/xmlschema-2/#date).
+  * Указывать всегда.
 
-### Configure Service Response
+### Настройка ответа сервиса
 
-It is required to select parameters of the SOAP service response that will be included into the resulting table in the form of separate columns.
+Необходимо выбрать параметры ответа SOAP-сервиса, которые будут включены в результирующую таблицу в виде отдельных столбцов.
 
-### Configure Exception Handled
+### Настройка обрабатываемых исключений
 
-Attributes of the errors that are to be displayed in the output data set of the *Exceptions* port are selected at this stage.
+На данном шаге выбираются атрибуты ошибок, которые необходимо вывести в выходном наборе порта *Исключения*.
 
-### Custom User Headers
+### Настройка пользовательских заголовков
 
-Names and values of [headers of HTTP requests](https://ru.wikipedia.org/wiki/HTTP#Заголовки) to the service are set at this stage.
+На данном шаге задаются имена и значения [заголовков HTTP-запросов](https://ru.wikipedia.org/wiki/HTTP#Заголовки) к сервису.
 
-### Additional Parameters
+### Дополнительные параметры
 
-* Request Identification.
-   * **One request per input request row**: each row of the input table contains parameters of one request to the service.
-   * **Request identifier - input data set field**: each request is generated from several input table rows with matching identifier. It is required to select the identifier field from the list of the input data set fields.
+* Идентификация запроса.
+  * **Один запрос в каждой строке входного запроса** — каждая строка входной таблицы содержит параметры одного запроса к сервису.
+  * **Идентификатор запроса — поле входного набора** — каждый запрос формируется из нескольких строк входной таблицы с совпадающим идентификатором. Необходимо выбрать поле идентификатора из списка полей входного набора.
 
-> **Note**: As the input data set with the request parameters is optional, when it is not provided, the SOAP service call node will send the only SOAP request without parameters.
+> **Примечание**: поскольку входной набор данных с параметрами запросов является необязательным, то при его отсутствии узел вызова SOAP-сервиса отправит единичный SOAP-запрос без параметров.
 
-* Response Processing.
-   * **Default time zone**: the *Date/Time* type values are transformed when processing the server response according to the following algorithm:
-      * If the time zone is specified for the value, it is transformed to the current time zone of the Loginom server.
-      * If the time zone is not specified for the value, the following conditions are met:
-         * If *Default time zone* is specified, the value is transformed to the current time zone of the Loginom server based on the assumption that it has the time zone specified in the *Default time zone* parameter.
-         * If *Default time zone* is not specified, the value is not changed.
-   * **Repeat single values**: when this checkbox is selected, the information in the parent element is displayed for each child XML element of the service response (for example, attributes, child elements with maxOccurs=1). Otherwise, this information is displayed only for the first child element.
-   * **Check for strict XSD validation**: when this checkbox is selected, XML is validated for strict compliance with the XSD schema stated in WSDL of the web service. Otherwise, the web service response is checked in the simplified accelerated mode. And most checks are performed only for the XML elements that have been selected for displaying in the resulting data set. The simplified check procedure is performed faster, however, it does not secure correct data extraction from XML of the service response if there are undetected validation errors.
-   * **Generate composite field captions**: the field caption used to display XML elements of the service response contains the full path of their location in the hierarchic XML structure.
-* Additional.
-   * **Provide description of error codes** enables to display description of the errors that occurred while request sending, receipt and parsing of the service response.
-   * **Produce "raw" server response**: to show SOAP message of the service response in the output data set of the *Additional data* port.
-* Debug.
-   * **Save Request Text to Disk**: all requests sent to the service are written to the specified folder in the file storage.
-   * **Simulate request with response in a file**: when this checkbox is selected, no actual request is sent to the service, and the content of the specified file is displayed as the service response.
+* Обработка ответа.
+  * **Временная зона по умолчанию** — значения с типом *Дата/Время* преобразуются при обработке ответа сервера по следующему алгоритму:
+    * Если значение содержит указание временной зоны, оно преобразуется к текущей временной зоне сервера Loginom.
+    * Если значение не содержит указание временной зоны, то:
+      * если *Временная зона по умолчанию* задана, значение преобразуется к текущей временной зоне сервера Loginom в предположении, что имеет временную зону, указанную в параметре *Временная зона по умолчанию*.
+      * если *Временная зона по умолчанию* не задана, значение остается без изменений.
+  * **Дублировать единичные значения** — при установке данного флага для каждого дочернего элемента XML ответа сервиса выводится информация, содержащаяся в родительском элементе (например, атрибуты, дочерние элементы с maxOccurs=1). В противном случае эта информация выводится только для первого дочернего элемента.
+  * **Проверять на строгое соответствие XSD** — при установке флага производится валидация XML ответа сервиса на строгое соответствие XSD схеме, заявленной в WSDL веб-сервиса. В противном случае проверка ответа веб-сервиса производится в упрощенном, ускоренном режиме, и большинство проверок осуществляются только для элементов XML, которые были выбраны для вывода в результирующем наборе данных. Процесс проверки в упрощенном режиме происходит быстрее, однако не гарантирует корректное извлечение данных из XML ответа сервиса в случае, если имеются невыявленные ошибки валидации.
+  * **Генерировать составные метки полей** — метка поля вывода элементов XML ответа сервиса содержит полный путь их расположения в иерархической структуре XML.
+* Дополнительно.
+  * **Выдавать описание кодов завершения** — отображать описание ошибок, произошедших при отправке запроса, получении и разборе ответа сервиса.
+  * **Выдавать "сырой" ответ сервера** — в выходном наборе данных порта *Дополнительные данные* выводить SOAP-сообщение ответа сервиса.
+* Отладка.
+  * **Сохранять текст запроса на диск** — все запросы, отправленные сервису, записываются в указанную папку в файловом хранилище.
+  * **Имитировать запрос с ответом в файле** — при установке флага фактического запроса к сервису не происходит, а в качестве ответа сервиса выводится содержимое указанного файла.

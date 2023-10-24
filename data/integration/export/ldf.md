@@ -1,26 +1,33 @@
-# ![ ](../../images/icons/data-sources/file-native-export_default.svg) Export to the LGD File
+---
+description: Экспорт данных из Loginom в LGD-файл. Мастер настройки
+---
+# ![ ](./../../images/icons/common/data-sources/file-native-export_default.svg) Экспорт в LGD-файл
 
-The handler exports the initial data set to the [LGD file](../../data-format/lgd-file.md). The LGD file already contains all required information on the field features (field name, caption, data type, etc.) that enables to export and import data sets with minimum settings.
+Узел осуществляет экспорт исходного набора данных в [LGD-файл](./../../data-format/lgd-file.md). LGD-файл уже содержит в себе всю необходимую информацию о параметрах полей (имя поля, метка, тип данных и др.), что позволяет выполнять экспорт и импорт наборов данных с минимальными настройками.
 
-It is possible to compress data using different algorithms.
+Имеется возможность использования сжатия данных алгоритмами [LZO](https://ru.wikipedia.org/wiki/LZO) и [LZ4](https://ru.wikipedia.org/wiki/LZ4).
 
-> **Note:** The LGD storage format has been elaborated specially for usage with Loginom. It provides the highest data import and export speed.
+> **Примечание:** Формат хранения LGD разработан специально для использования с Loginom и обеспечивает наивысшую скорость импорта и экспорта данных.
 
-## Ports
+## Порты
 
-### Input
+### Вход
 
-* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg)Data source: the data table to be exported.
-* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Control variables](../../scenario/variables/control-variables.md) (optional port): it is possible to set values of the wizard parameters using variables.
+* ![ ](./../../images/icons/app/node/ports/inputs/table_inactive.svg) Источник данных — таблица данных, подлежащая экспорту;
+* ![ ](./../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Управляющие переменные](./../../workflow/variables/control-variables.md) (необязательный порт) — переменными можно задать значения параметров мастера настройки.
 
-## Wizard
+## Мастер настройки
 
-* **File storage** enables to display information on method of connection to the destination file.
-* **File name** enables to set a path to the destination file when the connection is local, or a file name when using connection to a folder. ![ ](../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button calls the file selection dialog.
-* **Compression** can be applied to decrease the export file size. The following options are available:
-   * None
-   * [LZO](https://ru.wikipedia.org/wiki/LZO) (it is recommended and used by default)
-* **Bitness** enables to display information on bitness of the LGD file: 64 or 32 bits. Bitness of the LGD file depends on bitness of the used Loginom server.
-* **Activate and Show**: clicking on this button shows in the wizard how the exported table will look like.
+* **Имя файла** — задает путь к файлу-приемнику при локальном подключении, либо имя файла при использовании подключения к папке. Кнопка ![ ](./../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) вызывает диалог выбора файла.
+* **Алгоритм сжатия** может применяться для уменьшения размера файла экспорта. Доступны следующие варианты:
+  * Без сжатия.
+  * [LZ4](https://ru.wikipedia.org/wiki/LZ4) (рекомендуется, используется по умолчанию).
+  * [LZO](https://ru.wikipedia.org/wiki/LZO).
+* **Контрольная Сумма** — параметр доступен для редактирования только при использовании алгоритма сжатия LZ4, т.к. этот стандарт позволяет передавать опциональную контрольную сумму блока и всего содержимого. Доступны для выбора следующие значения параметра:
+  * Сжатых данных — записывать контрольную сумму сжатых данных после каждого блока (по умолчанию).
+  * Сжатых и несжатых данных — записывать контрольную сумму сжатых данных после каждого блока, а также контрольную сумму всех несжатых данных в конце файла. В этом случае запись выполняется медленнее на 1,5%.
+  * Нет — не записывать никакую контрольную сумму. В этом случае запись выполняется быстрее на 1%.
+* **Разрядность** — выводит информацию о разрядности LGD-файла: 64 или 32 бита. Разрядность LGD-файла зависит от разрядности используемого приложения/сервера Loginom.
+* **Активация и просмотр** — клик по данной кнопке позволяет сразу в мастере настройки увидеть, как будет выглядеть экспортируемая таблица.
 
-> **Note:** It is required to take into account that the format of data storage in the LGD files used in Loginom differs from the format of the DDF files in the Deductor platform used earlier. That's why these files cannot be imported to Deductor 5.3 and earlier.
+> **Примечание:** Следует учитывать, что Loginom использует формат хранения данных в LGD-файлах отличный от использовавшегося ранее в платформе Deductor файлов DDF. Поэтому эти файлы не могут быть импортированы в Deductor 5.3 и ниже.

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#808080;">
+	<!ENTITY st2 "fill:#636F80;">
+	<!ENTITY st3 "opacity:0.2;fill:#FFFFFF;">
+	<!ENTITY st4 "opacity:0.2;fill:#636F80;">
+	<!ENTITY st5 "opacity:0.2;fill:#808080;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<path id="download-zip.default" style="&st2;" d="M12,7V6h1v1H12z M11,8h1V7h-1V8z M13,9V8h-1v1H13z M11,10h1V9h-1V10z M13,11v-1h-1
+	v1H13z M17,5v9c0,0.552-0.448,1-1,1h-3v-1h3V5h-4v1h-1V5H2v9h3v1H2c-0.552,0-1-0.448-1-1V2.02C1,1.456,1.457,1,2.02,1H6
+	c0.271,0,0.53,0.107,0.721,0.299l1.912,2.402C8.824,3.893,9.084,4,9.354,4H16C16.552,4,17,4.448,17,5z M7.593,4L6.002,2.001L6,2
+	H2.02L2,4H7.593z M10,10H8v4H6l3,3l3-3h-2V10z"/>
+</svg>

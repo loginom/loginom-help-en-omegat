@@ -1,95 +1,98 @@
-# Other Functions
+---
+description: Справка по прочим функциям Loginom. Работа с функциями CRC32, CreateGUID, Data, DisplayName, MD5, Null, Random, RowCount, RowNum, SHA1. Описание функций и используемых аргументов.
+---
+# Прочие функции
 
 ## CRC32
 
-**CRC32(String)**
+**CRC32(Строка)**
 
-* String: the string for which CRC32 value is calculated.
+* Строка - строка, для которой расcчитывается CRC32 значение.
 
-Function returns the number - CRC32 value calculated on the basis of the given string.
-Calculations are performed with the String characters sequence using UTF-8 encoding.
+Функция возвращает число - значение CRC32 рассчитанное от заданной строки.
+Расчеты производятся над последовательностью символов Строки в кодировке UTF-8.
 
 ## CreateGUID
 
-**CreateGUID([Format = "B", UpperCase = True])**
+**CreateGUID([Формат = "B", ВерхнийРегистр = True])**
 
-* Format - method of GUID string representation ("N", "D", "B", "P").
-* UpperCase - argument of the logical type defining the character case of hexadecimal digits.
+* Формат - способ строкового представления GUID ("N", "D", "B", "P").
+* ВерхнийРегистр - аргумент логического типа, определяющий регистр символов шестнадцатеричных цифр.
 
-Function returns GUID string representation in the specified format:
-"N" - 32 digits;
-"D" - 32 hyphenated digits;
-"B" - 32 hyphenated digits and digits in curved brackets;
-"P" - 32 hyphenated digits and digits in round brackets.
-If the format is not specified, use of "B" format is required. By default, hexadecimal digits are written in uppercase.
-As GUID will be generated each time when getting the expression value, for example, when viewing result in the tabular form or executing data export, it is generally recommended to activate this option if there is "Cache" expression parameter.
+Функция возвращает строковое представление GUID в указанном формате:
+  "N" - 32 цифры;
+  "D" - 32 цифры, разделенные дефисами;
+  "B" - 32 цифры, разделенные дефисами и заключенные в фигурные скобки;
+  "P" - 32 цифры, разделенные дефисами и заключенные в круглые скобки;
+Если формат не указан, то используется формат "B". По умолчанию шестнадцатеричные цифры записываются в верхнем регистре.
+Так как GUID будет генерироваться каждый раз при получении значения выражения, например, при просмотре результата в виде таблицы или при выполнении экспорта данных, то в общем случае рекомендуется при наличии параметра выражения "Кэшировать" включить эту опцию.
 
 ## Data
 
-**Data("ColumnName",RowNumber)**
+**Data("ИмяСтолбца",НомерСтроки)**
 
-* ColumnName - return value column name.
-* RowNumber - return value row number.
+* ИмяСтолбца - имя столбца, данные которого необходимо получить
+* НомерСтроки - номер строки, значение которой необходимо получить
 
-Function returns the ColumnName field value taken from the RowNumber row.
-When using this function, it is required to select "Cache the calculated expression values" checkbox in the "Expression parameters" window.
+Функция возвращает значение поля ИмяСтолбца взятое из строки НомерСтроки.
+При использовании данной функции необходимо в окне "Параметры выражения" установить флаг "Кэшировать рассчитанные значения выражения".
 
 ## DisplayName
 
-**DisplayName(["Name"])**
+**DisplayName(["Имя"])**
 
-* FieldName - name of field, variable or expression.
+* Имя - имя поля, переменной или выражения
 
-Function returns the caption (display name) according to the field name, variable or expression.
-If the function is called without arguments, it returns the caption of the current calculated expression.
+Функция возвращает метку (отображаемое имя) по имени поля, переменной или выражения.
+Если функция вызывается без аргументов, то она возвращает метку текущего вычисляемого выражения.
 
 ## MD5
 
-**MD5(String)**
+**MD5(Строка)**
 
-* String: the string for which MD5 value is calculated.
+* Строка - строка, для которой расcчитывается MD5 значение.
 
-Function returns HEX value MD5 calculated on the basis of the given string.
-Calculations are performed with the String characters sequence using UTF-8 encoding.
+Функция возвращает HEX значение MD5 рассчитанное от заданной строки.
+Расчеты производятся над последовательностью символов Строки в кодировке UTF-8.
 
 ## Null
 
 **Null()**
 
-* Arguments are absent.
+* Аргументы отсутствуют.
 
-Function returns the null value.
+Функция возвращает пустое значение.
 
 ## Random
 
 **Random()**
 
-* Arguments are absent.
+* Аргументы отсутствуют.
 
-Returns pseudorandom evenly distributed number larger or equal to 0 and less than 1.
-As a random number will be generated each time when getting the expression value, for example, when viewing result in the tabular form or executing data export, it is generally recommended to activate this option if there is "Cache" expression parameter.
+Возвращает псевдослучайное равномерно распределенное число, большее или равное 0 и меньше 1.
+Так как случайное число будет генерироваться каждый раз при получении значения выражения, например, при просмотре результата в виде таблицы или при выполнении экспорта данных, то в общем случае рекомендуется при наличии параметра выражения "Кэшировать" включить эту опцию.
 
 ## RowCount
 
 **RowCount()**
 
-* Arguments are absent.
+* Аргументы отсутствуют.
 
-Function returns the row count in the data source.
+Функция возвращает число строк в источнике данных.
 
 ## RowNum
 
 **RowNum()**
 
-* Arguments are absent.
+* Аргументы отсутствуют.
 
-Function returns the current record number of the data source.
+Функция возвращает номер текущей записи источника данных.
 
 ## SHA1
 
-**SHA1(String)**
+**SHA1(Строка)**
 
-* String: the string for which SHA1 value is calculated.
+* Строка - строка, для которой раcсчитывается SHA1 значение.
 
-Function returns HEX value SHA1 calculated on the basis of the given string.
-Calculations are performed with the String characters sequence using UTF-8 encoding.
+Функция возвращает HEX значение SHA1 рассчитанное от заданной строки.
+Расчеты производятся над последовательностью символов Строки в кодировке UTF-8.

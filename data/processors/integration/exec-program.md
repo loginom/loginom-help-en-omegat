@@ -1,73 +1,76 @@
-# ![ ](../../images/icons/components/execcmd_default.svg) Program Execution
+---
+description: Компонент Выполнение программы в Loginom. Описание. Мастер настройки узла. Написание команд. Примеры.
+---
+# ![ ](./../../images/icons/components/execcmd_default.svg) Выполнение программы
 
-## Description
+## Описание
 
-*Program Execution* component can start execution of the external program (there are the following executed files: cmd, bat, exe, etc.)
+С помощью компонента *Выполнение программы* можно запустить на выполнение внешнюю программу (исполняемый файл: cmd, bat, exe и т.д.)
 
-> **Important:** This component is not safe as it provides access to programs and file system. Rights to this operation are defined in [Administration](../../admin/parameters.md).
+>**Важно:** этот компонент небезопасный, так как предоставляет доступ к программам и файловой системе. Права на эту операцию задаются в [Администрировании](./../../admin/parameters.md). По умолчанию в серверных редакциях платформы *Выполнение программы* запрещено, а в настольных редакциях — разрешено.
 
-## Ports
+## Порты
 
-### Input
+### Вход
 
-* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) — Input variables (variables) — optional port. The variables names can be used in *Command line*, namely, macro replacement of commands is supported: ```%VariableName%``` means the variable that contains the command that is supplied to the input of this node (refer to [Examples](#primery)).
-* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) — [Control variables](../../scenario/variables/control-variables.md) (variables) — optional port. They can be used to set such parameters as *Node execution timeout* and *Terminate program by timeout*.
+* ![ ](./../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) — Входные переменные (переменные) — необязательный порт. Имена переменных можно использовать в *Командной строке*, т.е. поддерживается макроподстановка команд: ```%ИмяПеременной%``` — переменная, содержащая команду, которая подается на вход данного узла (см. [Примеры](#primery)).
+* ![ ](./../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) — [Управляющие переменные](./../../workflow/variables/control-variables.md) (переменные) — необязательный порт. Их можно использовать для задания таких параметров, как *Тайм-аут выполнения узла* и *Завершить программу по тайм-ауту*.
 
-### Output
+### Выход
 
-* ![ ](../../images/icons/app/node/ports/outputs-optional/variable_inactive.svg) — Source variables and variables that contain information on the program execution success:
+* ![ ](./../../images/icons/app/node/ports/outputs-optional/variable_inactive.svg) — Исходные переменные и переменные, содержащие информацию об успешности выполнения программы:
 
-   * ![ ](../../images/icons/data-types/integer_default.svg) **Execution result**: the integer variable that contains *0* in the case of the successful completion of the executed program;
-   * ![ ](../../images/icons/data-types/string_default.svg) **Error message**: the string variable that contains an error message if it occurred while execution or preparation to the program execution.
+  * ![ ](./../../images/icons/common/data-types/integer_default.svg) **Результат выполнения** — переменная целого типа, содержащая значение *0* в случае успешного завершения выполняемой программы;
+  * ![ ](./../../images/icons/common/data-types/string_default.svg) **Сообщение об ошибке** — переменная строкового типа, содержащая сообщение об ошибке, если она произошла при выполнении или подготовке к выполнению программы.
 
-## Node Wizard
+## Мастер настройки узла
 
-* **Node execution timeout (ms)** enables to set the time of the node execution:
-   * **0**: the node will be completed at once.
-   * **1 and more**: number of milliseconds upon expiration of which the node will not be executed anymore. Arrows enable to increase or decrease the timeout at 100 ms interval.
-   * **Infinity**: in this case the node will be executed until the program is closed. To set the node execution time, it is required to enter *-1* in the timeout field in the *Infinity* value, or it is required to delete all digits.
-* **Terminate program by timeout**: the switch enables/disables the node execution timeout.
+* **Тайм-аут выполнения узла (мсек.)** — устанавливает время выполнения узла:
+  * **0** — узел сразу завершится.
+  * **1 и более** — количество миллисекунд, через которые узел перестанет выполняться. Стрелками можно увеличивать или уменьшать тайм-аут с интервалом в 100 миллисекунд.
+  * **Бесконечность** — в этом случае узел будет выполняться до тех пор, пока программа не будет закрыта. Для того, чтобы установить время выполнения узла, в значении *Бесконечность* необходимо в поле тайм-аута ввести либо *-1*, либо удалить все цифры.
+* **Завершить программу по тайм-ауту** — переключатель позволяет включать/отключать тайм-аут выполнения узла.
 
-> **Important:** The time of node execution is set in the settings (not the time of the program execution) that is why if checkbox is not selected for *Terminate program by timeout*, the node execution will be terminated upon expiration of some time period set by the timeout, whereas the program execution will not be terminated.
+>**Важно:** в настройках устанавливается время выполнения узла, а не программы, поэтому если галочка *Завершить программу по тайм-ауту* не установлена, то через определенное тайм-аутом время узел перестанет выполняться, а программа — нет.
 
-## Writing Commands
+## Написание команд
 
-It is required to enter the command in the *Command text* field as follows:
+В поле *Текст команды* следует вводить команду следующим образом:
 
-* If it is a standard Windows program:
-   * ```cmd.exe```: the program name and its extension are specified.
-* If it is a third-party program:
-   * ```C:\Program Files (x86)\Microsoft Office\Office14\EXCEL.EXE```: the absolute path to the executed file is specified.
+* Если это стандартная программа Windows:
+  * ```cmd.exe``` — указывается название программы и ее расширение.
+* Если это сторонняя программа:
+  * ```C:\Program Files (x86)\Microsoft Office\Office14\EXCEL.EXE``` — указывается абсолютный путь до исполняемого файла.
 
-To run commands using *cmd.exe*, it is required to state the following keys:
+Для выполнения команд через *cmd.exe* необходимо указывать соответствующие ключи:
 
-* ```/C```: execution of the given command with subsequent completion;
-* ```/K```: execution of the given command without subsequent completion.
+* ```/C``` — выполнение указанной команды с последующим завершением;
+* ```/K``` — выполнение указанной команды без последующего завершения.
 
-Other start keys are available on corresponding sites related to the Windows command line.
+Другие ключи запуска можно посмотреть на соответствующих сайтах по командной строке Windows.
 
-### Current Project Directory
+### Текущий каталог проекта
 
-If the project has been saved, the current package directory is considered to be the current directory for the process started by the *Program execution* node.
+Если проект сохранен, то текущим каталогом для процесса, запускаемого узлом *Выполнение программы*, считается текущий каталог пакета.
 
-> **Note:** The derived node is operated in the context of the package in which it is located as any other node. Thus, the current directory of the derived node will be the current package directory in which exactly the derived node is located but not the base one.
+>**Примечание:** производный узел, так же, как и любой другой, работает в контексте того пакета, в котором он находится. То есть текущим каталогом для производного узла будет текущий каталог пакета, в котором находится именно производный узел, а не базовый.
 
-#### Desktop Loginom Version
+#### Настольная редакция Loginom
 
-If the project is not saved, the current directory matches the current Loginom directory in the Desktop version.
+В настольной редакции приложения, если проект не сохранен, то текущий каталог совпадает с текущим каталогом Loginom.
 
-#### Server Loginom Version
+#### Серверная редакция Loginom
 
-As far as the Loginom server is concerned, if the project is not saved, the current directory matches the user directory.
+На сервере Loginom, если проект не сохранен, то текущий каталог совпадает с каталогом пользователя.
 
-### Examples:
+### Примеры
 
-Example of the directory created via the command line:
+Пример создания директории через командную строку:
 
 ```cmd.exe /C mkdir D:\Dir\```
 
-Example of macro substitution:
+Пример макроподстановки:
 
-```cmd.exe /C %VariableName%```
+```cmd.exe /C %ИмяПеременной%```
 
-Where ```%VariableName%```: the variable that contains any command to be executed on the Windows command line.
+Где ```%ИмяПеременной%``` — переменная, содержащая любую команду для выполнения в командной строке Windows.

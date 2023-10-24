@@ -1,80 +1,83 @@
-# ![ ](../../images/icons/data-sources/crm-1cv8-import_default.svg) Import from 1C:Enterprise 8.x
+---
+description: Импорт данных в Loginom из базы данных 1С:Предприятие 8.x. Мастер настройки.
+---
+# ![ ](./../../images/icons/common/data-sources/crm-1cv8-import_default.svg) Импорт из 1C:Предприятие 8.x
 
-The component is designated for import from 1C database.
+Компонент предназначен для импорта из базы данных 1С.
 
-> **Important:** For the node operation, it is required to pre-create [connection to 1C:Enterprise 8.x platform](../connections/list/1c.md) and connect it with the *Connection* input port. The connection is performed similar to [connection to DB](../../quick-start/database.md).
+> **Важно:** Для работы узла требуется предварительно создать [подключение к платформе 1C:Предприятие 8.x](./../connections/list/1c.md) и связать его с входным портом *Подключение*. Подключение происходит аналогично [подключению с БД](./../../quick-start/database.md).
 
-## Ports
+## Порты
 
-### Input Ports
+### Входные порты
 
-* ![ ](../../images/icons/app/node/ports/inputs/link_inactive.svg) Connection accepts parameters of connection to database.
-* ![ ](../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Control variables](../../scenario/variables/control-variables.md) (optional port): it is possible to set values of the wizard parameters using variables.
+* ![ ](./../../images/icons/app/node/ports/inputs/link_inactive.svg) Подключение — принимает параметры подключения к базе данных;
+* ![ ](./../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [Управляющие переменные](./../../workflow/variables/control-variables.md) (необязательный порт) — переменными можно задать значения параметров мастера настройки.
 
-### Output Ports
+### Выходные порты
 
-* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg)Imported data set
+* ![ ](./../../images/icons/app/node/ports/inputs/table_inactive.svg) Импортированная таблица.
 
-## Wizard
+## Мастер настройки
 
-There are the following parameters in the wizard:
+Мастер настройки содержит следующие параметры:
 
-* **Connection** enables to display a string of connection to data source. It cannot be edited.
-* **Request text**: the field for request to base entry. It determines structure and content of the imported table.  Both Cyrillic 1C and SQL syntax are supported.
+* **Подключение** – отображает строку подключения к источнику данных. Не доступна для редактирования;
+* **Текст запроса** – поле ввода запроса к базе, определяющего структуру и содержание импортируемой таблицы. Поддерживается как кириллический синтаксис 1С, так и синтаксис SQL.
 
-[Preview…](../../visualization/preview/preview.md) button enables to access request accuracy. It displays up to 100 first rows of the resulting table.
+Кнопка [Предпросмотр…](./../../visualization/preview/preview.md) позволяет оценить корректность запроса, отображая до 100 первых строк результирующей таблицы.
 
-## Use of Parameters in Requests
+## Применение параметров в запросах
 
-It is possible to use parameters in requests in 1С syntax.
+Возможно использование параметров в запросах в синтаксисе 1С.
 
-Example 1.
+Пример 1.
 
 ```
-SELECT
-CurrencyRates.Currency.Code,
-CurrencyRates.Currency.Name,
-CurrencyRates.Period AS Period,
-CurrencyRates.Rate,
-CurrencyRates.Multipleness
-FROM
-RollupLedger.CurrencyRates AS CurrencyRates
-WHERE
-CurrencyRates.Period BETWEEN &start_date AND &end_date
-ORDER BY
-DESC period
+ВЫБРАТЬ
+КурсыВалют.Валюта.Код,
+КурсыВалют.Валюта.Наименование,
+КурсыВалют.Период КАК Период,
+КурсыВалют.Курс,
+КурсыВалют.Кратность
+ИЗ
+РегистрСведений.КурсыВалют КАК КурсыВалют
+ГДЕ
+КурсыВалют.Период МЕЖДУ &start_date И &end_date
+УПОРЯДОЧИТЬ ПО
+Период УБЫВ
 ```
 
-In Example 1 `&start_date` and `&end_date` are constructions of substitution of values of `start_date` and `end_date` input variables of the import node. If these variables are not determined in the input port of the import node, there will be an exception. When using such construction, data type of the transferred variable is considered in the request. It must comply with the data type anticipated by 1C request.
+В Примере 1 `&start_date` и `&end_date` – конструкции подстановки значений входных переменных `start_date` и `end_date` узла импорта. Если данные переменные не будут определены во входном порту узла импорта, то возникнет исключение. При использовании данной конструкции в запросе учитывается тип данных передаваемой переменной, он должен соответствовать типу данных, ожидаемых запросом 1С.
 
-When this substitution construction is used, only simple data types can be passed to the query via variables: logical, string, numeric, date/time.  It is impossible to transfer internal instance 1C variables to the request (for example, objects or references of documents and reference textbooks). When formulating requests, it is required to take it into account.
+Особенностью применения данной конструкции подстановки является то, что в запрос через переменные могут передаваться значения только простых типов данных: логический, строковый, числовой, дата/время. Возможность получения и использования в запросах внутренних идентификаторов объектов добавлена в версии платформы 1С 8.3.22. Для версий платформы ниже 1С 8.3.22 передача в запрос внутренних объектных переменных 1С (например, объектов или ссылок справочников и документов) невозможна. Это необходимо учитывать при построении запросов.
 
-Example 2.
+Пример 2.
 
 ```sql
 SELECT
-Period, Nomenclature.Name, Count
+Период, Номенклатура.Наименование, Количество
 FROM
-InformationRegister.CalendarNeedsInNomenclature.SliceLast(&Date, Count > &Count) AS Needs
+InformationRegister.КалендарныеПотребностиВНоменклатуре.SliceLast(&Date, Количество > &Count) AS Потребности
 INNER JOIN
-Catalog.Nomenclature
+Catalog.Номенклатура
 ON
-Catalog.Nomenclature.Reference = Needs.Nomenclature
+Catalog.Номенклатура.Ссылка = Потребности.Номенклатура
 WHERE %CONDITION%
 ```
 
-In Example 2 `%CONDITION%`: the construction of substitution of value of `CONDITION` input variable of the import node. `%CONDITION%` construction in the request text will be replaced with the string value of `CONDITION` variable. If the variable will contain the following value: `Nomenclature.ProductItem = "4561"`, the resulting request will have the following form:
+В Примере 2 `%CONDITION%` – конструкция подстановки значения входной переменной `CONDITION` узла импорта. Конструкция `%CONDITION%` в тексте запроса будет заменена на строковое значение переменной `CONDITION`. Если переменная будет содержать значение: `Номенклатура.Артикул = "4561"`, то результирующий запрос будет иметь вид:
 
 ```sql
 SELECT
-Period, Nomenclature.Name, Count
+Период, Номенклатура.Наименование, Количество
 FROM
-InformationRegister.CalendarNeedsInNomenclature.SliceLast(&Date, Count > &Count) AS Needs
+InformationRegister.КалендарныеПотребностиВНоменклатуре.SliceLast(&Date, Количество > &Count) AS Потребности
 INNER JOIN
-Catalog.Nomenclature
+Catalog.Номенклатура
 ON
-Catalog.Nomenclature.Reference = Needs.Nomenclature
-WHERE Nomenclature.ProductItem = "4561"
+Catalog.Номенклатура.Ссылка = Потребности.Номенклатура
+WHERE Номенклатура.Артикул = "4561"
 ```
 
-Such substitution construction enables to formulate the request text in a dynamic manner in the course of the workflow execution.
+Такая конструкция подстановки дает возможность динамически в ходе выполнения сценария формировать текст запроса.

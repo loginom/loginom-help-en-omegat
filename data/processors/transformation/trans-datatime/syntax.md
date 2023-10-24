@@ -1,53 +1,56 @@
-# Syntax of the Date/Time Formatting Strings
+---
+description: Трансформация даты/времени в Loginom. Синтаксис строки форматирования даты/времени.
+---
+# Синтаксис строки форматирования даты/времени
 
-When setting the user format, it is possible to use a combination of user-defined text and pre-defined markers.
+При задании пользовательского формата можно использовать сочетание произвольного текста и предопределенных маркеров.
 
-List and Designation of Markers:
+Перечень и назначение маркеров:
 
-* **Day.**
-   * **%d** — day of the month with leading zero.
-   * **%j** — day of the month.
-   * **%z** — day number in the year.
-   * **%q** — day number in the quarter.
-   * **%N** — day number in the week.
-   * **%D** — short name of the week day.
-   * **%l** — full name of the week day.
-* **Week.**
-   * **%W** — week number in the year.
-   * **%e** — week number in the quarter.
-   * **%w** — week number in the month.
-* **Month.**
-   * **%M** — short name of the month.
-   * **%F** — full name of the month.
-   * **%m** — month number with leading zero.
-   * **%n** — month number.
-* **Quarter.**
-   * **%Q** — quarter number.
-* **Year.**
-   * **%Y** — year, 4 digits.
-   * **%y** — year, 2 digits.
-* **Hours.**
-   * **%g** — hours in 12-hour format.
-   * **%G** — hours in 24-hour format.
-   * **%h** — hours in 12-hour format with leading zero.
-   * **%H** — hours in 24-hour format.
-* **Minutes.**
-   * **%i** — minutes with leading zero.
-* **Seconds.**
-   * **%s** — seconds with leading zero.
-* **Milliseconds.**
-   * **%u** — milliseconds with leading zeros.
-* **Date.**
-   * **%L** — date in the long format.
-   * **%S** — date in the short format.
-* **Time.**
-   * **%T** — time in the long format.
-   * **%t** — time in the short format.
+* **День.**
+  * **%d** — день месяца с ведущим нулем.
+  * **%j** — день месяца.
+  * **%z** — номер дня в году.
+  * **%q** — номер дня в квартале.
+  * **%N** — номер дня в неделе.
+  * **%D** — короткое название дня недели.
+  * **%l** — полное название дня недели.
+* **Неделя.**
+  * **%W** — номер недели в году.
+  * **%e** — номер недели в квартале.
+  * **%w** — номер недели в месяце.
+* **Месяц.**
+  * **%M** — короткое название месяца.
+  * **%F** — полное название месяца.
+  * **%m** — номер месяца с ведущим нулем.
+  * **%n** — номер месяца.
+* **Квартал.**
+  * **%Q** — номер квартала.
+* **Год.**
+  * **%Y** — год, 4 цифры.
+  * **%y** — год, 2 цифры.
+* **Часы.**
+  * **%g** — часы в 12-часовом формате.
+  * **%G** — часы в 24-часовом формате.
+  * **%h** — часы в 12-часовом формате с ведущим нулем.
+  * **%H** — часы в 24-часовом формате с ведущим нулем.
+* **Минуты.**
+  * **%i** — минуты с ведущим нулем.
+* **Секунды.**
+  * **%s** — секунды с ведущим нулем.
+* **Миллисекунды.**
+  * **%u** — миллисекунды с ведущими нулями.
+* **Дата.**
+  * **%L** — дата в длинном формате.
+  * **%S** — дата в коротком формате.
+* **Время.**
+  * **%T** — время в длинном формате.
+  * **%t** — время в коротком формате.
 
-%spoiler%Example:%spoiler%
+%spoiler%Пример:%spoiler%
 
-Perform transformation: `11.08.2017 13:50` → `any Aug text, another text 2017, 13`.
+Выполнить преобразование: `11.08.2017 13:50` → `любой текст Aug, еще текст 2017, 13`.
 
-Formatting string: `"any text %M, another text %Y, %G"`, result `"any Aug text, another text 2017, 13"`.
+Строка форматирования: `"любой текст %M, еще текст %Y, %G"`, результат `"любой текст Aug, еще текст 2017, 13"`.
 
 %/spoiler%

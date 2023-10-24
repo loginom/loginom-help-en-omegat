@@ -1,68 +1,71 @@
-# ![ ](../../images/icons/components/data-to-tree_default.svg) Table to Tree
+---
+description: Компонент Таблица в дерево в Loginom. Общие сведения. Преобразование двумерной таблицы в иерархическую (древовидную) структуру. Мастер настройки. 
+---
+# ![ ](./../../images/icons/components/data-to-tree_default.svg) Таблица в дерево
 
-The **Table to Tree** node enables to transform the source data represented in the form of the flat (two-dimensional) table to the hierarchic (tree-like) form. In this case, the number of the nesting levels is not limited.
+Узел **Таблица в дерево** преобразует исходные данные, представленные в виде плоской (двумерной) таблицы, в иерархическую (древовидную) форму. Количество уровней вложенности при этом не ограничено.
 
-## Ports
+## Порты
 
-### Input
+### Вход
 
-* ![Input data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source**: the port for connection of the input data set in the form of a table.
+* ![Входной источник данных](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Входной источник данных** — порт для подключения входного набора данных в виде таблицы.
 
-### Output
+### Выход
 
-* ![Output data set](../../images/icons/app/node/ports/outputs/tree_inactive.svg) **Output data set**: the port providing data after their transformation to the tree-like form.
+* ![Выходной источник данных](./../../images/icons/app/node/ports/outputs/tree_inactive.svg) **Выходной источник данных** — порт, отдающий данные после их преобразования в древовидную форму.
 
-## Wizard
+## Мастер настройки
 
-It is required to configure mapping of the input data that are located to the left in the **Source data set columns** field, and created data tree that is located to the right in the **Tree node** and **Related fields** fields.
+В окне настройки необходимо настроить соответствие между входными данными, которые находятся слева в поле **Столбцы исходного набора**, и создаваемым деревом данных, которое находится справа в полях **Узел дерева** и **Связанные поля**.
 
-Primarily, only one root directory is available in the right field - **Root**.
+Изначально на правом поле доступен только один корневой каталог — **Root**.
 
-To create the hierarchic structure, it is required to add at least one child node in the root folder. It can be done in two ways:
+Для того, чтобы создать иерархическую структуру необходимо в корневой папке добавить хотя бы один дочерний узел. Это можно сделать двумя способами:
 
-1. Select the root node and add the child node using the following button: ![Add child node](../../images/icons/wizards/datatree/add-child_default.svg).
-2. Use the context menu command: ![Add child node](../../images/icons/wizards/datatree/add-child_default.svg) **Add child node**.
+1. Выделить корневой узел и с помощью кнопки ![Добавить дочерний узел](./../../images/icons/wizards/datatree/add-child_default.svg) добавить дочерний узел
+2. Командой контекстного меню ![Добавить дочерний узел](./../../images/icons/wizards/datatree/add-child_default.svg) **Добавить дочерний узел**.
 
-Afterwards the child node will be created. It is possible to define value of the following fields for this node:
+После этого будет создан дочерний узел, для которого можно определить значение следующих полей:
 
-* **Name**: the unique column name for one data set. It can consist of the following characters:
-   * Capital or low case Latin characters.
-   * Underscore characters.
-   * Digits (it cannot be the first character).
-* **Caption**: random field description.
-* **Data type**: one of the possible [data types](./../../data/datatype.md).
-* **Data kind**: one of the possible [data kinds](./../../data/datakind.md).
-* **Array**: when selecting this checkbox, the selected child node will be defined as ordered set (array) of one data type.
-* **Container**: when selecting this checkbox, the selected child node will be a root node for other created child nodes of different types.
+* **Имя** — уникальное наименование столбца в рамках одного набора данных. Может состоять из:
+  * Заглавных или строчных латинских букв;
+  * Символов подчеркивания;
+  * Цифр (не может быть первым символом).
+* **Метка** — произвольное описание поля.
+* **Тип данных** — один из возможных [типов данных](./../../data/datatype.md).
+* **Вид данных** — один из возможных [видов данных](./../../data/datakind.md).
+* **Массив** — при указании этого чекбокса выбранный дочерний узел будет определен как упорядоченное множество (массив) данных одного типа.
+* **Контейнер** — при указании этого чекбокса выбранный дочерний узел будет являться корневым узлом для других создаваемых дочерних узлов разных типов.
 
-It is possible to create nodes of the same hierarchic level for child nodes. It can be done using the contex menu of the child node. Select ![Add neighboring node](../../images/icons/wizards/datatree/add-neighbor_default.svg) **Add neighboring node**, or the required node, and press ![Add neighboring node](../../images/icons/wizards/datatree/add-neighbor_default.svg) button to create the neighboring node.
+Для дочерних узлов есть возможность создать узлы того же иерархического уровня. Это можно сделать из контекстного меню дочернего узла, выбрав пункт ![Добавить соседний узел](./../../images/icons/wizards/datatree/add-neighbor_default.svg) **Добавить соседний узел**, либо, выделив необходимый узел, нажать на кнопку ![Добавить соседний узел](./../../images/icons/wizards/datatree/add-neighbor_default.svg) для создания соседнего узла.
 
-Upon creation, it is possible to change the set values of fields for the child node. For this purpose, it is possible to use *F2* hotkey. First, you are to select the required node. It also can be done using the following contex menu command: ![Edit...](../../images/icons/toolbar-controls/edit_default.svg) **Edit...**, or you can select the required node and press ![Edit...](../../images/icons/toolbar-controls/edit_default.svg) button.
+После создания, заданные значения полей для дочернего узла можно поменять. Для этого можно воспользоваться горячей клавишей *F2*, предварительно выделив нужный узел. Также это можно сделать командой контекстного меню ![Редактировать...](./../../images/icons/common/toolbar-controls/edit_default.svg) **Редактировать...**, либо, выделив необходимый узел, нажать на кнопку ![Редактировать...](./../../images/icons/common/toolbar-controls/edit_default.svg).
 
-![Load from XSD...](../../images/icons/toolbar-controls/import-from-xsd_default.svg) **Load from XSD...** button enables to select *.xsd file from which the output node structure will be loaded (the button is also duplicated by the context menu command). The following fields will be available in the appeared dialog window:
+Кнопкой ![Загрузить из XSD...](./../../images/icons/common/toolbar-controls/import-from-xsd_default.svg) **Загрузить из XSD...** можно выбрать файл формата *.xsd, из которого будет загружена выходная структура узлов (также кнопка дублируется командой контекстного меню). В появившемся диалоговом окне будут следующие поля:
 
-* **XSD file**: the field for selection of the *.xsd file (not edited).
-* **Namespace** enables to select a namespace from a list of all namespaces described in the *.xsd file. It limits selection of the root element only by the specified space. The value of **All namespaces** is set by default.
-* **Root element** enables selection of the root node from the list in the loaded xsd file*. The value of the first root node of the selected file is set by default.
-* **Recursive depth** provides the maximum number of recursions when opening recursive nodes. It is selected in the range from 0 to 3. By default, it is equal to 1. It means that every recursive node will be automatically opened but recursive nodes inside these nodes will be left unopened. Additional opening of recursive nodes is possible in the manual mode upon tree building. In the case of 0 value, recursive nodes won't be automatically opened.
+* **XSD файл** — поле для выбора *.xsd-файла (не редактируемое).
+* **Пространство имен** — выбор пространства имен из списка всех пространств имен описанных в *.xsd-файле, ограничивает выбор корневого элемента только указанным пространством. По умолчанию выставляется значение **Все пространства имен**.
+* **Корневой элемент** — выбор корневого узла из списка в загруженном *.xsd-файле. По умолчанию выставляется значение первого корневого узла выбранного файла.
+* **Глубина рекурсии** — максимальное число рекурсий при раскрытии рекурсивных узлов. Выбирается в диапазоне от 0 до 3. По  умолчанию равно 1, что означает: каждый рекурсивный узел будет раскрыт автоматически, но рекурсивные узлы внутри этих узлов останутся нераскрытыми. Дополнительно раскрытие рекурсивных узлов можно проводить вручную после построения дерева. При значении 0 все рекурсивные узлы не будут раскрыты автоматически
 
-After filling in all the fields, it is required to press **Load** button, and the XSD schema will be loaded for further work.
+После заполнения всех полей необходимо нажать кнопку **Загрузить** и XSD схема будет загружена для дальнейшей работы.
 
-![Generate child elements](../../images/icons/toolbar-controls/open-all_default.svg) **Generate child elements** button opens the recursive node (it adds all subnodes of the recursive node to the data tree). It is not possible to open already opened recursive node repeatedly. If the XSD schema has not been loaded ("Load from XSD..." operation has not been performed), or the loaded tree does not include recursive nodes, the button is concealed/inactive.
+Кнопка ![Сгенерировать дочерние элементы](./../../images/icons/common/toolbar-controls/open-all_default.svg) **Сгенерировать дочерние элементы** раскрывает рекурсивный узел (добавляет все подузлы рекурсивного узла в дерево данных). Уже раскрытый рекурсивный узел нельзя раскрыть повторно. Если не загружена XSD схема (не выполнялось действие "Загрузить из XSD...") или загруженное дерево не содержит рекурсивных узлов то кнопка скрыта/неактивна.
 
-![Next recursive unopened node](../../images/icons/toolbar-controls/find-next_default.svg) **Next recursive unopened node** button enables to select the next recursive unopened node as the current node after the current selected node. To select the first recursive node, it is required to select the root node and move to the next recursive unopened node. If the XSD schema has not been loaded ("Load from XSD..." operation has not been performed), or the loaded tree does not include recursive nodes, the button is concealed/inactive.
+Кнопка ![Следующий рекурсивный нераскрытый узел](./../../images/icons/common/toolbar-controls/find-next_default.svg) **Следующий рекурсивный нераскрытый узел** выбирает текущим узлом следующий рекурсивный нераскрытый узел после текущего выбранного узла. Для того чтобы выбрать первый рекурсивный узел необходимо выбрать корневой узел и выполнить переход к следующему рекурсивному нераскрытому узлу. Если не загружена XSD схема (не выполнялось действие "Загрузить из XSD...") или загруженное дерево не содержит рекурсивных узлов то кнопка скрыта/неактивна.
 
-When all required hierarchy is created, it will be possible to use ![Auto link all](../../images/icons/toolbar-controls/auto-connect_default.svg)**Auto link all** button that will automatically link input and output fields if their names and data type coincide. Each child node can be also linked to the data source using the following context menu command: ![Auto link](../../images/icons/toolbar-controls/auto-connect_default.svg)**Auto link**. In this case, the node will be linked to one of their input nodes with the same name and data type.
+После того как будет создана вся необходимая иерархия можно будет воспользоваться кнопкой ![Связать все автоматически](./../../images/icons/common/toolbar-controls/auto-connect_default.svg)**Связать все автоматически**, которая автоматически свяжет входные и выходные поля, если у них совпадают имена и тип данных. Также каждый дочерний узел можно связывать с источником данных командой контекстного меню ![Связать автоматически](./../../images/icons/common/toolbar-controls/auto-connect_default.svg)**Связать автоматически**. В этом случае узел будет связан с одним их входных узлов с таким же именем и типом данных.
 
-Apart from the auto link, it is possible to link input and output nodes using the *Drag-and-drop* method by dragging the field caption from the left list of fields to the item from the right list of fields. In this case, values of the fields names are not important. However, data types must still coincide.
+Помимо автоматической связи, входные и выходные узлы можно связывать вручную с помощью метода *Drag-and-drop* путем перетаскивания метки поля из левого списка полей на элемент из правого списка полей. В этом случае значения имен полей не важны, однако типы данных по-прежнему должны совпадать.
 
-It is possible to delete the created links between nodes. All links can be deleted at once using ![Delete all links](../../images/icons/toolbar-controls/remove-all-links_default.svg)**Delete all links** button, or using the context menu command - ![Delete all links](../../images/icons/toolbar-controls/remove-all-links_default.svg)**Delete all links** called in any of the list items. To delete any particular link, it is possible to use the context menu command - ![Delete link](../../images/icons/toolbar-controls/delete_default.svg)**Delete link** called in one of the linked items. The second option is to left-click on the link to be deleted, and to press ![Delete link](../../images/icons/link-grid/remove-link_selected.svg) button to delete the link (when cursor hovering over ![Delete link](../../images/icons/link-grid/remove-link_hover.svg)).
+Созданные связи между узлами можно удалять. Все связи разом можно удалить с помощью кнопки  ![Удалить все связи](./../../images/icons/common/toolbar-controls/remove-all-links_default.svg)**Удалить все связи**, либо с помощью команды контекстного меню  ![Удалить все связи](./../../images/icons/common/toolbar-controls/remove-all-links_default.svg)**Удалить все связи**, вызванного на любом из элементов списке. Для удаления какой-либо конкретной связи можно воспользоваться командой контекстного меню ![Удалить связь](./../../images/icons/common/toolbar-controls/delete_default.svg)**Удалить связь**, вызванную на одном из связанных элементов. второй вариант — непосредственно щелкнуть левой кнопкой мыши на связь, которую необходимо удалить, и нажать на кнопку ![Удалить связь](./../../images/icons/link-grid/remove-link_selected.svg) удаления связи (![Удалить связь](./../../images/icons/link-grid/remove-link_hover.svg) при наведении на нее курсора).
 
-The created child nodes can be located in any convenient order. For this purpose, it is required to select the node to be moved and press ![Move up](../../images/icons/toolbar-controls/moveup_default.svg)**Move up** button (hotkeys combination - *Ctrl+Up*) or ![Move down](../../images/icons/toolbar-controls/movedown_default.svg)**Move down** (hotkeys combination - *Ctrl+Down*). There are similar commands in the context menu of each node in the right window (it is not possible to move **Root** root node).
+Созданные дочерние узлы можно расположить в удобном для себя порядке. Для этого необходимо выделить узел, который нужно переместить и нажать на кнопки ![Переместить вверх](./../../images/icons/common/toolbar-controls/moveup_default.svg)**Переместить вверх** (комбинация горячих клавиш *Ctrl+Up*) или ![Переместить вниз](./../../images/icons/common/toolbar-controls/movedown_default.svg)**Переместить вниз** (комбинация горячих клавиш *Ctrl+Down*). Аналогичные команды есть и в контекстном меню каждого узла в правом окне (корневой узел **Root** переместить нельзя).
 
-* ![Filter](../../images/icons/toolbar-controls/filter_default.svg)**Filter** enables to select fields by name or its part.
-* ![Search](../../images/icons/toolbar-controls/zoom_default.svg) **Search** enables to mark fields by name of its part.
+* ![Фильтрация](./../../images/icons/common/toolbar-controls/filter_default.svg)**Фильтрация** – позволяет отобрать поля по имени или его части.
+* ![Поиск](./../../images/icons/common/toolbar-controls/zoom_default.svg) **Поиск** – позволяет отметить поля по имени или его части.
 
-To reset the filter or search settings, it is required to use ![Clean](../../images/icons/filterdata/filterdata-delete_hover_10x10.svg) button.
+Чтобы сбросить параметры фильтрации или поиска нужно воспользоваться кнопкой ![Очистить](./../../images/icons/components/filterdata/filterdata-delete_hover_10x10.svg)
 
-To delete a child node, it is required to press ![Delete](../../images/icons/toolbar-controls/delete_default.svg)**Delete** (*Delete* hotkey) that is located in the right part of the child node string, and it is visible only when cursor hovering over the string. It is possible to delete all created child nodes by pressing ![Delete all...](../../images/icons/toolbar-controls/delete-all_default.svg)**Delete all...** button (hotkeys combination - *Shift+Delete*).
+Удалить дочерний узел можно нажав на иконку ![Удалить](./../../images/icons/common/toolbar-controls/delete_default.svg)**Удалить** (горячая клавиша *Delete*), которая находится с правой части строки дочернего узла и видна при наведении курсора на строку. Все созданные дочерние узлы можно удалить нажав на кнопку ![Удалит все...](./../../images/icons/common/toolbar-controls/delete-all_default.svg)**Удалить все...** (комбинация горячих клавиш *Shift+Delete*).

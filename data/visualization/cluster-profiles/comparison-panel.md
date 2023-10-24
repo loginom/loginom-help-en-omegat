@@ -1,28 +1,31 @@
-# ![Cluster Comparison Panel](../../images/icons/viewers/cluster-profiles/cluster-profiles/sliced_18x18/scales_default.svg) Cluster Comparison Panel
+---
+description: Панель сравнения кластеров в Loginom. Вывод сравнительной информации по кластерам с графической визуализацией в виде гистограммы. Справка по интерфейсу и настройкам панели.
+---
+# ![Панель сравнения кластеров](./../../images/icons/viewers/cluster-profiles/cluster-profiles/scales_default.svg) Панель сравнения кластеров
 
-It contains the comparative information on the [clusters](https://wiki.loginom.ru/articles/cluster.html) selected in the [*Main table*](./main-table.md). Color coding and order of clusters matches the colors and selection order of cells in the *Main table*.
+Содержит сравнительную информацию по [кластерам](https://wiki.loginom.ru/articles/cluster.html), выделенным в [*Основной таблице*](./main-table.md). Цветовое кодирование и порядок кластеров совпадает с цветами и порядком выделения ячеек в *Основной таблице*.
 
-![Cluster Comparison Panel.](./images/cluster-profilies-comparison-panel.png)
+![Панель сравнения кластеров.](./images/cluster-profilies-comparison-panel.png)
 
-The *cluster comparison panel* can be conventionally divided into two areas (refer to Figure 1):
+*Панель сравнения кластеров* условно можно разделить на две области (см. Рис 1):
 
-1. **Upper panel part** contains the comparative cluster histogram. The cluster histograms and [universal set](https://wiki.loginom.ru/articles/general-population.html) are combined in one area. The upper panel part contains the only histogram setting added to the general histogram settings on the [*Toolbar*](./toolbar.md):
-   * ![Cumulative histogram](../../images/icons/viewers/cluster-profiles/cluster-profiles/sliced_18x18/stacked-histogram_default.svg) **Cumulative histogram** displays one composite column divided into color areas matching the clusters.
-2. **Lower panel part** contains the summary table of the values of *Indicators* by the selected clusters in the *Main table*.
+1. **Верхняя часть панели** — содержит сравнительную гистограмму кластеров, в одной области совмещены гистограммы кластеров и [генеральной совокупности](https://wiki.loginom.ru/articles/general-population.html). Верхняя часть панели содержит единственную настройку гистограммы в дополнении к общим настройкам гистограмм на [*Панели инструментов*](./toolbar.md):
+   * ![Накопительная диаграмма](./../../images/icons/viewers/cluster-profiles/cluster-profiles/stacked-histogram_default.svg) **Накопительная диаграмма** — отображает один составной столбец, разбитый на цветные области, соответствующие кластерам.
+2. **Нижняя часть панели** — содержит сводную таблицу значений *Индикаторов* по выбранным кластерам в *Основной таблице*.
 
-> Note: If the *Cumulative histogram* mode is enabled and at the same time *Total* cluster cell is selected, the corresponding data will not be added to the cumulative histogram (as it matches the universal set).
+>Примечание: Если одновременно включен режим *Накопительная гистограмма* и выбрана ячейка кластера *Итого*, то в данные из этого не будут добавлены в накопительную гистограмму (поскольку они соответствуют генеральной совокупности).
 
 &nbsp;
-> Note: The *Cumulative histogram* mode can be enabled when the histograms refer to the *Absolute frequencies* or *Relative frequencies* formats. The option is disabled and is not available in *Density (PDF)* format.
+>Примечание: Режим *Накопительная гистограмма* может быть включен, когда гистограммы имеют формат *Абсолютные частоты* или *Относительные частоты*, в формате *Плотность вероятности* опция отключается и недоступна.
 
-There are two types of histograms:
+Гистограмма может быть двух видов:
 
-* **Сontinuous histogram** means the solid fill under the continuous smooth curve, and it matches the same one in the table cell.
-* **Discrete histogram** is a table with the following columns:
-   * **№**: the unique value number.
-   * **Caption**: the unique value caption.
-   * **Rate**: the column with the horizontal histogram columns.
-   * **Total**: the column with the number of values in the histogram columns of the universal set. It is displayed when *Show universal set in histograms* option in the *Toolbar* is enabled.
-   * **Class caption**: columns with the number of values in the cluster histograms columns.
+* **Непрерывная гистограмма** — сплошная заливка под непрерывной гладкой кривой, совпадает с таковой в ячейке таблицы;
+* **Дискретная гистограмма** — представляет собой таблицу со следующими колонками:
+  * **№** — номер уникального значения.
+  *  **Метка** — метка уникального значения.
+  *  **Доля** — колонка с столбцами горизонтальной гистограммы.
+  *  **Итого** — колонка с количеством значений в колонках гистограммы генеральной совокупности. Отображается при включенной опции *Показывать генеральную совокупность в гистограммах* в *Панели инструментов*.
+  *  **Метка кластера** — колонки с количеством значений в колонках гистограмм кластеров.
 
-> Note: It is possible to sort all columns, with the exception of *Rate* column.
+>Примечание: Все колонки, кроме колонки *Доля*, можно сортировать.

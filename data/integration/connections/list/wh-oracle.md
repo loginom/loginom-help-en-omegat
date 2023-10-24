@@ -1,46 +1,54 @@
-# ![wh-oracle](../../../images/icons/data-sources/wh-oracle_default.svg) Connection to Deductor Warehouse [Oracle]
+---
+description: Интеграция Loginom с хранилищем данных Deductor Warehouse, основанным на СУБД Oracle. Параметры подключения. Совместимость.
+---
+# ![wh-oracle](./../../../images/icons/common/data-sources/wh-oracle_default.svg) Подключение к Deductor Warehouse [Oracle]
 
-It is used for connection to the [Deductor Warehouse](../../../data-format/data-warehouse.md) Data Warehouse based on Oracle DBMS.
+Используется для подключения к Хранилищу данных [Deductor Warehouse](./../../../data-format/data-warehouse.md), основанному на СУБД Oracle.
 
-It is possible to provide connection both via DBMS client, and the internal Loginom driver.
+Возможно подключение как через клиент СУБД, так и через внутренний драйвер Loginom.
 
-## Connection Parameters
+## Параметры подключения
 
-The following parameters are set during the connection setup:
+При настройке подключения задаются следующие параметры:
 
-* **Caption** contains the connection name set by a user.
-* **Connection string**: the string used by the driver for connection to the required database. The string connection format is defined by the used driver (refer to *Do not use DBMS client* parameter below):
-   * The string format when DBMS client is used is as follows:
-      * **`<ServerName>`** where
-         **ServerName**: the DBMS server host as stated in tnsnames.ora configuration file of Oracle server.
-   * The string format when the inbox driver is used can relate to the following kind:
-      * **`<ServerName>:<Port>:<SID>`** or
-      * **`<ServerName>[:<Port>]/<Service_name>`** where:
-         * **ServerName**: the DBMS server host.
-         * **Port**: the TCP port used by DBMS server to provide interaction with the client.
-         * **SID**: the unique name of the DB example (System ID).
-         * **ServiceName**: the alias of one or several DB examples.
-* **Test connection**: connectivity test with the specified settings.
-* **Login**: login of the DB user.
-* **Password**: password of the DB user.
-* **Parameters**:
-   * **Save password**: when selecting this checkbox, login and password will be saved in the current connection settings.
-   * **Show system tables**: when selecting this checkbox in the import wizard that uses this connection, the system DB tables available to a user become visible.
-   * **Quote names**: if the database objects names (for example, names of tables, fields) contain spaces or reserved characters, it is required to use framing characters fixing the name start and end.
-   * **Configure quotes** represents the information field that enables to define which framing characters are used for connection to this DB. Double quotes are used for Oracle.
-   * **Do not use DBMS client**: if this option is used, the alternative inbox driver built into the platform is used for connection to DBMS.
-   * **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for the quick call upon the node deactivation. This parameter is disabled by default.
-* **Description**: it is possible to provide any reference connection data in this field.
+* **Метка** — содержит задаваемое пользователем имя подключения.
+* **Строка подключения** — строка, используемая драйвером для подключения к базе данных. Формат строки подключения определяется используемым драйвером (см. параметр *Не использовать клиент СУБД*):
+  * **При использовании встроенного драйвера:** `host[:port]/ServiceName | host:port:SID` (параметр в [ ] является опциональным; формат строки может быть задан в одном из двух вариантов, между вариантами используется | ):
+    * `host` — хост сервера СУБД;
+    * `port` — порт TCP, используемый сервером СУБД для взаимодействия с клиентом;
+    * `ServiceName` — имя службы;
+    * `SID` — Oracle Database Instance (SID), содержащий необходимые данные.
 
-> **Note:** If DBMS client is used, it must be with the same bitness as the Loginom application/server bitness.
+  * **При использовании клиента СУБД:** `net_service_name` — хост сервера СУБД, как указано в конфигурационном файле tnsnames.ora сервера Oracle.
 
-## Compatibility
+* **Тестировать** — проверка возможности подключения при заданных настройках.
+* **Логин** — логин пользователя БД.
+* **Пароль** — пароль пользователя БД.
 
-Starting from Oracle Database 9i and higher.
+* **Параметры**:
+  
+  * **Показывать системные таблицы** — при установке этого флага в мастере импорта, использующего данное подключение, становятся видимы доступные пользователю системные таблицы БД.
+  * **Обрамлять имена кавычками** — если имена объектов базы данных (например, имена таблиц, полей) содержат пробелы или зарезервированные символы, то необходимо использовать обрамляющие символы, фиксирующие начало и конец имени.
+  * **Не использовать клиент СУБД** — если задействовать эту опцию, то для подключения к СУБД используется альтернативный, встроенный в платформу драйвер.
+  * **Очищать пул при деактивации** — очищает пул часто используемых в пакетной обработке и пакетов Loginom Integrator, сохраненных для быстрого вызова, после деактивации узла. По умолчанию этот параметр отключен.
 
-> **Important:** UTF16 encoding is used for data exchange with the server.
+* **Параметры хранилища данных**:
 
-**See also:**
+  * **Имя схемы в базе данных** — имя схемы, в которой находятся метаданные и данные ХД.
 
-* [Information on Oracle Database in the Russian section in Wikipedia](https://ru.wikipedia.org/wiki/Oracle_Database);
-* [Official website of the Oracle Database manufacturer](https://www.oracle.com/database).
+    >**Примечание:** Если имя схемы содержит символы `"`, `[` `]`, могут выдаваться сообщения об ошибках.
+
+* **Комментарий** — в этом поле можно оставить любую справочную информацию о подключении.
+
+> **Примечание:** Если используется клиент СУБД, то он должен быть той же разрядности, что и разрядность приложения/сервера Loginom.
+
+## Совместимость
+
+Начиная с версии Oracle Database 9i и выше.
+
+> **Важно:** Для обмена данными с сервером используется кодировка UTF16.
+
+**Смотри также:**
+
+* [Информация по Oracle Database в русском разделе википедии](https://ru.wikipedia.org/wiki/Oracle_Database).
+* [Официальный сайт производителя Oracle Database](https://www.oracle.com/database).

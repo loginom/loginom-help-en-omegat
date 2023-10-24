@@ -1,91 +1,80 @@
-# Replacement by Exact Match
+---
+description: Замена в Loginom. Замена по точному совпадению. Допустимый интервал.
+---
+# Замена по точному совпадению
 
-The *Value* field of the replacement table contains the values to be replaced. The algorithm searches for exact match of the source data with the values of this field. If such match is found, it is replaced with the value of the *Replace* field.
+Для того чтобы произвести Замену по точному совпадению, нужно в Мастере настроек для нужного поля выставить значение способа замены *Ввод вручную*.
 
-The algorithm logics example:
+![Мастер настроек. Ввод вручную](./substitution-exact-match-1.png)
 
-<table>
-<thead>
-<tr><th>The source data value</th><th colspan="2">Values of the replacement table rows</th><th>Match</th><th>New value</th></tr>
-</thead>
-<tbody>
-<tr><td> </td><th><br>"Replace" field</th><th><br>"Value field"</th><td> </td><td> </td></tr>
-<tr><td rowspan="5" valign="top" align="right">48</td><td align="right">12</td><td align="left">Poor</td><td>No</td><td rowspan="5" valign="top" align="left">Excellent</td></tr>
-<tr><td align="right">24</td><td align="left">Satisfactory</td><td>No</td></tr>
-<tr><td align="right">36</td><td align="left">Good</td><td>No</td></tr>
-<tr><td align="right">48</td><td align="left">Excellent</td><td>Yes</td></tr>
-<tr><td align="right">60</td><td align="left">Perfect</td><td>No</td></tr>
-</tbody>
-</table>
+**Точное совпадение** — значение, которое требуется заменить.
 
-Data use example:
+**Регулярное выражение** — значение задается с помощью [регулярного выражения](./regexp-match.md). Доступно только для [Строкового](./../../../data/datatype.md) типа данных.
 
-Replacement Table
+**Замена** — значение, на которое требуется заменить.
 
-|Replacement|Value|
-|-:|:-|
-|12|Poor|
-|24|Satisfactory|
-|36|Good|
-|48|Excellent|
-|60|Perfect|
+%spoiler%**Пример**%spoiler%
 
-Result of the performed replacement
+| Код магазина| Название магазина | Количество покупателей |
+|:-:|:-:|:-:|
+|1253| Fresh Direct | 170 |
+|7569| Beauty&Seoul | 295 |
+|1709| Petal Pushers | 427 |
+|1989| Bulletproof | 255 |
+|2209| Autobarn | 389 |
 
-|Source data value|New value|
-|-:|:-|
-|12|Poor|
-|15|15|
-|24|Satisfactory|
-|35|35|
-|48|Excellent|
-|73|73|
+Применим к исходному набору следующие настройки:
 
-As shown in the table of comparison of the source data with the final one, all data not included into the *Replacement table* is not replaced and it is shown in the source form. The values not included into the *Replacement table* are processed according to the specified *Precision* and [Replace other](./other-match.md) parameter.
+![Настройки Замены для примера.](substitution-exact-match-2.png)
 
-## Use of the Allowable Interval
+В параметре [Заменять остальные](./other-match.md) выбираем *Не заменять.*
 
-It is possible to specify the allowable search interval when searching for real and integer data. *Precision* parameter is required for its configuration. Intervals are calculated as follows: `from <Replace field value>-<Precision> to <Replace field value>+<Precision>`. If several matches are found taking into account the interval, the closest match to the source one will be used.
+Получаем следующий набор:
 
-The algorithm logics example with interval use:
+| Код магазина| Название магазина Замена | Название магазина Заменен | Количество покупателей |
+|:-:|:-:|:-:|:-:|
+|001253| Рязань | true | 170 |
+|007569| Beauty&Seoul | false| 295 |
+|000709| Москва | true | 427 |
+|001989| Краснодар | true | 255 |
+|002209| Autobarn | false | 389 |
 
-<table>
-<thead>
-<tr><th>The source data value</th><th colspan="2">Values of the replacement table rows </th><th>Allowable interval</th><th>Match interval</th><th>Match</th><th>The closest to source</th><th>New value</th></tr>
-</thead>
-<tbody>
-<tr><th></th><th><br>"Replace" field</th><th><br>"Value field"</th><th></th><th></th><th></th><th></th><th></th></tr>
-<tr><td rowspan="5" valign="top" align="right">50</td><td align="right">12</td><td>Poor</td><td rowspan="5" valign="top" align="right">20</td><td>from -8 to 32</td><td>No</td><td>No</td><td rowspan="5" valign="top" align="center">Excellent</td></tr>
-<tr><td align="right">24</td><td>Satisfactory</td></td><td> from 4 to 44</td><td>No</td><td>No</td></tr>
-<tr><td align="right">36</td><td>Good</td></td><td>from 16 to 56</td><td>Yes</td><td>No</td></tr>
-<tr><td align="right">48</td><td>Excellent</td></td><td>from 28 to 68</td><td>Yes</td><td>Yes</td></tr>
-<tr><td align="right">60</td><td>Perfect</td></td><td>from 40 to 80</td><td>Yes</td><td>No</td></tr>
-</tbody>
-</table>
+%/spoiler%
 
-Data use example:
 
-Replacement Table
+## Применение допустимого интервала
 
-|Replacement|Value|
-|-:|:-|
-|12|Poor|
-|24|Satisfactory|
-|36|Good|
-|48|Excellent|
-|60|Perfect|
+При поиске среди [Вещественных](./../../../data/datatype.md) и [Целых](./../../../data/datatype.md) данных возможно указание допустимого интервала поиска. За его настройку отвечает параметр *Точность*. Интервалы рассчитываются следующим образом: `от <Значение поля замена>-<Точность> до <Значение поля замена>+<Точность>`, включая границы интервала. В случае, если с учетом интервала будут найдены несколько совпадений, то применяться будет наиболее близкое к исходному.
 
-*Precision* is equal to `12`.
+%spoiler%**Пример**%spoiler%
 
-Result of the performed replacement
+Возьмём набор данных из предыдущего примера.
 
-|Source data value|New value|
-|-:|:-|
-|12|Poor|
-|15|Poor|
-|24|Satisfactory|
-|35|Good|
-|48|Excellent|
-|73|73|
+| Код магазина| Название магазина | Количество покупателей |
+|:-:|:-:|:-:|
+|1253| Fresh Direct | 170 |
+|7569| Beauty&Seoul | 295 |
+|1709| Petal Pushers | 427 |
+|1989| Bulletproof | 255 |
+|2209| Autobarn | 389 |
 
-The values included neither into the *Replacement table*, nor into *Allowable intervals*, are processed according to the configured parameter - [Replace other](./other-match.md).
+И установим следующие настройки.
+
+![Настройки Замены для примера.](substitution-exact-match-3.png)
+
+В параметре **Точность** установим значение, равное *85*.
+В параметре **Заменять остальные** установим значение *Не заменять*.
+
+Получаем следующий набор:
+
+| Код магазина| Название магазина | Количество покупателей Замена | Количество покупателей Заменен | Количество покупателей отклонение |
+|:-:|:-:|:-:|:-:|:-:|
+|001253| Рязань | Хорошо | true | 85,00 |
+|007569| Beauty&Seoul | Хорошо| true | -40,00 |
+|000709| Москва | 427 | false | |
+|001989| Краснодар | Хорошо | true | 0,00 |
+|002209| Autobarn | 389 | false | |
+
+%/spoiler%
+
+Значения, не попавшие ни в *Таблицу замен*, ни в *Допустимые интервалы*, обрабатываются согласно настройке параметра [Заменять остальные](./other-match.md).

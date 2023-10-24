@@ -1,30 +1,60 @@
-# ![](../../images/icons/toolbar-controls/format_default.svg) Format
+---
+description: Настройка формата отображения данных в Loginom. Справка по работе с окном настройки и групповому форматированию. Установка ширины, смена форматов, разделителей, округления. Установка денежных знаков. Особый формат
+---
+# ![](./../../images/icons/common/toolbar-controls/format_default.svg) Формат
 
-It enables to change the data view format in the table column and then set the column width and its visibility.
-The format is set for the data types:
+Позволяет менять формат отображения данных в столбцах таблицы, а также задать ширину столбца и его видимость.
 
-* ![](../../images/icons/data-types/integer_default.svg) Integer.
-* ![](../../images/icons/data-types/float_default.svg) Real.
-* ![](../../images/icons/data-types/datetime_default.svg) Date/Time.
+Ширина столбца и видимость настраиваются для полей с любым типом данных. Задать форматирование можно для полей с типами:
 
-It is possible to set width and visibility for each column.
+* ![](./../../images/icons/common/data-types/integer_default.svg) Целый;
+* ![](./../../images/icons/common/data-types/float_default.svg) Вещественный;
+* ![](./../../images/icons/common/data-types/datetime_default.svg) Дата/Время.
 
-## Configuration Window
+## Окно настройки
 
-The field order number of the source data set is specified in column №.
+Окно *Формат* разделено на две области. В левой части необходимо выбрать поле, отображение которого требуется настроить, здесь также можно задать ему видимость. В правой области для выделенного поля настраивается *Ширина колонки* и задаются доступные параметры форматирования.
 
-By default, the fields are shown in the table in the same order as in the source data set. If the fields order was changed, it can be restored to the initial one. For this purpose, it is required to press ![](../../images/icons/toolbar-controls/refresh-all_default.svg) *Restore fields order* button.
+Левая область представлена таблицей:
 
-The fields with data types which format can be changed are displayed in the *Available fields* column. It is possible to filter the list of fields by specifying the field caption in the filter area. To reset filtration, it is required to press ![](../../images/extjs-theme/form/clear-trigger/clear-trigger_default.svg) button.
+* В столбце *№* указан порядковый номер поля исходного набора данных.
+По умолчанию поля выводятся в том же порядке, что и в исходном наборе данных. Порядок полей можно изменить с помощью команд контекстного меню ![](./../../images/icons/common/toolbar-controls/moveup_default.svg) *Переместить вверх*, ![](./../../images/icons/common/toolbar-controls/movedown_default.svg) *Переместить вниз*. Если порядок полей менялся, его можно восстановить до исходного, нажав кнопку (выбрав команду контекстного меню) ![](./../../images/icons/common/toolbar-controls/refresh-all_default.svg) *Восстановить порядок полей*.
 
-It is possible to select the display format in the  *Format* column for the selected field. To select the field display format, it is required to click near the required field with the left mouse button and select one of the available options fom the drop-down list.
+* В столбце *Поля* показаны поля исходного набора с указанием типов данных. Список полей можно отфильтровать, введя метку поля в области фильтрации. Чтобы сбросить фильтрацию, необходимо нажать кнопку ![](./../../images/extjs-theme/form/clear-trigger/clear-trigger_default.svg).
 
-To restore the default formats, it is required to press ![](../../images/icons/toolbar-controls/delete-all_default.svg) *Restore format of all fields* button.
+* В третьем столбце настраивается видимость полей в визуализаторе *Таблица*. В заголовке столбца расположена кнопка ![](./../../images/icons/common/toolbar-controls/invisible_default.svg) *Скрыть все поля* / ![](./../../images/icons/common/toolbar-controls/visible_default.svg) *Отобразить все поля*, которая позволяет задать видимость для всех полей сразу (аналогичное действие доступно в контекстном меню). Чтобы задать видимость для отдельного поля необходимо его выделить и нажать кнопку ![](./../../images/icons/common/toolbar-controls/visible_default.svg) *Отображается* / ![](./../../images/icons/common/toolbar-controls/invisible_default.svg) *Скрыто* . Скрытые поля не будут показаны в визуализаторе *Таблица*.
 
-It is possible to set width of the column displayed in the *Table* in *Width* column for the selected field. To set the field width, it is required to click near the required field with the left mouse button and enter the numeric value using the keyboard. The field width is set in pixels. Range of values varies from $$0$$ to $$1.8*10^{308}$$.
-To restore the default width of fields, it is required to press ![](../../images/icons/toolbar-controls/delete-all_default.svg)*Restore width of all fields* button.
+В правой области окна *Формат* задаются параметры:
 
-The field visibility is set in the last column in the *Table* visualizer. To hide the field, it is required to press ![](../../images/icons/toolbar-controls/visible_default.svg) *Visible* button near the required column.
-To hide/display all fields, it is required to press ![](../../images/icons/toolbar-controls/visible_default.svg) *Hide all fields* / ![](../../images/icons/toolbar-controls/invisible_default.svg) *Display all fields* button.
+* **Ширина колонки** — в поле ввода отображается ширина столбца в визуализаторе *Таблица*. При необходимости указанное значение можно изменить. Ширина колонки задаётся в пикселях. Диапазон значений от $$0$$ до $$1.8*10^{308}$$.
 
-After selection of all settings, it is required to press *Apply* button to apply the display formats.
+  Восстановить ширину полей до значений по умолчанию можно командой контекстного меню *Восстановить ширину всех полей*.
+
+* **Форматирование** — группа параметров для настройки отображения полей типов: ![](./../../images/icons/common/data-types/integer_default.svg) Целый, ![](./../../images/icons/common/data-types/float_default.svg) Вещественный и ![](./../../images/icons/common/data-types/datetime_default.svg) Дата/Время. 
+
+  Для полей целого и вещественного типов можно задать следующие параметры:
+
+  * **Число десятичных знаков** — по умолчанию значения отображаются в визуализаторе *Таблица* с той точностью, с которой они представлены в наборе. Для изменения представления необходимо задать требуемое число десятичных знаков (по умолчанию установлено равным 0).
+  * **Разделитель разрядов** — при выставленном флаге число будет представлено с разделением разрядов.
+  * **Денежный знак** — символ, который указан в поле ввода, будет добавлен к значению поля в визуализаторе *Таблица*.
+  * **Экспоненциальная форма** — при выставленном флаге число в визуализаторе *Таблица* будет представлено в экспоненциальной форме.
+  * **Особый формат** — поле позволяет настроить формат представления числа, задав соответствующую маску.
+  * **Пример** — поле предназначено для тестирования параметров форматирования. Число, введенное в поле, будет преобразовано в соответствии с заданным форматом и показано рядом с надписью *Результат*.
+
+    > **Примечание:** если форматирование задается через параметр *Особый формат* остальные параметры форматирования становятся недоступными для редактирования. По умолчанию установлен флаг *Особый формат*, чтобы задать форматирование через другие параметры, необходимо его снять.
+
+  Для полей типа Дата/Время можно выбрать формат отображения значений из предложенного списка, либо задать *Особый формат* (например, DD.MM.YYYY).
+
+  Восстановить все параметры форматирования до исходных значений можно командой контекстного меню *Восстановить формат всех полей*.
+
+Произведенные настройки вступают в силу после нажатия кнопки *Применить*.
+
+### Групповое форматирование
+
+Задать параметры форматирования можно одновременно для нескольких полей. Для этого в левой области окна *Формат* нужно выделить поля (множественное выделение осуществляется с помощью указателя мыши с зажатой клавишей Ctrl или Shift), а в правой области задать значения параметрам. После нажатия кнопки *Применить* заданные значения параметров форматирования будут применены одновременно ко всем выделенным полям.
+
+Например, если в левой части окна *Формат* выделить два поля, а в правой части задать параметр *Ширина колонки*, то после нажатия кнопки *Применить* оба столбца в визуализаторе *Таблица* будут иметь заданную ширину.
+
+>**Примечание:** при одновременном изменении параметров для полей разных типов будут недоступны для редактирования параметры форматирования, если они недоступны для одного из типов. Например, если выделены поля строкового и вещественного типов, можно будет изменить только параметр *Ширина колонки* т.к. остальные параметры недоступны для полей строкового типа.
+
+Аналогично можно одновременно перемещать несколько полей командами контекстного меню ![](./../../images/icons/common/toolbar-controls/moveup_default.svg) *Переместить вверх*, ![](./../../images/icons/common/toolbar-controls/movedown_default.svg) *Переместить вниз*.

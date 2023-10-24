@@ -1,39 +1,50 @@
-# ![Row Filter](../../../images/icons/components/filter-data_default.svg) Row Filter
+---
+description: Фильтр строк в Loginom. Мастер настройки.
+---
+# ![Фильтр строк](./../../../images/icons/components/filter-data_default.svg) Фильтр строк
 
-The *Row filter* handler enables to select the records that meet one or several criteria. Several criteria are joined into the complex criterion using the logical AND/OR operators.
+Компонент *Фильтр строк* позволяет выделить записи, которые удовлетворяют одному или нескольким условиям. Несколько условий объединяются в сложное условие с помощью логических операторов И/ИЛИ.
 
-The complex criterion example:
+Пример сложного условия:
 
-(City = `Moscow`) **AND** (Name = `Sasha`) **AND** (Age >= `30`) **AND** (Sex = `male`) **OR** (City = `Tula`)
+(Город = `Москва`) **И** (Имя = `Саша`) **И** (Возраст >= `30`) **И** (Пол = `мужской`) **ИЛИ** (Город = `Тула`)
 
-The [control variables](../../../scenario/variables/control-variables.md) can be used as the criteria parameter. In this case, the example provided above will be as follows:
+В качестве параметра условий могут выступать [управляющие переменные](./../../../workflow/variables/control-variables.md). В этом случае приведенный выше пример будет выглядеть следующим образом:
 
-(City = `<VAR1>`) **AND** (Name = `<VAR2>`) **AND** (Age>= `<VAR3>`) **AND** (Sex = `<VAR4>`) **OR** (City = `<VAR5>`)
+(Город = `<VAR1>`) **И** (Имя = `<VAR2>`) **И** (Возраст >= `<VAR3>`) **И** (Пол = `<VAR4>`) **ИЛИ** (Город = `<VAR5>`)
 
-Where: `VAR1` ... `VAR5` are the names of the control variables accepted by the node as the input parameters.
+Где: `VAR1` ... `VAR5` — имена управляющих переменных, принятые узлом в качестве входных параметров.
 
-Thus, the filtering criterion can be dynamically set during the workflow execution.
+Таким образом, условие фильтра может задаваться динамически в ходе выполнения сценария.
 
-> IMPORTANT: When writing complex criteria, **AND** operator will be prioritised.
-> For example, the following complex criterion: "A **OR** B **AND** C **OR** D **AND** E **AND** F" will be executed as follows: "A **OR** (B **AND** C) **OR** (D **AND** E **AND** F)".
+> Важно: при написании сложных условий приоритет будет у оператора **И**.
+Например, сложное условие вида: "A **ИЛИ** B **И** C **ИЛИ** D **И** E **И** F" будет выполняться следующим образом: "A **ИЛИ** (B **И** C) **ИЛИ** (D **И** E **И** F)"
 
-The input data set is divided into two output data sets (data tables): the records that meet the filtering criterion and the records that do not meet the criterion.
+Входной набор данных делится на два выходных набора (таблицы данных): записи, удовлетворяющие условию фильтрации, и записи, не удовлетворяющие условию.
 
-### Input
+### Вход
 
-* ![Input data source](../../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source** (data table).
+* ![Входной источник данных](./../../../images/icons/app/node/ports/inputs/table_inactive.svg) **Входной источник данных** (таблица данных).
 
-### Output
+### Выход
 
-* ![Meet criterion](../../../images/icons/app/node/ports/inputs/table_inactive.svg) **Meet criterion** (data table).
-* ![Do not meet criterion](../../../images/icons/app/node/ports/inputs/table_inactive.svg) **Do not meet criterion** (data table).
+* ![Соответствует условию](./../../../images/icons/app/node/ports/inputs/table_inactive.svg) **Соответствуют условию** (таблица данных);
+* ![Не соответствуют условию](./../../../images/icons/app/node/ports/inputs/table_inactive.svg) **Не соответствуют условию** (таблица данных).
 
-## Wizard
+## Мастер настройки
 
-*Login status* is located in the upper part of the wizard.
+В верхней части мастера настройки находится *Состояния входа*.
 
-Area of the filtering criteria settings is located under the login status row. The new criterion is added by pressing + button. Then it is required to select the field name, [comparison ratio](./filter-conditions.md) (*Condition*) and comparison value. When creating several criteria, it is required to set the logical AND/OR operators between them. AND operator is set by default. To change the operator, it is required to left-click on it.
+Под строкой состояния располагается область настройки условий фильтрации. Новое условие добавляется нажатием на кнопку +. Далее выбирается имя поля, [отношение сравнения](./filtering-criteria.md) (*Условие*) и значение сравнения.
 
-It is possible to preview the filtering result in the handler (the first 25 rows of the resulting table are shown). To start it, it is required to press *Apply filter* button.
+В зависимости от отношения сравнения, вида и типа данных поля, по которому задается условие фильтрации, значение сравнения можно задать с помощью переключателя или выбрать из предлагаемого списка. Также можно ввести данные с клавиатуры.
 
-> **Note:** To show data in the preview window, only the first thousand rows of the source data set are processed. If no records that meet the filtering criterion are detected among them, the following warning is shown: `Maximum scanned row count reached: 1000`.
+Для условий *в списке/вне списка* элементы для сравнения добавляются по клавише %kbd Enter %, удаляются — по клавишам %kbd Backspace % или %kbd Delete %. Перемещаться по введенным элементам списка можно при помощи стрелок. Доступна вставка списка значений из буфера обмена (см. [Особенности работы с буфером обмена в Фильтре строк](./filterdata-paste-from-clipboard.md)).
+
+Для условий *пустой/не пустой* значение для сравнения не задается.
+
+При создании нескольких условий между ними необходимо задать логические операторы И/ИЛИ. По умолчанию ставится оператор И. Чтобы изменить оператор, нужно кликнуть по нему левой кнопкой мыши.
+
+В узле имеется возможность предпросмотра результата фильтрации (выводятся первые 25 строк результирующей таблицы). Чтобы запустить его, необходимо нажать кнопку *Применить фильтр*.
+
+> **Примечание:** Для вывода данных в окно предпросмотра обрабатывается только первая тысяча строк исходного набора. Если среди них не найдено записей, удовлетворяющих условию фильтрации, выводится предупреждение `Достигнуто максимальное количество строк сканирования: 1000`.

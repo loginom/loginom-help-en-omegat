@@ -2,16 +2,20 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
 	<!ENTITY st0 "fill:#E3EFFA;">
 	<!ENTITY st1 "fill:#71B1E4;">
-	<!ENTITY st2 "fill:#FFCCCC;">
-	<!ENTITY st3 "fill:#E30612;">
-	<!ENTITY st4 "fill:#FDE9D2;">
-	<!ENTITY st5 "fill:#F7931E;">
-	<!ENTITY st6 "fill:#CCF4D1;">
-	<!ENTITY st7 "fill:#39B54A;">
-	<!ENTITY st8 "fill:#EBECEF;">
-	<!ENTITY st9 "fill:#757981;">
-	<!ENTITY st10 "fill:#EAECF1;">
-	<!ENTITY st11 "fill:#BAC0CF;">
+	<!ENTITY st2 "fill:#5195CA;">
+	<!ENTITY st3 "fill:#FFCCCC;">
+	<!ENTITY st4 "fill:#E30612;">
+	<!ENTITY st5 "fill:#FDE9D2;">
+	<!ENTITY st6 "fill:#F7931E;">
+	<!ENTITY st7 "fill:#E67300;">
+	<!ENTITY st8 "fill:#CCF4D1;">
+	<!ENTITY st9 "fill:#39B54A;">
+	<!ENTITY st10 "fill:#009B14;">
+	<!ENTITY st11 "fill:#EBECEF;">
+	<!ENTITY st12 "fill:#757981;">
+	<!ENTITY st13 "fill:#48484E;">
+	<!ENTITY st14 "fill:#EAECF1;">
+	<!ENTITY st15 "fill:#BAC0CF;">
 ]>
 <svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="15px" height="24px" viewBox="0 0 15 24" style="enable-background:new 0 0 15 24;" xml:space="preserve">
@@ -33,21 +37,11 @@
 		L9.968,18.036z"/>
 	<path style="&st1;" d="M7.241,20.512c-0.521,0.324-1.078,0.601-1.653,0.822l0.721,1.866c0.691-0.267,1.359-0.6,1.987-0.988
 		L7.241,20.512z"/>
-	<g>
-		<rect x="2" y="19" style="&st1;" width="2" height="2"/>
-	</g>
-	<g>
-		<rect x="2" y="15" style="&st1;" width="2" height="2"/>
-	</g>
-	<g>
-		<rect x="2" y="11" style="&st1;" width="2" height="2"/>
-	</g>
-	<g>
-		<rect x="2" y="7" style="&st1;" width="2" height="2"/>
-	</g>
-	<g>
-		<rect x="2" y="3" style="&st1;" width="2" height="2"/>
-	</g>
+	<rect x="2" y="19" style="&st1;" width="2" height="2"/>
+	<rect x="2" y="15" style="&st1;" width="2" height="2"/>
+	<rect x="2" y="11" style="&st1;" width="2" height="2"/>
+	<rect x="2" y="7" style="&st1;" width="2" height="2"/>
+	<rect x="2" y="3" style="&st1;" width="2" height="2"/>
 	<path style="&st1;" d="M4,23.824c-0.297,0.054-0.598,0.101-0.91,0.126C2.73,23.98,2.37,24,2,24v-2h2V23.824z"/>
 	<path style="&st1;" d="M4,0.176C3.703,0.123,3.402,0.075,3.09,0.05C2.73,0.02,2.37,0,2,0v2h2V0.176z"/>
 </g>

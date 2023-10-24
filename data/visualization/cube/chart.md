@@ -1,32 +1,53 @@
-# ![Chart](../../images/icons/toolbar-controls/chart_default.svg) Chart
+---
+description: Диаграмма куба в Loginom. Руководство по созданию диаграмм на основе данных из OLAP куба. Построение диаграмм по видам - линии, области, сплайны, столбчатая, сглаженные области, разброс.
+---
+# ![Диаграмма](./../../images/icons/common/toolbar-controls/chart_default.svg) Диаграмма
 
-The Cube chart represents the chart of the given type constructed on the Cube basis. As opposed to the standard one, it clearly matches the current state of the Cube, and in the case of all its changes, it changes correspondingly. It is possible to activate the chart view using ![ ](../../images/icons/toolbar-controls/chart_default.svg) **Chart** button on the Cube [Toolbar](./toolbar.md). The general chart view is provided on Figure 1.
+*Диаграмма Куба* представляет собой диаграмму заданного типа, построенную на основе *Куба*, но в отличие от обычной, она однозначно соответствует текущему состоянию *Куба* и при любых его изменениях меняется соответственно. Активировать просмотр диаграммы можно кнопкой ![ ](./../../images/icons/common/toolbar-controls/chart_default.svg) **Диаграмма** на [Панели инструментов](./toolbar.md) *Куба*. Общий вид диаграммы представлен на Рис. 1.
 
-![Cube Chart](./cube-chart.png)
+![Диаграмма Куба](./cube-chart.png)
 
-The cube chart has its own Toolbar that contains the following buttons:
+*Диаграмма Куба* имеет собственную панель инструментов и контекстное меню.
 
-* **Chart type** enables to select the type of the displayed chart:
-   * ![Lines](../../images/icons/series_18/d1.svg) **Lines**.
-   * ![Areas](../../images/icons/series_18/d2.svg) **Areas**.
-   * ![Splines](../../images/icons/series_18/d3.svg) **Splines**.
-   * ![Columns](../../images/icons/series_18/d4.svg) **Columns**.
-   * ![Smoothed areas](../../images/icons/series_18/d5.svg) **Smoothed areas**.
-   * ![Scatter](../../images/icons/series_18/d6.svg) **Scatter**.
-* **Series position** enables to select position of series:
-   * ![In columns](../../images/icons/toolbar-controls/columns_default.svg) **In columns**: construction of the chart series according to the column data.
-   * ![In rows](../../images/icons/toolbar-controls/rows_default.svg) **In rows**: construction of the chart series according to the row data.
-* **Show totals**: not to show the series generated on the basis of the final headers:
-   * ![Hide](../../images/icons/toolbar-controls/show-total-nor_default.svg) **Hide**.
-   * ![Show](../../images/icons/toolbar-controls/show-total-all_default.svg) **Show**.
-* **Displayed measure** enables to select the displayed measure from the list.
-* ![Restrictions](../../images/icons/toolbar-controls/cancel_default.svg)  **Restrictions** enable to set restrictions concerning the number of series/points:
-   * **Series**: the number of displayed series. It is possible to specify from 1 but not less than the count of unique values of dimensions in the cube rows up to 100 inclusively.
-   * **Points**: the number of displayed points. It is possible to specify from 1 but not less than the count of unique values of dimensions in the cube columns up to 1000 inclusively.
-* **Export** enables to export the chart to the given format:
-   * **PNG**.
-   * **JPEG**.
-   * **PDF**.
-   * **SVG**.
+Панель инструментов содержит кнопки:
 
-When hovering cursor over the series point, the tooltip with value appears. To disable the series, it is required to press it on the chart legend.
+* **Вид диаграммы** — позволяет выбрать вид отображаемой диаграммы:
+  * ![](./../../images/icons/series/d1.svg) **Линии**.
+  * ![](./../../images/icons/series/d2.svg) **Области**.
+  * ![](./../../images/icons/series/d3.svg) **Сплайны**.
+  * ![](./../../images/icons/series/d4.svg) **Столбчатая**.
+  * ![](./../../images/icons/series/d5.svg) **Сглаженные области**.
+  * ![](./../../images/icons/series/d6.svg) **Разброс**.
+* **Расположение серий** — позволяет выбрать расположение серий:
+  * ![](./../../images/icons/common/toolbar-controls/columns_default.svg) **В столбцах** — построение серии диаграммы по данным столбца.
+  * ![](./../../images/icons/common/toolbar-controls/rows_default.svg) **В строках** — построение серии диаграммы по данным строки.
+* **Итоги** — не показывать серии, сформированные на основе итоговых заголовков:
+  * ![](./../../images/icons/common/toolbar-controls/show-total-nor_default.svg) **Скрыть**.
+  * ![](./../../images/icons/common/toolbar-controls/show-total-all_default.svg) **Показать**.
+* ![](./../../images/icons/viewers/cube/sub-levels/show-sub-levels_default.svg)**Уровень заголовков:**
+  * ![](./../../images/icons/viewers/cube/sub-levels/hide-sub-levels_default.svg)**Первый уровень** — отображается только первый уровень заголовков.
+  * ![](./../../images/icons/viewers/cube/sub-levels/show-sub-levels_default.svg)**Все уровни** —  отображаются все уровни заголовков.
+* **Выбрать факты...** — позволяет выбрать отображаемые факты из списка.
+* ![](./../../images/icons/common/toolbar-controls/cancel_default.svg)  **Ограничения** — позволяет задать ограничения на количество серий/точек:
+  * **Серий** — количество отображаемых серий. Можно указать от 1, но не менее количества уникальных значений измерений в строках куба, до 1000 включительно.
+  * **Точек** — количество отображаемых точек. Можно указать от 1, но не менее количества уникальных значений измерений в столбцах куба, до 1000 включительно.
+* **Экспорт** — позволяет экспортировать диаграмму в определённый формат:
+  * **PNG**.
+  * **JPEG**.
+  * **PDF**.
+  * **SVG**.
+
+Перечисленные выше действия, за исключением кнопки **Ограничения**, дублируются командами контекстного меню *Диаграммы Куба*. Кроме этого, командой контекстном меню **Тип подсказок** можно задать отображение подсказок, которые появляются при наведении на точку серии:
+
+* **Групповые подсказки** - подсказка общая для всех серий, которые имеют значение с данным значением аргумента.
+* **Одиночные подсказки** - подсказка только для серии, на которую наведен указатель мыши.
+* **Нет подсказок** - подсказки не отображаются.
+
+Чтобы отключить серию (не отображать на диаграмме), необходимо щелкнуть указателем мыши по этой серии в легенде *Диаграммы Куба*.
+
+Легенда *Диаграммы Куба* имеет собственное контекстное меню, которое содержит команды для группового управления сериями:
+* ![](./../../images/icons/common/toolbar-controls/visible_default.svg) **Показать все серии** - все серии будут показаны на диаграмме.
+* ![](./../../images/icons/common/toolbar-controls/invisible_default.svg) **Скрыть все серии** - скрывает все серии на диаграмме.
+* ![](./../../images/icons/common/toolbar-controls/invert-eye_default.svg) **Инвертировать серии** - одновременно отображает все скрытые серии и скрывает все отображаемые серии.
+
+

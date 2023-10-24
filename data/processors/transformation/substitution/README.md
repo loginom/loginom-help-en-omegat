@@ -1,109 +1,122 @@
-# ![Replace](../../../images/icons/components/replace-columns_default.svg) Replace
+---
+description: Замена в Loginom. Таблицы замен. Замена по регулярным выражениям. Мастер настройки
+---
+# ![Замена](./../../../images/icons/components/replace-columns_default.svg) Замена
 
-The handler replaces the source data set data using replacement tables. The replacement tables contain couples of the replaced and new values or regular expressions that enable to compute them. It is possible to set these tables manually in the wizard (internal) or send to the handler port (external).
+Компонент заменяет данные исходного набора, используя таблицы замен. Таблицы замен содержат пары заменяемых и новых значений или вычисляющие их регулярные выражения. Эти таблицы можно задать вручную в мастере настройки (внутренние) или подать на вход узла (внешние).
 
-Sequence of the replacement algorithm actions:
+Последовательность действий алгоритма замены:
 
-1. First of all, it is required to search and replace by the [exact match](./exact-match.md) with the values specified in the replacement table.
-2. The search among the values not found by exact match is performed by [regular expressions](./regexp-match.md). Such expressions can be set in the internal replacement tables. New values are also computed using regular expressions.
-3. Replacement rules are observed for the values not found at the previous steps.
+ 1. Вначале производится поиск и замена по [точному совпадению](./exact-match.md) со значениями, указанными в таблице замен.
+ 2. Среди значений, не найденных по точному совпадению, производится поиск по [регулярным выражениям](./regexp-match.md). Такие выражения могут быть заданы во внутренних таблицах замен. Новые значения также вычисляются регулярными выражениями.
+ 3. Выполняются правила замены для значений, не найденных на предыдущих шагах.
 
-### Input
+### Вход
 
-* ![Input data source](../../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source** (data table): the data set to be changed.
-* ![Data set](../../../images/icons/app/node/ports/inputs/table_inactive.svg) **Joined table [N]** (data table): the data set that contains a replacement table.
-* ![Add port](../../../images/icons/app/node/ports/add/add_inactive_default.svg) **Add another port.** As several replacement tables are possible, the ports required for them can be added by a user.
+* ![Входной источник данных](./../../../images/icons/app/node/ports/inputs/table_inactive.svg) **Входной источник данных** (таблица данных) — набор данных, подлежащий изменению.
+* ![Набор данных](./../../../images/icons/app/node/ports/inputs/table_inactive.svg) **Присоединяемая таблица [N]** (таблица данных) — набор данных, содержащий таблицу замен.
+* ![Добавление порта](./../../../images/icons/app/node/ports/add/add_inactive_default.svg) **Добавление еще одного порта.** Поскольку таблиц замен может быть несколько, то необходимые порты для них могут быть добавлены пользователем.
 
-### Output
+### Выход
 
-* ![Output data set](../../../images/icons/app/node/ports/inputs/table_inactive.svg) **Output data set** (data table). When configuring port columns mapping, it is possible to select columns replacement or addition options.
+* ![Выходной набор данных](./../../../images/icons/app/node/ports/inputs/table_inactive.svg) **Выходной набор данных** (таблица данных). При настройке соответствия между столбцами порта можно выбрать варианты замены или добавления столбцов.
 
-## Wizard
+## Мастер настройки
 
-The wizard window consists of three areas:
+Окно мастера настройки состоит из 3-х областей:
 
-1. [Replacement methods](#sposoby-zamen).
-2. [Replacement table](#tablitsa-zamen).
-3. [Additional parameters](#dopolnitelnye-parametry).
+ 1. [Способы замен](#sposoby-zamen).
+ 2. [Таблица замен](#tablitsa-zamen).
+ 3. [Дополнительные параметры](#dopolnitelnye-parametry).
 
-### Replacement Methods
+### Способы замен
 
-Replacement method is set for each field of the source data set:
+Для каждого поля исходного набора задается способ замены:
 
-* **Do not replace**: the output data set won't be replaced.
-* **Manual input**: the internal replacement table is used.
-* **Replacement table** (Replacement table N): the external replacement table is used. This method is available in the settings if the external replacement table data is supplied to the input handler port.
+* **Не заменять** — выходной набор данных замены производиться не будут.
+* **Ввод вручную** — используется внутренняя таблица замен.
+* **Таблица замен** (Таблица замен N) — используется внешняя таблица замен. Данный способ присутствует в настройках, если на входной порт узла подаются данные внешней таблицы замен.
 
-**Replacement table N**: the name of the table accepting port.
+**Таблица замен N** — наименование принимающего таблицу порта.
 
-### Replacement Table
+### Таблица замен
 
-It displays the external or internal replacement table for the selected field of the source data set.
+Отображает внешнюю или внутреннюю таблицу замен для выбранного поля исходного набора.
 
-#### Configuration of the Internal Table
+#### Настройка внутренней таблицы
 
-To enter the new row into the replacement table, it is required to use ![Add row](../../../images/icons/toolbar-controls/plus_default.svg) button. The table can contain rows for search and replacement according to the following requirements:
+Для ввода новой строки в таблице замены используется кнопка ![Добавление строки](./../../../images/icons/common/toolbar-controls/plus_default.svg). Таблица может содержать строки для поиска и замены по:
 
-* [Exact match](./exact-match.md).
-* [Regular expression](./regexp-match.md) (it is applied only to the data of the string type).
+* [Точному совпадению](./exact-match.md).
+* [Регулярному выражению](./regexp-match.md) (применимо только к данным строкового типа).
 
-> **Important:** In the case of replacement of the numeric data, it is required to consider the intervals into which this or that replaced value is included.
+>**Важно:** в случае замены числовых данных стоит учитывать интервалы, в которые попадет то или иное заменяемое значение.
 
-%spoiler%Example%spoiler%
+%spoiler%Пример%spoiler%
 
-Let's consider the following table:
+Пусть имеется следующая таблица:
 
-| Value |
+| Значение |
 |:--------:|
 | 5 |
 | 10 |
 | 15 |
 
-There are the following replacement types: 1) `5 => -5`; 2) `15 => -15`.
+Правила замены вида: 1) `5 => -5`; 2) `15 => -15`.
 
-And precision is equal to `5`.
+И точность равная `5`.
 
-In this case, the output table will be as follows:
+В этом случае выходная таблица будет иметь вид:
 
-| Value |
+| Значение |
 |:--------:|
 | -5 |
 | -15 |
 | -15 |
 
-So, there are two half-intervals: [5, 10) and [10, 15).
-Thus, the bound values are included into the interval in which they are the initial ones.
+То есть получились два полуинтервала вида [5, 10) и [10, 15).
+Соответственно, граничные значения входят в тот интервал, где они являются начальными.
 
 %/spoiler%
 
-When entering the replacement table manually, the following actions are available by means of the area toolbar:
+При вводе вручную таблицы замены доступны ряд действий через панель инструментов области:
 
-* ![Import](../../../images/icons/toolbar-controls/import_default.svg) **Import** provides import of the replacement table from the text file with a particular [structure](./import-tz.md).
-* ![Export](../../../images/icons/toolbar-controls/export_default.svg) **Export** provides export of the replacement table to the text file.
-* ![Sort](../../../images/icons/toolbar-controls/sort-asc_default.svg) **Sort** enables to sort the table by field of the source value.
-* **Change replacement type** enables to set data type of the column with new values.
-* ![Edit current replacement](../../../images/icons/toolbar-controls/edit_default.svg) **Edit current replacement** enables to display the editing area of the current string of the substitution table.
-* ![Get values](../../../images/icons/toolbar-controls/load-values_default.svg) **Get values** enables to load the drop-down list called by ![ ](../../../images/icons/toolbar-controls/down_default.svg) button to the *Value* field in the case of the manual input of the replacement table.
+* ![Импорт](./../../../images/icons/common/toolbar-controls/import_default.svg) **Импорт** — импорт таблицы замен из текстового файла определенной [структуры](./import-tz.md).
+* ![Экспорт](./../../../images/icons/common/toolbar-controls/export_default.svg) **Экспорт** — экспорт таблицы замен в текстовый файл.
+* ![Сортировка](./../../../images/icons/common/toolbar-controls/sort-asc_default.svg) **Сортировка** — сортировка таблицы по полю исходного значения.
+* **Изменить тип замены** — задает тип данных столбца с новыми значениями.
+* ![Редактировать текущую замену](./../../../images/icons/common/toolbar-controls/edit_default.svg) **Редактировать текущую замену** — отображает область редактирования текущей строки таблицы подстановок.
+* ![Получить значения](./../../../images/icons/common/toolbar-controls/load-values_default.svg) **Получить значения** — подгружает выпадающий список, вызываемый кнопкой ![ ](./../../../images/icons/common/toolbar-controls/down_default.svg), в поле *Значение*, при ручном вводе таблицы замен.
 
-> **Note:** Replacement by exact match prevails over replacement by regular expression.
+> **Примечание:** Замена по точному совпадению имеет приоритет перед заменой по регулярному выражению.
 
-#### Configuration of the External Table
+#### Настройка внешней таблицы
 
-It is required to select **Usage type** for the table fields from the following options:
+Для полей таблицы необходимо выбрать **Назначение** из следующих вариантов:
 
-* ![Not used](../../../images/icons/usage-types/unspecified_default.svg) **Not used**: the replacement table field won't be used.
-* ![Value](../../../images/icons/usage-types/source_default.svg) **Value**: the field contains replaced values.
-* ![Replace](../../../images/icons/usage-types/replace-by_default.svg) **Replace**: the field contains new values.
-* ![Info](../../../images/icons/usage-types/unspecified_default.svg) **Info**: the field contains an additional option of the new value. Additional replacement options are displayed in the resulting data set in the form of a separate column.
+* ![Не используется](./../../../images/icons/common/usage-types/unspecified_default.svg) **Не используемое** — поле таблицы замен не будет использоваться.
+* ![Значение](./../../../images/icons/common/usage-types/source_default.svg) **Значение** — поле содержит заменяемые значения.
+* ![Замена](./../../../images/icons/common/usage-types/replace-by_default.svg) **Замена** — поле содержит новые значения.
+* ![Информационное](./../../../images/icons/common/usage-types/unspecified_default.svg) **Информационное** — поле содержит дополнительный вариант нового значения. Дополнительные варианты замены выводятся в результирующем наборе данных отдельным столбцом.
 
-> **Note:** If one value can be replaced according to conditions of several replacement table rows, the first one must prevail. Thus, **table sorting can have an impact on the processing result**. This rule is not applied when using the [allowable interval](./exact-match.md#primenenie-dopustimogo-intervala) (refer to *Precision* parameter).
+>**Примечание:** Если замена одного значения может быть произведена по условиям нескольких строк таблицы замен, то приоритет имеет первая из них. В связи с этим **сортировка таблицы замен может влиять на результат обработки**. Данное правило не применяется при использовании [допустимого интервала](./exact-match.md#primenenie-dopustimogo-intervala) (см. параметр *Точность*).
 
-### Additional Parameters
+### Дополнительные параметры
 
-* **Replace other** contains replacement options of the values that have not been found using the replacement table.
-   * **Do not replace**: no replacement is performed.
-   * **With empty**: values will be replaced with Null.
-   * **With value**: values will be replaced with the specified value.
-   * **With regular expression**: the new value will be calculated using the [regular expression](./regexp-match.md) syntax.
-* **Precision**: enables to set the [allowable interval](./exact-match.md#primenenie-dopustimogo-intervala) based on the values specified in the replacement tables for the integer and real fields. In this case, the source value will be replaced.
-* **Case-sensitive strings**: the checkbox installs the case-sensitive mode of values search in the replacement tables. This mode is not used by default.
+* **Заменять остальные** — содержит варианты замены значений, не найденных при помощи таблицы замен.
+  * **Не заменять** — замены производиться не будут.
+  * **На пропущенное** — значения будут заменены на Null.
+  * **На значение** — значения будут заменены на указанное.
+  * **На регулярное выражение** — новое значение будет вычислено с использованием синтаксиса [регулярного выражения](./regexp-match.md).
+* **Точность** — для полей целого и вещественного типов задает [допустимый интервал](./exact-match.md#primenenie-dopustimogo-intervala) от указанных в таблицах замен значений, при котором исходное значение будет заменено.
+* **Регистрозависимые строки** — флаг устанавливает регистрозависимый режим поиска значений в таблицах замен. По умолчанию данный режим не используется.
+
+### Выходной набор данных
+
+В результирующий набор данных для каждого поля, по которому производилась замена, будет добавлен столбец логического типа с именем "`Имя поля`_Replaced" и меткой "`Метка поля` Заменен".
+
+При настройках по умолчанию замена будет произведена в исходном столбце, а к метке поля будет добавлено слово "Замена". Имя столбца не изменится.
+
+В результирующем наборе данных можно оставить исходный столбец без изменений, а замененные значения выводить в отдельном столбце. Для этого в окне *Настройка соответствия между столбцами* мастера настройки узла *Замена* (шаг 2) на панели инструментов списка "Входные" необходимо указать ![](./../../../images/icons/common/toolbar-controls/tune_default.svg) *Тип создания производных столбцов* ![](./../../../images/icons/common/toolbar-controls/plus_default.svg) **Добавление** (см. также [Интерфейс "Связи"](./../../../workflow/ports/connections-interface.md)).
+
+В этом случае в результирующий набор будет включен дополнительный столбец, к имени которого будет добавлен постфикс  "_Replace", а к метке слово "Замена".

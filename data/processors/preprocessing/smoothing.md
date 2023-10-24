@@ -1,40 +1,44 @@
-# ![ ](../../images/icons/components/smoothing_default.svg) Smoothing
+---
+description: Компонент Сглаживание в Loginom. Вейвлеты Добеши, Койфлеты, CDF 9/7. Фильтр Ходрика-Прескота. Параметр Lambda. Глубина разложения.
+---
+# ![ ](./../../images/icons/components/smoothing_default.svg) Сглаживание
 
-## Description
+## Описание
 
-The handler is designated for smoothing of numerical data series and selection of trend story. The Hodrick-Prescott filter or one of three wavelet types (Daubechies, Coiflet and CDF 9/7 wavelets) can be used for these purposes in it. It is possible to smooth the series with null data. In this case, the Hodrick-Prescott filter enables to insert the values that provide the maximum smoothness as far as the filter functionality is concerned instead of the null data. If [Wavelet smoothing](https://wiki.loginom.ru/articles/wavelet-transform.html) is used, the null data is linearly interpolated first.
+Компонент предназначен для сглаживания численных рядов данных и выделения трендовой составляющей. Для этих целей в нем можно использовать *фильтр Ходрика-Прескотта* или один из трех типов вейвлетов — *вейвлеты Добеши, Койфлеты и CDF 9/7*. Имеется возможность сглаживания рядов с пропущенными данными, при этом [фильтр Ходрика-Прескотта](https://wiki.loginom.ru/articles/hodrickprescott-filter.html) подставляет вместо пропусков значения, которые обеспечивают максимальную гладкость в смысле функционала фильтра, а в случае [*вейвлет-сглаживания*](https://wiki.loginom.ru/articles/wavelet-transform.html) пропуски предварительно интерполируются линейно.
 
-%spoiler%Example%spoiler%
+%spoiler%Пример%spoiler%
 
-The chart that complies with the source data series (the Brent crude oil price movement) is shown in orange. The source data series processed with the "Smoothing" component using the Hodrick-Prescott filter with LAMBDA parameter equal to 100 is shown in blue. ![ ](./smoothing1.svg)
+На данной диаграмме оранжевым цветом изображен график, соответствующий исходному ряду данных (динамика цен на нефть марки Brent), а синим — исходный ряд, обработанный компонентом *Сглаживание* с помощью *фильтра Ходрика-Прескотта* с параметром Lambda, равным 100. ![ ](./smoothing1.svg)
 
 %/spoiler%
 
-## Ports
+## Порты
 
-### Input
+### Вход
 
-* ![ ](../../images/icons/app/node/ports/inputs/table_inactive.svg) Input data source: data table.
+* ![ ](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Входной источник данных** — таблица данных. Входные данные должны соответствовать следующим требованиям: [тип данных](./../../data/datatype.md) поля должен быть *целый* или *вещественный*, [вид данных](./../../data/datakind.md) — *непрерывный*.
 
-### Output
 
-* ![ ](../../images/icons/app/node/ports/outputs/table_inactive.svg) Output data set: the source table to which the fields with smoothed series have been added. Captions of such fields include **_smoothed** postfixes.
+### Выход
 
-## Wizard
+* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) **Выходной набор данных** — исходная таблица, к которой добавлены поля со сглаженными рядами; метки таких полей снабжены постфиксами *_smoothed*.
 
-It provides a list of the numerical fields included into the input table. It is required to provide checkboxes for the fields series of which are to be smoothed. Then it is possible to set the smoothing method in the "processing method" column for each selected field:
+## Мастер настройки
 
-* The Hodrick-Prescott filter has two interrelating parameters (simultaneous editing of parameters is excluded). Radio buttons switch to editing of one of them:
-   * Lambda is the main filter coefficient with increase of which the series smoothing increases as well (if Lambda → ∞, the final series becomes the linear trend, and if Lambda = 0, the series matches the source series). It can take the real values in the range of [0.0625, 1026598E+8] at 0.1 intervals. 1026598E+8 value was calculated on the basis of the maximum values of the Smoothing Period.
-   * The smoothing period: the real value in the range of [2, 20000] at 0.1 intervals. Default value - 39.7 (it is calculated on the basis of the default Labmba value that is equal to 1600).
-* Wavelet smoothing: the wavelet type is defined by the radio button (Daubechies, Coiflet and CDF 9/7). Settings of all wavelets are identical:
-   * Wavelet order defines the smoothness of the recovered data series: the lower the parameter value, the more expressed "outliers" are observed, and vice versa, the "outliers" will be smoothed when the parameter values are high. For the Daubechies wavelet this parameter can take values from 1 to 10, for the Coiflet wavelet - from 1 to 5, and this parameter is not used by CDF 9/7 wavelet.
-   * Bounds extension: the method is used to eliminate distortions on the series bounds while smoothing:
-      * Symmetric
-      * Antisymmetric
-      * Zero padding
-      * Constant
-      * Periodic
-      * Symmetric without extreme point
-      * Antisymmetric without extreme point
-   * Decomposition level defines the "scale" of the filtered out details. The higher this value, the "larger" details will be filtered out in the source data. The usage of too high values of decomposition level can cause the loss of usefull information in connection with too high level of the data "coarsening". The parameter can take values from 1 to 10.
+Предоставляет список численных полей, содержащихся во входной таблице. Поля, ряды которых требуется сгладить, следует отметить флагами, после этого в столбце *Метод обработки* для каждого выбранного поля можно задать метод сглаживания:
+
+* **Фильтр Ходрика-Прескотта** — имеет два взаимосвязанных параметра (одновременное редактирование параметров исключено), радиокнопки переключают на редактирование одного из них:
+  * **Параметр Lambda** — основной коэффициент фильтра, с увеличением которого возрастает сглаживание ряда (при Lambda → ∞ итоговый ряд превращается в линейный тренд, а при Lambda = 0 ряд совпадает с исходным рядом). Может принимать значения вещественного типа в диапазоне [0.0625, 1026598E+8] с шагом 0.1. Значение 1026598E+8 рассчитано на основе максимального значения *Периода сглаживания*.
+  * **Период сглаживания** — значение вещественного типа в диапазоне [2, 20000] с шагом 0.1. Значение по умолчанию — 39.7 (рассчитано на основе значения по умолчанию Lambda, равного 1600).
+* **Вейвлет-сглаживание** — *тип вейвлета* определяется радиокнопкой: *Добеши, Койфлеты, CDF 9/7*. Настройки всех вейвлетов идентичны:
+  * **Порядок вейвлета** — определяет гладкость восстановленного ряда данных: чем меньше значение параметра, тем сильнее будут выражены «выбросы», и, наоборот, при больших значения параметра «выбросы» будут сглажены. Для *вейвлета Добеши* этот параметр может принимать значения от 1 до 10, для *Койфлетов* — от 1 до 5, *вейвлетом CDF 9/7* этот параметр не используется.
+  * **Продолжение границ** — метод устранения искажений на границах ряда при сглаживании:
+    * Симметричное;
+    * Антисимметричное;
+    * Продолжение нулями;
+    * Константное;
+    * Периодическое;
+    * Симметричное без крайней точки;
+    * Антисимметричное без крайней точки.
+  * **Глубина разложения** — определяет «масштаб» отсеиваемых деталей: чем больше эта величина, тем более «крупные» детали в исходных данных будут отброшены. Использование слишком больших значений глубины разложения может привести к потере полезной информации из-за слишком большой степени «огрубления» данных. Параметр может принимать значения от 1 до 10.

@@ -1,70 +1,93 @@
-# ![Condition](../../images/icons/components/condition_default.svg) Condition
+---
+description: Компонент Условие в Loginom. Точка разветвления сценария. Проверка истина ложь. Выбор активной ветки с блокировкой остальных. Если все ветки ложь выполнение ветки иначе. Мастер настройки.
+---
 
-The component is used in the workflow branch point as a switch between data processing options. Only one workflow branch is executed according to the given conditions, and execution of other branches is locked.
+# ![Условие](./../../images/icons/components/condition_default.svg) Условие
 
-The active branch is detected as follows:
+Компонент используется в точке разветвления сценария в качестве переключателя между вариантами обработки данных. В соответствии с заданными ему условиями выполняется только одна ветвь сценария и блокируется выполнение всех остальных.
 
-1. The branches are successively tested for authenticity from the top of the list downwards starting from the first one.
-1. When detecting the branch with the "true" value, testing is stopped, the branch becomes active, and other branches are locked, even if there are true branches down the list.
-1. If all branches have the "false" value, the special *Otherwise* branch will be activated.
+Выявление активной ветви происходит по следующему принципу:
 
-## Ports
+1. Ветви проверяются на истинность последовательно по списку сверху вниз, начиная с самой первой;
+1. При выявлении ветви со значением "истина" проверка останавливается, ветвь становится активной, а остальные блокируются, даже если ниже по списку остались истинные;
+1. Если все ветви примут значение "ложь", то будет активизирована специальная ветвь *Иначе*.
 
-Primarily, there are no input and output [ports](../../scenario/ports/README.md), they are created by a user in the wizard. It is sufficient to add input ports and save the component settings for initial setup. It is not required to configure the condition list, as the input data structure has not been transferred to the component. There are the following types of ports:
+## Порты
 
-### Input
+Изначально входных и выходных [портов](./../../workflow/ports/README.md) нет, они создаются пользователем в мастере настройки. При первоначальной настройке достаточно добавить входные порты и сохранить настройки компонента. Настройка списка условий при этом не требуется, так как в компонент ещё не передана структура входных данных. Порты могут быть следующих типов:
 
-* ![Input variables](../../images/icons/app/node/ports/inputs/variable_inactive.svg) **Input variables**: set of variables.
-* ![Input data source](../../images/icons/app/node/ports/inputs/table_inactive.svg) **Input data source** — data table.
+### Вход
 
-### Output
+* ![Входные переменные](./../../images/icons/app/node/ports/inputs/variable_inactive.svg) **Входные переменные** — набор переменных;
+* ![Входной источник данных](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Входной источник данных** — таблица данных.
 
-* ![Output variables](../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Output variables**: set of variables.
-* ![Output data set](../../images/icons/app/node/ports/outputs/table_inactive.svg) **Output data set**: data table.
+### Выход
 
-## Wizard
+* ![Выходные переменные](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Выходные переменные** — набор переменных;
+* ![Выходной набор данных](./../../images/icons/app/node/ports/outputs/table_inactive.svg) **Выходной набор данных** — таблица данных.
 
-### Step 1. Configuration of the Node Ports
+## Мастер настройки
 
-It enables to provide the presence of the required ports. It is possible to set a type, name and caption for each port. It will be displayed when hovering a cursor over it.
+### Шаг 1. Настройка портов узла
 
-* ![Create new port](../../images/icons/toolbar-controls/plus_default.svg) **Add** enables to create a new input port as follows:
-   * ![For variables](../../images/icons/app/node/ports/inputs/variable_hover.svg) **Variables** — for variables.
-   * ![For table](../../images/icons/app/node/ports/inputs/table_hover.svg) **Table** — for table.
-* ![Move port down](../../images/icons/toolbar-controls/movedown_default.svg) **Move down**, ![Move port up](../../images/icons/toolbar-controls/moveup_default.svg) **Move up**: it is possible to define location of the selected port relative to the component node by moving it.
-* ![Edit port parameters](../../images/icons/toolbar-controls/edit_default.svg) **Edit** eanbles to edit port parameters.
-* ![Create output](../../images/icons/checkbox-states/checked_default.svg) **Pass to output**: the output port will be created in each branch for the selected input port.
-* ![Delete port](../../images/icons/toolbar-controls/delete_default.svg) enables to delete port.
-* ![Delete all ports](../../images/icons/toolbar-controls/delete-all_default.svg) enables to delete all ports.
+Здесь задается наличие необходимых портов. Каждому порту можно задать тип, имя и название, которое будет отображаться при наведении курсора на него.
 
-### Step 2. Configuration of the Condition List
+* ![Создать новый порт](./../../images/icons/common/toolbar-controls/plus_default.svg) **Добавить** — создать новый порт входа:
+  * ![Для переменных](./../../images/icons/app/node/ports/inputs/variable_hover.svg) **Переменные** — для переменных.
+  * ![Для таблицы](./../../images/icons/app/node/ports/inputs/table_hover.svg) **Таблица** — для таблицы.
+  * ![Для дерева данных](./../../images/icons/app/node/ports/inputs/tree_hover.svg) **Дерево данных** — для дерева данных.
+* ![Смещение порта вниз](./../../images/icons/common/toolbar-controls/movedown_default.svg) **Переместить вниз**, ![Смещение порта вверх](./../../images/icons/common/toolbar-controls/moveup_default.svg) **Переместить вверх** — путем смещения выделенного порта определить его положение относительно узла компонента.
+* ![Редактировать параметры порта](./../../images/icons/common/toolbar-controls/edit_default.svg) **Редактировать** — редактировать параметры порта.
+* ![Создание выхода](./../../images/icons/ext/checkbox-states/checked_default.svg) **Передавать на выход** — для выделенного входного порта будет создан порт выхода в каждой ветви.
+* ![Удалить порт](./../../images/icons/common/toolbar-controls/delete_default.svg) — удалить порт.
+* ![Удалить все порты](./../../images/icons/common/toolbar-controls/delete-all_default.svg) — удалить все порты.
 
-**Condition branch list** contains options of the further workflow execution.
+### Шаг 2. Настройка списка условий
 
-* ![Add branch](../../images/icons/toolbar-controls/plus_default.svg) **Add** enables to add a new condition branch.
-* ![Move branch down](../../images/icons/toolbar-controls/movedown_default.svg) **Move down**, ![Move branch up](../../images/icons/toolbar-controls/moveup_default.svg) **Move up** enable to prioritise the selected branch by its moving relative to other branches.
-* ![Delete branch](../../images/icons/toolbar-controls/delete_default.svg) enables to delete branch.
-* ![Delete all branches](../../images/icons/toolbar-controls/delete-all_default.svg) enables to delete all condition branches.
+**Список ветвей условия** — содержит варианты дальнейшего выполнения сценария.
 
-**Condition**: the area for configuration of conditions for particular branch. It is displayed when selecting the listed branch.
+* ![Добавить ветвь](./../../images/icons/common/toolbar-controls/plus_default.svg) **Добавить** — добавить новую ветвь условия;
+* ![Переместить ветвь вниз](./../../images/icons/common/toolbar-controls/movedown_default.svg) **Переместить вниз**, ![Переместить ветвь вверх](./../../images/icons/common/toolbar-controls/moveup_default.svg) **Переместить вверх** — установить приоритет выделенной ветви путем её смещения относительно других ветвей;
+* ![Удалить ветвь](./../../images/icons/common/toolbar-controls/delete_default.svg) — удалить ветвь;
+* ![Удалить все ветви](./../../images/icons/common/toolbar-controls/delete-all_default.svg) — удалить все ветви условий.
 
-* ![Add new condition](../../images/icons/filterdata/filterdata-add_18x18.svg) enables to add a new condition into the branch. Upon pressing, its configuration window will be opened:
-   * **Field** contains a list of all variables, table columns and pointer of table records supplied to input ports of the component. The selected object will be used for comparison.
-   * **Aggregation** contains a list of the [aggregation](../func/aggregation-functions.md) methods applied to the table fields. The list is not available for variable fields.
-   * **Condition** provides selection of the comparison method.
-   * **Compared value**: the value with which the selected object will be compared.
-* **AND/OR**: switch button appears between two conditions in the branch.
-   * **AND**: the connected conditions will have the "true" value if both of them are true.
-   * **OR**: the connected conditions will have the "true" value if at least one condition is true.
-* ![**Delete all conditions**](../../images/icons/toolbar-controls/delete-all_default.svg) **Delete all conditions** enables to delete all conditions for the selected branch.
+**Условие** — область конфигурации условий для конкретной ветви, отображается при выделении ветви в списке.
 
-> **Note:** the condition is checked based on the atomic values, for example, "A > 1". A variable can represent such value. If a table is supplied to the input, the field will denote not only one value but the whole column. In this case, it is important to set the column to one value using the aggregation methods.
+* ![Добавить новое условие](./../../images/icons/components/filterdata/filterdata-add_18x18.svg) — добавить в ветвь новое условие, после нажатия открывается окно для его настройки:
+  * **Поле** — содержит список всех переменных, столбцов таблиц и указатель записей таблиц, поданных на входные порты компонента. Выбранный объект будет использован для сравнения.
+  * **Агрегация** — содержит список методов [агрегации](./../func/aggregation-functions.md), применимых к полям таблиц. Список недоступен для полей-переменных.  
+
+%spoiler%Агрегация полей и возможные типы данных:%spoiler%
+
+|Вид агрегации|![](./../../images/icons/common/data-types/string_default.svg)|![](./../../images/icons/common/data-types/integer_default.svg)|![](./../../images/icons/common/data-types/float_default.svg)|![](./../../images/icons/common/data-types/boolean_default.svg)|![](./../../images/icons/common/data-types/datetime_default.svg)|![](./../../images/icons/common/data-types/variant_default.svg)|
+|:-|:-:|:-:|:-:|:-:|:-:|:-:|
+|![](./../../images/icons/common/aggregations/factor-sum_default.svg) Сумма||**•**|**•**|||**•**|
+|![](./../../images/icons/common/aggregations/factor-min_default.svg) Минимум|**•**|**•**|**•**|**•**|**•**|**•**|
+|![](./../../images/icons/common/aggregations/factor-max_default.svg) Максимум|**•**|**•**|**•**|**•**|**•**|**•**|
+|![](./../../images/icons/common/aggregations/factor-avg_default.svg) Среднее||**•**|**•**||**•**|**•**|
+|![](./../../images/icons/common/aggregations/factor-null-count_default.svg) Количество пропусков|**•**|**•**|**•**|**•**|**•**|**•**|
+|![](./../../images/icons/common/aggregations/factor-stat-first_default.svg) Первый|**•**|**•**|**•**|**•**|**•**|**•**|
+|![](./../../images/icons/common/aggregations/factor-stat-last_default.svg) Последний|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|
+
+%/spoiler%
+  * **Условие** — выбор метода сравнения.
+  * **Сравниваемое значение** — значение, с которым будет сравниваться выбранный объект.
+* **И/ИЛИ** — кнопка-переключатель появляется между двумя условиями в ветви:
+  * **И** — связываемые условия дадут значение "истина", если они оба истинны.
+  * **ИЛИ** — связываемые условия дадут значение "истина", если истинно хотя бы одно из них.
+* ![**Удалить все условия**](./../../images/icons/common/toolbar-controls/delete-all_default.svg) **Удалить все условия** — удалить все условия для выбранной ветви.
+
+> **Примечание:** условие проверяется на атомарных значениях, например, "A > 1". Таким значением может быть переменная. Если же на вход подана таблица, то поле обозначает не одно значение, а целую колонку. В этом случае данную колонку необходимо свести к одному значению с помощью методов агрегации.
+
 >
-> **IMPORTANT**: When writing complex criteria, **AND** operator will be prioritised.
-> For example, complex criterion of the following type: "A **OR** B **AND** C **OR** D **AND** E **AND** F" will be executed in the following way: "A **OR** (B **AND** C) **OR** (D **AND** E **AND** F)"
+>**Важно**: при написании сложных условий приоритет будет у оператора **И**.
+Например, сложное условие вида: "A **ИЛИ** B **И** C **ИЛИ** D **И** E **И** F" будет выполняться следующим образом: "A **ИЛИ** (B **И** C) **ИЛИ** (D **И** E **И** F)".
 
-**Debug mode** ![Debug mode](../../images/icons/checkbox-states/checked_default.svg) will be used to check data correctness at the output ports regardless of conditions. The branches specified in *Run condition branch* list will be active. It includes the following components:
+**Режим отладки** ![Режим отладки](./../../images/icons/ext/checkbox-states/checked_default.svg) — применяется для проверки корректности данных на выходных портах вне зависимости от условий. Активны будут ветви, указанные в списке *Выполнять ветвь условия*, который включает в себя:
 
-* **List of user branches**: the branches added by a user. It is possible to select one of them.
-* **All branches** enable to activate execution of all branches, including *Otherwise* branch.
-* **Otherwise** enables to activate execution of only *Otherwise* branch.
+* **Список пользовательских ветвей** — добавленные пользователем ветви, можно выбрать одну из них;
+* **Все ветви** — активирует выполнение всех ветвей, в том числе ветвь *Иначе*;
+* **Иначе** — активирует выполнение только ветви *Иначе*.  
+
+
+  

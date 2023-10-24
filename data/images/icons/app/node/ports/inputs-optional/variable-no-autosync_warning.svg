@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#E3EFFA;">
+	<!ENTITY st1 "fill:#71B1E4;">
+	<!ENTITY st2 "fill:#5195CA;">
+	<!ENTITY st3 "fill:#FFCCCC;">
+	<!ENTITY st4 "fill:#E30612;">
+	<!ENTITY st5 "fill:#FDE9D2;">
+	<!ENTITY st6 "fill:#F7931E;">
+	<!ENTITY st7 "fill:#E67300;">
+	<!ENTITY st8 "fill:#CCF4D1;">
+	<!ENTITY st9 "fill:#39B54A;">
+	<!ENTITY st10 "fill:#009B14;">
+	<!ENTITY st11 "fill:#EBECEF;">
+	<!ENTITY st12 "fill:#757981;">
+	<!ENTITY st13 "fill:#48484E;">
+	<!ENTITY st14 "fill:#EAECF1;">
+	<!ENTITY st15 "fill:#BAC0CF;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="15px" height="24px" viewBox="0 0 15 24" style="enable-background:new 0 0 15 24;" xml:space="preserve">
+<g id="variable-no-autosync.warning">
+	<path style="&st5;" d="M3,12c0,4.83,3.44,8.87,8,9.8c0.64,0.13,1.31,0.2,2,0.2V2c-0.68,0-1.35,0.07-1.99,0.2C6.44,3.12,3,7.16,3,12
+		z"/>
+	<path style="&st6;" d="M8.241,5.569L7.049,3.962c0.585-0.434,1.218-0.804,1.885-1.101l0.814,1.827
+		C9.217,4.925,8.71,5.221,8.241,5.569z M7.057,6.645L5.571,5.305c-0.488,0.542-0.917,1.135-1.277,1.77l1.74,0.986
+		C6.322,7.555,6.666,7.078,7.057,6.645z M5.391,9.521L3.489,8.902c-0.226,0.694-0.374,1.41-0.443,2.137l1.991,0.19
+		C5.092,10.648,5.211,10.074,5.391,9.521z M5.043,12.832l-1.989,0.205c0.075,0.726,0.229,1.442,0.46,2.134l1.897-0.634
+		C5.226,13.986,5.102,13.412,5.043,12.832z M13,4V2c-0.73,0-1.46,0.079-2.17,0.236l0.432,1.953C11.828,4.064,12.413,4,13,4z M13,20
+		c-0.566,0-1.131-0.059-1.678-0.176l-0.417,1.956C11.588,21.926,12.297,22,13,22V20z M4.333,16.991
+		c0.366,0.634,0.798,1.223,1.29,1.76l1.475-1.351c-0.394-0.431-0.742-0.905-1.033-1.409L4.333,16.991z M7.111,20.083
+		c0.586,0.428,1.221,0.793,1.893,1.087l0.8-1.833c-0.533-0.233-1.042-0.525-1.514-0.869L7.111,20.083z"/>
+	<g>
+		<circle style="&st7;" cx="10" cy="12" r="2"/>
+	</g>
+	<g>
+		<circle style="&st5;" cx="10" cy="12" r="1"/>
+	</g>
+</g>
+</svg>

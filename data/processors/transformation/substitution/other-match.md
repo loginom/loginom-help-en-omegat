@@ -1,92 +1,81 @@
-# Substitution of the Values not Included into the Replacement Table
+---
+description: Замена в Loginom. Замена данных не попавших в Таблицу замен. Варианты замен.
+---
+# Замена не попавших в Таблицу замен
 
-*Replace other* parameter is required for processing of the values that are not included into the *Replacement table* and that are out of the [allowable interval](./exact-match.md#primenenie-dopustimogo-intervala). Four configuration options parameter:
+Параметр *Заменять остальное* отвечает за обработку значений не попавших в *Таблицу замен*, и не попадающих в [допустимый интервал](./exact-match.md#primenenie-dopustimogo-intervala). Параметр имеет четыре варианта настройки:
 
-* Do not replace.
-* With empty.
-* With value.
-* With regular expression.
+* Не заменять;
+* На пропущенное;
+* На значение;
+* На регулярное выражение.
 
-And the row for input of the new value of the records not included into the *Replacement table*.
-
-When *Do not replace* option is selected, the values not included into the *Replacement table* are not subject to the additional processing.
-
-## With Empty
-
-When *With empty* option is selected, all values not included into the *Replacement table* will be replaced with the null value `<null>`.
-
-Let's consider the first example of [replacement by exact match](./exact-match.md):
-
-Result of the performed replacement
-
-|Source data value|New value|
-|-:|:-|
-|12|Poor|
-|15|15|
-|24|Satisfactory|
-|35|35|
-|48|Excellent|
-|73|73|
-
-When *With empty* option is selected, this table would be as follows:
-
-|Source data value|New value|
-|-:|:-|
-|12|Poor|
-|15|`<null>`|
-|24|Satisfactory|
-|35|`<null>`|
-|48|Excellent|
-|73|`<null>`|
-
-## With Value
-
-*With value* option replaces all values outside the *Replacement table* with the value entered into the row.
-
-Let's consider the second example from [replacement by exact match](./exact-match.md#primenenie-dopustimogo-intervala):
-
-Result of the performed replacement
-
-|Source data value|New value|
-|-:|:-|
-|12|Poor|
-|15|Poor|
-|24|Satisfactory|
-|35|Good|
-|48|Excellent|
-|73|73|
-
-Having selected *With value* option and having entered into `Out of estimation range` row, the following result will be recieved:
-
-|Source data value|New value|
-|-:|:-|
-|12|Poor|
-|15|Poor|
-|24|Satisfactory|
-|35|Good|
-|48|Excellent|
-|73|Out of estimation range|
-
-## With Regular Expression
-
-If *With regular expression* option of *Replace other* parameter is selected, reserved `$1` character is used for the values not detected using the replacement table. `$1` characters will be replaced with the source value in the row that enables to set the new value.
-
-Let's consider the example from [replacement by regular expression](./regexp-match.md):
-<table>
- <tr><th align="left">Source data</th><th colspan="2">Replacement Table</th><th rowspan="2" align="left" valign="top">Replace other:</br>With regular expression</th><th align="left" valign="top">Replacement result</th></tr>
+И строку для ввода нового значения не попавших в *Таблицу замен* записей.
 
 
-<tr><td>Bank BIC</td><th>Replace</th><th>Value</th><td>Replace bank BIC</td></tr>
+Рассмотрим варианты настройки на примере, который мы рассматривали в статье [Замена по точному совпадению](./exact-match.md#zamena-po-tochnomu-sovpadeniyu).
 
+Используем набор данных:
 
-<tr><td>40147О00</td><td rowspan="4" valign="top">\D</td><td Rowspan="4" valign="top">Wrong BIC</td><td rowspan="4" valign="top" align="left">BIC $1 is specified in payment order</td><td align="left">Wrong BIC</td></tr>
+| Код магазина| Название магазина | Количество покупателей |
+|:-:|:-:|:-:|
+|1253| Fresh Direct | 170 |
+|7569| Beauty&Seoul | 295 |
+|1709| Petal Pushers | 427 |
+|1989| Bulletproof | 255 |
+|2209| Autobarn | 389 |
 
+и зададим узлу *Замена* следующие настройки:
 
-<tr><td>40147781</td><td align="left">BIC 40147781 is specified in payment order</td></tr>
+![Настройки Замена для примера.](substitution-exact-match-2.png)
 
+## Не заменять
 
-<tr><td>40155000</td><td align="left">BIC 40155000 is specified in payment order</td></tr>
+В случае выбора *Не заменять*, к значениям не попавшим в Таблицу замен не применяется дополнительная обработка:
 
+| Код магазина| Название магазина Замена | Название магазина Заменен | Количество покупателей |
+|:-:|:-:|:-:|:-:|
+|001253| Рязань | true | 170 |
+|007569| Beauty&Seoul | false| 295 |
+|000709| Москва | true | 427 |
+|001989| Краснодар | true | 255 |
+|002209| Autobarn | false | 389 |
 
-<tr><td>4017З001</td><td align="left">Wrong BIC</td></tr>
-</table>
+## На пропущенное
+
+При выборе пункта *На пропущенное*, все значения не попавшие в *Таблицу замен* будут заменены на пустое значение `<null>`:
+
+| Код магазина| Название магазина Замена | Название магазина Заменен | Количество покупателей |
+|:-:|:-:|:-:|:-:|
+|001253| Рязань | true | 170 |
+|007569| `<null>` | false| 295 |
+|000709| Москва | true | 427 |
+|001989| Краснодар | true | 255 |
+|002209| `<null>` | false | 389 |
+
+## На значение
+
+Пункт *На значение* заменяет все значения вне *Таблицы замен* на введенное в строке.
+Укажем в строке значение `*Город*`:
+
+| Код магазина| Название магазина Замена | Название магазина Заменен | Количество покупателей |
+|:-:|:-:|:-:|:-:|
+|001253| Рязань | true | 170 |
+|007569| Город | true | 295 |
+|000709| Москва | true | 427 |
+|001989| Краснодар | true | 255 |
+|002209| Город | true | 389 |
+
+## На регулярное выражение
+
+Если у параметра *Заменять остальное* выбрать пункт *На регулярное выражение*, то для значений, не найденных при помощи таблицы замен, используется зарезервированное обозначение `$1`. В строке, задающей новое значение, символы `$1` будут заменены на исходное значение.
+
+Укажем в строке значение `*$1 — Не опеределено*`:
+
+| Код магазина| Название магазина Замена | Название магазина Заменен | Количество покупателей |
+|:-:|:-:|:-:|:-:|
+|001253| Рязань | true | 170 |
+|007569| Beauty&Seoul — Не определено | true | 295 |
+|000709| Москва | true | 427 |
+|001989| Краснодар | true | 255 |
+|002209| Autobarn — Не определено | true | 389 |

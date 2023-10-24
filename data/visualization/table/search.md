@@ -1,21 +1,24 @@
-# Search
+---
+description: Поиск ячеек в таблице по значению в Loginom. Справка по работе с окном поиска в таблицах. Настройка режимов поиска (по строкам/по столбцам), сравнения, учета регистра.
+---
+# Поиск
 
-Search for cells in table by value.
+Поиск ячеек в таблице по значению.
 
-## Configuration Window
+## Окно настройки
 
-It is possible to set the search mode, comparison mode and case in the search configuration window.
+В окне настройки поиска можно задать режим поиска, режим сравнения и учет регистра.
 
-The search mode enables to define the highlighting order of the found values:
+Режим поиска определяет очередность подсветки найденных значений:
 
-* **By rows**: the next found value will be highlighted in the next row.
-* **By columns**: the next found value will be highlighted in the next column.
-* **In column**: the next found value will be highlighted in the selected column.
+* **По строкам** — следующее найденное значение будет подсвечено в следующей строке;
+* **По столбцам** — следующее найденное значение будет подсвечено в следующем столбце;
+* **В столбце** — следующее найденное значение будет подсвечено в выбранном столбце.
 
-The comparison mode defines position of the searched fragment:
+Режим сравнения определяет позицию искомого фрагмента:
 
-* **Substring**: the searched fragment is in any value position.
-* **From the start**: the searched fragment is only in the value start.
-* **Full**: the searched fragment fully repeats the value.
+* **Подстрока** — искомый фрагмент находится на любой позиции значения;
+* **С начала** — искомый фрагмент находится только в начале значения;
+* **Целиком** — искомый фрагмент полностью повторяет значение.
 
-*Case-sensitive* checkbox provides the case-sensitive search.
+Флаг *Регистр* позволяет выполнить поиск с учётом регистра.

@@ -1,25 +1,28 @@
-# Variables Use
+---
+description: Использование переменных в аналитической платформе Loginom. Управляющие переменные. Примеры использования переменных.
+---
+# Использование переменных
 
-Alongside with the data sets constituting data table, the object used in calculations can be a variable in Studio.
+Наряду с наборами данных, представляющих из себя таблицу данных, в Studio объектом, используемым в вычислениях, может быть переменная.
 
-**Variable**: the named value of one of the possible [data types](../data/datatype.md).
+**Переменная** — именованное значение одного из возможных [типов данных](./../data/datatype.md).
 
-The variables port is designated for receipt and transfer of variables from node to node. Such port can accept several variables as input data or deliver them as output data.
+Для приема и передачи от узла к узлу переменных предусмотрен порт переменных. Такой порт может принять в качестве входных данных или отдать в качестве выходных несколько переменных.
 
-Thus, a list of variables can be transferred from node to node.
+Таким образом, от узла к узлу может передаваться список переменных.
 
-Examples of the variables use:
+Примеры использования переменных:
 
-* The variable in the formula providing calculation of the expression value using the [Calculator](../processors/transformation/calc/README.md).
-* The variable as the parameter of the [Condition](../processors/control/condition.md) component.
+* Переменная в формуле, вычисляющей значение выражения используя [Калькулятор](./../processors/transformation/calc/README.md);
+* Переменная в качестве параметра компонента [Условие](./../processors/control/condition.md).
 
-## Control Variables
+## Управляющие переменные
 
-Variables can be also used to set parameters of the node settings.
+Переменные так же могут быть использованы для того, чтобы задать параметры настроек узлов.
 
-Thus, the node settings can be the calculation subject matter in the course of the workflow execution. It allows for more flexible implementation of the data processing logics.
+Таким образом, настройки узлов могут быть предметом вычисления в ходе выполнения сценария. Это позволяет более гибко реализовывать логику обработки данных.
 
-Examples of the control variables use:
+Примеры использования управляющих переменных:
 
-* The variable can be also used as the criteria parameter of the [Row Filter](../processors/transformation/row-filter/README.md) component.
-* The variable as the SQL query parameter in the case of [Import from database](../integration/import/database.md), the variable contains the SQL query text.
+* Переменная может выступать параметром условия компонента [Фильтр строк](./../processors/transformation/row-filter/README.md);
+* Переменная в качестве параметра SQL-запроса при [Импорте из базы данных](./../integration/import/database.md), переменная содержит текст SQL-запроса.

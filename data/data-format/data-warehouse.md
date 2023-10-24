@@ -1,44 +1,45 @@
+---
+description: Справка по подключению "Loginom" к собственному хранилищу данных "Deductor Warehouse". Описание принципа работы хранилища данных. Особенности физического и логического уровней. Обзор механизма "Семантического слоя".
+---
 # Deductor Warehouse
 
-**Deductor Warehouse** is the own format of [Data Warehouse](https://wiki.loginom.ru/articles/data-warehouse.html) elaborated specially for usage with *Loginom* and *Deductor*. It is a multidimensional Data Warehouse that enables to accumulate all the information required for analysis of the subject area.
+**Deductor Warehouse** — это собственный формат [Хранилища данных](https://wiki.loginom.ru/articles/data-warehouse.html), специально разработанный для использования с *Loginom* и *Deductor*. Является многомерным Хранилищем данных и позволяет аккумулировать всю необходимую для анализа предметной области информацию.
 
-Usage of the unified data warehouse provides data coherence and centralized storage. It also automatically provides all the support required for the data analysis process. When using the data warehouse, it is not obligatory for a user to know the data storage structure and data query language. Familiar business environment terms are used in it. For example, shipment, goods, client.
+Использование единого хранилища позволяет обеспечить непротиворечивость данных и централизованное хранение, а также автоматически обеспечивает всю необходимую поддержку процесса анализа данных. При работе с хранилищем от пользователя не требуется знания структуры хранения данных и языка запросов. Он оперирует привычными терминами бизнес-среды, например, такими как: отгрузка, товар, клиент.
 
-> **Important:** Currently, the *Loginom* analytical platform enables to import data only from the *Deductor Warehouse* data warehouse. This format is fully supported by the *Deductor* analytical platform.
+## Принцип работы Хранилища данных
 
-## Data Warehouse Operation Principle
+### Физический уровень
 
-### Physical Level
+На физическом уровне *Deductor Warehouse* представляет собой реляционную базу данных на платформе Firebird, MS SQL или Oracle, поэтому работа с хранилищем на этом уровне ничем не отличается от обслуживания любой СУБД. Для обслуживания хранилища на низком уровне могут использоваться утилиты сторонних разработчиков для СУБД Firebird, MS SQL, Oracle, а также инструменты, поставляемые разработчиками соответствующих баз данных.
 
-At the physical level  *Deductor Warehouse* is a relational database based on the Firebird, MS SQL or Oracle platform. That is why the data warehouse operation does not differ from any DBMS service at this level. To provide the data warehouse service, utility software of third party developers can be used at the low level for the Firebird, MS SQL, Oracle DBMS as well as the tools provided by the developers of corresponding databases.
+Для корректной работы *Deductor Warehouse* обязательным требованием является полноценная поддержка базой данных стандарта **`SQL'92`**, поэтому имеются ограничения на версии СУБД:
 
-For proper operation of *Deductor Warehouse*, it is compulsory to provide the full-scale database support of **`SQL'92`** standard. That is why there are constraints concerning the DBMS versions:
+* **Firebird** — версия 2.5 и выше;
+* **Microsoft SQL** – версия 2000 и выше;
+* **Oracle** – начиная с версии 9i.
 
-* **Firebird**: version 2.5 and higher.
-* **Microsoft SQL**: version 2000 and higher.
-* **Oracle**: starting from 9i version.
+Поддержка нескольких различных по стоимости и производительности СУБД в качестве платформы хранилища позволяет в каждом конкретном случае использовать наиболее пригодную для данного случая базу данных.
 
-Support of several DBMS different in their prices and performance as the data warehouse platform enables to use the most suitable database in each specific case.
+*Deductor Warehouse* проводит все необходимые операции по подключению к реляционной СУБД и выборке нужной информации прозрачно для пользователя. Кросс-платформенное Хранилище данных является удобной базой для создания распределенных хранилищ данных, витрин данных и т.п.
 
-*Deductor Warehouse* performs all required operations to connect to the relational DBMS and select necessary information that is rather transparent for a user. The crossplatform Data Warehouse is the base convenient for creation of distributed data warehouses, datamarts, etc.
+### Логический уровень
 
-### Logical Level
+На логическом уровне разрабатывается схема хранилища, т.е. устанавливается соответствие между *объектами предметной области*: *процессами*, *измерениями* и *фактами* хранилища:
 
-At the logical level the data warehouse shema is developed, namely, mapping between *subject area objects* is established: *processes*, *dimensions* and *measures* of the data warehouse:
+* **Процесс** — совокупность измерений, фактов и атрибутов. Он описывает определенное действие, например, продажи товара, отгрузки и прочее.
+* **Измерения** — это категориальные, дискретные атрибуты, наименования и свойства объектов, участвующих в некотором бизнес-процессе. Например, это могут быть названия фирм-поставщиков, идентификационный номер товаров, ФИО людей и т.д.
+* **Факты** — это данные, количественно описывающие бизнес-процесс, непрерывные по своему характеру, то есть они могут принимать бесконечное множество значений. Примеры фактов — цена товара или изделия, их количество, сумма продаж или закупок, зарплата сотрудников, сумма кредита, страховое вознаграждение и т.д.
+* **Атрибут** — это свойство измерения, помогающее пользователю полнее описать исследуемое измерение. Например, для измерения *Товар* атрибутами могут выступать *Цвет*, *Вес*, *Габариты*.
 
-* **Process** is a set of dimensions, measures and attributes. It describes a definite action, for example, sale of goods, shipments, etc.
-* **Dimensions** mean the categorical, discrete attributes, names and properties of the objects involved into some business process. For example, it could be names of vendor companies, product identification number, full names of people, etc.
-* **Measures** mean the data describing the business process in the quantitative terms. They are continuous in concept, namely, they can take infinite set of values. Examples of measures: price of product or item, their number, amount of sales or purchase, salary of employees, credit value, insurance compensation, etc.
-* **Attribute** means the dimension property that helps a user to describe the dimension under research better. For example, to provide a dimension for *Goods*, *Color*, *Weight*, *Sizes* can be attributes.
+Логическая структура проектируется, прежде всего, с учетом задач предметной области.
 
-First and foremost, the logical structure is designed taking into account the subject area objectives.
+### Семантический слой
 
-### Semantic Layer
+*Семантический слой* — это специальный механизм, позволяющий аналитику пользоваться данными посредством бизнес-терминов предметной области. Он реализован поверх реляционной базы данных.
 
-*Semantic layer* is a special mechanism that lets an analyst use data by means of the subject area business terms. It has been implemented over the relational database.
+Благодаря этому слою, пользователь оперирует не полями и колонками таблиц базы данных, а многомерными понятиями, например, такими как измерение или факт. А система автоматически производит все требуемые манипуляции, необходимые для работы с реляционной СУБД. Таким образом, этот слой дает пользователю возможность сосредоточиться на анализе и не задумываться о механизмах получения данных.
 
-Due to this layer a user can handle not fields and columns of the database tables, but such multidimensional concepts as dimension or measure. And the system automatically performs all operations required  for the relational DBMS operation. Thus, this layer enables a user to concentrate on analysis and not to think about the data acquisition mechanisms.
+Deductor Warehouse реализует универсальное многомерное хранение, т.е. может содержать множество процессов с различным количеством измерений и фактов.
 
-Deductor Warehouse provides the universal multidimensional storage, namely, it can contain a set of processes with different number of dimensions and measures.
-
-So, configuration of processes, setting of dimensions, attributes and measures can be performed by means of the metadata editor built into Deductor Studio.
+Пока что настройка процессов, задание измерений, атрибутов и фактов может осуществляться с помощью редактора метаданных, встроенного в Deductor Studio.
