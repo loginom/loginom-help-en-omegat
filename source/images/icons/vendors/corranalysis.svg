@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#F7931E;">
+	<!ENTITY st1 "fill:#71B1E4;">
+	<!ENTITY st2 "fill:none;">
+	<!ENTITY st3 "fill:#FFFFFF;">
+]>
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="24px" height="24px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+<g>
+	<polygon style="&st2;" points="8.839,12.044 12.001,14.091 15.162,12.047 15.162,11.955 11.999,9.914 8.839,11.953 	"/>
+	<polygon style="&st0;" points="5,1 5,5.391 8.633,7.738 12,5.55 	"/>
+	<polygon style="&st0;" points="5,18.623 5,23 12,18.45 8.641,16.267 	"/>
+	<polygon style="&st0;" points="15.162,11.955 15.162,12.047 12.001,14.091 15.36,16.267 19,13.9 19,10.1 15.366,7.738 
+		11.999,9.914 	"/>
+	<polygon style="&st1;" points="19,23 19,18.623 15.36,16.267 12,18.45 	"/>
+	<polygon style="&st1;" points="8.839,12.044 8.839,11.953 11.999,9.914 8.633,7.738 5,10.1 5,13.9 8.641,16.267 12.001,14.091 	"/>
+	<polygon style="&st1;" points="19,1 12,5.55 15.366,7.738 19,5.391 	"/>
+	<polygon style="&st1;" points="8.641,16.267 12,18.45 15.36,16.267 12.001,14.091 	"/>
+	<polygon style="&st0;" points="8.633,7.738 11.999,9.914 15.366,7.738 12,5.55 	"/>
+</g>
+</svg>

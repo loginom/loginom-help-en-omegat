@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#636F80;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="24px" height="24px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+<g id="submodel-back.default">
+	<path style="&st0;" d="M18.514,6H13v1h5.514C19.333,7,20,7.667,20,8.486v10.027C20,19.333,19.333,20,18.514,20H8.486
+		C7.667,20,7,19.333,7,18.514V16H6v2.514C6,19.885,7.115,21,8.486,21h10.027C19.885,21,21,19.885,21,18.514V8.486
+		C21,7.115,19.885,6,18.514,6z"/>
+	<path style="&st0;" d="M7,10.004C10,10,13,11,14,14c0-5-3-8-7-8V2L1,8.5L7,14V10.004z"/>
+</g>
+</svg>

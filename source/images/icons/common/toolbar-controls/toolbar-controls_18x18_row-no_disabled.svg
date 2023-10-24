@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="toolbar" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#808080;}
+	.st2{fill:#636F80;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#808080;}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#636F80;}
+	.st6{fill:#F7931E;}
+</style>
+<g id="row-no_disabled">
+	<path class="st1" d="M14,2V1H1v1v6v1v6v1h1h5.078H14v-1H8V9h6V8H8V2H14z M2,15V9h5v6H2z M7,8H2V2h5V8z"/>
+	<polygon class="st1" points="4,13 4,12 3,12 3,13 3,14 5,14 5,13 	"/>
+	<polygon class="st1" points="4,10 3,10 3,11 4,11 4,12 5,12 5,11 5,10 	"/>
+	<polygon class="st1" points="4,3 3,3 3,4 4,4 4,7 5,7 5,3 	"/>
+</g>
+</svg>

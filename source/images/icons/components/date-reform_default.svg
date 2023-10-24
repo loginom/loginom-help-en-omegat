@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#BFBFBF;">
+	<!ENTITY st2 "fill:#F7931E;">
+	<!ENTITY st3 "fill:#8C8C8C;">
+	<!ENTITY st4 "fill:#71B1E4;">
+	<!ENTITY st5 "fill:none;stroke:#F7931E;stroke-miterlimit:10;">
+	<!ENTITY st6 "fill:none;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="date-reform.default">
+	<path style="&st4;" d="M15,3v2h-3V3H6v2H3V3H2v13h14V3H15z M15,15H3V7h12V15z"/>
+	<rect x="13" y="2" style="&st2;" width="1" height="2"/>
+	<rect x="4" y="2" style="&st2;" width="1" height="2"/>
+	<rect x="4" y="8" style="&st2;" width="2" height="2"/>
+	<rect x="8" y="8" style="&st2;" width="2" height="2"/>
+	<rect x="12" y="8" style="&st2;" width="2" height="2"/>
+	<rect x="4" y="12" style="&st2;" width="2" height="2"/>
+	<rect x="8" y="12" style="&st2;" width="2" height="2"/>
+	<rect x="12" y="12" style="&st2;" width="2" height="2"/>
+</g>
+</svg>

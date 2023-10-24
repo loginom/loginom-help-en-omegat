@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#BFBFBF;">
+	<!ENTITY st2 "fill:#8C8C8C;">
+	<!ENTITY st3 "fill:#71B1E4;">
+	<!ENTITY st4 "fill:#F7931E;">
+	<!ENTITY st5 "fill:#3E7FAA;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="history.default">
+	<path style="&st4;" d="M9.633,4.701L7.721,2.299C7.53,2.107,7.271,2,7,2H3.02C2.457,2,2,2.456,2,3.02V6h14V5h-5.646
+		C10.083,5,9.824,4.893,9.633,4.701z"/>
+	<path style="&st3;" d="M8,12.5C8,10.015,10.015,8,12.5,8c1.732,0,3.218,0.99,3.97,2.424L16.99,8.31C17.077,7.618,16.601,7,15.981,7
+		H2.02C1.399,7,0.923,7.618,1.01,8.31l1.768,6.706C2.85,15.58,3.28,16,3.787,16h5.916C8.673,15.175,8,13.922,8,12.5z"/>
+	<path style="&st4;" d="M12.5,9c1.93,0,3.5,1.57,3.5,3.5S14.43,16,12.5,16S9,14.43,9,12.5S10.57,9,12.5,9 M12.5,8
+		C10.015,8,8,10.015,8,12.5s2.015,4.5,4.5,4.5s4.5-2.015,4.5-4.5S14.985,8,12.5,8L12.5,8z"/>
+	<polygon style="&st3;" points="13,12 13,10 12,10 12,13 15,13 15,12 	"/>
+</g>
+</svg>

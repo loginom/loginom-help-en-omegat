@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#BFBFBF;">
+	<!ENTITY st2 "fill:#8C8C8C;">
+	<!ENTITY st3 "fill:#71B1E4;">
+	<!ENTITY st4 "fill:#F7931E;">
+	<!ENTITY st5 "fill:#3E7FAA;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="open-file.default">
+	<path style="&st4;" d="M9.633,4.701L7.721,2.299C7.53,2.107,7.271,2,7,2H3.02C2.457,2,2,2.456,2,3.02V6h14V5h-5.646
+		C10.083,5,9.824,4.893,9.633,4.701z"/>
+	<path style="&st3;" d="M12,14H8.586L14,8.586l2.346,2.346L16.99,8.31C17.077,7.618,16.601,7,15.981,7H2.02
+		C1.399,7,0.923,7.618,1.01,8.31l1.768,6.706C2.85,15.58,3.28,16,3.787,16H12V14z"/>
+	<g>
+		<polygon style="&st4;" points="14,10 11,13 13,13 13,16 15,16 15,13 17,13 		"/>
+	</g>
+	<g>
+		<polygon style="&st4;" points="14,10 11,13 13,13 13,16 15,16 15,13 17,13 		"/>
+	</g>
+</g>
+</svg>

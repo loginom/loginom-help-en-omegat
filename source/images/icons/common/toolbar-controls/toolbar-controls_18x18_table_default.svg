@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="toolbar" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#808080;}
+	.st2{fill:#636F80;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#808080;}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#636F80;}
+	.st6{fill:#F7931E;}
+</style>
+<g id="table_default">
+	<path class="st2" d="M4,14v2H2v-2H4 M5,13H1v4h4V13L5,13z"/>
+	<path class="st2" d="M4,8v2H2V8H4 M5,7H1v4h4V7L5,7z"/>
+	<path class="st2" d="M4,2v2H2V2H4 M5,1H1v4h4V1L5,1z"/>
+	<path class="st2" d="M16,14v2H8v-2H16 M17,13H7v4h10V13L17,13z"/>
+	<path class="st2" d="M16,8v2H8V8H16 M17,7H7v4h10V7L17,7z"/>
+	<path class="st2" d="M16,2v2H8V2H16 M17,1H7v4h10V1L17,1z"/>
+</g>
+</svg>

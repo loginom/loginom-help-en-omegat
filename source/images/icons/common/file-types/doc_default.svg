@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="doc.default">
+	<g>
+		<polygon style="fill:#3E7FAA;" points="12,5 15,5 12,2 		"/>
+		<polygon style="fill:#71B1E4;" points="14,15 4,15 4,3 12,3 12,2 3,2 3,16 15,16 15,5 14,5 		"/>
+	</g>
+	<polygon style="fill:#006AD4;" points="13,6.896 10.589,6.896 10.589,7.627 10.864,7.627 9.806,9.508 9.806,6.896 8.27,6.896 
+		6.593,9.873 6.593,7.627 7.142,7.627 7.142,6.896 5,6.896 5,7.627 5.392,7.627 5.392,12.563 6.593,12.563 8.212,9.69 8.212,12.563 
+		9.675,12.563 12.457,7.627 13,7.627 	"/>
+</g>
+</svg>

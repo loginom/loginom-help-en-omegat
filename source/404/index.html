@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Страница не найдена | Loginom Help</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900&amp;subset=cyrillic" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://loginom.ru/themes/custom/lomru/build/css/header.css">
+  <link rel="stylesheet" href="https://loginom.ru/themes/custom/lomru/build/css/footer.css">
+  <link rel="stylesheet" href="https://loginom.ru/themes/custom/lomru/build/css/search.css">
+
+  <!-- Поправить пути -->
+  <link href="../gitbook/fonts/source-sans-pro/source-sans-pro.css" rel="stylesheet">
+  <link href="../gitbook/fonts/PTSans/PTSans.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="../gitbook/style.css">
+
+</head>
+
+<body>
+  <!-- HEADER, NAV, SEARCH -->
+
+  <div class="lg-header">
+    <div class="lg-center">
+
+
+      <a href="https://loginom.ru" class="lg-logo lg-main-website-link" title="Loginom">
+        <img src="../gitbook/images/loginom-sign.svg" class="lg-logo__img" alt="Loginom">
+      </a>
+      <a href="/userguide/" class="lg-logo lg-local-project-link" title="Документация">Документация</a>
+
+
+      <nav class="lg-menu lg-decor lg-decor_mobile">
+        <div class="lg-menu__center">
+          <a href="https://loginom.ru/platform" class="lg-menu__link" target="_blank">Платформа</a>
+          <a href="https://loginom.ru/platform/pricing" class="lg-menu__link" target="_blank">Цены</a>
+          <a href="https://loginom.ru/skills" class="lg-menu__link" target="_blank">Обучение</a>
+          <a href="https://loginom.ru/blog" class="lg-menu__link" target="_blank">Блог</a>
+        </div>
+      </nav>
+      <div class="lg-header__search lgs-search-btn">
+        <svg viewBox="0 0 28 28" class="lg-header__search__icon" xmlns="http://www.w3.org/2000/svg">
+          <path d="M15.357 13.426L21 19.068 19.068 21l-5.642-5.643a8.476 8.476 0 1 1 1.932-1.932zm-6.881.526A5.476 5.476 0 1 0 8.476 3a5.476 5.476 0 0 0 0 10.952z" stroke="#000" stroke-width="0" fill="#000" fill-rule="evenodd"></path>
+        </svg>
+      </div>
+      <div class="lg-menu-handler">
+        <svg class="lg-menu-handler__burger" viewBox="0 0 32 26" xmlns="http://www.w3.org/2000/svg">
+          <g fill="#333" fill-rule="evenodd">
+            <path d="M0 .667h32v4H0zM0 11.333h32v4H0zM0 22h32v4H0z"></path>
+          </g>
+        </svg>
+        <div class="lg-menu-handler__closer"></div>
+      </div>
+    </div>
+  </div>
+  <nav class="lg-sitemap lg-sitemap_vertical-decor">
+    <div class="lg-sitemap__inner">
+      <ul class="lg-sitemap__list">
+        <!-- sitemap html -->
+      </ul>
+      <a href="/" class="lg-sitemap__closer" target="_blank"><span class="lg-sitemap__closer__cross"></span></a>
+    </div>
+  </nav>
+
+  <!-- /HEADER, NAV, SEARCH -->
+
+  <div class="lg-404">
+    <div class="lg-center lg-text__content lg-404__wrap">
+      <div class="lg-404__content">
+        <h2>Страница не&nbsp;найдена</h2>
+        <p>Возможно, она была перемещена или удалена навсегда</p>
+
+        <a href="/userguide/" class="btn">На главную</a>
+      </div>
+
+      <div class="lg-404__img">
+        <img src="character-404.svg" alt="Страница не найдена">
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="lg-footer" style="z-index: 1;"></footer>
+
+  <div class="lg-is-mobile"></div>
+  <!-- /FOOTER -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://loginom.ru/themes/custom/lomru/build/js/is-touch.js"></script>
+  <script src="https://loginom.ru/themes/custom/lomru/build/js/menu.js"></script>
+  <script src="https://loginom.ru/modules/custom/lg_search/js/lgs.js"></script>
+
+  <script type="application/javascript">
+    (($) => {
+
+      // Document ready
+      $(() => {
+
+        (async () => {
+          // const htmlHeader = await loadResource('https://loginom.ru/proxy-api/menu', 'header');
+          // await insertHtml(htmlHeader, '.lg-sitemap__list');
+
+          const htmlFooter = await loadResource('https://loginom.ru/proxy-api/footer', 'footer');
+          await insertHtml(htmlFooter, '.lg-footer');
+
+        })();
+
+      });
+
+
+      /**
+       * Load API resource: footer or header.
+       */
+      async function loadResource(url, type) {
+        const response = await fetch(url, {
+          method: 'get',
+          headers: {
+            accept:
+              'application/json',
+            'content-type': 'application/json'
+          },
+        });
+        const myJson = await response.json();
+        if (type === 'header') {
+          return myJson.header;
+        }
+        if (type === 'footer') {
+          return myJson.footer;
+        }
+      }
+
+      /**
+       * Insert HTML to the selector
+       */
+      async function insertHtml(html, selector) {
+        $(selector).html(html);
+      }
+
+      $.ajax({
+        type: 'get',
+        url: 'https://loginom.ru/proxy-api/menu'
+      }).done(function (response) {
+        if (response) {
+          header = response;
+        }
+      }).fail(function () {
+        header = require('../../offline/header-code');
+      }).always(function () {
+        makeMenu(header);
+        initMenu();
+      });
+
+      function makeLink(style, href, caption) {
+        return '<li class="' + style + '"><a href="' + href + '" class="lg-sitemap__link" target="_blank">' + caption + '</a></li>\n';
+      }
+
+      function makeMenu(header) {
+        var links = { head_links: '', menu_links: '' };
+
+        header.header.forEach(function (item) {
+          links.head_links += '<a href="' + item.href + '" class="lg-menu__link" target="_blank">' + item.caption + '</a>\n';
+        });
+
+        header.sitemap.forEach(function (item) {
+          var li_class = "lg-sitemap__item";
+
+          if (item.below) {
+            links.menu_links += makeLink(li_class + ' lg-sitemap__item_title lg-sitemap__item_decor', item.href, item.caption);
+            item.below.forEach(function (below) {
+              links.menu_links += makeLink(li_class, below.href, below.caption);
+            });
+          } else {
+            links.menu_links += makeLink(li_class + ' lg-sitemap__item_title', item.href, item.caption);
+          }
+        });
+
+        $('div.lg-menu__center').html(links.head_links);
+        $('ul.lg-sitemap__list').html(links.menu_links);
+      }
+
+      function initMenu() {
+        var menu = new Menu('.lg-sitemap', $('.lg-header'));
+
+        if (typeof is_embedded !== 'undefined' || typeof is_local_search !== 'undefined') {
+          $('.lg-header__search').on('click', function () {
+            menu.close();
+          });
+        }
+      }
+
+
+    })(jQuery);
+  </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#BFBFBF;">
+	<!ENTITY st2 "fill:#8C8C8C;">
+	<!ENTITY st3 "fill:#71B1E4;">
+	<!ENTITY st4 "fill:#F7931E;">
+	<!ENTITY st5 "fill:#3E7FAA;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="remove-folder.default">
+	<path style="&st4;" d="M9.633,4.701L7.721,2.299C7.53,2.107,7.271,2,7,2H3.02C2.457,2,2,2.456,2,3.02V6h14V5h-5.646
+		C10.084,5,9.824,4.893,9.633,4.701z"/>
+	<path style="&st3;" d="M11.379,13.5l-2.439-2.439l2.121-2.121l2.439,2.439l2.439-2.439l0.719,0.719L16.99,8.31
+		C17.077,7.618,16.601,7,15.981,7H2.02C1.4,7,0.923,7.618,1.01,8.31l1.768,6.706C2.85,15.58,3.28,16,3.787,16h5.091L11.379,13.5z"/>
+	<polygon style="&st4;" points="16.354,11.354 15.646,10.646 13.5,12.793 11.354,10.646 10.646,11.354 12.793,13.5 10.646,15.646 
+		11.354,16.354 13.5,14.207 15.646,16.354 16.354,15.646 14.207,13.5 	"/>
+</g>
+</svg>

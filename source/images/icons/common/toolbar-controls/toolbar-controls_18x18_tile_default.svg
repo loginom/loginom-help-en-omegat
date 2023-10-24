@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="toolbar" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#808080;}
+	.st2{fill:#636F80;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#808080;}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#636F80;}
+	.st6{fill:#F7931E;}
+</style>
+<g id="tile_default">
+	<path class="st2" d="M16,11v5h-5v-5H16 M17,10h-7v7h7V10L17,10z"/>
+	<path class="st2" d="M7,11v5H2v-5H7 M8,10H1v7h7V10L8,10z"/>
+	<path class="st2" d="M16,2v5h-5V2H16 M17,1h-7v7h7V1L17,1z"/>
+	<path class="st2" d="M7,2v5H2V2H7 M8,1H1v7h7V1L8,1z"/>
+</g>
+</svg>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#E3EFFA;">
+	<!ENTITY st1 "fill:#71B1E4;">
+	<!ENTITY st2 "fill:#5195CA;">
+	<!ENTITY st3 "fill:#FFCCCC;">
+	<!ENTITY st4 "fill:#E30612;">
+	<!ENTITY st5 "fill:#FDE9D2;">
+	<!ENTITY st6 "fill:#F7931E;">
+	<!ENTITY st7 "fill:#E67300;">
+	<!ENTITY st8 "fill:#CCF4D1;">
+	<!ENTITY st9 "fill:#39B54A;">
+	<!ENTITY st10 "fill:#009B14;">
+	<!ENTITY st11 "fill:#EBECEF;">
+	<!ENTITY st12 "fill:#757981;">
+	<!ENTITY st13 "fill:#48484E;">
+	<!ENTITY st14 "fill:#EAECF1;">
+	<!ENTITY st15 "fill:#BAC0CF;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="15px" height="24px" viewBox="0 0 15 24" style="enable-background:new 0 0 15 24;" xml:space="preserve">
+<g id="tree-no-autosync.lock">
+	<polygon style="&st14;" points="13,2 13,22 2.333,22 	"/>
+	<path style="&st15;" d="M13,2.001v4.203l-0.604,1.145l-1.749-0.937L13,2.001z M9.639,8.303L8.63,10.193l1.765,0.941l1.016-1.885
+		L9.639,8.303z M11,22h2v-2h-2V22z M7,22h2v-2H7V22z M2.333,22H5v-1.6l-1.412-0.753L2.333,22z M5.605,15.866l-1.008,1.891
+		l1.765,0.941l1.008-1.891L5.605,15.866z M6.613,13.975l1.765,0.941l1.009-1.891l-1.765-0.941L6.613,13.975z"/>
+	<g>
+		<circle style="&st15;" cx="10" cy="17" r="2"/>
+	</g>
+	<circle style="&st14;" cx="10" cy="17" r="1"/>
+</g>
+</svg>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#BFBFBF;">
+	<!ENTITY st2 "fill:#F7931E;">
+	<!ENTITY st3 "fill:#8C8C8C;">
+	<!ENTITY st4 "fill:#71B1E4;">
+	<!ENTITY st5 "fill:none;stroke:#F7931E;stroke-miterlimit:10;">
+	<!ENTITY st6 "fill:none;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="smoothing.default">
+	<g>
+		<path style="&st4;" d="M2.221,10.309l1.229,4.607l0.009,0.034l0.012,0.033C3.684,15.592,4.281,16,4.957,16
+			c0.708,0,1.314-0.434,1.508-1.08l0.011-0.036l0.008-0.037L9,3.67c0.002-0.001,2.517,11.177,2.517,11.177l0.008,0.037l0.011,0.036
+			c0.194,0.646,0.8,1.08,1.508,1.08c0.675,0,1.272-0.408,1.486-1.017l0.012-0.033l0.009-0.034l1.229-4.607H16h1V9.36h-2
+			l-1.419,5.323c-0.087,0.246-0.312,0.368-0.538,0.368c-0.234,0-0.468-0.132-0.546-0.391L9.981,2.721C9.85,2.24,9.425,2,9,2
+			S8.15,2.24,8.019,2.721l-2.517,11.94c-0.078,0.259-0.312,0.391-0.546,0.391c-0.226,0-0.451-0.122-0.538-0.368L3,9.36H1v0.948h1
+			H2.221z"/>
+	</g>
+	<rect x="1" y="8" style="&st2;" width="2" height="1"/>
+	<rect x="15" y="8" style="&st2;" width="2" height="1"/>
+	<rect x="3" y="8" style="&st2;" width="1" height="1"/>
+	<rect x="3" y="6" style="&st2;" width="1" height="1"/>
+	<rect x="3" y="4" style="&st2;" width="1" height="1"/>
+	<rect x="9" y="2" style="&st2;" width="1" height="1"/>
+	<rect x="9" y="4" style="&st2;" width="1" height="1"/>
+	<rect x="9" y="6" style="&st2;" width="1" height="1"/>
+	<rect x="9" y="8" style="&st2;" width="1" height="1"/>
+	<rect x="9" y="10" style="&st2;" width="1" height="1"/>
+	<rect x="9" y="12" style="&st2;" width="1" height="1"/>
+	<rect x="15" y="10" style="&st2;" width="1" height="1"/>
+	<rect x="15" y="12" style="&st2;" width="1" height="1"/>
+	<rect x="9" y="14" style="&st2;" width="1" height="1"/>
+	<rect x="11" y="14" style="&st2;" width="1" height="1"/>
+	<rect x="13" y="14" style="&st2;" width="1" height="1"/>
+	<rect x="15" y="14" style="&st2;" width="1" height="1"/>
+	<rect x="3" y="2" style="&st2;" width="1" height="1"/>
+	<rect x="5" y="2" style="&st2;" width="1" height="1"/>
+	<rect x="7" y="2" style="&st2;" width="1" height="1"/>
+</g>
+</svg>

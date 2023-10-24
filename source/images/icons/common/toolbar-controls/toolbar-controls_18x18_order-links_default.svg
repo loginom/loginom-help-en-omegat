@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="toolbar" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#808080;}
+	.st2{fill:#636F80;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#808080;}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#636F80;}
+	.st6{fill:#F7931E;}
+</style>
+<g id="order-links_default">
+	<polygon class="st2" points="9,13 11,14.5 9,16 	"/>
+	<rect x="7" y="14" class="st2" width="2" height="1"/>
+	<polygon class="st2" points="9,8 11,9.5 9,11 	"/>
+	<rect x="7" y="9" class="st2" width="2" height="1"/>
+	<polygon class="st2" points="9,3 11,4.5 9,6 	"/>
+	<rect x="7" y="4" class="st2" width="2" height="1"/>
+	<path class="st2" d="M16,3v2h-4V3H16 M17,2h-6v4h6V2L17,2z"/>
+	<path class="st2" d="M16,8v2h-4V8H16 M17,7h-6v4h6V7L17,7z"/>
+	<path class="st2" d="M16,13v2h-4v-2H16 M17,12h-6v4h6V12L17,12z"/>
+	<path class="st2" d="M6,3v2H2V3H6 M7,2H1v4h6V2L7,2z"/>
+	<path class="st2" d="M6,8v2H2V8H6 M7,7H1v4h6V7L7,7z"/>
+	<path class="st2" d="M6,13v2H2v-2H6 M7,12H1v4h6V12L7,12z"/>
+</g>
+</svg>

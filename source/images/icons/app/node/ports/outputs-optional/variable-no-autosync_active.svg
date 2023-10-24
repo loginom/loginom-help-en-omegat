@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#E3EFFA;">
+	<!ENTITY st1 "fill:#71B1E4;">
+	<!ENTITY st2 "fill:#5195CA;">
+	<!ENTITY st3 "fill:#FFCCCC;">
+	<!ENTITY st4 "fill:#E30612;">
+	<!ENTITY st5 "fill:#FDE9D2;">
+	<!ENTITY st6 "fill:#F7931E;">
+	<!ENTITY st7 "fill:#E67300;">
+	<!ENTITY st8 "fill:#CCF4D1;">
+	<!ENTITY st9 "fill:#39B54A;">
+	<!ENTITY st10 "fill:#009B14;">
+	<!ENTITY st11 "fill:#EBECEF;">
+	<!ENTITY st12 "fill:#757981;">
+	<!ENTITY st13 "fill:#48484E;">
+	<!ENTITY st14 "fill:#EAECF1;">
+	<!ENTITY st15 "fill:#BAC0CF;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="15px" height="24px" viewBox="0 0 15 24" style="enable-background:new 0 0 15 24;" xml:space="preserve">
+<g id="variable-no-autosync.active">
+	<path style="&st8;" d="M12,12c0,4.83-3.44,8.87-8,9.8C3.36,21.93,2.69,22,2,22V2c0.68,0,1.35,0.07,1.99,0.2
+		C8.56,3.12,12,7.16,12,12z"/>
+	<path style="&st9;" d="M6.759,5.569l1.191-1.607C7.366,3.529,6.733,3.158,6.066,2.861L5.252,4.688
+		C5.783,4.925,6.29,5.221,6.759,5.569z M7.943,6.645l1.485-1.339c0.488,0.542,0.917,1.135,1.277,1.77l-1.74,0.986
+		C8.678,7.555,8.334,7.078,7.943,6.645z M9.609,9.521l1.902-0.619c0.226,0.694,0.374,1.41,0.443,2.137l-1.991,0.19
+		C9.908,10.648,9.789,10.074,9.609,9.521z M9.957,12.832l1.989,0.205c-0.075,0.726-0.229,1.442-0.46,2.134L9.59,14.536
+		C9.774,13.986,9.898,13.412,9.957,12.832z M2,4V2c0.73,0,1.46,0.079,2.17,0.236L3.738,4.189C3.172,4.064,2.587,4,2,4z M2,20
+		c0.566,0,1.131-0.059,1.678-0.176l0.417,1.956C3.412,21.926,2.703,22,2,22V20z M10.667,16.991c-0.366,0.634-0.798,1.223-1.29,1.76
+		l-1.475-1.351c0.394-0.431,0.742-0.905,1.033-1.409L10.667,16.991z M7.889,20.083c-0.586,0.428-1.221,0.793-1.893,1.087l-0.8-1.833
+		c0.533-0.233,1.042-0.525,1.514-0.869L7.889,20.083z"/>
+	<g>
+		<circle style="&st10;" cx="5" cy="12" r="2"/>
+	</g>
+	<g>
+		<circle style="&st8;" cx="5" cy="12" r="1"/>
+	</g>
+</g>
+</svg>

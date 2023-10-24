@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="toolbar" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#808080;}
+	.st2{fill:#636F80;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#808080;}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#636F80;}
+	.st6{fill:#F7931E;}
+</style>
+<g id="Монтажная_область_4795">
+	<g>
+		<path class="st2" d="M3,9c0-3.308,2.692-6,6-6c0.341,0,0.674,0.035,1,0.09V2.08C9.673,2.032,9.34,2,9,2C5.134,2,2,5.134,2,9
+			c0,2.445,1.255,4.594,3.154,5.846L4,16h3v-3l-1.117,1.117C4.158,13.062,3,11.166,3,9z"/>
+		<path class="st2" d="M12.846,3.154L14,2h-3v3l1.117-1.117C13.842,4.938,15,6.834,15,9c0,3.308-2.692,6-6,6
+			c-0.341,0-0.674-0.035-1-0.09v1.011C8.327,15.968,8.66,16,9,16c3.866,0,7-3.134,7-7C16,6.555,14.745,4.406,12.846,3.154z"/>
+		<path class="st2" d="M13,6H5v3h8V6z M12,8H6V7h6V8z"/>
+		<rect x="5" y="10" class="st2" width="1" height="1"/>
+		<rect x="8" y="10" class="st2" width="1" height="1"/>
+		<rect x="10" y="10" class="st2" width="1" height="1"/>
+		<rect x="5" y="12" class="st2" width="1" height="1"/>
+		<rect x="8" y="12" class="st2" width="1" height="1"/>
+		<rect x="10" y="12" class="st2" width="1" height="1"/>
+		<rect x="12" y="10" class="st2" width="1" height="1"/>
+		<rect x="12" y="12" class="st2" width="1" height="1"/>
+	</g>
+</g>
+</svg>

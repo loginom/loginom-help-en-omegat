@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#BFBFBF;">
+	<!ENTITY st2 "fill:#F7931E;">
+	<!ENTITY st3 "fill:#8C8C8C;">
+	<!ENTITY st4 "fill:#71B1E4;">
+	<!ENTITY st5 "fill:none;stroke:#F7931E;stroke-miterlimit:10;">
+	<!ENTITY st6 "fill:none;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="regressionneuralnet.default">
+	<path style="&st2;" d="M13.5,4H13l-0.121-0.485l-8,2L5,6L4.824,6.468l3.637,1.364l-3.815,3.815L5,12l-0.121,0.485l8,2l0.242-0.971
+		l-6.442-1.611l6.497-2.436L13,9h0.5V4z M6.679,6.096l4.691-1.173L9.238,7.055L6.679,6.096z M12.5,5.207v3.072l-2.234-0.838
+		L12.5,5.207z M11.577,9l-4.592,1.722L9.49,8.217L11.577,9z"/>
+	<circle style="&st4;" cx="13" cy="4" r="2"/>
+	<circle style="&st4;" cx="5" cy="6" r="2"/>
+	<circle style="&st4;" cx="5" cy="12" r="2"/>
+	<circle style="&st4;" cx="13" cy="9" r="2"/>
+	<circle style="&st4;" cx="13" cy="14" r="2"/>
+</g>
+</svg>

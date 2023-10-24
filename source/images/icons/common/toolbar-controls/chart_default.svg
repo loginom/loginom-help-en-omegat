@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#808080;">
+	<!ENTITY st2 "fill:#636F80;">
+	<!ENTITY st3 "opacity:0.2;fill:#FFFFFF;">
+	<!ENTITY st4 "opacity:0.2;fill:#636F80;">
+	<!ENTITY st5 "opacity:0.2;fill:#808080;">
+	<!ENTITY st6 "fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;">
+	<!ENTITY st7 "fill-rule:evenodd;clip-rule:evenodd;fill:#808080;">
+	<!ENTITY st8 "fill-rule:evenodd;clip-rule:evenodd;fill:#636F80;">
+	<!ENTITY st9 "fill:#F7931E;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="chart.default">
+	<g>
+		<polygon style="&st2;" points="2.857,8.933 2.143,8.234 6.449,3.838 10.49,6.868 15.188,3.11 15.812,3.891 10.51,8.132 
+			6.551,5.163 		"/>
+	</g>
+	<circle style="&st2;" cx="15.5" cy="3.5" r="1.5"/>
+	<circle style="&st2;" cx="10.5" cy="7.5" r="1.5"/>
+	<circle style="&st2;" cx="6.5" cy="4.5" r="1.5"/>
+	<circle style="&st2;" cx="2.5" cy="8.5" r="1.5"/>
+	<rect x="14" y="8" style="&st2;" width="2" height="7"/>
+	<rect x="10" y="11" style="&st2;" width="2" height="4"/>
+	<rect x="6" y="9" style="&st2;" width="2" height="6"/>
+	<rect x="2" y="12" style="&st2;" width="2" height="3"/>
+	<rect x="1" y="15" style="&st2;" width="16" height="1"/>
+</g>
+</svg>

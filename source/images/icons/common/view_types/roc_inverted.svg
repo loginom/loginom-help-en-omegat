@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#808080;">
+	<!ENTITY st2 "fill:#BFBFBF;">
+	<!ENTITY st3 "fill:#71B1E4;">
+	<!ENTITY st4 "fill:#F7931E;">
+	<!ENTITY st5 "fill:#EDEDED;">
+	<!ENTITY st6 "fill:#FFEEDE;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<path id="roc.inverted" style="&st0;" d="M4,14v-1h1v1H4z M6,12h1v-1H6V12z M9,10V9H8v1H9z M11,8V7h-1v1H11z M13,6V5h-1v1H13z M15,4
+	V3.024c0.244-0.014,0.477-0.044,0.73-0.044L16,2.97V2c-0.24,0-0.48,0-0.72,0.01C6.823,2.34,3.967,8.429,3,12.467V2H2v14h14v-1H3.557
+	c0.035-0.399,0.095-0.886,0.193-1.46C4.373,10.047,6.543,4.017,14,3.106V4H15z"/>
+</svg>

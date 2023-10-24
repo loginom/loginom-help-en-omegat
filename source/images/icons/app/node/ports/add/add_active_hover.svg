@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#71B1E4;">
+	<!ENTITY st1 "fill:#E3EFFA;">
+	<!ENTITY st2 "fill:#F7931E;">
+	<!ENTITY st3 "fill:#9A9FAF;">
+	<!ENTITY st4 "fill:#E30612;">
+	<!ENTITY st5 "fill:#39B54A;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="15px" height="24px" viewBox="0 0 15 24" style="enable-background:new 0 0 15 24;" xml:space="preserve">
+<g id="add.active.hover">
+	<circle style="&st0;" cx="7.5" cy="11.5" r="7.5"/>
+	<circle style="&st1;" cx="7.5" cy="11.5" r="6.5"/>
+	<polygon style="&st5;" points="3,10 6,10 6,7 9,7 9,10 12,10 12,13 9,13 9,16 6,16 6,13 3,13 	"/>
+</g>
+</svg>

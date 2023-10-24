@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#F7931E;">
+	<!ENTITY st1 "fill:#71B1E4;">
+	<!ENTITY st2 "fill:none;">
+	<!ENTITY st3 "fill:#FFFFFF;">
+]>
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="24px" height="24px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+<g>
+	<rect x="5" y="5" style="&st1;" width="14" height="4"/>
+</g>
+<g>
+	<rect x="5" y="11" style="&st1;" width="4" height="2"/>
+</g>
+<g>
+	<rect x="10" y="11" style="&st1;" width="4" height="2"/>
+</g>
+<g>
+	<rect x="15" y="11" style="&st1;" width="4" height="2"/>
+</g>
+<g>
+	<rect x="5" y="14" style="&st1;" width="4" height="2"/>
+</g>
+<g>
+	<rect x="10" y="14" style="&st1;" width="4" height="2"/>
+</g>
+<g>
+	<rect x="15" y="14" style="&st1;" width="4" height="2"/>
+</g>
+<g>
+	<rect x="5" y="17" style="&st1;" width="4" height="2"/>
+</g>
+<g>
+	<rect x="10" y="17" style="&st1;" width="4" height="2"/>
+</g>
+<g>
+	<rect x="15" y="17" style="&st1;" width="4" height="2"/>
+</g>
+<path style="&st0;" d="M18,3c1.103,0,2,0.897,2,2v14c0,1.103-0.897,2-2,2H6c-1.102,0-2-0.897-2-2V5c0-1.103,0.898-2,2-2H18 M18,2H6
+	C4.343,2,3,3.343,3,5v14c0,1.657,1.343,3,3,3h12c1.657,0,3-1.343,3-3V5C21,3.343,19.657,2,18,2L18,2z"/>
+</svg>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#808080;">
+	<!ENTITY st2 "fill:#636F80;">
+	<!ENTITY st3 "opacity:0.2;fill:#FFFFFF;">
+	<!ENTITY st4 "opacity:0.2;fill:#636F80;">
+	<!ENTITY st5 "opacity:0.2;fill:#808080;">
+	<!ENTITY st6 "fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;">
+	<!ENTITY st7 "fill-rule:evenodd;clip-rule:evenodd;fill:#808080;">
+	<!ENTITY st8 "fill-rule:evenodd;clip-rule:evenodd;fill:#636F80;">
+	<!ENTITY st9 "fill:#F7931E;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="workflow.default">
+	<rect x="13" y="7" style="&st2;" width="1" height="3"/>
+	<polygon style="&st2;" points="9,12.5 9,13.5 10,14.5 9,15.5 9,16.5 11,14.5 	"/>
+	<polygon style="&st2;" points="15.5,9 14.5,9 13.5,10 12.5,9 11.5,9 13.5,11 	"/>
+	<polygon style="&st2;" points="9,1.5 9,2.5 10,3.5 9,4.5 9,5.5 11,3.5 	"/>
+	<path style="&st2;" d="M10,3H5.989C4.891,3,4,3.891,4,4.99V6h1V5.011C5,4.453,5.452,4,6.011,4H10V3z"/>
+	<path style="&st2;" d="M10,15H5.989C4.891,15,4,14.11,4,13.011V12h1v0.99C5,13.548,5.452,14,6.011,14H10V15z"/>
+	<path style="&st2;" d="M15,12c0.552,0,1,0.449,1,1v2c0,0.551-0.448,1-1,1h-2c-0.552,0-1-0.449-1-1v-2c0-0.551,0.448-1,1-1H15
+		 M15,11h-2c-1.104,0-2,0.896-2,2v2c0,1.105,0.896,2,2,2h2c1.104,0,2-0.895,2-2v-2C17,11.896,16.104,11,15,11L15,11z"/>
+	<path style="&st2;" d="M15,2c0.552,0,1,0.449,1,1v2c0,0.551-0.448,1-1,1h-2c-0.552,0-1-0.449-1-1V3c0-0.551,0.448-1,1-1H15 M15,1
+		h-2c-1.104,0-2,0.895-2,2v2c0,1.105,0.896,2,2,2h2c1.104,0,2-0.895,2-2V3C17,1.895,16.104,1,15,1L15,1z"/>
+	<path style="&st2;" d="M5,7c0.552,0,1,0.449,1,1v2c0,0.551-0.448,1-1,1H3c-0.552,0-1-0.449-1-1V8c0-0.551,0.448-1,1-1H5 M5,6H3
+		C1.895,6,1,6.896,1,8v2c0,1.105,0.895,2,2,2h2c1.104,0,2-0.895,2-2V8C7,6.896,6.104,6,5,6L5,6z"/>
+</g>
+</svg>

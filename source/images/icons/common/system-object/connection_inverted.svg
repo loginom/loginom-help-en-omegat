@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#BFBFBF;">
+	<!ENTITY st2 "fill:#8C8C8C;">
+	<!ENTITY st3 "fill:#F59321;">
+	<!ENTITY st4 "fill:#71B1E4;">
+	<!ENTITY st5 "fill:#F7931E;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<path id="connection.inverted" style="&st0;" d="M14.604,5.897c0.932,1.178,0.868,2.886-0.22,3.973l-2.257,2.257l-1.364-1.364
+	l1.364-1.364l-3.639-3.64L7.124,7.124L5.873,5.873L8.13,3.616c1.087-1.088,2.795-1.153,3.973-0.22L13.498,2L16,4.502L14.604,5.897z
+	 M10.876,9.625L8.375,7.124L7.124,8.375L5.247,6.498L3.616,8.13c-1.088,1.087-1.152,2.795-0.22,3.973L2,13.498L4.502,16l1.395-1.396
+	c1.178,0.932,2.886,0.868,3.973-0.22l1.632-1.631l-1.877-1.877L10.876,9.625z"/>
+</svg>

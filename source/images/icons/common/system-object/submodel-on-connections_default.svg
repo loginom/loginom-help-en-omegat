@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#8C8C8C;">
+	<!ENTITY st2 "fill:#BFBFBF;">
+	<!ENTITY st3 "fill:#71B1E4;">
+	<!ENTITY st4 "fill:#F7931E;">
+	<!ENTITY st5 "fill:#F59321;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="submodel-on-connections.default">
+	<path style="&st3;" d="M6,6c0-1.636-0.442-4-3-4h0.02C2.456,2,2,2.456,2,3.02V6H6z"/>
+	<g>
+		<path style="&st4;" d="M12,7l-3,3L6,7h2c0-5-3-5-3-5s5,0,5,5H12z"/>
+	</g>
+	<path style="&st3;" d="M15.981,7H15l-6,6L3,7H2.02C1.399,7,0.923,7.618,1.01,8.31l1.768,6.706C2.85,15.58,3.28,16,3.787,16h10.546
+		c0.507,0,0.938-0.42,1.009-0.984L16.99,8.31C17.077,7.618,16.601,7,15.981,7z"/>
+</g>
+</svg>

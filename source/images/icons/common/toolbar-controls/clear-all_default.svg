@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#808080;">
+	<!ENTITY st2 "fill:#636F80;">
+	<!ENTITY st3 "opacity:0.2;fill:#FFFFFF;">
+	<!ENTITY st4 "opacity:0.2;fill:#636F80;">
+	<!ENTITY st5 "opacity:0.2;fill:#808080;">
+	<!ENTITY st6 "fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;">
+	<!ENTITY st7 "fill-rule:evenodd;clip-rule:evenodd;fill:#808080;">
+	<!ENTITY st8 "fill-rule:evenodd;clip-rule:evenodd;fill:#636F80;">
+	<!ENTITY st9 "fill:#F7931E;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<path id="clear-all.default" style="&st2;" d="M17.005,2.522c0-0.409-0.159-0.792-0.448-1.079c-0.287-0.288-0.67-0.448-1.079-0.448
+	c0,0,0,0-0.001,0c-0.408,0-0.792,0.159-1.08,0.448l-3.719,3.719L9.264,3.749c-0.79-0.79-2.073-0.79-2.863,0L1,9.149L8.851,17
+	l5.401-5.401c0.79-0.789,0.79-2.074,0-2.863l-1.414-1.414l3.719-3.719C16.846,3.315,17.005,2.93,17.005,2.522z M8.851,15.56
+	l-3.354-3.354l1.168-1.168l-0.72-0.72l-1.168,1.168l-0.808-0.808l2.696-2.696l-0.72-0.72L3.248,9.957L2.44,9.149l3.354-3.354
+	l6.41,6.41L8.851,15.56z M13.531,10.879l-0.606,0.606l-6.41-6.41l0.606-0.606c0.392-0.392,1.031-0.392,1.423,0l4.988,4.988
+	C13.923,9.849,13.923,10.487,13.531,10.879z M15.837,2.883l-3.719,3.719l-0.72-0.72l3.719-3.719c0.096-0.096,0.224-0.149,0.36-0.149
+	h0.001c0.135,0,0.263,0.053,0.359,0.149c0.096,0.096,0.149,0.224,0.149,0.359C15.986,2.658,15.934,2.787,15.837,2.883z"/>
+</svg>

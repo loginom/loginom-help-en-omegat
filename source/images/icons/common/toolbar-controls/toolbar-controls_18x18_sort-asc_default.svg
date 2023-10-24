@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="toolbar" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#808080;}
+	.st2{fill:#636F80;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#808080;}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#636F80;}
+	.st6{fill:#F7931E;}
+</style>
+<g id="sort-asc_default">
+	<path class="st2" d="M2,16.148l3.334-4.798v-0.041H2.312V10h5.079v0.914L4.129,15.65v0.041h3.313V17H2V16.148z"/>
+	<path class="st2" d="M4.139,6.204L3.64,8H2l2.139-7h2.077l2.171,7H6.684l-0.54-1.796H4.139z M5.914,5.019L5.478,3.534
+		C5.354,3.119,5.229,2.6,5.125,2.184H5.104C5,2.6,4.897,3.129,4.783,3.534L4.368,5.019H5.914z"/>
+	<polygon class="st2" points="13.5,17 11,14 16,14 	"/>
+	<rect x="13" y="1" class="st2" width="1" height="13"/>
+</g>
+</svg>

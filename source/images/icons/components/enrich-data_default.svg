@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#BFBFBF;">
+	<!ENTITY st2 "fill:#F7931E;">
+	<!ENTITY st3 "fill:#8C8C8C;">
+	<!ENTITY st4 "fill:#71B1E4;">
+	<!ENTITY st5 "fill:none;stroke:#F7931E;stroke-miterlimit:10;">
+	<!ENTITY st6 "fill:none;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="enrich-data.default">
+	<polygon style="&st4;" points="15,9 9,2.003 9,6.243 9,11.756 9,15.996 	"/>
+	<g>
+		<polygon style="&st2;" points="6,6 8,4 6,2 6,3 3,3 3,5 6,5 		"/>
+		<polygon style="&st2;" points="6,8 3,8 3,10 6,10 6,11 8,9 6,7 		"/>
+		<polygon style="&st2;" points="6,13 3,13 3,15 6,15 6,16 8,14 6,12 		"/>
+	</g>
+</g>
+</svg>

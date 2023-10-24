@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#BFBFBF;">
+	<!ENTITY st2 "fill:#F7931E;">
+	<!ENTITY st3 "fill:#8C8C8C;">
+	<!ENTITY st4 "fill:#71B1E4;">
+	<!ENTITY st5 "fill:none;stroke:#F7931E;stroke-miterlimit:10;">
+	<!ENTITY st6 "fill:none;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="clusterization.default">
+	<path style="&st4;" d="M8.999,5.846c-0.038,1.061-0.92,1.872-1.743,2.543c-0.822,0.671-1.719,1.452-1.808,2.51
+		c-0.053,0.634,0.204,1.25,0.476,1.825c0.347,0.735,0.736,1.451,1.149,2.152L9,16l6-3.5v-7L9,2L6.934,3.205
+		c0.373,0.182,0.73,0.389,1.049,0.653C8.576,4.351,9.026,5.075,8.999,5.846z"/>
+	<path style="&st2;" d="M5.924,12.724c-0.272-0.575-0.528-1.191-0.476-1.825c0.089-1.058,0.986-1.839,1.808-2.51
+		c0.822-0.671,1.705-1.482,1.743-2.543c0.027-0.77-0.423-1.495-1.016-1.987C7.664,3.594,7.306,3.387,6.934,3.205L3,5.5v7
+		l4.073,2.376C6.66,14.175,6.271,13.459,5.924,12.724z"/>
+</g>
+</svg>

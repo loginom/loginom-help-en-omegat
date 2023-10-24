@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#E30612;">
+	<!ENTITY st1 "fill:#FFFFFF;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="exclamation.default">
+	<path style="&st0;" d="M15.846,13.362l-5.88-9.821c-0.431-0.721-1.5-0.721-1.932,0l-5.88,9.821C1.719,14.088,2.257,15,3.12,15
+		h11.76C15.743,15,16.281,14.088,15.846,13.362z"/>
+	<path style="&st1;" d="M10,13H8v-1h2V13z M10,11H8V7h2V11z"/>
+</g>
+</svg>

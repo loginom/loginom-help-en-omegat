@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#808080;">
+	<!ENTITY st2 "fill:#636F80;">
+	<!ENTITY st3 "opacity:0.2;fill:#FFFFFF;">
+	<!ENTITY st4 "opacity:0.2;fill:#636F80;">
+	<!ENTITY st5 "opacity:0.2;fill:#808080;">
+	<!ENTITY st6 "fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;">
+	<!ENTITY st7 "fill-rule:evenodd;clip-rule:evenodd;fill:#808080;">
+	<!ENTITY st8 "fill-rule:evenodd;clip-rule:evenodd;fill:#636F80;">
+	<!ENTITY st9 "fill:#F7931E;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="order-links.default">
+	<polygon style="&st2;" points="9,13 11,14.5 9,16 	"/>
+	<rect x="7" y="14" style="&st2;" width="2" height="1"/>
+	<polygon style="&st2;" points="9,8 11,9.5 9,11 	"/>
+	<rect x="7" y="9" style="&st2;" width="2" height="1"/>
+	<polygon style="&st2;" points="9,3 11,4.5 9,6 	"/>
+	<rect x="7" y="4" style="&st2;" width="2" height="1"/>
+	<path style="&st2;" d="M16,3v2h-4V3H16 M17,2h-6v4h6V2L17,2z"/>
+	<path style="&st2;" d="M16,8v2h-4V8H16 M17,7h-6v4h6V7L17,7z"/>
+	<path style="&st2;" d="M16,13v2h-4v-2H16 M17,12h-6v4h6V12L17,12z"/>
+	<path style="&st2;" d="M6,3v2H2V3H6 M7,2H1v4h6V2L7,2z"/>
+	<path style="&st2;" d="M6,8v2H2V8H6 M7,7H1v4h6V7L7,7z"/>
+	<path style="&st2;" d="M6,13v2H2v-2H6 M7,12H1v4h6V12L7,12z"/>
+</g>
+</svg>

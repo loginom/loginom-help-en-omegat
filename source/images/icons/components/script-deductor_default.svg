@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#BFBFBF;">
+	<!ENTITY st2 "fill:#F7931E;">
+	<!ENTITY st3 "fill:#8C8C8C;">
+	<!ENTITY st4 "fill:#71B1E4;">
+	<!ENTITY st5 "fill:none;stroke:#F7931E;stroke-miterlimit:10;">
+	<!ENTITY st6 "fill:none;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="script-deductor.default">
+	<g>
+		<polygon style="&st2;" points="11,9 8,6 8,7.818 8,10.182 8,12 		"/>
+	</g>
+	<path style="&st4;" d="M13,4c0.551,0,1,0.448,1,1v8c0,0.552-0.449,1-1,1H5c-0.551,0-1-0.448-1-1V5c0-0.552,0.449-1,1-1H13 M13,3H5
+		C3.896,3,3,3.895,3,5v8c0,1.104,0.896,2,2,2h8c1.104,0,2-0.896,2-2V5C15,3.895,14.104,3,13,3L13,3z"/>
+	<path style="&st4;" d="M2,11L2,11c-0.552,0-1-0.447-1-1V8c0-0.553,0.448-1,1-1l0,0V11z"/>
+	<path style="&st4;" d="M16,7L16,7c0.552,0,1,0.447,1,1v2c0,0.553-0.448,1-1,1l0,0V7z"/>
+</g>
+</svg>

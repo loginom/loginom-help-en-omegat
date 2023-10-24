@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#808080;">
+	<!ENTITY st2 "fill:#636F80;">
+	<!ENTITY st3 "opacity:0.2;fill:#FFFFFF;">
+	<!ENTITY st4 "opacity:0.2;fill:#636F80;">
+	<!ENTITY st5 "opacity:0.2;fill:#808080;">
+	<!ENTITY st6 "fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;">
+	<!ENTITY st7 "fill-rule:evenodd;clip-rule:evenodd;fill:#808080;">
+	<!ENTITY st8 "fill-rule:evenodd;clip-rule:evenodd;fill:#636F80;">
+	<!ENTITY st9 "fill:#F7931E;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="layout.default">
+	<rect x="7" y="10" style="&st2;" width="3" height="1"/>
+	<rect x="7" y="8" style="&st2;" width="1" height="3"/>
+	<rect x="10" y="7" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 21 15)" style="&st2;" width="1" height="1"/>
+	<rect x="9" y="8" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 19 17)" style="&st2;" width="1" height="1"/>
+	<rect x="7" y="13" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 18 27)" style="&st2;" width="4" height="1"/>
+	<rect x="7" y="4" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 18 9)" style="&st2;" width="4" height="1"/>
+	<path style="&st2;" d="M15,12v3h-3v-3H15 M15,11h-3c-0.553,0-1,0.448-1,1v3c0,0.552,0.447,1,1,1h3c0.552,0,1-0.448,1-1v-3
+		C16,11.448,15.552,11,15,11L15,11z"/>
+	<path style="&st2;" d="M6,12v3H3v-3H6 M6,11H3c-0.553,0-1,0.448-1,1v3c0,0.552,0.447,1,1,1h3c0.552,0,1-0.448,1-1v-3
+		C7,11.448,6.552,11,6,11L6,11z"/>
+	<path style="&st2;" d="M15,3v3h-3V3H15 M15,2h-3c-0.553,0-1,0.448-1,1v3c0,0.552,0.447,1,1,1h3c0.552,0,1-0.448,1-1V3
+		C16,2.448,15.552,2,15,2L15,2z"/>
+	<path style="&st2;" d="M6,3v3H3V3H6 M6,2H3C2.447,2,2,2.448,2,3v3c0,0.552,0.447,1,1,1h3c0.552,0,1-0.448,1-1V3
+		C7,2.448,6.552,2,6,2L6,2z"/>
+</g>
+</svg>

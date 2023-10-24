@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "display:none;">
+	<!ENTITY st1 "display:inline;fill:#373943;">
+	<!ENTITY st2 "fill:#FFFFFF;">
+	<!ENTITY st3 "fill:#9A9FAF;">
+	<!ENTITY st4 "fill:#71B1E4;">
+	<!ENTITY st5 "fill:#A23938;">
+	<!ENTITY st6 "fill:#475B72;">
+	<!ENTITY st7 "fill:#333333;">
+	<!ENTITY st8 "fill:#7D2B29;">
+	<!ENTITY st9 "fill:#E7D2D5;">
+]>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px"
+	 height="24px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+<g id="background" style="&st0;">
+	<rect x="-12" y="-108" style="&st1;" width="96" height="336"/>
+</g>
+<g id="img">
+	<path id="star.default" style="&st3;" d="M12,5.519l1.647,3.713l0.47,1.059l1.152,0.12l4.04,0.419l-3.022,2.714l-0.862,0.774
+		l0.242,1.133l0.85,3.972l-3.515-2.036L12,16.806l-1.002,0.581l-3.515,2.036l0.85-3.972l0.242-1.133l-0.862-0.774L4.691,10.83
+		l4.04-0.419l1.152-0.12l0.47-1.059L12,5.519 M12,0.587L8.525,8.422L0,9.306l6.377,5.726l-1.793,8.381L12,19.117l7.417,4.295
+		l-1.794-8.381L24,9.306l-8.525-0.884L12,0.587L12,0.587z"/>
+</g>
+<g id="guides-outside" style="&st0;">
+</g>
+</svg>

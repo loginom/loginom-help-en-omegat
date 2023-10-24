@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="crm-microsoftcrm.inverted">
+	<path style="fill:#FFFFFF;" d="M9,9.82V3V1C7.56,9.62,1.82,14.37,1,14.94c0,0,0,0.609,0,1.39c1.994-0.886,4.949-1.349,8-1.338V9.82
+		z"/>
+	<path style="fill:#FFFFFF;" d="M13,14.55V6V3.58c-0.608,1.976-1.706,3.704-3,5.179v6.253c1.013,0.039,2.018,0.144,3,0.289V14.55z"
+		/>
+	<path style="fill:#FFFFFF;" d="M14,9.271v6.195c1.062,0.205,2.082,0.468,3,0.814c0,0,0-6.04,0-10.021
+		C15.966,7.352,15.113,8.326,14,9.271z"/>
+</g>
+</svg>

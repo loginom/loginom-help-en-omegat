@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="toolbar" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#808080;}
+	.st2{fill:#636F80;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#808080;}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#636F80;}
+	.st6{fill:#F7931E;}
+</style>
+<g id="invert-bound-type_default">
+	<g>
+		<path class="st2" d="M13.368,3.365c0.693,0,1.27,0.179,1.709,0.535c0.738,0.601,1.036,1.643,0.885,3.1l-0.994-0.103
+			c0.113-1.1-0.062-1.847-0.522-2.22c-0.489-0.399-1.393-0.416-2.541-0.049l-0.305-0.953C12.249,3.468,12.842,3.365,13.368,3.365z"
+			/>
+	</g>
+	<polygon class="st2" points="11,4 13,6 13,4.788 13,3.212 13,2 	"/>
+	<g>
+		<path class="st2" d="M4.632,14.635c-0.693,0-1.271-0.179-1.709-0.535c-0.738-0.601-1.036-1.643-0.885-3.1l0.994,0.104
+			c-0.113,1.1,0.062,1.847,0.521,2.22c0.489,0.399,1.393,0.416,2.541,0.049l0.305,0.953C5.751,14.532,5.158,14.635,4.632,14.635z"/>
+	</g>
+	<polygon class="st2" points="7,14 5,12 5,13.212 5,14.788 5,16 	"/>
+	<g>
+		<path class="st2" d="M10,12.685L16,10v0.778l-5.095,2.21v0.022L16,15.222V16l-6-2.685V12.685z"/>
+	</g>
+	<g>
+		<path class="st2" d="M8,5.315L2,8V7.222l5.095-2.211V4.989L2,2.778V2l6,2.685V5.315z"/>
+	</g>
+</g>
+</svg>

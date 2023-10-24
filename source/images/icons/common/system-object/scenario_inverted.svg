@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#BFBFBF;">
+	<!ENTITY st2 "fill:#8C8C8C;">
+	<!ENTITY st3 "fill:#F59321;">
+	<!ENTITY st4 "fill:#71B1E4;">
+	<!ENTITY st5 "fill:#F7931E;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<path id="scenario.inverted" style="&st0;" d="M9,14H6.011C5.452,14,5,13.548,5,12.989V12c1.104,0,2-0.896,2-2V8
+	c0-1.104-0.896-2-2-2V5.011C5,4.452,5.452,4,6.011,4H9v1l2-1.5L9,2v1H5.989C4.891,3,4,3.891,4,4.989V6H3C1.896,6,1,6.896,1,8v2
+	c0,1.104,0.896,2,2,2h1v1.011C4,14.109,4.891,15,5.989,15H9v1l2-1.5L9,13V14z M3,10V8h2v2H3z M15,7c1.104,0,2-0.896,2-2V3
+	c0-1.104-0.896-2-2-2h-2c-1.104,0-2,0.896-2,2v0.5V5c0,1.104,0.896,2,2,2v2h-1l1.5,2L15,9h-1V7H15z M13,3h2v2h-2V3z M11,13v1.5V15
+	c0,1.104,0.896,2,2,2h2c1.104,0,2-0.896,2-2v-2c0-1.104-0.896-2-2-2h-1.5H13C11.896,11,11,11.896,11,13z M15,13v2h-2v-2H15z"/>
+</svg>

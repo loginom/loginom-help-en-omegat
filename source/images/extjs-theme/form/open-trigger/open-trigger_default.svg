@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#8DBEC9;">
+	<!ENTITY st1 "fill:#636F80;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="22px" height="18px" viewBox="0 0 22 18" style="enable-background:new 0 0 22 18;" xml:space="preserve">
+<g id="open-trigger.default">
+	<path style="&st1;" d="M11.5,15L11.5,15c-0.828,0-1.5-0.672-1.5-1.5l0,0c0-0.828,0.672-1.5,1.5-1.5l0,0c0.828,0,1.5,0.672,1.5,1.5
+		l0,0C13,14.328,12.328,15,11.5,15z"/>
+	<path style="&st1;" d="M7.5,15L7.5,15C6.672,15,6,14.328,6,13.5l0,0C6,12.672,6.672,12,7.5,12l0,0C8.328,12,9,12.672,9,13.5l0,0
+		C9,14.328,8.328,15,7.5,15z"/>
+	<path style="&st1;" d="M15.5,15L15.5,15c-0.828,0-1.5-0.672-1.5-1.5l0,0c0-0.828,0.672-1.5,1.5-1.5l0,0c0.828,0,1.5,0.672,1.5,1.5
+		l0,0C17,14.328,16.328,15,15.5,15z"/>
+</g>
+</svg>

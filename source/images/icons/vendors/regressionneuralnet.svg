@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#F7931E;">
+	<!ENTITY st1 "fill:#71B1E4;">
+	<!ENTITY st2 "fill:none;">
+	<!ENTITY st3 "fill:#FFFFFF;">
+]>
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="24px" height="24px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+<path style="&st0;" d="M18.5,5H18l-0.082-0.493l-12,2L6,7L5.808,7.461l6.37,2.654l-6.531,6.531L6,17l-0.082,0.493l12,2l0.164-0.986
+	L7.798,16.793l10.395-4.332L18,12h0.5V5z M7.798,7.207l8.746-1.457l-3.601,3.601L7.798,7.207z M17.5,6.207v5.043l-3.56-1.483
+	L17.5,6.207z M16.7,12l-8.559,3.566l5.035-5.035L16.7,12z"/>
+<circle style="&st1;" cx="6" cy="7" r="3"/>
+<circle style="&st1;" cx="18" cy="5" r="3"/>
+<circle style="&st1;" cx="18" cy="12" r="3"/>
+<circle style="&st1;" cx="18" cy="19" r="3"/>
+<circle style="&st1;" cx="6" cy="17" r="3"/>
+</svg>

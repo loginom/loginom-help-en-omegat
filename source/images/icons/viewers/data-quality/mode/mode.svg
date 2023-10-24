@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#BFBFBF;">
+	<!ENTITY st2 "fill:#808080;">
+	<!ENTITY st3 "fill:#71B1E4;">
+	<!ENTITY st4 "fill:#F7931E;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="54px" height="54px" viewBox="0 0 54 54" style="enable-background:new 0 0 54 54;" xml:space="preserve">
+<g id="unique.inverted">
+	<path style="&st0;" d="M42,52h-2v-7h2V52z M46,45h-2v7h2V45z M50,45h-2v7h2V45z"/>
+</g>
+<g id="unique.disabled">
+	<path style="&st1;" d="M24,52h-2v-7h2V52z M28,45h-2v7h2V45z M32,45h-2v7h2V45z"/>
+</g>
+<g id="unique.default">
+	<path style="&st1;" d="M6,52H4v-7h2V52z M10,45H8v7h2V45z M14,45h-2v7h2V45z"/>
+</g>
+<g id="multi.inverted">
+	<path style="&st0;" d="M42,34h-2V22h2V34z M46,27h-2v7h2V27z M50,22h-2v12h2V22z"/>
+</g>
+<g id="multi.disabled">
+	<path style="&st2;" d="M24,34h-2V22h2V34z M28,27h-2v7h2V27z M32,22h-2v12h2V22z"/>
+</g>
+<g id="multi.default">
+	<path style="&st3;" d="M6,34H4V22h2V34z M10,27H8v7h2V27z M14,22h-2v12h2V22z"/>
+</g>
+<g id="one.inverted">
+	<path style="&st0;" d="M42,16h-2V9h2V16z M46,4h-2v12h2V4z M50,7h-2v9h2V7z"/>
+</g>
+<g id="one.disabled">
+	<path style="&st1;" d="M24,16h-2V9h2V16z M28,4h-2v12h2V4z M32,7h-2v9h2V7z"/>
+</g>
+<g id="one.default">
+	<path style="&st4;" d="M6,16H4V9h2V16z M10,4H8v12h2V4z M14,7h-2v9h2V7z"/>
+</g>
+</svg>

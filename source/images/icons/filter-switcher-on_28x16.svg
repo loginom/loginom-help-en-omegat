@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#D3DEED;">
+	<!ENTITY st2 "fill:#71B1E4;">
+	<!ENTITY st3 "opacity:0.5;fill:#FFFFFF;">
+	<!ENTITY st4 "fill:#D9D9D9;">
+	<!ENTITY st5 "fill:#9D9D9C;">
+	<!ENTITY st6 "fill:#BAC0CF;">
+	<!ENTITY st7 "fill:#636F80;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="112px" height="16px" viewBox="0 0 112 16" style="enable-background:new 0 0 112 16;" xml:space="preserve">
+<path id="filterswitch-on.inverted" style="&st0;" d="M105.5,2H95.231c-1.1-0.633-2.371-1-3.731-1C87.358,1,84,4.358,84,8.5
+	s3.358,7.5,7.5,7.5c1.36,0,2.631-0.367,3.731-1H105.5c3.584,0,6.5-2.916,6.5-6.5S109.084,2,105.5,2z M92,8.75V12h-1V8.75L88,5h7
+	L92,8.75z M105.5,14h-8.913C98.067,12.63,99,10.676,99,8.5S98.067,4.37,96.587,3h8.913c3.033,0,5.5,2.467,5.5,5.5
+	S108.533,14,105.5,14z M101,11h1v1h-1V11z M101,8h1v1h-1V8z M101,5h1v1h-1V5z M103,11h5v1h-5V11z M103,5h5v1h-5V5z M103,8h5v1h-5V8z
+	"/>
+<g id="filterswitch-on.hover">
+	<path style="&st1;" d="M77.5,15h-15c-3.59,0-6.5-2.91-6.5-6.5v0C56,4.91,58.91,2,62.5,2h15C81.09,2,84,4.91,84,8.5v0
+		C84,12.09,81.09,15,77.5,15z"/>
+	<circle style="&st2;" cx="63.5" cy="8.5" r="7.5"/>
+	<polygon style="&st0;" points="67,5 60,5 63,8.75 63,12 64,12 64,8.75 	"/>
+	<path style="&st3;" d="M74,5h-1v1h1V5z M74,11h-1v1h1V11z M80,5h-5v1h5V5z M80,8h-5v1h5V8z M80,11h-5v1h5V11z M74,9h-1V8h1V9z"/>
+</g>
+<g id="filterswitch-on.disabled">
+	<path style="&st4;" d="M49.5,15h-15c-3.59,0-6.5-2.91-6.5-6.5v0C28,4.91,30.91,2,34.5,2h15C53.09,2,56,4.91,56,8.5v0
+		C56,12.09,53.09,15,49.5,15z"/>
+	<circle style="&st5;" cx="35.5" cy="8.5" r="7.5"/>
+	<polygon style="&st0;" points="39,5 32,5 35,8.75 35,12 36,12 36,8.75 	"/>
+	<path style="&st3;" d="M46,5h-1v1h1V5z M46,11h-1v1h1V11z M52,5h-5v1h5V5z M52,8h-5v1h5V8z M52,11h-5v1h5V11z M46,9h-1V8h1V9z"/>
+</g>
+<g id="filterswitch-on.default">
+	<path style="&st6;" d="M21.5,15h-15C2.91,15,0,12.09,0,8.5v0C0,4.91,2.91,2,6.5,2h15C25.09,2,28,4.91,28,8.5v0
+		C28,12.09,25.09,15,21.5,15z"/>
+	<circle style="&st7;" cx="7.5" cy="8.5" r="7.5"/>
+	<polygon style="&st0;" points="11,5 4,5 7,8.75 7,12 8,12 8,8.75 	"/>
+	<path style="&st3;" d="M18,5h-1v1h1V5z M18,11h-1v1h1V11z M24,5h-5v1h5V5z M24,8h-5v1h5V8z M24,11h-5v1h5V11z M18,9h-1V8h1V9z"/>
+</g>
+</svg>

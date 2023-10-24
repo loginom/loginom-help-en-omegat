@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="shp.default">
+	<g>
+		<polygon style="fill:#3E7FAA;" points="12,5 15,5 12,2 		"/>
+		<polygon style="fill:#71B1E4;" points="14,15 4,15 4,3 12,3 12,2 3,2 3,16 15,16 15,5 14,5 		"/>
+	</g>
+	<polygon style="fill:#F7931E;" points="12,9 11.1,9 10.287,10 11.219,10 11.719,12 6.281,12 6.781,10 7.71,10 6.895,9 6,9 5,13 
+		13,13 	"/>
+	<path style="fill:#71B1E4;" d="M10.642,7.984L9,10L7.356,7.984h0.002C7.134,7.66,7,7.269,7,6.845c0-1.105,0.895-2,2-2s2,0.895,2,2
+		C11,7.269,10.866,7.66,10.642,7.984z M9,6.195c-0.359,0-0.65,0.291-0.65,0.65c0,0.359,0.291,0.65,0.65,0.65s0.65-0.291,0.65-0.65
+		C9.65,6.486,9.359,6.195,9,6.195z"/>
+</g>
+</svg>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#BFBFBF;">
+	<!ENTITY st2 "fill:#8C8C8C;">
+	<!ENTITY st3 "fill:#F59321;">
+	<!ENTITY st4 "fill:#71B1E4;">
+	<!ENTITY st5 "fill:#F7931E;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="scenario.default">
+	<g>
+		<path style="&st5;" d="M11,14.5L9,13v1H6.01C5.452,14,5,13.548,5,12.989V12H4v1.011C4,14.109,4.891,15,5.99,15H9v1L11,14.5z"/>
+		<path style="&st5;" d="M9,3H5.99C4.891,3,4,3.891,4,4.989V6h1V5.011C5,4.452,5.452,4,6.01,4H9v1l2-1.5L9,2V3z"/>
+		<polygon style="&st5;" points="14,9 14,7 13,7 13,9 12,9 13.5,11 15,9 		"/>
+	</g>
+	<path style="&st4;" d="M15,1h-2c-1.104,0-2,0.896-2,2v2c0,1.104,0.896,2,2,2h2c1.104,0,2-0.896,2-2V3C17,1.896,16.104,1,15,1z
+		 M15,5h-2V3h2V5z M15,11h-2c-1.104,0-2,0.896-2,2v2c0,1.104,0.896,2,2,2h2c1.104,0,2-0.896,2-2v-2C17,11.896,16.104,11,15,11z
+		 M15,15h-2v-2h2V15z M5,6H3C1.896,6,1,6.896,1,8v2c0,1.104,0.896,2,2,2h2c1.104,0,2-0.896,2-2V8C7,6.896,6.104,6,5,6z M5,10H3V8h2
+		V10z"/>
+</g>
+</svg>

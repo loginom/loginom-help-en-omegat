@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#BFBFBF;">
+	<!ENTITY st2 "fill:#F7931E;">
+	<!ENTITY st3 "fill:#8C8C8C;">
+	<!ENTITY st4 "fill:#71B1E4;">
+	<!ENTITY st5 "fill:none;stroke:#F7931E;stroke-miterlimit:10;">
+	<!ENTITY st6 "fill:none;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="plausible.default">
+	<g>
+		<rect x="1.798" y="10" transform="matrix(0.6247 -0.7809 0.7809 0.6247 -6.3226 7.845)" style="&st4;" width="6.403" height="1"/>
+	</g>
+	<g>
+		
+			<rect x="8.595" y="7.5" transform="matrix(0.6403 -0.7682 0.7682 0.6403 -1.6485 12.48)" style="&st4;" width="7.81" height="1.001"/>
+	</g>
+	<path style="&st4;" d="M8.5,5C10.981,5,13,7.019,13,9.5S10.981,14,8.5,14C6.019,14,4,11.981,4,9.5S6.019,5,8.5,5 M8.5,4
+		C5.462,4,3,6.463,3,9.5S5.462,15,8.5,15S14,12.537,14,9.5S11.538,4,8.5,4L8.5,4z"/>
+	<circle style="&st2;" cx="7.5" cy="7.5" r="1.5"/>
+	<circle style="&st2;" cx="9.5" cy="11.5" r="1.5"/>
+	<circle style="&st2;" cx="2.5" cy="13.5" r="1.5"/>
+	<circle style="&st2;" cx="15.5" cy="4.5" r="1.5"/>
+</g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#FF0000;">
+	<!ENTITY st2 "fill:#636F80;">
+	<!ENTITY st3 "fill:#71B1E4;">
+	<!ENTITY st4 "fill:#F2F2F2;">
+	<!ENTITY st5 "fill:#D9D9D9;">
+	<!ENTITY st6 "fill:#808080;">
+	<!ENTITY st7 "fill:#BAC0CF;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="checked.default">
+	<polyline style="&st0;" points="17,0.833 17,16.833 1,16.833 1,0.833 17,0.833 	"/>
+	<path style="&st7;" d="M17,1v16H1V1H17 M17,0H1C0.45,0,0,0.45,0,1v16c0,0.55,0.45,1,1,1h16c0.55,0,1-0.45,1-1V1
+		C18,0.45,17.55,0,17,0L17,0z"/>
+	<polygon style="&st2;" points="13.613,7.09 12.022,5.5 8.208,9.314 6.592,7.699 5,9.293 8.206,12.5 8.208,12.494 8.213,12.5 	"/>
+</g>
+</svg>

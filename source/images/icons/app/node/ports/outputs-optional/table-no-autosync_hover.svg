@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#E3EFFA;">
+	<!ENTITY st1 "fill:#71B1E4;">
+	<!ENTITY st2 "fill:#5195CA;">
+	<!ENTITY st3 "fill:#FFCCCC;">
+	<!ENTITY st4 "fill:#E30612;">
+	<!ENTITY st5 "fill:#FDE9D2;">
+	<!ENTITY st6 "fill:#F7931E;">
+	<!ENTITY st7 "fill:#E67300;">
+	<!ENTITY st8 "fill:#CCF4D1;">
+	<!ENTITY st9 "fill:#39B54A;">
+	<!ENTITY st10 "fill:#009B14;">
+	<!ENTITY st11 "fill:#EBECEF;">
+	<!ENTITY st12 "fill:#757981;">
+	<!ENTITY st13 "fill:#48484E;">
+	<!ENTITY st14 "fill:#EAECF1;">
+	<!ENTITY st15 "fill:#BAC0CF;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="15px" height="24px" viewBox="0 0 15 24" style="enable-background:new 0 0 15 24;" xml:space="preserve">
+<g id="table-no-autosync.hover">
+	<g>
+		<rect x="2" style="&st0;" width="12" height="24"/>
+	</g>
+	<path style="&st1;" d="M12,2h2V0h-2V2z M12,3h2v2h-2V3z M12,7h2v2h-2V7z M12,11h2v2h-2V11z M12,15h2v2h-2V15z M12,19h2v2h-2V19z
+		 M9,0h2v2H9V0z M5,0h2v2H5V0z M9,22h2v2H9V22z M5,22h2v2H5V22z M2,0h2v2H2V0z M12,22h2v2h-2V22z M2,22h2v2H2V22z"/>
+	<g>
+		<circle style="&st2;" cx="7" cy="12" r="2"/>
+	</g>
+	<circle style="&st0;" cx="7" cy="12" r="1"/>
+</g>
+</svg>

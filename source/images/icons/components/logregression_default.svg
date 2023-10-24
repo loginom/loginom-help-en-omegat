@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#BFBFBF;">
+	<!ENTITY st2 "fill:#F7931E;">
+	<!ENTITY st3 "fill:#8C8C8C;">
+	<!ENTITY st4 "fill:#71B1E4;">
+	<!ENTITY st5 "fill:none;stroke:#F7931E;stroke-miterlimit:10;">
+	<!ENTITY st6 "fill:none;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="logregression.default">
+	<rect x="2" y="2" style="&st4;" width="1" height="14"/>
+	<rect x="2" y="15" style="&st4;" width="14" height="1"/>
+	<g>
+		<path style="&st2;" d="M4,13.5v-1c2.971,0,3.765-1.973,4.683-4.257C9.765,5.551,10.992,2.5,16,2.5v1
+			c-4.332,0-5.332,2.485-6.389,5.116C8.646,11.018,7.647,13.5,4,13.5z"/>
+	</g>
+</g>
+</svg>

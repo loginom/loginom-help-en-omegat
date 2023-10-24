@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="crm-microsoftcrm-export.default">
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="1" y1="7.9678" x2="9.0513" y2="7.9678">
+		<stop  offset="0" style="stop-color:#D2572B"/>
+		<stop  offset="1" style="stop-color:#FDCB08"/>
+	</linearGradient>
+	<path style="fill:url(#SVGID_1_);" d="M9.051,1v8.955C5.956,12.863,2.269,14.546,1,14.936C1.827,14.368,7.606,9.619,9.051,1z"/>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="1" y1="11.2969" x2="17" y2="11.2969">
+		<stop  offset="0" style="stop-color:#C6A85F"/>
+		<stop  offset="0.5333" style="stop-color:#96BA59"/>
+		<stop  offset="1" style="stop-color:#2A7C34"/>
+	</linearGradient>
+	<path style="fill:url(#SVGID_2_);" d="M17,6.265c0,3.974,0,10.013,0,10.013c-4.798-1.807-12.169-1.651-16,0.052
+		c2.914-1.703,8.464-2.941,12.284-1.703c0,0,0-2.16,0-4.763C14.788,8.734,15.75,7.577,17,6.265z"/>
+	<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="1" y1="13.1421" x2="9.0513" y2="13.1421">
+		<stop  offset="0" style="stop-color:#9B3425"/>
+		<stop  offset="1" style="stop-color:#FDBB1C"/>
+	</linearGradient>
+	<path style="fill:url(#SVGID_3_);" d="M9.051,9.955v2.28c0,0.778,0,1.255,0,1.255C7.297,13.646,2.909,14.626,1,16.329
+		c0-0.774,0-1.394,0-1.394C2.269,14.546,5.956,12.863,9.051,9.955z"/>
+	<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="1" y1="13.0962" x2="13.2842" y2="13.0962">
+		<stop  offset="0" style="stop-color:#9692A1"/>
+		<stop  offset="1" style="stop-color:#236C7D"/>
+	</linearGradient>
+	<path style="fill:url(#SVGID_4_);" d="M13.284,9.863c0,2.602,0,4.763,0,4.763c-3.82-1.238-9.37,0-12.284,1.703
+		c1.909-1.703,6.297-2.684,8.051-2.839c0,0,0-0.477,0-1.255C10.915,11.428,12.231,10.652,13.284,9.863z"/>
+	<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="9.0513" y1="7.9078" x2="13.2842" y2="7.9078">
+		<stop  offset="0" style="stop-color:#6FB1D4"/>
+		<stop  offset="1" style="stop-color:#0270AB"/>
+	</linearGradient>
+	<path style="fill:url(#SVGID_5_);" d="M13.284,3.58v6.283c-1.053,0.789-2.369,1.564-4.233,2.372v-2.28
+		C10.869,8.249,12.481,6.12,13.284,3.58z"/>
+	<rect x="1" y="1" style="fill:#373943;" width="4" height="4"/>
+	<polygon style="fill:#BDCCD4;" points="3,2 3,3 2,3 2,4 3,4 4,4 4,3 4,2 	"/>
+</g>
+</svg>

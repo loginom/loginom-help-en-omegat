@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="audio.default">
+	<g>
+		<polygon style="fill:#3E7FAA;" points="12,5 15,5 12,2 		"/>
+		<polygon style="fill:#71B1E4;" points="14,15 4,15 4,3 12,3 12,2 3,2 3,16 15,16 15,5 14,5 		"/>
+	</g>
+	<rect x="5.004" y="8.105" style="fill:#F7931E;" width="1.606" height="2.315"/>
+	<polygon style="fill:#F7931E;" points="6.611,10.42 8.737,12.547 8.737,6.026 6.611,8.105 	"/>
+	<path style="fill:#FABE78;" d="M13,9.285c0,1.302-0.608,2.457-1.548,3.157l-0.62-0.682c0.768-0.528,1.278-1.443,1.278-2.475
+		c0-1.032-0.504-1.935-1.265-2.469l0.608-0.694C12.392,6.828,13,7.983,13,9.285z"/>
+	<path style="fill:#FABE78;" d="M11.176,9.285c0,0.762-0.399,1.419-0.995,1.763l-0.645-0.713c0.442-0.123,0.768-0.547,0.768-1.05
+		c0-0.485-0.295-0.891-0.713-1.032l0.614-0.706C10.789,7.885,11.176,8.536,11.176,9.285z"/>
+</g>
+</svg>

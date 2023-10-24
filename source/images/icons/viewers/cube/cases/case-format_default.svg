@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#FFFFFF;">
+	<!ENTITY st1 "fill:#808080;">
+	<!ENTITY st2 "fill:#636F80;">
+]>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="case-format.default">
+	<path style="&st2;" d="M9.764,11.015L7.412,8.534c0,0,2.042-0.866,2.758-1.621c0.717-0.756,4.295-4.533,4.295-4.533
+		s0.716-0.755,1.304-0.135c0.587,0.62-0.129,1.375-0.129,1.375s-3.578,3.777-4.294,4.532C10.63,8.909,9.764,11.015,9.764,11.015z"/>
+	<path style="&st2;" d="M2,15.798c1.828-0.476,1.649-2.039,2.736-4.782c0.534-1.348,1.961-1.726,1.961-1.726l2.351,2.481
+		C9.048,11.77,9.048,17.089,2,15.798z"/>
+	<rect x="11" y="10" style="&st2;" width="6" height="1"/>
+	<rect x="11" y="16" style="&st2;" width="6" height="1"/>
+	<rect x="12" y="11" style="&st2;" width="1" height="1"/>
+	<rect x="13" y="12" style="&st2;" width="1" height="1"/>
+	<rect x="14" y="13" style="&st2;" width="1" height="1"/>
+	<rect x="12" y="15" style="&st2;" width="1" height="1"/>
+	<rect x="13" y="14" style="&st2;" width="1" height="1"/>
+</g>
+</svg>

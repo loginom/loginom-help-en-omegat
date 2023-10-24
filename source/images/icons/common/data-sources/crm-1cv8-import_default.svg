@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<g id="crm-1cv8-import.default">
+	<circle style="fill:#F7D426;" cx="9" cy="9" r="9"/>
+	<polygon style="fill:#D32F2F;" points="2,4 2,5 4,5 4,14 5,14 5,4 	"/>
+	<polygon style="fill:#D32F2F;" points="1,6 1,7 2,7 2,14 3,14 3,6 	"/>
+	<path style="fill:#D32F2F;" d="M16.482,14c0.213-0.318,0.399-0.655,0.571-1H11c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4h1
+		c0-2.757-2.243-5-5-5S6,6.243,6,9s2.243,5,5,5H16.482z"/>
+	<path style="fill:#D32F2F;" d="M11,11c-1.103,0-2-0.897-2-2s0.897-2,2-2s2,0.897,2,2h1c0-1.654-1.346-3-3-3S8,7.346,8,9
+		s1.346,3,3,3h6.477c0.115-0.326,0.215-0.658,0.292-1H11z"/>
+	<rect x="13" y="13" style="fill:#373943;" width="4" height="4"/>
+	<polygon style="fill:#BDCCD4;" points="15,14 15,15 14,15 14,16 16,16 16,14 	"/>
+</g>
+</svg>
