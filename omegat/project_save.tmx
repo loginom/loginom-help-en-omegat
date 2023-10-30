@@ -66788,6 +66788,83 @@ If the format is not specified, use of "B" format is required.</seg>
 <!-- Alternative translations -->
     <tu>
       <prop type="file">404/index.html</prop>
+      <prop type="prev">../gitbook/fonts/source-sans-pro/source-sans-pro.css</prop>
+      <prop type="next">style.css</prop>
+      <tuv lang="ru">
+        <seg>../gitbook/fonts/PTSans/PTSans.css</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231030T141254Z" creationid="Марианна" creationdate="20231030T141254Z">
+        <seg>../gitbook/fonts/PTSans/PTSans.css</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">404/index.html</prop>
+      <prop type="prev">https://loginom.ru/themes/custom/lomru/build/css/search.css</prop>
+      <prop type="next">../gitbook/fonts/PTSans/PTSans.css</prop>
+      <tuv lang="ru">
+        <seg>../gitbook/fonts/source-sans-pro/source-sans-pro.css</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231030T141250Z" creationid="Марианна" creationdate="20231030T141250Z">
+        <seg>../gitbook/fonts/source-sans-pro/source-sans-pro.css</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">404/index.html</prop>
+      <prop type="prev">style.css</prop>
+      <prop type="next">https://loginom.ru</prop>
+      <tuv lang="ru">
+        <seg>../gitbook/style.css</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231030T141301Z" creationid="Марианна" creationdate="20231030T141301Z">
+        <seg>../gitbook/style.css</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">404/index.html</prop>
+      <prop type="prev">Страница не найдена | Loginom Help</prop>
+      <prop type="next">https://loginom.ru/themes/custom/lomru/build/css/header.css</prop>
+      <tuv lang="ru">
+        <seg>https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900&amp;subset=cyrillic</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231030T141231Z" creationid="Марианна" creationdate="20231030T141231Z">
+        <seg>https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900&amp;subset=cyrillic</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">404/index.html</prop>
+      <prop type="prev">https://loginom.ru/themes/custom/lomru/build/css/header.css</prop>
+      <prop type="next">https://loginom.ru/themes/custom/lomru/build/css/search.css</prop>
+      <tuv lang="ru">
+        <seg>https://loginom.ru/themes/custom/lomru/build/css/footer.css</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231030T141240Z" creationid="Марианна" creationdate="20231030T141240Z">
+        <seg>https://loginom.ru/themes/custom/lomru/build/css/footer.css</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">404/index.html</prop>
+      <prop type="prev">https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900&amp;subset=cyrillic</prop>
+      <prop type="next">https://loginom.ru/themes/custom/lomru/build/css/footer.css</prop>
+      <tuv lang="ru">
+        <seg>https://loginom.ru/themes/custom/lomru/build/css/header.css</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231030T141236Z" creationid="Марианна" creationdate="20231030T141236Z">
+        <seg>https://loginom.ru/themes/custom/lomru/build/css/header.css</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">404/index.html</prop>
+      <prop type="prev">https://loginom.ru/themes/custom/lomru/build/css/footer.css</prop>
+      <prop type="next">../gitbook/fonts/source-sans-pro/source-sans-pro.css</prop>
+      <tuv lang="ru">
+        <seg>https://loginom.ru/themes/custom/lomru/build/css/search.css</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231030T141245Z" creationid="Марианна" creationdate="20231030T141245Z">
+        <seg>https://loginom.ru/themes/custom/lomru/build/css/search.css</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">404/index.html</prop>
       <prop type="prev"></prop>
       <prop type="next">width=device-width, initial-scale=1.0</prop>
       <tuv lang="ru">
@@ -66795,6 +66872,17 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231030T140730Z" creationid="Марианна" creationdate="20231030T140730Z">
         <seg>ru</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">404/index.html</prop>
+      <prop type="prev">../gitbook/fonts/PTSans/PTSans.css</prop>
+      <prop type="next">../gitbook/style.css</prop>
+      <tuv lang="ru">
+        <seg>style.css</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231030T141257Z" creationid="Марианна" creationdate="20231030T141257Z">
+        <seg>style.css</seg>
       </tuv>
     </tu>
     <tu>
