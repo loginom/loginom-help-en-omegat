@@ -66832,6 +66832,17 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">404/index.html</prop>
+      <prop type="prev">&lt;a0&gt;Платформа&lt;/a0&gt; &lt;a1&gt;Цены&lt;/a1&gt; &lt;a2&gt;Обучение&lt;/a2&gt; &lt;a3&gt;Блог&lt;/a3&gt;</prop>
+      <prop type="next">Страница не найдена</prop>
+      <tuv lang="ru">
+        <seg>/</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231030T142217Z" creationid="Марианна" creationdate="20231030T142217Z">
+        <seg>/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">404/index.html</prop>
       <prop type="prev">../gitbook/images/loginom-sign.svg</prop>
       <prop type="next">Документация</prop>
       <tuv lang="ru">
@@ -66839,6 +66850,17 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231030T141951Z" creationid="Марианна" creationdate="20231030T141951Z">
         <seg>/userguide/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">404/index.html</prop>
+      <prop type="prev">https://loginom.ru/blog</prop>
+      <prop type="next">/</prop>
+      <tuv lang="ru">
+        <seg>&lt;a0&gt;Платформа&lt;/a0&gt; &lt;a1&gt;Цены&lt;/a1&gt; &lt;a2&gt;Обучение&lt;/a2&gt; &lt;a3&gt;Блог&lt;/a3&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231030T142214Z" creationid="Марианна" creationdate="20231030T142214Z">
+        <seg>&lt;a0&gt;Platform&lt;/a0&gt; &lt;a1&gt;Prices&lt;/a1&gt; &lt;a2&gt;Training&lt;/a2&gt; &lt;a3&gt;Blog&lt;/a3&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -66883,6 +66905,50 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231030T141819Z" creationid="Марианна" creationdate="20231030T141819Z">
         <seg>https://loginom.ru</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">404/index.html</prop>
+      <prop type="prev">https://loginom.ru/skills</prop>
+      <prop type="next">&lt;a0&gt;Платформа&lt;/a0&gt; &lt;a1&gt;Цены&lt;/a1&gt; &lt;a2&gt;Обучение&lt;/a2&gt; &lt;a3&gt;Блог&lt;/a3&gt;</prop>
+      <tuv lang="ru">
+        <seg>https://loginom.ru/blog</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231030T142037Z" creationid="Марианна" creationdate="20231030T142037Z">
+        <seg>https://loginom.ru/blog</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">404/index.html</prop>
+      <prop type="prev">Документация</prop>
+      <prop type="next">https://loginom.ru/platform/pricing</prop>
+      <tuv lang="ru">
+        <seg>https://loginom.ru/platform</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231030T142026Z" creationid="Марианна" creationdate="20231030T142026Z">
+        <seg>https://loginom.ru/platform</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">404/index.html</prop>
+      <prop type="prev">https://loginom.ru/platform</prop>
+      <prop type="next">https://loginom.ru/skills</prop>
+      <tuv lang="ru">
+        <seg>https://loginom.ru/platform/pricing</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231030T142030Z" creationid="Марианна" creationdate="20231030T142030Z">
+        <seg>https://loginom.ru/platform/pricing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">404/index.html</prop>
+      <prop type="prev">https://loginom.ru/platform/pricing</prop>
+      <prop type="next">https://loginom.ru/blog</prop>
+      <tuv lang="ru">
+        <seg>https://loginom.ru/skills</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231030T142033Z" creationid="Марианна" creationdate="20231030T142033Z">
+        <seg>https://loginom.ru/skills</seg>
       </tuv>
     </tu>
     <tu>
@@ -66964,6 +67030,17 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">404/index.html</prop>
+      <prop type="prev">Документация</prop>
+      <prop type="next">https://loginom.ru/platform</prop>
+      <tuv lang="ru">
+        <seg>Документация</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231030T142019Z" creationid="Марианна" creationdate="20231030T142019Z">
+        <seg>Documentation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">404/index.html</prop>
       <prop type="prev">width=device-width, initial-scale=1.0</prop>
       <prop type="next">https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900&amp;subset=cyrillic</prop>
       <tuv lang="ru">
@@ -66971,6 +67048,17 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231030T141227Z" creationid="Марианна" creationdate="20231030T141227Z">
         <seg>Page not found | Megaladata Help</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">404/index.html</prop>
+      <prop type="prev">/</prop>
+      <prop type="next">Возможно, она была перемещена или удалена навсегда</prop>
+      <tuv lang="ru">
+        <seg>Страница не найдена</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231030T142226Z" creationid="Марианна" creationdate="20231030T142226Z">
+        <seg>Page not found</seg>
       </tuv>
     </tu>
   </body>
