@@ -67116,5 +67116,25 @@ If the format is not specified, use of "B" format is required.</seg>
         <seg>Page not found</seg>
       </tuv>
     </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu1_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Параметры&lt;x2/&gt; Диспетчер</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231030T143829Z" creationid="Марианна" creationdate="20231030T143829Z">
+        <seg>&lt;x1/&gt;Parameters&lt;x2/&gt; Session manager</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu2_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Диспетчер&lt;x2/&gt; предназначен для просмотра открытых сессий и пакетов, мониторинга и управления их активностью, очистки пула пакетов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231030T144250Z" creationid="Марианна" creationdate="20231030T144250Z">
+        <seg>&lt;x1/&gt;Session manager&lt;x2/&gt; is designated for view of opened sessions and packages, their activity monitoring and control, package pool clearing.</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>
