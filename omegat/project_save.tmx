@@ -66797,5 +66797,27 @@ If the format is not specified, use of "B" format is required.</seg>
         <seg>ru</seg>
       </tuv>
     </tu>
+    <tu>
+      <prop type="file">404/index.html</prop>
+      <prop type="prev">ru</prop>
+      <prop type="next">Страница не найдена | Loginom Help</prop>
+      <tuv lang="ru">
+        <seg>width=device-width, initial-scale=1.0</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231030T141020Z" creationid="Марианна" creationdate="20231030T141020Z">
+        <seg>width=device-width, initial-scale=1.0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">404/index.html</prop>
+      <prop type="prev">width=device-width, initial-scale=1.0</prop>
+      <prop type="next">https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900&amp;subset=cyrillic</prop>
+      <tuv lang="ru">
+        <seg>Страница не найдена | Loginom Help</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231030T141227Z" creationid="Марианна" creationdate="20231030T141227Z">
+        <seg>Page not found | Megaladata Help</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>
