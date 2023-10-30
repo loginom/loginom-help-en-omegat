@@ -66898,6 +66898,17 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">404/index.html</prop>
+      <prop type="prev">Страница не найдена</prop>
+      <prop type="next"></prop>
+      <tuv lang="ru">
+        <seg>character-404.svg</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231030T142738Z" creationid="Марианна" creationdate="20231030T142738Z">
+        <seg>character-404.svg</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">404/index.html</prop>
       <prop type="prev">Страница не найдена | Loginom Help</prop>
       <prop type="next">https://loginom.ru/themes/custom/lomru/build/css/header.css</prop>
       <tuv lang="ru">
@@ -67070,6 +67081,17 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231030T142725Z" creationid="Марианна" creationdate="20231030T142725Z">
         <seg>Home</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">404/index.html</prop>
+      <prop type="prev">На главную</prop>
+      <prop type="next">character-404.svg</prop>
+      <tuv lang="ru">
+        <seg>Страница не найдена</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231030T142735Z" creationid="Марианна" creationdate="20231030T142735Z">
+        <seg>Page not found</seg>
       </tuv>
     </tu>
     <tu>
