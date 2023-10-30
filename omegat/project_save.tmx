@@ -66786,5 +66786,16 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
+    <tu>
+      <prop type="file">404/index.html</prop>
+      <prop type="prev"></prop>
+      <prop type="next">width=device-width, initial-scale=1.0</prop>
+      <tuv lang="ru">
+        <seg>ru</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231030T140730Z" creationid="Марианна" creationdate="20231030T140730Z">
+        <seg>ru</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>
