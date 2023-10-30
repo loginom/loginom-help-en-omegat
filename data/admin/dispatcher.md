@@ -1,9 +1,9 @@
 ---
 description: Справка по работе диспетчера в Loginom. Просмотр открытых сессий и пакетов. Мониторинг и управление активностью сессий, очистка пула пакетов. Общие сведения о колонках таблицы диспетчера.
 ---
-# ![Параметры](./../images/icons/common/admin-system-objects/manager_default.svg) Диспетчер
+# ![Parameters](./../images/icons/common/admin-system-objects/manager_default.svg) Session manager
 
-*Диспетчер* предназначен для просмотра открытых сессий и пакетов, мониторинга и управления их активностью, очистки пула пакетов.
+*Session manager* is designated for view of opened sessions and packages, their activity monitoring and control, package pool clearing.
 
 > **Примечание:** *Диспетчер* доступен только в серверных редакциях Loginom.
 
