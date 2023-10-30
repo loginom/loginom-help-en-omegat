@@ -66854,6 +66854,17 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">404/index.html</prop>
+      <prop type="prev">Возможно, она была перемещена или удалена навсегда</prop>
+      <prop type="next">На главную</prop>
+      <tuv lang="ru">
+        <seg>/userguide/</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231030T142459Z" creationid="Марианна" creationdate="20231030T142459Z">
+        <seg>/userguide/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">404/index.html</prop>
       <prop type="prev">https://loginom.ru/blog</prop>
       <prop type="next">/</prop>
       <tuv lang="ru">
@@ -67019,6 +67030,17 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">404/index.html</prop>
+      <prop type="prev">Страница не найдена</prop>
+      <prop type="next">/userguide/</prop>
+      <tuv lang="ru">
+        <seg>Возможно, она была перемещена или удалена навсегда</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231030T142456Z" creationid="Марианна" creationdate="20231030T142456Z">
+        <seg>Perhaps it was moved or removed forever</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">404/index.html</prop>
       <prop type="prev">/userguide/</prop>
       <prop type="next">Документация</prop>
       <tuv lang="ru">
@@ -67037,6 +67059,17 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231030T142019Z" creationid="Марианна" creationdate="20231030T142019Z">
         <seg>Documentation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">404/index.html</prop>
+      <prop type="prev">/userguide/</prop>
+      <prop type="next">Страница не найдена</prop>
+      <tuv lang="ru">
+        <seg>На главную</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231030T142725Z" creationid="Марианна" creationdate="20231030T142725Z">
+        <seg>Home</seg>
       </tuv>
     </tu>
     <tu>
