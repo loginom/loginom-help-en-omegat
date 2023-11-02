@@ -67156,5 +67156,15 @@ If the format is not specified, use of "B" format is required.</seg>
         <seg>The Session Manager page is a table with the information grouped by the following sections:</seg>
       </tuv>
     </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu5_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сессии&lt;x2/&gt; — сессии пользователей и открытые в их рамках пакеты.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231102T151923Z" creationid="Марианна" creationdate="20231102T151923Z">
+        <seg>&lt;x1/&gt;Sessions&lt;x2/&gt; — user sessions and packages opened within.</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>
