@@ -67166,5 +67166,15 @@ If the format is not specified, use of "B" format is required.</seg>
         <seg>&lt;x1/&gt;Sessions&lt;x2/&gt; — user sessions and packages opened within.</seg>
       </tuv>
     </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu6_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Общие пакеты&lt;x2/&gt; — пакеты, не принадлежащие конкретным сессиям, открытые сервером по ссылкам из других пакетов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231102T152316Z" creationid="Марианна" creationdate="20231102T152316Z">
+        <seg>&lt;x1/&gt;Shared packages&lt;x2/&gt; — packages not related to specific sessions opened by server by references from other packages.</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>
