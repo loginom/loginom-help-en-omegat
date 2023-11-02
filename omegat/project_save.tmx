@@ -67146,5 +67146,15 @@ If the format is not specified, use of "B" format is required.</seg>
         <seg>&lt;x1/&gt;Note:&lt;x2/&gt; &lt;x3/&gt;Session Manager&lt;x4/&gt; is available only in the server Megaladata editions.</seg>
       </tuv>
     </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu4_0</prop>
+      <tuv lang="ru">
+        <seg>Страница диспетчера представляет собой таблицу, в которой информация сгруппирована по разделам:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231102T151804Z" creationid="Марианна" creationdate="20231102T151804Z">
+        <seg>The Session Manager page is a table with the information grouped by the following sections:</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>
