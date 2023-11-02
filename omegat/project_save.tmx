@@ -67256,5 +67256,15 @@ If the format is not specified, use of "B" format is required.</seg>
         <seg>The pool size is set in &lt;x9/&gt;server parameters&lt;x10/&gt;.</seg>
       </tuv>
     </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu8_0</prop>
+      <tuv lang="ru">
+        <seg>Колонки таблицы:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231102T155248Z" creationid="Марианна" creationdate="20231102T155248Z">
+        <seg>Table columns:</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>
