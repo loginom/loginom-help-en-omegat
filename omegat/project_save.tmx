@@ -67232,8 +67232,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>После достижения максимального размера из пула в первую очередь удалятся пакеты, которые дольше всего не использовались.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231102T154703Z" creationid="Марианна" creationdate="20231102T154703Z">
-        <seg>When the maximum size is reached, the packages that have not been used for the longest period of time are removed firstly.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231102T154807Z" creationid="Марианна" creationdate="20231102T154703Z">
+        <seg>When the maximum size is reached, the packages that have not been used for the longest period of time are firstly removed from the pool.</seg>
       </tuv>
     </tu>
     <tu>
