@@ -67292,8 +67292,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Имя сессии состоит из имени пользователя и уникального идентификатора сессии (аналогично выводимому в журнале &lt;x3/&gt;логирования&lt;x4/&gt; работы сервера).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231102T155729Z" creationid="Марианна" creationdate="20231102T155729Z">
-        <seg>The session name consists of user name and unique session identifie (similar to the one displayed in the &lt;x3/&gt;логирования&lt;x4/&gt; работы сервера).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231102T160101Z" creationid="Марианна" creationdate="20231102T155729Z">
+        <seg>The session name consists of user name and unique session identifier (similar to the one displayed in the &lt;x3/&gt;logging&lt;x4/&gt; journal of server operation).</seg>
       </tuv>
     </tu>
   </body>
