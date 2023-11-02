@@ -67230,6 +67230,16 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/dispatcher.md</prop>
       <prop type="id">tu7_0</prop>
       <tuv lang="ru">
+        <seg>После достижения максимального размера из пула в первую очередь удалятся пакеты, которые дольше всего не использовались.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231102T154703Z" creationid="Марианна" creationdate="20231102T154703Z">
+        <seg>When the maximum size is reached, the packages that have not been used for the longest period of time are removed firstly.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu7_0</prop>
+      <tuv lang="ru">
         <seg>Размер пула задается в &lt;x9/&gt;параметрах сервера&lt;x10/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231102T154503Z" creationid="Марианна" creationdate="20231102T154503Z">
