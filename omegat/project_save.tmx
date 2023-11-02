@@ -67176,5 +67176,25 @@ If the format is not specified, use of "B" format is required.</seg>
         <seg>&lt;x1/&gt;Shared packages&lt;x2/&gt; — packages not related to specific sessions opened by server by references from other packages.</seg>
       </tuv>
     </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu6_0</prop>
+      <tuv lang="ru">
+        <seg>На один общий пакет могут ссылаться несколько пакетов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231102T152607Z" creationid="Марианна" creationdate="20231102T152607Z">
+        <seg>Several packages can refer to one shared package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu6_0</prop>
+      <tuv lang="ru">
+        <seg>Общий пакет не может быть закрыт до тех пор, пока на него остаётся хотя бы одна ссылка из выполняемых пакетов, либо из пакетов, находящихся в &lt;x3/&gt;Пуле пакетов&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231102T152744Z" creationid="Марианна" creationdate="20231102T152744Z">
+        <seg>Shared package cannot be closed until there is at least one reference to it from the executed packages or from the packages located in &lt;x3/&gt;Package pool&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>
