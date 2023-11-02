@@ -67226,5 +67226,15 @@ If the format is not specified, use of "B" format is required.</seg>
         <seg>Package use optimizes application performance by saving resources committed for reused packages loading.</seg>
       </tuv>
     </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu7_0</prop>
+      <tuv lang="ru">
+        <seg>Размер пула задается в &lt;x9/&gt;параметрах сервера&lt;x10/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231102T154503Z" creationid="Марианна" creationdate="20231102T154503Z">
+        <seg>The pool size is set in &lt;x9/&gt;server parameters&lt;x10/&gt;.</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>
