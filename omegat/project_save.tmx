@@ -67196,5 +67196,15 @@ If the format is not specified, use of "B" format is required.</seg>
         <seg>Shared package cannot be closed until there is at least one reference to it from the executed packages or from the packages located in&lt;x3/&gt;Package pool&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu7_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Пул пакетов&lt;x2/&gt; — пакеты, сохраненные в памяти сервера для повторного использования.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231102T153510Z" creationid="Марианна" creationdate="20231102T153510Z">
+        <seg>&lt;x1/&gt;Package pool&lt;x2/&gt; — packages saved for reuse in the server memory.</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>
