@@ -67206,5 +67206,15 @@ If the format is not specified, use of "B" format is required.</seg>
         <seg>&lt;x1/&gt;Package pool&lt;x2/&gt; — packages saved for reuse in the server memory.</seg>
       </tuv>
     </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu7_0</prop>
+      <tuv lang="ru">
+        <seg>Использование пула оптимизирует производительность приложения, экономя ресурсы на загрузке повторно используемых пакетов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231102T153907Z" creationid="Марианна" creationdate="20231102T153907Z">
+        <seg>Package use optimizes application performance by saving resources committed for reused packages loading.</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>
