@@ -67210,6 +67210,16 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/dispatcher.md</prop>
       <prop type="id">tu7_0</prop>
       <tuv lang="ru">
+        <seg>В пул попадают пакеты, которые непосредственно вызываются из &lt;x3/&gt;Loginom Integrator&lt;x4/&gt; и &lt;x5/&gt;BatchLauncher&lt;x6/&gt; (пакеты, на которые они ссылаются, находятся в группе &lt;x7/&gt;Общие пакеты&lt;x8/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231102T154403Z" creationid="Марианна" creationdate="20231102T154403Z">
+        <seg>The packages called directly from &lt;x3/&gt;Loginom Integrator&lt;x4/&gt; and &lt;x5/&gt;BatchLauncher&lt;x6/&gt; are placed into the pool (the packages to which they refer are located in &lt;x7/&gt;Shared packages&lt;x8/&gt; group).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu7_0</prop>
+      <tuv lang="ru">
         <seg>Использование пула оптимизирует производительность приложения, экономя ресурсы на загрузке повторно используемых пакетов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231102T153907Z" creationid="Марианна" creationdate="20231102T153907Z">
