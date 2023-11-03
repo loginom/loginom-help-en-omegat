@@ -67360,6 +67360,26 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/dispatcher.md</prop>
       <prop type="id">tu24_0</prop>
       <tuv lang="ru">
+        <seg>Горячая клавиша для действия %kbd Alt F5 %</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T141244Z" creationid="Марианна" creationdate="20231103T141244Z">
+        <seg>Hotkey for %kbd Alt F5 % action</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu24_0</prop>
+      <tuv lang="ru">
+        <seg>Обновление также происходит автоматически каждые 5 сек.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T141215Z" creationid="Марианна" creationdate="20231103T141215Z">
+        <seg>Update is automatically performed every 5 s.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu24_0</prop>
+      <tuv lang="ru">
         <seg>При этом из списка могут удалиться уже закрытые сессии/пакеты или добавиться новые.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231103T141052Z" creationid="Марианна" creationdate="20231103T141052Z">
