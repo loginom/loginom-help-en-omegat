@@ -67402,8 +67402,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Действие запрашивает подтверждение у пользователя.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231103T141838Z" creationid="Марианна" creationdate="20231103T141838Z">
-        <seg>Action asks for user's confirmation.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T142103Z" creationid="Марианна" creationdate="20231103T141838Z">
+        <seg>Action asks for the user confirmation.</seg>
       </tuv>
     </tu>
     <tu>
@@ -67424,6 +67424,26 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231103T141752Z" creationid="Марианна" creationdate="20231103T141752Z">
         <seg>In this case, all corresponding packages will be stopped for the session, and the package stop can cause the session stop if no executed packages are available afterwards.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu26_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Закрыть&lt;x2/&gt; &lt;x3/&gt;Закрыть&lt;x4/&gt; — закрывает и удаляет выбранные в таблице сессию или пакет.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T141950Z" creationid="Марианна" creationdate="20231103T141950Z">
+        <seg>&lt;x1/&gt;Close&lt;x2/&gt; &lt;x3/&gt;Close&lt;x4/&gt; — close and delete the session or package selected in the table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu26_0</prop>
+      <tuv lang="ru">
+        <seg>Действие запрашивает подтверждение у пользователя.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T142111Z" creationid="Марианна" creationdate="20231103T142111Z">
+        <seg>Action asks for the user confirmation.</seg>
       </tuv>
     </tu>
     <tu>
