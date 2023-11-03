@@ -67408,6 +67408,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu25_0</prop>
+      <tuv lang="ru">
+        <seg>При этом для сессии останавливаются все принадлежащие ей пакеты, а остановка пакета может привести к остановке сессии, если после этого у неё будут отсутствовать выполняемые пакеты.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T141752Z" creationid="Марианна" creationdate="20231103T141752Z">
+        <seg>In this case, all corresponding packages will be stopped for the session, and the package stop can cause the session stop if no executed packages are available afterwards.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
       <prop type="id">tu2_0</prop>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Диспетчер&lt;x2/&gt; предназначен для просмотра открытых сессий и пакетов, мониторинга и управления их активностью, очистки пула пакетов.</seg>
