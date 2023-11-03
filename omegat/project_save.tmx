@@ -67130,6 +67130,16 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/dispatcher.md</prop>
       <prop type="id">tu10_0</prop>
       <tuv lang="ru">
+        <seg>Для пакета при этом отображается прогресс бар выполнения, а время начала активации узла отображено в подсказке к прогресс бару при наведении на него курсора мыши.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T080212Z" creationid="Марианна" creationdate="20231103T080212Z">
+        <seg>In this case, the execution bar progress is displayed for the package, and the node activation time is displayed in the progress bar tip when hovering a cursor over it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu10_0</prop>
+      <tuv lang="ru">
         <seg>При выполнении узла в подчиненном пакете &lt;x3/&gt;Активность&lt;x4/&gt; подсвечивается зеленым цветом.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231103T075802Z" creationid="Марианна" creationdate="20231103T075802Z">
