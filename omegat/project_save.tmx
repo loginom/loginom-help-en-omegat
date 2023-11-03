@@ -67128,6 +67128,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu10_0</prop>
+      <tuv lang="ru">
+        <seg>При выполнении узла в подчиненном пакете &lt;x3/&gt;Активность&lt;x4/&gt; подсвечивается зеленым цветом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T075802Z" creationid="Марианна" creationdate="20231103T075802Z">
+        <seg>When executing the node in the subordinate package, &lt;x3/&gt;Activity&lt;x4/&gt; is highlighted in green.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
       <prop type="id">tu1_0</prop>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Параметры&lt;x2/&gt; Диспетчер</seg>
