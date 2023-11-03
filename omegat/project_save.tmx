@@ -67118,6 +67118,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu10_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Активность&lt;x2/&gt; — время последней активности в сессии.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T075611Z" creationid="Марианна" creationdate="20231103T075611Z">
+        <seg>&lt;x1/&gt;Activity&lt;x2/&gt; — time of the last session activity.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
       <prop type="id">tu1_0</prop>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Параметры&lt;x2/&gt; Диспетчер</seg>
