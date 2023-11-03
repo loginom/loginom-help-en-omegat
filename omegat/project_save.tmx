@@ -67400,6 +67400,16 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/dispatcher.md</prop>
       <prop type="id">tu25_0</prop>
       <tuv lang="ru">
+        <seg>Действие запрашивает подтверждение у пользователя.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T141838Z" creationid="Марианна" creationdate="20231103T141838Z">
+        <seg>Action asks for user's confirmation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu25_0</prop>
+      <tuv lang="ru">
         <seg>Останавливает выполнение выбранных в таблице сессии или пакета.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231103T141443Z" creationid="Марианна" creationdate="20231103T141443Z">
