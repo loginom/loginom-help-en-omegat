@@ -67348,6 +67348,26 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu24_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Обновить&lt;x2/&gt; &lt;x3/&gt;Обновить&lt;x4/&gt; — обновляет список сессий или пакетов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T140954Z" creationid="Марианна" creationdate="20231103T140954Z">
+        <seg>&lt;x1/&gt;Update&lt;x2/&gt; &lt;x3/&gt;Update&lt;x4/&gt; — update list of sessions or packages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu24_0</prop>
+      <tuv lang="ru">
+        <seg>При этом из списка могут удалиться уже закрытые сессии/пакеты или добавиться новые.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T141052Z" creationid="Марианна" creationdate="20231103T141052Z">
+        <seg>In this case, already closed sessions/packages can be removed from the list, whereas the new ones can be added.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
       <prop type="id">tu2_0</prop>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Диспетчер&lt;x2/&gt; предназначен для просмотра открытых сессий и пакетов, мониторинга и управления их активностью, очистки пула пакетов.</seg>
