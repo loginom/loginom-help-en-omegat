@@ -67158,6 +67158,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu11_0</prop>
+      <tuv lang="ru">
+        <seg>При включении через контекстное меню опции "Разрешать имена по IP", вместо адреса выводится имя хоста.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T134052Z" creationid="Марианна" creationdate="20231103T134052Z">
+        <seg>When enabling "Allow names by IP" option via the context menu, the host name is displayed instead of address.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
       <prop type="id">tu1_0</prop>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Параметры&lt;x2/&gt; Диспетчер</seg>
