@@ -3,7 +3,7 @@ description: Использование LDAP аутентификации в Log
 ---
 # LDAP
 
-В редакции платформы Loginom Enterprise доступно использование LDAP аутентификации, что позволяет авторизоваться на сервере Loginom через LDAP сервер.
+Use of the LDAP authentification is available in the Megaladata Enterprise edition of the platform. It provides for the Megaladata server login via LDAP server.
 
 > **Note:** Both Active Directory and OpenLDAP can be used as the LDAP server.
 
