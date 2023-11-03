@@ -67398,6 +67398,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu25_0</prop>
+      <tuv lang="ru">
+        <seg>Останавливает выполнение выбранных в таблице сессии или пакета.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T141443Z" creationid="Марианна" creationdate="20231103T141443Z">
+        <seg>It stops execution of the session or package selected in the table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
       <prop type="id">tu2_0</prop>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Диспетчер&lt;x2/&gt; предназначен для просмотра открытых сессий и пакетов, мониторинга и управления их активностью, очистки пула пакетов.</seg>
