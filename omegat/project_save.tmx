@@ -67288,6 +67288,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu21_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Путь&lt;x2/&gt; — полный путь пакета в &lt;x3/&gt;файловом хранилище&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T135301Z" creationid="Марианна" creationdate="20231103T135301Z">
+        <seg>&lt;x1/&gt;Path&lt;x2/&gt; — full package path in the &lt;x3/&gt;file storage&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
       <prop type="id">tu2_0</prop>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Диспетчер&lt;x2/&gt; предназначен для просмотра открытых сессий и пакетов, мониторинга и управления их активностью, очистки пула пакетов.</seg>
