@@ -67440,10 +67440,30 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/dispatcher.md</prop>
       <prop type="id">tu26_0</prop>
       <tuv lang="ru">
+        <seg>Горячая клавиша для действия %kbd Delete %</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T142127Z" creationid="Марианна" creationdate="20231103T142127Z">
+        <seg>Hotkey for %kbd Delete % action</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu26_0</prop>
+      <tuv lang="ru">
         <seg>Действие запрашивает подтверждение у пользователя.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231103T142111Z" creationid="Марианна" creationdate="20231103T142111Z">
         <seg>Action asks for the user confirmation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu27_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Поиск&lt;x2/&gt; &lt;x3/&gt;Поиск&lt;x4/&gt; — вызывает меню поиска по таблице &lt;x5/&gt;Диспетчера&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T142335Z" creationid="Марианна" creationdate="20231103T142335Z">
+        <seg>&lt;x1/&gt;Search&lt;x2/&gt; &lt;x3/&gt;Search&lt;x4/&gt; — call the search menu by the &lt;x5/&gt;Session Manager&lt;x6/&gt; table.</seg>
       </tuv>
     </tu>
     <tu>
