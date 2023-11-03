@@ -67706,5 +67706,15 @@ If the format is not specified, use of "B" format is required.</seg>
         <seg>The session name consists of user name and unique session identifier (similar to the one displayed in the &lt;x3/&gt;logging&lt;x4/&gt; journal of server operation).</seg>
       </tuv>
     </tu>
+    <tu>
+      <prop type="file">admin/ldap.md</prop>
+      <prop type="id">tu2_0</prop>
+      <tuv lang="ru">
+        <seg>В редакции платформы Loginom Enterprise доступно использование LDAP аутентификации, что позволяет авторизоваться на сервере Loginom через LDAP сервер.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T144354Z" creationid="Марианна" creationdate="20231103T144354Z">
+        <seg>Use of LDAP authentification is available in the Megaladata Enterprise edition of the platform. It provides for the Megaladata server login via LDAP server.</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>
