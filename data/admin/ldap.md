@@ -3,7 +3,7 @@ description: Использование LDAP аутентификации в Log
 ---
 # LDAP
 
-Use of the LDAP authentification is available in the Megaladata Enterprise edition of the platform. It provides for the Megaladata server login via LDAP server.
+Use of the LDAP authentification is available in the Megaladata Enterprise edition of the platform. It provides for the Megaladata server login via the LDAP server.
 
 > **Note:** Both Active Directory and OpenLDAP can be used as the LDAP server.
 
