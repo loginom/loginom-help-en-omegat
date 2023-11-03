@@ -67132,8 +67132,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Для пакета при этом отображается прогресс бар выполнения, а время начала активации узла отображено в подсказке к прогресс бару при наведении на него курсора мыши.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231103T080212Z" creationid="Марианна" creationdate="20231103T080212Z">
-        <seg>In this case, the execution bar progress is displayed for the package, and the node activation time is displayed in the progress bar tip when hovering a cursor over it.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T080320Z" creationid="Марианна" creationdate="20231103T080212Z">
+        <seg>In this case, the execution progress bar is displayed for the package, and the node activation start time is displayed in the progress bar tip when hovering a cursor over it.</seg>
       </tuv>
     </tu>
     <tu>
@@ -67144,6 +67144,16 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231103T075802Z" creationid="Марианна" creationdate="20231103T075802Z">
         <seg>When executing the node in the subordinate package, &lt;x3/&gt;Activity&lt;x4/&gt; is highlighted in green.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu11_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Хост&lt;x2/&gt; — IP адрес клиента, с которого запущена сессия.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T080402Z" creationid="Марианна" creationdate="20231103T080402Z">
+        <seg>&lt;x1/&gt;Host&lt;x2/&gt; — IP address of the client from which session was started.</seg>
       </tuv>
     </tu>
     <tu>
