@@ -67268,6 +67268,26 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu20_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Сохранен&lt;x2/&gt; — дата/время последнего сохранения файла пакета.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T135150Z" creationid="Марианна" creationdate="20231103T135150Z">
+        <seg>&lt;x1/&gt;Saved&lt;x2/&gt; — date/time of the last package file saving.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu20_0</prop>
+      <tuv lang="ru">
+        <seg>Значение отсутствует у черновика пакета.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T135215Z" creationid="Марианна" creationdate="20231103T135215Z">
+        <seg>There is no package draft value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
       <prop type="id">tu2_0</prop>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Диспетчер&lt;x2/&gt; предназначен для просмотра открытых сессий и пакетов, мониторинга и управления их активностью, очистки пула пакетов.</seg>
