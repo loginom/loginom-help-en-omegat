@@ -67338,6 +67338,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu23_0</prop>
+      <tuv lang="ru">
+        <seg>В верхней части страницы расположены кнопки:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T140907Z" creationid="Марианна" creationdate="20231103T140907Z">
+        <seg>The following buttons are located in the upper part of the page:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
       <prop type="id">tu2_0</prop>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Диспетчер&lt;x2/&gt; предназначен для просмотра открытых сессий и пакетов, мониторинга и управления их активностью, очистки пула пакетов.</seg>
