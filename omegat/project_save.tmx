@@ -67320,10 +67320,20 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/dispatcher.md</prop>
       <prop type="id">tu22_0</prop>
       <tuv lang="ru">
+        <seg>Количество ссылок отображается цифрой справа от имени пакета.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T140144Z" creationid="Марианна" creationdate="20231103T140144Z">
+        <seg>Number of references is displayed in figure to the right from the package name.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu22_0</prop>
+      <tuv lang="ru">
         <seg>У пакетов, входящих в узел &lt;x3/&gt;Общие пакеты&lt;x4/&gt;, также отображается количество сессий, которые ссылаются на данный пакет, включая ссылку из самого сервера.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231103T135710Z" creationid="Марианна" creationdate="20231103T135710Z">
-        <seg>Count of sessions that refer to this package, including the reference from the server as such is also displayed for the packages included into the &lt;x3/&gt;Shared packages&lt;x4/&gt; node.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T135823Z" creationid="Марианна" creationdate="20231103T135710Z">
+        <seg>Number of sessions that refer to this package, including the reference from the server as such is also displayed for the packages included into the &lt;x3/&gt;Shared packages&lt;x4/&gt; node.</seg>
       </tuv>
     </tu>
     <tu>
