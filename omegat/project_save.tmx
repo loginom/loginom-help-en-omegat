@@ -67472,8 +67472,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Также доступен поиск по каждой колонке через меню в заголовке колонки.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231103T142527Z" creationid="Марианна" creationdate="20231103T142527Z">
-        <seg>Search by each column via menu in the column header is also avalable.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T142553Z" creationid="Марианна" creationdate="20231103T142527Z">
+        <seg>Search by each column via the menu in the column header is also avalable.</seg>
       </tuv>
     </tu>
     <tu>
