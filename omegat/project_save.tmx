@@ -67388,6 +67388,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu25_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Остановить&lt;x2/&gt; &lt;x3/&gt;Остановить&lt;x4/&gt; — доступно для сессий и пакетов в состоянии "Выполнение".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T141359Z" creationid="Марианна" creationdate="20231103T141359Z">
+        <seg>&lt;x1/&gt;Stop&lt;x2/&gt; &lt;x3/&gt;Stop&lt;x4/&gt; — available for sessions and packages in the "Execution" state.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
       <prop type="id">tu2_0</prop>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Диспетчер&lt;x2/&gt; предназначен для просмотра открытых сессий и пакетов, мониторинга и управления их активностью, очистки пула пакетов.</seg>
