@@ -67168,6 +67168,36 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu12_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Роль&lt;x2/&gt; — роль пользователя в сессии отображается соответствующими иконками:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T134220Z" creationid="Марианна" creationdate="20231103T134220Z">
+        <seg>&lt;x1/&gt;Role&lt;x2/&gt; — user role in the session is displayed by means of corresponding icons:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu13_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Параметры&lt;x2/&gt; — Администрирование;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T134238Z" creationid="Марианна" creationdate="20231103T134238Z">
+        <seg>&lt;x1/&gt;Parameters&lt;x2/&gt; — Administration;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu14_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Параметры&lt;x2/&gt; — Проектирование сценариев;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T134311Z" creationid="Марианна" creationdate="20231103T134311Z">
+        <seg>&lt;x1/&gt;Parameters&lt;x2/&gt; — Workflows design;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
       <prop type="id">tu1_0</prop>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Параметры&lt;x2/&gt; Диспетчер</seg>
