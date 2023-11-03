@@ -67308,6 +67308,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu22_0</prop>
+      <tuv lang="ru">
+        <seg>Все колонки, за исключением &lt;x1/&gt;Сессии и пакеты&lt;x2/&gt;, можно скрывать.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T135426Z" creationid="Марианна" creationdate="20231103T135426Z">
+        <seg>It is possible to hide all columns with the exception of &lt;x1/&gt;Sessions and packages&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
       <prop type="id">tu2_0</prop>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Диспетчер&lt;x2/&gt; предназначен для просмотра открытых сессий и пакетов, мониторинга и управления их активностью, очистки пула пакетов.</seg>
