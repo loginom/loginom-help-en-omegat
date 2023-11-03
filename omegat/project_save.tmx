@@ -67470,10 +67470,50 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/dispatcher.md</prop>
       <prop type="id">tu27_0</prop>
       <tuv lang="ru">
+        <seg>Горячая клавиша для действия %kbd Ctrl F %</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T142613Z" creationid="Марианна" creationdate="20231103T142613Z">
+        <seg>Hotkey for %kbd Ctrl F % action</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu27_0</prop>
+      <tuv lang="ru">
         <seg>Также доступен поиск по каждой колонке через меню в заголовке колонки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231103T142553Z" creationid="Марианна" creationdate="20231103T142527Z">
         <seg>Search by each column via the menu in the column header is also avalable.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu28_0</prop>
+      <tuv lang="ru">
+        <seg>Кроме перечисленных контекстное меню содержит действия:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T142825Z" creationid="Марианна" creationdate="20231103T142825Z">
+        <seg>The context menu provides for the following actions apart from the listed ones:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu28_0</prop>
+      <tuv lang="ru">
+        <seg>Эти действия также доступны из контекстного меню, вызываемого правой кнопкой мыши.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T142735Z" creationid="Марианна" creationdate="20231103T142735Z">
+        <seg>These actions are also available from the context menu called by the right mouse button click.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu29_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Разрешать имена по IP&lt;x2/&gt; &lt;x3/&gt;Разрешать имена по IP&lt;x4/&gt; — при включении этой опции для всех сессий выводится имя хоста.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T142935Z" creationid="Марианна" creationdate="20231103T142935Z">
+        <seg>&lt;x1/&gt;Allow names by IP&lt;x2/&gt; &lt;x3/&gt;Allow names by IP&lt;x4/&gt; — the host name is displayed when this option is enabled for all sessions.</seg>
       </tuv>
     </tu>
     <tu>
