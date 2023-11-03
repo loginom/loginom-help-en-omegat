@@ -67208,6 +67208,36 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu16_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Параметры&lt;x2/&gt; — Пакетное выполнение, выполнение из интегратора</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T134604Z" creationid="Марианна" creationdate="20231103T134604Z">
+        <seg>&lt;x1/&gt;Parameters&lt;x2/&gt; — Batch processing, processing from  Integrator</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu17_0</prop>
+      <tuv lang="ru">
+        <seg>Если у пользователя есть несколько ролей, то показывается наиболее привилегированная.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T134658Z" creationid="Марианна" creationdate="20231103T134658Z">
+        <seg>If there are several user roles, the most privileged one is displayed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu18_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Версия&lt;x2/&gt; — версия пакета в формате &lt;x3/&gt;семантического версионирования&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T134820Z" creationid="Марианна" creationdate="20231103T134820Z">
+        <seg>&lt;x1/&gt;Version&lt;x2/&gt; — package version in the &lt;x3/&gt;semantic versioning&lt;x4/&gt; format.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
       <prop type="id">tu1_0</prop>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Параметры&lt;x2/&gt; Диспетчер</seg>
