@@ -67538,6 +67538,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu30_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Очистить пул пакетов&lt;x2/&gt; &lt;x3/&gt;Очистить пул пакетов&lt;x4/&gt; — удаляет все пакеты из пула пакетов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T143122Z" creationid="Марианна" creationdate="20231103T143122Z">
+        <seg>&lt;x1/&gt;Clear package pool&lt;x2/&gt; &lt;x3/&gt;Clear package pool&lt;x4/&gt; enables to delete all packages from the package pool.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
       <prop type="id">tu3_0</prop>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; &lt;x3/&gt;Диспетчер&lt;x4/&gt; доступен только в серверных редакциях Loginom.</seg>
