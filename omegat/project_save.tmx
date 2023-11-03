@@ -67432,8 +67432,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Закрыть&lt;x2/&gt; &lt;x3/&gt;Закрыть&lt;x4/&gt; — закрывает и удаляет выбранные в таблице сессию или пакет.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231103T141950Z" creationid="Марианна" creationdate="20231103T141950Z">
-        <seg>&lt;x1/&gt;Close&lt;x2/&gt; &lt;x3/&gt;Close&lt;x4/&gt; — close and delete the session or package selected in the table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T142425Z" creationid="Марианна" creationdate="20231103T141950Z">
+        <seg>&lt;x1/&gt;Close&lt;x2/&gt; &lt;x3/&gt;Close&lt;x4/&gt; enables to close and delete the session or package selected in the table.</seg>
       </tuv>
     </tu>
     <tu>
@@ -67462,8 +67462,18 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Поиск&lt;x2/&gt; &lt;x3/&gt;Поиск&lt;x4/&gt; — вызывает меню поиска по таблице &lt;x5/&gt;Диспетчера&lt;x6/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231103T142335Z" creationid="Марианна" creationdate="20231103T142335Z">
-        <seg>&lt;x1/&gt;Search&lt;x2/&gt; &lt;x3/&gt;Search&lt;x4/&gt; — call the search menu by the &lt;x5/&gt;Session Manager&lt;x6/&gt; table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T142417Z" creationid="Марианна" creationdate="20231103T142335Z">
+        <seg>&lt;x1/&gt;Search&lt;x2/&gt; &lt;x3/&gt;Search&lt;x4/&gt; enables to call the search menu by the &lt;x5/&gt;Session Manager&lt;x6/&gt; table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu27_0</prop>
+      <tuv lang="ru">
+        <seg>Также доступен поиск по каждой колонке через меню в заголовке колонки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T142527Z" creationid="Марианна" creationdate="20231103T142527Z">
+        <seg>Search by each column via menu in the column header is also avalable.</seg>
       </tuv>
     </tu>
     <tu>
