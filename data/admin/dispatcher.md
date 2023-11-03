@@ -17,29 +17,29 @@ Table columns:
 
 * **Sessions and packages** — session name and packages opened within are displayed. To view packages, it is required to open the list by clicking on "+". The session name consists of user name and unique session identifier (similar to the one displayed in the [logging](./../admin/parameters.md#parametry-logirovaniya) journal of server operation).
 * **Activity** — time of the last session activity. When executing the node in the subordinate package, *Activity* is highlighted in green. In this case, the execution progress bar is displayed for the package, and the node activation start time is displayed in the progress bar tip when hovering a cursor over it.
-* **Host** — IP address of the client from which session was started. При включении через контекстное меню опции "Разрешать имена по IP", вместо адреса выводится имя хоста.
-* **Роль** — роль пользователя в сессии отображается соответствующими иконками:
-   * ![Параметры](./../images/icons/admin/user-roles/admin_default.svg) — Администрирование;
-   * ![Параметры](./../images/icons/admin/user-roles/design_default.svg) — Проектирование сценариев;
-   * ![Параметры](./../images/icons/admin/user-roles/viewer_default.svg) — Просмотр отчетов,
-   * ![Параметры](./../images/icons/admin/user-roles/execute_default.svg) — Пакетное выполнение, выполнение из интегратора
+* **Host** — IP address of the client from which session was started. When enabling "Allow names by IP" option via the context menu, the host name is displayed instead of address.
+* **Role** — user role in the session is displayed by means of corresponding icons:
+   * ![Parameters](./../images/icons/admin/user-roles/admin_default.svg) — Administration;
+   * ![Parameters](./../images/icons/admin/user-roles/design_default.svg) — Workflows design;
+   * ![Parameters](./../images/icons/admin/user-roles/viewer_default.svg) — View reports,
+   * ![Parameters](./../images/icons/admin/user-roles/execute_default.svg) — Batch processing, processing from  Integrator
 
-   Если у пользователя есть несколько ролей, то показывается наиболее привилегированная.
-* **Версия** — версия пакета в формате [семантического версионирования](https://semver.org/lang/ru/).
-* **Создан** — дата/время создания файла пакета или сессии. Значение отсутствует у черновика пакета.
-* **Сохранен** — дата/время последнего сохранения файла пакета. Значение отсутствует у черновика пакета.
-* **Путь** — полный путь пакета в [файловом хранилище](./../location_user_files.md). Значение отсутствует у черновика пакета.
+   If there are several user roles, the most privileged one is displayed.
+* **Version** — package version in the [semantic versioning](https://semver.org/lang/ru/) format.
+* **Created** — date/time of the package or session file creation. There is no package draft value.
+* **Saved** — date/time of the last package file saving. There is no package draft value.
+* **Path** — full package path in the [file storage](./../location_user_files.md). There is no package draft value.
 
-Все колонки, за исключением *Сессии и пакеты*, можно скрывать. У пакетов, входящих в узел *Общие пакеты*, также отображается количество сессий, которые ссылаются на данный пакет, включая ссылку из самого сервера. Количество ссылок отображается цифрой справа от имени пакета.
+It is possible to hide all columns with the exception of *Sessions and packages*. Number of sessions that refer to this package, including the reference from the server as such is also displayed for the packages included into the *Shared packages* node. Number of references is displayed in figure to the right from the package name.
 
-В верхней части страницы расположены кнопки:
+The following buttons are located in the upper part of the page:
 
-* ![Обновить](./../images/icons/common/toolbar-controls/refresh_default.svg) **Обновить** — обновляет список сессий или пакетов. При этом из списка могут удалиться уже закрытые сессии/пакеты или добавиться новые. Обновление также происходит автоматически каждые 5 сек. Горячая клавиша для действия %kbd Alt F5 %
-* ![Остановить](./../images/icons/common/toolbar-controls/stop_default.svg) **Остановить** — доступно для сессий и пакетов в состоянии "Выполнение". Останавливает выполнение выбранных в таблице сессии или пакета. При этом для сессии останавливаются все принадлежащие ей пакеты, а остановка пакета может привести к остановке сессии, если после этого у неё будут отсутствовать выполняемые пакеты. Действие запрашивает подтверждение у пользователя.
-* ![Закрыть](./../images/icons/common/toolbar-controls/close_default.svg) **Закрыть** — закрывает и удаляет выбранные в таблице сессию или пакет. Действие запрашивает подтверждение у пользователя. Горячая клавиша для действия %kbd Delete %
-* ![Поиск](./../images/icons/common/toolbar-controls/zoom_default.svg) **Поиск** — вызывает меню поиска по таблице *Диспетчера*. Также доступен поиск по каждой колонке через меню в заголовке колонки. Горячая клавиша для действия %kbd Ctrl F %
+* ![Update](./../images/icons/common/toolbar-controls/refresh_default.svg) **Update** — update list of sessions or packages. In this case, already closed sessions/packages can be removed from the list, whereas the new ones can be added. Update is automatically performed every 5 s. Hotkey for %kbd Alt F5 % action
+* ![Stop](./../images/icons/common/toolbar-controls/stop_default.svg) **Stop** — available for sessions and packages in the "Execution" state. It stops execution of the session or package selected in the table. In this case, all corresponding packages will be stopped for the session, and the package stop can cause the session stop if no executed packages are available afterwards. Action asks for the user confirmation.
+* ![Close](./../images/icons/common/toolbar-controls/close_default.svg) **Close** enables to close and delete the session or package selected in the table. Action asks for the user confirmation. Hotkey for %kbd Delete % action
+* ![Search](./../images/icons/common/toolbar-controls/zoom_default.svg) **Search** enables to call the search menu by the *Session Manager* table. Search by each column via the menu in the column header is also avalable. Hotkey for %kbd Ctrl F % action
 
-Эти действия также доступны из контекстного меню, вызываемого правой кнопкой мыши. Кроме перечисленных контекстное меню содержит действия:
+These actions are also available from the context menu called by the right mouse button click. The context menu provides for the following actions apart from the listed ones:
 
-* ![Разрешать имена по IP](./../images/icons/common/toolbar-controls/close_default.svg) **Разрешать имена по IP** — при включении этой опции для всех сессий выводится имя хоста. По умолчанию выводится IP-адрес хоста.
-* ![Очистить пул пакетов](./../images/icons/common/toolbar-controls/zoom_default.svg) **Очистить пул пакетов** — удаляет все пакеты из пула пакетов.
+* ![Allow names by IP](./../images/icons/common/toolbar-controls/close_default.svg) **Allow names by IP** — the host name is displayed when this option is enabled for all sessions. IP host address is displayed by default.
+* ![Clear package pool](./../images/icons/common/toolbar-controls/zoom_default.svg) **Clear package pool** enables to delete all packages from the package pool.
