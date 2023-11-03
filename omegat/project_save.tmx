@@ -67248,6 +67248,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/dispatcher.md</prop>
+      <prop type="id">tu19_0</prop>
+      <tuv lang="ru">
+        <seg>Значение отсутствует у черновика пакета.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231103T135108Z" creationid="Марианна" creationdate="20231103T135108Z">
+        <seg>There is no package draft value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/dispatcher.md</prop>
       <prop type="id">tu1_0</prop>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Параметры&lt;x2/&gt; Диспетчер</seg>
