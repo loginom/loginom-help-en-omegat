@@ -67898,6 +67898,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/log.md</prop>
+      <prop type="id">tu31_0</prop>
+      <tuv lang="ru">
+        <seg>Все ошибки попадают в лог, за исключением частых ошибок (например, ошибки преобразования типа в калькуляторе)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231104T150058Z" creationid="Марианна" creationdate="20231104T150058Z">
+        <seg>All errors are included into the log with the exception of the frequent errors (for example, errors related to the type transformation in the calcualtor)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
       <prop type="id">tu4_0</prop>
       <tuv lang="ru">
         <seg>Начиная с версии 6.5.0 — UTF8.</seg>
