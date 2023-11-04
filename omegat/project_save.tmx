@@ -67778,12 +67778,72 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/log.md</prop>
+      <prop type="id">tu17_0</prop>
+      <tuv lang="ru">
+        <seg>Авария, Ошибка, Предупреждение, Событие</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231104T145205Z" creationid="Марианна" creationdate="20231104T145205Z">
+        <seg>Fatal, Error, Warning, Event</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu18_0</prop>
+      <tuv lang="ru">
+        <seg>Предупреждение</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231104T145216Z" creationid="Марианна" creationdate="20231104T145216Z">
+        <seg>Warning</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu19_0</prop>
+      <tuv lang="ru">
+        <seg>Авария, Ошибка, Предупреждение</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231104T145230Z" creationid="Марианна" creationdate="20231104T145230Z">
+        <seg>Fatal, Error, Warning</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
       <prop type="id">tu1_0</prop>
       <tuv lang="ru">
         <seg>Логирование</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231104T144429Z" creationid="Марианна" creationdate="20231104T144429Z">
         <seg>Logging</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu21_0</prop>
+      <tuv lang="ru">
+        <seg>Авария, Ошибка</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231104T145256Z" creationid="Марианна" creationdate="20231104T145256Z">
+        <seg>Fatal, Error</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu22_0</prop>
+      <tuv lang="ru">
+        <seg>Авария</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231104T145305Z" creationid="Марианна" creationdate="20231104T145305Z">
+        <seg>Fatal</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu23_0</prop>
+      <tuv lang="ru">
+        <seg>Авария</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231104T145312Z" creationid="Марианна" creationdate="20231104T145312Z">
+        <seg>Fatal</seg>
       </tuv>
     </tu>
     <tu>
