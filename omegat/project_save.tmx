@@ -67716,5 +67716,25 @@ If the format is not specified, use of "B" format is required.</seg>
         <seg>Use of the LDAP authentification is available in the Megaladata Enterprise edition of the platform. It provides for the Megaladata server login via the LDAP server.</seg>
       </tuv>
     </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu1_0</prop>
+      <tuv lang="ru">
+        <seg>Логирование</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231104T144429Z" creationid="Марианна" creationdate="20231104T144429Z">
+        <seg>Logging</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu4_0</prop>
+      <tuv lang="ru">
+        <seg>Начиная с версии 6.5.0 — UTF8.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231104T144600Z" creationid="Марианна" creationdate="20231104T144600Z">
+        <seg>Starting from version 6.5.0 — UTF8.</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>
