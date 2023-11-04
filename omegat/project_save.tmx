@@ -68068,6 +68068,26 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/log.md</prop>
+      <prop type="id">tu39_0</prop>
+      <tuv lang="ru">
+        <seg>Ошибки преобразования типов для переменных типов в калькуляторе.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231104T152800Z" creationid="Марианна" creationdate="20231104T152800Z">
+        <seg>Errors of types transformation for the variable types in the calculator.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu40_0</prop>
+      <tuv lang="ru">
+        <seg>Трассировка</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231104T152810Z" creationid="Марианна" creationdate="20231104T152810Z">
+        <seg>Trace</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
       <prop type="id">tu4_0</prop>
       <tuv lang="ru">
         <seg>Начиная с версии 6.5.0 — UTF8.</seg>
