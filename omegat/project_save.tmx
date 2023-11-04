@@ -67736,5 +67736,15 @@ If the format is not specified, use of "B" format is required.</seg>
         <seg>Starting from version 6.5.0 — UTF8.</seg>
       </tuv>
     </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu5_0</prop>
+      <tuv lang="ru">
+        <seg>Уровни логирования</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231104T144613Z" creationid="Марианна" creationdate="20231104T144613Z">
+        <seg>Logging levels</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>
