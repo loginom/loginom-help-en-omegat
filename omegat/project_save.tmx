@@ -67718,6 +67718,36 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/log.md</prop>
+      <prop type="id">tu10_0</prop>
+      <tuv lang="ru">
+        <seg>Трассировка</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231104T144743Z" creationid="Марианна" creationdate="20231104T144743Z">
+        <seg>Trace</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu11_0</prop>
+      <tuv lang="ru">
+        <seg>Авария, Ошибка, Предупреждение, Событие, Информация, Отладка, Трассировка</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231104T144936Z" creationid="Марианна" creationdate="20231104T144936Z">
+        <seg>Fatal, Error, Warning, Event, Information, Debug, Trace</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu12_0</prop>
+      <tuv lang="ru">
+        <seg>Отладка</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231104T144959Z" creationid="Марианна" creationdate="20231104T144959Z">
+        <seg>Debug</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
       <prop type="id">tu1_0</prop>
       <tuv lang="ru">
         <seg>Логирование</seg>
@@ -67744,6 +67774,26 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231104T144613Z" creationid="Марианна" creationdate="20231104T144613Z">
         <seg>Logging levels</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu8_0</prop>
+      <tuv lang="ru">
+        <seg>Уровень логирования</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231104T144631Z" creationid="Марианна" creationdate="20231104T144631Z">
+        <seg>Logging level</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu9_0</prop>
+      <tuv lang="ru">
+        <seg>Входящие уровни</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231104T144715Z" creationid="Марианна" creationdate="20231104T144715Z">
+        <seg>Input levels</seg>
       </tuv>
     </tu>
   </body>
