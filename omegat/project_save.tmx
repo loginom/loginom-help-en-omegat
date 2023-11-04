@@ -67928,6 +67928,56 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/log.md</prop>
+      <prop type="id">tu35_0</prop>
+      <tuv lang="ru">
+        <seg>Закрытие пакета.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231104T151238Z" creationid="Марианна" creationdate="20231104T151238Z">
+        <seg>Package closing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu35_0</prop>
+      <tuv lang="ru">
+        <seg>Конвертация пакета старой версии.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231104T151449Z" creationid="Марианна" creationdate="20231104T151449Z">
+        <seg>Old version package conversion.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu35_0</prop>
+      <tuv lang="ru">
+        <seg>Открытие пакета.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231104T151211Z" creationid="Марианна" creationdate="20231104T151211Z">
+        <seg>Package opening.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu35_0</prop>
+      <tuv lang="ru">
+        <seg>Сохранение пакета.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231104T151248Z" creationid="Марианна" creationdate="20231104T151248Z">
+        <seg>Package saving.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu35_0</prop>
+      <tuv lang="ru">
+        <seg>Установка версии пакета.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231104T151352Z" creationid="Марианна" creationdate="20231104T151352Z">
+        <seg>Package version setup.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
       <prop type="id">tu4_0</prop>
       <tuv lang="ru">
         <seg>Начиная с версии 6.5.0 — UTF8.</seg>
