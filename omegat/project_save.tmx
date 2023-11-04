@@ -68030,10 +68030,40 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/log.md</prop>
       <prop type="id">tu37_0</prop>
       <tuv lang="ru">
+        <seg>Ошибки при обновлении колонок в визуализаторах "Таблица" и "Статистика".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231104T152241Z" creationid="Марианна" creationdate="20231104T152241Z">
+        <seg>Errors while updating the columns in "Table" and "Statistics" visualizers.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu37_0</prop>
+      <tuv lang="ru">
         <seg>Сообщения от менеджера памяти.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231104T152003Z" creationid="Марианна" creationdate="20231104T152003Z">
         <seg>Messages from memory manager.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu38_0</prop>
+      <tuv lang="ru">
+        <seg>Отладка</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231104T152250Z" creationid="Марианна" creationdate="20231104T152250Z">
+        <seg>Debug</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu39_0</prop>
+      <tuv lang="ru">
+        <seg>Активация (деактивация) узлов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231104T152705Z" creationid="Марианна" creationdate="20231104T152705Z">
+        <seg>Activate (deactivate) nodes.</seg>
       </tuv>
     </tu>
     <tu>
