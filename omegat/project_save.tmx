@@ -67888,6 +67888,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/log.md</prop>
+      <prop type="id">tu29_0</prop>
+      <tuv lang="ru">
+        <seg>Выводит ошибки, приводящие к выходу сервера из строя</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231104T145839Z" creationid="Марианна" creationdate="20231104T145839Z">
+        <seg>It displays the errors that cause server shut-down</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
       <prop type="id">tu4_0</prop>
       <tuv lang="ru">
         <seg>Начиная с версии 6.5.0 — UTF8.</seg>
