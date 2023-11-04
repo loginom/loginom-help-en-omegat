@@ -67768,6 +67768,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/log.md</prop>
+      <prop type="id">tu15_0</prop>
+      <tuv lang="ru">
+        <seg>Авария, Ошибка, Предупреждение, Событие, Информация</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231104T145139Z" creationid="Марианна" creationdate="20231104T145139Z">
+        <seg>Fatal, Error, Warning, Event, Information</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
       <prop type="id">tu1_0</prop>
       <tuv lang="ru">
         <seg>Логирование</seg>
