@@ -67868,6 +67868,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/log.md</prop>
+      <prop type="id">tu26_0</prop>
+      <tuv lang="ru">
+        <seg>Уровень логирования</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231104T145519Z" creationid="Марианна" creationdate="20231104T145519Z">
+        <seg>Logging level</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
       <prop type="id">tu4_0</prop>
       <tuv lang="ru">
         <seg>Начиная с версии 6.5.0 — UTF8.</seg>
