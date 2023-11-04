@@ -68000,6 +68000,16 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/log.md</prop>
       <prop type="id">tu37_0</prop>
       <tuv lang="ru">
+        <seg>Добавление (удаление) общих папок.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231104T151933Z" creationid="Марианна" creationdate="20231104T151933Z">
+        <seg>Add (delete) shared folders.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu37_0</prop>
+      <tuv lang="ru">
         <seg>Изменение пользователя (добавление, удаление, перемещение в группы) через администратора.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231104T151853Z" creationid="Марианна" creationdate="20231104T151853Z">
@@ -68014,6 +68024,16 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231104T151534Z" creationid="Марианна" creationdate="20231104T151534Z">
         <seg>Opening (closing) of user sessions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu37_0</prop>
+      <tuv lang="ru">
+        <seg>Сообщения от менеджера памяти.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231104T152003Z" creationid="Марианна" creationdate="20231104T152003Z">
+        <seg>Messages from memory manager.</seg>
       </tuv>
     </tu>
     <tu>
