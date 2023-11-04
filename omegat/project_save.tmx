@@ -67978,6 +67978,46 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/log.md</prop>
+      <prop type="id">tu36_0</prop>
+      <tuv lang="ru">
+        <seg>Информация</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231104T151502Z" creationid="Марианна" creationdate="20231104T151502Z">
+        <seg>Information</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu37_0</prop>
+      <tuv lang="ru">
+        <seg>Действия с сессиями и пакетами (закрытие пакетов и сессий) из менеджера сессий.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231104T151739Z" creationid="Марианна" creationdate="20231104T151739Z">
+        <seg>Actions with sessions and packages (closing of packages and sessions) from the Session Manager.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu37_0</prop>
+      <tuv lang="ru">
+        <seg>Изменение пользователя (добавление, удаление, перемещение в группы) через администратора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231104T151853Z" creationid="Марианна" creationdate="20231104T151853Z">
+        <seg>Change of user (add, delete, move to  group) via administrator.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu37_0</prop>
+      <tuv lang="ru">
+        <seg>Открытие (закрытие) сессий пользователя.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231104T151534Z" creationid="Марианна" creationdate="20231104T151534Z">
+        <seg>Opening (closing) of user sessions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
       <prop type="id">tu4_0</prop>
       <tuv lang="ru">
         <seg>Начиная с версии 6.5.0 — UTF8.</seg>
