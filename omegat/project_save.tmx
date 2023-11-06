@@ -67898,6 +67898,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/log.md</prop>
+      <prop type="id">tu2_0</prop>
+      <tuv lang="ru">
+        <seg>В серверных и настольных редакциях платформы формируется лог-файл — журнал регистрации, в котором фиксируется выполнение каждого узла, что позволяет в случае возникновения ошибки выявить ее местоположение и возможную причину.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231106T192912Z" creationid="Марианна" creationdate="20231106T192912Z">
+        <seg>Log file is generated in the server and desktop editions of the platform. It is a registration log in which execution of each node is fixed that enables to detect its location and possible reason in case of error occurrence.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
       <prop type="id">tu31_0</prop>
       <tuv lang="ru">
         <seg>Все ошибки попадают в лог, за исключением частых ошибок (например, ошибки преобразования типа в калькуляторе)</seg>
