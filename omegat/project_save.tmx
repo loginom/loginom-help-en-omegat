@@ -68218,6 +68218,46 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/log.md</prop>
+      <prop type="id">tu56_0</prop>
+      <tuv lang="ru">
+        <seg>%spoiler%Примеры записей лога%spoiler%</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231106T190803Z" creationid="Марианна" creationdate="20231106T190803Z">
+        <seg>%spoiler%Examples of log records%spoiler%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu57_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;2021-06-10T14:09:39.980 info (Server.exe:4484&gt;user:57:) - Инициализирована сессия для пользователя user{"SessionType": "Интерактивная сессия"}&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231106T190911Z" creationid="Марианна" creationdate="20231106T190911Z">
+        <seg>&lt;x1/&gt;2021-06-10T14:09:39.980 info (Server.exe:4484&gt;user:57:) - Session for user was initialized {"SessionType": "Interactive session"}&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu58_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;2021-06-17T14:31:58.713 info (Server.exe:3364&gt;service:93:ed331dffafc14923bb7aa43225fd01a5) - Закрыт пакет "/user/test-service.lgp"&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231106T190932Z" creationid="Марианна" creationdate="20231106T190932Z">
+        <seg>&lt;x1/&gt;2021-06-17T14:31:58.713 info (Server.exe:3364&gt;service:93:ed331dffafc14923bb7aa43225fd01a5) - Package "/user/test-service.lgp" was closed&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu59_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;2021-07-27T12:41:13.899 error (Server.exe:4244&gt;user:23:) - Не удалось загрузить некоторые элементы конфигурации&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231106T191013Z" creationid="Марианна" creationdate="20231106T191013Z">
+        <seg>&lt;x1/&gt;2021-07-27T12:41:13.899 error (Server.exe:4244&gt;user:23:) - Failed to load some configuration items&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
       <prop type="id">tu5_0</prop>
       <tuv lang="ru">
         <seg>Уровни логирования</seg>
