@@ -67862,8 +67862,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Этого уровня достаточно для простого пользования программой, так как уровни выше будут замедлять работу приложения.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231106T194011Z" creationid="Марианна" creationdate="20231106T194011Z">
-        <seg>This level is sufficient for normal program use as the higher levels will slow down the application operation.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231106T194029Z" creationid="Марианна" creationdate="20231106T194011Z">
+        <seg>This level is sufficient for the normal program use as the higher levels will slow down the application operation.</seg>
       </tuv>
     </tu>
     <tu>
