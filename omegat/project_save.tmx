@@ -68102,8 +68102,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Уровень Трассировка чаще всего используется только во время отладки процесса, для обычного пользования достаточно уровня Информация.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231106T191521Z" creationid="Марианна" creationdate="20231106T191521Z">
-        <seg>The Trace level is most frequently used only during the process debugging, for normal use the Information level is sufficient.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231106T192645Z" creationid="Марианна" creationdate="20231106T191521Z">
+        <seg>The Trace level is most frequently used only during the process debugging, the Information level is sufficient for normal use.</seg>
       </tuv>
     </tu>
     <tu>
