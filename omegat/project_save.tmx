@@ -68098,6 +68098,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/log.md</prop>
+      <prop type="id">tu43_0</prop>
+      <tuv lang="ru">
+        <seg>Формат записи в лог</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231106T191101Z" creationid="Марианна" creationdate="20231106T191101Z">
+        <seg>Format of record to log</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
       <prop type="id">tu45_0</prop>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;yyyy-mm-ddThh:mm:ss.mss level (process:thread&gt;user:session:[requestID]) — message [paramJSON]&lt;x2/&gt;,</seg>
