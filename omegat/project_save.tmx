@@ -68348,6 +68348,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/log.md</prop>
+      <prop type="id">tu7_0</prop>
+      <tuv lang="ru">
+        <seg>При выборе одного уровня логирования сообщения уровня выше записываться не будут.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231106T193902Z" creationid="Марианна" creationdate="20231106T193902Z">
+        <seg>When selecting one logging level, the messages relating to the higher level won't be recorded.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
       <prop type="id">tu8_0</prop>
       <tuv lang="ru">
         <seg>Уровень логирования</seg>
