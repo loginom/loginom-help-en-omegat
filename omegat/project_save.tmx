@@ -67898,6 +67898,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/log.md</prop>
+      <prop type="id">tu28_0</prop>
+      <tuv lang="ru">
+        <seg>Авария</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231106T195612Z" creationid="Марианна" creationdate="20231106T195612Z">
+        <seg>Fatal</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
       <prop type="id">tu29_0</prop>
       <tuv lang="ru">
         <seg>Выводит ошибки, приводящие к выходу сервера из строя</seg>
