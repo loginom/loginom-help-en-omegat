@@ -68328,6 +68328,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/log.md</prop>
+      <prop type="id">tu6_0</prop>
+      <tuv lang="ru">
+        <seg>Уровень логирования — параметр, который позволяет контролировать, какие действия, происходящие в программе, нужно записывать в зависимости от требуемой детализации процесса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231106T193540Z" creationid="Марианна" creationdate="20231106T193540Z">
+        <seg>Logging level is a parameter that enables to control what activities occurring in the program are to be recorded according to the required process detailing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
       <prop type="id">tu8_0</prop>
       <tuv lang="ru">
         <seg>Уровень логирования</seg>
