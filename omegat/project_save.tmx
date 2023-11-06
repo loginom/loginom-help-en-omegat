@@ -68118,6 +68118,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/log.md</prop>
+      <prop type="id">tu47_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;yyyy-mm-ddThh:mm:ss.mss&lt;x2/&gt; — дата и время с указанием миллисекунд (дата и время разделены литерой &lt;x3/&gt;T&lt;x4/&gt;);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231106T190320Z" creationid="Марианна" creationdate="20231106T190320Z">
+        <seg>&lt;x1/&gt;yyyy-mm-ddThh:mm:ss.mss&lt;x2/&gt; — date and time specifying milliseconds (date and time are separated with letter &lt;x3/&gt;T&lt;x4/&gt;);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
       <prop type="id">tu4_0</prop>
       <tuv lang="ru">
         <seg>Начиная с версии 6.5.0 — UTF8.</seg>
