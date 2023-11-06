@@ -67952,8 +67952,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Предупреждения о проблемах в конфигурации (возникают при загрузке или копировании/вставке узлов), о несуществующих или лишних колонках при синхронизации колонок, об ошибках в калькуляторе.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231106T194147Z" creationid="Марианна" creationdate="20231106T194147Z">
-        <seg>The warnings on problems concerning configuration (they occur while loading or copying/pasting nodes), </seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231106T195420Z" creationid="Марианна" creationdate="20231106T194147Z">
+        <seg>The warnings on the problems concerning configuration (they occur while loading or copying/pasting nodes), nonexistent or extra columns while columns synchronization, errors in the calculator.</seg>
       </tuv>
     </tu>
     <tu>
