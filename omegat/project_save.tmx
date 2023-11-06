@@ -67948,6 +67948,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/log.md</prop>
+      <prop type="id">tu33_0</prop>
+      <tuv lang="ru">
+        <seg>Предупреждения о проблемах в конфигурации (возникают при загрузке или копировании/вставке узлов), о несуществующих или лишних колонках при синхронизации колонок, об ошибках в калькуляторе.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231106T194147Z" creationid="Марианна" creationdate="20231106T194147Z">
+        <seg>The warnings on problems concerning configuration (they occur while loading or copying/pasting nodes), </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
       <prop type="id">tu35_0</prop>
       <tuv lang="ru">
         <seg>Закрытие пакета.</seg>
