@@ -68098,12 +68098,32 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/log.md</prop>
+      <prop type="id">tu42_0</prop>
+      <tuv lang="ru">
+        <seg>Уровень Трассировка чаще всего используется только во время отладки процесса, для обычного пользования достаточно уровня Информация.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231106T191521Z" creationid="Марианна" creationdate="20231106T191521Z">
+        <seg>The Trace level is most frequently used only during the process debugging, for normal use the Information level is sufficient.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
       <prop type="id">tu43_0</prop>
       <tuv lang="ru">
         <seg>Формат записи в лог</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231106T191101Z" creationid="Марианна" creationdate="20231106T191101Z">
         <seg>Format of record to log</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu44_0</prop>
+      <tuv lang="ru">
+        <seg>Каждая строка в файле журнала представляет собой сообщение в формате:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231106T191248Z" creationid="Марианна" creationdate="20231106T191248Z">
+        <seg>Each string in the log file is a message in the following format:</seg>
       </tuv>
     </tu>
     <tu>
