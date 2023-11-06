@@ -68128,12 +68128,92 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/log.md</prop>
+      <prop type="id">tu48_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;level&lt;x2/&gt; — уровень логирования;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231106T190331Z" creationid="Марианна" creationdate="20231106T190331Z">
+        <seg>&lt;x1/&gt;level&lt;x2/&gt; — logging level;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu49_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;process&lt;x2/&gt; — имя запущенного процесса;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231106T190419Z" creationid="Марианна" creationdate="20231106T190344Z">
+        <seg>&lt;x1/&gt;process&lt;x2/&gt; — name of the started process;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
       <prop type="id">tu4_0</prop>
       <tuv lang="ru">
         <seg>Начиная с версии 6.5.0 — UTF8.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231104T144600Z" creationid="Марианна" creationdate="20231104T144600Z">
         <seg>Starting from version 6.5.0 — UTF8.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu50_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;thread&lt;x2/&gt; — номер потока;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231106T190406Z" creationid="Марианна" creationdate="20231106T190406Z">
+        <seg>&lt;x1/&gt;thread&lt;x2/&gt; — thread number;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu51_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;user&lt;x2/&gt; — имя пользователя, запустившего процесс;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231106T190438Z" creationid="Марианна" creationdate="20231106T190438Z">
+        <seg>&lt;x1/&gt;user&lt;x2/&gt; — name of the user who started the process;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu52_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;session&lt;x2/&gt; — номер сессии;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231106T190447Z" creationid="Марианна" creationdate="20231106T190447Z">
+        <seg>&lt;x1/&gt;session&lt;x2/&gt; — session number;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu53_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;requestID&lt;x2/&gt; — идентификатор запроса (необязательный параметр; присутствует, если процесс запущен из внешнего сервиса);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231106T190607Z" creationid="Марианна" creationdate="20231106T190607Z">
+        <seg>&lt;x1/&gt;requestID&lt;x2/&gt; — request identifier (optional parameter; it is available when the process has been started from the external service);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu54_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;message&lt;x2/&gt; — текст сообщения;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231106T190625Z" creationid="Марианна" creationdate="20231106T190625Z">
+        <seg>&lt;x1/&gt;message&lt;x2/&gt; — message text;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu55_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;paramJSON&lt;x2/&gt; — параметры в формате JSON (необязательный параметр).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231106T190724Z" creationid="Марианна" creationdate="20231106T190724Z">
+        <seg>&lt;x1/&gt;paramJSON&lt;x2/&gt; — parameters in JSON format (optional parameter).</seg>
       </tuv>
     </tu>
     <tu>
