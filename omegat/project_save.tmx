@@ -67902,8 +67902,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>В серверных и настольных редакциях платформы формируется лог-файл — журнал регистрации, в котором фиксируется выполнение каждого узла, что позволяет в случае возникновения ошибки выявить ее местоположение и возможную причину.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231106T192912Z" creationid="Марианна" creationdate="20231106T192912Z">
-        <seg>Log file is generated in the server and desktop editions of the platform. It is a registration log in which execution of each node is fixed that enables to detect its location and possible reason in case of error occurrence.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231106T193044Z" creationid="Марианна" creationdate="20231106T192912Z">
+        <seg>Log file is generated in the server and desktop editions of the platform. It is a registration log in which execution of each node is fixed that enables to detect location and possible reason of the occurred error.</seg>
       </tuv>
     </tu>
     <tu>
@@ -68088,6 +68088,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/log.md</prop>
+      <prop type="id">tu3_0</prop>
+      <tuv lang="ru">
+        <seg>Правила формирования лог-файла (имя файла, его максимальный размер, уровень логирования и др.) задаются &lt;x1/&gt;параметрами логирования&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231106T193159Z" creationid="Марианна" creationdate="20231106T193159Z">
+        <seg>The log file generation rules (file name, its maximum size, logging level, etc.) are set by &lt;x1/&gt;logging parameters&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
       <prop type="id">tu40_0</prop>
       <tuv lang="ru">
         <seg>Трассировка</seg>
@@ -68184,6 +68194,16 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231106T190419Z" creationid="Марианна" creationdate="20231106T190344Z">
         <seg>&lt;x1/&gt;process&lt;x2/&gt; — name of the started process;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
+      <prop type="id">tu4_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; До версии 6.5.0 используется кодировка ANSI, соответствующая локали пользователя, из-под которого запущен Loginom Server.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231106T193429Z" creationid="Марианна" creationdate="20231106T193429Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; ANSI encoding is used up to 6.5.0 version. It complies with the user locale that started Megaladata Server.</seg>
       </tuv>
     </tu>
     <tu>
