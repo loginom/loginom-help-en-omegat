@@ -67858,6 +67858,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/log.md</prop>
+      <prop type="id">tu24_0</prop>
+      <tuv lang="ru">
+        <seg>Этого уровня достаточно для простого пользования программой, так как уровни выше будут замедлять работу приложения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231106T194011Z" creationid="Марианна" creationdate="20231106T194011Z">
+        <seg>This level is sufficient for normal program use as the higher levels will slow down the application operation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/log.md</prop>
       <prop type="id">tu25_0</prop>
       <tuv lang="ru">
         <seg>Рассмотрим описание уровней логирования:</seg>
