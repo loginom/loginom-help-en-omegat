@@ -68406,5 +68406,25 @@ If the format is not specified, use of "B" format is required.</seg>
         <seg>Input levels</seg>
       </tuv>
     </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu1_0</prop>
+      <tuv lang="ru">
+        <seg>Сравнение редакций</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231107T172011Z" creationid="Марианна" creationdate="20231107T172011Z">
+        <seg>Comparison of Editions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu2_0</prop>
+      <tuv lang="ru">
+        <seg>Для выбора редакции Loginom необходимо определиться с вариантами использования платформы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231107T172128Z" creationid="Марианна" creationdate="20231107T172128Z">
+        <seg>To select Megaladata editions, it is required to define the platform use options.</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>
