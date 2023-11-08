@@ -68486,5 +68486,15 @@ If the format is not specified, use of "B" format is required.</seg>
         <seg>How large amounts of data are to be processed?</seg>
       </tuv>
     </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu7_0</prop>
+      <tuv lang="ru">
+        <seg>Каковы требования к производительности?</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T135046Z" creationid="Марианна" creationdate="20231108T135046Z">
+        <seg>What are the performance requirements?</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>
