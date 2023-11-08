@@ -68898,12 +68898,112 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu75_0</prop>
+      <tuv lang="ru">
+        <seg>5-10</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T143431Z" creationid="Марианна" creationdate="20231108T143431Z">
+        <seg>5-10</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu76_0</prop>
+      <tuv lang="ru">
+        <seg>10-∞</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T143436Z" creationid="Марианна" creationdate="20231108T143436Z">
+        <seg>10-∞</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu77_0</prop>
+      <tuv lang="ru">
+        <seg>1-∞</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T143441Z" creationid="Марианна" creationdate="20231108T143441Z">
+        <seg>1-∞</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu78_0</prop>
+      <tuv lang="ru">
+        <seg>Ядро процессоров</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T143504Z" creationid="Марианна" creationdate="20231108T143504Z">
+        <seg>Processor core</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu79_0</prop>
+      <tuv lang="ru">
+        <seg>1-6</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T143506Z" creationid="Марианна" creationdate="20231108T143506Z">
+        <seg>1-6</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
       <prop type="id">tu7_0</prop>
       <tuv lang="ru">
         <seg>Каковы требования к производительности?</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231108T135046Z" creationid="Марианна" creationdate="20231108T135046Z">
         <seg>What are the performance requirements?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu80_0</prop>
+      <tuv lang="ru">
+        <seg>1-12</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T143510Z" creationid="Марианна" creationdate="20231108T143510Z">
+        <seg>1-12</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu81_0</prop>
+      <tuv lang="ru">
+        <seg>∞</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T143513Z" creationid="Марианна" creationdate="20231108T143513Z">
+        <seg>∞</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu82_0</prop>
+      <tuv lang="ru">
+        <seg>∞</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T143517Z" creationid="Марианна" creationdate="20231108T143517Z">
+        <seg>∞</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu83_0</prop>
+      <tuv lang="ru">
+        <seg>Оперативная память</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T143641Z" creationid="Марианна" creationdate="20231108T143641Z">
+        <seg>RAM</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu84_0</prop>
+      <tuv lang="ru">
+        <seg>до 12 Гб</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T143831Z" creationid="Марианна" creationdate="20231108T143831Z">
+        <seg>up to12 GB</seg>
       </tuv>
     </tu>
     <tu>
