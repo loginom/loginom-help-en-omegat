@@ -68478,6 +68478,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu15_0</prop>
+      <tuv lang="ru">
+        <seg>Применение платформы в данной редакции для коммерческих целей не допускается.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T142019Z" creationid="Марианна" creationdate="20231108T142019Z">
+        <seg>It is not allowed to use this edition of the platform for commercial purposes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
       <prop type="id">tu1_0</prop>
       <tuv lang="ru">
         <seg>Сравнение редакций</seg>
