@@ -68422,8 +68422,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Как аналитика будет интегрироваться с IT системами компании?</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231108T135449Z" creationid="Марианна" creationdate="20231108T135449Z">
-        <seg>How will analytics be integrated with the company IT systems?</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T140134Z" creationid="Марианна" creationdate="20231108T135449Z">
+        <seg>How is it required to integrate analytics with the company IT systems?</seg>
       </tuv>
     </tu>
     <tu>
