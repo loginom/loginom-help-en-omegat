@@ -68430,10 +68430,30 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">compare-editions.md</prop>
       <prop type="id">tu2_0</prop>
       <tuv lang="ru">
+        <seg>Их отличия связаны с кейсами использования и интеграцией в корпоративную IT‑среду.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T134036Z" creationid="Марианна" creationdate="20231108T134036Z">
+        <seg>Their differences are connected with use cases and integration into the corporate IT environment.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu2_0</prop>
+      <tuv lang="ru">
         <seg>Различий между редакциями в части доступных алгоритмов обработки или способов визуализации нет.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231108T054717Z" creationid="Марианна" creationdate="20231108T054717Z">
         <seg>There is no difference between the editions as far as available processing algorythms or visualization methods are concerned.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu3_0</prop>
+      <tuv lang="ru">
+        <seg>Ключевые вопросы, определяющие выбор редакции:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T134144Z" creationid="Марианна" creationdate="20231108T134144Z">
+        <seg>The key questions that stipulate edition selection:</seg>
       </tuv>
     </tu>
   </body>
