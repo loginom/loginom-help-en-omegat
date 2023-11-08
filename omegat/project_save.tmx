@@ -68426,5 +68426,15 @@ If the format is not specified, use of "B" format is required.</seg>
         <seg>To select Megaladata editions, it is required to define the platform use options.</seg>
       </tuv>
     </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu2_0</prop>
+      <tuv lang="ru">
+        <seg>Различий между редакциями в части доступных алгоритмов обработки или способов визуализации нет.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T054717Z" creationid="Марианна" creationdate="20231108T054717Z">
+        <seg>There is no difference between the editions as far as available processing algorythms or visualization methods are concerned.</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>
