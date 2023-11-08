@@ -68456,5 +68456,35 @@ If the format is not specified, use of "B" format is required.</seg>
         <seg>The key questions that stipulate edition selection:</seg>
       </tuv>
     </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu4_0</prop>
+      <tuv lang="ru">
+        <seg>Необходима ли коллективная работа?</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T134242Z" creationid="Марианна" creationdate="20231108T134242Z">
+        <seg>Is team work required?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu5_0</prop>
+      <tuv lang="ru">
+        <seg>Какое количество пользователей будет работать с платформой?</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T134305Z" creationid="Марианна" creationdate="20231108T134305Z">
+        <seg>How many users will work with the platform?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu6_0</prop>
+      <tuv lang="ru">
+        <seg>Насколько большие объемы данных необходимо обрабатывать?</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T134506Z" creationid="Марианна" creationdate="20231108T134506Z">
+        <seg>How large amounts of data are to be processed?</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>
