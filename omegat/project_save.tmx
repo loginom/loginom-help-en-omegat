@@ -68608,6 +68608,26 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu162_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Техническая поддержка&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T145615Z" creationid="Марианна" creationdate="20231108T145615Z">
+        <seg>&lt;x1/&gt;Technical support&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu163_0</prop>
+      <tuv lang="ru">
+        <seg>Сообщество (&lt;x1/&gt;чат&lt;x2/&gt;, &lt;x3/&gt;q&amp;a&lt;x4/&gt;…)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T145643Z" creationid="Марианна" creationdate="20231108T145643Z">
+        <seg>Community(&lt;x1/&gt;chat&lt;x2/&gt;, &lt;x3/&gt;q&amp;a&lt;x4/&gt;…)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
       <prop type="id">tu16_0</prop>
       <tuv lang="ru">
         <seg>Personal</seg>
