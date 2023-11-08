@@ -68448,6 +68448,36 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu14_0</prop>
+      <tuv lang="ru">
+        <seg>Community</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T141443Z" creationid="Марианна" creationdate="20231108T141443Z">
+        <seg>Community</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu15_0</prop>
+      <tuv lang="ru">
+        <seg>Настольная редакция.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T141516Z" creationid="Марианна" creationdate="20231108T141516Z">
+        <seg>Desktop edition.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu15_0</prop>
+      <tuv lang="ru">
+        <seg>Предназначена для обучения аналитиков и студентов работе с платформой Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T141816Z" creationid="Марианна" creationdate="20231108T141816Z">
+        <seg>It is used to train analysts and students how to work with the Megaladata platform.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
       <prop type="id">tu1_0</prop>
       <tuv lang="ru">
         <seg>Сравнение редакций</seg>
