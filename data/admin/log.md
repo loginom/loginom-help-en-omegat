@@ -31,7 +31,7 @@ Let's consider logging levels:
 
 | Logging level | Displayed commands |
 |:---------|:--------|
-| Авария | It displays the errors that cause server shut-down |
+| Fatal | It displays the errors that cause server shut-down |
 | Error | All errors are included into the log with the exception of the frequent errors (for example, errors related to the type transformation in the calculator) |
 | Warning | The warnings on the problems concerning configuration (they occur while loading or copying/pasting nodes), nonexistent or extra columns while columns synchronization, errors in the calculator. Errors that provide information on occurrence of the unexpected event. |
 | Event | Package opening. Package closing. Package saving. Package version setup. Old version package conversion. |

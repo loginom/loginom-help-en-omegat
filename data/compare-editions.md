@@ -2,9 +2,9 @@
 description: Сравнение редакций Loginom. Варианты редакций Community Edition, Personal, Team, Standard, Enterprise. Сравнение возможностей импорта и экспорта данных, обработки, визуализации, подключений.
 ---
 
-# Сравнение редакций
+# Comparison of Editions
 
-Для выбора редакции Loginom необходимо определиться с вариантами использования платформы. Различий между редакциями в части доступных алгоритмов обработки или способов визуализации нет. Их отличия связаны с кейсами использования и интеграцией в корпоративную IT‑среду.
+To select Megaladata editions, it is required to define the platform use options. There is no difference between the editions as far as available processing algorythms or visualization methods are concerned. Их отличия связаны с кейсами использования и интеграцией в корпоративную IT‑среду.
 
 Ключевые вопросы, определяющие выбор редакции:
 
