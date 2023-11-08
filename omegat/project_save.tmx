@@ -68408,6 +68408,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu101_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Поддержка LDAP&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T144054Z" creationid="Марианна" creationdate="20231108T144054Z">
+        <seg>Поддержка LDAP&lt;&lt;x1/&gt;LDAP support&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
       <prop type="id">tu10_0</prop>
       <tuv lang="ru">
         <seg>Планируется ли интеграция с нестандартными веб-сервисами?</seg>
@@ -69008,12 +69018,62 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu85_0</prop>
+      <tuv lang="ru">
+        <seg>до 24 Гб</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T143837Z" creationid="Марианна" creationdate="20231108T143837Z">
+        <seg>up to 24 Гб</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu86_0</prop>
+      <tuv lang="ru">
+        <seg>∞</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T143839Z" creationid="Марианна" creationdate="20231108T143839Z">
+        <seg>∞</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu87_0</prop>
+      <tuv lang="ru">
+        <seg>∞</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T143843Z" creationid="Марианна" creationdate="20231108T143843Z">
+        <seg>∞</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu89_0</prop>
+      <tuv lang="ru">
+        <seg>Обработка и визуализация</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T143913Z" creationid="Марианна" creationdate="20231108T143913Z">
+        <seg>Processing and visualisation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
       <prop type="id">tu8_0</prop>
       <tuv lang="ru">
         <seg>Требуется ли автоматический запуск сценариев?</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231108T135132Z" creationid="Марианна" creationdate="20231108T135132Z">
         <seg>Is automatic workflow start required?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu96_0</prop>
+      <tuv lang="ru">
+        <seg>Пакетная обработка</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T144032Z" creationid="Марианна" creationdate="20231108T144032Z">
+        <seg>Package processing</seg>
       </tuv>
     </tu>
     <tu>
