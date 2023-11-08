@@ -68442,8 +68442,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Какую операционную систему должна поддерживать платформа?</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231108T141435Z" creationid="Марианна" creationdate="20231108T141435Z">
-        <seg>What operational system must be supported by the platform?</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T142627Z" creationid="Марианна" creationdate="20231108T141435Z">
+        <seg>What operating system must be supported by the platform?</seg>
       </tuv>
     </tu>
     <tu>
@@ -68708,12 +68708,52 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu47_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Integrator&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T142453Z" creationid="Марианна" creationdate="20231108T142453Z">
+        <seg>&lt;x1/&gt;Integrator&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
       <prop type="id">tu4_0</prop>
       <tuv lang="ru">
         <seg>Необходима ли коллективная работа?</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231108T134242Z" creationid="Марианна" creationdate="20231108T134242Z">
         <seg>Is team work required?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu52_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Adapter&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T142503Z" creationid="Марианна" creationdate="20231108T142503Z">
+        <seg>&lt;x1/&gt;Adapter&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu54_0</prop>
+      <tuv lang="ru">
+        <seg>Бесплатные лицензии&lt;x1/&gt;2&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T142532Z" creationid="Марианна" creationdate="20231108T142532Z">
+        <seg>Free licences&lt;x1/&gt;2&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu57_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Операционная система&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T142615Z" creationid="Марианна" creationdate="20231108T142615Z">
+        <seg>&lt;x1/&gt;Operating system&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -68764,6 +68804,16 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231108T135241Z" creationid="Марианна" creationdate="20231108T135241Z">
         <seg>Is it required to publish web services?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">integration/connections/list/sqlite.md</prop>
+      <prop type="id">tu6_0</prop>
+      <tuv lang="ru">
+        <seg>Результат сравнения строк зависит от локали операционной системы сервера Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T142644Z" creationid="Марианна" creationdate="20231108T142644Z">
+        <seg>The string comparison result depends on the operating system locale of the Loginom server.</seg>
       </tuv>
     </tu>
   </body>
