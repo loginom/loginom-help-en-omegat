@@ -68742,8 +68742,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Сравнение редакций</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231107T172011Z" creationid="Марианна" creationdate="20231107T172011Z">
-        <seg>Comparison of Editions</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T145954Z" creationid="Марианна" creationdate="20231107T172011Z">
+        <seg>Compare Editions</seg>
       </tuv>
     </tu>
     <tu>
