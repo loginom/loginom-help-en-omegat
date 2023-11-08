@@ -68408,6 +68408,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu10_0</prop>
+      <tuv lang="ru">
+        <seg>Планируется ли интеграция с нестандартными веб-сервисами?</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T135413Z" creationid="Марианна" creationdate="20231108T135413Z">
+        <seg>Is integration with non-standard web services planned?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
       <prop type="id">tu1_0</prop>
       <tuv lang="ru">
         <seg>Сравнение редакций</seg>
@@ -68494,6 +68504,26 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231108T135046Z" creationid="Марианна" creationdate="20231108T135046Z">
         <seg>What are the performance requirements?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu8_0</prop>
+      <tuv lang="ru">
+        <seg>Требуется ли автоматический запуск сценариев?</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T135132Z" creationid="Марианна" creationdate="20231108T135132Z">
+        <seg>Is automatic workflow start required?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu9_0</prop>
+      <tuv lang="ru">
+        <seg>Есть ли необходимость публикации веб-сервисов?</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T135241Z" creationid="Марианна" creationdate="20231108T135241Z">
+        <seg>Is it required to publish web services?</seg>
       </tuv>
     </tu>
   </body>
