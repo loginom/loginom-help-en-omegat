@@ -68488,6 +68488,36 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu16_0</prop>
+      <tuv lang="ru">
+        <seg>Personal</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T142816Z" creationid="Марианна" creationdate="20231108T142816Z">
+        <seg>Personal</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu17_0</prop>
+      <tuv lang="ru">
+        <seg>Настольная редакция.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T142841Z" creationid="Марианна" creationdate="20231108T142841Z">
+        <seg>Desktop edition.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu17_0</prop>
+      <tuv lang="ru">
+        <seg>Предназначена для автономной аналитической обработки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T142928Z" creationid="Марианна" creationdate="20231108T142928Z">
+        <seg>It is designated for the autonomous analytical processing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
       <prop type="id">tu1_0</prop>
       <tuv lang="ru">
         <seg>Сравнение редакций</seg>
