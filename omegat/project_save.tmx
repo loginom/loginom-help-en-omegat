@@ -68540,6 +68540,16 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">compare-editions.md</prop>
       <prop type="id">tu19_0</prop>
       <tuv lang="ru">
+        <seg>Редакция доступна для операционной системы Windows.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T143053Z" creationid="Марианна" creationdate="20231108T143053Z">
+        <seg>The edition is available only for Windows operating system.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu19_0</prop>
+      <tuv lang="ru">
         <seg>Серверная редакция.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231108T143029Z" creationid="Марианна" creationdate="20231108T143029Z">
