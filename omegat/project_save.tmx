@@ -68638,6 +68638,46 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu170_0</prop>
+      <tuv lang="ru">
+        <seg>SLA Стандарт</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T145706Z" creationid="Марианна" creationdate="20231108T145706Z">
+        <seg>SLA Standard</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu176_0</prop>
+      <tuv lang="ru">
+        <seg>SLA Премиум</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T145717Z" creationid="Марианна" creationdate="20231108T145717Z">
+        <seg>SLA Premium</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu177_0</prop>
+      <tuv lang="ru">
+        <seg>○&lt;x1/&gt;1&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T145722Z" creationid="Марианна" creationdate="20231108T145722Z">
+        <seg>○&lt;x1/&gt;1&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu179_0</prop>
+      <tuv lang="ru">
+        <seg>Примечания:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T145741Z" creationid="Марианна" creationdate="20231108T145741Z">
+        <seg>Notes:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
       <prop type="id">tu17_0</prop>
       <tuv lang="ru">
         <seg>Настольная редакция.</seg>
