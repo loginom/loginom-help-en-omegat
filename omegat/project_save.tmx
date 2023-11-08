@@ -68458,12 +68458,62 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu126_0</prop>
+      <tuv lang="ru">
+        <seg>SOAP WSDL</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T144135Z" creationid="Марианна" creationdate="20231108T144135Z">
+        <seg>SOAP WSDL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
       <prop type="id">tu12_0</prop>
       <tuv lang="ru">
         <seg>Требуется ли построение отказоустойчивой и масштабируемой архитектуры?</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231108T140346Z" creationid="Марианна" creationdate="20231108T140346Z">
         <seg>Is it required to build fail-safe and scalable architecture?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu130_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Kafka&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T144141Z" creationid="Марианна" creationdate="20231108T144141Z">
+        <seg>&lt;x1/&gt;Kafka&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu133_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Обучение&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T144208Z" creationid="Марианна" creationdate="20231108T144208Z">
+        <seg>&lt;x1/&gt;Training&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu134_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Базовые курсы&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T144233Z" creationid="Марианна" creationdate="20231108T144233Z">
+        <seg>&lt;x1/&gt;Standard training&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu139_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Воркшопы&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T144243Z" creationid="Марианна" creationdate="20231108T144243Z">
+        <seg>&lt;x1/&gt;Workshops&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -68478,12 +68528,52 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu144_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Навыки&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T144251Z" creationid="Марианна" creationdate="20231108T144251Z">
+        <seg>&lt;x1/&gt;Skills&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu149_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Библиотеки компонентов&lt;x2/&gt;&lt;x3/&gt;4&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T144314Z" creationid="Марианна" creationdate="20231108T144314Z">
+        <seg>&lt;x1/&gt;Component library&lt;x2/&gt;&lt;x3/&gt;4&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
       <prop type="id">tu14_0</prop>
       <tuv lang="ru">
         <seg>Community</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231108T141443Z" creationid="Марианна" creationdate="20231108T141443Z">
         <seg>Community</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu154_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Бизнес-курсы&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T144331Z" creationid="Марианна" creationdate="20231108T144331Z">
+        <seg>&lt;x1/&gt;Business training&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu158_0</prop>
+      <tuv lang="ru">
+        <seg>Каркасы и шаблоны сценариев</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T145448Z" creationid="Марианна" creationdate="20231108T145448Z">
+        <seg>Workflow frames and templates</seg>
       </tuv>
     </tu>
     <tu>
