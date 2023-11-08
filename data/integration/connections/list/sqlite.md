@@ -9,7 +9,7 @@ It is used for connection to the SQLite database.
 
 * Наряду со стандартными правилами сравнения символов (collation) BINARY, RTRIM и NOCASE возможно использование нижеследующих, не регламентированных стандартом SQLite:
    * **UNICODE** — языконезависимое сравнение символов Unicode чувствительное к регистру.
-   * **LOCALIZED** — языкозависимое сравнение символов Unicode чувствительное к регистру. The string comparison result depends on the operational system locale of the Loginom server.
+   * **LOCALIZED** — языкозависимое сравнение символов Unicode чувствительное к регистру. The string comparison result depends on the operating system locale of the Loginom server.
 * It is possible to use iLIKE function in the SQL constructions. It implements LIKE feature in the case insensitivity mode of Unicode characters.
 * Check by foreign keys is enabled by default.
 
