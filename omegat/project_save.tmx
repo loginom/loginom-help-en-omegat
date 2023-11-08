@@ -68428,6 +68428,26 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu12_0</prop>
+      <tuv lang="ru">
+        <seg>Требуется ли построение отказоустойчивой и масштабируемой архитектуры?</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T140346Z" creationid="Марианна" creationdate="20231108T140346Z">
+        <seg>Is it required to build fail-safe and scalable architecture?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu13_0</prop>
+      <tuv lang="ru">
+        <seg>Какую операционную систему должна поддерживать платформа?</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T141435Z" creationid="Марианна" creationdate="20231108T141435Z">
+        <seg>What operational system must be supported by the platform?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
       <prop type="id">tu1_0</prop>
       <tuv lang="ru">
         <seg>Сравнение редакций</seg>
