@@ -68498,6 +68498,36 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu21_0</prop>
+      <tuv lang="ru">
+        <seg>Серверная редакция.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T142058Z" creationid="Марианна" creationdate="20231108T142058Z">
+        <seg>Server edition.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu22_0</prop>
+      <tuv lang="ru">
+        <seg>Enterprise</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T142111Z" creationid="Марианна" creationdate="20231108T142111Z">
+        <seg>Enterprise</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu23_0</prop>
+      <tuv lang="ru">
+        <seg>Серверная редакция.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T142109Z" creationid="Марианна" creationdate="20231108T142109Z">
+        <seg>Server edition.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
       <prop type="id">tu2_0</prop>
       <tuv lang="ru">
         <seg>Для выбора редакции Loginom необходимо определиться с вариантами использования платформы.</seg>
