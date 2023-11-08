@@ -68528,6 +68528,76 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu24_0</prop>
+      <tuv lang="ru">
+        <seg>Cloud</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T142133Z" creationid="Марианна" creationdate="20231108T142133Z">
+        <seg>Cloud</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu25_0</prop>
+      <tuv lang="ru">
+        <seg>Облачная редакция.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T142227Z" creationid="Марианна" creationdate="20231108T142227Z">
+        <seg>Cloud edition.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu25_0</prop>
+      <tuv lang="ru">
+        <seg>Редакция доступна только для операционной системы Linux.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T142329Z" creationid="Марианна" creationdate="20231108T142329Z">
+        <seg>The edition is available only for Linux operating system.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu26_0</prop>
+      <tuv lang="ru">
+        <seg>Таблица сравнения</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T142346Z" creationid="Марианна" creationdate="20231108T142346Z">
+        <seg>Comparison table</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu27_0</prop>
+      <tuv lang="ru">
+        <seg>Community</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T142349Z" creationid="Марианна" creationdate="20231108T142349Z">
+        <seg>Community</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu28_0</prop>
+      <tuv lang="ru">
+        <seg>Personal</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T142353Z" creationid="Марианна" creationdate="20231108T142353Z">
+        <seg>Personal</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu29_0</prop>
+      <tuv lang="ru">
+        <seg>Team</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T142357Z" creationid="Марианна" creationdate="20231108T142357Z">
+        <seg>Team</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
       <prop type="id">tu2_0</prop>
       <tuv lang="ru">
         <seg>Для выбора редакции Loginom необходимо определиться с вариантами использования платформы.</seg>
@@ -68558,12 +68628,82 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu30_0</prop>
+      <tuv lang="ru">
+        <seg>Standard</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T142401Z" creationid="Марианна" creationdate="20231108T142401Z">
+        <seg>Standard</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu31_0</prop>
+      <tuv lang="ru">
+        <seg>Enterprise</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T142406Z" creationid="Марианна" creationdate="20231108T142406Z">
+        <seg>Enterprise</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu32_0</prop>
+      <tuv lang="ru">
+        <seg>Cloud</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T142410Z" creationid="Марианна" creationdate="20231108T142410Z">
+        <seg>Cloud</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu33_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Компоненты&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T142430Z" creationid="Марианна" creationdate="20231108T142430Z">
+        <seg>&lt;x1/&gt;Components&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu34_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Desktop&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T142433Z" creationid="Марианна" creationdate="20231108T142433Z">
+        <seg>&lt;x1/&gt;Desktop&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu37_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Server&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T142439Z" creationid="Марианна" creationdate="20231108T142439Z">
+        <seg>&lt;x1/&gt;Server&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
       <prop type="id">tu3_0</prop>
       <tuv lang="ru">
         <seg>Ключевые вопросы, определяющие выбор редакции:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231108T134144Z" creationid="Марианна" creationdate="20231108T134144Z">
         <seg>The key questions that stipulate edition selection:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu42_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Studio&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T142445Z" creationid="Марианна" creationdate="20231108T142445Z">
+        <seg>&lt;x1/&gt;Studio&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
