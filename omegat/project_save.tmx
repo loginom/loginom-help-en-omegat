@@ -68568,6 +68568,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu20_0</prop>
+      <tuv lang="ru">
+        <seg>Standard</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T143116Z" creationid="Марианна" creationdate="20231108T143116Z">
+        <seg>Standard</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
       <prop type="id">tu21_0</prop>
       <tuv lang="ru">
         <seg>Серверная редакция.</seg>
@@ -68828,6 +68838,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu58_0</prop>
+      <tuv lang="ru">
+        <seg>Windows</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T143131Z" creationid="Марианна" creationdate="20231108T143131Z">
+        <seg>Windows</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
       <prop type="id">tu5_0</prop>
       <tuv lang="ru">
         <seg>Какое количество пользователей будет работать с платформой?</seg>
@@ -68838,12 +68858,42 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu64_0</prop>
+      <tuv lang="ru">
+        <seg>Linux</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T143137Z" creationid="Марианна" creationdate="20231108T143137Z">
+        <seg>Linux</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
       <prop type="id">tu6_0</prop>
       <tuv lang="ru">
         <seg>Насколько большие объемы данных необходимо обрабатывать?</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231108T134506Z" creationid="Марианна" creationdate="20231108T134506Z">
         <seg>How large amounts of data are to be processed?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu70_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Ограничения&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T143241Z" creationid="Марианна" creationdate="20231108T143241Z">
+        <seg>&lt;x1/&gt;Restrictions&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu71_0</prop>
+      <tuv lang="ru">
+        <seg>Рабочие места&lt;x1/&gt;3&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231108T143426Z" creationid="Марианна" creationdate="20231108T143426Z">
+        <seg>Work places&lt;x1/&gt;3&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
