@@ -68580,6 +68580,16 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">compare-editions.md</prop>
       <prop type="id">tu15_0</prop>
       <tuv lang="ru">
+        <seg>Кроме того, доступна работа с REST-сервисами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231109T070415Z" creationid="Марианна" creationdate="20231109T070415Z">
+        <seg>Besides, work with REST services is available.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu15_0</prop>
+      <tuv lang="ru">
         <seg>Настольная редакция.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231108T141516Z" creationid="Марианна" creationdate="20231108T141516Z">
@@ -68624,6 +68634,16 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231108T142019Z" creationid="Марианна" creationdate="20231108T142019Z">
         <seg>It is not allowed to use this edition of the platform for commercial purposes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu15_0</prop>
+      <tuv lang="ru">
+        <seg>Редакция доступна для операционных систем Linux и Windows.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231109T070451Z" creationid="Марианна" creationdate="20231109T070451Z">
+        <seg>The edition is available only for Linux and Windows operating systems.</seg>
       </tuv>
     </tu>
     <tu>
