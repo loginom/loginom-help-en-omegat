@@ -68768,6 +68768,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu17_0</prop>
+      <tuv lang="ru">
+        <seg>Так как редакция ориентирована на персональную работу аналитика, то отсутствуют встроенные механизмы коллективной работы, интеграции с бизнес-процессами и SOAP-сервисами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231109T071455Z" creationid="Марианна" creationdate="20231109T071455Z">
+        <seg>As the edition is targeted at the personal work of analyst, there are no built-in mechanisms of team work, integration with business processes and SOAP services.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
       <prop type="id">tu18_0</prop>
       <tuv lang="ru">
         <seg>Team</seg>
