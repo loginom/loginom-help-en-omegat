@@ -68600,6 +68600,16 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">compare-editions.md</prop>
       <prop type="id">tu15_0</prop>
       <tuv lang="ru">
+        <seg>Предполагает индивидуальный анализ данных, без механизмов коллективной работы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231109T070113Z" creationid="Марианна" creationdate="20231109T070113Z">
+        <seg>Individual data analysis without team work mechanisms is provided.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu15_0</prop>
+      <tuv lang="ru">
         <seg>Применение платформы в данной редакции для коммерческих целей не допускается.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231108T142019Z" creationid="Марианна" creationdate="20231108T142019Z">
