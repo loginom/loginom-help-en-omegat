@@ -68800,6 +68800,16 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">compare-editions.md</prop>
       <prop type="id">tu19_0</prop>
       <tuv lang="ru">
+        <seg>Возможности вызова сторонних SOAP-сервисов и публикации собственных веб-сервисов отсутствуют.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231109T072603Z" creationid="Марианна" creationdate="20231109T072603Z">
+        <seg>It is not possible to call third party SOAP services and publications of own web services.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu19_0</prop>
+      <tuv lang="ru">
         <seg>Доступна возможность пакетного выполнения сценариев.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231109T072417Z" creationid="Марианна" creationdate="20231109T072417Z">
