@@ -68730,6 +68730,16 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">compare-editions.md</prop>
       <prop type="id">tu17_0</prop>
       <tuv lang="ru">
+        <seg>Отсутствует возможность автоматического запуска сценариев.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231109T071528Z" creationid="Марианна" creationdate="20231109T071528Z">
+        <seg>Automatic start of workflows is not available.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu17_0</prop>
+      <tuv lang="ru">
         <seg>Отсутствуют ограничения на количество процессоров или объемы памяти.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231109T071136Z" creationid="Марианна" creationdate="20231109T071136Z">
