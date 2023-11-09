@@ -68730,10 +68730,30 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">compare-editions.md</prop>
       <prop type="id">tu17_0</prop>
       <tuv lang="ru">
+        <seg>Отсутствуют ограничения на количество процессоров или объемы памяти.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231109T071136Z" creationid="Марианна" creationdate="20231109T071136Z">
+        <seg>There is no limit on the number of processors or memory sizes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu17_0</prop>
+      <tuv lang="ru">
         <seg>Предназначена для автономной аналитической обработки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231108T142928Z" creationid="Марианна" creationdate="20231108T142928Z">
         <seg>It is designated for the autonomous analytical processing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu17_0</prop>
+      <tuv lang="ru">
+        <seg>Производительность зависит только от мощности используемой рабочей станции.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231109T070634Z" creationid="Марианна" creationdate="20231109T070634Z">
+        <seg>Performance depends only on the capacity of the used working station.</seg>
       </tuv>
     </tu>
     <tu>
