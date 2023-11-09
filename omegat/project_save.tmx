@@ -68590,6 +68590,16 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">compare-editions.md</prop>
       <prop type="id">tu15_0</prop>
       <tuv lang="ru">
+        <seg>Поддерживается работа с множеством источников данных, интеграция с 1С доступна только на Windows.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231109T070336Z" creationid="Марианна" creationdate="20231109T070336Z">
+        <seg>Work of multiple data sources is supported, integration with 1C is available only for Windows.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu15_0</prop>
+      <tuv lang="ru">
         <seg>Предназначена для обучения аналитиков и студентов работе с платформой Loginom.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231108T141816Z" creationid="Марианна" creationdate="20231108T141816Z">
