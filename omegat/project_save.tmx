@@ -68800,10 +68800,20 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">compare-editions.md</prop>
       <prop type="id">tu19_0</prop>
       <tuv lang="ru">
+        <seg>Доступна возможность пакетного выполнения сценариев.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231109T072417Z" creationid="Марианна" creationdate="20231109T072417Z">
+        <seg>Batch processing of workflows is available.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu19_0</prop>
+      <tuv lang="ru">
         <seg>Объемы обрабатываемых данных должны соответствовать серверу с количеством процессорных ядер не более 6 и объемом оперативной памяти до 12 Гб.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231109T072038Z" creationid="Марианна" creationdate="20231109T072038Z">
-        <seg>Sizes of the processed data must comply with the number of processor cores not exceeding 6 and RAM size up to 12 GB.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231109T072347Z" creationid="Марианна" creationdate="20231109T072038Z">
+        <seg>The processed data sizes must match the server with not more than 6 processor cores and RAM size up to 12 GB.</seg>
       </tuv>
     </tu>
     <tu>
