@@ -68880,6 +68880,16 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">compare-editions.md</prop>
       <prop type="id">tu21_0</prop>
       <tuv lang="ru">
+        <seg>Предназначена для средних компаний, с количеством пользователей от 5 до 10 человек.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231109T072809Z" creationid="Марианна" creationdate="20231109T072809Z">
+        <seg>It is designated for average companies with from 5 to 10 users.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu21_0</prop>
+      <tuv lang="ru">
         <seg>Серверная редакция.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231108T142058Z" creationid="Марианна" creationdate="20231108T142058Z">
