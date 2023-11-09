@@ -68800,6 +68800,26 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">compare-editions.md</prop>
       <prop type="id">tu19_0</prop>
       <tuv lang="ru">
+        <seg>Объемы обрабатываемых данных должны соответствовать серверу с количеством процессорных ядер не более 6 и объемом оперативной памяти до 12 Гб.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231109T072038Z" creationid="Марианна" creationdate="20231109T072038Z">
+        <seg>Sizes of the processed data must comply with the number of processor cores not exceeding 6 and RAM size up to 12 GB.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu19_0</prop>
+      <tuv lang="ru">
+        <seg>Предназначена для небольших команд до 5 человек и ориентирована на решение базовых аналитических задач.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231109T071627Z" creationid="Марианна" creationdate="20231109T071627Z">
+        <seg>It is designated for small teams up to 5 people and it is targeted at solution of the basic analytical tasks.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu19_0</prop>
+      <tuv lang="ru">
         <seg>Редакция доступна для операционной системы Windows.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231108T143053Z" creationid="Марианна" creationdate="20231108T143053Z">
