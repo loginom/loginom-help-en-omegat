@@ -68802,8 +68802,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Возможности вызова сторонних SOAP-сервисов и публикации собственных веб-сервисов отсутствуют.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231109T072603Z" creationid="Марианна" creationdate="20231109T072603Z">
-        <seg>It is not possible to call third party SOAP services and publications of own web services.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231109T072646Z" creationid="Марианна" creationdate="20231109T072603Z">
+        <seg>It is not possible to call the third party SOAP services and publications of own web services.</seg>
       </tuv>
     </tu>
     <tu>
