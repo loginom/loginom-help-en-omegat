@@ -68880,6 +68880,16 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">compare-editions.md</prop>
       <prop type="id">tu21_0</prop>
       <tuv lang="ru">
+        <seg>Доступна возможность обработки данных в пакетном режиме, вызова сторонних веб-сервисов для интеграции в бизнес-процессы компании, публикация веб-сервисов, а также построение кластера серверов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231110T060527Z" creationid="Марианна" creationdate="20231110T060527Z">
+        <seg>It is possible to process data in the batch mode, call the third party web services for integration into the company business processes, publish web services and construct server cluster.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu21_0</prop>
+      <tuv lang="ru">
         <seg>Может быть задействовано не более 12 процессорных ядер и до 24 Гб оперативной памяти.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231109T072911Z" creationid="Марианна" creationdate="20231109T072911Z">
