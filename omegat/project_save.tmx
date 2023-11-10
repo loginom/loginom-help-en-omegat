@@ -68828,8 +68828,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Для редакций Team и Standard один пользователь может запустить Loginom 2 раза одновременно в разных вкладках/окнах, т.е. для 5 рабочих мест получается максимум 10 сессий, аналогично для 10 рабочих мест — 20 сессий.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231110T063819Z" creationid="Марианна" creationdate="20231110T063819Z">
-        <seg>A user can start Megaladata twice simaltaneously in different tabs/windows in the Team and Standard editions, namely, 10 sessions are provided for 5 working places, whereas 20 sessions are provided for 10 working places.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231110T063924Z" creationid="Марианна" creationdate="20231110T063819Z">
+        <seg>A user can start Megaladata 2 times simultaneously in different tabs/windows in the Team and Standard editions, namely, maximum 10 sessions are provided for 5 working places, whereas 20 sessions are provided for 10 working places.</seg>
       </tuv>
     </tu>
     <tu>
