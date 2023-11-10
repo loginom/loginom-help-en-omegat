@@ -68688,6 +68688,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu175_0</prop>
+      <tuv lang="ru">
+        <seg>○&lt;x1/&gt;1&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231110T062243Z" creationid="Марианна" creationdate="20231110T062243Z">
+        <seg>○&lt;x1/&gt;1&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
       <prop type="id">tu176_0</prop>
       <tuv lang="ru">
         <seg>SLA Премиум</seg>
@@ -69020,6 +69030,16 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">compare-editions.md</prop>
       <prop type="id">tu25_0</prop>
       <tuv lang="ru">
+        <seg>Доступна возможность обработки данных в пакетном режиме, вызова сторонних веб-сервисов для интеграции в бизнес-процессы компании, публикация веб-сервисов, а также построение кластера серверов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231110T062228Z" creationid="Марианна" creationdate="20231110T062228Z">
+        <seg>It is possible to process data in the batch mode, call the third party web services for integration into the company business processes, publish web services and construct server cluster.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu25_0</prop>
+      <tuv lang="ru">
         <seg>Облачная редакция.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231108T142227Z" creationid="Марианна" creationdate="20231108T142227Z">
@@ -69034,6 +69054,26 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231110T061925Z" creationid="Марианна" creationdate="20231110T061925Z">
         <seg>There is no limit on the number of processor cores and used RAM size.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu25_0</prop>
+      <tuv lang="ru">
+        <seg>Платформа работает только на мощностях арендованной виртуальной машины.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231110T062507Z" creationid="Марианна" creationdate="20231110T062507Z">
+        <seg>The platform is operated using the rented virtual machine capacities.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu25_0</prop>
+      <tuv lang="ru">
+        <seg>Потребляемые ресурсы могут масштабироваться по требованию заказчика, в зависимости от изменения нагрузок.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231110T062658Z" creationid="Марианна" creationdate="20231110T062658Z">
+        <seg>The supplied resources can be scaled upon customer request according to the load size change.</seg>
       </tuv>
     </tu>
     <tu>
@@ -69204,6 +69244,26 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231108T142453Z" creationid="Марианна" creationdate="20231108T142453Z">
         <seg>&lt;x1/&gt;Integrator&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu48_0</prop>
+      <tuv lang="ru">
+        <seg>○&lt;x1/&gt;1&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231110T062230Z" creationid="Марианна" creationdate="20231110T062230Z">
+        <seg>○&lt;x1/&gt;1&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu49_0</prop>
+      <tuv lang="ru">
+        <seg>○&lt;x1/&gt;1&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231110T062234Z" creationid="Марианна" creationdate="20231110T062234Z">
+        <seg>○&lt;x1/&gt;1&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
