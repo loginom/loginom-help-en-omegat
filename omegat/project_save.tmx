@@ -68814,6 +68814,26 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu181_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно&lt;x2/&gt;: сессией считается одна вкладка или окно браузера, где работает Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231110T063615Z" creationid="Марианна" creationdate="20231110T063615Z">
+        <seg>&lt;x1/&gt;Important&lt;x2/&gt;: Session is considered to be one tab or browser window when Megaladata is operated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu181_0</prop>
+      <tuv lang="ru">
+        <seg>Для редакций Team и Standard один пользователь может запустить Loginom 2 раза одновременно в разных вкладках/окнах, т.е. для 5 рабочих мест получается максимум 10 сессий, аналогично для 10 рабочих мест — 20 сессий.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231110T063819Z" creationid="Марианна" creationdate="20231110T063819Z">
+        <seg>A user can start Megaladata twice simaltaneously in different tabs/windows in the Team and Standard editions, namely, 10 sessions are provided for 5 working places, whereas 20 sessions are provided for 10 working places.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
       <prop type="id">tu18_0</prop>
       <tuv lang="ru">
         <seg>Team</seg>
