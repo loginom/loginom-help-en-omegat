@@ -68642,8 +68642,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Редакция доступна для операционных систем Linux и Windows.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231109T070451Z" creationid="Марианна" creationdate="20231109T070451Z">
-        <seg>The edition is available only for Linux and Windows operating systems.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231110T061827Z" creationid="Марианна" creationdate="20231109T070451Z">
+        <seg>The edition is available for Linux and Windows operating systems.</seg>
       </tuv>
     </tu>
     <tu>
@@ -68974,6 +68974,16 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231110T061510Z" creationid="Марианна" creationdate="20231110T061510Z">
         <seg>There is no limit on the number of processor cores and used RAM size.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu23_0</prop>
+      <tuv lang="ru">
+        <seg>Редакция доступна для операционных систем Linux и Windows.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231110T061817Z" creationid="Марианна" creationdate="20231110T061817Z">
+        <seg>The edition is available for Linux and Windows operating systems.</seg>
       </tuv>
     </tu>
     <tu>
