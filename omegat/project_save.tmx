@@ -69010,10 +69010,30 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">compare-editions.md</prop>
       <prop type="id">tu25_0</prop>
       <tuv lang="ru">
+        <seg>В поставку сразу входят Server и  Loginom Integrator.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231110T062146Z" creationid="Марианна" creationdate="20231110T062146Z">
+        <seg>Server and Megaladata Integrator are supplied at once.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu25_0</prop>
+      <tuv lang="ru">
         <seg>Облачная редакция.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231108T142227Z" creationid="Марианна" creationdate="20231108T142227Z">
         <seg>Cloud edition.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu25_0</prop>
+      <tuv lang="ru">
+        <seg>Отсутствуют ограничения на количество ядер процессоров и объем используемой оперативной памяти.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231110T061925Z" creationid="Марианна" creationdate="20231110T061925Z">
+        <seg>There is no limit on the number of processor cores and used RAM size.</seg>
       </tuv>
     </tu>
     <tu>
