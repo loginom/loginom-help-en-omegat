@@ -68940,10 +68940,40 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">compare-editions.md</prop>
       <prop type="id">tu23_0</prop>
       <tuv lang="ru">
+        <seg>Возможно приобретение дополнительных лицензий на любое количество пользователей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231110T061701Z" creationid="Марианна" creationdate="20231110T061701Z">
+        <seg>It is possible to buy additional licences for any number of users.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu23_0</prop>
+      <tuv lang="ru">
+        <seg>Доступна возможность обработки данных в пакетном режиме, вызова сторонних веб-сервисов для интеграции в бизнес-процессы компании, публикация веб-сервисов, а также построение кластера серверов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231110T061553Z" creationid="Марианна" creationdate="20231110T061553Z">
+        <seg>It is possible to process data in the batch mode, call the third party web services for integration into the company business processes, publish web services and construct server cluster.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu23_0</prop>
+      <tuv lang="ru">
         <seg>Ориентирована на корпоративную обработку больших объемов данных, реализацию критичных бизнес-процессов в отказоустойчивой и масштабируемой среде.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231110T060952Z" creationid="Марианна" creationdate="20231110T060952Z">
         <seg>It is targeted at the corporate processing of large volumes of data, implementation of the critical business processes in the fail-safe and scalable environment.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu23_0</prop>
+      <tuv lang="ru">
+        <seg>Отсутствуют ограничения на количество ядер процессоров и объем используемой оперативной памяти.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231110T061510Z" creationid="Марианна" creationdate="20231110T061510Z">
+        <seg>There is no limit on the number of processor cores and used RAM size.</seg>
       </tuv>
     </tu>
     <tu>
