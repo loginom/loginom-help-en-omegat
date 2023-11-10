@@ -68798,6 +68798,22 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu180_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;1&lt;x2/&gt; Приобретается дополнительно&lt;x3/&gt;
+&lt;x4/&gt;2&lt;x5/&gt; Дополнительные контуры для разработки, тестирования и прочее, предоставляемые в рамках договора техподдержки&lt;x6/&gt;
+&lt;x7/&gt;3&lt;x8/&gt; Количество сессий на одного пользователя/одно рабочее место ограничено (подробнее см.ниже в &lt;x9/&gt;Важно&lt;x10/&gt;)&lt;x11/&gt;
+&lt;x12/&gt;4&lt;x13/&gt; Для коммерческого применения</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231110T063429Z" creationid="Марианна" creationdate="20231110T063429Z">
+        <seg>&lt;x1/&gt;1&lt;x2/&gt; Additionally purchased&lt;x3/&gt;
+&lt;x4/&gt;2&lt;x5/&gt; Additional contours for development, testing, etc. supplied within the terms of the techical support agreement&lt;x6/&gt;
+&lt;x7/&gt;3&lt;x8/&gt; Number of sessions is limited for one person/one working place (more detailed information is provided below in &lt;x9/&gt;Important&lt;x10/&gt; section)&lt;x11/&gt;
+&lt;x12/&gt;4&lt;x13/&gt; For commercial use</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
       <prop type="id">tu18_0</prop>
       <tuv lang="ru">
         <seg>Team</seg>
