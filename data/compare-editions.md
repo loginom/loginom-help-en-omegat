@@ -21,27 +21,27 @@ The key questions that stipulate edition selection:
 
 ## Community
 
-Desktop edition. It is used to train analysts and students how to work with the Megaladata platform. It is not allowed to use this edition of the platform for commercial purposes. Предполагает индивидуальный анализ данных, без механизмов коллективной работы. Поддерживается работа с множеством источников данных, интеграция с 1С доступна только на Windows. Кроме того, доступна работа с REST-сервисами. Редакция доступна для операционных систем Linux и Windows.
+Desktop edition. It is used to train analysts and students how to work with the Megaladata platform. It is not allowed to use this edition of the platform for commercial purposes. Individual data analysis without team work mechanisms is provided. Work of multiple data sources is supported, integration with 1C is available only for Windows. Besides, work with REST services is available. The edition is available for Linux and Windows operating systems.
 
 ## Personal
 
-Desktop edition. It is designated for the autonomous analytical processing. Производительность зависит только от мощности используемой рабочей станции. Отсутствуют ограничения на количество процессоров или объемы памяти. Так как редакция ориентирована на персональную работу аналитика, то отсутствуют встроенные механизмы коллективной работы, интеграции с бизнес-процессами и SOAP-сервисами. Отсутствует возможность автоматического запуска сценариев. The edition is available only for Linux and Windows operating systems.
+Desktop edition. It is designated for the autonomous analytical processing. Performance depends only on the capacity of the used working station. There is no limit on the number of processors or memory sizes. As the edition is targeted at the personal work of analyst, there are no built-in mechanisms of team work, integration with business processes and SOAP services. Automatic start of workflows is not available. The edition is available only for Linux and Windows operating systems.
 
 ## Team
 
-Server edition. Предназначена для небольших команд до 5 человек и ориентирована на решение базовых аналитических задач. Объемы обрабатываемых данных должны соответствовать серверу с количеством процессорных ядер не более 6 и объемом оперативной памяти до 12 Гб. Доступна возможность пакетного выполнения сценариев. Возможности вызова сторонних SOAP-сервисов и публикации собственных веб-сервисов отсутствуют. The edition is available only for Windows operating system.
+Server edition. It is designated for small teams up to 5 people and it is targeted at solution of the basic analytical tasks. The processed data sizes must match the server with not more than 6 processor cores and RAM size up to 12 GB. Batch processing of workflows is available. It is not possible to call the third party SOAP services and publications of own web services. The edition is available only for Windows operating system.
 
 ## Standard
 
-Server edition. Предназначена для средних компаний, с количеством пользователей от 5 до 10 человек. Может быть задействовано не более 12 процессорных ядер и до 24 Гб оперативной памяти. Доступна возможность обработки данных в пакетном режиме, вызова сторонних веб-сервисов для интеграции в бизнес-процессы компании, публикация веб-сервисов, а также построение кластера серверов. Редакция доступна для операционных систем Linux и Windows.
+Server edition. It is designated for average companies with from 5 to 10 users. Not more than 12 processor cores and up to 24 GB of RAM can be used. It is possible to process data in the batch mode, call the third party web services for integration into the company business processes, publish web services and construct server cluster. The edition is available for Linux and Windows operating systems.
 
 ## Enterprise
 
-Server edition. Ориентирована на корпоративную обработку больших объемов данных, реализацию критичных бизнес-процессов в отказоустойчивой и масштабируемой среде. Отсутствуют ограничения на количество ядер процессоров и объем используемой оперативной памяти. Возможно приобретение дополнительных лицензий на любое количество пользователей. Доступна возможность обработки данных в пакетном режиме, вызова сторонних веб-сервисов для интеграции в бизнес-процессы компании, публикация веб-сервисов, а также построение кластера серверов. Редакция доступна для операционных систем Linux и Windows.
+Server edition. It is targeted at the corporate processing of large volumes of data, implementation of the critical business processes in the fail-safe and scalable environment. There is no limit on the number of processor cores and used RAM size. It is possible to buy additional licences for any number of users. It is possible to process data in the batch mode, call the third party web services for integration into the company business processes, publish web services and construct server cluster. The edition is available for Linux and Windows operating systems.
 
 ## Cloud
 
-Cloud edition. Платформа работает только на мощностях арендованной виртуальной машины. Потребляемые ресурсы могут масштабироваться по требованию заказчика, в зависимости от изменения нагрузок. Отсутствуют ограничения на количество ядер процессоров и объем используемой оперативной памяти. В поставку сразу входят Server и  Loginom Integrator. Доступна возможность обработки данных в пакетном режиме, вызова сторонних веб-сервисов для интеграции в бизнес-процессы компании, публикация веб-сервисов, а также построение кластера серверов. The edition is available only for Linux operating system.
+Cloud edition. The platform is operated using the rented virtual machine capacities. The supplied resources can be scaled upon customer request according to the load size change. There is no limit on the number of processor cores and used RAM size. Server and Megaladata Integrator are supplied at once. It is possible to process data in the batch mode, call the third party web services for integration into the company business processes, publish web services and construct server cluster. The edition is available only for Linux operating system.
 
 ## Comparison table
 
@@ -63,7 +63,7 @@ Cloud edition. Платформа работает только на мощно�
 | RAM |           |          | up to12 GB | up to 24 Гб | ∞ | ∞ |
 | **Functions** |           |          |          |          |            |        |
 | Processing and visualisation | ● | ● | ● | ● | ● | ● |
-| Package processing |           |          | ● | ● | ● | ● |
+| Batch processing |           |          | ● | ● | ● | ● |
 | Поддержка LDAP<[LDAP support](./admin/ldap.md) |           |          |          |          | ● | ● |
 | **Integration** |           |          |          |          |            |        |
 | Files | ● | ● | ● | ● | ● | ● |
@@ -85,10 +85,10 @@ Cloud edition. Платформа работает только на мощно�
 
 Notes:
 
-<sup>1</sup> Приобретается дополнительно  
-<sup>2</sup> Дополнительные контуры для разработки, тестирования и прочее, предоставляемые в рамках договора техподдержки  
-<sup>3</sup> Количество сессий на одного пользователя/одно рабочее место ограничено (подробнее см.ниже в **Важно**)  
-<sup>4</sup> Для коммерческого применения
+<sup>1</sup> Additionally purchased  
+<sup>2</sup> Additional contours for development, testing, etc. supplied within the terms of the techical support agreement  
+<sup>3</sup> Number of sessions is limited for one person/one working place (more detailed information is provided below in **Important** section)  
+<sup>4</sup> For commercial use
 
 
-> **Важно**: сессией считается одна вкладка или окно браузера, где работает Loginom. Для редакций Team и Standard один пользователь может запустить Loginom 2 раза одновременно в разных вкладках/окнах, т.е. для 5 рабочих мест получается максимум 10 сессий, аналогично для 10 рабочих мест — 20 сессий. При попытке открыть третью вкладку или окно с Loginom пользователь получит сообщение «Превышено количество сессий, допустимых для вашей редакции». Для пользователя с правами admin или при пакетном выполнении сценария ограничений нет.
+> **Important**: Session is considered to be one tab or browser window when Megaladata is operated. A user can start Megaladata 2 times simultaneously in different tabs/windows in the Team and Standard editions, namely, maximum 10 sessions are provided for 5 working places, whereas 20 sessions are provided for 10 working places. While attempting to open the third tab or window with Megladata, a user will receive the following message: "Exceeded number of sessions available for your edition". There are no restriictions for the users with admin rights or in the case of batch processing of workflow.
