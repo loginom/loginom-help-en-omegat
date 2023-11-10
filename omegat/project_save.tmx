@@ -69532,8 +69532,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Пакетная обработка</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231108T144032Z" creationid="Марианна" creationdate="20231108T144032Z">
-        <seg>Package processing</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231110T062802Z" creationid="Марианна" creationdate="20231108T144032Z">
+        <seg>Batch processing</seg>
       </tuv>
     </tu>
     <tu>
