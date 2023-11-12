@@ -67117,6 +67117,26 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="file">admin/README.md</prop>
+      <prop type="id">tu2_0</prop>
+      <tuv lang="ru">
+        <seg>В отличие от серверных редакций поставки (Team, Standard, Enterprise), настольные (Community, Personal) имеют всего один пункт в разделе — &lt;x9/&gt;Параметры&lt;x10/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231112T065726Z" creationid="Марианна" creationdate="20231112T065726Z">
+        <seg>As opposed to the supplied server editions (Team, Standard, Enterprise), the desktop editions (Community, Personal) have only one point in the section — &lt;x9/&gt;Parameter&lt;x10/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/README.md</prop>
+      <prop type="id">tu2_0</prop>
+      <tuv lang="ru">
+        <seg>Этот раздел в интерфейсе программы нужен для управления &lt;x1/&gt;пользователями&lt;x2/&gt;, &lt;x3/&gt;рабочими папками&lt;x4/&gt;, &lt;x5/&gt;параметрами&lt;x6/&gt; работы сервера, просмотра открытых сессий и пакетов, мониторинга и управления их активностью в &lt;x7/&gt;диспетчере&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231112T064637Z" creationid="Марианна" creationdate="20231112T064637Z">
+        <seg>This section of the program interface is required for control of &lt;x1/&gt;users&lt;x2/&gt;, &lt;x3/&gt;work folders&lt;x4/&gt;, &lt;x5/&gt;parameters&lt;x6/&gt; of server operation, view of opened folders and packages, monitoring and control of their activity in the &lt;x7/&gt;Session Manager&lt;x8/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="file">admin/dispatcher.md</prop>
       <prop type="id">tu10_0</prop>
       <tuv lang="ru">
