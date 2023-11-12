@@ -69685,6 +69685,26 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="file">data/datatype.md</prop>
+      <prop type="id">tu10_0</prop>
+      <tuv lang="ru">
+        <seg>Данные, содержащие информацию о дате и времени.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231112T184816Z" creationid="Марианна" creationdate="20231112T184816Z">
+        <seg>Data that contain information on date and time.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">data/datatype.md</prop>
+      <prop type="id">tu10_0</prop>
+      <tuv lang="ru">
+        <seg>Минимальное значение даты - 30.12.1899 00:00:00, максимальное - 31.12.9999 23:59:59.999 (точность 1 мс).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231112T184906Z" creationid="Марианна" creationdate="20231112T184906Z">
+        <seg>Minimum date value - 30.12.1899 00:00:00, maximum - 31.12.9999 23:59:59.999 (accuracy: 1 ms).</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="file">integration/connections/list/sqlite.md</prop>
       <prop type="id">tu6_0</prop>
       <tuv lang="ru">
