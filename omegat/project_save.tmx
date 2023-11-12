@@ -69745,6 +69745,16 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="file">integration/connections/list/1c.md</prop>
+      <prop type="id">tu19_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; Для подключения ​к базе данных необходима установка толстого клиента 1С той же разрядности, что и разрядность приложения/сервера Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231112T185633Z" creationid="Марианна" creationdate="20231112T185633Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; To provide connection to the database, it is required to install the thick 1C client with the same bitness as the Megaladata application/server bitness.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="file">integration/connections/list/sqlite.md</prop>
       <prop type="id">tu6_0</prop>
       <tuv lang="ru">
