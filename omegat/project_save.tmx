@@ -69755,6 +69755,16 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="file">integration/connections/list/1c.md</prop>
+      <prop type="id">tu22_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; Если используется серверная редакция Loginom, то путь к базе данных должен иметь вид &lt;x3/&gt;"&lt;root&gt;datadatabases1C"&lt;x4/&gt;, где &lt;x5/&gt;&lt;root&gt;&lt;x6/&gt; — корневая папка Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231112T185827Z" creationid="Марианна" creationdate="20231112T185827Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; Is the server Megaladata edition is used, the path to the database must be as follows: &lt;x3/&gt;"&lt;root&gt;datadatabases1C"&lt;x4/&gt;, where &lt;x5/&gt;&lt;root&gt;&lt;x6/&gt; — root Megaladata folder.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="file">integration/connections/list/sqlite.md</prop>
       <prop type="id">tu6_0</prop>
       <tuv lang="ru">
