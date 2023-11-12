@@ -69633,6 +69633,28 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="file">data/datakind.md</prop>
+      <prop type="id">tu5_0</prop>
+      <tuv lang="ru">
+        <seg>| Тип данных | &lt;x1/&gt;&lt;x2/&gt; Непрерывный | &lt;x3/&gt;&lt;x4/&gt; Дискретный |
+| :- | :-: | :-: |
+| &lt;x5/&gt;&lt;x6/&gt; Логический | | • |
+| &lt;x7/&gt;&lt;x8/&gt; Дата/время | • |•|
+| &lt;x9/&gt;&lt;x10/&gt; Вещественный | • | • |
+| &lt;x11/&gt;&lt;x12/&gt; Целый | • | • |
+| &lt;x13/&gt;&lt;x14/&gt; Строковый | | • |</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231112T182552Z" creationid="Марианна" creationdate="20231112T182552Z">
+        <seg>| Data type | &lt;x1/&gt;&lt;x2/&gt; Continuous | &lt;x3/&gt;&lt;x4/&gt; Discrete |
+| :- | :-: | :-: |
+| &lt;x5/&gt;&lt;x6/&gt; Logical | | • |
+| &lt;x7/&gt;&lt;x8/&gt; Date/time | • |•|
+| &lt;x9/&gt;&lt;x10/&gt; Real | • | • |
+| &lt;x11/&gt;&lt;x12/&gt;  Integer | • | • |
+| &lt;x13/&gt;&lt;x14/&gt; String | | • |</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="file">integration/connections/list/sqlite.md</prop>
       <prop type="id">tu6_0</prop>
       <tuv lang="ru">
