@@ -69735,6 +69735,16 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="file">integration/connections/list/1c.md</prop>
+      <prop type="id">tu15_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Тестировать&lt;x2/&gt; — тест указанных настроек подключения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231112T185431Z" creationid="Марианна" creationdate="20231112T185431Z">
+        <seg>&lt;x1/&gt;Test&lt;x2/&gt;: test of the specified connection settings.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="file">integration/connections/list/sqlite.md</prop>
       <prop type="id">tu6_0</prop>
       <tuv lang="ru">
