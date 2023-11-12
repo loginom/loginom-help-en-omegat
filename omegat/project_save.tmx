@@ -69668,10 +69668,20 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">data/datasetfieldfeatures.md</prop>
       <prop type="id">tu9_0</prop>
       <tuv lang="ru">
+        <seg>Задает функциональность данных столбца в контексте выполняемого узлом алгоритма.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231112T183239Z" creationid="Марианна" creationdate="20231112T183239Z">
+        <seg>It sets the column data feature in the context of the algorithm executed by the node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">data/datasetfieldfeatures.md</prop>
+      <prop type="id">tu9_0</prop>
+      <tuv lang="ru">
         <seg>Перечень назначений, которые может принимать параметр, индивидуален для каждого узла.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231112T183019Z" creationid="Марианна" creationdate="20231112T183019Z">
-        <seg>The list of usage types that can be taken by the parameter is specific to each node.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231112T183111Z" creationid="Марианна" creationdate="20231112T183019Z">
+        <seg>The list of usage types that can be taken by the parameter is individual for each node.</seg>
       </tuv>
     </tu>
     <tu>
