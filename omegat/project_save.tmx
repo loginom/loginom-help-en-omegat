@@ -69705,6 +69705,36 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="file">data/datatype.md</prop>
+      <prop type="id">tu13_0</prop>
+      <tuv lang="ru">
+        <seg>Данные, представляющие собой числа с плавающей точкой, соответствующие стандарту &lt;x1/&gt;IEEE 754-2008&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231112T185028Z" creationid="Марианна" creationdate="20231112T185028Z">
+        <seg>The data representing floating point numbers meeting &lt;x1/&gt;IEEE 754-2008&lt;x2/&gt; standard.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">data/datatype.md</prop>
+      <prop type="id">tu19_0</prop>
+      <tuv lang="ru">
+        <seg>Данные, являющиеся произвольной последовательностью символов (строка).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231112T185128Z" creationid="Марианна" creationdate="20231112T185128Z">
+        <seg>The data representing random sequence of characters (string).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">data/datatype.md</prop>
+      <prop type="id">tu22_0</prop>
+      <tuv lang="ru">
+        <seg>Данные, которые могут хранить все вышеперечисленные типы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231112T185307Z" creationid="Марианна" creationdate="20231112T185307Z">
+        <seg>The data that can keep all types listed above.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="file">integration/connections/list/sqlite.md</prop>
       <prop type="id">tu6_0</prop>
       <tuv lang="ru">
