@@ -68524,8 +68524,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Для пользователя, создаваемого с ролью "Проектирование сценариев", будут предоставлены права на публикацию пакетов (см.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231117T103022Z" creationid="Марианна" creationdate="20231117T103022Z">
-        <seg>The user created with "Workflows design" role will be provided with access rights to publish packages (refer to</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T103052Z" creationid="Марианна" creationdate="20231117T103022Z">
+        <seg>The user created with "Workflows design" role will be provided with rights to publish packages (refer to</seg>
       </tuv>
     </tu>
     <tu>
@@ -68602,6 +68602,30 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231117T103044Z" creationid="Марианна" creationdate="20231117T103044Z">
         <seg>&lt;x18/&gt;Users&lt;x19/&gt;).|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu21_0</prop>
+      <tuv lang="ru">
+        <seg>Параметры безопасности</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T103139Z" creationid="Марианна" creationdate="20231117T103139Z">
+        <seg>Security Parameters</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu22_0</prop>
+      <tuv lang="ru">
+        <seg>|Параметр|Значение по умолчанию|Описание|
+|:-|:-|:-|
+|Лимит попыток ввода пароля|Отключено|Лимит, при достижении которого пользователь больше не сможет авторизоваться до тех пор, пока не истечет &lt;x1/&gt;Тайм-аут ввода пароля&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T103900Z" creationid="Марианна" creationdate="20231117T103900Z">
+        <seg>|Parameter|Default value|Description|
+|:-|:-|:-|
+|Password entry limit|Disabled|When user reaches this limit, he will not be able to log in anymore until  &lt;x1/&gt;Password entry timeout&lt;x2/&gt; expires.</seg>
       </tuv>
     </tu>
     <tu>
