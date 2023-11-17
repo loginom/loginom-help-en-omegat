@@ -68644,10 +68644,30 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu26_0</prop>
       <tuv lang="ru">
+        <seg>При значении  &lt; 1 старые файлы логов не сохраняются.|</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T104637Z" creationid="Марианна" creationdate="20231117T104637Z">
+        <seg>When value &lt; 1, old log files are not saved.|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu26_0</prop>
+      <tuv lang="ru">
         <seg>При превышении размера файла и создании нового файла логирования, старый файл получает расширение .1, со сдвигом старых сохраненных файлов на &lt;x21/&gt;+1: .2, .3, ..., .&lt;максимальный индекс&gt;&lt;x22/&gt;, старый резервный файл app.log.1 станет app.log.2, а если на момент добавления резервного файла уже был достигнут лимит, то самый старый файл лога удаляется.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231117T104605Z" creationid="Марианна" creationdate="20231117T104605Z">
         <seg>When the file size is exceeded, and the new logging file is created, the old file gets .1 extension with &lt;x21/&gt;+1: .2, .3 ... shift of the old saved files, .&lt;maximum index&gt;&lt;x22/&gt;, the old backup app.log.1 file will become app.log.2, and the oldest log file is deleted if the limit is reached at the moment of the backup file addition.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu28_0</prop>
+      <tuv lang="ru">
+        <seg>Изменения параметров подключения вступают в силу после перезапуска службы сервера.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T104725Z" creationid="Марианна" creationdate="20231117T104725Z">
+        <seg>Connection parameter changes take effect after the server service restart.</seg>
       </tuv>
     </tu>
     <tu>
