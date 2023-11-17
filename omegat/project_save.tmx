@@ -68630,6 +68630,28 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu26_0</prop>
+      <tuv lang="ru">
+        <seg>Например, старый файл app.log при превышении указанного размера сохранится как app.log.1, а взамен ему будет создан новый app.log, где и продолжится ведение журнала.|
+|Количество резервных файлов|10|Количество резервных копий, создаваемых при превышении максимального размера лог-файла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T104216Z" creationid="Марианна" creationdate="20231117T104216Z">
+        <seg>For example, the old app.log file is saved as app.log.1 when this size is exceeded, and the new app.log file will be created instead of it where the log is maintained further.|
+|Number of backup files|10|Number of backup copies created when the maximum size of the log file is exceeded.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu26_0</prop>
+      <tuv lang="ru">
+        <seg>При превышении размера файла и создании нового файла логирования, старый файл получает расширение .1, со сдвигом старых сохраненных файлов на &lt;x21/&gt;+1: .2, .3, ..., .&lt;максимальный индекс&gt;&lt;x22/&gt;, старый резервный файл app.log.1 станет app.log.2, а если на момент добавления резервного файла уже был достигнут лимит, то самый старый файл лога удаляется.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T104605Z" creationid="Марианна" creationdate="20231117T104605Z">
+        <seg>When the file size is exceeded, and the new logging file is created, the old file gets .1 extension with &lt;x21/&gt;+1: .2, .3 ... shift of the old saved files, .&lt;maximum index&gt;&lt;x22/&gt;, the old backup app.log.1 file will become app.log.2, and the oldest log file is deleted if the limit is reached at the moment of the backup file addition.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu2_0</prop>
       <tuv lang="ru">
         <seg>На странице «Параметры» можно просмотреть и изменить общие настройки сервера/приложения.</seg>
