@@ -68856,6 +68856,20 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu40_0</prop>
+      <tuv lang="ru">
+        <seg>|Параметр|Значение по умолчанию|Описание|
+|:-|:-|:-|
+|Выполнение запрещено|true|Параметр запрещает выполнение узла &lt;x1/&gt;&lt;x2/&gt;Выполнение программы&lt;x3/&gt;&lt;x4/&gt;, если выставлено значение true, и позволяет выполнять узел при значении false|</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T192712Z" creationid="Марианна" creationdate="20231117T192712Z">
+        <seg>|Parameter|Default value|Description|
+|:-|:-|:-|
+|Execution forbidden|true|The parameter forbids execution of the &lt;x1/&gt;&lt;x2/&gt;Program execution&lt;x3/&gt;&lt;x4/&gt; node if true value is set, and enables to execute the node when the value is false|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu42_0</prop>
       <tuv lang="ru">
         <seg>Параметры компонента: Python</seg>
