@@ -68710,12 +68710,46 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu26_0</prop>
       <tuv lang="ru">
+        <seg>Задается путем относительно папки Logs.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T193337Z" creationid="Марианна" creationdate="20231117T193337Z">
+        <seg>It is set by the path relative to Logs folder.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu26_0</prop>
+      <tuv lang="ru">
         <seg>Например, старый файл app.log при превышении указанного размера сохранится как app.log.1, а взамен ему будет создан новый app.log, где и продолжится ведение журнала.|
 |Количество резервных файлов|10|Количество резервных копий, создаваемых при превышении максимального размера лог-файла.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231117T104216Z" creationid="Марианна" creationdate="20231117T104216Z">
         <seg>For example, the old app.log file is saved as app.log.1 when this size is exceeded, and the new app.log file will be created instead of it where the log is maintained further.|
 |Number of backup files|10|Number of backup copies created when the maximum size of the log file is exceeded.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu26_0</prop>
+      <tuv lang="ru">
+        <seg>По умолчанию для серверной редакции файл находится в &lt;x17/&gt;"C:\ProgramData\Loginom\Server\Logs"&lt;x18/&gt;, а для Desktop редакции в &lt;x19/&gt;"C:\Users\User\AppData\Roaming\Loginom\Personal\Logs"&lt;x20/&gt;.|
+|Перезапись файла|false|Флаг пересоздания файла логирования при запуске приложения, вместо его дополнения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T193635Z" creationid="Марианна" creationdate="20231117T193635Z">
+        <seg>By default, the file is located for the server edition in &lt;x17/&gt;"C:\ProgramData\Loginom\Server\Logs"&lt;x18/&gt;, and for Desktop edition in &lt;x19/&gt;"C:\Users\User\AppData\Roaming\Loginom\Personal\Logs"&lt;x20/&gt;.|
+|Rewrite file|false|Checkbox of the logging file recreation while the application start instead of its supplementation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu26_0</prop>
+      <tuv lang="ru">
+        <seg>По умолчанию отладочный режим работы выключен.|
+|Имя файла|app.log|Параметр содержит имя лог-файла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T193257Z" creationid="Марианна" creationdate="20231117T193257Z">
+        <seg>The debug operation mode is disabled by default.|
+|File name|app.log|The parameter contains the log file name.</seg>
       </tuv>
     </tu>
     <tu>
