@@ -68672,6 +68672,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu22_0</prop>
+      <tuv lang="ru">
+        <seg>Ограничение распространяется на все учётные записи, в том числе учётные записи с ролями &lt;x5/&gt;Администрирование&lt;x6/&gt; и &lt;x7/&gt;Пакетное выполнение&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T193216Z" creationid="Марианна" creationdate="20231117T193216Z">
+        <seg>The restriction applies to all accounts, including the accounts with &lt;x5/&gt;Administration&lt;x6/&gt; and &lt;x7/&gt;Batch processing&lt;x8/&gt; roles.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu25_0</prop>
       <tuv lang="ru">
         <seg>Изменения вступают в силу после нажатия кнопки &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Сохранить&lt;x4/&gt;.</seg>
