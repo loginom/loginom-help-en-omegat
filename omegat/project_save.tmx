@@ -68692,6 +68692,28 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu30_0</prop>
+      <tuv lang="ru">
+        <seg>|Параметр|Значение по умолчанию|Описание|
+|:-|:-|:-|
+|Прослушиваемые адреса|0.0.0.0|Адрес или адреса, проверяемые на наличие сервера|
+|TCP порт|4580|Порт, используемый для соединения с сервером|
+|WebSocket порт|8080|Порт, используемый для обмена сообщениями с сервером|
+|WebSocket SSL/TLS порт| если настроено WSS (WebSocket Secure), то 8443, иначе null|Защищенный порт, используемый для обмена сообщениями с сервером|
+|Имя файла сертификата||Путь к файлу сертификата, используемого для SSL-соединения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T105109Z" creationid="Марианна" creationdate="20231117T105109Z">
+        <seg>|Parameter|Default value|Description|
+|:-|:-|:-|
+|Listen addresses|0.0.0.0|Address or addresses listened on the server availability|
+|TCP port|4580|The port used for the server connection|
+|WebSocket port|8080|The port used for message exchange with server|
+|WebSocket SSL/TLS port| if WSS (WebSocket Secure) is configured, 8443, otherwise null|The secure port used for message exchange with server|
+|Certificate file name||Path to the certificate file used for the SSL connection.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu3_0</prop>
       <tuv lang="ru">
         <seg>В верхней части страницы расположено две кнопки:</seg>
