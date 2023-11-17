@@ -68490,6 +68490,26 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu20_0</prop>
       <tuv lang="ru">
+        <seg>|Атрибут с именем пользователя|sAMAccountName|Имя атрибута в записи пользователя, который содержит имя пользователя используемое при подключении и &lt;x10/&gt;автоматическом добавлении пользователя&lt;x11/&gt; Loginom при успешной LDAP аутентификации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T101316Z" creationid="Марианна" creationdate="20231117T101316Z">
+        <seg>|Attribute with username|sAMAccountName|Attribute name in the user record that includes the username used for connection and &lt;x10/&gt;automatic addition of Megaladata user&lt;x11/&gt; when the LDAP authentification is successful.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu20_0</prop>
+      <tuv lang="ru">
+        <seg>Для Active Directory это обычно — &lt;x12/&gt;sAMAccountName&lt;x13/&gt;, а для OpenLDAP — &lt;x14/&gt;uid&lt;x15/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T101410Z" creationid="Марианна" creationdate="20231117T101410Z">
+        <seg>It is generally &lt;x12/&gt;sAMAccountName&lt;x13/&gt; for Active Directory, and &lt;x14/&gt;uid&lt;x15/&gt; for OpenLDAP.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu20_0</prop>
+      <tuv lang="ru">
         <seg>Можно использовать domain\user формат или UPN(&lt;x1/&gt;), если LDAP сервер позволяет это делать.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231117T100538Z" creationid="Марианна" creationdate="20231117T100538Z">
