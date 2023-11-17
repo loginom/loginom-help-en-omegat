@@ -68662,6 +68662,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu22_0</prop>
+      <tuv lang="ru">
+        <seg>Минимальное значение - 1 секунда, максимальное - 2000000 секунд, либо ∞.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T191154Z" creationid="Марианна" creationdate="20231117T191154Z">
+        <seg>Minimum value - 1 second, maximum value - 2000000 seconds or ∞.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu26_0</prop>
       <tuv lang="ru">
         <seg>Например, старый файл app.log при превышении указанного размера сохранится как app.log.1, а взамен ему будет создан новый app.log, где и продолжится ведение журнала.|
