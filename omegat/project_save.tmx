@@ -68672,6 +68672,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu29_0</prop>
+      <tuv lang="ru">
+        <seg>Параметры данной группы отсутствуют в настольных редакциях Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T104844Z" creationid="Марианна" creationdate="20231117T104844Z">
+        <seg>Parameters of this group are not available in the desktop Megaladata editions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu2_0</prop>
       <tuv lang="ru">
         <seg>На странице «Параметры» можно просмотреть и изменить общие настройки сервера/приложения.</seg>
