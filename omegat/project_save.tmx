@@ -68478,6 +68478,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu19_0</prop>
+      <tuv lang="ru">
+        <seg>Изменения настроек для подключения к &lt;x1/&gt;LDAP&lt;x2/&gt; серверу вступают в силу после нажатия кнопки &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Сохранить&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T100100Z" creationid="Марианна" creationdate="20231117T100100Z">
+        <seg>Settings change for connection to &lt;x1/&gt;LDAP&lt;x2/&gt; server takes effect upon pressing &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Save&lt;x6/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu2_0</prop>
       <tuv lang="ru">
         <seg>На странице «Параметры» можно просмотреть и изменить общие настройки сервера/приложения.</seg>
