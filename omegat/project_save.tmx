@@ -68630,6 +68630,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu22_0</prop>
+      <tuv lang="ru">
+        <seg>История неудачных попыток ввода пароля сбрасывается при перезапуске Loginom Server.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T110029Z" creationid="Марианна" creationdate="20231117T110029Z">
+        <seg>History of failed password entry attempts is reset when Megaladata Server is restarted.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu26_0</prop>
       <tuv lang="ru">
         <seg>Например, старый файл app.log при превышении указанного размера сохранится как app.log.1, а взамен ему будет создан новый app.log, где и продолжится ведение журнала.|
