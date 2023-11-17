@@ -68458,6 +68458,26 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu17_0</prop>
+      <tuv lang="ru">
+        <seg>Интеграция с LDAP доступна только в серверной редакции Enterprise.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T083803Z" creationid="Марианна" creationdate="20231117T083803Z">
+        <seg>Integration with LDAP is available only in the server Enterprise edition.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu18_0</prop>
+      <tuv lang="ru">
+        <seg>Параметры данной группы отсутствуют в серверных редакциях Team и Standard, а также в настольных редакциях (Personal и Community).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T083933Z" creationid="Марианна" creationdate="20231117T083933Z">
+        <seg>Parameters of this group are not available in the server Team and Standard editions and in several desktop editions (Personal and Community).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu2_0</prop>
       <tuv lang="ru">
         <seg>На странице «Параметры» можно просмотреть и изменить общие настройки сервера/приложения.</seg>
