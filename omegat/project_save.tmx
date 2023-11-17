@@ -68714,6 +68714,18 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu30_0</prop>
+      <tuv lang="ru">
+        <seg>Задается абсолютным путем или относительным (корневой каталог &lt;x1/&gt;"C:\ProgramData\Loginom\Server"&lt;x2/&gt;).|
+|Имя файла закрытого ключа||Путь к файлу ключа, используемого для SSL-соединения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T105256Z" creationid="Марианна" creationdate="20231117T105256Z">
+        <seg>It is set by the absolute or relative path (root directory &lt;x1/&gt;"C:\ProgramData\Loginom\Server"&lt;x2/&gt;).|
+|Private key file name||Path to the key file used for the SSL connection.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu3_0</prop>
       <tuv lang="ru">
         <seg>В верхней части страницы расположено две кнопки:</seg>
