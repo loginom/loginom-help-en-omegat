@@ -69765,6 +69765,16 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="file">integration/connections/list/1c.md</prop>
+      <prop type="id">tu22_0</prop>
+      <tuv lang="ru">
+        <seg>В настольной редакции Loginom нужно указывать пути вида &lt;x7/&gt;"C:datadatabases1C"&lt;x8/&gt; и &lt;x9/&gt;%% «netdiskdatadatabases1C» %%&lt;x10/&gt; (соответственно, для локально хранящейся базы и базы на сетевом диске).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T082224Z" creationid="Марианна" creationdate="20231117T082224Z">
+        <seg>It is required to specify the following paths in the desktop Megaladata edition:  &lt;x7/&gt;"C:datadatabases1C"&lt;x8/&gt; and &lt;x9/&gt;%% «netdiskdatadatabases1C» %%&lt;x10/&gt; (correspondingly, for the locally stored base and the net drive base).</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="file">integration/connections/list/sqlite.md</prop>
       <prop type="id">tu6_0</prop>
       <tuv lang="ru">
