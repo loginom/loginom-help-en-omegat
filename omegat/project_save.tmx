@@ -68437,6 +68437,16 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu2_0</prop>
+      <tuv lang="ru">
+        <seg>На странице «Параметры» можно просмотреть и изменить общие настройки сервера/приложения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T082725Z" creationid="Марианна" creationdate="20231117T082725Z">
+        <seg> It is possible to view and change the general server/application settings on "Parameters" page.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="file">compare-editions.md</prop>
       <prop type="id">tu101_0</prop>
       <tuv lang="ru">
