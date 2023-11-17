@@ -68806,12 +68806,42 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu30_0</prop>
+      <tuv lang="ru">
+        <seg>Отключение проверки соединения может привести к блокировке пакетов сервером, т.к. сервер не сможет определить разрыв связи с клиентом и будет считать, что пакет все еще используется клиентом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T192237Z" creationid="Марианна" creationdate="20231117T192237Z">
+        <seg>The disabled connection check can cause locking of packages by the server as the server will not be able to detect the loss of connection with the client, and it will be decided that the package is still being used by the client.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu31_0</prop>
       <tuv lang="ru">
         <seg>Возможные значения портов задаются в числовом формате в интервале от 0 до 65535.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231117T105601Z" creationid="Марианна" creationdate="20231117T105601Z">
         <seg>Possible port values are set in the numeric format in the interval from 0 to 65535.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu35_0</prop>
+      <tuv lang="ru">
+        <seg>Значение по умолчанию — &lt;x1/&gt;Количество ядер CPU&lt;x2/&gt; * 32.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T192418Z" creationid="Марианна" creationdate="20231117T192418Z">
+        <seg>Default value — &lt;x1/&gt;Number of CPU cores&lt;x2/&gt; * 32.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu35_0</prop>
+      <tuv lang="ru">
+        <seg>Максимальное значение — 1 000 000.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T192433Z" creationid="Марианна" creationdate="20231117T192433Z">
+        <seg>Maximum value — 1 000 000.</seg>
       </tuv>
     </tu>
     <tu>
