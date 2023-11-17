@@ -68490,6 +68490,18 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu20_0</prop>
       <tuv lang="ru">
+        <seg>|
+|Роль нового пользователя|Отсутствует|Параметр задает &lt;x16/&gt;роль пользователю&lt;x17/&gt; ("Проектирование сценариев" или "Просмотр отчетов") при автоматическом добавлении нового пользователя с аутентификацией через LDAP.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T102721Z" creationid="Марианна" creationdate="20231117T102721Z">
+        <seg>|
+|New user role|None|The parameter sets &lt;x16/&gt;user role&lt;x17/&gt; ("Workflows design" or "View reports") in the case of the automatic new user addition by means of LDAP authentification.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu20_0</prop>
+      <tuv lang="ru">
         <seg>|Атрибут с именем пользователя|sAMAccountName|Имя атрибута в записи пользователя, который содержит имя пользователя используемое при подключении и &lt;x10/&gt;автоматическом добавлении пользователя&lt;x11/&gt; Loginom при успешной LDAP аутентификации.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231117T101316Z" creationid="Марианна" creationdate="20231117T101316Z">
