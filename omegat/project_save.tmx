@@ -68500,6 +68500,16 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu20_0</prop>
       <tuv lang="ru">
+        <seg>Например, фильтр для Active Directory может быть &lt;x4/&gt;(&amp;(objectClass=user)(memberOf:1.2.840.113556.1.4.1941:=cn=test,ou=groups,dc=domain,dc=com))&lt;x5/&gt;, для OpenLDAP — &lt;x6/&gt;(objectClass=posixAccount)&lt;x7/&gt;, где использование расширения &lt;x8/&gt;:1.2.840.113556.1.4.1941:&lt;x9/&gt;  для Active Directory дает возможность использовать сопоставление и по вложенным группам (можно использовать только для Active Directory).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T101135Z" creationid="Марианна" creationdate="20231117T101135Z">
+        <seg>For example, filter for Active Directory can be &lt;x4/&gt;(&amp;(objectClass=user)(memberOf:1.2.840.113556.1.4.1941:=cn=test,ou=groups,dc=domain,dc=com))&lt;x5/&gt;, for OpenLDAP &lt;x6/&gt;(objectClass=posixAccount)&lt;x7/&gt; where use of extension &lt;x8/&gt;:1.2.840.113556.1.4.1941:&lt;x9/&gt;  for Active Directory enables to use mapping also by nested groups (it can be used only for Active Directory).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu20_0</prop>
+      <tuv lang="ru">
         <seg>По умолчанию задан пустой строкой, и в этом случае не производится проверка LDAP пользователей.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231117T100133Z" creationid="Марианна" creationdate="20231117T100133Z">
