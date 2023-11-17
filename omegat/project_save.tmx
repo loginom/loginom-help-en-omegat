@@ -68738,12 +68738,42 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu31_0</prop>
+      <tuv lang="ru">
+        <seg>Возможные значения портов задаются в числовом формате в интервале от 0 до 65535.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T105601Z" creationid="Марианна" creationdate="20231117T105601Z">
+        <seg>Possible port values are set in the numeric format in the interval from 0 to 65535.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu3_0</prop>
       <tuv lang="ru">
         <seg>В верхней части страницы расположено две кнопки:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231117T082807Z" creationid="Марианна" creationdate="20231117T082807Z">
         <seg>Two buttons are located in the upper part of the page:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu42_0</prop>
+      <tuv lang="ru">
+        <seg>Параметры компонента: Python</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T105647Z" creationid="Марианна" creationdate="20231117T105647Z">
+        <seg>Component Parameters: Python</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu44_0</prop>
+      <tuv lang="ru">
+        <seg>Указывается опционально.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T105719Z" creationid="Марианна" creationdate="20231117T105719Z">
+        <seg>It is optionally specified.</seg>
       </tuv>
     </tu>
     <tu>
