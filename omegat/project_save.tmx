@@ -68622,10 +68622,10 @@ If the format is not specified, use of "B" format is required.</seg>
 |:-|:-|:-|
 |Лимит попыток ввода пароля|Отключено|Лимит, при достижении которого пользователь больше не сможет авторизоваться до тех пор, пока не истечет &lt;x1/&gt;Тайм-аут ввода пароля&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231117T103900Z" creationid="Марианна" creationdate="20231117T103900Z">
+      <tuv lang="en" changeid="Марианна" changedate="20231117T190757Z" creationid="Марианна" creationdate="20231117T103900Z">
         <seg>|Parameter|Default value|Description|
 |:-|:-|:-|
-|Password entry limit|Disabled|When user reaches this limit, he will not be able to log in anymore until  &lt;x1/&gt;Password entry timeout&lt;x2/&gt; expires.</seg>
+|Password entry attempt limit|Disabled|When user reaches this limit, he will not be able to log in anymore until  &lt;x1/&gt;Password entry timeout&lt;x2/&gt; expires.</seg>
       </tuv>
     </tu>
     <tu>
@@ -68655,9 +68655,9 @@ If the format is not specified, use of "B" format is required.</seg>
         <seg>Минимальное значение - 1 попытка, максимальное - 10000 попыток.|
 |Тайм-аут ввода пароля (сек)|∞|Время ограничения, накладываемого на пользователя, превысившего &lt;x3/&gt;Лимит попыток ввода пароля&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231117T190740Z" creationid="Марианна" creationdate="20231117T190740Z">
+      <tuv lang="en" changeid="Марианна" changedate="20231117T191108Z" creationid="Марианна" creationdate="20231117T190740Z">
         <seg>Minimum value - 1 attempt, maximum - 10000 attempts.|
-|Password entry attempt limit (s)|∞|Period of limitation imposed on the user who exceeded &lt;x3/&gt;Password entry limit&lt;x4/&gt;.</seg>
+|Password entry timeout (s)|∞|Period of restrictions imposed on the user who exceeded &lt;x3/&gt;Password entry attempt limit&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
