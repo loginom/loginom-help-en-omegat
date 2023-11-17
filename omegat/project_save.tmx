@@ -68448,6 +68448,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu14_0</prop>
+      <tuv lang="ru">
+        <seg>полный путь к пакету: &lt;x1/&gt;"C:\ProgramData\Loginom\Server\UserStorage\&lt;user&gt;\test.lgp"&lt;x2/&gt;, где &lt;x3/&gt;&lt;user&gt;&lt;x4/&gt; — логин пользователя;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T083647Z" creationid="Марианна" creationdate="20231117T083647Z">
+        <seg>full path to the package: &lt;x1/&gt;"C:\ProgramData\Loginom\Server\UserStorage\&lt;user&gt;\test.lgp"&lt;x2/&gt; where &lt;x3/&gt;&lt;user&gt;&lt;x4/&gt; is a user login;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu2_0</prop>
       <tuv lang="ru">
         <seg>На странице «Параметры» можно просмотреть и изменить общие настройки сервера/приложения.</seg>
