@@ -68672,6 +68672,32 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu25_0</prop>
+      <tuv lang="ru">
+        <seg>Изменения вступают в силу после нажатия кнопки &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Сохранить&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T191239Z" creationid="Марианна" creationdate="20231117T191239Z">
+        <seg>The introduced changes take effect upon pressing &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Save&lt;x4/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu26_0</prop>
+      <tuv lang="ru">
+        <seg>|Параметр|Значение по умолчанию|Описание|
+|:-|:-|:-|
+| &lt;x1/&gt;Уровень логирования&lt;x2/&gt;|Информация|Здесь указывается способ и полнота заполнения лог-файла (&lt;x3/&gt;Трассировка&lt;x4/&gt;, &lt;x5/&gt;Отладка&lt;x6/&gt;, &lt;x7/&gt;Информация&lt;x8/&gt;, &lt;x9/&gt;Событие&lt;x10/&gt;, &lt;x11/&gt;Предупреждение&lt;x12/&gt;, &lt;x13/&gt;Ошибка&lt;x14/&gt; и &lt;x15/&gt;Авария&lt;x16/&gt;)|
+|Трассировка исключений|false|Включает/отключает отладочный режим работы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T191736Z" creationid="Марианна" creationdate="20231117T191736Z">
+        <seg>|Parameter|Default value|Description|
+|:-|:-|:-|
+| &lt;x1/&gt;Logging level&lt;x2/&gt;|Information|Method and completeness of the log file filing is specified here (&lt;x3/&gt;Trace&lt;x4/&gt;, &lt;x5/&gt;Debug&lt;x6/&gt;, &lt;x7/&gt;Information&lt;x8/&gt;, &lt;x9/&gt;Event&lt;x10/&gt;, &lt;x11/&gt;Warning&lt;x12/&gt;, &lt;x13/&gt;Error&lt;x14/&gt; and &lt;x15/&gt;Fatal&lt;x16/&gt;)|
+|Exception trace|false|It enables/disables debug operation mode.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu26_0</prop>
       <tuv lang="ru">
         <seg>Например, старый файл app.log при превышении указанного размера сохранится как app.log.1, а взамен ему будет создан новый app.log, где и продолжится ведение журнала.|
