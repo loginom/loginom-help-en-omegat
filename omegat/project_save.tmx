@@ -68498,6 +68498,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu20_0</prop>
+      <tuv lang="ru">
+        <seg>Учетная запись для подключения к LDAP должна располагаться в контейнере, указанном в параметре Базовый домен.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T100324Z" creationid="Марианна" creationdate="20231117T100324Z">
+        <seg>The account for LDAP connection must be located in the container specified in the Base Domain parameter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu2_0</prop>
       <tuv lang="ru">
         <seg>На странице «Параметры» можно просмотреть и изменить общие настройки сервера/приложения.</seg>
