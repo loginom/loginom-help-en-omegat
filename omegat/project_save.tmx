@@ -68467,6 +68467,16 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu6_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; по завершении корректировки параметров необходимо нажать кнопку &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Сохранить&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T083119Z" creationid="Марианна" creationdate="20231117T083119Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; It is required to press &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Save&lt;x6/&gt; button upon completion of parameters correction.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="file">compare-editions.md</prop>
       <prop type="id">tu101_0</prop>
       <tuv lang="ru">
