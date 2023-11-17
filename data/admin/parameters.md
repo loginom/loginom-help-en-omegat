@@ -58,19 +58,19 @@ Settings change for connection to [LDAP](./ldap.md) server takes effect upon pre
 
 |Parameter|Default value|Description|
 |:-|:-|:-|
-|Password entry limit|Disabled|When user reaches this limit, he will not be able to log in anymore until  *Password entry timeout* expires. History of failed password entry attempts is reset when Megaladata Server is restarted. Если будет превышено максимальное количество неудачных попыток входа в учётную запись с ролью "Пакетное выполнение", то до истечения тайм-аута ввода пароля станет недоступным выполнение пакетов из-под этой учётной записи через Integrator и BatchLauncher. Минимальное значение - 1 попытка, максимальное - 10000 попыток.|
-|Тайм-аут ввода пароля (сек)|∞|Время ограничения, накладываемого на пользователя, превысившего *Лимит попыток ввода пароля*. Ограничение распространяется на все учётные записи, в том числе учётные записи с ролями *Администрирование* и *Пакетное выполнение*. Минимальное значение - 1 секунда, максимальное - 2000000 секунд, либо ∞. В случае, если установлен бесконечный тайм-аут (∞), то при достижении лимита попыток ввода пароля, пользователь больше не сможет залогиниться до тех пор, пока не будет перезапущен Loginom Server, либо администратор не изменит *Тайм-аут ввода пароля* или *Лимит попыток ввода пароля*.|
+|Password entry attempt limit|Disabled|When user reaches this limit, he will not be able to log in anymore until  *Password entry timeout* expires. History of failed password entry attempts is reset when Megaladata Server is restarted. If the maximum number of failed attempts of "Batch processing" account login is exceeded, batch processing using this account via Integrator and BatchLauncher will become unavailable before password entry timeout expiration. Minimum value - 1 attempt, maximum - 10000 attempts.|
+|Password entry timeout (s)|∞|Period of restrictions imposed on the user who exceeded *Password entry attempt limit*. Ограничение распространяется на все учётные записи, в том числе учётные записи с ролями *Администрирование* и *Пакетное выполнение*. Minimum value - 1 second, maximum value - 2000000 seconds or ∞. В случае, если установлен бесконечный тайм-аут (∞), то при достижении лимита попыток ввода пароля, пользователь больше не сможет залогиниться до тех пор, пока не будет перезапущен Loginom Server, либо администратор не изменит *Тайм-аут ввода пароля* или *Лимит попыток ввода пароля*.|
 
 ## Logging Parameters
 
 Параметры данной группы задаются как в серверных, так и в настольных редакциях платформы и определяют правила формирования лог-файла (журнала регистрации, в котором фиксируется выполнение каждого узла, что позволяет в случае возникновения ошибки выявить ее местоположение и возможную причину).
 
-Изменения вступают в силу после нажатия кнопки ![](./../images/icons/common/toolbar-controls/save_default.svg) *Сохранить*.
+The introduced changes take effect upon pressing ![](./../images/icons/common/toolbar-controls/save_default.svg) *Save* button.
 
-|Параметр|Значение по умолчанию|Описание|
+|Parameter|Default value|Description|
 |:-|:-|:-|
-| [Уровень логирования](./log.md)|Информация|Здесь указывается способ и полнота заполнения лог-файла (*Трассировка*, *Отладка*, *Информация*, *Событие*, *Предупреждение*, *Ошибка* и *Авария*)|
-|Трассировка исключений|false|Включает/отключает отладочный режим работы. При включенном отладочном режиме в лог-файл записывается расширенная информация для диагностики ошибок. Формирование расширенной информации при отладочном режиме работы приводит к потере производительности, поэтому в обычном режиме работы  трассировка исключений должна быть отключена. По умолчанию отладочный режим работы выключен.|
+| [Logging level](./log.md)|Information|Method and completeness of the log file filing is specified here (*Trace*, *Debug*, *Information*, *Event*, *Warning*, *Error* and *Fatal*)|
+|Exception trace|false|It enables/disables debug operation mode. При включенном отладочном режиме в лог-файл записывается расширенная информация для диагностики ошибок. Формирование расширенной информации при отладочном режиме работы приводит к потере производительности, поэтому в обычном режиме работы  трассировка исключений должна быть отключена. По умолчанию отладочный режим работы выключен.|
 |Имя файла|app.log|Параметр содержит имя лог-файла. Задается путем относительно папки Logs. По умолчанию для серверной редакции файл находится в `"C:\ProgramData\Loginom\Server\Logs"`, а для Desktop редакции в `"C:\Users\User\AppData\Roaming\Loginom\Personal\Logs"`.|
 |Перезапись файла|false|Флаг пересоздания файла логирования при запуске приложения, вместо его дополнения. If the value is true, the log file will rewrite the old one at each start.|
 |Maximum file size|10484760|The maximum size of the log file is set in bytes. When this size is exceeded, the file is saved with .1 extension, and the new one is created. For example, the old app.log file is saved as app.log.1 when this size is exceeded, and the new app.log file will be created instead of it where the log is maintained further.|
