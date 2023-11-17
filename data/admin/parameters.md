@@ -59,7 +59,7 @@ Settings change for connection to [LDAP](./ldap.md) server takes effect upon pre
 |Parameter|Default value|Description|
 |:-|:-|:-|
 |Password entry attempt limit|Disabled|When user reaches this limit, he will not be able to log in anymore until  *Password entry timeout* expires. History of failed password entry attempts is reset when Megaladata Server is restarted. If the maximum number of failed attempts of "Batch processing" account login is exceeded, batch processing using this account via Integrator and BatchLauncher will become unavailable before password entry timeout expiration. Minimum value - 1 attempt, maximum - 10000 attempts.|
-|Password entry timeout (s)|∞|Period of restrictions imposed on the user who exceeded *Password entry attempt limit*. Ограничение распространяется на все учётные записи, в том числе учётные записи с ролями *Администрирование* и *Пакетное выполнение*. Minimum value - 1 second, maximum value - 2000000 seconds or ∞. В случае, если установлен бесконечный тайм-аут (∞), то при достижении лимита попыток ввода пароля, пользователь больше не сможет залогиниться до тех пор, пока не будет перезапущен Loginom Server, либо администратор не изменит *Тайм-аут ввода пароля* или *Лимит попыток ввода пароля*.|
+|Password entry timeout (s)|∞|Period of restrictions imposed on the user who exceeded *Password entry attempt limit*. The restriction applies to all accounts, including the accounts with *Administration* and *Batch processing* roles. Minimum value - 1 second, maximum value - 2000000 seconds or ∞. В случае, если установлен бесконечный тайм-аут (∞), то при достижении лимита попыток ввода пароля, пользователь больше не сможет залогиниться до тех пор, пока не будет перезапущен Loginom Server, либо администратор не изменит *Тайм-аут ввода пароля* или *Лимит попыток ввода пароля*.|
 
 ## Logging Parameters
 
@@ -70,9 +70,9 @@ The introduced changes take effect upon pressing ![](./../images/icons/common/to
 |Parameter|Default value|Description|
 |:-|:-|:-|
 | [Logging level](./log.md)|Information|Method and completeness of the log file filing is specified here (*Trace*, *Debug*, *Information*, *Event*, *Warning*, *Error* and *Fatal*)|
-|Exception trace|false|It enables/disables debug operation mode. При включенном отладочном режиме в лог-файл записывается расширенная информация для диагностики ошибок. Формирование расширенной информации при отладочном режиме работы приводит к потере производительности, поэтому в обычном режиме работы  трассировка исключений должна быть отключена. По умолчанию отладочный режим работы выключен.|
-|Имя файла|app.log|Параметр содержит имя лог-файла. Задается путем относительно папки Logs. По умолчанию для серверной редакции файл находится в `"C:\ProgramData\Loginom\Server\Logs"`, а для Desktop редакции в `"C:\Users\User\AppData\Roaming\Loginom\Personal\Logs"`.|
-|Перезапись файла|false|Флаг пересоздания файла логирования при запуске приложения, вместо его дополнения. If the value is true, the log file will rewrite the old one at each start.|
+|Exception trace|false|It enables/disables debug operation mode. При включенном отладочном режиме в лог-файл записывается расширенная информация для диагностики ошибок. Формирование расширенной информации при отладочном режиме работы приводит к потере производительности, поэтому в обычном режиме работы  трассировка исключений должна быть отключена. The debug operation mode is disabled by default.|
+|File name|app.log|The parameter contains the log file name. It is set by the path relative to Logs folder. By default, the file is located for the server edition in `"C:\ProgramData\Loginom\Server\Logs"`, and for Desktop edition in `"C:\Users\User\AppData\Roaming\Loginom\Personal\Logs"`.|
+|Rewrite file|false|Checkbox of the logging file recreation while the application start instead of its supplementation. If the value is true, the log file will rewrite the old one at each start.|
 |Maximum file size|10484760|The maximum size of the log file is set in bytes. When this size is exceeded, the file is saved with .1 extension, and the new one is created. For example, the old app.log file is saved as app.log.1 when this size is exceeded, and the new app.log file will be created instead of it where the log is maintained further.|
 |Number of backup files|10|Number of backup copies created when the maximum size of the log file is exceeded. When the file size is exceeded, and the new logging file is created, the old file gets .1 extension with `+1: .2, .3 ... shift of the old saved files, .<maximum index>`, the old backup app.log.1 file will become app.log.2, and the oldest log file is deleted if the limit is reached at the moment of the backup file addition. When value < 1, old log files are not saved.|
 
@@ -90,7 +90,7 @@ Parameters of this group are not available in the desktop Megaladata editions.
 |WebSocket SSL/TLS port| if WSS (WebSocket Secure) is configured, 8443, otherwise null|The secure port used for message exchange with server|
 |Certificate file name||Path to the certificate file used for the SSL connection. It is set by the absolute or relative path (root directory `"C:\ProgramData\Loginom\Server"`).|
 |Private key file name||Path to the key file used for the SSL connection. It is set by the absolute or relative path (root directory `"C:\ProgramData\Loginom\Server"`).|
-|Connection check period (s)|Disabled|Time interval between check of connection with client. Необходим для автоматического определения разрыва сетевого соединения и закрытия соответствующей сессии клиента вместе с открытыми в ней пакетами. The state of the server and client connection channel is checked using the special message that is periodically sent to the client if no messages are sent to the server from the client during the set time interval. If any message is sent from the client, the timer is reset. Namely, the special message is sent only if no incoming message has been sent by the connection channel for a long period of time. It is possible to disable check of server and client connection. For this purpose, it is required to delete the check period value, save settings and restart the server. Отключение проверки соединения может привести к блокировке пакетов сервером, т.к. сервер не сможет определить разрыв связи с клиентом и будет считать, что пакет все еще используется клиентом. In the case of the enabled parameter or small timeout, it can be impossible to reestablish connection after the connection loss.|
+|Connection check period (s)|Disabled|Time interval between check of connection with client. Необходим для автоматического определения разрыва сетевого соединения и закрытия соответствующей сессии клиента вместе с открытыми в ней пакетами. The state of the server and client connection channel is checked using the special message that is periodically sent to the client if no messages are sent to the server from the client during the set time interval. If any message is sent from the client, the timer is reset. Namely, the special message is sent only if no incoming message has been sent by the connection channel for a long period of time. It is possible to disable check of server and client connection. For this purpose, it is required to delete the check period value, save settings and restart the server. The disabled connection check can cause locking of packages by the server as the server will not be able to detect the loss of connection with the client, and it will be decided that the package is still being used by the client. In the case of the enabled parameter or small timeout, it can be impossible to reestablish connection after the connection loss.|
 
 Possible port values are set in the numeric format in the interval from 0 to 65535.
 
@@ -103,7 +103,7 @@ Possible port values are set in the numeric format in the interval from 0 to 655
 |Параметр|Значение по умолчанию|Описание|
 |:-|:-|:-|
 |Размер пула пакетов|10|Количество часто используемых в пакетной обработке пакетов Loginom Integrator, сохраненных для быстрого вызова|
-|Размер пула потоков| По умолчанию| Максимальное количество ставших неактивными после использования потоков, которые не удаляются и держатся в памяти для возможного последующего использования. Значение по умолчанию — *Количество ядер CPU* * 32. Максимальное значение — 1 000 000. Увеличение параметра позволяет быстрее работать при большом количестве параллельных операций. Уменьшение параметра — это потенциальное снижение потребления памяти.|
+|Размер пула потоков| По умолчанию| Максимальное количество ставших неактивными после использования потоков, которые не удаляются и держатся в памяти для возможного последующего использования. Default value — *Number of CPU cores* * 32. Maximum value — 1 000 000. Увеличение параметра позволяет быстрее работать при большом количестве параллельных операций. Уменьшение параметра — это потенциальное снижение потребления памяти.|
 |Таймаут остановки сервера (сек.)|10|Время, выделяемое серверу на завершение работы. Минимальное значение равно 0.|
 |Локаль|Не задана(...)[^1]|Задаёт локаль сервера/приложения *Loginom*. Локаль применяется только после перезагрузки сервера/приложения *Loginom*|
 
@@ -115,15 +115,15 @@ Possible port values are set in the numeric format in the interval from 0 to 655
 
 Внесенные изменения вступают в силу после нажатия кнопки ![](./../images/icons/common/toolbar-controls/save_default.svg) *Сохранить*.
 
-|Параметр|Значение по умолчанию|Описание|
+|Parameter|Default value|Description|
 |:-|:-|:-|
-|Выполнение запрещено|true|Параметр запрещает выполнение узла [*Выполнение программы*](./../processors/integration/exec-program.md), если выставлено значение true, и позволяет выполнять узел при значении false|
+|Execution forbidden|true|The parameter forbids execution of the [*Program execution*](./../processors/integration/exec-program.md) node if true value is set, and enables to execute the node when the value is false|
 
 > **Примечание:** в настольных редакциях *Выполнение программы* по умолчанию разрешено, при необходимости его можно запретить.
 
 ## Component Parameters: Python
 
-Внесенные изменения вступают в силу после нажатия кнопки ![](./../images/icons/common/toolbar-controls/save_default.svg) *Сохранить*.
+The introduced changes take effect upon pressing ![](./../images/icons/common/toolbar-controls/save_default.svg) *Save* button.
 
 |Параметр|Значение по умолчанию|Описание|
 |:-|:-|:-|
