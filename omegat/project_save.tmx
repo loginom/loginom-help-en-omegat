@@ -68522,6 +68522,16 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu20_0</prop>
       <tuv lang="ru">
+        <seg>Для пользователя, создаваемого с ролью "Проектирование сценариев", будут предоставлены права на публикацию пакетов (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T103022Z" creationid="Марианна" creationdate="20231117T103022Z">
+        <seg>The user created with "Workflows design" role will be provided with access rights to publish packages (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu20_0</prop>
+      <tuv lang="ru">
         <seg>Можно использовать domain\user формат или UPN(&lt;x1/&gt;), если LDAP сервер позволяет это делать.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231117T100538Z" creationid="Марианна" creationdate="20231117T100538Z">
@@ -68568,10 +68578,30 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu20_0</prop>
       <tuv lang="ru">
+        <seg>По умолчанию пользователю, создаваемому через LDAP, роль не назначается.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T102923Z" creationid="Марианна" creationdate="20231117T102923Z">
+        <seg>By default, role is not assigned to the user created by means of LDAP.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu20_0</prop>
+      <tuv lang="ru">
         <seg>Учетная запись для подключения к LDAP должна располагаться в контейнере, указанном в параметре Базовый домен.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231117T100324Z" creationid="Марианна" creationdate="20231117T100324Z">
         <seg>The account for LDAP connection must be located in the container specified in the Base Domain parameter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu20_0</prop>
+      <tuv lang="ru">
+        <seg>подробнее &lt;x18/&gt;Пользователи&lt;x19/&gt;).|</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T103044Z" creationid="Марианна" creationdate="20231117T103044Z">
+        <seg>&lt;x18/&gt;Users&lt;x19/&gt;).|</seg>
       </tuv>
     </tu>
     <tu>
