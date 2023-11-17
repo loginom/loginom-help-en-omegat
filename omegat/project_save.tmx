@@ -68634,8 +68634,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Если будет превышено максимальное количество неудачных попыток входа в учётную запись с ролью "Пакетное выполнение", то до истечения тайм-аута ввода пароля станет недоступным выполнение пакетов из-под этой учётной записи через Integrator и BatchLauncher.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231117T190315Z" creationid="Марианна" creationdate="20231117T190315Z">
-        <seg>If the maximum number of failed attempts of "Batch processing" account login is exceeded, batch processing using this account via Integrator and BatchLauncher password entry will become unavailable before timeout expiration.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T190452Z" creationid="Марианна" creationdate="20231117T190315Z">
+        <seg>If the maximum number of failed attempts of "Batch processing" account login is exceeded, batch processing using this account via Integrator and BatchLauncher will become unavailable before password entry timeout expiration.</seg>
       </tuv>
     </tu>
     <tu>
@@ -68646,6 +68646,18 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231117T110029Z" creationid="Марианна" creationdate="20231117T110029Z">
         <seg>History of failed password entry attempts is reset when Megaladata Server is restarted.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu22_0</prop>
+      <tuv lang="ru">
+        <seg>Минимальное значение - 1 попытка, максимальное - 10000 попыток.|
+|Тайм-аут ввода пароля (сек)|∞|Время ограничения, накладываемого на пользователя, превысившего &lt;x3/&gt;Лимит попыток ввода пароля&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T190740Z" creationid="Марианна" creationdate="20231117T190740Z">
+        <seg>Minimum value - 1 attempt, maximum - 10000 attempts.|
+|Password entry attempt limit (s)|∞|Period of limitation imposed on the user who exceeded &lt;x3/&gt;Password entry limit&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
