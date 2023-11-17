@@ -68490,6 +68490,16 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu20_0</prop>
       <tuv lang="ru">
+        <seg>Можно использовать domain\user формат или UPN(&lt;x1/&gt;), если LDAP сервер позволяет это делать.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T100538Z" creationid="Марианна" creationdate="20231117T100538Z">
+        <seg>It is permissible to use domain\user format or UPN(&lt;x1/&gt;) if the LDAP server makes it possible to do so.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu20_0</prop>
+      <tuv lang="ru">
         <seg>По умолчанию задан пустой строкой, и в этом случае не производится проверка LDAP пользователей.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231117T100133Z" creationid="Марианна" creationdate="20231117T100133Z">
