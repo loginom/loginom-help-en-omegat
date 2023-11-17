@@ -68447,6 +68447,26 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu3_0</prop>
+      <tuv lang="ru">
+        <seg>В верхней части страницы расположено две кнопки:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T082807Z" creationid="Марианна" creationdate="20231117T082807Z">
+        <seg>Two buttons are located in the upper part of the page:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu5_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Обновить&lt;x2/&gt; &lt;x3/&gt;Обновить&lt;x4/&gt; — подгружает параметры, используемые в данный момент.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T082910Z" creationid="Марианна" creationdate="20231117T082910Z">
+        <seg>&lt;x1/&gt;Update&lt;x2/&gt; &lt;x3/&gt;Update&lt;x4/&gt; enables to upload currently used parameters.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="file">compare-editions.md</prop>
       <prop type="id">tu101_0</prop>
       <tuv lang="ru">
