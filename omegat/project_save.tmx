@@ -68477,6 +68477,26 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu8_0</prop>
+      <tuv lang="ru">
+        <seg>Параметры данной группы задают каталоги для хранения файлов в серверных редакциях платформы, изменения вступают в силу после перезапуска службы сервера.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T083352Z" creationid="Марианна" creationdate="20231117T083352Z">
+        <seg>Parameters of this group set directories for file storage in the server platform editions. The introduced changes take effect after the server service restart.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu9_0</prop>
+      <tuv lang="ru">
+        <seg>В настольных редакциях платформы данная группа параметров отсутствует.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T083245Z" creationid="Марианна" creationdate="20231117T083245Z">
+        <seg>This group of parameters is not available in the desktop platform editions.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="file">compare-editions.md</prop>
       <prop type="id">tu101_0</prop>
       <tuv lang="ru">
