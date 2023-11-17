@@ -68726,6 +68726,18 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu30_0</prop>
+      <tuv lang="ru">
+        <seg>Задается абсолютным путем или относительным (корневой каталог &lt;x3/&gt;"C:\ProgramData\Loginom\Server"&lt;x4/&gt;).|
+|Период проверки соединения (сек.)|Отключено|Промежуток времени между проверками соединения с клиентом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T105515Z" creationid="Марианна" creationdate="20231117T105515Z">
+        <seg>It is set by the absolute or relative path (root directory &lt;x3/&gt;"C:\ProgramData\Loginom\Server"&lt;x4/&gt;).|
+|Connection check period (s)|Disabled|Time interval between check of connection with client.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu3_0</prop>
       <tuv lang="ru">
         <seg>В верхней части страницы расположено две кнопки:</seg>
