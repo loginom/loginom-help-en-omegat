@@ -68488,6 +68488,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu20_0</prop>
+      <tuv lang="ru">
+        <seg>По умолчанию задан пустой строкой, и в этом случае не производится проверка LDAP пользователей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231117T100133Z" creationid="Марианна" creationdate="20231117T100133Z">
+        <seg> It is set by the empty string by default. In this case, the LDAP users are not checked.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu2_0</prop>
       <tuv lang="ru">
         <seg>На странице «Параметры» можно просмотреть и изменить общие настройки сервера/приложения.</seg>
