@@ -68936,6 +68936,22 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu44_0</prop>
       <tuv lang="ru">
+        <seg>|Параметр|Значение по умолчанию|Описание|
+|:-|:-|:-|
+|Выполнение запрещено|true|Параметр запрещает выполнение узла &lt;x1/&gt;Python&lt;x2/&gt;, если выставлено значение true, и позволяет выполнять узел при значении false|
+|Путь библиотеки| |Определяет путь к файлу python3x.dll, где x — номер минорной версии, разделяемой библиотеки Python.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T145922Z" creationid="Марианна" creationdate="20231119T145922Z">
+        <seg>|Parameter|Default value|Description|
+|:-|:-|:-|
+|Execution forbidden|true|The parameter forbids execution of the &lt;x1/&gt;Python&lt;x2/&gt; node if true value is set, and enables to execute the node when the value is false|
+|Library path| |It defines the path to python3x.dll file where x — number of minor release of the shared Python library.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu44_0</prop>
+      <tuv lang="ru">
         <seg>Указывается опционально.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231117T105719Z" creationid="Марианна" creationdate="20231117T105719Z">
