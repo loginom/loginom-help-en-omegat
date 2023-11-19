@@ -70577,6 +70577,36 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="file">components-platform.md</prop>
+      <prop type="id">tu1_0</prop>
+      <tuv lang="ru">
+        <seg>Компоненты платформы</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T122514Z" creationid="Марианна" creationdate="20231119T122514Z">
+        <seg>Platform Components</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">components-platform.md</prop>
+      <prop type="id">tu2_0</prop>
+      <tuv lang="ru">
+        <seg>Аналитическая платформа Loginom может функционировать в серверном режиме для коллективной работы и в виде настольного приложения для персональной аналитики.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T122704Z" creationid="Марианна" creationdate="20231119T122704Z">
+        <seg>The Megaladata analytical platform can be operated in the server mode for the team work and in the desktop application mode for the personal analytics.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">components-platform.md</prop>
+      <prop type="id">tu2_0</prop>
+      <tuv lang="ru">
+        <seg>Состав компонентов зависит от &lt;x1/&gt;редакции платформы&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T122749Z" creationid="Марианна" creationdate="20231119T122749Z">
+        <seg>Composition of components depends on the &lt;x1/&gt;platform edition&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="file">data/datakind.md</prop>
       <prop type="id">tu5_0</prop>
       <tuv lang="ru">
