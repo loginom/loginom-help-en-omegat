@@ -125,18 +125,18 @@ Possible port values are set in the numeric format in the interval from 0 to 655
 
 The introduced changes take effect upon pressing ![](./../images/icons/common/toolbar-controls/save_default.svg) *Save* button.
 
-|Параметр|Значение по умолчанию|Описание|
+|Parameter|Default value|Description|
 |:-|:-|:-|
-|Выполнение запрещено|true|Параметр запрещает выполнение узла *Python*, если выставлено значение true, и позволяет выполнять узел при значении false|
-|Путь библиотеки| |Определяет путь к файлу python3x.dll, где x — номер минорной версии, разделяемой библиотеки Python. It is optionally specified. По умолчанию используется установленный Python последней версии, зарегистрированный в операционной системе. Если в параметре путь не задан, то осуществляется его автоматический поиск в переменной окружения `PYTHONHOME` и реестре. Самый простой способ узнать путь до библиотеки python3x.dll — воспользоваться командной строкой в Windows. Для этого необходимо открыть консоль «Командная строка» («CMD») и ввести запрос «where python*.dll» (в качестве примера была выбрана для отображения версия Python 3.9). Ответом будет полный путь до необходимой библиотеки. ![Путь к библиотеке Python через командную строку](./cmd_python.png)|
+|Execution forbidden|true|The parameter forbids execution of the *Python* node if true value is set, and enables to execute the node when the value is false|
+|Library path| |It defines the path to python3x.dll file where x — number of minor release of the shared Python library. It is optionally specified. По умолчанию используется установленный Python последней версии, зарегистрированный в операционной системе. Если в параметре путь не задан, то осуществляется его автоматический поиск в переменной окружения `PYTHONHOME` и реестре. Самый простой способ узнать путь до библиотеки python3x.dll — воспользоваться командной строкой в Windows. Для этого необходимо открыть консоль «Командная строка» («CMD») и ввести запрос «where python*.dll» (в качестве примера была выбрана для отображения версия Python 3.9). Ответом будет полный путь до необходимой библиотеки. ![Путь к библиотеке Python через командную строку](./cmd_python.png)|
 |Путь интерпретатора| |Определяет путь к исполняемому файлу интерпретатора, который выполняет скрипт из узла *Python* в режиме выполнения Python в отдельном процессе. Кроме того этот путь учитывается в режиме выполнения узла Python при [поиске модулей внутри процесса Loginom](#poisk-moduley-python-vnutri-protsessa-loginom). По умолчанию *Путь интерпретатора* задается: 1. в *Windows* аналогично поиску разделяемой библиотеки; 2. в *Linux* следующим образом: а. определяется домашняя директория Python: если в переменной окружения `PYTHONHOME` указан действительный путь в системе, то берётся он, иначе домашняя директория равна `/usr`, б. оносительно домашней директории исполняемый файл интерпретатора ищется по пути `/bin/python3`, в. если исполняемый файл не найден, то выполняется python3 без указания пути.|
 |Передавать переменные окружения узла|false|Параметр необходим для запуска процесса Python в изолированном окружении. При значении true в процесс Python добавляются переменные окружения: `LAUNCHER_PATHS` — примонтированные в файловое хранилище пути, разделенные `:` (Linux) или `;` (Windows), `LAUNCHER_USER` — имя пользователя Loginom, `LAUNCHER_USER_TMP` и `LAUNCHER_COMMON_TMP` — пути папок для сохранения временных файлов пользователя и рабочей директории, `LAUNCHER_PIPEDIR` — имя папки, в которой создаются файлы именованных каналов для IPC (Linux), `LAUNCHER_PIPENAME` — имя дуплексного именованного канала для IPC (Windows), `LAUNCHER_CURRENTDIR` — имя текущей папки Loginom (совпадает с путём сохранённого пакета), `LAUNCHER_LOCALE` — имя текущей локали (например, `ru_RU`), `LAUNCHER_NODE_GUID` — GUID узла, `LAUNCHER_NODE_NAME` — имя узла, `LAUNCHER_NODE_DISPLAYNAME` — метка узла, `LAUNCHER_PREVIEW` — устанавливается для Предпросмотра.|
 
-Для работы узлов *Python* необходимо учитывать следующие особенности и ограничения:
+For *Python* nodes operation it is required to take into account the following peculiarities and restrictions:
 
-* Минимальная поддерживаемая версия Python — 3.5.
-* Максимальная протестированная версия Python — 3.10.
-* Создание GUI-интерфейса из кода Python не является целевым назначением компонента *Python* и в некоторых случаях может приводить к неверной работе приложения. For example:
+* Maximum supported Python version — 3.5.
+* Maximum tested Python version — 3.10.
+* Creation of GUI interface from the Python code is not designation of the *Python* component, and in some cases it can cause incorrect application operation. For example:
    * работа узла не будет прекращена до завершения работы GUI-приложения. При работе в серверных редакциях Loginom пользователь, как правило, не имеет доступа к окну GUI-приложения.
 
 Для работы узлов *Python* в изолированном окружении пользователя необходимо сделать следующее:
@@ -146,18 +146,18 @@ The introduced changes take effect upon pressing ![](./../images/icons/common/to
 * Для запуска на Linux должен быть установлен *Docker* или *Podman*. В **python_run.sh** имеется параметр `DOCKER_OR_PODMAN`, отвечающий за способ контейниризиции, значение по умолчанию — `podman`.
 * Должен быть подготовлен базовый docker образ c Python и нужными Python пакетами внутри. В **python_run.sh** имя образа прописывается в параметре `IMAGE_NAME`, значение по умолчанию — `python`.
 
-В **python_run.sh** имеется параметр `CONTAINER_OPTIONS`, в который можно передавать настройки контейнера, например, значение переменной `oom-score-adj`. По умолчанию устанавливается значение `oom-score-adj=1000`. То есть если OOM Killer будет необходимо завершить какой-либо процесс, то контейнер будет первым кандидатом для этого.
+В **python_run.sh** имеется параметр `CONTAINER_OPTIONS`, в который можно передавать настройки контейнера, например, значение переменной `oom-score-adj`. `oom-score-adj=1000` value is set by default. То есть если OOM Killer будет необходимо завершить какой-либо процесс, то контейнер будет первым кандидатом для этого.
 
-Для работы узлов *Python* внутри процесса Loginom необходимо учитывать следующие особенности и ограничения:
+For *Python* nodes operation inside the Megaladata process, it is required to take into account the following peculiarities and restrictions:
 
 * В системе должен быть [установлен Python](https://www.python.org/downloads/) одной разрядности с приложением/сервером Loginom.
-* Python из дистрибутива Anaconda не поддерживается.
-* Не поддерживаются модули пакета [multiprocessing](https://docs.python.org/3/library/multiprocessing.html).
-* Создание GUI-интерфейса из кода Python не является целевым назначением компонента *Python* и в некоторых случаях может приводить к неверной работе приложения. For example:
+* Python from Anaconda distribution kit is not supported.
+* [multiprocessing](https://docs.python.org/3/library/multiprocessing.html) package modules are not supported.
+* Creation of GUI interface from the Python code is not designation of the *Python* component, and in some cases it can cause incorrect application operation. For example:
    * для работы `matplotlib` с бэкэндом [Qt](https://wiki.qt.io/About_Qt) и в целом с [PyQt](https://riverbankcomputing.com/software/pyqt/intro) требуется наличие файла [qt.conf](https://doc.qt.io/qt-5/qt-conf.html) с путями к библиотекам/плагинам Qt. При невозможности их найти, приложение Loginom будет принудительно завершено с сообщением об ошибке.
 * Оставленные незавершенными фоновые потоки могут приводить к аварийному завершению приложения.
-* В случае критических ошибок python3x.dll может аварийно завершить приложение. Рекомендуется использовать предварительно отлаженный код Python.
-* Одновременно может выполняться только один узел *Python*.
+* In the case of crytical errors python3x.dll can shut the application down. It is recommended to use preliminarily debugged Python code.
+* Only one *Python* node can be simultaneously executed.
 * Остановить выполнение узла *Python* можно только между инструкциями интерпретатора.
 * [Виртуальные окружения](https://docs.python.org/3/library/venv.html) возможно использовать при задании *Путь интерпретатора*. Для этого путь интерпретатора должен указывать на python.exe внутри виртуального окружения [подробнее о поиске модулей Python внутри процесса Loginom](#poisk-moduley-python-vnutri-protsessa-loginom). Для корректной работы версия python.exe в виртуальном окружении и версия python3x.dll, через которую выполняется код узла, должны совпадать.
 
@@ -165,8 +165,8 @@ The introduced changes take effect upon pressing ![](./../images/icons/common/to
 
 > **Примечание:** под Linux не поддерживается режим выполнения Python внутри процесса Loginom, следовательно, нет и настройки *Путь библиотеки*. Узлы *Python*, настроенные на выполнение внутри процесса, на Linux будут выполняться в отдельном процессе.
 
-### Поиск модулей Python внутри процесса Loginom
+### Search for Python modules inside the Megaladata process
 
 Путь к папке, в которой расположен интерпретатор, добавляется как ещё один путь в `sys.path` — список путей, по которым ищутся модули.
 
-Если на один каталог выше каталога *Путь интерпретатора* существует файл с именем `pyvenv.cfg`, то `sys.prefix` и `sys.exec_prefix` устанавливаются равными этому каталогу, и проверяется наличие `site-packages`. Найденный `site-packages` добавляется в `sys.path`. Если `pyvenv.cfg` содержит ключ `include-system-site-packages` и его значение не равно true, то базовый путь `site-packages` (относительно `sys.base_prefix`) не включается в `sys.path`.
+Если на один каталог выше каталога *Путь интерпретатора* существует файл с именем `pyvenv.cfg`, то `sys.prefix` и `sys.exec_prefix` устанавливаются равными этому каталогу, и проверяется наличие `site-packages`. Found `site-packages` are added to `sys.path`. Если `pyvenv.cfg` содержит ключ `include-system-site-packages` и его значение не равно true, то базовый путь `site-packages` (относительно `sys.base_prefix`) не включается в `sys.path`.
