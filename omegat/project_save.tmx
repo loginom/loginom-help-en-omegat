@@ -70647,6 +70647,36 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="file">components-platform.md</prop>
+      <prop type="id">tu7_0</prop>
+      <tuv lang="ru">
+        <seg>Server</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T134827Z" creationid="Марианна" creationdate="20231119T134827Z">
+        <seg>Server</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">components-platform.md</prop>
+      <prop type="id">tu8_0</prop>
+      <tuv lang="ru">
+        <seg>Loginom Server — ключевой элемент платформы, необходимый для коллективной работы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T135110Z" creationid="Марианна" creationdate="20231119T135110Z">
+        <seg>Megaladata Server is a key platform element required for the team work.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">components-platform.md</prop>
+      <prop type="id">tu8_0</prop>
+      <tuv lang="ru">
+        <seg>Аналитический сервер, выполняет задачи загрузки, расчетов, построения моделей, визуализации, управления правами и прочее.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T135012Z" creationid="Марианна" creationdate="20231119T135012Z">
+        <seg>The analytical server, completes the loading, calculation, model training, visualisation, right management and other tasks.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="file">data/datakind.md</prop>
       <prop type="id">tu5_0</prop>
       <tuv lang="ru">
