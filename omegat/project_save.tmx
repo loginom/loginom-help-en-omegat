@@ -69201,6 +69201,26 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="file">admin/users/access-matrix.md</prop>
+      <prop type="id">tu6_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;1&lt;x2/&gt; Для системных переменных пакета</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T112918Z" creationid="Марианна" creationdate="20231119T112918Z">
+        <seg>&lt;x1/&gt;1&lt;x2/&gt; For system package variables</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/users/access-matrix.md</prop>
+      <prop type="id">tu7_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;2&lt;x2/&gt; Для пользовательских переменных пакета</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T112934Z" creationid="Марианна" creationdate="20231119T112934Z">
+        <seg>&lt;x1/&gt;2&lt;x2/&gt; For user package variables</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="file">compare-editions.md</prop>
       <prop type="id">tu101_0</prop>
       <tuv lang="ru">
