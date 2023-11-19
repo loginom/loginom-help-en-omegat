@@ -68944,6 +68944,36 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu46_0</prop>
+      <tuv lang="ru">
+        <seg>Минимальная поддерживаемая версия Python — 3.5.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T144812Z" creationid="Марианна" creationdate="20231119T144812Z">
+        <seg>Maximum supported Python version — 3.5.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu47_0</prop>
+      <tuv lang="ru">
+        <seg>Максимальная протестированная версия Python — 3.10.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T144830Z" creationid="Марианна" creationdate="20231119T144830Z">
+        <seg>Maximum tested Python version — 3.10.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu55_0</prop>
+      <tuv lang="ru">
+        <seg>По умолчанию устанавливается значение &lt;x7/&gt;oom-score-adj=1000&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T144756Z" creationid="Марианна" creationdate="20231119T144756Z">
+        <seg>&lt;x7/&gt;oom-score-adj=1000&lt;x8/&gt; value is set by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu58_0</prop>
       <tuv lang="ru">
         <seg>Python из дистрибутива Anaconda не поддерживается.</seg>
