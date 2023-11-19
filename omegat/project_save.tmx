@@ -68944,12 +68944,42 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu58_0</prop>
+      <tuv lang="ru">
+        <seg>Python из дистрибутива Anaconda не поддерживается.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T144422Z" creationid="Марианна" creationdate="20231119T144422Z">
+        <seg>Python from Anaconda distribution kit is not supported.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu59_0</prop>
+      <tuv lang="ru">
+        <seg>Не поддерживаются модули пакета &lt;x1/&gt;multiprocessing&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T144454Z" creationid="Марианна" creationdate="20231119T144454Z">
+        <seg>&lt;x1/&gt;multiprocessing&lt;x2/&gt; package modules are not supported.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu5_0</prop>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Обновить&lt;x2/&gt; &lt;x3/&gt;Обновить&lt;x4/&gt; — подгружает параметры, используемые в данный момент.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231117T082910Z" creationid="Марианна" creationdate="20231117T082910Z">
         <seg>&lt;x1/&gt;Update&lt;x2/&gt; &lt;x3/&gt;Update&lt;x4/&gt; enables to upload currently used parameters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu60_0</prop>
+      <tuv lang="ru">
+        <seg>Создание GUI-интерфейса из кода Python не является целевым назначением компонента &lt;x1/&gt;Python&lt;x2/&gt; и в некоторых случаях может приводить к неверной работе приложения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T144731Z" creationid="Марианна" creationdate="20231119T144731Z">
+        <seg>Creation of GUI interface from the Python code is not designation of the &lt;x1/&gt;Python&lt;x2/&gt; component, and in some cases it can cause incorrect operation of the application.</seg>
       </tuv>
     </tu>
     <tu>
