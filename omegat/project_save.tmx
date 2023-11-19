@@ -69210,6 +69210,16 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/users/README.md</prop>
       <prop type="id">tu17_0</prop>
       <tuv lang="ru">
+        <seg>Если пользователь добавляется через LDAP, то состояние флага будет "неявно заблокирован", но пользователь сможет авторизоваться.|</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T185024Z" creationid="Марианна" creationdate="20231119T185024Z">
+        <seg>If the user is added via LDAP, the "implicit lock" position is selected for the checkbox, but the user will be able to login.|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/users/README.md</prop>
+      <prop type="id">tu17_0</prop>
+      <tuv lang="ru">
         <seg>Параметр отсутствует, если не поддерживается LDAP.|
 |Пароль|Пароль пользователя, используемый для входа в систему.</seg>
       </tuv>
@@ -69240,6 +69250,16 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231119T183619Z" creationid="Марианна" creationdate="20231119T183619Z">
         <seg>In the case of the automatic new user addition by means of LDAP authentification, he is provided with package publication rights if he is created with "Workflows design" role (refer to</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/users/README.md</prop>
+      <prop type="id">tu17_0</prop>
+      <tuv lang="ru">
+        <seg>При добавлении пользователю одной из ролей флаг переходит в состояние "не установлен", т.е. пользователь получает доступ в соответствии с установленной ролью.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T184849Z" creationid="Марианна" creationdate="20231119T184849Z">
+        <seg>When the user is assigned with one of the roles, "not selected" position of the checkbox is set. Namely, the user gets access according to the assigned role.</seg>
       </tuv>
     </tu>
     <tu>
