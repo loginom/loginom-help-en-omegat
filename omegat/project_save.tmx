@@ -68974,12 +68974,32 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu48_0</prop>
+      <tuv lang="ru">
+        <seg>Создание GUI-интерфейса из кода Python не является целевым назначением компонента &lt;x1/&gt;Python&lt;x2/&gt; и в некоторых случаях может приводить к неверной работе приложения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T145253Z" creationid="Марианна" creationdate="20231119T145253Z">
+        <seg>Creation of GUI interface from the Python code is not designation of the &lt;x1/&gt;Python&lt;x2/&gt; component, and in some cases it can cause incorrect application operation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu55_0</prop>
       <tuv lang="ru">
         <seg>По умолчанию устанавливается значение &lt;x7/&gt;oom-score-adj=1000&lt;x8/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231119T144756Z" creationid="Марианна" creationdate="20231119T144756Z">
         <seg>&lt;x7/&gt;oom-score-adj=1000&lt;x8/&gt; value is set by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu56_0</prop>
+      <tuv lang="ru">
+        <seg>Для работы узлов &lt;x1/&gt;Python&lt;x2/&gt; внутри процесса Loginom необходимо учитывать следующие особенности и ограничения:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T145504Z" creationid="Марианна" creationdate="20231119T145504Z">
+        <seg>For &lt;x1/&gt;Python&lt;x2/&gt; nodes operation inside the Megaladata process, it is required to take into account the following peculiarities and restrictions:</seg>
       </tuv>
     </tu>
     <tu>
@@ -69018,8 +69038,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Создание GUI-интерфейса из кода Python не является целевым назначением компонента &lt;x1/&gt;Python&lt;x2/&gt; и в некоторых случаях может приводить к неверной работе приложения.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231119T144731Z" creationid="Марианна" creationdate="20231119T144731Z">
-        <seg>Creation of GUI interface from the Python code is not designation of the &lt;x1/&gt;Python&lt;x2/&gt; component, and in some cases it can cause incorrect operation of the application.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T145311Z" creationid="Марианна" creationdate="20231119T144731Z">
+        <seg>Creation of GUI interface from the Python code is not designation of the &lt;x1/&gt;Python&lt;x2/&gt; component, and in some cases it can cause incorrect application operation.</seg>
       </tuv>
     </tu>
     <tu>
