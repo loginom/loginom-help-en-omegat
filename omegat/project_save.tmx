@@ -70618,6 +70618,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">components-platform.md</prop>
+      <prop type="id">tu14_0</prop>
+      <tuv lang="ru">
+        <seg>Studio — основное рабочее место аналитика и конечного пользователя, реализующее пользовательский интерфейс работы с платформой.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T142020Z" creationid="Марианна" creationdate="20231119T142020Z">
+        <seg>Studio is the main working place of analyst and end user that implements user interface of the platform operation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">components-platform.md</prop>
       <prop type="id">tu16_0</prop>
       <tuv lang="ru">
         <seg>Integrator</seg>
