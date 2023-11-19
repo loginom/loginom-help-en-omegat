@@ -70708,6 +70708,26 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">components-platform.md</prop>
+      <prop type="id">tu20_0</prop>
+      <tuv lang="ru">
+        <seg>Опциональный компонент платформы, который обеспечивает интеграцию Loginom Server с нестандартными веб-сервисами, например, Бюро кредитных историй.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T143133Z" creationid="Марианна" creationdate="20231119T143133Z">
+        <seg>It is an optional platform component that provides integration of Megaladata Server with non-standard web services, for example, with credit reference bureau.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">components-platform.md</prop>
+      <prop type="id">tu21_0</prop>
+      <tuv lang="ru">
+        <seg>Loginom Adapter Позволяет проводить сложные преобразования для приведения XML-запроса к стандартному виду, который может быть обработан другими компонентами платформы Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T143542Z" creationid="Марианна" creationdate="20231119T143542Z">
+        <seg>Megaladata Adapter enables to perform complex transformations to bring XML request to the standard type that can be processed by other Megaladata platform components.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">components-platform.md</prop>
       <prop type="id">tu22_0</prop>
       <tuv lang="ru">
         <seg>Системные требования для &lt;x1/&gt;ОС Windows&lt;x2/&gt;.</seg>
