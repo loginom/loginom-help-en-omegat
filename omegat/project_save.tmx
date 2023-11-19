@@ -69311,6 +69311,36 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="file">admin/users/roles.md</prop>
+      <prop type="id">tu8_0</prop>
+      <tuv lang="ru">
+        <seg>Он может манипулировать отчетами: изменять их вид, группировать данные, настраивать фильтры, менять типы графиков и др.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T120433Z" creationid="Марианна" creationdate="20231119T120433Z">
+        <seg>He can handle the reports: change their kind, group data, configure filters, change types of graphic charts.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/users/roles.md</prop>
+      <prop type="id">tu8_0</prop>
+      <tuv lang="ru">
+        <seg>Реализация логики расчетов от него скрыта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T120501Z" creationid="Марианна" creationdate="20231119T120501Z">
+        <seg>The calculation logics is hidden from him.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/users/roles.md</prop>
+      <prop type="id">tu9_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Пакетное выполнение&lt;x2/&gt; – пользователь имеет доступ к выполнению пакетов через утилиту &lt;x3/&gt;BatchLauncher&lt;x4/&gt; или компонент Loginom Integrator без доступа к графическому интерфейсу Loginom Studio.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T121238Z" creationid="Марианна" creationdate="20231119T121238Z">
+        <seg>&lt;x1/&gt;Batch processing&lt;x2/&gt;: the user has access to batch processing via &lt;x3/&gt;BatchLauncher&lt;x4/&gt; utility application or Megaladata Integrator component without access to the Megaladata Studio graphical interface.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="file">compare-editions.md</prop>
       <prop type="id">tu101_0</prop>
       <tuv lang="ru">
