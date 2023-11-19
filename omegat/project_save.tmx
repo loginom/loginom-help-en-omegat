@@ -69261,6 +69261,16 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="file">admin/users/roles.md</prop>
+      <prop type="id">tu5_0</prop>
+      <tuv lang="ru">
+        <seg>Доступ пользователей к функциональным возможностям платформы предоставляется согласно функциональной роли.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T114021Z" creationid="Марианна" creationdate="20231119T114021Z">
+        <seg>Users must be provided with access to the functional platform capabilities according to the functional role.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="file">compare-editions.md</prop>
       <prop type="id">tu101_0</prop>
       <tuv lang="ru">
