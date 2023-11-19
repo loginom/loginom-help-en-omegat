@@ -68964,6 +68964,26 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu63_0</prop>
+      <tuv lang="ru">
+        <seg>Рекомендуется использовать предварительно отлаженный код Python.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T144301Z" creationid="Марианна" creationdate="20231119T144301Z">
+        <seg>It is recommended to use preliminarily debugged Python code.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu64_0</prop>
+      <tuv lang="ru">
+        <seg>Одновременно может выполняться только один узел &lt;x1/&gt;Python&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T144355Z" creationid="Марианна" creationdate="20231119T144355Z">
+        <seg>Only one &lt;x1/&gt;Python&lt;x2/&gt; node can be simultaneously executed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu69_0</prop>
       <tuv lang="ru">
         <seg>Поиск модулей Python внутри процесса Loginom</seg>
