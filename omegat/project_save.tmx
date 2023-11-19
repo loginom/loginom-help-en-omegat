@@ -70722,8 +70722,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Loginom Adapter Позволяет проводить сложные преобразования для приведения XML-запроса к стандартному виду, который может быть обработан другими компонентами платформы Loginom.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231119T143542Z" creationid="Марианна" creationdate="20231119T143542Z">
-        <seg>Megaladata Adapter enables to perform complex transformations to bring XML request to the standard type that can be processed by other Megaladata platform components.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T143714Z" creationid="Марианна" creationdate="20231119T143542Z">
+        <seg>Megaladata Adapter enables to perform complex transformations to bring XML request to its standard type that can be processed by other Megaladata platform components.</seg>
       </tuv>
     </tu>
     <tu>
