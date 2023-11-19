@@ -10,38 +10,38 @@ The Megaladata analytical platform can be operated in the server mode for the te
 
 The platform component designated for the autonomous data processing on the personal computer. It can process large data volumes restricted only by the working station resources.
 
-Loginom Desktop не содержит инструменты для совместной работы, разграничения прав и публикации веб-сервисов.
+Megaladata Desktop does not contain tools for team work, differentiation of rights and publication of web services.
 
-Системные требования для [ОС Windows](https://help.loginom.ru/adminguide/desktop/) и [OC Linux](https://help.loginom.ru/adminguide/desktop/linux/).
+System requirements for [OS Windows](https://help.loginom.ru/adminguide/desktop/) and [OS Linux](https://help.loginom.ru/adminguide/desktop/linux/).
 
 ## Server
 
-Аналитический сервер, выполняет задачи загрузки, расчетов, построения моделей, визуализации, управления правами и прочее. Loginom Server — ключевой элемент платформы, необходимый для коллективной работы. Loginom Server предназначен для развертывания во внутренней сети, когда подразумевается работа более чем одного пользователя с различных рабочих мест.
+The analytical server, completes the loading, calculation, model training, visualisation, right management and other tasks. Megaladata Server is a key platform element required for the team work. Megaladata Server is designated for deployment in the internal network when there is more than one user working from different working places.
 
-Управление сервером, настройка, визуализация и прочие операции осуществляются при помощи Loginom Studio. С Loginom Server могут взаимодействовать остальные компоненты платформы, кроме компонента Desktop.
+Megaladata Studio is required for server control, configuration, visualisation and other operations. Other platform components, with the exception of the Desktop component, can interact with Megaladata Server.
 
-Базовая поставка всех серверных и облачной редакции включает Loginom Server и минимум 5 конкурентных лицензий для пользователей с ролью «Проектирование сценариев» или «Просмотр отчетов». Для выполнения сценариев через запуск по расписанию или с помощью вызова веб-сервисов, опубликованных с помощью Integrator, не требуется дополнительных пользовательских лицензий, достаточно базовой серверной поставки.
+The basic delivery of all server and cloud editions includes Megaladata Server and minimum 5 competitive licenses for the users with "Workflows design" or "View reports" roles. To execute workflows by means of scheduled start or calling of the web services published with Integrator, no additional user licences are required. The basic server delivery is sufficient.
 
-Системные требования для [ОС Linux](https://help.loginom.ru/adminguide/linux/server/), для [ОС Windows](https://help.loginom.ru/adminguide/windows/server/).
+System requirements for [OS Linux](https://help.loginom.ru/adminguide/linux/server/), for [OS Windows](https://help.loginom.ru/adminguide/windows/server/).
 
 ## Studio
 
-Клиентское веб-приложение, предназначенное для проектирования сценариев обработки, визуализации данных, настройки сервера, управления правами пользователей.
+The client web application designated for processing workflows design, data visualisation, server configuration, control of user rights.
 
-Studio — основное рабочее место аналитика и конечного пользователя, реализующее пользовательский интерфейс работы с платформой. Обработка данных выполняется Loginom Server-ом.
+Studio is the main working place of analyst and end user that implements user interface of the platform operation. Megaladata Server provides data processing.
 
-Со списком поддерживаемых браузеров можно ознакомиться по [ссылке](https://help.loginom.ru/adminguide/studio/).
+List of supported browsers can be found at the following [link](https://help.loginom.ru/adminguide/studio/).
 
 ## Integrator
 
-Компонент платформы, позволяющий публиковать собственные веб-сервисы реализующие логику, разработанную в сценариях на Loginom Server. Loginom Integrator дает возможность реализовать архитектуру, обеспечивающую отказоустойчивость, балансировку нагрузки и горизонтальное масштабирование.
+The platform component that enables to publish own web services that implement the logics developed in the Megaladata Server workflows. Megaladata Integrator provides an opportunity to implement the architecture that secures failure safety, load balancing and scaling out.
 
-Системные требования для [ОС Linux](https://help.loginom.ru/adminguide/linux/integrator/), для [ОС Windows](https://help.loginom.ru/adminguide/windows/integrator/).
+System requirements for [OS Linux](https://help.loginom.ru/adminguide/linux/integrator/), for [OS Windows](https://help.loginom.ru/adminguide/windows/integrator/).
 
 ## Adapter
 
-Опциональный компонент платформы, который обеспечивает интеграцию Loginom Server с нестандартными веб-сервисами, например, Бюро кредитных историй.
+It is an optional platform component that provides integration of Megaladata Server with non-standard web services, for example, with credit reference bureau.
 
-Loginom Adapter Позволяет проводить сложные преобразования для приведения XML-запроса к стандартному виду, который может быть обработан другими компонентами платформы Loginom.
+Megaladata Adapter enables to perform complex transformations to bring XML request to its standard type that can be processed by other Megaladata platform components.
 
-Системные требования для [ОС Windows](https://help.loginom.ru/adminguide/adapter/).
+System requirements for [OS Windows](https://help.loginom.ru/adminguide/adapter/).
