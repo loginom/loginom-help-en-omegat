@@ -69180,6 +69180,16 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/users/README.md</prop>
       <prop type="id">tu17_0</prop>
       <tuv lang="ru">
+        <seg>Данный флаг доступен для редактирования, только если установлен флаг "Проектирование сценариев".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T183325Z" creationid="Марианна" creationdate="20231119T183325Z">
+        <seg>This checkbox can be edited only if "Workflows design" checkbox is selected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/users/README.md</prop>
+      <prop type="id">tu17_0</prop>
+      <tuv lang="ru">
         <seg>Параметр отсутствует, если не поддерживается LDAP.|
 |Пароль|Пароль пользователя, используемый для входа в систему.</seg>
       </tuv>
@@ -69200,6 +69210,16 @@ If the format is not specified, use of "B" format is required.</seg>
         <seg>Upon creation of the user, it is not possible to change his name.|
 |Full name|Full user name (it is not obligatory to fill in this field)|
 |Authentification|Selection of &lt;x1/&gt;method of &lt;x2/&gt;Authentification&lt;x3/&gt;&lt;x4/&gt; of user: Local or &lt;x5/&gt;LDAP&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/users/README.md</prop>
+      <prop type="id">tu17_0</prop>
+      <tuv lang="ru">
+        <seg>При автоматическом добавлении нового пользователя с аутентификацией через LDAP ему выдаются права на публикацию пакетов, если он создается с ролью "Проектирование сценариев" (см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T183619Z" creationid="Марианна" creationdate="20231119T183619Z">
+        <seg>In the case of the automatic new user addition by means of LDAP authentification, he is provided with package publication rights if he is created with "Workflows design" role (refer to</seg>
       </tuv>
     </tu>
     <tu>
