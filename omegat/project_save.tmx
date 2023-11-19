@@ -69221,6 +69221,26 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="file">admin/users/roles.md</prop>
+      <prop type="id">tu1_0</prop>
+      <tuv lang="ru">
+        <seg>Роли пользователей в Loginom</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T113115Z" creationid="Марианна" creationdate="20231119T113115Z">
+        <seg>User Roles in Megaladata</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/users/roles.md</prop>
+      <prop type="id">tu2_0</prop>
+      <tuv lang="ru">
+        <seg>Процесс анализа данных делится на 2 этапа:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T113211Z" creationid="Марианна" creationdate="20231119T113211Z">
+        <seg>The data analysis process is divided into two stages:</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="file">compare-editions.md</prop>
       <prop type="id">tu101_0</prop>
       <tuv lang="ru">
