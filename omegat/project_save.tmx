@@ -69352,8 +69352,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Т.е. в системе всегда останется хотя бы один действующий локальный администратор, так как администратор с аутентификацией по LDAP может стать недоступным из-за неправильных настроек или изменений на LDAP сервере.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231119T192021Z" creationid="Марианна" creationdate="20231119T192021Z">
-        <seg>Namely, at least one active local administrator will be always preserved in the system because the administrator with LDAP authentification can bcome unavailable due to incorrect settings or changes on the LDAP server.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T192132Z" creationid="Марианна" creationdate="20231119T192021Z">
+        <seg>Namely, at least one active local administrator will be always preserved in the system because the LDAP authentification administrator can become unavailable due to incorrect settings or changes on the LDAP server.</seg>
       </tuv>
     </tu>
     <tu>
