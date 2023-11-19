@@ -70607,6 +70607,26 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="file">components-platform.md</prop>
+      <prop type="id">tu4_0</prop>
+      <tuv lang="ru">
+        <seg>Компонент платформы, предназначенный для автономной обработки данных на персональном компьютере.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T122912Z" creationid="Марианна" creationdate="20231119T122912Z">
+        <seg>The platform component designated for the autonomous data processing on the personal computer.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">components-platform.md</prop>
+      <prop type="id">tu4_0</prop>
+      <tuv lang="ru">
+        <seg>Он способен обработать большие массивы данных, ограниченные только ресурсами рабочей станции.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T123013Z" creationid="Марианна" creationdate="20231119T123013Z">
+        <seg>It can process large data volumes restricted only by the working station resources.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="file">data/datakind.md</prop>
       <prop type="id">tu5_0</prop>
       <tuv lang="ru">
