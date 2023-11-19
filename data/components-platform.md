@@ -2,13 +2,13 @@
 description: Компоненты платформы — Desktop, Server, Studio, Integrator, Adapter.
 ---
 
-# Компоненты платформы
+# Platform Components
 
-Аналитическая платформа Loginom может функционировать в серверном режиме для коллективной работы и в виде настольного приложения для персональной аналитики. Состав компонентов зависит от [редакции платформы](compare-editions.md).
+The Megaladata analytical platform can be operated in the server mode for the team work and in the desktop application mode for the personal analytics. Composition of components depends on the [platform edition](compare-editions.md).
 
 ## Desktop
 
-Компонент платформы, предназначенный для автономной обработки данных на персональном компьютере. Он способен обработать большие массивы данных, ограниченные только ресурсами рабочей станции.
+The platform component designated for the autonomous data processing on the personal computer. It can process large data volumes restricted only by the working station resources.
 
 Loginom Desktop не содержит инструменты для совместной работы, разграничения прав и публикации веб-сервисов.
 
