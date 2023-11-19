@@ -69328,6 +69328,26 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/users/README.md</prop>
+      <prop type="id">tu25_0</prop>
+      <tuv lang="ru">
+        <seg>Последнему локальному администратору нельзя изменять способ аутентификации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T191155Z" creationid="Марианна" creationdate="20231119T191155Z">
+        <seg>The last local administrator is not allowed to change the authentification method.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/users/README.md</prop>
+      <prop type="id">tu26_0</prop>
+      <tuv lang="ru">
+        <seg>При изменении значения параметра &lt;x1/&gt;Аутентификация&lt;x2/&gt; с "LDAP" на "Локальная" происходит сбрасывание пароля.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T191338Z" creationid="Марианна" creationdate="20231119T191338Z">
+        <seg>Password is reset when the &lt;x1/&gt;Authentification&lt;x2/&gt; parameter value is changed from "LDAP" to "Local".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/users/README.md</prop>
       <prop type="id">tu2_0</prop>
       <tuv lang="ru">
         <seg>Доступны следующие команды для управления пользователями:</seg>
