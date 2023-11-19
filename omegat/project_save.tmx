@@ -69200,6 +69200,16 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/users/README.md</prop>
       <prop type="id">tu17_0</prop>
       <tuv lang="ru">
+        <seg>Если пользователь добавлен, и ему не назначена ни одна роль, то он будет находится в состоянии "неявно заблокирован" и не сможет получить доступ.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T184648Z" creationid="Марианна" creationdate="20231119T184648Z">
+        <seg>If the user is added without any role, he will be in the "implicit lock" state and won't have access.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/users/README.md</prop>
+      <prop type="id">tu17_0</prop>
+      <tuv lang="ru">
         <seg>Параметр отсутствует, если не поддерживается LDAP.|
 |Пароль|Пароль пользователя, используемый для входа в систему.</seg>
       </tuv>
