@@ -69025,7 +69025,7 @@ If the format is not specified, use of "B" format is required.</seg>
 |●|полный доступ в Loginom Studio|
 |○|функционал доступен при наличии у пользователя прав доступа, которые назначаются соответствующими настройками его учетной записи|</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231119T110503Z" creationid="Марианна" creationdate="20231119T110503Z">
+      <tuv lang="en" changeid="Марианна" changedate="20231119T110840Z" creationid="Марианна" creationdate="20231119T110503Z">
         <seg>| Designation |Description|
 |:-:|:-|
 |ADMIN|user with Administration role|
@@ -69033,7 +69033,7 @@ If the format is not specified, use of "B" format is required.</seg>
 |VIEWER|user with View reports role|
 |SERVICE|user with Batch processing role|
 |●|full access to Megaladata Studio|
-|○|functionality is only available if the user has access rights that are provided using corresponding account settings|</seg>
+|○|functionality is only available if the user has access rights provided by means of corresponding account settings|</seg>
       </tuv>
     </tu>
     <tu>
