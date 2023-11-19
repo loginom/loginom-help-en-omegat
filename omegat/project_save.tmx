@@ -69212,8 +69212,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Если пользователь добавляется через LDAP, то состояние флага будет "неявно заблокирован", но пользователь сможет авторизоваться.|</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231119T185024Z" creationid="Марианна" creationdate="20231119T185024Z">
-        <seg>If the user is added via LDAP, the "implicit lock" position is selected for the checkbox, but the user will be able to login.|</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T185420Z" creationid="Марианна" creationdate="20231119T185024Z">
+        <seg>If the user is added via LDAP, the "implicit lock" position will be selected for the checkbox, but the user login will be possible.|</seg>
       </tuv>
     </tu>
     <tu>
