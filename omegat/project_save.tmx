@@ -69278,6 +69278,26 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/users/README.md</prop>
+      <prop type="id">tu18_0</prop>
+      <tuv lang="ru">
+        <seg>Если не поддерживается LDAP, то в таблице отсутствует столбец "Аутентификация".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T185821Z" creationid="Марианна" creationdate="20231119T185821Z">
+        <seg>If LDAP is not supported, the "Authentification" column is not available in the table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/users/README.md</prop>
+      <prop type="id">tu18_0</prop>
+      <tuv lang="ru">
+        <seg>Параметр &lt;x1/&gt;Аутентификация&lt;x2/&gt; выбирается с помощью выпадающего списка в окне создания/редактирования пользователя, а в таблице на странице "Пользователи" отображается выбранный способ аутентификации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T185708Z" creationid="Марианна" creationdate="20231119T185708Z">
+        <seg>&lt;x1/&gt;Authentification&lt;x2/&gt; parameter is selected from the drop-down list in the window used for user creation/edition, and the selected authentification method is displayed in the table on the "Users" page.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/users/README.md</prop>
       <prop type="id">tu2_0</prop>
       <tuv lang="ru">
         <seg>Доступны следующие команды для управления пользователями:</seg>
