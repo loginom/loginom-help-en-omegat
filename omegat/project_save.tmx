@@ -69308,6 +69308,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/users/README.md</prop>
+      <prop type="id">tu20_0</prop>
+      <tuv lang="ru">
+        <seg>В таблице на странице "Пользователи" установленные значения параметров &lt;x1/&gt;Проектирование сценариев&lt;x2/&gt;, &lt;x3/&gt;Просмотр отчетов&lt;x4/&gt;, &lt;x5/&gt;Пакетное выполнение&lt;x6/&gt;, &lt;x7/&gt;Администрирование&lt;x8/&gt;  изображаются иконками со всплывающими подсказками в столбце "Роли".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T190459Z" creationid="Марианна" creationdate="20231119T190459Z">
+        <seg>The set values of &lt;x1/&gt;Workflows design&lt;x2/&gt;, &lt;x3/&gt;View reports&lt;x4/&gt;, &lt;x5/&gt;Batch processing&lt;x6/&gt;, &lt;x7/&gt;Administration&lt;x8/&gt; parameters in the table on the "Users" page  are displayed in the form of icons with pop-up tips in the "Roles" column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/users/README.md</prop>
       <prop type="id">tu2_0</prop>
       <tuv lang="ru">
         <seg>Доступны следующие команды для управления пользователями:</seg>
