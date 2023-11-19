@@ -68983,6 +68983,26 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="file">admin/users/access-matrix.md</prop>
+      <prop type="id">tu1_0</prop>
+      <tuv lang="ru">
+        <seg>Матрица доступов</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T104940Z" creationid="Марианна" creationdate="20231119T104940Z">
+        <seg>Access Matrix</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/users/access-matrix.md</prop>
+      <prop type="id">tu2_0</prop>
+      <tuv lang="ru">
+        <seg>В данной статье описывается распределение прав доступа в аналитической платформе Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T105409Z" creationid="Марианна" creationdate="20231119T105409Z">
+        <seg>Access rights allocation in the Megaladata analytical platform is described in this article.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="file">compare-editions.md</prop>
       <prop type="id">tu101_0</prop>
       <tuv lang="ru">
