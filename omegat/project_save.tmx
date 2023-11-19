@@ -69139,6 +69139,16 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="file">admin/users/README.md</prop>
+      <prop type="id">tu2_0</prop>
+      <tuv lang="ru">
+        <seg>Доступны следующие команды для управления пользователями:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T150355Z" creationid="Марианна" creationdate="20231119T150355Z">
+        <seg>The following commands are available to control users:</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="file">admin/users/access-matrix.md</prop>
       <prop type="id">tu1_0</prop>
       <tuv lang="ru">
