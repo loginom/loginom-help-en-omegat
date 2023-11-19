@@ -68944,6 +68944,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu45_0</prop>
+      <tuv lang="ru">
+        <seg>Для работы узлов &lt;x1/&gt;Python&lt;x2/&gt; необходимо учитывать следующие особенности и ограничения:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T145049Z" creationid="Марианна" creationdate="20231119T145049Z">
+        <seg>For &lt;x1/&gt;Python&lt;x2/&gt; nodes operation it is required to take into account the following peculiarities and restrictions:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu46_0</prop>
       <tuv lang="ru">
         <seg>Минимальная поддерживаемая версия Python — 3.5.</seg>
