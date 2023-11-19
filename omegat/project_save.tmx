@@ -69251,6 +69251,16 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="file">admin/users/roles.md</prop>
+      <prop type="id">tu4_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Просмотр готовых отчетов&lt;x2/&gt; — просматривать отчеты должны многие сотрудники из различных подразделений компании: топ-менеджеры, руководители департаментов, специалисты различных отделов и другие.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T113450Z" creationid="Марианна" creationdate="20231119T113450Z">
+        <seg>&lt;x1/&gt;View of ready reports&lt;x2/&gt;. Many employees from different company subdivisions must view reports: top managers, heads of departments, specialists of different departments, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="file">compare-editions.md</prop>
       <prop type="id">tu101_0</prop>
       <tuv lang="ru">
