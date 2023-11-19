@@ -69140,12 +69140,60 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/users/README.md</prop>
+      <prop type="id">tu16_0</prop>
+      <tuv lang="ru">
+        <seg>Установленные значения  параметров, за исключением значения параметра &lt;x13/&gt;Пароль&lt;x14/&gt;, отображаются в таблице на странице "Пользователи".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T182116Z" creationid="Марианна" creationdate="20231119T182116Z">
+        <seg>The set parameter values, with the exception of the &lt;x13/&gt;Password&lt;x14/&gt; parameter value are diplayed in the table on the "Users" page</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/users/README.md</prop>
+      <prop type="id">tu17_0</prop>
+      <tuv lang="ru">
+        <seg>|Параметр|Описание|
+|:-|:-|
+|Логин|Имя пользователя, используемое для входа в систему.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T182229Z" creationid="Марианна" creationdate="20231119T182229Z">
+        <seg>|Parameter|Description|
+|:-|:-|
+|Login|User name used for login.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/users/README.md</prop>
+      <prop type="id">tu17_0</prop>
+      <tuv lang="ru">
+        <seg>После создания пользователя его имя изменить нельзя.|
+|Полное имя|Полное имя пользователя (поле не обязательно к заполнению)|
+|Аутентификация|Выбор &lt;x1/&gt;способа &lt;x2/&gt;Аутентификации&lt;x3/&gt;&lt;x4/&gt; пользователя: Локальная или &lt;x5/&gt;LDAP&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T182441Z" creationid="Марианна" creationdate="20231119T182441Z">
+        <seg>Upon creation of the user, it is not possible to change his name.|
+|Full name|Full user name (it is not obligatory to fill in this field)|
+|Authentification|Selection of &lt;x1/&gt;method of &lt;x2/&gt;Authentification&lt;x3/&gt;&lt;x4/&gt; of user: Local or &lt;x5/&gt;LDAP&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/users/README.md</prop>
       <prop type="id">tu2_0</prop>
       <tuv lang="ru">
         <seg>Доступны следующие команды для управления пользователями:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231119T150355Z" creationid="Марианна" creationdate="20231119T150355Z">
         <seg>The following commands are available to control users:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/users/README.md</prop>
+      <prop type="id">tu2_0</prop>
+      <tuv lang="ru">
+        <seg>На данной странице в виде таблицы отображается информация о зарегистрированных в системе пользователях.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T181918Z" creationid="Марианна" creationdate="20231119T181918Z">
+        <seg>The information on the users registered in the system is displayed in the table form on this page.</seg>
       </tuv>
     </tu>
     <tu>
