@@ -70608,6 +70608,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">components-platform.md</prop>
+      <prop type="id">tu13_0</prop>
+      <tuv lang="ru">
+        <seg>Клиентское веб-приложение, предназначенное для проектирования сценариев обработки, визуализации данных, настройки сервера, управления правами пользователей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T141111Z" creationid="Марианна" creationdate="20231119T141111Z">
+        <seg>The client web application designated for processing workflows design, data visualisation, server configuration, control of user rights.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">components-platform.md</prop>
       <prop type="id">tu16_0</prop>
       <tuv lang="ru">
         <seg>Integrator</seg>
