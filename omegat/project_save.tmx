@@ -68954,12 +68954,42 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu63_0</prop>
+      <tuv lang="ru">
+        <seg>В случае критических ошибок python3x.dll может аварийно завершить приложение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T144200Z" creationid="Марианна" creationdate="20231119T144200Z">
+        <seg>In the case of crytical errors python3x.dll can shut the application down.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu69_0</prop>
+      <tuv lang="ru">
+        <seg>Поиск модулей Python внутри процесса Loginom</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T143937Z" creationid="Марианна" creationdate="20231119T143937Z">
+        <seg>Search for Python modules inside the Megaladata process</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu6_0</prop>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; по завершении корректировки параметров необходимо нажать кнопку &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Сохранить&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231117T083119Z" creationid="Марианна" creationdate="20231117T083119Z">
         <seg>&lt;x1/&gt;Note:&lt;x2/&gt; It is required to press &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Save&lt;x6/&gt; button upon completion of parameters correction.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu71_0</prop>
+      <tuv lang="ru">
+        <seg>Найденный &lt;x11/&gt;site-packages&lt;x12/&gt; добавляется в &lt;x13/&gt;sys.path&lt;x14/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T143904Z" creationid="Марианна" creationdate="20231119T143904Z">
+        <seg>Found &lt;x11/&gt;site-packages&lt;x12/&gt; are added to &lt;x13/&gt;sys.path&lt;x14/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
