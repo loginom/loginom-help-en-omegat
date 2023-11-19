@@ -22,7 +22,7 @@ description: Экспорт данных из Loginom в Хранилище да
 
 ### Step 2. Экспорт в хранилище данных
 
-На данной странице происходит работа с внутренними элементами объекта, выбранного на предыдущем шаге.
+This page is designated for work with internal items of the object selected at the previous stage.
 
 The wizard window is divided into two areas:
 
