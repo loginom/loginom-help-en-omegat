@@ -69222,6 +69222,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/users/roles.md</prop>
+      <prop type="id">tu10_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Администрирование&lt;x2/&gt; – пользователь с этой роль получает доступ в странице &lt;x3/&gt;Администрирование&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T121401Z" creationid="Марианна" creationdate="20231119T121401Z">
+        <seg>&lt;x1/&gt;Administration&lt;x2/&gt;: the user with this role is provided with access on the &lt;x3/&gt;Administration&lt;x4/&gt; page.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/users/roles.md</prop>
       <prop type="id">tu1_0</prop>
       <tuv lang="ru">
         <seg>Роли пользователей в Loginom</seg>
