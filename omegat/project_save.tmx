@@ -69296,8 +69296,18 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Он может разрабатывать логику обработки данных, создавать &lt;x3/&gt;веб-сервисы&lt;x4/&gt;, реализовывать собственные компоненты и &lt;x5/&gt;делиться&lt;x6/&gt; ими, подключаться к &lt;x7/&gt;внешним источникам&lt;x8/&gt; и прочее.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231119T120007Z" creationid="Марианна" creationdate="20231119T120007Z">
-        <seg>He can develop the processing logics, create &lt;x3/&gt;web services&lt;x4/&gt;, implement own components and &lt;x5/&gt;share&lt;x6/&gt; them, connect to the &lt;x7/&gt;external sources&lt;x8/&gt; etc.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T120240Z" creationid="Марианна" creationdate="20231119T120007Z">
+        <seg>He can develop the data processing logics, create &lt;x3/&gt;web services&lt;x4/&gt;, implement own components and &lt;x5/&gt;share&lt;x6/&gt; them, connect to the &lt;x7/&gt;external sources&lt;x8/&gt; etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/users/roles.md</prop>
+      <prop type="id">tu8_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Просмотр отчетов&lt;x2/&gt; – пользователь имеет доступ к настроенным отчетам на странице &lt;x3/&gt;Отчеты&lt;x4/&gt; в Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T120404Z" creationid="Марианна" creationdate="20231119T120404Z">
+        <seg>&lt;x1/&gt;View reports&lt;x2/&gt;: the user has access to the configured reports on &lt;x3/&gt;Reports&lt;x4/&gt; page in Megaladata.</seg>
       </tuv>
     </tu>
     <tu>
