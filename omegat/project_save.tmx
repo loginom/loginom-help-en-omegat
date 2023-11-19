@@ -69224,6 +69224,20 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/users/README.md</prop>
+      <prop type="id">tu17_0</prop>
+      <tuv lang="ru">
+        <seg>подробнее &lt;x11/&gt;Параметры&lt;x12/&gt;).|
+|Полный доступ к файловому хранилищу|Указывает на наличие у пользователя полного доступа к &lt;x13/&gt;файловому хранилищу&lt;x14/&gt;, в ином случае только к личным и &lt;x15/&gt;общим папкам&lt;x16/&gt;|
+|Заблокировать учётную запись|При установленном флаге доступ пользователю будет заблокирован.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T184023Z" creationid="Марианна" creationdate="20231119T184023Z">
+        <seg>&lt;x11/&gt;Parameters&lt;x12/&gt;).|
+|File storage full access|It displays whether a user has full access to the &lt;x13/&gt;file storageу&lt;x14/&gt;, otherwise, only to the personal and &lt;x15/&gt;shared folders&lt;x16/&gt;|
+|Block account|When this checkbox is selected, user access will be blocked.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/users/README.md</prop>
       <prop type="id">tu2_0</prop>
       <tuv lang="ru">
         <seg>Доступны следующие команды для управления пользователями:</seg>
