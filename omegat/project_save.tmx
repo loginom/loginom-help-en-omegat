@@ -70660,6 +70660,16 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">components-platform.md</prop>
       <prop type="id">tu8_0</prop>
       <tuv lang="ru">
+        <seg>Loginom Server предназначен для развертывания во внутренней сети, когда подразумевается работа более чем одного пользователя с различных рабочих мест.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T135204Z" creationid="Марианна" creationdate="20231119T135204Z">
+        <seg>Megaladata Server is designated for deployment in the internal network when there is more than one user working from different working places.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">components-platform.md</prop>
+      <prop type="id">tu8_0</prop>
+      <tuv lang="ru">
         <seg>Loginom Server — ключевой элемент платформы, необходимый для коллективной работы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231119T135110Z" creationid="Марианна" creationdate="20231119T135110Z">
@@ -70674,6 +70684,26 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231119T135012Z" creationid="Марианна" creationdate="20231119T135012Z">
         <seg>The analytical server, completes the loading, calculation, model training, visualisation, right management and other tasks.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">components-platform.md</prop>
+      <prop type="id">tu9_0</prop>
+      <tuv lang="ru">
+        <seg>С Loginom Server могут взаимодействовать остальные компоненты платформы, кроме компонента Desktop.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T135437Z" creationid="Марианна" creationdate="20231119T135437Z">
+        <seg>Other platform components, with the exception of the Desktop component, can interact with Megaladata Server.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">components-platform.md</prop>
+      <prop type="id">tu9_0</prop>
+      <tuv lang="ru">
+        <seg>Управление сервером, настройка, визуализация и прочие операции осуществляются при помощи Loginom Studio.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T135319Z" creationid="Марианна" creationdate="20231119T135319Z">
+        <seg>Megaladata Studio is required for server control, configuration, visualisation and other operations.</seg>
       </tuv>
     </tu>
     <tu>
