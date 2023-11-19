@@ -70637,6 +70637,16 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="file">components-platform.md</prop>
+      <prop type="id">tu6_0</prop>
+      <tuv lang="ru">
+        <seg>Системные требования для &lt;x1/&gt;ОС Windows&lt;x2/&gt; и &lt;x3/&gt;OC Linux&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T134824Z" creationid="Марианна" creationdate="20231119T134824Z">
+        <seg>System requirements for &lt;x1/&gt;OS Windows&lt;x2/&gt; and &lt;x3/&gt;OS Linux&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="file">data/datakind.md</prop>
       <prop type="id">tu5_0</prop>
       <tuv lang="ru">
