@@ -69241,6 +69241,16 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="file">admin/users/roles.md</prop>
+      <prop type="id">tu3_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Разработка аналитических моделей&lt;x2/&gt; — нетривиальная задача, требующая понимания методики анализа и особенностей ведения бизнеса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T113324Z" creationid="Марианна" creationdate="20231119T113324Z">
+        <seg>&lt;x1/&gt;Development of the analytical models&lt;x2/&gt; is a specific task. It is required to understand the analysis methods and peculiarities of business operations.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="file">compare-editions.md</prop>
       <prop type="id">tu101_0</prop>
       <tuv lang="ru">
