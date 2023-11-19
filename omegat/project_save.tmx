@@ -69271,6 +69271,16 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="file">admin/users/roles.md</prop>
+      <prop type="id">tu6_0</prop>
+      <tuv lang="ru">
+        <seg>В Loginom есть четыре Роли пользователей:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T115459Z" creationid="Марианна" creationdate="20231119T115459Z">
+        <seg>There are four User Roles in Megaladata:</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="file">compare-editions.md</prop>
       <prop type="id">tu101_0</prop>
       <tuv lang="ru">
