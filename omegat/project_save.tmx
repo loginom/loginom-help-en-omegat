@@ -69328,6 +69328,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/users/README.md</prop>
+      <prop type="id">tu22_0</prop>
+      <tuv lang="ru">
+        <seg>Использование LDAP аутентификации позволяет авторизоваться на сервере Loginom через LDAP сервер, если значение параметра &lt;x1/&gt;Аутентификация&lt;x2/&gt; "Локальная", то аутентификация происходит средствами Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T192406Z" creationid="Марианна" creationdate="20231119T192406Z">
+        <seg>Use of the LDAP authentication enables to log in to the Megaladata server by means of the LDAP server  if the  &lt;x1/&gt;Authentification&lt;x2/&gt; parameter value is "Local", the authentification is performed by means of the Megaladata tools.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/users/README.md</prop>
       <prop type="id">tu24_0</prop>
       <tuv lang="ru">
         <seg>Запрещено менять способ аутентификации самому себе, так как в этом случае пользователь может стать недоступным, а он мог быть единственным администратором.</seg>
