@@ -70627,6 +70627,16 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="file">components-platform.md</prop>
+      <prop type="id">tu5_0</prop>
+      <tuv lang="ru">
+        <seg>Loginom Desktop не содержит инструменты для совместной работы, разграничения прав и публикации веб-сервисов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T134742Z" creationid="Марианна" creationdate="20231119T134742Z">
+        <seg>Megaladata Desktop does not contain tools for team work, differentiation of rights and publication of web services.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="file">data/datakind.md</prop>
       <prop type="id">tu5_0</prop>
       <tuv lang="ru">
