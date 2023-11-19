@@ -69149,6 +69149,16 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="file">admin/users/README.md</prop>
+      <prop type="id">tu7_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; При удалении пользователя есть возможность сохранить его папку со всем ее содержимым, в таком случае просматривать ее содержимое смогут пользователи, у которых включен параметр &lt;x3/&gt;Полный доступ к файловому хранилищу&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T150529Z" creationid="Марианна" creationdate="20231119T150529Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; When deleting a user, it is possible to save his folder with its contents. In this case, the users with the enabled &lt;x3/&gt;File storage full access&lt;x4/&gt; parameter can view its contents.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="file">admin/users/access-matrix.md</prop>
       <prop type="id">tu1_0</prop>
       <tuv lang="ru">
