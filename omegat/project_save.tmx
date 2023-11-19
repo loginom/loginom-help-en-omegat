@@ -69298,6 +69298,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/users/README.md</prop>
+      <prop type="id">tu19_0</prop>
+      <tuv lang="ru">
+        <seg>Параметры &lt;x1/&gt;Проектирование сценариев&lt;x2/&gt;, &lt;x3/&gt;Просмотр отчетов&lt;x4/&gt;, &lt;x5/&gt;Пакетное выполнение&lt;x6/&gt;, &lt;x7/&gt;Администрирование&lt;x8/&gt;, &lt;x9/&gt;Разрешить публикацию пакетов&lt;x10/&gt;, &lt;x11/&gt;Полный доступ к файловому хранилищу&lt;x12/&gt; и &lt;x13/&gt;Заблокирован&lt;x14/&gt; задаются в окне создания/редактирования пользователя флажком в чекбоксе.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T190139Z" creationid="Марианна" creationdate="20231119T190139Z">
+        <seg>&lt;x1/&gt;Workflows design&lt;x2/&gt;, &lt;x3/&gt;View reports&lt;x4/&gt;, &lt;x5/&gt;Batch processing&lt;x6/&gt;, &lt;x7/&gt;Administration&lt;x8/&gt;, &lt;x9/&gt;Allow publication of packages&lt;x10/&gt;, &lt;x11/&gt;File storage full access&lt;x12/&gt; and &lt;x13/&gt;Locked&lt;x14/&gt;parameters are set in the user creation/edition window selecting checkbox.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/users/README.md</prop>
       <prop type="id">tu2_0</prop>
       <tuv lang="ru">
         <seg>Доступны следующие команды для управления пользователями:</seg>
