@@ -69348,12 +69348,22 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/users/README.md</prop>
+      <prop type="id">tu25_0</prop>
+      <tuv lang="ru">
+        <seg>Т.е. в системе всегда останется хотя бы один действующий локальный администратор, так как администратор с аутентификацией по LDAP может стать недоступным из-за неправильных настроек или изменений на LDAP сервере.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T192021Z" creationid="Марианна" creationdate="20231119T192021Z">
+        <seg>Namely, at least one active local administrator will be always preserved in the system because the administrator with LDAP authentification can bcome unavailable due to incorrect settings or changes on the LDAP server.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/users/README.md</prop>
       <prop type="id">tu26_0</prop>
       <tuv lang="ru">
         <seg>В этом случае пользователь может авторизоваться с пустым паролем, если при смене способа аутентификации не был задан иной пароль.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231119T191742Z" creationid="Марианна" creationdate="20231119T191742Z">
-        <seg>In this case, user login with empty password is allowed if another pasword has not been set in the process of the authentification method change.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T191845Z" creationid="Марианна" creationdate="20231119T191742Z">
+        <seg>In this case, user login with empty password is allowed if another password has not been set in the process of the authentification method change.</seg>
       </tuv>
     </tu>
     <tu>
