@@ -69328,12 +69328,32 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/users/README.md</prop>
+      <prop type="id">tu24_0</prop>
+      <tuv lang="ru">
+        <seg>Запрещено менять способ аутентификации самому себе, так как в этом случае пользователь может стать недоступным, а он мог быть единственным администратором.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T191551Z" creationid="Марианна" creationdate="20231119T191551Z">
+        <seg>It is not allowed to change the authentification method for oneself because the user can become unavailable in this case, whereas he could be the only administrator.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/users/README.md</prop>
       <prop type="id">tu25_0</prop>
       <tuv lang="ru">
         <seg>Последнему локальному администратору нельзя изменять способ аутентификации.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231119T191155Z" creationid="Марианна" creationdate="20231119T191155Z">
         <seg>The last local administrator is not allowed to change the authentification method.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/users/README.md</prop>
+      <prop type="id">tu26_0</prop>
+      <tuv lang="ru">
+        <seg>В этом случае пользователь может авторизоваться с пустым паролем, если при смене способа аутентификации не был задан иной пароль.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T191742Z" creationid="Марианна" creationdate="20231119T191742Z">
+        <seg>In this case, user login with empty password is allowed if another pasword has not been set in the process of the authentification method change.</seg>
       </tuv>
     </tu>
     <tu>
