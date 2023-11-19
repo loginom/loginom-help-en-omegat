@@ -68870,6 +68870,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu33_0</prop>
+      <tuv lang="ru">
+        <seg>Изменения параметров, определяющих режим функционирования сервера, вступают в силу после нажатия кнопки &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Сохранить&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T194343Z" creationid="Марианна" creationdate="20231119T194343Z">
+        <seg>Changes of the parameters that define the server operation mode, take effect upon pressing &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Save&lt;x4/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu35_0</prop>
       <tuv lang="ru">
         <seg>Значение по умолчанию — &lt;x1/&gt;Количество ядер CPU&lt;x2/&gt; * 32.</seg>
