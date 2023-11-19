@@ -69232,6 +69232,36 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/users/roles.md</prop>
+      <prop type="id">tu10_0</prop>
+      <tuv lang="ru">
+        <seg>На странице Администрирование можно управлять параметрами сервера Loginom, учетными записями других пользователей, общими папками и открытыми сессиями.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T121748Z" creationid="Марианна" creationdate="20231119T121748Z">
+        <seg>It is possible to control the Megaladata server parameters, accounts of other users, shared folders and opened sessions on the Administration page.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/users/roles.md</prop>
+      <prop type="id">tu11_0</prop>
+      <tuv lang="ru">
+        <seg>Регистрация новых ролей пользователей не предусмотрена.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T121821Z" creationid="Марианна" creationdate="20231119T121821Z">
+        <seg>It is not possible to register new user roles.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/users/roles.md</prop>
+      <prop type="id">tu12_0</prop>
+      <tuv lang="ru">
+        <seg>В соответствии с назначенной ролью пользователь получает &lt;x1/&gt;доступ&lt;x2/&gt; к определенным разделам аналитической платформы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T122020Z" creationid="Марианна" creationdate="20231119T122020Z">
+        <seg>According to the assigned role, the user is provided with &lt;x1/&gt;access&lt;x2/&gt; to the specific sections of the analytical platform.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/users/roles.md</prop>
       <prop type="id">tu1_0</prop>
       <tuv lang="ru">
         <seg>Роли пользователей в Loginom</seg>
