@@ -68900,6 +68900,18 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu35_0</prop>
+      <tuv lang="ru">
+        <seg>Минимальное значение равно 0.|
+|Локаль|Не задана(...)&lt;x3/&gt;^1&lt;x4/&gt;|Задаёт локаль сервера/приложения &lt;x5/&gt;Loginom&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T194733Z" creationid="Марианна" creationdate="20231119T194733Z">
+        <seg>The minimum value is equal to 0.|
+|Locale|Not set(...)&lt;x3/&gt;^1&lt;x4/&gt;|It sets locale of the &lt;x5/&gt;Megaladata&lt;x6/&gt; server/application.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu3_0</prop>
       <tuv lang="ru">
         <seg>В верхней части страницы расположено две кнопки:</seg>
