@@ -44,10 +44,10 @@ The set values of *Workflows design*, *View reports*, *Batch processing*, *Admin
 
 ## Authentification Methods
 
-Использование LDAP аутентификации позволяет авторизоваться на сервере Loginom через LDAP сервер, если значение параметра *Аутентификация* "Локальная", то аутентификация происходит средствами Loginom.
+Use of the LDAP authentication enables to log in to the Megaladata server by means of the LDAP server, if the *Authentification* parameter value is "Local", the authentification is performed by means of the Megaladata tools.
 
 > **Notes:**
 >
-> * Запрещено менять способ аутентификации самому себе, так как в этом случае пользователь может стать недоступным, а он мог быть единственным администратором.
-> * Последнему локальному администратору нельзя изменять способ аутентификации. Т.е. в системе всегда останется хотя бы один действующий локальный администратор, так как администратор с аутентификацией по LDAP может стать недоступным из-за неправильных настроек или изменений на LDAP сервере.
-> * При изменении значения параметра *Аутентификация* с "LDAP" на "Локальная" происходит сбрасывание пароля. В этом случае пользователь может авторизоваться с пустым паролем, если при смене способа аутентификации не был задан иной пароль.
+> * It is not allowed to change the authentification method for oneself because the user can become unavailable in this case, whereas he could be the only administrator.
+> * The last local administrator is not allowed to change the authentification method. Namely, at least one active local administrator will be always preserved in the system because the LDAP authentification administrator can become unavailable due to incorrect settings or changes on the LDAP server.
+> * Password is reset when the *Authentification* parameter value is changed from "LDAP" to "Local". In this case, user login with empty password is allowed if another password has not been set in the process of the authentification method change.
