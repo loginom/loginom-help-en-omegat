@@ -69578,6 +69578,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">compare-editions.md</prop>
+      <prop type="id">tu119_0</prop>
+      <tuv lang="ru">
+        <seg>REST JSON</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T150150Z" creationid="Марианна" creationdate="20231119T150150Z">
+        <seg>REST JSON</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">compare-editions.md</prop>
       <prop type="id">tu11_0</prop>
       <tuv lang="ru">
         <seg>Как аналитика будет интегрироваться с IT системами компании?</seg>
@@ -71162,6 +71172,16 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231108T142644Z" creationid="Марианна" creationdate="20231108T142644Z">
         <seg>The string comparison result depends on the operating system locale of the Loginom server.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">integration/export/warehouse.md</prop>
+      <prop type="id">tu13_0</prop>
+      <tuv lang="ru">
+        <seg>На данной странице происходит работа с внутренними элементами объекта, выбранного на предыдущем шаге.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T150308Z" creationid="Марианна" creationdate="20231119T150308Z">
+        <seg>This page is designated for work with internal items of the object selected at the previous stage.</seg>
       </tuv>
     </tu>
   </body>
