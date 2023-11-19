@@ -70638,12 +70638,42 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">components-platform.md</prop>
+      <prop type="id">tu15_0</prop>
+      <tuv lang="ru">
+        <seg>Со списком поддерживаемых браузеров можно ознакомиться по &lt;x1/&gt;ссылке&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T142203Z" creationid="Марианна" creationdate="20231119T142203Z">
+        <seg>List of supported browsers can be found at the following &lt;x1/&gt;link&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">components-platform.md</prop>
       <prop type="id">tu16_0</prop>
       <tuv lang="ru">
         <seg>Integrator</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231119T135918Z" creationid="Марианна" creationdate="20231119T135918Z">
         <seg>Integrator</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">components-platform.md</prop>
+      <prop type="id">tu17_0</prop>
+      <tuv lang="ru">
+        <seg>Loginom Integrator дает возможность реализовать архитектуру, обеспечивающую отказоустойчивость, балансировку нагрузки и горизонтальное масштабирование.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T142918Z" creationid="Марианна" creationdate="20231119T142918Z">
+        <seg>Megaladata Integrator provides an opportunity to implement the architecture that secures failure safety, load balancing and scaling out.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">components-platform.md</prop>
+      <prop type="id">tu17_0</prop>
+      <tuv lang="ru">
+        <seg>Компонент платформы, позволяющий публиковать собственные веб-сервисы реализующие логику, разработанную в сценариях на Loginom Server.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T142321Z" creationid="Марианна" creationdate="20231119T142321Z">
+        <seg>The platform component that enables to publish own web services that implement the logics developed in the Megaladata Server workflows.</seg>
       </tuv>
     </tu>
     <tu>
