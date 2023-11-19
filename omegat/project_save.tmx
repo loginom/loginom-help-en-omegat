@@ -69281,6 +69281,16 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="file">admin/users/roles.md</prop>
+      <prop type="id">tu7_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Проектирование сценариев&lt;x2/&gt; – пользователю с этой ролью предоставляется доступ ко всем аналитическим возможностям Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T115758Z" creationid="Марианна" creationdate="20231119T115758Z">
+        <seg>&lt;x1/&gt;Workflows design&lt;x2/&gt;: the user with this role is provided with access to all analytical capabilities of Megaladata.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="file">compare-editions.md</prop>
       <prop type="id">tu101_0</prop>
       <tuv lang="ru">
