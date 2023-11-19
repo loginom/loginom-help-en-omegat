@@ -70588,12 +70588,72 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">components-platform.md</prop>
+      <prop type="id">tu10_0</prop>
+      <tuv lang="ru">
+        <seg>Для выполнения сценариев через запуск по расписанию или с помощью вызова веб-сервисов, опубликованных с помощью Integrator, не требуется дополнительных пользовательских лицензий, достаточно базовой серверной поставки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T140912Z" creationid="Марианна" creationdate="20231119T140912Z">
+        <seg>To execute workflows by means of scheduled start or calling of the web services published with Integrator, no additional user licences are required. The basic server delivery is sufficient.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">components-platform.md</prop>
+      <prop type="id">tu11_0</prop>
+      <tuv lang="ru">
+        <seg>Системные требования для &lt;x1/&gt;ОС Linux&lt;x2/&gt;, для &lt;x3/&gt;ОС Windows&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T135943Z" creationid="Марианна" creationdate="20231119T135943Z">
+        <seg>System requirements for &lt;x1/&gt;OS Linux&lt;x2/&gt;, for &lt;x3/&gt;OS Windows&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">components-platform.md</prop>
+      <prop type="id">tu16_0</prop>
+      <tuv lang="ru">
+        <seg>Integrator</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T135918Z" creationid="Марианна" creationdate="20231119T135918Z">
+        <seg>Integrator</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">components-platform.md</prop>
+      <prop type="id">tu18_0</prop>
+      <tuv lang="ru">
+        <seg>Системные требования для &lt;x1/&gt;ОС Linux&lt;x2/&gt;, для &lt;x3/&gt;ОС Windows&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T135914Z" creationid="Марианна" creationdate="20231119T135914Z">
+        <seg>System requirements for &lt;x1/&gt;OS Linux&lt;x2/&gt;, for &lt;x3/&gt;OS Windows&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">components-platform.md</prop>
+      <prop type="id">tu19_0</prop>
+      <tuv lang="ru">
+        <seg>Adapter</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T135851Z" creationid="Марианна" creationdate="20231119T135851Z">
+        <seg>Adapter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">components-platform.md</prop>
       <prop type="id">tu1_0</prop>
       <tuv lang="ru">
         <seg>Компоненты платформы</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231119T122514Z" creationid="Марианна" creationdate="20231119T122514Z">
         <seg>Platform Components</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">components-platform.md</prop>
+      <prop type="id">tu22_0</prop>
+      <tuv lang="ru">
+        <seg>Системные требования для &lt;x1/&gt;ОС Windows&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T140007Z" creationid="Марианна" creationdate="20231119T140007Z">
+        <seg>System requirements for &lt;x1/&gt;OS Windows&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
