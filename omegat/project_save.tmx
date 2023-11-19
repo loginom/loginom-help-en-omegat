@@ -70578,6 +70578,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">components-platform.md</prop>
+      <prop type="id">tu10_0</prop>
+      <tuv lang="ru">
+        <seg>Базовая поставка всех серверных и облачной редакции включает Loginom Server и минимум 5 конкурентных лицензий для пользователей с ролью «Проектирование сценариев» или «Просмотр отчетов».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T135637Z" creationid="Марианна" creationdate="20231119T135637Z">
+        <seg>The basic delivery of all server and cloud editions includes Megaladata Server and minimum 5 competitive licenses for the users with "Workflows design" or "View reports" roles.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">components-platform.md</prop>
       <prop type="id">tu1_0</prop>
       <tuv lang="ru">
         <seg>Компоненты платформы</seg>
