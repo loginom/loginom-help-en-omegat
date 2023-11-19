@@ -69156,10 +69156,36 @@ If the format is not specified, use of "B" format is required.</seg>
 |:-|:-|
 |Логин|Имя пользователя, используемое для входа в систему.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231119T182229Z" creationid="Марианна" creationdate="20231119T182229Z">
+      <tuv lang="en" changeid="Марианна" changedate="20231119T182747Z" creationid="Марианна" creationdate="20231119T182229Z">
         <seg>|Parameter|Description|
 |:-|:-|
-|Login|User name used for login.</seg>
+|Login|User name used for system login.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/users/README.md</prop>
+      <prop type="id">tu17_0</prop>
+      <tuv lang="ru">
+        <seg>В таблице на странице "Пользователи" данный столбец отсутствует.|
+|Роли пользователя|Группа параметров в которой задается выбор &lt;x7/&gt;ролей пользователя&lt;x8/&gt; |
+|Разрешить публикацию пакетов|Определяет, имеет ли пользователь право на &lt;x9/&gt;публикацию пакетов&lt;x10/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T183206Z" creationid="Марианна" creationdate="20231119T183206Z">
+        <seg>This column is not available in the table on the "Users" page.|
+|User roles|Group of parameters in which  &lt;x7/&gt;user roles&lt;x8/&gt; are selected|
+|Allow publication of packages|It defines whether the user has a right to &lt;x9/&gt;publish packages&lt;x10/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/users/README.md</prop>
+      <prop type="id">tu17_0</prop>
+      <tuv lang="ru">
+        <seg>Параметр отсутствует, если не поддерживается LDAP.|
+|Пароль|Пароль пользователя, используемый для входа в систему.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231119T182732Z" creationid="Марианна" creationdate="20231119T182732Z">
+        <seg>The parameter is not available if LDAP is not suported.|
+|Password|User password used for system login.</seg>
       </tuv>
     </tu>
     <tu>
