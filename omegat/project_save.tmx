@@ -68942,6 +68942,22 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu35_0</prop>
       <tuv lang="ru">
+        <seg>|Параметр|Значение по умолчанию|Описание|
+|:-|:-|:-|
+|Размер пула пакетов|10|Количество часто используемых в пакетной обработке пакетов Loginom Integrator, сохраненных для быстрого вызова|
+|Размер пула потоков| По умолчанию| Максимальное количество ставших неактивными после использования потоков, которые не удаляются и держатся в памяти для возможного последующего использования.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231120T154300Z" creationid="Марианна" creationdate="20231120T154300Z">
+        <seg>|Parameter|Default value|Description|
+|:-|:-|:-|
+|Size of package pool|10|The number of the Megaladata Integrator packages frequently used in the batch processing saved for the quick call||
+|Size of thread pool| By default| The maximum number of the threads inactive after use that are not deleted and kept in memory for possible later use.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu35_0</prop>
+      <tuv lang="ru">
         <seg>Значение по умолчанию — &lt;x1/&gt;Количество ядер CPU&lt;x2/&gt; * 32.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231117T192418Z" creationid="Марианна" creationdate="20231117T192418Z">
