@@ -79,7 +79,7 @@ When calling the *Preview* window or executing the node, the message informing a
 * В случае критических ошибок python3x.dll может аварийно завершить приложение. Рекомендуется использовать предварительно отлаженный код Python.
 * Одновременно может выполняться только один узел *Python*.
 * Остановить выполнение узла *Python* можно только между инструкциями интерпретатора.
-* [Виртуальные окружения](https://docs.python.org/3/library/venv.html) возможно использовать при задании *Пути интерпретатора*.
+* [Virtual environments](https://docs.python.org/3/library/venv.html) can be used when setting *Interpreter path*.
 
 Код узла выполняется в модуле `__main__`. Таким образом выполняется условие `__name__ == '__main__'`, которое обычно используется для запуска скриптов.
 
