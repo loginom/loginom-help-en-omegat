@@ -69256,8 +69256,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>определяется домашняя директория Python: если в переменной окружения &lt;x17/&gt;PYTHONHOME&lt;x18/&gt; указан действительный путь в системе, то берётся он, иначе домашняя директория равна &lt;x19/&gt;/usr&lt;x20/&gt;, б.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231120T204356Z" creationid="Марианна" creationdate="20231120T204356Z">
-        <seg>home Python directory is defined: if the actual path in the system is specified in &lt;x17/&gt;PYTHONHOME&lt;x18/&gt; environment variable, it must be used, otherwise the home directory is equal to &lt;x19/&gt;/usr&lt;x20/&gt;, б.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231120T204512Z" creationid="Марианна" creationdate="20231120T204356Z">
+        <seg>home Python directory is defined: if the actual path is specified in the system in &lt;x17/&gt;PYTHONHOME&lt;x18/&gt; environment variable, it must be used, otherwise the home directory is equal to &lt;x19/&gt;/usr&lt;x20/&gt;, б.</seg>
       </tuv>
     </tu>
     <tu>
