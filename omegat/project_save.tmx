@@ -68776,6 +68776,16 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu26_0</prop>
       <tuv lang="ru">
+        <seg>При включенном отладочном режиме в лог-файл записывается расширенная информация для диагностики ошибок.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231120T151653Z" creationid="Марианна" creationdate="20231120T151653Z">
+        <seg>When the debugged mode is enabled, the extended information is recorded for error diagnostics.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu26_0</prop>
+      <tuv lang="ru">
         <seg>При значении  &lt; 1 старые файлы логов не сохраняются.|</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231117T104637Z" creationid="Марианна" creationdate="20231117T104637Z">
@@ -68790,6 +68800,16 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231117T104605Z" creationid="Марианна" creationdate="20231117T104605Z">
         <seg>When the file size is exceeded, and the new logging file is created, the old file gets .1 extension with &lt;x21/&gt;+1: .2, .3 ... shift of the old saved files, .&lt;maximum index&gt;&lt;x22/&gt;, the old backup app.log.1 file will become app.log.2, and the oldest log file is deleted if the limit is reached at the moment of the backup file addition.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu26_0</prop>
+      <tuv lang="ru">
+        <seg>Формирование расширенной информации при отладочном режиме работы приводит к потере производительности, поэтому в обычном режиме работы  трассировка исключений должна быть отключена.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231120T152014Z" creationid="Марианна" creationdate="20231120T152014Z">
+        <seg>Generation of the extended information in the debugged operation mode causes performance loss that is why exception trace must be disabled during the normal operation.</seg>
       </tuv>
     </tu>
     <tu>
