@@ -69222,6 +69222,26 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu44_0</prop>
+      <tuv lang="ru">
+        <seg>в &lt;x13/&gt;Windows&lt;x14/&gt; аналогично поиску разделяемой библиотеки; 2.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231120T201638Z" creationid="Марианна" creationdate="20231120T201638Z">
+        <seg>in &lt;x13/&gt;Windows&lt;x14/&gt; it is similar to search for shared library; 2.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu44_0</prop>
+      <tuv lang="ru">
+        <seg>в &lt;x15/&gt;Linux&lt;x16/&gt; следующим образом: а.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231120T201658Z" creationid="Марианна" creationdate="20231120T201658Z">
+        <seg>in &lt;x15/&gt;Linux&lt;x16/&gt; as follows:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu45_0</prop>
       <tuv lang="ru">
         <seg>Для работы узлов &lt;x1/&gt;Python&lt;x2/&gt; необходимо учитывать следующие особенности и ограничения:</seg>
