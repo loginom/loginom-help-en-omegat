@@ -68696,8 +68696,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Параметры данной группы задаются как в серверных, так и в настольных редакциях платформы и определяют правила формирования лог-файла (журнала регистрации, в котором фиксируется выполнение каждого узла, что позволяет в случае возникновения ошибки выявить ее местоположение и возможную причину).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231120T151458Z" creationid="Марианна" creationdate="20231120T151458Z">
-        <seg>Parameters of this group are set both in the server and desktop editions ща the platform. They define log file generation rules. (It is a registration log in which execution of each node is fixed that enables to detect location and possible reason of the occurred error).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231120T152122Z" creationid="Марианна" creationdate="20231120T151458Z">
+        <seg>Parameters of this group are set both in the server and desktop editions of the platform. They define log file generation rules. (It is a registration log in which execution of each node is fixed that enables to detect location and possible reason of the occurred error).</seg>
       </tuv>
     </tu>
     <tu>
@@ -68778,8 +68778,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>При включенном отладочном режиме в лог-файл записывается расширенная информация для диагностики ошибок.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231120T151653Z" creationid="Марианна" creationdate="20231120T151653Z">
-        <seg>When the debugged mode is enabled, the extended information is recorded for error diagnostics.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231120T152150Z" creationid="Марианна" creationdate="20231120T151653Z">
+        <seg>When the debug mode is enabled, the extended information is recorded to log file for error diagnostics.</seg>
       </tuv>
     </tu>
     <tu>
