@@ -68930,6 +68930,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu34_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; в настольных редакциях данная группа параметров называется &lt;x3/&gt;Параметры приложения&lt;x4/&gt; и включает в себя только параметры &lt;x5/&gt;Размер пула потоков&lt;x6/&gt; и &lt;x7/&gt;Локаль&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231120T153718Z" creationid="Марианна" creationdate="20231120T153718Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; The group of parameters is called &lt;x3/&gt;Application parameters&lt;x4/&gt; in the desktop editions, and it includes only &lt;x5/&gt;Size of thread pool&lt;x6/&gt; and &lt;x7/&gt;Locale&lt;x8/&gt; parameters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu35_0</prop>
       <tuv lang="ru">
         <seg>Значение по умолчанию — &lt;x1/&gt;Количество ядер CPU&lt;x2/&gt; * 32.</seg>
