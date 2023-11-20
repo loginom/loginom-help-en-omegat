@@ -69050,6 +69050,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu39_0</prop>
+      <tuv lang="ru">
+        <seg>Внесенные изменения вступают в силу после нажатия кнопки &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Сохранить&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231120T155622Z" creationid="Марианна" creationdate="20231120T155622Z">
+        <seg>The introduced changes take effect upon pressing &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Save&lt;x4/&gt; button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu3_0</prop>
       <tuv lang="ru">
         <seg>В верхней части страницы расположено две кнопки:</seg>
