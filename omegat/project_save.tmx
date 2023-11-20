@@ -68968,6 +68968,16 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu35_0</prop>
       <tuv lang="ru">
+        <seg>Локаль применяется только после перезагрузки сервера/приложения &lt;x7/&gt;Loginom&lt;x8/&gt;|</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231120T155024Z" creationid="Марианна" creationdate="20231120T155024Z">
+        <seg>Locale is used only after restart of the &lt;x7/&gt;Megaladata&lt;x8/&gt; server/application|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu35_0</prop>
+      <tuv lang="ru">
         <seg>Максимальное значение — 1 000 000.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231117T192433Z" creationid="Марианна" creationdate="20231117T192433Z">
