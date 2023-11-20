@@ -68808,8 +68808,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Формирование расширенной информации при отладочном режиме работы приводит к потере производительности, поэтому в обычном режиме работы  трассировка исключений должна быть отключена.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231120T152014Z" creationid="Марианна" creationdate="20231120T152014Z">
-        <seg>Generation of the extended information in the debugged operation mode causes performance loss that is why exception trace must be disabled during the normal operation.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231120T152217Z" creationid="Марианна" creationdate="20231120T152014Z">
+        <seg>Generation of the extended information in the debug operation mode causes performance loss that is why exception trace must be disabled during the normal operation.</seg>
       </tuv>
     </tu>
     <tu>
