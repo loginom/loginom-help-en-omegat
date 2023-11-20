@@ -69084,6 +69084,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu41_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; в настольных редакциях &lt;x3/&gt;Выполнение программы&lt;x4/&gt; по умолчанию разрешено, при необходимости его можно запретить.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231120T160156Z" creationid="Марианна" creationdate="20231120T160156Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; &lt;x3/&gt;Program Execution&lt;x4/&gt; is allowed by default in the desktop editions. If required, it can be forbidden.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu42_0</prop>
       <tuv lang="ru">
         <seg>Параметры компонента: Python</seg>
