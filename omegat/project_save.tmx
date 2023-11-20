@@ -69132,6 +69132,16 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu44_0</prop>
       <tuv lang="ru">
+        <seg>Если в параметре путь не задан, то осуществляется его автоматический поиск в переменной окружения &lt;x3/&gt;PYTHONHOME&lt;x4/&gt; и реестре.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231120T200242Z" creationid="Марианна" creationdate="20231120T200242Z">
+        <seg>If path is not set in the parameter, it is automatically searched for in the environment variable &lt;x3/&gt;PYTHONHOME&lt;x4/&gt; and register.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu44_0</prop>
+      <tuv lang="ru">
         <seg>По умолчанию используется установленный Python последней версии, зарегистрированный в операционной системе.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231120T160450Z" creationid="Марианна" creationdate="20231120T160450Z">
