@@ -68892,6 +68892,16 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu30_0</prop>
       <tuv lang="ru">
+        <seg>Необходим для автоматического определения разрыва сетевого соединения и закрытия соответствующей сессии клиента вместе с открытыми в ней пакетами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231120T153150Z" creationid="Марианна" creationdate="20231120T153150Z">
+        <seg>It is required for the automatic detection of connection loss and closure of corresponding client session with the packages opened in it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu30_0</prop>
+      <tuv lang="ru">
         <seg>Отключение проверки соединения может привести к блокировке пакетов сервером, т.к. сервер не сможет определить разрыв связи с клиентом и будет считать, что пакет все еще используется клиентом.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231117T192237Z" creationid="Марианна" creationdate="20231117T192237Z">
