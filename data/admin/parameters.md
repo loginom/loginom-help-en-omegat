@@ -59,18 +59,18 @@ Settings change for connection to [LDAP](./ldap.md) server takes effect upon pre
 |Parameter|Default value|Description|
 |:-|:-|:-|
 |Password entry attempt limit|Disabled|When user reaches this limit, he will not be able to log in anymore until  *Password entry timeout* expires. History of failed password entry attempts is reset when Megaladata Server is restarted. If the maximum number of failed attempts of "Batch processing" account login is exceeded, batch processing using this account via Integrator and BatchLauncher will become unavailable before password entry timeout expiration. Minimum value - 1 attempt, maximum - 10000 attempts.|
-|Password entry timeout (s)|∞|Period of restrictions imposed on the user who exceeded *Password entry attempt limit*. The restriction applies to all accounts, including the accounts with *Administration* and *Batch processing* roles. Minimum value - 1 second, maximum value - 2000000 seconds or ∞. В случае, если установлен бесконечный тайм-аут (∞), то при достижении лимита попыток ввода пароля, пользователь больше не сможет залогиниться до тех пор, пока не будет перезапущен Loginom Server, либо администратор не изменит *Тайм-аут ввода пароля* или *Лимит попыток ввода пароля*.|
+|Password entry timeout (s)|∞|Period of restrictions imposed on the user who exceeded *Password entry attempt limit*. The restriction applies to all accounts, including the accounts with *Administration* and *Batch processing* roles. Minimum value - 1 second, maximum value - 2000000 seconds or ∞. If infinite timeout (∞) is set when password entry attempt limit is reached, the user will not be able to log in until Megaladata Server is restarted, or the administrator changes *Password entry timeout* or *Password entry attempt limit*.|
 
 ## Logging Parameters
 
-Параметры данной группы задаются как в серверных, так и в настольных редакциях платформы и определяют правила формирования лог-файла (журнала регистрации, в котором фиксируется выполнение каждого узла, что позволяет в случае возникновения ошибки выявить ее местоположение и возможную причину).
+Parameters of this group are set both in the server and desktop editions of the platform. They define log file generation rules. (It is a registration log in which execution of each node is fixed that enables to detect location and possible reason of the occurred error).
 
 The introduced changes take effect upon pressing ![](./../images/icons/common/toolbar-controls/save_default.svg) *Save* button.
 
 |Parameter|Default value|Description|
 |:-|:-|:-|
 | [Logging level](./log.md)|Information|Method and completeness of the log file filing is specified here (*Trace*, *Debug*, *Information*, *Event*, *Warning*, *Error* and *Fatal*)|
-|Exception trace|false|It enables/disables debug operation mode. При включенном отладочном режиме в лог-файл записывается расширенная информация для диагностики ошибок. Формирование расширенной информации при отладочном режиме работы приводит к потере производительности, поэтому в обычном режиме работы  трассировка исключений должна быть отключена. The debug operation mode is disabled by default.|
+|Exception trace|false|It enables/disables debug operation mode. When the debug mode is enabled, the extended information is recorded to log file for error diagnostics. Generation of the extended information in the debug operation mode causes performance loss that is why exception trace must be disabled during the normal operation. The debug operation mode is disabled by default.|
 |File name|app.log|The parameter contains the log file name. It is set by the path relative to Logs folder. By default, the file is located for the server edition in `"C:\ProgramData\Loginom\Server\Logs"`, and for Desktop edition in `"C:\Users\User\AppData\Roaming\Loginom\Personal\Logs"`.|
 |Rewrite file|false|Checkbox of the logging file recreation while the application start instead of its supplementation. If the value is true, the log file will rewrite the old one at each start.|
 |Maximum file size|10484760|The maximum size of the log file is set in bytes. When this size is exceeded, the file is saved with .1 extension, and the new one is created. For example, the old app.log file is saved as app.log.1 when this size is exceeded, and the new app.log file will be created instead of it where the log is maintained further.|
