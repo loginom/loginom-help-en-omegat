@@ -69152,6 +69152,16 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu44_0</prop>
       <tuv lang="ru">
+        <seg>Самый простой способ узнать путь до библиотеки python3x.dll — воспользоваться командной строкой в Windows.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231120T200433Z" creationid="Марианна" creationdate="20231120T200433Z">
+        <seg>The easiest way to define path to python3x.dll library is to use command line in Windows.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu44_0</prop>
+      <tuv lang="ru">
         <seg>Указывается опционально.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231117T105719Z" creationid="Марианна" creationdate="20231117T105719Z">
