@@ -68992,8 +68992,20 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Увеличение параметра позволяет быстрее работать при большом количестве параллельных операций.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231120T154429Z" creationid="Марианна" creationdate="20231120T154429Z">
-        <seg>Parameter increase secures faster operation agains the backgroun of many parallel operations.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231120T154455Z" creationid="Марианна" creationdate="20231120T154429Z">
+        <seg>Parameter increase secures faster operation against the backgroud of many parallel operations.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu35_0</prop>
+      <tuv lang="ru">
+        <seg>Уменьшение параметра — это потенциальное снижение потребления памяти.|
+|Таймаут остановки сервера (сек.)|10|Время, выделяемое серверу на завершение работы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231120T154653Z" creationid="Марианна" creationdate="20231120T154653Z">
+        <seg>Parameter decrease means potential decrease of memory consumption.|
+|Server stop timeout (s)|10|The time allocated to the server to complete operation.</seg>
       </tuv>
     </tu>
     <tu>
