@@ -90,7 +90,7 @@ Parameters of this group are not available in the desktop Megaladata editions.
 |WebSocket SSL/TLS port| if WSS (WebSocket Secure) is configured, 8443, otherwise null|The secure port used for message exchange with server|
 |Certificate file name||Path to the certificate file used for the SSL connection. It is set by the absolute or relative path (root directory `"C:\ProgramData\Loginom\Server"`).|
 |Private key file name||Path to the key file used for the SSL connection. It is set by the absolute or relative path (root directory `"C:\ProgramData\Loginom\Server"`).|
-|Connection check period (s)|Disabled|Time interval between check of connection with client. Необходим для автоматического определения разрыва сетевого соединения и закрытия соответствующей сессии клиента вместе с открытыми в ней пакетами. The state of the server and client connection channel is checked using the special message that is periodically sent to the client if no messages are sent to the server from the client during the set time interval. If any message is sent from the client, the timer is reset. Namely, the special message is sent only if no incoming message has been sent by the connection channel for a long period of time. It is possible to disable check of server and client connection. For this purpose, it is required to delete the check period value, save settings and restart the server. The disabled connection check can cause locking of packages by the server as the server will not be able to detect the loss of connection with the client, and it will be decided that the package is still being used by the client. In the case of the enabled parameter or small timeout, it can be impossible to reestablish connection after the connection loss.|
+|Connection check period (s)|Disabled|Time interval between check of connection with client. It is required for the automatic detection of connection loss and closure of corresponding client session with the packages opened in it. The state of the server and client connection channel is checked using the special message that is periodically sent to the client if no messages are sent to the server from the client during the set time interval. If any message is sent from the client, the timer is reset. Namely, the special message is sent only if no incoming message has been sent by the connection channel for a long period of time. It is possible to disable check of server and client connection. For this purpose, it is required to delete the check period value, save settings and restart the server. The disabled connection check can cause locking of packages by the server as the server will not be able to detect the loss of connection with the client, and it will be decided that the package is still being used by the client. In the case of the enabled parameter or small timeout, it can be impossible to reestablish connection after the connection loss.|
 
 Possible port values are set in the numeric format in the interval from 0 to 65535.
 
@@ -98,28 +98,28 @@ Possible port values are set in the numeric format in the interval from 0 to 655
 
 Changes of the parameters that define the server operation mode, take effect upon pressing ![](./../images/icons/common/toolbar-controls/save_default.svg) *Save* button.
 
-> **Примечание:** в настольных редакциях данная группа параметров называется *Параметры приложения* и включает в себя только параметры *Размер пула потоков* и *Локаль*.
+> **Note:** The group of parameters is called *Application parameters* in the desktop editions, and it includes only *Size of thread pool* and *Locale* parameters.
 
-|Параметр|Значение по умолчанию|Описание|
+|Parameter|Default value|Description|
 |:-|:-|:-|
-|Размер пула пакетов|10|Количество часто используемых в пакетной обработке пакетов Loginom Integrator, сохраненных для быстрого вызова|
-|Размер пула потоков| По умолчанию| Максимальное количество ставших неактивными после использования потоков, которые не удаляются и держатся в памяти для возможного последующего использования. Default value — *Number of CPU cores* * 32. Maximum value — 1 000 000. Увеличение параметра позволяет быстрее работать при большом количестве параллельных операций. Уменьшение параметра — это потенциальное снижение потребления памяти.|
-|Таймаут остановки сервера (сек.)|10|Время, выделяемое серверу на завершение работы. The minimum value is equal to 0.|
-|Locale|Not set(...)[^1]|It sets locale of the *Megaladata* server/application. Локаль применяется только после перезагрузки сервера/приложения *Loginom*|
+|Size of package pool|10|The number of the Megaladata Integrator packages frequently used in the batch processing saved for the quick call||
+|Size of thread pool| By default| The maximum number of the threads inactive after use that are not deleted and kept in memory for possible later use. Default value — *Number of CPU cores* * 32. Maximum value — 1 000 000. Parameter increase secures faster operation against the backgroud of many parallel operations. Parameter decrease means potential decrease of memory consumption.|
+|Server stop timeout (s)|10|The time allocated to the server to complete operation. The minimum value is equal to 0.|
+|Locale|Not set(...)[^1]|It sets locale of the *Megaladata* server/application. Locale is used only after restart of the *Megaladata* server/application|
 
-[^1]: В серверных редакциях локаль задаётся в процессе установки, в настольных — определяется при первом запуске в соответствии с региональными настройками текущего пользователя.
+[^1]: Locale is set in the installation process in the server editions. It is set during the first start according to the regional settings of the current user in the desktop editions.
 
-> **Важно:** после смены локали некоторые узлы, например, [Сортировка](./../processors/transformation/sorting.md), [Экспорт в текстовый файл](./../integration/export/txt-csv.md) и др. могут работать по-другому.
+> **Important:** After locale change some nodes, for example, [Sort](./../processors/transformation/sorting.md), [Export to the Text File](./../integration/export/txt-csv.md), etc. can function in a different way.
 
 ## Component Parameters: Program Execution
 
-Внесенные изменения вступают в силу после нажатия кнопки ![](./../images/icons/common/toolbar-controls/save_default.svg) *Сохранить*.
+The introduced changes take effect upon pressing ![](./../images/icons/common/toolbar-controls/save_default.svg) *Save* button.
 
 |Parameter|Default value|Description|
 |:-|:-|:-|
 |Execution forbidden|true|The parameter forbids execution of the [*Program execution*](./../processors/integration/exec-program.md) node if true value is set, and enables to execute the node when the value is false|
 
-> **Примечание:** в настольных редакциях *Выполнение программы* по умолчанию разрешено, при необходимости его можно запретить.
+> **Note:** *Program Execution* is allowed by default in the desktop editions. If required, it can be forbidden.
 
 ## Component Parameters: Python
 
@@ -128,7 +128,7 @@ The introduced changes take effect upon pressing ![](./../images/icons/common/to
 |Parameter|Default value|Description|
 |:-|:-|:-|
 |Execution forbidden|true|The parameter forbids execution of the *Python* node if true value is set, and enables to execute the node when the value is false|
-|Library path| |It defines the path to python3x.dll file where x — number of minor release of the shared Python library. It is optionally specified. По умолчанию используется установленный Python последней версии, зарегистрированный в операционной системе. Если в параметре путь не задан, то осуществляется его автоматический поиск в переменной окружения `PYTHONHOME` и реестре. Самый простой способ узнать путь до библиотеки python3x.dll — воспользоваться командной строкой в Windows. Для этого необходимо открыть консоль «Командная строка» («CMD») и ввести запрос «where python*.dll» (в качестве примера была выбрана для отображения версия Python 3.9). Ответом будет полный путь до необходимой библиотеки. ![Путь к библиотеке Python через командную строку](./cmd_python.png)|
+|Library path| |It defines the path to python3x.dll file where x — number of minor release of the shared Python library. It is optionally specified. By default, the latest installed Python version is used. It is registered in the operating system. Если в параметре путь не задан, то осуществляется его автоматический поиск в переменной окружения `PYTHONHOME` и реестре. Самый простой способ узнать путь до библиотеки python3x.dll — воспользоваться командной строкой в Windows. Для этого необходимо открыть консоль «Командная строка» («CMD») и ввести запрос «where python*.dll» (в качестве примера была выбрана для отображения версия Python 3.9). Ответом будет полный путь до необходимой библиотеки. ![Путь к библиотеке Python через командную строку](./cmd_python.png)|
 |Путь интерпретатора| |Определяет путь к исполняемому файлу интерпретатора, который выполняет скрипт из узла *Python* в режиме выполнения Python в отдельном процессе. Кроме того этот путь учитывается в режиме выполнения узла Python при [поиске модулей внутри процесса Loginom](#poisk-moduley-python-vnutri-protsessa-loginom). По умолчанию *Путь интерпретатора* задается: 1. в *Windows* аналогично поиску разделяемой библиотеки; 2. в *Linux* следующим образом: а. определяется домашняя директория Python: если в переменной окружения `PYTHONHOME` указан действительный путь в системе, то берётся он, иначе домашняя директория равна `/usr`, б. оносительно домашней директории исполняемый файл интерпретатора ищется по пути `/bin/python3`, в. если исполняемый файл не найден, то выполняется python3 без указания пути.|
 |Передавать переменные окружения узла|false|Параметр необходим для запуска процесса Python в изолированном окружении. При значении true в процесс Python добавляются переменные окружения: `LAUNCHER_PATHS` — примонтированные в файловое хранилище пути, разделенные `:` (Linux) или `;` (Windows), `LAUNCHER_USER` — имя пользователя Loginom, `LAUNCHER_USER_TMP` и `LAUNCHER_COMMON_TMP` — пути папок для сохранения временных файлов пользователя и рабочей директории, `LAUNCHER_PIPEDIR` — имя папки, в которой создаются файлы именованных каналов для IPC (Linux), `LAUNCHER_PIPENAME` — имя дуплексного именованного канала для IPC (Windows), `LAUNCHER_CURRENTDIR` — имя текущей папки Loginom (совпадает с путём сохранённого пакета), `LAUNCHER_LOCALE` — имя текущей локали (например, `ru_RU`), `LAUNCHER_NODE_GUID` — GUID узла, `LAUNCHER_NODE_NAME` — имя узла, `LAUNCHER_NODE_DISPLAYNAME` — метка узла, `LAUNCHER_PREVIEW` — устанавливается для Предпросмотра.|
 
