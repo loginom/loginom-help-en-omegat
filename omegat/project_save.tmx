@@ -69256,8 +69256,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>определяется домашняя директория Python: если в переменной окружения &lt;x17/&gt;PYTHONHOME&lt;x18/&gt; указан действительный путь в системе, то берётся он, иначе домашняя директория равна &lt;x19/&gt;/usr&lt;x20/&gt;, б.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231120T204512Z" creationid="Марианна" creationdate="20231120T204356Z">
-        <seg>home Python directory is defined: if the actual path is specified in the system in &lt;x17/&gt;PYTHONHOME&lt;x18/&gt; environment variable, it must be used, otherwise the home directory is equal to &lt;x19/&gt;/usr&lt;x20/&gt;, б.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231120T204704Z" creationid="Марианна" creationdate="20231120T204356Z">
+        <seg>home Python directory is defined: if the actual path is specified in the system in &lt;x17/&gt;PYTHONHOME&lt;x18/&gt; environment variable, it must be used, otherwise the home directory is equal to &lt;x19/&gt;/usr&lt;x20/&gt;, b.</seg>
       </tuv>
     </tu>
     <tu>
@@ -69298,6 +69298,16 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231119T145253Z" creationid="Марианна" creationdate="20231119T145253Z">
         <seg>Creation of GUI interface from the Python code is not designation of the &lt;x1/&gt;Python&lt;x2/&gt; component, and in some cases it can cause incorrect application operation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu54_0</prop>
+      <tuv lang="ru">
+        <seg>Должен быть подготовлен базовый docker образ c Python и нужными Python пакетами внутри.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231120T205025Z" creationid="Марианна" creationdate="20231120T205025Z">
+        <seg>The base docker image with Python and required Python packages must be prepared.</seg>
       </tuv>
     </tu>
     <tu>
