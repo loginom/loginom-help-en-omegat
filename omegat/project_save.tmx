@@ -69164,10 +69164,30 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu44_0</prop>
       <tuv lang="ru">
+        <seg>Кроме того этот путь учитывается в режиме выполнения узла Python при &lt;x9/&gt;поиске модулей внутри процесса Loginom&lt;x10/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231120T201454Z" creationid="Марианна" creationdate="20231120T201454Z">
+        <seg>Besides, this path is taken into account in the Python node execution during &lt;x9/&gt;search for modules inside the Megaladata process&lt;x10/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu44_0</prop>
+      <tuv lang="ru">
         <seg>Ответом будет полный путь до необходимой библиотеки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231120T200842Z" creationid="Марианна" creationdate="20231120T200842Z">
         <seg>The answer will be full path to the required library.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu44_0</prop>
+      <tuv lang="ru">
+        <seg>По умолчанию &lt;x11/&gt;Путь интерпретатора&lt;x12/&gt; задается: 1.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231120T201541Z" creationid="Марианна" creationdate="20231120T201541Z">
+        <seg>By default, &lt;x11/&gt;Interpreter path&lt;x12/&gt; is set as follows: 1.</seg>
       </tuv>
     </tu>
     <tu>
