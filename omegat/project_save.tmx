@@ -68692,6 +68692,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu24_0</prop>
+      <tuv lang="ru">
+        <seg>Параметры данной группы задаются как в серверных, так и в настольных редакциях платформы и определяют правила формирования лог-файла (журнала регистрации, в котором фиксируется выполнение каждого узла, что позволяет в случае возникновения ошибки выявить ее местоположение и возможную причину).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231120T151458Z" creationid="Марианна" creationdate="20231120T151458Z">
+        <seg>Parameters of this group are set both in the server and desktop editions ща the platform. They define log file generation rules. (It is a registration log in which execution of each node is fixed that enables to detect location and possible reason of the occurred error).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu25_0</prop>
       <tuv lang="ru">
         <seg>Изменения вступают в силу после нажатия кнопки &lt;x1/&gt;&lt;x2/&gt; &lt;x3/&gt;Сохранить&lt;x4/&gt;.</seg>
