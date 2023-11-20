@@ -68988,6 +68988,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu35_0</prop>
+      <tuv lang="ru">
+        <seg>Увеличение параметра позволяет быстрее работать при большом количестве параллельных операций.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231120T154429Z" creationid="Марианна" creationdate="20231120T154429Z">
+        <seg>Parameter increase secures faster operation agains the backgroun of many parallel operations.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu3_0</prop>
       <tuv lang="ru">
         <seg>В верхней части страницы расположено две кнопки:</seg>
