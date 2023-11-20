@@ -69132,6 +69132,16 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu44_0</prop>
       <tuv lang="ru">
+        <seg>По умолчанию используется установленный Python последней версии, зарегистрированный в операционной системе.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231120T160450Z" creationid="Марианна" creationdate="20231120T160450Z">
+        <seg>By default, the latest installed Python version is used. It is registered in the operating system.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu44_0</prop>
+      <tuv lang="ru">
         <seg>Указывается опционально.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231117T105719Z" creationid="Марианна" creationdate="20231117T105719Z">
