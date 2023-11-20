@@ -69132,10 +69132,30 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu44_0</prop>
       <tuv lang="ru">
+        <seg>Для этого необходимо открыть консоль «Командная строка» («CMD») и ввести запрос «where python*.dll» (в качестве примера была выбрана для отображения версия Python 3.9).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231120T200740Z" creationid="Марианна" creationdate="20231120T200740Z">
+        <seg>For this purpose, it is required to open "Command line" console ("CMD") and enter "where python*.dll" request (Python 3.9 version was selected as display example).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu44_0</prop>
+      <tuv lang="ru">
         <seg>Если в параметре путь не задан, то осуществляется его автоматический поиск в переменной окружения &lt;x3/&gt;PYTHONHOME&lt;x4/&gt; и реестре.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231120T200242Z" creationid="Марианна" creationdate="20231120T200242Z">
         <seg>If path is not set in the parameter, it is automatically searched for in the environment variable &lt;x3/&gt;PYTHONHOME&lt;x4/&gt; and register.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu44_0</prop>
+      <tuv lang="ru">
+        <seg>Ответом будет полный путь до необходимой библиотеки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231120T200842Z" creationid="Марианна" creationdate="20231120T200842Z">
+        <seg>The answer will be full path to the required library.</seg>
       </tuv>
     </tu>
     <tu>
