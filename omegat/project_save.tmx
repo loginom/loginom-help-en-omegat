@@ -69302,6 +69302,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu53_0</prop>
+      <tuv lang="ru">
+        <seg>Для запуска на Linux должен быть установлен &lt;x1/&gt;Docker&lt;x2/&gt; или &lt;x3/&gt;Podman&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231120T210449Z" creationid="Марианна" creationdate="20231120T210449Z">
+        <seg>&lt;x1/&gt;Docker&lt;x2/&gt; or &lt;x3/&gt;Podman&lt;x4/&gt; must be installed for start in Linux.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu54_0</prop>
       <tuv lang="ru">
         <seg>Должен быть подготовлен базовый docker образ c Python и нужными Python пакетами внутри.</seg>
@@ -69412,6 +69422,26 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu67_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; для настольных редакций выполнение узла &lt;x3/&gt;Python&lt;x4/&gt; по умолчанию разрешено, при необходимости выполнение можно запретить.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231120T210354Z" creationid="Марианна" creationdate="20231120T210354Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; The &lt;x3/&gt;Python&lt;x4/&gt; node execution is allowed by default in the desktop editions. If required, it can be forbidden.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu68_0</prop>
+      <tuv lang="ru">
+        <seg>Узлы &lt;x5/&gt;Python&lt;x6/&gt;, настроенные на выполнение внутри процесса, на Linux будут выполняться в отдельном процессе.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231120T205644Z" creationid="Марианна" creationdate="20231120T205644Z">
+        <seg>The &lt;x5/&gt;Python&lt;x6/&gt; nodes configured for execution inside the process will be executed in the separate process in Linux.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu69_0</prop>
       <tuv lang="ru">
         <seg>Поиск модулей Python внутри процесса Loginom</seg>
@@ -69428,6 +69458,16 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231117T083119Z" creationid="Марианна" creationdate="20231117T083119Z">
         <seg>&lt;x1/&gt;Note:&lt;x2/&gt; It is required to press &lt;x3/&gt;&lt;x4/&gt; &lt;x5/&gt;Save&lt;x6/&gt; button upon completion of parameters correction.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu70_0</prop>
+      <tuv lang="ru">
+        <seg>Путь к папке, в которой расположен интерпретатор, добавляется как ещё один путь в &lt;x1/&gt;sys.path&lt;x2/&gt; — список путей, по которым ищутся модули.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231120T210020Z" creationid="Марианна" creationdate="20231120T210020Z">
+        <seg>Path to the folder in which interpreter is located is added as one more path in &lt;x1/&gt;sys.path&lt;x2/&gt; — list of the paths by which modules are searched for.</seg>
       </tuv>
     </tu>
     <tu>
@@ -71782,6 +71822,16 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231119T150308Z" creationid="Марианна" creationdate="20231119T150308Z">
         <seg>This page is designated for work with internal items of the object selected at the previous stage.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">processors/programming/python/README.md</prop>
+      <prop type="id">tu48_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Виртуальные окружения&lt;x2/&gt; возможно использовать при задании &lt;x3/&gt;Пути интерпретатора&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231120T205255Z" creationid="Марианна" creationdate="20231120T205255Z">
+        <seg>&lt;x1/&gt;Virtual environments&lt;x2/&gt; can be used when setting &lt;x3/&gt;Interpreter path&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
   </body>
