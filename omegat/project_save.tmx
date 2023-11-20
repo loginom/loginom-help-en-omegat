@@ -69116,6 +69116,18 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu44_0</prop>
       <tuv lang="ru">
+        <seg>&lt;x5/&gt;Путь к библиотеке Python через командную строку&lt;x6/&gt;|
+|Путь интерпретатора| |Определяет путь к исполняемому файлу интерпретатора, который выполняет скрипт из узла &lt;x7/&gt;Python&lt;x8/&gt; в режиме выполнения Python в отдельном процессе.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231120T201224Z" creationid="Марианна" creationdate="20231120T201224Z">
+        <seg>&lt;x5/&gt;Path to the Python library via the command line&lt;x6/&gt;|
+|Interpreter path| |It defines path to the executed interpreter file that executes script from the &lt;x7/&gt;Python&lt;x8/&gt; node in the Python execution mode in the separate process.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu44_0</prop>
+      <tuv lang="ru">
         <seg>|Параметр|Значение по умолчанию|Описание|
 |:-|:-|:-|
 |Выполнение запрещено|true|Параметр запрещает выполнение узла &lt;x1/&gt;Python&lt;x2/&gt;, если выставлено значение true, и позволяет выполнять узел при значении false|
