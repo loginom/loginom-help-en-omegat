@@ -69034,8 +69034,18 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; после смены локали некоторые узлы, например, &lt;x3/&gt;Сортировка&lt;x4/&gt;, &lt;x5/&gt;Экспорт в текстовый файл&lt;x6/&gt; и др.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231120T155435Z" creationid="Марианна" creationdate="20231120T155435Z">
-        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; Some nodes, for example, &lt;x3/&gt;Sort&lt;x4/&gt;, &lt;x5/&gt;Export to the Text File&lt;x6/&gt;, etc.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231120T155528Z" creationid="Марианна" creationdate="20231120T155435Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; After locale change some nodes, for example, &lt;x3/&gt;Sort&lt;x4/&gt;, &lt;x5/&gt;Export to the Text File&lt;x6/&gt;, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu37_0</prop>
+      <tuv lang="ru">
+        <seg>могут работать по-другому.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231120T155501Z" creationid="Марианна" creationdate="20231120T155501Z">
+        <seg>can function in a different way.</seg>
       </tuv>
     </tu>
     <tu>
