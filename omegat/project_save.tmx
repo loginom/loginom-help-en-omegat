@@ -69402,6 +69402,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu66_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Виртуальные окружения&lt;x2/&gt; возможно использовать при задании &lt;x3/&gt;Путь интерпретатора&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231120T205208Z" creationid="Марианна" creationdate="20231120T205208Z">
+        <seg>&lt;x1/&gt;Virtual environments&lt;x2/&gt; can be used when setting &lt;x3/&gt;Interpreter path&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu69_0</prop>
       <tuv lang="ru">
         <seg>Поиск модулей Python внутри процесса Loginom</seg>
