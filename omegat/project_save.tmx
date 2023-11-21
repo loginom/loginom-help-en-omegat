@@ -72187,6 +72187,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">integration/connections/list/bigquery.md</prop>
+      <prop type="id">tu29_0</prop>
+      <tuv lang="ru">
+        <seg>BigQuery использует уникальные типы данных &lt;x1/&gt;geography&lt;x2/&gt; и &lt;x3/&gt;record&lt;x4/&gt;, не поддерживаемые SQL.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T130607Z" creationid="Марианна" creationdate="20231121T130607Z">
+        <seg>BigQuery uses unique &lt;x1/&gt;geography&lt;x2/&gt; and &lt;x3/&gt;record&lt;x4/&gt; data types that are not supported by SQL.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">integration/connections/list/bigquery.md</prop>
       <prop type="id">tu2_0</prop>
       <tuv lang="ru">
         <seg>Для работы требуется &lt;x1/&gt;&lt;x2/&gt;Simba ODBC Driver for Google BigQuery&lt;x3/&gt;&lt;x4/&gt;.</seg>
@@ -72213,6 +72223,16 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231121T124749Z" creationid="Марианна" creationdate="20231121T124749Z">
         <seg>Driver bitness must match application bitness.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">integration/connections/list/bigquery.md</prop>
+      <prop type="id">tu30_0</prop>
+      <tuv lang="ru">
+        <seg>Данные типов &lt;x1/&gt;datetime&lt;x2/&gt; и &lt;x3/&gt;numeric&lt;x4/&gt; доступны только для импорта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T130642Z" creationid="Марианна" creationdate="20231121T130642Z">
+        <seg>&lt;x1/&gt;datetime&lt;x2/&gt; and &lt;x3/&gt;numeric&lt;x4/&gt; data types are available only for import.</seg>
       </tuv>
     </tu>
     <tu>
