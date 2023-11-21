@@ -71875,6 +71875,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">data-format/lgd-file.md</prop>
+      <prop type="id">tu11_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x3/&gt;Также LGD-файлы, созданные в Loginom 7, не загружаются в Loginom 6-ой версии&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T081603Z" creationid="Марианна" creationdate="20231121T081603Z">
+        <seg>&lt;x3/&gt;Also MGD files created in Megaladata 7 are not loaded to Megaladata 6&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">data-format/lgd-file.md</prop>
       <prop type="id">tu6_0</prop>
       <tuv lang="ru">
         <seg>LZO</seg>
@@ -71891,6 +71901,16 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231121T075942Z" creationid="Марианна" creationdate="20231121T075942Z">
         <seg>LZ4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">data-format/lgd-file.md</prop>
+      <prop type="id">tu8_0</prop>
+      <tuv lang="ru">
+        <seg>Алгоритм LZ4 позволяет передавать контрольную сумму блока и всего содержимого.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T081501Z" creationid="Марианна" creationdate="20231121T081501Z">
+        <seg>LZ4 enables to pass the control block sum and all content.</seg>
       </tuv>
     </tu>
     <tu>
