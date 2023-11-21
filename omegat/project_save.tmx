@@ -72107,12 +72107,42 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">integration/connections/list/bigquery.md</prop>
+      <prop type="id">tu12_0</prop>
+      <tuv lang="ru">
+        <seg>Используется, если необходимо задать сторонний сертификат.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T125803Z" creationid="Марианна" creationdate="20231121T125803Z">
+        <seg>It is used if it is required to set the third party certificate.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">integration/connections/list/bigquery.md</prop>
+      <prop type="id">tu14_0</prop>
+      <tuv lang="ru">
+        <seg>Параметры</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T125819Z" creationid="Марианна" creationdate="20231121T125819Z">
+        <seg>Parameters</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">integration/connections/list/bigquery.md</prop>
       <prop type="id">tu1_0</prop>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Подключение BigQuery</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231121T124625Z" creationid="Марианна" creationdate="20231121T124625Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; BigQuery Connection</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">integration/connections/list/bigquery.md</prop>
+      <prop type="id">tu21_0</prop>
+      <tuv lang="ru">
+        <seg>Экспорт из Google Sheets не поддерживается (ограничение драйвера от Simba).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T125850Z" creationid="Марианна" creationdate="20231121T125850Z">
+        <seg>Export from Google Sheets is not supported (driver restriction from Simba).</seg>
       </tuv>
     </tu>
     <tu>
