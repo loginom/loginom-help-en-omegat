@@ -69503,6 +69503,26 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu61_0</prop>
+      <tuv lang="ru">
+        <seg>При невозможности их найти, приложение Loginom будет принудительно завершено с сообщением об ошибке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T073216Z" creationid="Марианна" creationdate="20231121T073216Z">
+        <seg>If it is not possible to find them, the Megaladata application will be forcibly terminated with an error message.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu61_0</prop>
+      <tuv lang="ru">
+        <seg>для работы &lt;x1/&gt;matplotlib&lt;x2/&gt; с бэкэндом &lt;x3/&gt;Qt&lt;x4/&gt; и в целом с &lt;x5/&gt;PyQt&lt;x6/&gt; требуется наличие файла &lt;x7/&gt;qt.conf&lt;x8/&gt; с путями к библиотекам/плагинам Qt.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T072732Z" creationid="Марианна" creationdate="20231121T072732Z">
+        <seg>for &lt;x1/&gt;matplotlib&lt;x2/&gt; operation with &lt;x3/&gt;Qt&lt;x4/&gt; backend and in general with &lt;x5/&gt;PyQt&lt;x6/&gt;, availability of &lt;x7/&gt;qt.conf&lt;x8/&gt; file with paths to Qt libraries/plugins is required.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu63_0</prop>
       <tuv lang="ru">
         <seg>В случае критических ошибок python3x.dll может аварийно завершить приложение.</seg>
