@@ -71874,6 +71874,26 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="file">data-format/lgd-file.md</prop>
+      <prop type="id">tu6_0</prop>
+      <tuv lang="ru">
+        <seg>LZO</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T075938Z" creationid="Марианна" creationdate="20231121T075938Z">
+        <seg>LZO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">data-format/lgd-file.md</prop>
+      <prop type="id">tu7_0</prop>
+      <tuv lang="ru">
+        <seg>LZ4</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T075942Z" creationid="Марианна" creationdate="20231121T075942Z">
+        <seg>LZ4</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="file">data/datakind.md</prop>
       <prop type="id">tu5_0</prop>
       <tuv lang="ru">
