@@ -69665,6 +69665,16 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu71_0</prop>
       <tuv lang="ru">
+        <seg>Если на один каталог выше каталога &lt;x1/&gt;Путь интерпретатора&lt;x2/&gt; существует файл с именем &lt;x3/&gt;pyvenv.cfg&lt;x4/&gt;, то &lt;x5/&gt;sys.prefix&lt;x6/&gt; и &lt;x7/&gt;sys.exec_prefix&lt;x8/&gt; устанавливаются равными этому каталогу, и проверяется наличие &lt;x9/&gt;site-packages&lt;x10/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T075008Z" creationid="Марианна" creationdate="20231121T075008Z">
+        <seg>If for one directory above &lt;x1/&gt;Interpreter path&lt;x2/&gt; directory there is a file with &lt;x3/&gt;pyvenv.cfg&lt;x4/&gt; name, &lt;x5/&gt;sys.prefix&lt;x6/&gt; and &lt;x7/&gt;sys.exec_prefix&lt;x8/&gt; are set as equal to this directory, and availability of &lt;x9/&gt;site-packages&lt;x10/&gt; is checked.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu71_0</prop>
+      <tuv lang="ru">
         <seg>Найденный &lt;x11/&gt;site-packages&lt;x12/&gt; добавляется в &lt;x13/&gt;sys.path&lt;x14/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231119T143904Z" creationid="Марианна" creationdate="20231119T143904Z">
