@@ -71894,6 +71894,16 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="file">data-format/lgd-file.md</prop>
+      <prop type="id">tu8_0</prop>
+      <tuv lang="ru">
+        <seg>При использовании алгоритма LZ4 запись файлов выполняется до 10% быстрее, чем при LZO, чтение — до 40% быстрее.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T080851Z" creationid="Марианна" creationdate="20231121T080851Z">
+        <seg>When using LZ4 algorythm, files are recorded up to 10% faster than when using LZO, and reading is performed up to 40% faster.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="file">data/datakind.md</prop>
       <prop type="id">tu5_0</prop>
       <tuv lang="ru">
