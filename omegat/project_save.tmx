@@ -69665,6 +69665,16 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu71_0</prop>
       <tuv lang="ru">
+        <seg>Если &lt;x15/&gt;pyvenv.cfg&lt;x16/&gt; содержит ключ &lt;x17/&gt;include-system-site-packages&lt;x18/&gt; и его значение не равно true, то базовый путь &lt;x19/&gt;site-packages&lt;x20/&gt; (относительно &lt;x21/&gt;sys.base_prefix&lt;x22/&gt;) не включается в &lt;x23/&gt;sys.path&lt;x24/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T075107Z" creationid="Марианна" creationdate="20231121T075107Z">
+        <seg>If &lt;x15/&gt;pyvenv.cfg&lt;x16/&gt; contains &lt;x17/&gt;include-system-site-packages&lt;x18/&gt; key and its value is not equal to true, the base path &lt;x19/&gt;site-packages&lt;x20/&gt; (relative to &lt;x21/&gt;sys.base_prefix&lt;x22/&gt;) is not included into &lt;x23/&gt;sys.path&lt;x24/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu71_0</prop>
+      <tuv lang="ru">
         <seg>Если на один каталог выше каталога &lt;x1/&gt;Путь интерпретатора&lt;x2/&gt; существует файл с именем &lt;x3/&gt;pyvenv.cfg&lt;x4/&gt;, то &lt;x5/&gt;sys.prefix&lt;x6/&gt; и &lt;x7/&gt;sys.exec_prefix&lt;x8/&gt; устанавливаются равными этому каталогу, и проверяется наличие &lt;x9/&gt;site-packages&lt;x10/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231121T075008Z" creationid="Марианна" creationdate="20231121T075008Z">
