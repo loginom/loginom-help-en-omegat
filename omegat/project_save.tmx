@@ -69523,6 +69523,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu62_0</prop>
+      <tuv lang="ru">
+        <seg>Оставленные незавершенными фоновые потоки могут приводить к аварийному завершению приложения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T073456Z" creationid="Марианна" creationdate="20231121T073456Z">
+        <seg>The background threads left unterminated can cause application crash.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu63_0</prop>
       <tuv lang="ru">
         <seg>В случае критических ошибок python3x.dll может аварийно завершить приложение.</seg>
