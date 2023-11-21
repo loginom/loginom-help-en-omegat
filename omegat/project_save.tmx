@@ -72107,6 +72107,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">integration/connections/list/bigquery.md</prop>
+      <prop type="id">tu11_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Системное хранилище сертификатов&lt;x2/&gt; — при выставленном флаге драйвер от &lt;x3/&gt;Simba&lt;x4/&gt; будет проверять подлинность сервера путем проверки, подписан ли сертификат сервера одним из сертификатов из хранилища доверенных корневых сертификатов центров сертификации &lt;x5/&gt;Windows&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T132256Z" creationid="Марианна" creationdate="20231121T132256Z">
+        <seg>&lt;x1/&gt;System certificate store&lt;x2/&gt;: when this checkbox is selected, &lt;x3/&gt;Simba&lt;x4/&gt; driver will perform server authentication check whether the server certificate is signed by one of the the store certificates from &lt;x5/&gt;Windows&lt;x6/&gt; trusted root certification authorities.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">integration/connections/list/bigquery.md</prop>
       <prop type="id">tu12_0</prop>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Сертификат CA&lt;x2/&gt; —  путь к файлу с корневым сертификатом.</seg>
