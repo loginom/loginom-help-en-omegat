@@ -69583,6 +69583,26 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu66_0</prop>
+      <tuv lang="ru">
+        <seg>Для корректной работы версия python.exe в виртуальном окружении и версия python3x.dll, через которую выполняется код узла, должны совпадать.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T074315Z" creationid="Марианна" creationdate="20231121T074315Z">
+        <seg>To provide the correct operation, python.exe version in the virtual environment must match python3x.dll version that is used for the node code execution.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu66_0</prop>
+      <tuv lang="ru">
+        <seg>Для этого путь интерпретатора должен указывать на python.exe внутри виртуального окружения &lt;x5/&gt;подробнее о поиске модулей Python внутри процесса Loginom&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T074036Z" creationid="Марианна" creationdate="20231121T074036Z">
+        <seg>For this purpose, the interpreter path must lead to python.exe inside the virtual environment &lt;x5/&gt;more detailed information on search for Python modules inside the Megaladata process&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu67_0</prop>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; для настольных редакций выполнение узла &lt;x3/&gt;Python&lt;x4/&gt; по умолчанию разрешено, при необходимости выполнение можно запретить.</seg>
