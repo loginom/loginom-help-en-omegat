@@ -69254,6 +69254,16 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu44_0</prop>
       <tuv lang="ru">
+        <seg>оносительно домашней директории исполняемый файл интерпретатора ищется по пути &lt;x21/&gt;/bin/python3&lt;x22/&gt;, в.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T065007Z" creationid="Марианна" creationdate="20231121T065007Z">
+        <seg>the executed interpreter file is searched for by the following path relative to the home directory: &lt;x21/&gt;/bin/python3&lt;x22/&gt;, в.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu44_0</prop>
+      <tuv lang="ru">
         <seg>определяется домашняя директория Python: если в переменной окружения &lt;x17/&gt;PYTHONHOME&lt;x18/&gt; указан действительный путь в системе, то берётся он, иначе домашняя директория равна &lt;x19/&gt;/usr&lt;x20/&gt;, б.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231120T204704Z" creationid="Марианна" creationdate="20231120T204356Z">
