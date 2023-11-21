@@ -72097,6 +72097,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">integration/connections/list/bigquery.md</prop>
+      <prop type="id">tu10_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Путь к секретному ключу&lt;x2/&gt; — путь к файлу с секретным ключом в формате  &lt;x3/&gt;JSON&lt;x4/&gt; или &lt;x5/&gt;PKCS#12&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T125529Z" creationid="Марианна" creationdate="20231121T125529Z">
+        <seg>&lt;x1/&gt;Path to private key&lt;x2/&gt; is the path with private key in &lt;x3/&gt;JSON&lt;x4/&gt; or &lt;x5/&gt;PKCS#12&lt;x6/&gt; format.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">integration/connections/list/bigquery.md</prop>
       <prop type="id">tu1_0</prop>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Подключение BigQuery</seg>
@@ -72174,6 +72184,16 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231121T125302Z" creationid="Марианна" creationdate="20231121T125302Z">
         <seg>BigQuery Parameters</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">integration/connections/list/bigquery.md</prop>
+      <prop type="id">tu9_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Email сервисного аккаунта&lt;x2/&gt; — email сервисного аккаунта &lt;x3/&gt;Google&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T125434Z" creationid="Марианна" creationdate="20231121T125434Z">
+        <seg>&lt;x1/&gt;Service account email&lt;x2/&gt; is the email of &lt;x3/&gt;Google&lt;x4/&gt; service account.</seg>
       </tuv>
     </tu>
     <tu>
