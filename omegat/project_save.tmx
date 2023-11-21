@@ -69375,6 +69375,16 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu53_0</prop>
       <tuv lang="ru">
+        <seg>В &lt;x5/&gt;python_run.sh&lt;x6/&gt; имеется параметр &lt;x7/&gt;DOCKER_OR_PODMAN&lt;x8/&gt;, отвечающий за способ контейниризиции, значение по умолчанию — &lt;x9/&gt;podman&lt;x10/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T071437Z" creationid="Марианна" creationdate="20231121T071437Z">
+        <seg>In &lt;x5/&gt;python_run.sh&lt;x6/&gt; there is &lt;x7/&gt;DOCKER_OR_PODMAN&lt;x8/&gt; parameter responsible for containerization method, default value — &lt;x9/&gt;podman&lt;x10/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu53_0</prop>
+      <tuv lang="ru">
         <seg>Для запуска на Linux должен быть установлен &lt;x1/&gt;Docker&lt;x2/&gt; или &lt;x3/&gt;Podman&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231120T210449Z" creationid="Марианна" creationdate="20231120T210449Z">
