@@ -72106,6 +72106,46 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="file">integration/connections/list/bigquery.md</prop>
+      <prop type="id">tu2_0</prop>
+      <tuv lang="ru">
+        <seg>Для работы требуется &lt;x1/&gt;&lt;x2/&gt;Simba ODBC Driver for Google BigQuery&lt;x3/&gt;&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T124717Z" creationid="Марианна" creationdate="20231121T124717Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Simba ODBC Driver for Google BigQuery&lt;x3/&gt;&lt;x4/&gt; is required for operation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">integration/connections/list/bigquery.md</prop>
+      <prop type="id">tu2_0</prop>
+      <tuv lang="ru">
+        <seg>Используется для подключения к облачной базе данных BigQuery.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T124658Z" creationid="Марианна" creationdate="20231121T124658Z">
+        <seg>It is used for connection to the cloud BigQuery database.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">integration/connections/list/bigquery.md</prop>
+      <prop type="id">tu2_0</prop>
+      <tuv lang="ru">
+        <seg>Разрядность драйвера должна совпадать с разрядностью приложения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T124749Z" creationid="Марианна" creationdate="20231121T124749Z">
+        <seg>Driver bitness must match application bitness.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">integration/connections/list/bigquery.md</prop>
+      <prop type="id">tu6_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Строка подключения&lt;x2/&gt; — строка вида &lt;x3/&gt;projectId[:datasetId]&lt;x4/&gt; задается вводом параметров вручную.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T124957Z" creationid="Марианна" creationdate="20231121T124957Z">
+        <seg>&lt;x1/&gt;Connection string&lt;x2/&gt; is the string of &lt;x3/&gt;projectId[:datasetId]&lt;x4/&gt; kind that is set by entering the parameters manually.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="file">integration/connections/list/sqlite.md</prop>
       <prop type="id">tu6_0</prop>
       <tuv lang="ru">
