@@ -71889,8 +71889,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>В целях совместимости поддерживается импорт созданных в Deductor DDF-файлов и LGD-файлов, созданных в Loginom 6.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231121T081740Z" creationid="Марианна" creationdate="20231121T081740Z">
-        <seg>For the compatibilitypurposes, import of DDF files created in Deductor  and MGD files created in Megaladata 6 is supported.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T081814Z" creationid="Марианна" creationdate="20231121T081740Z">
+        <seg>For the compatibility purposes, import of DDF files created in Deductor and MGD files created in Megaladata 6 is supported.</seg>
       </tuv>
     </tu>
     <tu>
