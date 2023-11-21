@@ -72146,6 +72146,16 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="file">integration/connections/list/bigquery.md</prop>
+      <prop type="id">tu6_0</prop>
+      <tuv lang="ru">
+        <seg>Параметр &lt;x5/&gt;projectId&lt;x6/&gt; — уникальный идентификатор &lt;x7/&gt;Проекта&lt;x8/&gt;, &lt;x9/&gt;datasetId&lt;x10/&gt; — уникальное имя датасета (параметр опциональный).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T125215Z" creationid="Марианна" creationdate="20231121T125215Z">
+        <seg>&lt;x5/&gt;projectId&lt;x6/&gt; parameter is the unique identifier of &lt;x7/&gt;Project&lt;x8/&gt;, &lt;x9/&gt;datasetId&lt;x10/&gt; is the unique dataset name (optioal parameter).</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="file">integration/connections/list/sqlite.md</prop>
       <prop type="id">tu6_0</prop>
       <tuv lang="ru">
