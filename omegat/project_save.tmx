@@ -69415,10 +69415,30 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu55_0</prop>
       <tuv lang="ru">
+        <seg>В &lt;x1/&gt;python_run.sh&lt;x2/&gt; имеется параметр &lt;x3/&gt;CONTAINER_OPTIONS&lt;x4/&gt;, в который можно передавать настройки контейнера, например, значение переменной &lt;x5/&gt;oom-score-adj&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T071843Z" creationid="Марианна" creationdate="20231121T071843Z">
+        <seg>In &lt;x1/&gt;python_run.sh&lt;x2/&gt; there is &lt;x3/&gt;CONTAINER_OPTIONS&lt;x4/&gt; parameter in which it is possible to pass container settings, for example, value of &lt;x5/&gt;oom-score-adj&lt;x6/&gt; variable.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu55_0</prop>
+      <tuv lang="ru">
         <seg>По умолчанию устанавливается значение &lt;x7/&gt;oom-score-adj=1000&lt;x8/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231119T144756Z" creationid="Марианна" creationdate="20231119T144756Z">
         <seg>&lt;x7/&gt;oom-score-adj=1000&lt;x8/&gt; value is set by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu55_0</prop>
+      <tuv lang="ru">
+        <seg>То есть если OOM Killer будет необходимо завершить какой-либо процесс, то контейнер будет первым кандидатом для этого.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T072034Z" creationid="Марианна" creationdate="20231121T072034Z">
+        <seg>Namely, if it is required for OOM Killer to terminate a process, the container will be the first candidate for it.</seg>
       </tuv>
     </tu>
     <tu>
