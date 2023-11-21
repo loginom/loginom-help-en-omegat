@@ -72177,6 +72177,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">integration/connections/list/bigquery.md</prop>
+      <prop type="id">tu28_0</prop>
+      <tuv lang="ru">
+        <seg>Доступен экспорт в &lt;x1/&gt;BigQuery&lt;x2/&gt; данных следующих типов: &lt;x3/&gt;string&lt;x4/&gt;, &lt;x5/&gt;integer&lt;x6/&gt;, &lt;x7/&gt;float&lt;x8/&gt;, &lt;x9/&gt;boolean&lt;x10/&gt;, &lt;x11/&gt;timestamp&lt;x12/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T130457Z" creationid="Марианна" creationdate="20231121T130457Z">
+        <seg>Export to &lt;x1/&gt;BigQuery&lt;x2/&gt; data of the following types is available: &lt;x3/&gt;string&lt;x4/&gt;, &lt;x5/&gt;integer&lt;x6/&gt;, &lt;x7/&gt;float&lt;x8/&gt;, &lt;x9/&gt;boolean&lt;x10/&gt;, &lt;x11/&gt;timestamp&lt;x12/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">integration/connections/list/bigquery.md</prop>
       <prop type="id">tu2_0</prop>
       <tuv lang="ru">
         <seg>Для работы требуется &lt;x1/&gt;&lt;x2/&gt;Simba ODBC Driver for Google BigQuery&lt;x3/&gt;&lt;x4/&gt;.</seg>
