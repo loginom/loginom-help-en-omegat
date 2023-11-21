@@ -72141,8 +72141,38 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Экспорт из Google Sheets не поддерживается (ограничение драйвера от Simba).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231121T125850Z" creationid="Марианна" creationdate="20231121T125850Z">
-        <seg>Export from Google Sheets is not supported (driver restriction from Simba).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T125903Z" creationid="Марианна" creationdate="20231121T125850Z">
+        <seg>Export from Google Sheets is not supported (Simba driver restriction).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">integration/connections/list/bigquery.md</prop>
+      <prop type="id">tu23_0</prop>
+      <tuv lang="ru">
+        <seg>Транзакции не поддерживаются (ограничение BigQuery).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T125923Z" creationid="Марианна" creationdate="20231121T125923Z">
+        <seg>Transactions are not supported (BigQuery restriction).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">integration/connections/list/bigquery.md</prop>
+      <prop type="id">tu24_0</prop>
+      <tuv lang="ru">
+        <seg>Системные таблицы не поддерживаются (ограничение драйвера от Simba).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T125946Z" creationid="Марианна" creationdate="20231121T125946Z">
+        <seg>System tables are not supported (Simba driver restriction).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">integration/connections/list/bigquery.md</prop>
+      <prop type="id">tu27_0</prop>
+      <tuv lang="ru">
+        <seg>Доступен импорт таблиц из &lt;x1/&gt;BigQuery&lt;x2/&gt; данных следующих типов: &lt;x3/&gt;string&lt;x4/&gt;, &lt;x5/&gt;integer&lt;x6/&gt;, &lt;x7/&gt;float&lt;x8/&gt;, &lt;x9/&gt;numeric&lt;x10/&gt;, &lt;x11/&gt;boolean&lt;x12/&gt;, &lt;x13/&gt;timestamp&lt;x14/&gt;, &lt;x15/&gt;date&lt;x16/&gt;, &lt;x17/&gt;time&lt;x18/&gt;, &lt;x19/&gt;datetime&lt;x20/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T130107Z" creationid="Марианна" creationdate="20231121T130107Z">
+        <seg>Table import from &lt;x1/&gt;BigQuery&lt;x2/&gt; data of the following types is available: &lt;x3/&gt;string&lt;x4/&gt;, &lt;x5/&gt;integer&lt;x6/&gt;, &lt;x7/&gt;float&lt;x8/&gt;, &lt;x9/&gt;numeric&lt;x10/&gt;, &lt;x11/&gt;boolean&lt;x12/&gt;, &lt;x13/&gt;timestamp&lt;x14/&gt;, &lt;x15/&gt;date&lt;x16/&gt;, &lt;x17/&gt;time&lt;x18/&gt;, &lt;x19/&gt;datetime&lt;x20/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
