@@ -69395,6 +69395,16 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu54_0</prop>
       <tuv lang="ru">
+        <seg>В &lt;x1/&gt;python_run.sh&lt;x2/&gt; имя образа прописывается в параметре &lt;x3/&gt;IMAGE_NAME&lt;x4/&gt;, значение по умолчанию — &lt;x5/&gt;python&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T071531Z" creationid="Марианна" creationdate="20231121T071531Z">
+        <seg>In &lt;x1/&gt;python_run.sh&lt;x2/&gt; image name is recorded in &lt;x3/&gt;IMAGE_NAME&lt;x4/&gt; parameter, default value — &lt;x5/&gt;python&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu54_0</prop>
+      <tuv lang="ru">
         <seg>Должен быть подготовлен базовый docker образ c Python и нужными Python пакетами внутри.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231120T205025Z" creationid="Марианна" creationdate="20231120T205025Z">
