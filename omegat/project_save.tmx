@@ -72317,6 +72317,26 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">integration/connections/list/bigquery.md</prop>
+      <prop type="id">tu31_0</prop>
+      <tuv lang="ru">
+        <seg>При экспорте в поле &lt;x1/&gt;timestamp&lt;x2/&gt; используется формат ГГГГ-ММ-ДД ЧЧ:ММ:СС, часовой пояс не учитывается.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T132526Z" creationid="Марианна" creationdate="20231121T132526Z">
+        <seg>YYYY-MM-DD HH:MM:SS format is used when exporting to &lt;x1/&gt;timestamp&lt;x2/&gt; field. Time zone is not taken into account</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">integration/connections/list/bigquery.md</prop>
+      <prop type="id">tu32_0</prop>
+      <tuv lang="ru">
+        <seg>Для возможности импорта данных из Google Sheets необходимо явно предоставить доступ сервисному аккаунту BigQuery на чтение таблицы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T132650Z" creationid="Марианна" creationdate="20231121T132650Z">
+        <seg>To provide data import from Google Sheets, it is required to provide explicit access to BigQuery service account to read table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">integration/connections/list/bigquery.md</prop>
       <prop type="id">tu6_0</prop>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Строка подключения&lt;x2/&gt; — строка вида &lt;x3/&gt;projectId[:datasetId]&lt;x4/&gt; задается вводом параметров вручную.</seg>
