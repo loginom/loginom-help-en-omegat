@@ -69254,6 +69254,17 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu44_0</prop>
       <tuv lang="ru">
+        <seg>если исполняемый файл не найден, то выполняется python3 без указания пути.|
+|Передавать переменные окружения узла|false|Параметр необходим для запуска процесса Python в изолированном окружении.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T065337Z" creationid="Марианна" creationdate="20231121T065337Z">
+        <seg>if the executed file is not found, python3 is executed without path specification.|.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu44_0</prop>
+      <tuv lang="ru">
         <seg>оносительно домашней директории исполняемый файл интерпретатора ищется по пути &lt;x21/&gt;/bin/python3&lt;x22/&gt;, в.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231121T065007Z" creationid="Марианна" creationdate="20231121T065007Z">
