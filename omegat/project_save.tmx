@@ -72096,6 +72096,16 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="file">integration/connections/list/bigquery.md</prop>
+      <prop type="id">tu1_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; Подключение BigQuery</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T124625Z" creationid="Марианна" creationdate="20231121T124625Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; BigQuery Connection</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="file">integration/connections/list/sqlite.md</prop>
       <prop type="id">tu6_0</prop>
       <tuv lang="ru">
