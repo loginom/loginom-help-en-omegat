@@ -72147,12 +72147,32 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">integration/connections/list/bigquery.md</prop>
+      <prop type="id">tu17_0</prop>
+      <tuv lang="ru">
+        <seg>для подключения к &lt;x3/&gt;BigQuery&lt;x4/&gt; всегда используется драйвер от &lt;x5/&gt;Simba&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T131157Z" creationid="Марианна" creationdate="20231121T131157Z">
+        <seg>to connect to &lt;x3/&gt;BigQuery&lt;x4/&gt;, &lt;x5/&gt;Simba&lt;x6/&gt; driver is always used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">integration/connections/list/bigquery.md</prop>
       <prop type="id">tu1_0</prop>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt; Подключение BigQuery</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231121T124625Z" creationid="Марианна" creationdate="20231121T124625Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt; BigQuery Connection</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">integration/connections/list/bigquery.md</prop>
+      <prop type="id">tu20_0</prop>
+      <tuv lang="ru">
+        <seg>Ограничения при работе с BigQuery</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T131337Z" creationid="Марианна" creationdate="20231121T131337Z">
+        <seg>BigQuery Operation Restrictions</seg>
       </tuv>
     </tu>
     <tu>
