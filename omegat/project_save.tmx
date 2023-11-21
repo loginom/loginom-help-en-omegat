@@ -69257,8 +69257,8 @@ If the format is not specified, use of "B" format is required.</seg>
         <seg>если исполняемый файл не найден, то выполняется python3 без указания пути.|
 |Передавать переменные окружения узла|false|Параметр необходим для запуска процесса Python в изолированном окружении.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231121T065337Z" creationid="Марианна" creationdate="20231121T065337Z">
-        <seg>if the executed file is not found, python3 is executed without path specification.|.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T065603Z" creationid="Марианна" creationdate="20231121T065337Z">
+        <seg>if the executed file is not found, python3 is executed without path specification.|Pass node environment variables|false|The parameter is required for the Python process start in the isolated environment.</seg>
       </tuv>
     </tu>
     <tu>
