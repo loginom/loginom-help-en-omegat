@@ -69287,8 +69287,8 @@ If the format is not specified, use of "B" format is required.</seg>
       <tuv lang="ru">
         <seg>Для работы узлов &lt;x1/&gt;Python&lt;x2/&gt; необходимо учитывать следующие особенности и ограничения:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20231119T145049Z" creationid="Марианна" creationdate="20231119T145049Z">
-        <seg>For &lt;x1/&gt;Python&lt;x2/&gt; nodes operation it is required to take into account the following peculiarities and restrictions:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T065720Z" creationid="Марианна" creationdate="20231119T145049Z">
+        <seg>For &lt;x1/&gt;Python&lt;x2/&gt; nodes operation, it is required to take into account the following peculiarities and restrictions:</seg>
       </tuv>
     </tu>
     <tu>
@@ -69319,6 +69319,26 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231119T145253Z" creationid="Марианна" creationdate="20231119T145253Z">
         <seg>Creation of GUI interface from the Python code is not designation of the &lt;x1/&gt;Python&lt;x2/&gt; component, and in some cases it can cause incorrect application operation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu49_0</prop>
+      <tuv lang="ru">
+        <seg>При работе в серверных редакциях Loginom пользователь, как правило, не имеет доступа к окну GUI-приложения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T070317Z" creationid="Марианна" creationdate="20231121T070317Z">
+        <seg>As a rule, the Megaladata user does not have access to the GUI application window when working in the server editions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu49_0</prop>
+      <tuv lang="ru">
+        <seg>работа узла не будет прекращена до завершения работы GUI-приложения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T070006Z" creationid="Марианна" creationdate="20231121T070006Z">
+        <seg>node operation will not be terminated until GUI application operation is completed.</seg>
       </tuv>
     </tu>
     <tu>
