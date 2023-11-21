@@ -69343,6 +69343,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu50_0</prop>
+      <tuv lang="ru">
+        <seg>Для работы узлов &lt;x1/&gt;Python&lt;x2/&gt; в изолированном окружении пользователя необходимо сделать следующее:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T070535Z" creationid="Марианна" creationdate="20231121T070535Z">
+        <seg>For &lt;x1/&gt;Python&lt;x2/&gt; nodes operation in the isolated user environment, it is required to perform the following operations:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu53_0</prop>
       <tuv lang="ru">
         <seg>Для запуска на Linux должен быть установлен &lt;x1/&gt;Docker&lt;x2/&gt; или &lt;x3/&gt;Podman&lt;x4/&gt;.</seg>
