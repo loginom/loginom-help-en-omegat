@@ -72127,6 +72127,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">integration/connections/list/bigquery.md</prop>
+      <prop type="id">tu13_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Подключаться к Google Drive&lt;x2/&gt; — при выставленном флаге разрешаются запросы к ресурсам &lt;x3/&gt;Google Drive&lt;x4/&gt;: файлы в форматах &lt;x5/&gt;CSV&lt;x6/&gt;, &lt;x7/&gt;JSON&lt;x8/&gt;, &lt;x9/&gt;Avro&lt;x10/&gt; и &lt;x11/&gt;Google Sheets&lt;x12/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T131916Z" creationid="Марианна" creationdate="20231121T131916Z">
+        <seg>&lt;x1/&gt;Connect to Google Drive&lt;x2/&gt;: when this checkbox is selected, requests to &lt;x3/&gt;Google Drive&lt;x4/&gt; resources are allowed: files in &lt;x5/&gt;CSV&lt;x6/&gt;, &lt;x7/&gt;JSON&lt;x8/&gt;, &lt;x9/&gt;Avro&lt;x10/&gt; and &lt;x11/&gt;Google Sheets&lt;x12/&gt; formats.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">integration/connections/list/bigquery.md</prop>
       <prop type="id">tu14_0</prop>
       <tuv lang="ru">
         <seg>Параметры</seg>
