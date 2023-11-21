@@ -72156,6 +72156,27 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="file">integration/connections/list/bigquery.md</prop>
+      <prop type="id">tu7_0</prop>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Тестировать&lt;x2/&gt; — тест указанных настроек подключения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T125251Z" creationid="Марианна" creationdate="20231121T125251Z">
+        <seg>&lt;x1/&gt;Test&lt;x2/&gt;: test of the specified connection settings.
+.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">integration/connections/list/bigquery.md</prop>
+      <prop type="id">tu8_0</prop>
+      <tuv lang="ru">
+        <seg>Параметры BigQuery</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T125302Z" creationid="Марианна" creationdate="20231121T125302Z">
+        <seg>BigQuery Parameters</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="file">integration/connections/list/sqlite.md</prop>
       <prop type="id">tu6_0</prop>
       <tuv lang="ru">
