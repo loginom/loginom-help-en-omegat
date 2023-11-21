@@ -14,10 +14,10 @@ It is possible to decrease the file size when importing/exporting. The following
 * LZO
 * LZ4
 
-При использовании алгоритма LZ4 запись файлов выполняется до 10% быстрее, чем при LZO, чтение — до 40% быстрее. Однако файлы, сжатые алгоритмом LZ4, примерно на 9-10% больше по размеру, чем сжатые с помощью алгоритма LZO. Алгоритм LZ4 позволяет передавать контрольную сумму блока и всего содержимого.
+When using LZ4 algorythm, files are recorded up to 10% faster than when using LZO, and reading is performed up to 40% faster. However, the files compressed by LZ4 algorythm are approximately 9-10% larger in size as compared with the ones compressed using LZO algorythm. LZ4 enables to pass the control block sum and all content.
 
 It is recommended to use this format for storage of intermediate calculations and speed increase.
 
 The LGD file is also available in the Community edition.
 
-> **Важно:** следует учитывать, что Loginom использует формат хранения данных в LGD-файлах отличный от использовавшегося ранее DDF-формата, поэтому эти файлы не могут быть импортированы в Deductor 5.3 и ниже. **Также LGD-файлы, созданные в Loginom 7, не загружаются в Loginom 6-ой версии**. В целях совместимости поддерживается импорт созданных в Deductor DDF-файлов и LGD-файлов, созданных в Loginom 6.
+> **Important:** It is required to take into account that data storage format in MGD files that differs from the DDF format used earlier is used in Megaladata that is why these files cannot be imported to Deductor 5.3 and earlier. **Also MGD files created in Megaladata 7 are not loaded to Megaladata 6**. For the compatibility purposes, import of DDF files created in Deductor and MGD files created in Megaladata 6 is supported.
