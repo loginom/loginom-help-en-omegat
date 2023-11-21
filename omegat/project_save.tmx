@@ -69615,6 +69615,16 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu68_0</prop>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Примечание:&lt;x2/&gt; под Linux не поддерживается режим выполнения Python внутри процесса Loginom, следовательно, нет и настройки &lt;x3/&gt;Путь библиотеки&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T074602Z" creationid="Марианна" creationdate="20231121T074602Z">
+        <seg>&lt;x1/&gt;Note:&lt;x2/&gt; The Python execution mode is not supported in Linux inside the Megaladata process, consequently, there is no &lt;x3/&gt;Library path&lt;x4/&gt; setting.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu68_0</prop>
+      <tuv lang="ru">
         <seg>Узлы &lt;x5/&gt;Python&lt;x6/&gt;, настроенные на выполнение внутри процесса, на Linux будут выполняться в отдельном процессе.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231120T205644Z" creationid="Марианна" creationdate="20231120T205644Z">
