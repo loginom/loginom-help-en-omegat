@@ -69453,6 +69453,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu57_0</prop>
+      <tuv lang="ru">
+        <seg>В системе должен быть &lt;x1/&gt;установлен Python&lt;x2/&gt; одной разрядности с приложением/сервером Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T072421Z" creationid="Марианна" creationdate="20231121T072421Z">
+        <seg>It is required to install &lt;x1/&gt;Python&lt;x2/&gt; in the system with the same bitness as the Megaladata application/server bitness.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu58_0</prop>
       <tuv lang="ru">
         <seg>Python из дистрибутива Anaconda не поддерживается.</seg>
