@@ -71877,6 +71877,16 @@ If the format is not specified, use of "B" format is required.</seg>
       <prop type="file">data-format/lgd-file.md</prop>
       <prop type="id">tu11_0</prop>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Важно:&lt;x2/&gt; следует учитывать, что Loginom использует формат хранения данных в LGD-файлах отличный от использовавшегося ранее DDF-формата, поэтому эти файлы не могут быть импортированы в Deductor 5.3 и ниже.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T082230Z" creationid="Марианна" creationdate="20231121T082230Z">
+        <seg>&lt;x1/&gt;Important:&lt;x2/&gt; It is required to take into account that data storage format in MGD files that differs from the DDF format used earlier is used in Megaladata that is why these files cannot be imported to Deductor 5.3 and earlier.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">data-format/lgd-file.md</prop>
+      <prop type="id">tu11_0</prop>
+      <tuv lang="ru">
         <seg>&lt;x3/&gt;Также LGD-файлы, созданные в Loginom 7, не загружаются в Loginom 6-ой версии&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231121T081603Z" creationid="Марианна" creationdate="20231121T081603Z">
