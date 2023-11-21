@@ -69563,6 +69563,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu65_0</prop>
+      <tuv lang="ru">
+        <seg>Остановить выполнение узла &lt;x1/&gt;Python&lt;x2/&gt; можно только между инструкциями интерпретатора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T073743Z" creationid="Марианна" creationdate="20231121T073743Z">
+        <seg>It is possible to stop the &lt;x1/&gt;Python&lt;x2/&gt; node execution only between interpreter instructions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu66_0</prop>
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Виртуальные окружения&lt;x2/&gt; возможно использовать при задании &lt;x3/&gt;Путь интерпретатора&lt;x4/&gt;.</seg>
