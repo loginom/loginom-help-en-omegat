@@ -69353,6 +69353,26 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu51_0</prop>
+      <tuv lang="ru">
+        <seg>В Администрировании, в параметрах компонента Python включить опцию "Передавать переменные окружения узла".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T070705Z" creationid="Марианна" creationdate="20231121T070705Z">
+        <seg>It is required to enable "Pass node environment variables" option in the Administration section in the Python component parameters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
+      <prop type="id">tu52_0</prop>
+      <tuv lang="ru">
+        <seg>В параметре "Путь интерпретатора" указать полный путь к bash-скрипту — &lt;x1/&gt;python_run.sh&lt;x2/&gt; (или аналогичному).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T070825Z" creationid="Марианна" creationdate="20231121T070825Z">
+        <seg>It is required to specify full path to bash script in "Interpreter path" parameter — &lt;x1/&gt;python_run.sh&lt;x2/&gt; (or similar).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">admin/parameters.md</prop>
       <prop type="id">tu53_0</prop>
       <tuv lang="ru">
         <seg>Для запуска на Linux должен быть установлен &lt;x1/&gt;Docker&lt;x2/&gt; или &lt;x3/&gt;Podman&lt;x4/&gt;.</seg>
