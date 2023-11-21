@@ -72187,6 +72187,16 @@ If the format is not specified, use of "B" format is required.</seg>
     </tu>
     <tu>
       <prop type="file">integration/connections/list/bigquery.md</prop>
+      <prop type="id">tu22_0</prop>
+      <tuv lang="ru">
+        <seg>Объем ответа от BigQuery ограничен 10 МБ (ограничение REST API).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T131612Z" creationid="Марианна" creationdate="20231121T131612Z">
+        <seg>Extent of BigQuery response is limited to 10 MB (REST API restriction).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">integration/connections/list/bigquery.md</prop>
       <prop type="id">tu23_0</prop>
       <tuv lang="ru">
         <seg>Транзакции не поддерживаются (ограничение BigQuery).</seg>
@@ -72203,6 +72213,16 @@ If the format is not specified, use of "B" format is required.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20231121T125946Z" creationid="Марианна" creationdate="20231121T125946Z">
         <seg>System tables are not supported (Simba driver restriction).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">integration/connections/list/bigquery.md</prop>
+      <prop type="id">tu25_0</prop>
+      <tuv lang="ru">
+        <seg>Обновление (UPDATE) существующих записей в таблице недоступно (из-за слишком медленной работы).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20231121T131801Z" creationid="Марианна" creationdate="20231121T131801Z">
+        <seg>Update (UPDATE) of existing table records is not available (in connection with too slow operation).</seg>
       </tuv>
     </tu>
     <tu>
