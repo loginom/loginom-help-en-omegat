@@ -23,7 +23,7 @@ The following parameters are set during the connection setup:
 
 ## Compatibility
 
-Версии 95, 97, 2000, 2003, 2007, 2010, 2013, 2016 и 2019.
+Versions 95, 97, 2000, 2003, 2007, 2010, 2013, 2016 and 2019.
 
 **See also:**
 

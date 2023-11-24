@@ -7,7 +7,7 @@ Log file is generated in the server and desktop editions of the platform. It is 
 
 The log file generation rules (file name, its maximum size, logging level, etc.) are set by [logging parameters](./parameters.md).
 
-> **Note:** ANSI encoding is used up to 6.5.0 version. It complies with the user locale that started Megaladata Server. Starting from version 6.5.0 — UTF8.
+> **Note:** ANSI encoding is used up to version 6.5.0. It complies with the user locale that started Megaladata Server. Starting from version 6.5.0 — UTF8.
 
 ## Logging levels
 

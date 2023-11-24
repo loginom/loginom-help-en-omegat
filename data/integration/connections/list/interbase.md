@@ -10,7 +10,7 @@ It is used for connection to the Interbase database.
 The following parameters are set during the connection setup:
 
 * **Caption** contains the connection name set by a user.
-* **Строка подключения** — строка вида `[host[/port]:]databasepath.gdb` (параметры, заключенные в [ ], являются опциональными).
+* **Строка подключения** — строка вида `[host[/port]:]databasepath.gdb` (параметры, заключенные в [ ], are optional).
 
 Задать строку подключения можно вручную или настроить в отдельном окне, которое вызывается при клике мышью по кнопке ![ ](./../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg).
 
@@ -30,7 +30,7 @@ Two connection types are supported:
 
 %/spoiler%
 
-* **Тестировать** — тест указанных настроек подключения.
+* **Test**: test of the specified connection settings.
 * **Login**: login of the DB user. If the login is not specified, the domain authorization is used.
 * **Password**: password of the DB user.
 * **Show system tables**: when selecting this checkbox in the import wizard that uses this connection, the system DB tables available to a user become visible.

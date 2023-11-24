@@ -55,11 +55,11 @@ The following parameters are set during the connection setup:
 * **Quote names**: if the database objects names (for example, names of tables, fields) contain spaces or reserved characters, it is required to use framing characters fixing the name start and end.
 * **Do not use DBMS client** is not available as the inbox driver is always used for PostgreSQL in Loginom.
 * **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for the quick call upon the node deactivation. This parameter is disabled by default.
-* **Тайм-аут блокировки (с)** — устанавливает тайм-аут ожидания снятия блокировки с ресурса (таблицы, строки). Задаётся выпадающим списком с редактируемым полем ввода, которое принимает целые положительные значения. Предустановленный список значений:
-   * **По умолчанию** — используется значение по умолчанию сервера БД.
+* **Lock timeout (s)** sets timeout of resource unlock waiting (table, string). It is set by drop-down list with edited entry field that takes integer positive values. Preset list of values:
+   * **By default**: the DB server value is used by default.
    * **∞** — время ожидания не ограничивается.
    * **Числовые значения** — выбор из следующих значений: 5,10,20,30,60,120.
-* **Тайм-аут подключения (с)** — задает предельное время подключения, значение по умолчанию 20 секунд. Если импорт из базы данных или экспорт в базу данных будет выполняться в режиме игнорирования ошибок, то в случае неудавшегося подключения в течение установленного времени, соответствующая ошибка будет записана в выходной порт *Статус выполнения* узла Импорт из БД/Экспорт в БД, а при импорте/экспорте в обычном режиме — выполнение узла завершится ошибкой.
+* **Тайм-аут подключения (с)** — задает предельное время подключения, значение по умолчанию 20 секунд. If import from database or export to database is performed in the error ignoring mode, in the case of failed connection during the set period of time corresponding error will be recorded to the *Execution status* output port of the Import from DB/Export to DB node, and when importing/exporting in the normal mode, the node execution will fail.
 * **Comment**: it is possible to provide any reference data concerning connection in this form.
 
 > **Примечание:** поскольку для подключения используется встроенный драйвер, то установка клиента СУБД не требуется.

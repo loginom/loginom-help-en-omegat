@@ -11,7 +11,7 @@ The following parameters are set during the connection setup:
 
 * **Caption** contains the connection name set by a user.
 * **Кластер Kafka** — список пар хост/порт для установления начального подключения к кластеру Kafka.
-* **Тестировать** — тест указанных настроек подключения.
+* **Test**: test of the specified connection settings.
 * **Протокол безопасности** — способ реализации защищенного доступа к данным:
    * PLAINTEXT — доступ к данным без аутентификации и шифрования;
    * SASL_Plaintext — аутентификация по логину и паролю;
@@ -30,4 +30,4 @@ The following parameters are set during the connection setup:
 * **Комментарий** — форма для оставления каких-либо заметок.
 
 **See also:**
-* [Официальный сайт производителя](https://kafka.apache.org/documentation/).
+* [Official manufacturer website](https://kafka.apache.org/documentation/).
