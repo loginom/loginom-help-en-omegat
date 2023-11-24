@@ -23,8 +23,8 @@ Before [interaction with SOAP services](./../../processors/integration/soap-requ
 
 * Web Services:
    * [Kafka](./list/kafka.md).
-   * [REST-сервиса](./list/rest-service.md).
-   * [SOAP-сервиса](./list/soap-service.md).
+   * [REST service](./list/rest-service.md).
+   * [SOAP service](./list/soap-service.md).
 * Data Warehouses:
    * [Набор XSD-схем](./list/schemes.md).
    * [Deductor Warehouse [Firebird]](./list/wh-firebird.md).

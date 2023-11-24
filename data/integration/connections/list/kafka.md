@@ -1,7 +1,7 @@
 ---
 description: Интеграция Loginom с брокером сообщений Kafka. Параметры подключения.
 ---
-# ![ ](./../../../images/icons/common/data-sources/kafka_default.svg) Подключение Kafka
+# ![ ](./../../../images/icons/common/data-sources/kafka_default.svg) Kafka Connection
 
 Используется для подключения к брокеру сообщений Kafka.
 

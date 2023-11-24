@@ -63,7 +63,7 @@ List of the ODBC drivers for which it is recommended to use the connection strin
 * Microsoft Visual FoxPro Driver
 * Drivers for PostgreSQL
 * Drivers for Sybase/Adaptive Server Enterprise
-* Драйвера для Apache Hive
+* Drivers for Apache Hive
 
 If the driver is not listed, it is possible to set up a connection to it only by selecting already configured data source.
 

@@ -68,7 +68,7 @@ The following parameters are set during the connection setup:
 
 ## Compatibility
 
-* Сервер MySQL 5.5-8.0
+* MySQL 5.5-8.0 Server
 * MariaDB 10.1-10.10
 
 **See also**:

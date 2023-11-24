@@ -51,8 +51,8 @@ The following parameters are set during the connection setup:
 
 ## Compatibility
 
-* Клиенты: 21c, 19c, 18c, 12c, 11g, 10g, 9i, 8i, 8.0
-* Серверы: 21c, 19c, 18c, 12c, 11g, 10g, 9i, 8i, 8.0, включая Oracle Express Edition 11g и 10g
+* Clients: 21c, 19c, 18c, 12c, 11g, 10g, 9i, 8i, 8.0
+* Servers: 21c, 19c, 18c, 12c, 11g, 10g, 9i, 8i, 8.0, including Oracle Express Edition 11g and 10g
 
 > **Важно:** Для обмена данными с сервером в Loginom 7 и старше используется кодировка UTF8, в предыдущих версиях — UTF16.
 
