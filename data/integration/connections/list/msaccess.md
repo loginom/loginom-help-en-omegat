@@ -11,7 +11,7 @@ The following parameters are set during the connection setup:
 
 * **Caption** contains the connection name set by a user.
 * **Имя файла** — указывается путь к файлу БД, содержащему необходимые данные. Parameters can be manually entered, or it is possible to press ![ ](./../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button to call *Open file* window.
-* **Тестировать** — тест указанных настроек подключения.
+* **Test**: test of the specified connection settings.
 * **Логин** — логин при подключении к Microsoft Access не используется.
 * **Пароль** — указывается пароль, установленный пользователем БД.
 * **Show system tables**: when selecting this checkbox in the import wizard that uses this connection, the system DB tables available to a user become visible.

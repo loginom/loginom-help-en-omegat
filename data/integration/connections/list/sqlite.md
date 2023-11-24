@@ -27,7 +27,7 @@ The following parameters are set during the connection setup:
    * слэша;
    * подчеркивания;
    * точки.
-* **Тестировать** — тест указанных настроек подключения.
+* **Test**: test of the specified connection settings.
 * **Login** is not used for connection to SQLite.
 * **Password**: the password set by the DB user is specified for data protection.
 * **Encrypted DB**: the checkbox enables to set the DB encryption mode. AES256 encryption is used in this mode, and a password is required.
@@ -70,7 +70,7 @@ Versions 3.0 and higher.
 
 **See also:**
 
-* [Информация в русском разделе википедии](https://ru.wikipedia.org/wiki/SQLite).
-* [Официальный сайт производителя](https://sqlite.org).
+* [Information in the Russian section in Wikipedia](https://ru.wikipedia.org/wiki/SQLite).
+* [Official manufacturer website](https://sqlite.org).
 * [SQL Syntax Documentation](https://sqlite.org/lang.html).
 * [PRAGMA Information](https://sqlite.org/pragma.html).

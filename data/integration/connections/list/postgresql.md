@@ -12,7 +12,7 @@ It is used for connection to the PostgreSQL database and its operation.
 The following parameters are set during the connection setup:
 
 * **Caption** contains the connection name set by a user.
-* **Строка подключения** — строка вида `host[:port][:database]` (параметры в [ ] являются опциональными):
+* **Connection string**: the string of `host[:port][:database]` kind (the parameters enclosed in [ ] are optional):
 
    * `host` — хост сервера PostgreSQL;
    * `port` — порт TCP, используемый сервером СУБД для взаимодействия с клиентом;
@@ -30,7 +30,7 @@ The following parameters are set during the connection setup:
 
 * **База данных** — имя базы данных.
 
-%spoiler%Примеры строки подключения:%spoiler%
+%spoiler%Examples of connection string:%spoiler%
 
 `srv-db`
 
@@ -42,7 +42,7 @@ The following parameters are set during the connection setup:
 
 %/spoiler%
 
-* **Тестировать** — тест указанных настроек подключения.
+* **Test**: test of the specified connection settings.
 * **Login**: login of the DB user. If the login is not specified, the domain authorization is used.
 * **Password**: password of the DB user.
 * **Настройки SSL** — параметры, необходимые для установления защищенного подключения к MySQL. Задаются в отдельном окне, которое вызывается при клике мышью по кнопке ![ ](./../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg). В окне можно установить значение следующих параметров:
@@ -72,7 +72,7 @@ The following parameters are set during the connection setup:
 
 **See also:**
 
-* [Информация в русском разделе википедии](https://ru.wikipedia.org/wiki/PostgreSQL).
-* [Официальный сайт производителя](https://www.postgresql.org/).
+* [Information in the Russian section in Wikipedia](https://ru.wikipedia.org/wiki/PostgreSQL).
+* [Official manufacturer website](https://www.postgresql.org/).
 * [SQL Syntax Documentation](https://postgrespro.ru/docs/postgresql).
 * [The Russian DBMS (Postgres Pro) based on free open-source DBMS PostgreSQL](https://postgrespro.ru/).

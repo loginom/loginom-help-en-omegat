@@ -12,7 +12,7 @@ It is possible to provide connection both via DBMS client, and the internal Logi
 The following parameters are set during the connection setup:
 
 * **Caption** contains the connection name set by a user.
-* **Строка подключения** — строка вида `host[:port][:database]` (параметры, заключенные в [ ], являются опциональными):
+* **Connection string**: the string of `host[:port][:database]` kind (the parameters enclosed in [ ], are optional):
 
    * `host` — хост сервера СУБД. Для подключения по протоколу Shared Memory значение хоста должно быть `localhost`.
    * `port` — порт TCP, используемый сервером СУБД для взаимодействия с клиентом.  Если значение `port` не является корректным номером порта, то выполняется попытка подключения по протоколу Shared Memory, `port` в таком случае соответствует `shared-memory-base-name`. Если параметр пустой и `host` не `localhost`, то подключение проходит по протоколу TCP/IP с портом по умолчанию `3306`.
@@ -30,7 +30,7 @@ The following parameters are set during the connection setup:
 
 * **База данных** — имя базы данных.
 
-%spoiler%Примеры строки подключения:%spoiler%
+%spoiler%Examples of connection string:%spoiler%
 
 `srv-db`
 

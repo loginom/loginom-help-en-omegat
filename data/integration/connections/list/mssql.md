@@ -12,7 +12,7 @@ It is used for connection to the MS SQL database.
 The following parameters are set during the connection setup:
 
 * **Caption** contains the connection name set by a user.
-* **Строка подключения** — строка вида `host[:port]:database` (параметр, заключенный в [ ], является опциональным):
+* **Connection string**: the string of `host[:port]:database` kind (the parameters enclosed in [ ], является опциональным):
 
    * `host` — хост сервера СУБД;
    * `port` — порт TCP, используемый сервером СУБД для взаимодействия с клиентом, если параметр пустой, то порт по умолчанию `1433`;
@@ -26,7 +26,7 @@ The following parameters are set during the connection setup:
 
 * **База данных** — имя базы данных.
 
-%spoiler%Примеры строки подключения:%spoiler%
+%spoiler%Examples of connection string:%spoiler%
 
 `srv-db:db`
 

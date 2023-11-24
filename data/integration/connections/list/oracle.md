@@ -21,7 +21,7 @@ The following parameters are set during the connection setup:
 
    * **При использовании клиента СУБД:** `net_service_name` — хост сервера СУБД, как указано в конфигурационном файле tnsnames.ora сервера Oracle.
 
-%spoiler%Примеры строки подключения:%spoiler%
+%spoiler%Examples of connection string:%spoiler%
 
 **С использованием встроенного драйвера (без использования клиента СУБД):**
 
@@ -37,7 +37,7 @@ The following parameters are set during the connection setup:
 
 %/spoiler%
 
-* **Тестировать** — тест указанных настроек подключения.
+* **Test**: test of the specified connection settings.
 * **Login**: login of the DB user.
 * **Password**: password of the DB user.
 * **Show system tables**: when selecting this checkbox in the import wizard that uses this connection, the system DB tables available to a user become visible.

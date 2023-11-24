@@ -28,4 +28,4 @@ There are the following parameters in the wizard:
 * **Дополнительная конфигурация Consumer** — коллекция из параметров *Kafka* в виде: *Параметр — Значение*.
 
 **See also:**
-* [Официальный сайт производителя](https://kafka.apache.org/documentation/).
+* [Official manufacturer website](https://kafka.apache.org/documentation/).
