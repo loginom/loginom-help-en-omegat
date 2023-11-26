@@ -16,19 +16,19 @@ The following parameters are set during the connection setup:
 
    * `host`: the DBMS server host. Для подключения по протоколу Shared Memory значение хоста должно быть `localhost`.
    * `port`: the TCP port used by the DBMS server to provide interaction with the client.  Если значение `port` не является корректным номером порта, то выполняется попытка подключения по протоколу Shared Memory, `port` в таком случае соответствует `shared-memory-base-name`. Если параметр пустой и `host` не `localhost`, то подключение проходит по протоколу TCP/IP с портом по умолчанию `3306`.
-   * `database` — имя базы данных. Если параметр `port` пустой, то этот параметр можно оставить пустым, в таком случае будут показаны все доступные базы данных.
+   * `database`: database name. Если параметр `port` пустой, то этот параметр можно оставить пустым, в таком случае будут показаны все доступные базы данных.
 
 Эти настройки используются драйвером OLE DB для подключения к базе данных.
 
 Строка подключения может быть пустой, в этом случае происходит подключение к `localhost`.
 
-Задать строку подключения можно вручную или в отдельном окне, которое вызывается при клике мышью по кнопке ![ ](./../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg).
+It is possible to set the connection string manually or in a separate window that can be called by clicking on ![ ](./../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button.
 
-Окно имеет два поля:
+The window includes two fields:
 
 * **Server**: MySQL server host.
 
-* **База данных** — имя базы данных.
+* **Database**: database name.
 
 %spoiler%Examples of connection string:%spoiler%
 
@@ -61,9 +61,9 @@ The following parameters are set during the connection setup:
 * **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for the quick call upon the node deactivation. This parameter is disabled by default.
 * **Lock timeout (s)** sets timeout of resource unlock waiting (table, string). It is set by drop-down list with edited entry field that takes integer positive values. Preset list of values:
    * **By default**: the DB server value is used by default.
-   * **∞** — время ожидания не ограничивается.
-   * **Числовые значения** — выбор из следующих значений: 5, 10, 20, 30, 60, 120.
-* **Тайм-аут подключения (c)** — задает предельное время подключения, значение по умолчанию 20 секунд. If import from database or export to database is performed in the error ignoring mode, in the case of failed connection during the set period of time corresponding error will be recorded to the *Execution status* output port of the Import from DB/Export to DB node, and when importing/exporting in the normal mode, the node execution will fail.
+   * **∞**: wait period is not limited.
+   * **Numeric values**: selection from the following values: 5, 10, 20, 30, 60, 120.
+* **Connection timeout (s)** sets connection time limit, the default value is 20 s. If import from database or export to database is performed in the error ignoring mode, in the case of failed connection during the set period of time corresponding error will be recorded to the *Execution status* output port of the Import from DB/Export to DB node, and when importing/exporting in the normal mode, the node execution will fail.
 * **Comment**: it is possible to provide any reference data concerning connection in this form.
 
 ## Compatibility

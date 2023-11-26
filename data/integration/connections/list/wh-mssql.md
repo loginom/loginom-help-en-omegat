@@ -15,15 +15,15 @@ The following parameters are set during the connection setup:
 
    * `host`: the DBMS server host.
    * `port`: the TCP port used by the DBMS server to provide interaction with the client. If the parameter is null, `1433` is used as the default port.
-   * `database` — имя базы данных.
+   * `database`: database name.
 
 Эти настройки используются драйвером OLE DB для подключения к базе данных.
 
-Задать строку подключения можно вручную или в отдельном окне, которое вызывается при клике мышью по кнопке ![ ](./../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg).
+It is possible to set the connection string manually or in a separate window that can be called by clicking on ![ ](./../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button.
 
-Окно имеет два поля:
-* **Server**: the SQL server host. При необходимости через "" указывается именованный экземпляр SQL-сервера.
-* **База данных** — имя базы данных.
+The window includes two fields:
+* **Server**: the SQL server host. If it is necessary, the named instance of SQL server is specified using «\».
+* **Database**: database name.
 
 %spoiler%Examples of connection string:%spoiler%
 
@@ -40,7 +40,7 @@ The following parameters are set during the connection setup:
 * **Parameters**:
    * **Show system tables**: when selecting this checkbox in the import wizard that uses this connection, the system DB tables available to a user become visible.
    * **Quote names**: if the database objects names (for example, names of tables, fields) contain spaces or reserved characters, it is required to use framing characters fixing the name start and end.
-   * **Кодовая страница** — позволяет задать язык сообщений сервера БД и кодовую страницу для значений символьных типов, представленных не в UNICODE: char, varchar, text.
+   * **Codepage** enables to set the message language of the DB server and codepage for the values related to the character types represented not in UNICODE: char, varchar, text.
    * **Do not use DBMS client**: this parameter is not available for MS SQL.
    * **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for the quick call upon the node deactivation. This parameter is disabled by default.
 

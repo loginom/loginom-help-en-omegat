@@ -28,8 +28,8 @@ The following parameters are set during the connection setup:
 * **Connection timeout (s)** sets connection time limit, the default value is 20 s. If import from database or export to database is performed in the error ignoring mode, in the case of failed connection during the set period of time corresponding error will be recorded to the *Execution status* output port of the Import from DB/Export to DB node, and when importing/exporting in the normal mode, the node execution will fail.
 * **Lock timeout (s)** sets timeout of resource unlock waiting (table, string). It is set by drop-down list with edited entry field that takes integer positive values. Preset list of values:
    * **By default**: the DB server value is used by default.
-   * **∞** — maximum value is equal to 24 days.
-   * **Numeric values** — Selection from the following values: 5,10,20,30,60,120.
+   * **∞**: maximum value is equal to 24 days.
+   * **Numeric values**: selection from the following values: 5,10,20,30,60,120.
 
    Lock timeout is supported in ClickHouse from version 20.4.2.
 
