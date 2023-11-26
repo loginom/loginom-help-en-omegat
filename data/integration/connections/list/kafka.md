@@ -3,31 +3,31 @@ description: Интеграция Loginom с брокером сообщений
 ---
 # ![ ](./../../../images/icons/common/data-sources/kafka_default.svg) Kafka Connection
 
-Используется для подключения к брокеру сообщений Kafka.
+It is used for connection to Kafka message broker.
 
 ## Connection Parameters
 
 The following parameters are set during the connection setup:
 
 * **Caption** contains the connection name set by a user.
-* **Кластер Kafka** — список пар хост/порт для установления начального подключения к кластеру Kafka.
+* **Kafka cluster**: list of host/port couples to provide the initial connection to Kafka cluster.
 * **Test**: test of the specified connection settings.
-* **Протокол безопасности** — способ реализации защищенного доступа к данным:
-   * PLAINTEXT — доступ к данным без аутентификации и шифрования;
-   * SASL_Plaintext — аутентификация по логину и паролю;
-   * SSL — аутентификация по сертификату;
-   * SASL_SSL — способ, совмещающий вышеуказанные методы аутентификации *SASL* и *SSL*.
-* **SASL механизм** — механизм аутентификации, используемый для расширения возможностей проверки:
-   * PLAIN — простой механизм аутентификации по логину и паролю;
-   * SCRAM-SHA-256 — механизм хеширования данных;
-   * SCRAM-SHA-512 — механизм хеширования данных.
-* **Имя пользователя** — наименование пользователя Kafka.
-* **Пароль** — пароль пользователя Kafka.
-* **Сертификат пользователя** — путь к заранее полученному сертификату, который содержит данные о том, кому он выдан (IP или доменное имя), и кем он выдан.
-* **Приватный ключ** — путь к приватному ключу сервера со связанной цепью сертификатов.
-* **Пароль приватного ключа** — пароль, позволяющий расшифровать ключ. Отсутствует по умолчанию.
-* **Дополнительная конфигурация подключения** — коллекция из параметров *Kafka* в виде: *Параметр — Значение*.
-* **Комментарий** — форма для оставления каких-либо заметок.
+* **Security protocol** is a method providing secure access to data:
+   * PLAINTEXT: access to data without authentification and encryption.
+   * SASL_Plaintext: authentification by login and password.
+   * SSL: authentification by certificate.
+   * SASL_SSL: method combining the authentification methods specified above - *SASL* and *SSL*.
+* **SASL mechanism**: authentification mechanism used to enhance verification capabilities.
+   * PLAIN: simple authentification mechanism by login and password.
+   * SCRAM-SHA-256: data hashing mechanism.
+   * SCRAM-SHA-512: data hashing mechanism.
+* **User name**: Kafka user name.
+* **Пароль**: Kafka user password.
+* **User certificate**: path to the certificate obtained in advance that contains data on the person to whom (IP or domain name) and by whom it has been given.
+* **Private key**: path to the private key of the server with connected certificate chain.
+* **Private key password**: password that enables to decrypt the key. It is not available by default.
+* **Additional connection configuration**: collection of *Kafka* parameters in the following form: *Parameter — Value*.
+* **Comment**: form for notes.
 
 **See also:**
 * [Official manufacturer website](https://kafka.apache.org/documentation/).
