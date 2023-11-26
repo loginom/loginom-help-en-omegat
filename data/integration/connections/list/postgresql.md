@@ -5,7 +5,7 @@ description: Интеграция Loginom с базой данных PostgreSQL.
 
 It is used for connection to the PostgreSQL database and its operation.
 
-> **Примечание:** с помощью этого подключения также можно работать с базами данных Greenplum и Arenadata, которые основаны на PostgreSQL.
+> **Note:** This connection can also enable to work with Greenplum and  Arenadata databases that are based on PostgreSQL.
 
 ## Connection Parameters
 
@@ -14,11 +14,11 @@ The following parameters are set during the connection setup:
 * **Caption** contains the connection name set by a user.
 * **Connection string**: the string of `host[:port][:database]` kind (the parameters enclosed in [ ] are optional):
 
-   * `host` — хост сервера PostgreSQL;
+   * `host`: PostgreSQL server host.
    * `port`: the TCP port used by the DBMS server to provide interaction with the client.
    * `database`: database name.
 
-Строка подключения может отсутствовать. В этом случае host=localhost.
+Connection string can be unavailable. In this case, host=localhost.
 
 These settings are used by the OLE DB driver to connect to database.
 
@@ -62,13 +62,13 @@ The window includes two fields:
 * **Connection timeout (s)** sets connection time limit, the default value is 20 s. If import from database or export to database is performed in the error ignoring mode, in the case of failed connection during the set period of time corresponding error will be recorded to the *Execution status* output port of the Import from DB/Export to DB node, and when importing/exporting in the normal mode, the node execution will fail.
 * **Comment**: it is possible to provide any reference data concerning connection in this form.
 
-> **Примечание:** поскольку для подключения используется встроенный драйвер, то установка клиента СУБД не требуется.
+> **Note:** As the inbox driver is used for connection, it is not required to install DBMS client.
 
 ## Compatibility
 
-Версии c 9 по 15.1.
+Versions 9 - 15.1.
 
-> **Важно:** для обмена данными с сервером используется кодировка UTF-8.
+> **Important:** UTF-8 encoding is used for data exchange with the server.
 
 **See also:**
 
