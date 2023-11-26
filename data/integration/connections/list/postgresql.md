@@ -20,7 +20,7 @@ The following parameters are set during the connection setup:
 
 Строка подключения может отсутствовать. В этом случае host=localhost.
 
-Эти настройки используются драйвером OLE DB для подключения к базе данных.
+These settings are used by the OLE DB driver to connect to database.
 
 It is possible to set the connection string manually or in a separate window that can be called by clicking on ![ ](./../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button.
 
@@ -45,10 +45,10 @@ The window includes two fields:
 * **Test**: test of the specified connection settings.
 * **Login**: login of the DB user. If the login is not specified, the domain authorization is used.
 * **Password**: password of the DB user.
-* **Настройки SSL** — параметры, необходимые для установления защищенного подключения к MySQL. Задаются в отдельном окне, которое вызывается при клике мышью по кнопке ![ ](./../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg). В окне можно установить значение следующих параметров:
+* **Настройки SSL** — параметры, необходимые для установления защищенного подключения к MySQL. Задаются в отдельном окне, которое вызывается при клике мышью по кнопке ![ ](./../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg). Value of the following parameters can be set in the window:
    * **Использовать SSL** — при включенной опции устанавливается защищенное подключение, если оно поддерживается сервером PostgreSQL.
    * **Сертификат CA** — путь к корневому сертификату.
-   * **Сертификат пользователя** - путь к клиентскому сертификату.
+   * **User certificate**: path to the client certificate.
    * **Приватный ключ** - путь к закрытому ключу.
    * **Пароль приватного ключа** - указывается, если закрытый ключ хранится в зашифрованном виде.
 * **Show system tables**: when selecting this checkbox in the import wizard that uses this connection, the system DB tables available to a user become visible.

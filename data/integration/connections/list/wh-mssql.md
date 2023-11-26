@@ -17,7 +17,7 @@ The following parameters are set during the connection setup:
    * `port`: the TCP port used by the DBMS server to provide interaction with the client. If the parameter is null, `1433` is used as the default port.
    * `database`: database name.
 
-Эти настройки используются драйвером OLE DB для подключения к базе данных.
+These settings are used by the OLE DB driver to connect to database.
 
 It is possible to set the connection string manually or in a separate window that can be called by clicking on ![ ](./../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button.
 
