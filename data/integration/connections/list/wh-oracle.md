@@ -14,8 +14,8 @@ The following parameters are set during the connection setup:
 * **Caption** contains the connection name set by a user.
 * **Строка подключения** — строка, используемая драйвером для подключения к базе данных. The string connection format is defined by the used driver (refer to параметр *Не использовать клиент СУБД*):
    * **При использовании встроенного драйвера:** `host[:port]/ServiceName | host:port:SID` (параметр в [ ] является опциональным; формат строки может быть задан в одном из двух вариантов, между вариантами используется | ):
-      * `host` — хост сервера СУБД;
-      * `port` — порт TCP, используемый сервером СУБД для взаимодействия с клиентом;
+      * `host`: the DBMS server host.
+      * `port`: the TCP port used by the DBMS server to provide interaction with the client.
       * `ServiceName` — имя службы;
       * `SID` — Oracle Database Instance (SID), содержащий необходимые данные.
 

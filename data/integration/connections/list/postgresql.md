@@ -15,7 +15,7 @@ The following parameters are set during the connection setup:
 * **Connection string**: the string of `host[:port][:database]` kind (the parameters enclosed in [ ] are optional):
 
    * `host` — хост сервера PostgreSQL;
-   * `port` — порт TCP, используемый сервером СУБД для взаимодействия с клиентом;
+   * `port`: the TCP port used by the DBMS server to provide interaction with the client.
    * `database` — имя базы данных.
 
 Строка подключения может отсутствовать. В этом случае host=localhost.

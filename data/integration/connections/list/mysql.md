@@ -12,10 +12,10 @@ It is possible to provide connection both via DBMS client, and the internal Logi
 The following parameters are set during the connection setup:
 
 * **Caption** contains the connection name set by a user.
-* **Connection string**: the string of `host[:port][:database]` kind (the parameters enclosed in [ ], are optional):
+* **Connection string**: the string of `host[:port][:database]` kind (the parameters enclosed in [ ] are optional):
 
-   * `host` — хост сервера СУБД. Для подключения по протоколу Shared Memory значение хоста должно быть `localhost`.
-   * `port` — порт TCP, используемый сервером СУБД для взаимодействия с клиентом.  Если значение `port` не является корректным номером порта, то выполняется попытка подключения по протоколу Shared Memory, `port` в таком случае соответствует `shared-memory-base-name`. Если параметр пустой и `host` не `localhost`, то подключение проходит по протоколу TCP/IP с портом по умолчанию `3306`.
+   * `host`: the DBMS server host. Для подключения по протоколу Shared Memory значение хоста должно быть `localhost`.
+   * `port`: the TCP port used by the DBMS server to provide interaction with the client.  Если значение `port` не является корректным номером порта, то выполняется попытка подключения по протоколу Shared Memory, `port` в таком случае соответствует `shared-memory-base-name`. Если параметр пустой и `host` не `localhost`, то подключение проходит по протоколу TCP/IP с портом по умолчанию `3306`.
    * `database` — имя базы данных. Если параметр `port` пустой, то этот параметр можно оставить пустым, в таком случае будут показаны все доступные базы данных.
 
 Эти настройки используются драйвером OLE DB для подключения к базе данных.

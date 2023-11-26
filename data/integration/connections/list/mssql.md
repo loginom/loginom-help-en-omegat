@@ -5,17 +5,17 @@ description: Интеграция Loginom с  базой данных MS SQL. П
 
 It is used for connection to the MS SQL database.
 
-Подключение осуществляется через Microsoft OLE DB Driver for SQL Server или SQL Server Native Client. Для обоих драйверов требуется предварительная установка.
+The connection is provided via Microsoft OLE DB Driver for SQL Server or SQL Server Native Client. Preinstallation is required for both drivers.
 
 ## Connection Parameters
 
 The following parameters are set during the connection setup:
 
 * **Caption** contains the connection name set by a user.
-* **Connection string**: the string of `host[:port]:database` kind (the parameters enclosed in [ ], является опциональным):
+* **Connection string**: the string of `host[:port]:database` kind (the parameters enclosed in [ ] is optional):
 
-   * `host` — хост сервера СУБД;
-   * `port` — порт TCP, используемый сервером СУБД для взаимодействия с клиентом, если параметр пустой, то порт по умолчанию `1433`;
+   * `host`: the DBMS server host.
+   * `port`: the TCP port used by the DBMS server to provide interaction with the client. If the parameter is null, `1433` is used as the default port.
    * `database` — имя базы данных.
 
 Задать строку подключения можно вручную или в отдельном окне, которое вызывается при клике мышью по кнопке ![ ](./../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg).

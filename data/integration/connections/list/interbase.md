@@ -10,7 +10,7 @@ It is used for connection to the Interbase database.
 The following parameters are set during the connection setup:
 
 * **Caption** contains the connection name set by a user.
-* **Connection string**: the string of `[host[/port]:]databasepath.gdb` kind (the parameters enclosed in [ ], are optional).
+* **Connection string**: the string of `[host[/port]:]databasepath.gdb` kind (the parameters enclosed in [ ] are optional).
 
 It is possible to set the connection string manually or in a separate window that can be called by clicking on ![ ](./../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button.
 

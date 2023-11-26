@@ -11,10 +11,10 @@ It is used for connection to the [Deductor Warehouse](./../../../data-format/dat
 The following parameters are set during the connection setup:
 
 * **Caption** contains the connection name set by a user.
-* **Connection string**: the string of `host[:port]:database` kind (the parameters enclosed in [ ], является опциональным):
+* **Connection string**: the string of `host[:port]:database` kind (the parameters enclosed in [ ]is optional):
 
-   * `host` — хост сервера СУБД;
-   * `port` — порт TCP, используемый сервером СУБД для взаимодействия с клиентом, если параметр пустой, то порт по умолчанию `1433`;
+   * `host`: the DBMS server host.
+   * `port`: the TCP port used by the DBMS server to provide interaction with the client. If the parameter is null, `1433` is used as the default port.
    * `database` — имя базы данных.
 
 Эти настройки используются драйвером OLE DB для подключения к базе данных.
