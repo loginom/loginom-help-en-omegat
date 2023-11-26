@@ -11,14 +11,14 @@ The following parameters are set during the connection setup:
 
 * **Authentification type** provides a drop-down list with authentification options.
    * **Not required**: when selecting this option, Megaladata does not perform authentification when connecting to the service.
-   * **Имя пользователя и пароль** — выбирается если SOAP-сервис для работы требует аутентификацию по имени/паролю.
+   * **Username and password**: this option is selected when authentification by name/password is required by SOAP service for work.
    * **OAuth token** is selected when connecting to SOAP service via [OAuth](https://ru.wikipedia.org/wiki/OAuth) protocol.
    * **Client certificate from store** is selected for SSL authentification by certificate.
    * **Client certificate files** is selected if authentification by the client certificate is required. If this authentification type is used, it is required to select necessary certificate and private key from file storage and enter the private key password.
-* **Username** field becomes active if *Username and password* type is selected. Использует для аутентификации имя заданное пользователем при его регистрации в системе SOAP-сервиса.
-* **Пароль** — поле становится активным, если выбран тип *Имя пользователя и пароль*. Использует для аутентификации пароль заданный пользователем при его регистрации в системе SOAP-сервиса.
-* **OAuth token**: the field becomes active if *OAuth token* type is selected. Аутентификация осуществляется по протоколу OAuth, который позволяет выдать одному сервису (приложению) права на доступ к ресурсам пользователя на другом сервисе. For example, authorization via social networks.
-* **Хранилище сертификатов** — это выпадающий список, который становится доступен при выборе *Клиентский сертификат из хранилища*. One of the certificate stores available in the system is selected from the list. Then the certificate used for authentification is selected in the table under the list.
+* **Username** field becomes active if *Username and password* type is selected. It uses the name set by a user during his registration in the SOAP service system for the authentification purposes.
+* **Password** field becomes active if *Username and password* type is selected. It uses the password set by a user during his registration in the SOAP service system for the authentification purposes.
+* **OAuth token**: the field becomes active if *OAuth token* type is selected. The authentification process is implemented via OAuth protocol that grants rights to one service (application) to get access to the user resources available in another service. For example, authorization via social networks.
+* **Certificate store**: the drop-down list that becomes available when selecting *Client certificate from store*. One of the certificate stores available in the system is selected from the list. Then the certificate used for authentification is selected in the table under the list.
 * **User certificate** field becomes active when selecting *Client certificate files* in which certificate location is specified (in file storage) that is used for connection to SOAP service.
 * **Private key** field becomes active when selecting *Client certificate files* in which private key location is specified (in file storage) that is used for connection to SOAP service.
 * **Private key password** field becomes active if *Client certificate files* type is selected. This password enables to decrypt the key.
@@ -33,7 +33,7 @@ The following parameters are set during the connection setup:
 
 ## Authentification for Request Execution
 
-* **Аутентификация та же, что и для получения WSDL** — при выставлении флажка использует те же параметры аутентификации, что и при получении WSDL. Если аутентификация для выполнения запроса отличается от аутентификации для получения WSDL, то необходимо снять флаг и настроить необходимые параметры. Опции аналогичны настройкам *Тип аутентификации* из *Параметры подключения*.
+* **Authentification is the same as for WSDL**: when this checkbox is selected, the same authentification parameters are used as for WSDL. If the request execution authentification differs from the WSDL authentification, it is required to deselect the checkbox and set the required parameters. Options are similar to *Authentification Type* settings from *Connection parameters*.
 
 ## Node Description
 

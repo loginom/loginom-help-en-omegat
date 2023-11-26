@@ -36,7 +36,7 @@ The following parameters are set during the connection setup:
    * *По умолчанию* используется режим FULL (Полная).
    * *Off* (OFF).
    * *Normal* (NORMAL).
-   * *Полная* (FULL).
+   * *Full* (FULL).
    * *Extra* (EXTRA).
 * **Transaction journal mode**: the transaction journal mode is set. The parameter provides the same effect as the DB command does: `"PRAGMA schema.journal_mode = DELETE | TRUNCATE | PERSIST | MEMORY | WAL;"`, and it allows for one of the following options.
    * In the case of *Default*, the DELETE (Delete file) mode is used.
@@ -47,8 +47,8 @@ The following parameters are set during the connection setup:
    * *Write-ahead log* (WAL).
 * **Хранилище TEMP** — определяет место хранения временных файлов. Действие параметра аналогично выполнению команды БД `"PRAGMA temp_store = 0 | DEFAULT | 1 | FILE | 2 | MEMORY;"` и предусматривает выбор из следующих вариантов:
    * *По умолчанию* — для незашифрованной БД принято *Файловая система*, для зашифрованной БД — *Оперативная память*.
-   * *Файловая система*.
-   * *Оперативная память*.
+   * *File system*.
+   * *RAM*.
 * **NOCASE в режиме UNICODE** — флаг переопределяет сравнение NOCASE как UNICODE — языконезависимое сравнение символов Unicode без чувствительности к регистру.
 * **lower, upper for UNICODE**: the checkbox extends the effect of lower, upper functions for all UNICODE characters. If this option is not enabled, lower, upper functions are available only for the Latin letters.
 * **LIKE Mode**: it is required to select one of the character collation options to use LIKE function.
