@@ -33,7 +33,7 @@ The window includes two fields:
 
 %/spoiler%
 
-* **Тестировать** — проверка возможности подключения при заданных настройках.
+* **Test**: connectivity test with the specified settings.
 * **Login**: login of the DB user. If the login is not specified, the domain authorization is used.
 * **Password**: password of the DB user.
 

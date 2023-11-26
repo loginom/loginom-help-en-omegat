@@ -16,7 +16,7 @@ The following parameters are set during the connection setup:
       * **Protocol**: the protocol that is used by the server for interaction with a client.
       * **Server**: the Firebird server host.
    * **Database**: path to the database file.
-* **Тестировать** — проверка возможности подключения при заданных настройках.
+* **Test**: connectivity test with the specified settings.
 * **Login**: login of the DB user. If the login is not specified, the domain authorization is used.
 * **Password**: password of the DB user.
 * **Parameters**:

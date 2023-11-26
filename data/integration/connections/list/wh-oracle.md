@@ -12,16 +12,16 @@ It is possible to provide connection both via DBMS client, and the internal Logi
 The following parameters are set during the connection setup:
 
 * **Caption** contains the connection name set by a user.
-* **Строка подключения** — строка, используемая драйвером для подключения к базе данных. The string connection format is defined by the used driver (refer to параметр *Не использовать клиент СУБД*):
-   * **При использовании встроенного драйвера:** `host[:port]/ServiceName | host:port:SID` (параметр в [ ] является опциональным; формат строки может быть задан в одном из двух вариантов, между вариантами используется | ):
+* **Connection string**: this string is used by the driver for database connection. The string connection format is defined by the used driver (refer to *Do not use DBMS client* parameter):
+   * **When the inbox driver is used:** `host[:port]/ServiceName | host:port:SID` (parameter in [ ] is optional; the string format can be set as one of two options, | is used between options):
       * `host`: the DBMS server host.
       * `port`: the TCP port used by the DBMS server to provide interaction with the client.
-      * `ServiceName` — имя службы;
-      * `SID` — Oracle Database Instance (SID), содержащий необходимые данные.
+      * `ServiceName`: service name.
+      * `SID`: Oracle Database Instance (SID) that contains the required data.
 
-   * **При использовании клиента СУБД:** `net_service_name` — хост сервера СУБД, как указано в конфигурационном файле tnsnames.ora сервера Oracle.
+   * **When DBMS client is used:** `net_service_name`: DBMS server host as it is specified in tnsnames.ora configuration file of the Oracle server.
 
-* **Тестировать** — проверка возможности подключения при заданных настройках.
+* **Test**: connectivity test with the specified settings.
 * **Login**: login of the DB user.
 * **Password**: password of the DB user.
 
