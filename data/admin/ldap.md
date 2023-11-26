@@ -13,7 +13,7 @@ The LDAP server connection settings are analyzed in [Parameters](./parameters.md
 
 ## Authentification
 
-The user name and password entered on the Loginom home page are used for *Authentification*:
+The username and password entered on the Loginom home page are used for *Authentification*:
 
 1. The current user is searched for by the specified name on the Loginom server.
 2. If the user has been found, and the "LDAP" authentification method has been set for him, or no user has been found, *Authentification* attempt is made using the LDAP server.

@@ -27,8 +27,8 @@ When pressing ![Add](./../../images/icons/common/toolbar-controls/plus_default.s
 
 |Parameter|Description|
 |:-|:-|
-|Login|User name used for system login. Upon creation of the user, it is not possible to change his name.|
-|Full name|Full user name (it is not obligatory to fill in this field)|
+|Login|Username used for system login. Upon creation of the user, it is not possible to change his name.|
+|Full name|Full username (it is not obligatory to fill in this field)|
 |Authentification|Selection of [method of *Authentification*](#sposoby-autentifikatsii) of user: Local or [LDAP](./../ldap.md). The parameter is not available if LDAP is not suported.|
 |Password|User password used for system login. This column is not available in the table on the "Users" page.|
 |User roles|Group of parameters in which  [user roles](./roles.md) are selected|

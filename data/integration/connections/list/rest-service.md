@@ -20,10 +20,10 @@ Parameters of the REST service connection, request and response are set. The out
 * **Таймаут обмена данными (мс)** — максимальное время, которое будет затрачено на отправку HTTP-запроса и получение ответа, по истечении которого обмен будет прерван со статусом ошибки. If this parameter is equal to 0, timeout is not limited.
 * **Ignore SSL certificate errors**: if this checkbox is selected, the errors detected while testing the server certificate to be connected with are ignored.
 
-## Аутентификация для выполнения запроса
+## Authentification for Request Execution
 
-* **Тип аутентификации** — представляет выпадающий список с вариантами аутентификации:
-   * **Не требуется** — при выборе этого пункта Loginom не проводит аутентификацию при подключении к сервису.
+* **Authentification type** provides a drop-down list with authentification options:
+   * **Not required**: when selecting this option, Megaladata does not perform authentification when connecting to the service.
    * **Имя пользователя и пароль** — выбирается, если требуется аутентификация по имени/паролю. Поддерживаются следующие типы аутентификации по имени пользователя и паролю:
       * Basic;
       * Digest;
@@ -31,11 +31,11 @@ Parameters of the REST service connection, request and response are set. The out
       * Passport;
       * Negotiate.
    * **OAuth token** is selected when connecting to the web service via [OAuth](https://ru.wikipedia.org/wiki/OAuth) 2.0 protocol.
-   * **Клиентский сертификат из хранилища** — выбирается для аутентификации по SSL посредством сертификата. Данный тип аутентификации используется для операционной системы Windows.
-   * **Файлы сертификата клиента** — выбирается, если требуется аутентификация по сертификату клиента. При этом типе аутентификации необходимо выбрать нужный сертификат и приватный ключ из файлового хранилища, а также ввести пароль приватного ключа.
-* **Username, Password**: the field becomes active if *Username and password* type is selected. Задают параметры аутентификации пользователя при его регистрации в системе веб-сервиса.
+   * **Client certificate from store** is selected for SSL authentification by certificate. This authentification type is used for Windows operating system.
+   * **Client certificate files** is selected if authentification by the client certificate is required. If this authentification type is used, it is required to select necessary certificate and private key from file storage and enter the private key password.
+* **Username, Password**: the field becomes active if *Username and password* type is selected. They set user authentification parameters during his registration in the web service system.
 * **OAuth token**: the field becomes active if *OAuth token* type is selected. The token string is entered.
-* **Хранилище сертификатов** — выпадающий список, который становится доступен при выборе *Клиентский сертификат из хранилища*. One of the certificate stores available in the system is selected from the list. Затем в таблице под списком выбирается используемый для аутентификации сертификат.
-* **Сертификат пользователя** — поле становится доступно при выборе *Файлы сертификата клиента*, в нем указывается расположение (в файловом хранилище) сертификата, используемого для подключения к REST-сервису.
-* **Приватный ключ** — поле становится доступно при выборе *Файлы сертификата клиента*, в нем указывается расположение (в файловом хранилище) приватного ключа, используемого для подключения к REST-сервису.
-* **Пароль приватного ключа** — поле становится активным, если выбран тип *Файлы сертификата клиента*. Это пароль, позволяющий расшифровать ключ.
+* **Хранилище сертификатов** — выпадающий список, который становится доступен при выборе *Клиентский сертификат из хранилища*. One of the certificate stores available in the system is selected from the list. Then the certificate used for authentification is selected in the table under the list.
+* **User certificate** field becomes active when selecting *Client certificate files* in which certificate location is specified (in file storage) that is used for connection to REST service.
+* **Private key** field becomes active when selecting *Client certificate files* in which private key location is specified (in file storage) that is used for connection to REST service.
+* **Private key password** field becomes active if *Client certificate files* type is selected. This password enables to decrypt the key.

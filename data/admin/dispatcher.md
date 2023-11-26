@@ -15,7 +15,7 @@ The Session Manager page is a table with the information grouped by the followin
 
 Table columns:
 
-* **Sessions and packages** — session name and packages opened within are displayed. To view packages, it is required to open the list by clicking on "+". The session name consists of user name and unique session identifier (similar to the one displayed in the [logging](./../admin/parameters.md#parametry-logirovaniya) journal of server operation).
+* **Sessions and packages** — session name and packages opened within are displayed. To view packages, it is required to open the list by clicking on "+". The session name consists of username and unique session identifier (similar to the one displayed in the [logging](./../admin/parameters.md#parametry-logirovaniya) journal of server operation).
 * **Activity** — time of the last session activity. When executing the node in the subordinate package, *Activity* is highlighted in green. In this case, the execution progress bar is displayed for the package, and the node activation start time is displayed in the progress bar tip when hovering a cursor over it.
 * **Host** — IP address of the client from which session was started. When enabling "Allow names by IP" option via the context menu, the host name is displayed instead of address.
 * **Role** — user role in the session is displayed by means of corresponding icons:
