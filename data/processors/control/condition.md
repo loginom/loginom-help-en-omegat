@@ -35,7 +35,7 @@ It enables to provide the presence of the required ports. It is possible to set 
 * ![Create new port](./../../images/icons/common/toolbar-controls/plus_default.svg) **Add** enables to create a new input port as follows:
    * ![For variables](./../../images/icons/app/node/ports/inputs/variable_hover.svg) **Variables** — for variables.
    * ![For table](./../../images/icons/app/node/ports/inputs/table_hover.svg) **Table** — for table.
-   * ![Для дерева данных](./../../images/icons/app/node/ports/inputs/tree_hover.svg) **Дерево данных** — для дерева данных.
+   * ![For data tree](./../../images/icons/app/node/ports/inputs/tree_hover.svg) **Data tree** — for data tree.
 * ![Move port down](./../../images/icons/common/toolbar-controls/movedown_default.svg) **Move down**, ![Move port up](./../../images/icons/common/toolbar-controls/moveup_default.svg) **Move up**: it is possible to define location of the selected port relative to the component node by moving it.
 * ![Edit port parameters](./../../images/icons/common/toolbar-controls/edit_default.svg) **Edit** eanbles to edit port parameters.
 * ![Create output](./../../images/icons/ext/checkbox-states/checked_default.svg) **Pass to output**: the output port will be created in each branch for the selected input port.
@@ -57,17 +57,17 @@ It enables to provide the presence of the required ports. It is possible to set 
    * **Field** contains a list of all variables, table columns and pointer of table records supplied to input ports of the component. The selected object will be used for comparison.
    * **Aggregation** contains a list of the [aggregation](./../func/aggregation-functions.md) methods applied to the table fields. The list is not available for variable fields.
 
-%spoiler%Агрегация полей и возможные типы данных:%spoiler%
+%spoiler%Field aggregation and possible data types:%spoiler%
 
-|Вид агрегации|![](./../../images/icons/common/data-types/string_default.svg)|![](./../../images/icons/common/data-types/integer_default.svg)|![](./../../images/icons/common/data-types/float_default.svg)|![](./../../images/icons/common/data-types/boolean_default.svg)|![](./../../images/icons/common/data-types/datetime_default.svg)|![](./../../images/icons/common/data-types/variant_default.svg)|
+|Aggregation kind|![](./../../images/icons/common/data-types/string_default.svg)|![](./../../images/icons/common/data-types/integer_default.svg)|![](./../../images/icons/common/data-types/float_default.svg)|![](./../../images/icons/common/data-types/boolean_default.svg)|![](./../../images/icons/common/data-types/datetime_default.svg)|![](./../../images/icons/common/data-types/variant_default.svg)|
 |:-|:-:|:-:|:-:|:-:|:-:|:-:|
-|![](./../../images/icons/common/aggregations/factor-sum_default.svg) Сумма||**•**|**•**|||**•**|
-|![](./../../images/icons/common/aggregations/factor-min_default.svg) Минимум|**•**|**•**|**•**|**•**|**•**|**•**|
-|![](./../../images/icons/common/aggregations/factor-max_default.svg) Максимум|**•**|**•**|**•**|**•**|**•**|**•**|
-|![](./../../images/icons/common/aggregations/factor-avg_default.svg) Среднее||**•**|**•**||**•**|**•**|
-|![](./../../images/icons/common/aggregations/factor-null-count_default.svg) Количество пропусков|**•**|**•**|**•**|**•**|**•**|**•**|
-|![](./../../images/icons/common/aggregations/factor-stat-first_default.svg) Первый|**•**|**•**|**•**|**•**|**•**|**•**|
-|![](./../../images/icons/common/aggregations/factor-stat-last_default.svg) Последний|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|
+|![](./../../images/icons/common/aggregations/factor-sum_default.svg) Sum||**•**|**•**|||**•**|
+|![](./../../images/icons/common/aggregations/factor-min_default.svg) Minimum|**•**|**•**|**•**|**•**|**•**|**•**|
+|![](./../../images/icons/common/aggregations/factor-max_default.svg) Maximum|**•**|**•**|**•**|**•**|**•**|**•**|
+|![](./../../images/icons/common/aggregations/factor-avg_default.svg) Average||**•**|**•**||**•**|**•**|
+|![](./../../images/icons/common/aggregations/factor-null-count_default.svg) Null count|**•**|**•**|**•**|**•**|**•**|**•**|
+|![](./../../images/icons/common/aggregations/factor-stat-first_default.svg) The first|**•**|**•**|**•**|**•**|**•**|**•**|
+|![](./../../images/icons/common/aggregations/factor-stat-last_default.svg) The last|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|
 
 %/spoiler%
 * **Condition** provides selection of the comparison method.
@@ -77,11 +77,11 @@ It enables to provide the presence of the required ports. It is possible to set 
    * **OR**: the connected conditions will have the "true" value if at least one condition is true.
 * ![**Delete all conditions**](./../../images/icons/common/toolbar-controls/delete-all_default.svg) **Delete all conditions** enables to delete all conditions for the selected branch.
 
-> **Примечание:** условие проверяется на атомарных значениях, например, "A > 1". A variable can represent such value. If a table is supplied to the input, the field will denote not only one value but the whole column. В этом случае данную колонку необходимо свести к одному значению с помощью методов агрегации.
+> **Note:** the condition is checked based on the atomic values, for example, "A > 1". A variable can represent such value. If a table is supplied to the input, the field will denote not only one value but the whole column.  In this case, it is important to set the column to one value using the aggregation methods.
 
 >
-> **Важно**: при написании сложных условий приоритет будет у оператора **И**.
-> Например, сложное условие вида: "A **ИЛИ** B **И** C **ИЛИ** D **И** E **И** F" будет выполняться следующим образом: "A **ИЛИ** (B **И** C) **ИЛИ** (D **И** E **И** F)".
+> **Important**: When writing complex criteria, **AND** operator will be prioritised.
+> For example, the following complex criterion: "A **OR** B **AND** C **OR** D **AND** E **AND** F" will be executed as follows: "A **OR** (B **AND** C) **OR** (D **AND** E **AND** F)".
 
 **Debug mode** ![Debug mode](./../../images/icons/ext/checkbox-states/checked_default.svg) will be used to check data correctness at the output ports regardless of conditions. The branches specified in *Run condition branch* list will be active. It includes the following components:
 

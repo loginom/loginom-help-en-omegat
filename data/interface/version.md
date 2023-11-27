@@ -11,9 +11,9 @@ description: Способы получения информации о верс�
 
 ### By OS Tools
 
-1. В Проводнике OC Windows навести указатель мыши на интересующее приложение (в данном случае – C:\Program Files\Loginom\Personal\loginom.exe). The appeared window contains information on the application, including version number (for example, file version: X.X.X.Y where X.X.X  is a version number, and Y is a build number).
+1. It is required to hover a cursor over the required application in Windows File Explorer (in this case: C:\Program Files\Loginom\Personal\loginom.exe). The appeared window contains information on the application, including version number (for example, file version: X.X.X.Y where X.X.X  is a version number, and Y is a build number).
 
-2. Доступным способом открыть Свойства приложения (в данном случае – C:\Program Files\Loginom\Personal\loginom.exe). Details tab contains information on the application (for example, application version X.X.X where X.X.X  is a version number; file version: X.X.X.Y - refer to the information above).
+2. It is required to open the application Properties using any available method (in this case, C:\Program Files\Loginom\Personal\loginom.exe). Details tab contains information on the application (for example, application version X.X.X where X.X.X  is a version number; file version: X.X.X.Y - refer to the information above).
 
 3. It is required to open Control panel, and select Programs and Features. The last Version column contains information on the version number (for example, X.X.X or X.X.X.Y where X.X.X  is a version number, and Y is a build number).
 
@@ -27,4 +27,4 @@ description: Способы получения информации о верс�
 
 ### By OS Tools
 
-1. Способы просмотра номера версии на сервере Loginom средствами ОС аналогичны способам, описанным выше для десктопных редакций, за исключением того, что для удаленного подключения к файловой системе сервера Loginom пользователю необходимы права администратора, а собственно интересующее приложение Loginom – это сервер (C:\Program Files\Loginom\Server\loginomd.exe).
+1. Methods to view the version number on the Megaladata server using the OS tools are similar to the methods that are described above for desktop editions. But a user should have administrator rights to get remote access to the Megaladata server file system. The Megaladata application is a server (C:\Program Files\Loginom\Server\loginomd.exe).

@@ -3,13 +3,13 @@ description: Элементы интерфейса начальной стран
 ---
 # "Home" Page
 
-После открытия приложения, в случае настольной редакции Loginom, или авторизации, в случае серверной редакции Loginom, появляется страница «Начало» (см. Figure 1).
+Upon the application opening, in the case of the desktop Megaladata edition, or authorization, in the case of the server Megaladata edition, the "Home" page is opened (refer to Figure 1).
 
 !["Home" page](./home-page.png)
 
 This page contains the following commands to use [packages](./../quick-start/package.md):
 
-* **Создать новый пакет** — позволяет создать и сохранить новый Пакет.
+* **New Package** enables to create and save a new Package.
 * **Ctrl** + **Создать новый пакет** — создает новый пакет и открывает его в новой вкладке.
 * **Создать черновик** — создает временный Пакет и  позволяет работать с ним, не сохраняя его.
 * **Ctrl** + **Создать черновик** — создает черновик и открывает его в новой вкладке.
