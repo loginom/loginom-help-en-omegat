@@ -85,7 +85,7 @@
       * [Kafka](./integration/export/kafka.md)
       * [XML file](./integration/export/xml.md)
    * [Web services](./integration/web-services/README.md)
-      * [Создание и публикация веб-сервисов](./integration/web-services/publishing-web-service.md)
+      * [Create and Publish Web Services](./integration/web-services/publishing-web-service.md)
       * [Редактирование веб-сервиса](./integration/web-services/package-publishing-wizard.md)
       * [Страница Веб-сервисы](./integration/web-services/administration-web-services.md)
 * [Data processing](./processors/README.md)

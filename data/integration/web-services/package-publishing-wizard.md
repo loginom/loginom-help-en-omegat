@@ -3,7 +3,7 @@ description: Настройка публикации веб-сервисов в 
 ---
 # Редактирование веб-сервиса
 При добавлении веб-сервиса требуется указать пространство имен.
-**Пространство имен** элементов и атрибутов служит для обеспечения их уникальности в WSDL-описании сервиса. Для задания параметра нужно выбрать один из вариантов:
+**Namespace** of items and attributes provides their uniqueness in WSDL description of the service. Для задания параметра нужно выбрать один из вариантов:
 * Use Loginom Integrator namespace;
 * Generate unique for package (it is used by default);
 * Generate unique for each package version;

@@ -1,7 +1,7 @@
 ---
 description: Создание и публикация веб-сервиса в Loginom. Реализация методов сервиса. Настройка публикуемых узлов. Совместимость веб-сервисов Loginom с Deductor. Обращение к созданному сервису. SOAP-запрос. REST-запрос.
 ---
-# Создание и публикация веб-сервисов
+# Create and Publish Web Services
 
 Publication and operation of the web services created in Loginom are available if the [Loginom Integrator](https://help.loginom.ru/adminguide/windows/integrator/) component is installed.
 
@@ -35,29 +35,29 @@ When workflow nodes are set as the nodes required for publication, it is necessa
 
 > **Note:** In order to minimise possible problems of connection to the web service using the external clients, it is recommended to use only the English alphabet characters, numbers and underscore character in the name of the published package.
 
-Для публикации пакета требуется перейти в [редактирование веб-сервиса](./package-publishing-wizard.md#imagesiconssystemtoolbar48x48compasdefaultsvg-navigatsiya). После открытия [навигации](./../../interface/main-menu.md) существует два способа:
-* Перейти во вкладку [Веб-сервисы](./administration-web-services.md) и нажать на кнопку **Добавить**;
-* Правой кнопкой мыши нажать на публикуемый пакет и выбрать **Опубликовать**.
+To publish the package, it is required to go to [edit web service](./package-publishing-wizard.md#imagesiconssystemtoolbar48x48compasdefaultsvg-navigatsiya). When [navigation](./../../interface/main-menu.md) is opened, there are two methods:
+* Go to [Web services](./administration-web-services.md) tab and press **Add** button;
+* It is required to click on the published package using the right button and select **Publish**.
 
 ## Access to the Created Service
 
 See the link below to get WSDL of the published SOAP service:
 
-`http://<Server>/<App>/soap?wsdl`, где `<Server>` — хост Loginom Integrator, `<App>` — имя приложения Loginom Integrator (задается при инсталляции Loginom Integrator, при установке по умолчанию `<App>` = `lgi`).
+`http://<Server>/<App>/soap?wsdl` where `<Server>` — the Megaladata Integrator host, `<App>` is a name of the Megaladata Integrator application (it is set when installing Megaladata Integrator, when setting by default `<App>` = `lgi`).
 
-Пример: `http://localhost/lgi/?wsdl`
+Example: `http://localhost/lgi/?wsdl`
 
 See the link below to get information on endpoints, operations, URL, structure of REST requests and responses:
 
-`http://<Server>/<App>/rest/help`, где `<Server>` — хост Loginom Integrator, `<App>` — имя приложения Loginom Integrator (задается при инсталляции Loginom Integrator, при установке по умолчанию `<App>` = `lgi`).
+`http://<Server>/<App>/rest/help` where `<Server>` — the Megaladata Integrator host, `<App>` is a name of the Megaladata Integrator application (it is set when installing Megaladata Integrator, when setting by default  `<App>` = `lgi`).
 
-Пример: `http://localhost/lgi/rest/help`
+Example: `http://localhost/lgi/rest/help`
 
 To provide access to the published services from the Loginom workflow, the [*SOAP request*](./../../processors/integration/soap-request.md) and [*REST request*](./../../processors/integration/rest-request.md) components are used.
 
-Loginom Integrator поддерживает [OpenAPI](https://en.wikipedia.org/wiki/OpenAPI_Specification) и опционально включает Swagger UI. Для тестирования API можно выполнять запросы на странице `http://<Server>/<App>/openapi/index.html`.
+Megaladata Integrator supports [OpenAPI](https://en.wikipedia.org/wiki/OpenAPI_Specification) and optionally includes Swagger UI. To test API, it is possible to execute requests on `http://<Server>/<App>/openapi/index.html` page.
 
-Пример: `http://localhost/lgi/openapi/index.html`
+Example: `http://localhost/lgi/openapi/index.html`
 
 ## Compatibility of the Loginom Web Services with Deductor
 

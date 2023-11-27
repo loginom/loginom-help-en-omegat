@@ -21,14 +21,14 @@ The wizard contains several configuration stages.
 
 The following parameters are specified at the first configuration stage:
 
-* **Имя файла/URL** — путь к файлу, содержащему необходимые данные. Также в имени файла можно задавать URL-ссылку для скачивания.
-* **Кодовая страница** — кодировка, в которой хранится текст в файле.
-* **Заголовок в первой строке** — флаг, определяющий, что метки полей создаваемого набора данных содержатся в первой строке импортируемого текста.
+* **File name/URL**: the path to the file containing the required data. It is also possible to set URL reference for downloading in the file name.
+* **Codepage**: the encoding used for storage of text in a file.
+* **First line title**: the checkbox that enables to determine that captions of the fields of the created data set are present in the first line of the imported text.
 * **Skip rows**: count of the rows from the text beginning that cannot be imported.
 
 ### Step 2. Configure Import Formats
 
-**Определить автоматически** — автоматически определяются все разделители и рассчитывается структура полей.
+**Auto determine**: all separators are auto determined, and field structure is calculated.
 
 It is required to specify the following parameters at the configuration stage:
 
@@ -71,7 +71,7 @@ The following settings are used to generate the resulting data set in the manual
    * Undefined
 * **Use**: checkbox of the field inclusion into the resulting data set.
 
-### Автоматическое определение структуры таблицы
+### Auto determination of table structure
 
 Свойства таблицы, которые могут быть определены автоматически:
 

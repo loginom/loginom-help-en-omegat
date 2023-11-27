@@ -21,7 +21,7 @@ The wizard contains several configuration stages.
 
 The following parameters are specified at the first configuration stage:
 
-* **Имя файла/URL** — задает путь к импортируемому файлу при локальном подключении, либо имя файла при использовании подключения к папке. Также в имени файла можно задавать URL-ссылку для скачивания. ![ ](./../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button calls the file selection dialog.
+* **File name/URL** enables to set a path to the imported file when the connection is local, or a file name when using connection to a folder. It is also possible to set URL reference for downloading in the file name. ![ ](./../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button calls the file selection dialog.
 * *Data source* group of parameters
    * **Object selection**: it is requested to select one of the selection options of the Excel object containing the imported data.
       * **By number**: by the workbook sheet order number.

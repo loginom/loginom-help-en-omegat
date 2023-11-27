@@ -28,7 +28,7 @@ It is allowed to use [Control variables](./../../workflow/variables/control-vari
 
 There are the following parameters in the wizard:
 
-* **Connection** enables to display a string of connection to data source. Нет доступна для редактирования.
+* **Connection** enables to display a string of connection to data source. Edition is not possible.
 * **Тип запроса** — отображает какой именно тип запроса осуществляется:
    * **Выбор таблицы** — после установки переключателя в этом положении необходимо указать, из какого именно источника будет происходить импорт. Его нужно выбрать из выпадающего списка *Таблица/Представление*, в котором отобразятся все доступные варианты. В том случае, если подключение не активно, необходимо нажать кнопку Активировать.
    * **SQL запрос** — выбирается для настройки импорта данных при помощи языка SQL.
@@ -47,8 +47,8 @@ There are the following parameters in the wizard:
 
 В SQL-запросах возможно два варианта использование переменных:
 
-* As **parameter**: a defined value is set for the variable. В тексте запроса параметр записывается со знаком двоеточие, например, `:var1`. The variable type will be taken into account in this case, for example, the string will be in quotation marks.  It is allowed to use parameters only in the *WHERE* section. Выбрать этот вариант использования можно в контекстном меню переменной.
-* в качестве **подстановки** — в значении переменной указывается SQL-запрос или какая-то его часть. В тексте запроса ее необходимо обрамлять знаками процента, например, `%condition%`. Выбрать этот вариант использования можно в контекстном меню переменной.
+* As **parameter**: a defined value is set for the variable. В тексте запроса параметр записывается со знаком двоеточие, например, `:var1`. The variable type will be taken into account in this case, for example, the string will be in quotation marks.  It is allowed to use parameters only in the *WHERE* section. It is possible to select this use option in the variable context menu.
+* в качестве **подстановки** — в значении переменной указывается SQL-запрос или какая-то его часть. В тексте запроса ее необходимо обрамлять знаками процента, например, `%condition%`. It is possible to select this use option in the variable context menu.
 
 > **Note:** if the substitution construction is in quotation marks, quotation marks are prioritized but not the substitution.
 

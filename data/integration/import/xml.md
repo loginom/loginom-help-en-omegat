@@ -20,15 +20,15 @@ The component is designated for data tables import from the XML files.
 
 ## Wizard
 
-### Step 1. Импорт из XML файла
+### Step 1. Import from the XML File
 
-* **Имя файла/URL** — задает путь к импортируемому файлу при локальном подключении, либо имя файла при использовании подключения к папке. Также в имени файла можно задавать URL-ссылку для скачивания. ![ ](./../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button calls the file selection dialog.
+* **File name/URL** enables to set a path to the imported file when the connection is local, or a file name when using connection to a folder. It is also possible to set URL reference for downloading in the file name. ![ ](./../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button calls the file selection dialog.
 * **Preview selected file** enables to view content of the file selected for import.
 
 ### Step 2. Imported Fields
 
 * **Connection**: the state of connection to the XSD schema.
-* **Пространство имен** — позволяет отфильтровать список корневых элементов по пространству имён.
+* **Namespace** enables to filter the list of root elements by namespace.
 * **Root element**: selection of the XSD schema root element according to which data will be imported. The area displaying the hierarchic structure of the selected root element is located below. It is required to place the checkboxes for the elements that form the fields of the imported table.
 * **Default time zone**: the *Date/Time* type values are transformed when extracting from XML according to the following algorithm:
    * If the time zone is specified for the value, it is transformed to the current time zone of the Loginom server.
@@ -36,5 +36,5 @@ The component is designated for data tables import from the XML files.
       * If *Default time zone* is specified, the value is transformed to the current time zone of the Loginom server based on the assumption that it has the time zone specified in the *Default time zone* parameter.
       * If *Default time zone* is not specified, the value is not changed.
 * **Repeat single values**: if there are a single item and nested sequence included into a sequence, the single item values will be repeated for each row formed from the nested sequence.
-* **Check for strict XSD validation**: when this checkbox is selected, XML is validated for strict compliance with the XSD schema. Otherwise, the check is performed in the simplified accelerated mode. Процесс проверки в упрощенном режиме происходит быстрее, однако не гарантирует корректный разбор данных из XML в случае, если имеются невыявленные ошибки валидации.
+* **Check for strict XSD validation**: when this checkbox is selected, XML is validated for strict compliance with the XSD schema. Otherwise, the check is performed in the simplified accelerated mode. The simplified check procedure is performed faster, however, it does not secure correct data parsing from XML if there are undetected validation errors.
 * **Generate composite field captions**: if this checkbox has been selected, hierarchy relative to the root element will be displayed in each field caption. For example, complex `ROOT|PERSON|ACCES-LEVEL` caption will be generated for the imported table field that contains the data of `ACCESS-LEVEL` attribute of `PERSON` element from the root element of `ROOT` file. When this checkbox is not available, the field will get `ACCESS-LEVEL` name.
