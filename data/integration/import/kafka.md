@@ -6,7 +6,7 @@ The component is used for data import from *Kafka* cluster.
 ## Ports
 ### Input Ports
 
-* ![Порт подключений](./../../images/icons/app/node/ports/inputs/link_inactive.svg) **Подключение** — принимает параметры подключения к кластеру *Kafka*;
+* ![Port of connections](./../../images/icons/app/node/ports/inputs/link_inactive.svg) **Connection** accepts parameters of connection to *Kafka* cluster.
 * ![ ](./../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) [**Control variables**](./../../workflow/variables/control-variables.md) — optional port. It is possible to set values of the wizard parameters using variables.
 ### Output Ports
 * ![ ](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Data set**: the table with imported data.
