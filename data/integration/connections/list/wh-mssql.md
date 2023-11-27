@@ -50,7 +50,7 @@ The window includes two fields:
 
       > **Примечание:** Если имя схемы содержит символы `"`, `[` `]`, могут выдаваться сообщения об ошибках.
 
-* **Комментарий** — в этом поле можно оставить любую справочную информацию о подключении.
+* **Comment**: It is possible to provide any reference connection data in this field.
 
 > **Note:** It is required to install DBMS client on the user computer with the same bitness as the Loginom application/server bitness.
 
