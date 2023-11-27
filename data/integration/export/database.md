@@ -1,9 +1,9 @@
 ---
 description: Экспорт данных из Loginom в базу данных. Мастер настройки
 ---
-# ,![ ](./../../images/icons/common/data-sources/db-database-export_default.svg) Export to Database
+# ![ ](./../../images/icons/common/data-sources/db-database-export_default.svg) Export to Database
 
-Узел осуществляет экспорт исходного набора в базу данных.
+The node exports the source data set to database.
 
 > **Important:** For the node operation, it is required to pre-create [connection](./../connections/README.md) to database and connect it with the *Connection* input port. [Example of the DB connection and operation](./../../quick-start/database.md).
 
@@ -15,9 +15,9 @@ description: Экспорт данных из Loginom в базу данных. 
 
 ### Output
 
-* ![ ](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Статус выполнения** — переменные выходного порта отображают текст ошибки (если ошибка возникла) и код завершения выполнения узла:
-   * **0** — выполнение завершилось без ошибок;
-   * **1** — ошибка при выполнении.
+* ![ ](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Execution status**: the output port variables display the error text (if an error occurs) and the node execution completion code:
+   * **0** — execution finished without errors;
+   * **1** — execution finished with an error.
 
 ## Wizard
 
@@ -30,4 +30,4 @@ description: Экспорт данных из Loginom в базу данных. 
    * **Delete records by key fields and insert data into table** provides the same algorithm as for the previous parameter but rows from the source table will be appended to the database table upon its execution.
    * **Update existing table records** enables to select the key field by which records will be updated.
 * **Transaction commit frequency (rows)** enables to divide the export process into several transactions. Transactions are committed after a given count of rows. If the parameter value is null, division into transactions is not performed.
-* **Игнорировать ошибки** — при установленном флаге узел активируется успешно, даже если в процессе активации возникли ошибки. Информация об ошибках записывается в выходной порт *Статус выполнения*.
+* **Ignore errors**: when this checkbox is selected, the node is successfully activated even if errors occur in the activation process. Information on errors is recorded to *Execution status* output port.

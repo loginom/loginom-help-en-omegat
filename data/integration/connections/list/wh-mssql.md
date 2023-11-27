@@ -44,11 +44,11 @@ The window includes two fields:
    * **Do not use DBMS client**: this parameter is not available for MS SQL.
    * **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for the quick call upon the node deactivation. This parameter is disabled by default.
 
-* **Параметры хранилища данных**:
+* **Data warehouse parameters**:
 
-   * **Имя схемы в базе данных** — имя схемы, в которой находятся метаданные и данные ХД.
+   * **Schema name in database**: name of the schema in which metadata and DW data are kept.
 
-      > **Примечание:** Если имя схемы содержит символы `"`, `[` `]`, могут выдаваться сообщения об ошибках.
+      > **Note:** If schema name contains `"`, `[` `]` characters, error messages can be displayed.
 
 * **Comment**: It is possible to provide any reference connection data in this field.
 
@@ -62,5 +62,5 @@ Starting from Microsoft SQL Server 2000 and higher.
 
 **See also:**
 
-* [Информация по Microsoft SQL Server в русском разделе википедии](https://ru.wikipedia.org/wiki/Microsoft_SQL_Server).
+* [Information on Microsoft SQL Server in the Russian section in Wikipedia](https://ru.wikipedia.org/wiki/Microsoft_SQL_Server).
 * [Official website of the MS SQL Server manufacturer](https://www.microsoft.com/ru-ru/sql-server).

@@ -32,15 +32,15 @@ The following parameters are set during the connection setup:
    * **Do not use DBMS client**: if this option is used, the alternative inbox driver built into the platform is used for connection to DBMS.
    * **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for the quick call upon the node deactivation. This parameter is disabled by default.
 
-* **Параметры хранилища данных**:
+* **Data warehouse parameters**:
 
-   * **Имя схемы в базе данных** — имя схемы, в которой находятся метаданные и данные ХД.
+   * **Schema name in database**: name of the schema in which metadata and DW data are kept.
 
-      > **Примечание:** Если имя схемы содержит символы `"`, `[` `]`, могут выдаваться сообщения об ошибках.
+      > **Note:** If schema name contains `"`, `[` `]` characters, error messages can be displayed.
 
 * **Comment**: It is possible to provide any reference connection data in this field.
 
-> **Примечание:** Если используется клиент СУБД, то он должен быть той же разрядности, что и разрядность приложения/сервера Loginom.
+> **Note:** If DBMS client is used, it must be with the same bitness as the Megaladata application/server bitness.
 
 ## Compatibility
 
@@ -50,5 +50,5 @@ Starting from Oracle Database 9i and higher.
 
 **See also:**
 
-* [Информация по Oracle Database в русском разделе википедии](https://ru.wikipedia.org/wiki/Oracle_Database).
+* [Information on Oracle Database in the Russian section in Wikipedia](https://ru.wikipedia.org/wiki/Oracle_Database).
 * [Official website of the Oracle Database manufacturer](https://www.oracle.com/database).

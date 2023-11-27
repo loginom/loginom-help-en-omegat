@@ -35,7 +35,7 @@ The following data is set below:
 The following buttons are used to edit the list of fields :
 * ![](./../../../images/icons/common/toolbar-controls/moveup_default.svg)/![](./../../../images/icons/common/toolbar-controls/movedown_default.svg) moves the selected field defining its position in the list of fields of the created table;
 * ![](./../../../images/icons/common/toolbar-controls/plus_default.svg) adds a new field to the table;
-* ![](./../../../images/icons/common/toolbar-controls/autosync_default.svg) — устанавливает перечень и параметры полей, как в таблице, подключенной к входному порту узла;
+* ![](./../../../images/icons/common/toolbar-controls/autosync_default.svg) sets list and parameters of fields as in the table connected to the input node port;
 * ![](./../../../images/icons/common/toolbar-controls/delete-all_default.svg) deletes all fields in the new table.
 
 ## SQL Query

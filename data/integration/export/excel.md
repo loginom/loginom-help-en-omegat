@@ -3,7 +3,7 @@ description: Экспорт данных из Loginom в Excel-файл. Мас�
 ---
 # ![ ](./../../images/icons/common/data-sources/file-excel-export_default.svg) Export to Excel File
 
-Узел экспортирует таблицы данных в файлы для программы Microsoft Excel. It is possible to set the following file formats:
+The node exports data tables to files for Microsoft Excel. It is possible to set the following file formats:
 
 * Excel 2003 (.xls extension);
 * Excel 2007 (.xlsx extension).
