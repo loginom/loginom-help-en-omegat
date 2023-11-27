@@ -30,7 +30,7 @@ Primarily, there are no input and output [ports](./../../workflow/ports/README.m
 
 ### Step 1. Configuration of the Node Ports
 
-It enables to provide the presence of the required ports. It is possible to set a type, name and caption for each port. It will be displayed when hovering a cursor over it.
+It enables to provide availability of the required ports. It is possible to set a type, name and caption for each port. It will be displayed when hovering a cursor over it.
 
 * ![Create new port](./../../images/icons/common/toolbar-controls/plus_default.svg) **Add** enables to create a new input port as follows:
    * ![For variables](./../../images/icons/app/node/ports/inputs/variable_hover.svg) **Variables** — for variables.
@@ -80,8 +80,8 @@ It enables to provide the presence of the required ports. It is possible to set 
 > **Note:** the condition is checked based on the atomic values, for example, "A > 1". A variable can represent such value. If a table is supplied to the input, the field will denote not only one value but the whole column.  In this case, it is important to set the column to one value using the aggregation methods.
 
 >
-> **Important**: When writing complex criteria, **AND** operator will be prioritised.
-> For example, the following complex criterion: "A **OR** B **AND** C **OR** D **AND** E **AND** F" will be executed as follows: "A **OR** (B **AND** C) **OR** (D **AND** E **AND** F)".
+> **Important**: When writing complex conditions, **AND** operator will be prioritised.
+> For example, the following complex condition: "A **OR** B **AND** C **OR** D **AND** E **AND** F" will be executed as follows: "A **OR** (B **AND** C) **OR** (D **AND** E **AND** F)".
 
 **Debug mode** ![Debug mode](./../../images/icons/ext/checkbox-states/checked_default.svg) will be used to check data correctness at the output ports regardless of conditions. The branches specified in *Run condition branch* list will be active. It includes the following components:
 
