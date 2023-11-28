@@ -11,7 +11,7 @@ If it is required to configure the input port that accepts the table data, the "
 
 The "Input" list toolbar contains the following commands:
 
-* ![](./../../images/icons/common/toolbar-controls/get-column-list_default.svg) **Get list**: downloading of the input fields list in the case of its absence (for example, if import from the database is set via the SQL request). The command is available only for the output port configuration.
+* ![](./../../images/icons/common/toolbar-controls/get-column-list_default.svg) **Get list**: downloading of the input fields list in the case of its absence (for example, if import from the database is set via the SQL query). The command is available only for the output port configuration.
 * ![](./../../images/icons/common/toolbar-controls/create-out-column_default.svg) **Create output...**: create the same field for the selected input field/variable in the "Output" list and provide mapping with it.
 * ![](./../../images/icons/common/toolbar-controls/create-out-columns_default.svg) **Create output for all input...**: create the same fields in the "Output" list for all input fields/variables and provide mapping with them.
 * **Type of derived columns creation**. The button is displayed only when the component algorithm provides for addition to the resulting data set of the new fields/variables calculated on the basis of the source ones (for example, [Replace](./../../processors/transformation/substitution/README.md) component). There are the following configuration options:

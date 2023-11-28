@@ -28,7 +28,7 @@ The following parameters are specified at the first configuration stage:
       * **By name**: by the workbook sheet name.
       * **Named range**: by the name of the named range created in the workbook.
    * **Whole sheet**: area of the sheet containing data for import is automatically defined.
-   * **Reference style**: it is requested to select one of the identification options of the Excel worksheet cells.
+   * **Reference style**: it is requested to select one of the identification options of the Excel sheet cells.
       * **A1**: according to this format, the row cells are identified in Latin characters, and a column is identified in figures.
       * **R1C1**: in R[x]C[y] format where x is a cell row number, y is a cell column number.
    * **Range**: the range of the imported cells set in ` format [address of the upper left cell]:[address of the bottom right cell]`.

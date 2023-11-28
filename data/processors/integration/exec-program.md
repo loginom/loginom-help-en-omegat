@@ -13,7 +13,7 @@ description: Компонент Выполнение программы в Login
 
 ### Input
 
-* ![ ](./../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) — Input variables (variables) — optional port. The variables names can be used in *Command line*, namely, macro replacement of commands is supported: ```%VariableName%``` means the variable that contains the command that is supplied to the input of this node (refer to [Examples](#primery)).
+* ![ ](./../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) — Input variables (variables) — optional port. The variables names can be used in *Command line*, namely, macro substitution of commands is supported: ```%VariableName%``` means the variable that contains the command that is supplied to the input of this node (refer to [Examples](#primery)).
 * ![ ](./../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) — [Control variables](./../../workflow/variables/control-variables.md) (variables) — optional port. They can be used to set such parameters as *Node execution timeout* and *Terminate program by timeout*.
 
 ### Output

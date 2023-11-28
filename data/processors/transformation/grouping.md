@@ -3,7 +3,7 @@ description: Группировка данных в Loginom. Аналог SQL-з
 ---
 # ![Grouping](./../../images/icons/components/group-data_default.svg) Grouping
 
-The grouping enables to perform actions with a data set that are simillar to the SQL request actions using `GROUP BY` offer. Компонент позволяет объединять записи избранных полей в группы, а для оставшихся полей вычислять статистические показатели (сумму, среднее, минимум и т.д.). One string is returned for each group. In this case, the statistical indicators (or [aggregation functions](./../func/aggregation-functions.md)) are calculated for each group but not for the whole data set.
+The grouping enables to perform actions with a data set that are simillar to the SQL query actions using `GROUP BY` offer. Компонент позволяет объединять записи избранных полей в группы, а для оставшихся полей вычислять статистические показатели (сумму, среднее, минимум и т.д.). One string is returned for each group. In this case, the statistical indicators (or [aggregation functions](./../func/aggregation-functions.md)) are calculated for each group but not for the whole data set.
 
 %spoiler%Example:%spoiler%
 

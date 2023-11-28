@@ -14,17 +14,17 @@ The component is used for data import from *Kafka* cluster.
 There are the following parameters in the wizard:
 * **Connection** displays status of connection to data source. It can't be edited.
 * **Topic**: topic name combining messages related to one topic to which consumer is subscribed.
-* **ID группы ([`group.id`](https://kafka.apache.org/documentation/#consumerconfigs_group.id))** — уникальная строка, идентифицирующая группу консьюмеров, в рамках которой доставляется один экземпляр сообщения.
+* **Group ID ([`group.id`](https://kafka.apache.org/documentation/#consumerconfigs_group.id))**: the unique string that identifies a group of consumers in which one message instance is delivered.
 * **Client ID ([`client.id`](https://kafka.apache.org/documentation/#consumerconfigs_client.id))**: the consumer identifier string designated for data transfer to *Kafka* cluster when executing requests.
-* **Тип смещения** — параметр, позволяющий выбрать положение записи в разделе топика:
-   * Без указания смещения — параметр по умолчанию.
-   * С начала очереди партиций — смещение относительно начала очереди партиций.
-   * С текущего смещения — импорт начнется со смещения, сохранённого в партиции.
-   * Номер смещения — абсолютное смещение по указанному номеру сообщения.
-   * Смещение относительно конца — смещение относительно конца очереди партиций.
-> **Примечание:**  смещения хранятся в топиках *Kafka*.
-* **Время ожидания сообщения (мс)** — максимальное время, за которое будет выполняться запрос одного сообщения.
-* **Максимальное количество сообщений** — при получении максимального количества сообщений импорт будет остановлен.
+* **Bias type**: the parameter that enables to select location of record in the topic section:
+   * Without bias specification: the default parameter.
+   * From the start of partition queue: bias relative to the start of partition queue.
+   * From the current bias: import will start from the bias saved in partition.
+   * Bias number: the absolute bias by the specified message number.
+   * Bias relative to the end: bias relative to the end of partition queue.
+> **Note:**  biases are kept in *Kafka* topics.
+* **Message wait period (ms)**: the maximum time period during which request of one message will be executed.
+* **Maximum number of messages**: import will be stopped when the maximum number of messages is received.
 * **Additional Consumer configuration**: collection of *Kafka* parameters in the following form: *Parameter — Value*.
 
 **See also:**
