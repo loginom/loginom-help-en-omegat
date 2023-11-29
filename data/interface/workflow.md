@@ -2,7 +2,7 @@
 description: Элементы страницы "Сценарий" аналитической платформы Loginom. Основные команды панели инструментов. Инспектор свойств. Стандартная библиотека компонентов Loginom.   
 ---
 # "Workflow" Page
-Страница «Сценарий» представляет собой рабочее пространство, которое состоит из панели компонентов, области построения Сценария, *Инспектора свойств* (по умолчанию находится в свернутом состоянии) и панели инструментов (см. Figure 1).
+"Workflow" page is a working space that consists of components panel, Workflow construction area, *Property inspector* (by default, it is in the collapsed form) and a toolbar (refer to Figure 1).
 
 !["Workflow" Page.](./workflow.png)
 
@@ -14,7 +14,7 @@ The panel of components is located on the left. It consists of the following cat
 
 The Workflow construction area is located in the centre: the area containing the Worlflow nodes and links between them.
 
-Справа находится [Инспектор свойств](./property-inspector.md) — панель, содержащая информацию о свойствах выделенного узла сценария. По умолчанию *Инспектор свойств* находится в свернутом состоянии, его можно открыть, нажав кнопку ![Показать/скрыть инспектор свойств](./../images/icons/common/toolbar-controls/info_default.svg) на панели инструментов.
+[Property inspector](./property-inspector.md) is located to the right. It is a panel that contains information on properties of the selected workflow node. By default, *Property inspector* is collapsed. It can be opened by pressing ![Show/hide property inspector](./../images/icons/common/toolbar-controls/info_default.svg) on the toolbar.
 
 The toolbar that enables the following operations with the construction area and its constituents is located in the upper part:
 * ![](./../images/icons/common/toolbar-controls/arrow-rr_default.svg) Show/![](./../images/icons/common/toolbar-controls/arrow-ll_default.svg)Hide component panel enables to open or hide the panel of components.
@@ -39,9 +39,9 @@ The toolbar that enables the following operations with the construction area and
 * ![](./../images/icons/common/toolbar-controls/retrain_default.svg) [Retrain node](./../workflow/training-processors.md).
 * ![](./../images/icons/common/toolbar-controls/setup_default.svg) Configure node (Shift+Enter) provides access to setting of the selected node.
 * ![](./../images/icons/common/toolbar-controls/batch-mode_default.svg) [Configure node activation mode](./../workflow/node-activation-mode.md).
-* ![](./../images/icons/common/toolbar-controls/cut_default.svg) Вырезать (Ctrl+X) — копирует данные в оперативную память с одновременным их удалением с места текущего расположения.
-* ![](./../images/icons/common/toolbar-controls/copy_default.svg) Копировать (Ctrl+C) — помещает копию выделенных данных в буфер обмена.
-* ![](./../images/icons/common/toolbar-controls/paste_default.svg) Вставить (Ctrl+V) — вставляет содержимое буфера обмена в место назначения.
+* ![](./../images/icons/common/toolbar-controls/cut_default.svg) Cut (Ctrl+X) enables to copy data to RAM with its simultaneous deletion from the place of current location.
+* ![](./../images/icons/common/toolbar-controls/copy_default.svg) Copy (Ctrl+C) enables to place copy of the selected data to the clipboard.
+* ![](./../images/icons/common/toolbar-controls/paste_default.svg) Paste (Ctrl+V) enables to paste clipboard contents to destination place.
 * ![](./../images/icons/common/toolbar-controls/clone_default.svg) Clone node enables to clone the selected node saving its settings and links.
 *  ![](./../images/icons/common/toolbar-controls/delete_default.svg) Delete selected enables to delete the selected nodes/links of the Workflow.
 * ![](./../images/icons/common/toolbar-controls/compose-generic-model_default.svg) Expand/collapse[ supernode](./../processors/control/supernode.md) enables to collapse the selected nodes into the Supernode, or expand the selected Supernode into compound nodes.
@@ -51,6 +51,6 @@ The toolbar that enables the following operations with the construction area and
 * ![](./../images/icons/common/toolbar-controls/preview_default.svg)Show workflow outline enables to open for the navigation purposes a reduced copy of the Workflow construction area suitable for scaling.
 * ![](./../images/icons/common/toolbar-controls/info_default.svg)Show/hide property inspector enables to expand/collapse the *Property inspector* window. This button is always located in the far right position on the toolbar.
 
-Для некоторых кнопок панели инструментов доступны [Горячие клавиши](./../workflow/hotkeys.md).
+[Hotkeys](./../workflow/hotkeys.md) are available for some toolbar buttons.
 
 > **Note:** When the *Property inspector* window is opened, there can be not enough place for some buttons on the toolbar. In this case, ![](./../images/icons/common/toolbar-controls/system-panel-more_default.svg) button with a drop-down list appears on the toolbar. It will contain all other buttons for which there is no enough place on the toolbar.
