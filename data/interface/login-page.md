@@ -2,19 +2,19 @@
 description: Описание страницы входа для серверных редакций. Логин и пароль.
 ---
 
-# Страница "Вход"
+# "Login" Page
 
-В серверных редакциях Loginom при обращении к Loginom Studio в браузере открывается страница «Вход»(см. Figure 1).
+The "Login" page is opened in the server Megaladata editions on Megaladata Studio access in the browser (refer to Figure 1).
 
-![Страница "Вход"](./login-page.png)
+!["Login" Page](./login-page.png)
 
-Страница содержит следующие элементы:
+The page contains the following elements:
 
-* **Логин** — имя пользователя.
+* **Login**: username.
 * **Password**: user password.
-* **Войти** — кнопка авторизации.
-* **Версия:x.x.x** — версия программы.
-* **Знакомство с Loginom** — ссылка на плейлист в YouTube «Loginom tutorial».
-* **Быстрый старт** — ссылка на статью в блоге «Быстрый старт в Loginom».
-* **Документация** — ссылка на документацию программы.
-* **Q&A** — ссылка на форум «Вопросы и ответы».
+* **Sign in**: sign in button.
+* **Version:x.x.x**: program version.
+* **Introduction to Megaladata**: reference to YouTube playlist, "Megaladata tutorial".
+* **Quick start**: reference to the article in "Megaladata Quick Start" blog.
+* **Documentation**: reference to the program documentation.
+* **Q&A**: reference to "Questions and Answers" forum.

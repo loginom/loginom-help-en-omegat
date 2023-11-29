@@ -12,30 +12,30 @@ This page can be opened in two ways:
 
 ## Interface
 
-Открытые *Пакеты* перечислены в таблице с полями:
+Opened *Packages* are listed in the table with fields:
 
-* **Имя** — имя *Пакета*, соответствующее имени файла без расширения, приведенному к правильному идентификатору.
-* **Path**: the path to the opened *Package*. В серверных редакциях путь указывается от корневого каталога. В настольных редакциях указывается абсолютный путь (подробнее см. в статье [Файловое хранилище](./../location_user_files.md)).
-* **Версия** — версия открытого *Пакета* (настраивается в *Свойствах* пакета).
-* **Опубликован** — признак опубликованного *Пакета* (если пакет опубликован, то в ячейке стоит знак ●, если не опубликован — ячейка пустая).
-* **Локаль** — локаль пакета (настраивается в *Свойствах* пакета).
+* **Name**: *Package* name that matches file name without extension set to the corect identifier.
+* **Path**: the path to the opened *Package*. The path is specified from the root directory in the server edition. The absolute path is specified for the desktop version (more detailed information is provided below in [File storage](./../location_user_files.md) article).
+* **Version**: version of the opened *Package*. It is configured in its *Properties*.
+* **Published**: indicator of the published *Package* (if the package is published, ● character is in the cell, if it is not published, the cell is empty).
+* **Locale**: package locale (it is configured in the package *Properties*).
 
-По данным полям можно отсортировать список по возрастанию ![ ](./../images/icons/common/toolbar-controls/low-to-hight_default.svg), по убыванию ![ ](./../images/icons/common/toolbar-controls/hight-to-low_default.svg), либо отменить сортировку.
+It is possible to sort the list for these fields in ascending order ![ ](./../images/icons/common/toolbar-controls/low-to-hight_default.svg), in descending order ![ ](./../images/icons/common/toolbar-controls/hight-to-low_default.svg), or to cancel sorting.
 
 The following commands are available on the toolbar:
 
-* ![ ](..\images\icons\common\toolbar-controls\new_default.svg) **Создать** — открывает окно для задания пути и имени нового *Пакета*, после сохранения открывает пустой *Пакет*. Под кнопкой ![ ](..\images\icons\common\toolbar-controls\down_default.svg) доступна команда
-   ![ ](..\images\icons\common\toolbar-controls\temporary_default.svg) **Создать черновик**, которая создает временный *Пакет*, без текущего сохранения.
+* ![ ](..\images\icons\common\toolbar-controls\new_default.svg) **New** enables to open a window to set a path and name of the new *Package*, it also enables to open this empty *Package* after saving. ![ ](..\images\icons\common\toolbar-controls\down_default.svg) button provides
+   ![ ](..\images\icons\common\toolbar-controls\temporary_default.svg) **New draft** enables to create a temporary *Package* without current saving.
 * ![ ](..\images\icons\common\toolbar-controls\open_default.svg) **Open** enables to open the selection window of the existing *Package*.
-* ![ ](..\images\icons\common\toolbar-controls\save_default.svg) **Сохранить** — сохраняет выделенный в списке *Пакет*. Под кнопкой ![ ](..\images\icons\common\toolbar-controls\down_default.svg) доступна команда ![ ](..\images\icons\common\toolbar-controls\save-as_default.svg) **Сохранить как**, которая позволяет сохранить выделенный *Пакета* под новым именем и/или по другому доступному пути.
-* ![ ](..\images\icons\common\toolbar-controls\save-all_default.svg) **Сохранить все** — сохраняет все открытые *Пакеты*.
+* ![ ](..\images\icons\common\toolbar-controls\save_default.svg) **Save** enables to save the *Package* selected in the list. ![ ](..\images\icons\common\toolbar-controls\down_default.svg) button provides ![ ](..\images\icons\common\toolbar-controls\save-as_default.svg) **Save as** command that enables to save the selected *Package* under a new name, and/or using another available path.
+* ![ ](..\images\icons\common\toolbar-controls\save-all_default.svg) **Save all** enables to save all opened *Packages*.
 * ![ ](..\images\icons\common\toolbar-controls\toolbar-controls_18x18_auto-save_default.svg)
-   **Автосохранение** — открывает окно для задания параметров [автосохранения пакетов](#avtosokhranenie-paketov). По умолчанию автосохранение пакетов не выполняется.
+   **Auto save** enables to open window to set parameters of [package auto save](#avtosokhranenie-paketov). By default, packages are not auto saved.
 * ![ ](..\images\icons\common\toolbar-controls\publish_default.svg)
-   **Опубликовать**[^1] — открывает окно для публикации *Пакета*.
+   **Publish**[^1] enables to open window for *Package* publication.
 * ![ ](..\images\icons\common\toolbar-controls\edit_default.svg) **Properties** enables to open the [properties](#svoystva-paketa) configuration window of the selected *Package*.
-* ![ ](..\images\icons\common\toolbar-controls\close_default.svg) **Закрыть** — закрывает выделенный в списке *Пакет*.
-* ![ ](..\images\icons\common\toolbar-controls\close-all_default.svg) **Закрыть все** — закрывает все открытые *Пакеты*.
+* ![ ](..\images\icons\common\toolbar-controls\close_default.svg) **Close** enables to close the *Package* selected in the list.
+* ![ ](..\images\icons\common\toolbar-controls\close-all_default.svg) **Close all** enables to close all opened *Packages*.
 
 [^1]: It is available only for the editions with possibility to publish [Web Services](./../integration/web-services/publishing-web-service.md).
 
@@ -45,58 +45,58 @@ When closing the *Package* with unsaved changes, you will be requested to save i
 * **No** will cancel changes (the *Package* will be closed without saving!).
 * **Cancel** will stop closing of the *Package* or further closing of still not closed *Packages*.
 
-Контекстное меню, вызываемое кликом правой клавиши мыши, в основном повторяет перечисленный выше набор команд:
+The context menu called by the right mouse button click, for the most part, enables to repeat the set of commands listed above:
 
 * For the opened *Packages*:
    * ![ ](..\images\icons\common\toolbar-controls\save_default.svg) **Save package**
    * ![ ](..\images\icons\common\toolbar-controls\save-as_default.svg) **Save package as…**
    * ![ ](..\images\icons\common\toolbar-controls\edit_default.svg) **Edit properties…**
-   * ![ ](..\images\icons\blank.svg) **Показать в папке** — открывает папку, содержащую выделенный *Пакет*, и устанавливает на нем фокус.
+   * ![ ](..\images\icons\blank.svg) **Show in folder** enables to open the folder containing the selected *Package* and takes focus on it.
    * ![ ](..\images\icons\common\toolbar-controls\close_default.svg) **Close package…**
-   * ![ ](..\images\icons\blank.svg) **Закрыть другие пакеты…** — закрывает все *Пакеты*, кроме выделенного.
+   * ![ ](..\images\icons\blank.svg) **Close other packages…** enables to close all *Packages*, with the exception of the selected one.
 * For the free zone:
    * ![ ](..\images\icons\common\toolbar-controls\new_default.svg) **New package…**
    * ![ ](..\images\icons\common\toolbar-controls\temporary_default.svg) **New draft**
    * ![ ](..\images\icons\common\toolbar-controls\save-all_default.svg) **Save all packages**
    * ![ ](..\images\icons\common\toolbar-controls\close-all_default.svg) **Close all packages…**
 * General:
-   * ![ ](..\images\icons\common\toolbar-controls\refresh_default.svg) **Обновить** — обновляет список пакетов.
+   * ![ ](..\images\icons\common\toolbar-controls\refresh_default.svg) **Update** — update list of packages.
 
 Hotkeys are available for some commands:
 
-* %kbd F2 % — редактировать свойства *Пакета*;
-* %kbd Ctrl O % — открыть *Пакет*;
-* %kbd Ctrl S % — сохранить *Пакет*;
-* %kbd Ctrl Shift S % — сохранить все *Пакеты*;
-* %kbd Alt P % — опубликовать *Пакет*.
+* %kbd F2 % — edit *Package* properties;
+* %kbd Ctrl O % — open *Package*;
+* %kbd Ctrl S % — save *Package*;
+* %kbd Ctrl Shift S % — save all *Packages*;
+* %kbd Alt P % — publish *Package*.
 
 ## Package Properties
 
 It enables to set the following parameters of the *Package*:
 
-* **Name**: name of the *Package*. Редактирование возможно для *Черновика*. It will be set to the file name and correct identifier after saving.
-* **Версия** — версия *Пакета*, по умолчанию равна `1.0.0`.
-* **Локаль** — локаль пакета, по умолчанию соответствует действующей локали сервера. Новое значение применяется после закрытия пакета и всех зависимых от него открытых пакетов. Если локаль была изменена, но не применена, то редактор смены локали выделяет значение локали красной рамкой.
-* ![ ](..\images\icons\ext\checkbox-states\checked_default.svg) **Сравнивать строковые уникальные значения бинарно** — опцию следует включить, если предполагается использование узлов с сохранением уникальных строковых значений. При изменении данной настройки может потребоваться переобучение уже обученных узлов. По умолчанию опция выключена.
-* ![ ](..\images\icons\ext\checkbox-states\checked_default.svg) **Использовать относительные пути базового пакета** — опцию следует включать в *Пакете* с базовым узлом, если у данного узла есть относительные пути на файлы, либо предполагается использовать пути в базовых узлах относительно данного *Пакета*. This option is enabled by default.
+* **Name**: name of the *Package*. *Draft* can be edited. It will be set to the file name and correct identifier after saving.
+* **Version**: *Package* version, by default it is equal to`1.0.0`.
+* **Locale**: package locale matching the actual server locale by default. The new value is applied after closing the package and all opened packages dependent on it. If locale was changed but not applied, the locale change editor selects the locale value with red border.
+* ![ ](..\images\icons\ext\checkbox-states\checked_default.svg) **Compare string unique values in a binary way**: this option must be enabled if it is assumed to use nodes saving unique string values. When this setting is changed, retraining of already trained nodes can be required. This option is disabled by default.
+* ![ ](..\images\icons\ext\checkbox-states\checked_default.svg) **Use relative paths of the base package** option must be enabled in the *Package* with base node, if this node has relative paths to files, or it is assumed to use paths in base nodes relative to this *Package*. This option is enabled by default.
 
-> **Важно:** после смены локали некоторые узлы, например: [Сортировка](./../processors/transformation/sorting.md), [Экспорт в текстовый файл](./../integration/export/txt-csv.md) и др. могут работать по-другому.
+> **Important:** after locale change some nodes, for example: [Sort](./../processors/transformation/sorting.md), [Export to the Text File](./../integration/export/txt-csv.md), etc. can function in a different way.
 
-## Автосохранение пакетов
+## Package Auto Save
 
-Опция автосохранения пакетов автоматически сохраняет пакет с заданным интервалом времени. Пакеты сохраняются в файлы с расширением lgp.autosave рядом с .lgp файлами. Сами .lgp файлы при этом не перезаписываются.
+Package auto save option automatically saves the package with set time interval. Packages are saved to the files with lgp.autosave extension near .lgd files. .lgd files are not rerecorded in this case.
 
-Черновики и пакеты, открытые только на чтение, не сохраняются.
+Drafts and packages opened in read-only mode are not saved.
 
-Параметры автосохранения задаются при нажатии на кнопку ![ ](..\images\icons\common\toolbar-controls\toolbar-controls_18x18_auto-save_default.svg) **Автосохранение**:
+Auto save parameters are set when pressing ![ ](..\images\icons\common\toolbar-controls\toolbar-controls_18x18_auto-save_default.svg) **Auto save** button:
 
-* ![ ](..\images\icons\ext\checkbox-states\checked_default.svg) **Включить автосохранение пакетов** — флаг включает/отключает опцию автосохранения пакетов.
+* ![ ](..\images\icons\ext\checkbox-states\checked_default.svg) **Enable package auto save**: this checkbox enables/disables package auto save option.
 
-* **Сохранять каждые (минут)** — параметр доступен для редактирования при установленном флаге *Включить автосохранение пакетов* и задает интервал времени, через который пакет автоматически сохраняется. По умолчанию автосохранение выполняется каждые 5 минут.
+* **Save every (minutes)**: this parameter can be edited when *Enable package auto save* checkbox is selected. It sets time interval when package is automatically saved. Auto saving is performed every 5 minutes by default.
 
-Параметры вступают в силу после нажатия кнопки *Применить*.
+Parameters take effect upon pressing *Apply* button.
 
-Если автосохранение включено, то кнопка ![Автосохранение](..\images\icons\common\toolbar-controls\toolbar-controls_18x18_auto-save_default.svg) подсвечивается.
+If auto save is enabled, ![Auto save](..\images\icons\common\toolbar-controls\toolbar-controls_18x18_auto-save_default.svg) button is highlighted.
 
-Заданные настройки автосохранения пакетов сохраняются в локальном хранилище браузера и не сбрасываются при закрытии сессии пользователя.
+Set package auto save settings are saved in the local browser storage and they are not reset when closing user session.
 

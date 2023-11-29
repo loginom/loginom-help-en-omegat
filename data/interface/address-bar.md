@@ -12,7 +12,7 @@ Navigation elements:
 * ![Go up](./../images/icons/common/toolbar-controls/up_default.svg) **Go up**: transition to the upper level object.
 * ![Go back](./../images/icons/common/toolbar-controls/arrow-l_default.svg) **Go back** enables to return to the previous opened object.
 * ![Go forward](./../images/icons/common/toolbar-controls/arrow-r_default.svg) **Go forward** enables to cancel *Go back* transition if no other navigation operations have been performed afterwards.
-* ![Сохранить пакет](./../images//icons/common/toolbar-controls/toolbar-controls_18x18_save_default.svg) **Сохранить пакет** (Ctrl+S) — сохраняет настройки Пакета, которые актуальны на момент нажатия этой кнопки.
+* ![Save package](./../images//icons/common/toolbar-controls/toolbar-controls_18x18_save_default.svg) **Save package** (Ctrl+S) enables to save the Package settings that are relevant at the moment of button pressing.
 
 Pressing ![List of subobjects](./../images/icons/common/toolbar-controls/down_default.svg) button, it is possible to go to the subobjects of the complex object (refer to  Figure 2).
 

@@ -23,7 +23,7 @@ These settings contain information on the language standards, number, time, date
 
 Локаль пакета можно поменять в настройках [Свойств пакета](./../interface/packages.md). Новая локаль будет применена после закрытия пакета и всех зависимых от него открытых пакетов (для новых пакетов локаль применяется сразу).
 
-> **Важно:** после смены локали некоторые узлы, например: [Сортировка](./../processors/transformation/sorting.md), [Экспорт в текстовый файл](./../integration/export/txt-csv.md) и др. могут работать по-другому.
+> **Important:** after locale change some nodes, for example: [Sort](./../processors/transformation/sorting.md), [Export to the Text File](./../integration/export/txt-csv.md), etc. can function in a different way.
 
 Локаль узла можно посмотреть в [Инспекторе свойств](./../interface/property-inspector.md).
 

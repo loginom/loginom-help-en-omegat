@@ -21,7 +21,7 @@ The following parameters are set during the connection setup:
    * PLAIN: simple authentification mechanism by login and password.
    * SCRAM-SHA-256: data hashing mechanism.
    * SCRAM-SHA-512: data hashing mechanism.
-* **User name**: Kafka username.
+* **Username**: Kafka username.
 * **Password**: Kafka user password.
 * **User certificate**: path to the certificate obtained in advance that contains data on the person to whom (IP or domain name) and by whom it has been given.
 * **Private key**: path to the private key of the server with connected certificate chain.

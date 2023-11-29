@@ -22,11 +22,11 @@ The tree root in the *Property inspector* contains the component name used as a 
 
 > **Note:** It is not possible to change the order of the *Properties* and *Value* columns.
 
-Узлы в дереве *Инспектора свойств* можно сортировать, для этого нужно кликнуть мышью на заголовок колонки *Свойство*. Subsequent pressing the header enables to change the sorting order or cancels it.
+It is possible to sort nodes in the *Property inspector* tree. For this purpose, it is required to click on the header of the *Property* column. Subsequent pressing the header enables to change the sorting order or cancels it.
 
 It is possible to select with mouse cursor any cell or range of cells of the *Property inspector* by clicking and copy its (their) value by pressing *Ctrl+C* combination of keys.
 
-Для ячеек, в которых текст полностью не помещается, предусмотрены всплывающие подсказки.
+Screen tooltips are used for the cells in which there is no enough place for text.
 
 The *Property inspector* context menu contains the following commands:
 
