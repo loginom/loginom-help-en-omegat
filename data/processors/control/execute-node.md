@@ -7,16 +7,16 @@ The component enables to use already existing workflow node for repeated process
 
 **Base node**: the node or [Supernode](./supernode.md), settings and algorithm of which are to be used repeatedly. It can be located outside the current *Supernode*, *Workflow*, *Module* or *Package*.
 
-Добавить *Выполнение узла* в сценарий можно двумя способами:
+It is possible to add *Node execution* to the Workflow in two ways:
 
-* Из стандартных компонентов: методом Drag-and-Drop, перенеся компонент в область построения *Сценария*, или через контекстное меню, нажав правой кнопкой мыши по компоненту.
-* Из [производных компонентов](../../workflow/derived-component.md) теми же методами.
+* From the standard components: using the Drag-and-Drop method by moving the component to the *Workflow* construction area or via the context menu by pressing the component with the right mouse button.
+* From [derived components](../../workflow/derived-component.md) using the same methods.
 
-При добавлении узла *Выполнение узла* от производного компонента его метка формируется следующим образом: `Метка производного компонента (выполнение)`.
+When adding the *Node execution* method from the derived component, its caption is formed in the following way: `Derived component caption (execution)`.
 
-Исключение составляет случай, когда создаётся *Выполнение узла* по производному компоненту, у которого запрещено создание производных узлов. В этом случае узел получает такую же метку, как и компонент.
+The exception is the case when *Node execution* is created by the derived component for which it is forbidden to create derived nodes. In this case, the node gets the same caption as the component.
 
-При настройке узла *Выполнение узла* всегда создается производный компонент по базовому узлу. То есть *Выполнение узла* может ссылаться только на компонент. Создаваемые таким образом производные компоненты по умолчанию имеют [область видимости](../../workflow/access-modifier.md) *Закрытый*, а настройка *Производные узлы* отключена.
+When configuring the *Node execution* node, the derived component is always created by the base node. Namely, *Node execution* can refer only to the component. By default, created in such a way derived components have [visibility area](../../workflow/access-modifier.md) *Private*, and *Derived nodes* setting is disabled.
 
 ## Ports
 
@@ -26,16 +26,16 @@ When creating, the node does not have [ports](./../../workflow/ports/README.md).
 
 The radio button enables to select the workflow node that is planned to be repeatedly used for processing of the new data. The nodes *available* for selection are dispalyed in the form of a tree.
 
-Дерево узлов имеет две корневые ветки:
+Node tree has two root branches:
 
-* **Узлы текущего модуля** — содержит перечень узлов модуля, в котором в данный момент настраивается *Выполнение узла*;
-* **Компоненты** — содержит текущий пакет и перечень внешних пакетов, на которые настроены ссылки и их производные компоненты с областью видимости *Открытый*.
+* **Current module nodes** contains a list of module nodes in which *Node execution* is configured at the moment.
+* **Components** contains the current package and list of external packages to which references and their derived components with  *Public* visibility area are configured.
 
 > **Important**: The nodes from the external packages, other workflows and supernodes will be displayed in the tree only on condition of access granted to them by their [access modifier](./../../workflow/access-modifier.md).
 
 The wizard interface enables to search for the nodes in the tree by means of filters, namely, by name and node comment.
 
-**Сохранять конфигурацию выбранного узла** — параметр отвечает за сохранение собственной конфигурации внутреннего компонента, в случае если она отличается от исходной. По умолчанию не установлен.
+**Save configuration of the selected node**: the parameter saves own configuration of the internal component if it differs from the source one. It is not set by default.
 
 The *Node execution* component cannot repeatedly use the [Loop](./loop.md) and [Reference node](./reference-node.md) components.
 
