@@ -10,7 +10,7 @@ description: Компонент Нейросеть (регрессия) в Login
 * в полях, обозначенных как *входные* — множество входных параметров;
 * в поле, обозначенном как *выходное* — соответствующее входным параметрам значение [зависимой переменной](https://wiki.loginom.ru/articles/output-variable.html).
 
-Технически обучение заключается в нахождении *весов* — коэффициентов связей между нейронами. In the process of training, the neural network enables to detect complex dependences between input and output parameters, and also to perform generalization. It means that on condition of the successful training, the *Neural Network* can return the correct result based on the data that was absent in the training sample, and also incomplete and/or "noisy", partially distorted data. The Quasi-Newton [Broyden — Fletcher — Goldfarb — Shanno method](https://ru.wikipedia.org/wiki/Алгоритм_Бройдена_—_Флетчера_—_Гольдфарба_—_Шанно) is used for training with limited use of L-BFGS memory.
+Technically, the training consists in determination of *weights* — coefficients of links between neurons. In the process of training, the neural network enables to detect complex dependences between input and output parameters, and also to perform generalization. It means that on condition of the successful training, the *Neural Network* can return the correct result based on the data that was absent in the training sample, and also incomplete and/or "noisy", partially distorted data. The Quasi-Newton [Broyden — Fletcher — Goldfarb — Shanno method](https://ru.wikipedia.org/wiki/Алгоритм_Бройдена_—_Флетчера_—_Гольдфарба_—_Шанно) is used for training with limited use of L-BFGS memory.
 
 Only the fields with continuous [data kind](./../../data/datakind.md) can be the *output* ones in the regression task (as opposed to the [classification task](./../../processors/datamining/neural-network-classification.md)). Вид данных *входных* полей не регламентируется.
 
@@ -40,7 +40,7 @@ It is required to select one of the following usage types for each of the fields
 
 * ![ ](./../../images/icons/common/usage-types/active_default.svg) **Input**: the field contains the values of one of the input parameters.
 * ![ ](./../../images/icons/common/usage-types/predicted_default.svg) **Выходное** — поле содержит целевые значения. В качестве выходного должно быть задано только одно поле набора данных.
-* ![ ](./../../images/icons/common/usage-types/unspecified_default.svg) **Не задано** — поле не участвует в обработке. It is set for other fields by default.
+* ![ ](./../../images/icons/common/usage-types/unspecified_default.svg) **Not defined**: the field is not included into processing. It is set for other fields by default.
 
 ### Step 2. Configuration of Normalization
 
@@ -76,12 +76,12 @@ The following commands are available for the parameter:
 
 #### Neural Network Structure
 
-* **Количество скрытых слоев** — предоставляется выбор из списка:
+* **Number of hidden layers** is selected from the list:
    * No hidden layers.
    * One hidden layer (used by default).
    * Two hidden layers.
-* **Количество нейронов в первом скрытом слое** — целое число >= 1 (по умолчанию = 10).
-* **Количество нейронов во втором скрытом слое** — целое число >= 1 (по умолчанию = 10).
+* **Number of neurons in the first hidden layer** — integer >= 1 (by default = 10).
+* **Number of neurons in the second hidden layer**— integer >= 1 (by default = 10).
 
 #### Output Value Limit
 
@@ -96,8 +96,8 @@ It is also possible to set the upper and lower bounds of the activation function
 
 #### Training Parameters
 
-* **Количество рестартов** — число попыток обучения *Нейросети* (на одном и том же наборе), выполняемых из случайных начальных значений весов сети. Upon completion of all restarts, it is required to select the network that provides the least root-mean-square error of the training set. It must be integer>= 1 (by default = 10).
-* **Степень регуляризации** — степень зависимости весов сети друг от друга. The higher this dependence, the stronger impact exerts one input parameter on the other ones. The decay enables to decrease the effective number of the model degrees of freedom, thereby avoiding overfitting. The following options are available:
+* **Number of restarts**: number of attempts of the *Neural Network* training (using one and the same set) based on the random initial values of the neural network weights. Upon completion of all restarts, it is required to select the network that provides the least root-mean-square error of the training set. It must be integer>= 1 (by default = 10).
+* **Decay degree**: the degree of the network weights dependence from each other. The higher this dependence, the stronger impact exerts one input parameter on the other ones. The decay enables to decrease the effective number of the model degrees of freedom, thereby avoiding overfitting. The following options are available:
    * None (0).
    * Very weak (20).
    * Weak (40).

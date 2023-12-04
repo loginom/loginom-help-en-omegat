@@ -5,22 +5,22 @@ description: Компонент Нейросеть (классификация) 
 
 ## Description
 
-Компонент решает задачу [классификации](https://wiki.loginom.ru/articles/classification.html) — в выходном наборе [*Нейросеть*](https://wiki.loginom.ru/articles/neural-network.html) соотносит множество [входных параметров](https://wiki.loginom.ru/articles/input-variable.html) (предикторов) с одним из заранее известных [классов](https://wiki.loginom.ru/articles/class.html):
+The component handles the task of [classification](https://wiki.loginom.ru/articles/classification.html): in the [*Neural network*](https://wiki.loginom.ru/articles/neural-network.html) output data set it correlates a set of [input parameters](https://wiki.loginom.ru/articles/input-variable.html)  (independent variables) with one of the [classes](https://wiki.loginom.ru/articles/class.html) known in advance:
 
 **{** P(1), P(2), P(3) ... P(n) **}** => Class(i) where P(n) — input parameter, Class(i) — one of the classes known in advance.
 
-Перед тем, как производить классификацию, алгоритм обучается на тренировочном наборе данных — [обучающей выборке](https://wiki.loginom.ru/articles/training-set.html). Each row of such sample contains the following data:
+Before classification, it is required to train the algorithm using the training data set, namely, the [training sample](https://wiki.loginom.ru/articles/training-set.html). Each row of such sample contains the following data:
 
 * a set of input parameters in the fields marked as the *input* ones;
 * class identification mapping this set in the only *output* field.
 
-Таким образом, перечень классов задается обучающим набором данных в процессе обучения *Нейросети* и не может быть изменен/пересмотрен в процессе классификации.
+Thus, the list of classes is set by the training data set in the process of the *Neural network* training, and it cannot be changed/reconsidered in the classification process.
 
-Технически обучение заключается в нахождении *весов* — коэффициентов связей между нейронами. В процессе обучения нейронная сеть способна выявлять сложные зависимости между входными и [выходными параметрами](https://wiki.loginom.ru/articles/output-variable.html), а также выполнять обобщение. It means that on condition of the successful training, the network can return the correct result based on the data that was absent in the training sample, and also incomplete and/or "noisy", partially distorted data. Для обучения используется квазиньютоновский [метод Бройдена-Флетчера-Гольдфарба-Шанно](https://ru.wikipedia.org/wiki/Алгоритм_Бройдена_—_Флетчера_—_Гольдфарба_—_Шанно) с ограниченным использованием памяти *L-BFGS*.
+Technically, the training consists in determination of *weights* — coefficients of links between neurons. In the process of training, the neural network enables to detect complex dependences between input and [output parameters](https://wiki.loginom.ru/articles/output-variable.html), and also to perform generalization. It means that on condition of the successful training, the network can return the correct result based on the data that was absent in the training sample, and also incomplete and/or "noisy", partially distorted data. The Quasi-Newton [Broyden — Fletcher — Goldfarb — Shanno method](https://ru.wikipedia.org/wiki/Алгоритм_Бройдена_—_Флетчера_—_Гольдфарба_—_Шанно) is used for training with limited use of *L-BFGS* memory.
 
-В задаче классификации (в отличии от [задачи регрессии](./../../processors/datamining/neural-network-regression.md)) выходным может быть только поле с дискретным [видом данных](./../../data/datakind.md). Data kind of input fields is not regulated, they can be both continuous and discrete.
+In the classification task (as opposed to the [regression task](./../../processors/datamining/neural-network-regression.md)) only the field with discrete [data kind](./../../data/datakind.md) can be the output one. Data kind of input fields is not regulated, they can be both continuous and discrete.
 
-> **Примечание:** для каждого непрерывного параметра в структуре *Нейросети* будет создан один вход, в то время как для каждого дискретного – столько входов, сколько у данного параметра имеется различных уникальных значений.
+> **Note:** One input will be created for each continuous parameter in the *Neural Network* structure, whereas each discrete one will be provided with the inputs the number of which will comply with the number of different unique values of this parameter.
 
 ## Ports
 
@@ -34,26 +34,26 @@ The input data set fields that will be used as the *input* or *output* ones, mus
 
 ### Output
 
-* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) [Выход нейросети](./neural-network-classification/output-set.md) (таблица данных).
-* ![ ](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) [Сводка](./neural-network-classification/report.md) (переменные) — показатели качества модели.
+* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) [Neural network output](./neural-network-classification/output-set.md) (data table).
+* ![ ](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) [Summary](./neural-network-classification/report.md) (variables) — model quality indicators.
 
 ## Wizard
 
 ### Step 1. Configure input columns
 
-На первом этапе необходимо задать [назначение](./../../data/datasetfieldfeatures.md) полей входного набора данных:
+It is required to set the [usage type](./../../data/datasetfieldfeatures.md) of the input data set fields at the first stage:
 
 * ![ ](./../../images/icons/common/usage-types/active_default.svg) **Input**: the field contains the values of one of the input parameters.
 * ![ ](./../../images/icons/common/usage-types/predicted_default.svg) **Output**: the field contains the class values.
-* ![ ](./../../images/icons/common/usage-types/unspecified_default.svg) **Не задано** — поле не участвует в обработке. It is set for other fields by default.
+* ![ ](./../../images/icons/common/usage-types/unspecified_default.svg) **Not defined**: the field is not included into processing. It is set for other fields by default.
 
 ### Step 2. Configuration of Normalization
 
-На этом этапе входные данные приводятся к нормальному виду — преобразуются из натуральных значений в безразмерные для того, чтобы данные, имеющие большой разброс значений, не превалировали над данными с меньшим разбросом значений. Использование [нормализации](./../normalization/README.md) увеличивает качество и скорость обучения *Нейросети*.
+At this stage, the input data is set to the normal kind. It is transformed from the natural values to the non-dimensional ones to ensure that the data with wide scatter of values does not prevail over the data with less significant scatter of values. Usage of [normalization](./../normalization/README.md) increases the quality and speed of the *neural network* training.
 
 ### Step 3. Partitioning
 
-Страница *Разбиение на множества* позволяет разделить множество на обучающее и тестовое:
+The *Partitioning* page enables to divide a set into the training and test ones:
 
 * [Train](https://wiki.loginom.ru/articles/training-set.html): the structured data set used for training of [analytical models](https://wiki.loginom.ru/articles/taught-model.html). Each record of the training set is a training example with the set input effect and correct output (target) result that corresponds to it.
 * [Test](https://wiki.loginom.ru/articles/test-set.html): the training sample subset that contains test examples, namely, the examples used not to train the model but to check its results.
@@ -82,19 +82,19 @@ The following commands are available for the parameter:
 
 ### Step 4. Configure Neural Network Parameters
 
-#### Структура Нейросети
+#### Neural Network Structure
 
-* **Количество скрытых слоев** — предоставляется выбор из списка:
+* **Number of hidden layers** is selected from the list:
    * No hidden layers.
    * One hidden layer (used by default).
    * Two hidden layers.
-* **Количество нейронов в первом скрытом слое** — целое число >= 1 (по умолчанию = 10).
-* **Количество нейронов во втором скрытом слое** — целое число >= 1 (по умолчанию = 10).
+* **Number of neurons in the first hidden layer** — integer >= 1 (by default = 10).
+* **Number of neurons in the second hidden layer**— integer >= 1 (by default = 10).
 
 #### Training Parameters
 
-* **Количество рестартов** — число попыток обучения *Нейросети* (на одном и том же наборе), выполняемых из случайных начальных значений весов. Upon completion of all restarts, it is required to select the network that provides the least root-mean-square error of the training set. Целое число >= 1 (по умолчанию = 10).
-* **Степень регуляризации** — степень зависимости весов сети друг от друга. The higher this dependence, the stronger impact exerts one input parameter on the other ones. The decay enables to decrease the effective number of the model degrees of freedom, thereby avoiding overfitting. The following options are available:
+* **Number of restarts**: number of attempts of the *Neural Network* training (using one and the same set) based on the random initial values of weights. Upon completion of all restarts, it is required to select the network that provides the least root-mean-square error of the training set. Integer >= 1 (by default = 10).
+* **Decay degree**: the degree of the network weights dependence from each other. The higher this dependence, the stronger impact exerts one input parameter on the other ones. The decay enables to decrease the effective number of the model degrees of freedom, thereby avoiding overfitting. The following options are available:
    * None (0).
    * Very weak (20).
    * Weak (40). It is used by default.
