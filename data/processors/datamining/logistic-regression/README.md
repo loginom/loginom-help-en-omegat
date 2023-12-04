@@ -16,7 +16,7 @@ The logistic regression enables to estimate possibility of the event occurrence 
 ### Input
 
 * ![](./../../../images/icons/app/node/ports/inputs/table_inactive.svg) — Input data source (data table) — required port.
-* ![ ](./../../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) —  [Управляющие переменные](./../../../workflow/variables/control-variables.md) (переменные) — необязательный порт, переменными можно задать значения параметров мастера настройки.
+* ![](./../../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) —  [Control variables](./../../../workflow/variables/control-variables.md) (variables) — optional port. It is possible to set values of the wizard parameters as variables.
 
 ### Outputs
 * ![](./../../../images/icons/app/node/ports/inputs/table_inactive.svg) — Regression output.
@@ -58,24 +58,24 @@ The *Partitioning* page of the wizard enables to divide a set into the training 
 Available Parameters:
 
 * Size of training and test set in percentage terms or in rows. It can be set by means of variables.
-* Method of partition to training and test sets. Существует три метода разбиения:
+* Method of partition to training and test sets. There are three partition methods:
    * Random method provides partitioning of records set to training and test sets.
    * Sequence: groups of sets rows (training, unused, test) are selected in a sequential order, namely, only the records that are included into the first set are selected first, then it is required to select the records that are included into the second set, etc. It is posssible to change the order of sets (*Move up*, *Move down* buttons).
-   * По столбцу — разбиение на обучающее и тестовое множества задаётся при помощи параметра. Параметром выступает столбец с логическим типом данных, где значение &laquo;ИСТИНА&raquo; указывает на то, что запись относится к тестовому набору, а значение &laquo;ЛОЖЬ&raquo; — на то, что запись принадлежит обучающему набору (т.е. можно разбить множество на обучающее и тестовое в узле [Разбиение на множества](../../preprocessing/partitioning.md) и подать данные из порта *Общий выходной набор* на вход узла *Логистическая регрессия*, выбрав в качестве параметра разбиения по столбцу колонку "Тестовое множество"). При выборе данного метода таблица выбора соотношения обучающего и тестового множеств становится неактивной.
+   * By column: partitioning to training and test sets is set using the parameter. Parameter is a column with the logical data type where &laquo;TRUE&raquo; value indicates that the record relates to the test set, and &laquo;FALSE&raquo; value indicates that the record relates to the training set (namely, it is possible to partition the set to training and test sets in the [Partitioning](../../preprocessing/partitioning.md) node, and submit data from *Common output data set* port to the input of the *Logistic regression* node having selected the "Test set" column as partitioning by column parameter). When selecting this method, the training and test set correlation selection table becomes inactive.
 * [Validation](./../../validation.md) method that can take the following values:
    * No validation.
    * [K-fold cross validation](https://wiki.loginom.ru/articles/cross-validation.html) enables to select the *Method of [sampling](https://wiki.loginom.ru/articles/sampling.html)* and number of *Cross validation fold*.
    * [Monte Carlo](https://wiki.loginom.ru/articles/monte-carlo-technique.html?q=) enables to select *Resampling iteration count* and set the size of training and [validation set](https://wiki.loginom.ru/articles/validation-set.html).
 
-**Random seed** — начальное число (целое, положительное), которое используется для инициализации генератора псевдослучайных чисел. Последовательность чисел генератора полностью определяется начальным числом. Если генератор повторно инициализируется с тем же начальным числом, он выдаст ту же последовательность чисел.
+**Random seed** is a starting seed (integer, positive ) that is used for initialization of pseudo-random number generator. Sequence of generator numbers is fully determined by the starting seed. If the generator is repeatedly initialized with the same starting seed, it will provide the same sequence of numbers.
 
-Параметр влияет на порядок случайного разбиения на тестовое и обучающее множество и на воспроизводимость результата обучения. Можно повторить результат обучения узла, если подать те же данные и выставить тот же random seed.
+The parameter affects the order of random partitioning to the test and training sets and training result reproducibility. It is possible to reproduce the node training result if the same data is provided and the same random seed is set.
 
-Для параметра доступны следующие команды:
+The following commands are available for the parameter:
 
-* Всегда случайно — начальное число всегда будет случайным.
-* Генерировать — сгенерируется новое начальное число.
-* Копировать — в буфер обмена будет скопировано указанное значение.
+* Always randomly: the starting seed will always be random.
+* Generate: the new starting seed will be generated.
+* Copy: the specified value will be copied to the clipboard.
 
 ### Logistic Regression Configuring
 
@@ -102,9 +102,9 @@ A set of parameters to configure the logistic regression can be grouped in the f
 | :------------ | :------------: | :------------: |
 | Максимальная точность | Эластичная сеть (Elastic-net) | 10<sup><small>-7</small></sup> |
 | Повышенная точность | Эластичная сеть (Elastic-net) | 10<sup><small>-6</small></sup> |
-| Средняя скорость | Гребневая регрессия (Ridge) | 10<sup><small>-5</small></sup> |
-| Повышенная скорость | Гребневая регрессия (Ridge) | 10<sup><small>-4</small></sup> |
-| Максимальная скорость | Гребневая регрессия (Ridge) | 10<sup><small>-3<small></sup> |
+| Средняя скорость | Ridge | 10<sup><small>-5</small></sup> |
+| Повышенная скорость | Ridge | 10<sup><small>-4</small></sup> |
+| Максимальная скорость | Ridge | 10<sup><small>-3<small></sup> |
 
 Чем меньше значение критерия остановки градиентного спуска &epsilon; (f(x<sub>k+1</sub>) — f(x<sub>k</sub>) &le; &epsilon;), тем точнее рассчитываются коэффициенты для регрессионной модели.
 
@@ -131,9 +131,9 @@ It is used if *Auto setup* checkbox is not selected, or it is set by means of va
    * **Forward**: this method is based on the following principle: it is required to start from absence of indicators and gradually find the "best" ones that will be added to the subset.
    * **Backward**: this method is based on the following principle: it is required to start from all available indicators and exclude the "worst" ones by means of successive iterations.
    * **Stepwise**: modification of the *Forward* method, however, at each step upon entering of the new variable into the model, other variables that have already been entered into it earlier are tested for significance.
-   * **Ridge** (Гребневая регрессия) — процедура регуляризации L2, предназначена для защиты от переобучения (снижения степени переобучения обучаемой модели), что обеспечивает более качественное прогнозирование. Подразумевает введение "штрафов" для уменьшения значений коэффициентов регрессии. Величина "штрафов" вычисляется как сумма квадратов коэффициентов переменных, умноженная на коэффициент регуляризации.
-   * **LASSO** (регрессия Лассо) — так же как и *Ridge*, применяется для регуляризации (защиты от переобучения) обучаемой модели. Подразумевает введение "штрафов" (вычисляется как сумма модулей коэффициентов переменных, умноженная на коэффициент регуляризации) для уменьшения значений коэффициентов регрессии. Регуляризация Lasso (L1) позволяет снизить размерность и упростить регрессионную модель за счёт зануления коэффициентов некоторых признаков.
-   * **Elastic-Net** (регрессия "Эластичная сеть") — модель регрессии с двумя регуляризаторами  *L1*, *L2*. *LASSO* *L1 = 0* and *Ridge* of *L2 = 0* regression are the models that represent special cases. Данный тип регуляризации учитывает эффективность обоих методов регуляризации и применяется в тех случаях, когда важно сохранить корреляционную связь переменных и не допустить зануление коэффициентов регрессионной модели (как в случае с LASSO).
+   * **Ridge** (Ridge): L2 regularization procedure that is designated for protection from overfitting (reduction of overfitting level of the trained model) that secures better prediction. It implies the introduction of "fines" to decrease the regression coefficient values. The "fine" size is calculated as the sum of squares of variables сoefficients multiplied by regularization сoefficient.
+   * **LASSO** (регрессия Лассо) — так же как и *Ridge*, применяется для регуляризации (защиты от переобучения) обучаемой модели. It implies the introduction of "fines" (it is calculated as the sum of squares of variables сoefficients multiplied by regularization сoefficient) to decrease the regression coefficient values. Регуляризация Lasso (L1) позволяет снизить размерность и упростить регрессионную модель за счёт зануления коэффициентов некоторых признаков.
+   * **Elastic-Net** ("Elastic Net" regression): regression model with two regularizers -  *L1*, *L2*. *LASSO* *L1 = 0* and *Ridge* of *L2 = 0* regression are the models that represent special cases. This type of regularization enables to take into account efficiency of both regularization methods, and it is applied in the cases when it is important to keep correlation relationship of variables and not to allow nulling of regression model coefficients (as with LASSO).
 * Accuracy/speed priority.
    * Integer type in the range from 0 to 4 inclusive:
       * Maximum accuracy.

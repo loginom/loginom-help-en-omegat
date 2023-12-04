@@ -61,24 +61,24 @@ The input data set fields that will be used as the *input* or *output* ones, mus
 Available Parameters:
 
 * Size of training and test set in percentage terms or in rows.
-* Method of partition to training and test sets. Существует три метода разбиения:
+* Method of partition to training and test sets. There are three partition methods:
    * Random method provides partitioning of records set to training and test sets.
    * Sequence: groups of sets rows (training, unused, test) are selected in a sequential order, namely, only the records that are included into the first set are selected first, then it is required to select the records that are included into the second set, etc. It is posssible to change the order of sets (*Move up*, *Move down* buttons).
-   * По столбцу — разбиение на обучающее и тестовое множества задаётся при помощи параметра. Параметром выступает столбец с логическим типом данных, где значение &laquo;ИСТИНА&raquo; указывает на то, что запись относится к тестовому набору, а значение &laquo;ЛОЖЬ&raquo; — на то, что запись принадлежит обучающему набору (т.е. можно разбить множество на обучающее и тестовое в узле [Разбиение на множества](../preprocessing/partitioning.md) и подать данные из порта *Общий выходной набор* на вход узла *Нейросеть (классификация)*, выбрав в качестве параметра разбиения по столбцу колонку "Тестовое множество"). При выборе данного метода таблица выбора соотношения обучающего и тестового множеств становится неактивной.
+   * By column: partitioning to training and test sets is set using the parameter. Parameter is a column with the logical data type where &laquo;TRUE&raquo; value indicates that the record relates to the test set, and &laquo;FALSE&raquo; value indicates that the record relates to the training set (namely, it is possible to partition the set to training and test sets in the [Partitioning](../preprocessing/partitioning.md) node, and submit data from *Common output data set* port to the input of the *Neural network (classification)* node having selected the "Test set" column as partitioning by column parameter). When selecting this method, the training and test set correlation selection table becomes inactive.
 * [Validation](./../validation.md) method that can take the following values:
    * No validation.
    * [K-fold cross validation](https://wiki.loginom.ru/articles/cross-validation.html) enables to select the *Method of [sampling](https://wiki.loginom.ru/articles/sampling.html)* and number of *Cross validation fold*.
    * [Monte Carlo](https://wiki.loginom.ru/articles/monte-carlo-technique.html?q=) enables to select *Resampling iteration count* and set the size of training and [validation set](https://wiki.loginom.ru/articles/validation-set.html).
 
-**Random seed** — начальное число (целое, положительное), которое используется для инициализации генератора псевдослучайных чисел. Последовательность чисел генератора полностью определяется начальным числом. Если генератор повторно инициализируется с тем же начальным числом, он выдаст ту же последовательность чисел.
+**Random seed** is a starting seed (integer, positive ) that is used for initialization of pseudo-random number generator. Sequence of generator numbers is fully determined by the starting seed. If the generator is repeatedly initialized with the same starting seed, it will provide the same sequence of numbers.
 
-Параметр влияет на порядок случайного разбиения на тестовое и обучающее множество и на воспроизводимость результата обучения. Можно повторить результат обучения узла, если подать те же данные и выставить тот же random seed.
+The parameter affects the order of random partitioning to the test and training sets and training result reproducibility. It is possible to reproduce the node training result if the same data is provided and the same random seed is set.
 
-Для параметра доступны следующие команды:
+The following commands are available for the parameter:
 
-* Всегда случайно — начальное число всегда будет случайным.
-* Генерировать — сгенерируется новое начальное число.
-* Копировать — в буфер обмена будет скопировано указанное значение.
+* Always randomly: the starting seed will always be random.
+* Generate: the new starting seed will be generated.
+* Copy: the specified value will be copied to the clipboard.
 
 ### Step 4. Configure Neural Network Parameters
 

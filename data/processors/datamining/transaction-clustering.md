@@ -9,7 +9,7 @@ Clustering is based on the [CLOPE algorithm](https://loginom.ru/blog/clope). Its
 
 The algorithm selects the number of clusters automatically. An analyst can have influence on the result by means of repulsion coefficient and determination of the maximum number of clusters or iterations.
 
-Для получения результирующих наборов требуется предварительное [обучение узла](./../../workflow/training-processors.md).
+To get resulting data sets, it is required to provide preliminary [node training](./../../workflow/training-processors.md).
 
 ## Ports
 

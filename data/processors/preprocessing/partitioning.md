@@ -40,12 +40,12 @@ Partitioning is used when according to the analysis task it is required to divid
    * *В начале набора* — в качестве тестовой выборки будут использованы строки из начала набора, взятые в том же порядке, что и в исходной таблице.
    * *End of set*: the set end rows taken in the same order as in the source table will be used as the test sample.
 
-* **Random seed** — начальное число (целое, положительное), которое используется для инициализации генератора псевдослучайных чисел. Последовательность чисел генератора полностью определяется начальным числом. Если генератор повторно инициализируется с тем же начальным числом, он выдаст ту же последовательность чисел.
+* **Random seed** is a starting seed (integer, positive ) that is used for initialization of pseudo-random number generator. Sequence of generator numbers is fully determined by the starting seed. If the generator is repeatedly initialized with the same starting seed, it will provide the same sequence of numbers.
 
-   Параметр влияет на порядок случайного разбиения на тестовое и обучающее множество. Можно повторить разбиение, если подать те же данные и выставить тот же random seed.
+   The parameter affects the order of random partitioning to the test and training sets. Можно повторить разбиение, если подать те же данные и выставить тот же random seed.
 
-   Для параметра доступны следующие команды:
+   The following commands are available for the parameter:
 
-   * Всегда случайно — начальное число всегда будет случайным.
-   * Генерировать — сгенерируется новое начальное число.
-   * Копировать — в буфер обмена будет скопировано указанное значение.
+   * Always randomly: the starting seed will always be random.
+   * Generate: the new starting seed will be generated.
+   * Copy: the specified value will be copied to the clipboard.

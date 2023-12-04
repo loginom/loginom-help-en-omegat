@@ -7,13 +7,13 @@ description: Компонент Кластеризация в Loginom. Реше�
 
 [Clustering](https://wiki.loginom.ru/articles/clustering.html) (segmentation) means grouping of objects (observations, events) based on the data describing properties of objects. Objects inside the cluster must be similar to each other and differ from the other ones not included into other clusters.
 
-Компонент производит кластеризацию объектов на основе алгоритмов [k-means и g-means](https://wiki.loginom.ru/articles/k-means.html). The main difference of one algorithm from the other one lies in the fact whether the number of clusters is known in advance or not. If the number of clusters is known, *k-means* algorithm is used, otherwise, *g-means* algorithm is used. It enables to define this number automatically within the set interval.
+The component performs clustering of objects on the basis of [k-means and g-means](https://wiki.loginom.ru/articles/k-means.html) algorithms. The main difference of one algorithm from the other one lies in the fact whether the number of clusters is known in advance or not. If the number of clusters is known, *k-means* algorithm is used, otherwise, *g-means* algorithm is used. It enables to define this number automatically within the set interval.
 
 ![Figure Describing k-means Algorithm Operation](./clustering.svg)
 
 Separate clusters and objects that relate to them are highlighted by color.
 
-Для получения результирующих наборов требуется предварительное [обучение узла](./../../workflow/training-processors.md).
+To get resulting data sets, it is required to provide preliminary [node training](./../../workflow/training-processors.md).
 
 ## Ports
 
@@ -70,12 +70,12 @@ The wizard includes the following groups of parameters:
    * The maximum number of clusters. By default — 10.
    * Cluster splitting significance threshold (in the interval from 0.1 to 5). The higher splitting significance threshold, the more clusters will be generated while clustering.
 
-**Random seed** — начальное число (целое, положительное), которое используется для инициализации генератора псевдослучайных чисел. Последовательность чисел генератора полностью определяется начальным числом. Если генератор повторно инициализируется с тем же начальным числом, он выдаст ту же последовательность чисел.
+**Random seed** is a starting seed (integer, positive ) that is used for initialization of pseudo-random number generator. Sequence of generator numbers is fully determined by the starting seed. If the generator is repeatedly initialized with the same starting seed, it will provide the same sequence of numbers.
 
-Параметр влияет на воспроизводимость результата обучения. Можно повторить результат обучения узла, если подать те же данные и выставить тот же random seed.
+The parameter has an impact on the training result reproducibility. It is possible to reproduce the node training result if the same data is provided and the same random seed is set.
 
-Для параметра доступны следующие команды:
+The following commands are available for the parameter:
 
-* Всегда случайно — начальное число всегда будет случайным.
-* Генерировать — сгенерируется новое начальное число.
-* Копировать — в буфер обмена будет скопировано указанное значение.
+* Always randomly: the starting seed will always be random.
+* Generate: the new starting seed will be generated.
+* Copy: the specified value will be copied to the clipboard.

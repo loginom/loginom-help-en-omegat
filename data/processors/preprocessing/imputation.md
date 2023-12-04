@@ -28,15 +28,15 @@ Adjustment of columns mapping is performed in the [table](./../../workflow/ports
 
 * **Source data ordered**: it is required to select this checkbox when it is known that the data is ordered. For example, time or other series the values of which are ordered in ascending or descending order (for example, by date or time). Diffferent imputation methods can be used for ordered and unordered data.
 * **Allowable percentage of nulls**: it takes the value expressed in percentage terms and sets the threshold after which no imputation occurs. For example, if 50 value is set for this parameter, the fileds that contain more than 50% of null data will not be filled in.
-* **Random seed** — начальное число (целое, положительное), которое используется для инициализации генератора псевдослучайных чисел. Последовательность чисел генератора полностью определяется начальным числом. Если генератор повторно инициализируется с тем же начальным числом, он выдаст ту же последовательность чисел.
+* **Random seed** is a starting seed (integer, positive ) that is used for initialization of pseudo-random number generator. Sequence of generator numbers is fully determined by the starting seed. If the generator is repeatedly initialized with the same starting seed, it will provide the same sequence of numbers.
 
    Параметр влияет на порядок замены случайными значениями. Можно повторить результат выполнения узла, если подать те же данные и выставить тот же random seed.
 
-   Для параметра доступны следующие команды:
+   The following commands are available for the parameter:
 
-   * Всегда случайно — начальное число всегда будет случайным.
-   * Генерировать — сгенерируется новое начальное число.
-   * Копировать — в буфер обмена будет скопировано указанное значение.
+   * Always randomly: the starting seed will always be random.
+   * Generate: the new starting seed will be generated.
+   * Copy: the specified value will be copied to the clipboard.
 
 * **Область настройки методов обработки пропусков** — содержит список полей доступных для обработки, с указанием вида данных. It is possible to select the checkbox that enables to define the processing necessity for each field. Then, it is possible to set the imputation method.
 

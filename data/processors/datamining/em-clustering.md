@@ -5,7 +5,7 @@ description: Компонент EM Кластеризация в Loginom. Реш
 
 ## Description
 
-В основе EM кластеризации лежит масштабируемый [алгоритм EM](https://loginom.ru/blog/em), который опирается на предположение, что исследуемое множество данных может быть смоделировано с помощью линейной комбинации многомерных [нормальных распределений](https://wiki.loginom.ru/articles/normal-distribution.html). Целью при этом является оценка параметров распределения, которые максимизируют логарифмическую [функцию правдоподобия](https://wiki.loginom.ru/articles/plausibility-function.html), используемую в качестве меры качества модели. In other words, it is assumed that the data in each cluster is subject to the particular distribution law, namely, probability distribution.
+EM clustering is based on the scalable [EM algorithm](https://loginom.ru/blog/em) that is supported by assumption that the data set under study can be modelled by means of the linear combination of multidimensional [probability distributions](https://wiki.loginom.ru/articles/normal-distribution.html). The purpose is to assess distribution parameters that maximize logarithmic [likelihood function](https://wiki.loginom.ru/articles/plausibility-function.html) used as the model quality measure. In other words, it is assumed that the data in each cluster is subject to the particular distribution law, namely, probability distribution.
 
 Thus, any observation (object) belongs to all [clusters](https://wiki.loginom.ru/articles/cluster.html) but with different likelihood. The object must relate to the cluster for which this likelihood is higher.
 
@@ -46,7 +46,7 @@ Result is a table the number of records of which complies with the number of clu
 The wizard includes the following groups of parameters:
 
 * Configure input columns.
-* Настройка [нормализации](./../normalization).
+* Configuration of [normalization](./../normalization).
 * EM clustering.
 
 ### Configure input columns
@@ -67,12 +67,12 @@ The wizard includes the following groups of parameters:
    * Variables are independent. Consideration of dependence between variables. If the checkbox is active, there is no dependence.
    * Median modification. Selection of the checkbox means that moment scores of the maximum likelihood at the second M-step of the algorithm are replaced with more stable scores of the median type. It can increase the algorithm stability relative to the source data.
 
-* **Random seed** — начальное число (целое, положительное), которое используется для инициализации генератора псевдослучайных чисел. Последовательность чисел генератора полностью определяется начальным числом. Если генератор повторно инициализируется с тем же начальным числом, он выдаст ту же последовательность чисел.
+* **Random seed** is a starting seed (integer, positive ) that is used for initialization of pseudo-random number generator. Sequence of generator numbers is fully determined by the starting seed. If the generator is repeatedly initialized with the same starting seed, it will provide the same sequence of numbers.
 
-   Параметр влияет на воспроизводимость результата обучения. Можно повторить результат обучения узла, если подать те же данные и выставить тот же random seed.
+   The parameter has an impact on the training result reproducibility. It is possible to reproduce the node training result if the same data is provided and the same random seed is set.
 
-   Для параметра доступны следующие команды:
+   The following commands are available for the parameter:
 
-   * Всегда случайно — начальное число всегда будет случайным.
-   * Генерировать — сгенерируется новое начальное число.
-   * Копировать — в буфер обмена будет скопировано указанное значение.
+   * Always randomly: the starting seed will always be random.
+   * Generate: the new starting seed will be generated.
+   * Copy: the specified value will be copied to the clipboard.

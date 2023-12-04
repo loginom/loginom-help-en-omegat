@@ -32,12 +32,12 @@ description: Компонент Сэмплинг в Loginom. Метод сэмп
    * *Sequence*: the sample selection source will be specified in the method parameters. It will be defined whether it was taken from the source table beginning or end. Sequence of the sample rows will be the same as in the source table.
    * *Отбор со смещением* —  при настройке параметров метода следует выбрать поле и уникальное значение из этого поля, для которого устанавливается фактор. The factor with N value will increase the row count with the relevant unique value by N times in the output data set. N can take any positive values. It is required to take into account that the maximum count of unique values in the field must not exceed ten thousand.
 
-* **Random seed** — начальное число (целое, положительное), которое используется для инициализации генератора псевдослучайных чисел. Последовательность чисел генератора полностью определяется начальным числом. Если генератор повторно инициализируется с тем же начальным числом, он выдаст ту же последовательность чисел.
+* **Random seed** is a starting seed (integer, positive ) that is used for initialization of pseudo-random number generator. Sequence of generator numbers is fully determined by the starting seed. If the generator is repeatedly initialized with the same starting seed, it will provide the same sequence of numbers.
 
    Параметр влияет на методы сэмплинга *Случайный* и *Равномерный случайный*. Повторить результат сэмплинга можно, если подать те же данные и указать тот же random seed.
 
-   Для параметра доступны следующие команды:
+   The following commands are available for the parameter:
 
    * Всегда случайно — начальное число всегда будет случайным.
-   * Генерировать — сгенерируется новое начальное число.
+   * Generate: the new starting seed will be generated.
    * Копировать — в буфер обмена будет скопировано указанное значение.
