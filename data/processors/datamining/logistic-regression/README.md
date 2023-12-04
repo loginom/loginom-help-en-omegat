@@ -94,10 +94,10 @@ A set of parameters to configure the logistic regression can be grouped in the f
       * Increased speed.
       * Maximum speed.
 
-   При использовании автоматической настройки коэффициенты регуляризации определяются автоматически. Критерием для отбора является логарифм функции правдоподобия. При построении модели алгоритм подбирает такие коэффициенты регуляризации, которые обеспечивают наибольшее значение критерия для отбора.
-   В зависимости от установленного приоритета применяются определенные параметры. Their values are provided in the table below.
+   When auto setup is used, regularization сoefficients are automatically defined. Log likelihood function is a selection criterion. When training the model, the algorithm selects such regularization сoefficients that provide the highest value of selection criterion.
+   Particular parameters are applied according to the set priority. Their values are provided in the table below.
 
-| **Priority** | **Regularizer** | **Критерий остановки градиентного спуска &epsilon;** |
+| **Priority** | **Regularizer** | **Stopping criterion for gradient descent &epsilon;** |
 | :------------ | :------------: | :------------: |
 | Maximum accuracy | Elastic-net | 10<sup><small>-7</small></sup> |
 | Increased accuracy | Elastic-net | 10<sup><small>-6</small></sup> |
@@ -105,7 +105,7 @@ A set of parameters to configure the logistic regression can be grouped in the f
 | Increased speed | Ridge | 10<sup><small>-4</small></sup> |
 | Maximum speed | Ridge | 10<sup><small>-3<small></sup> |
 
-Чем меньше значение критерия остановки градиентного спуска &epsilon; (f(x<sub>k+1</sub>) — f(x<sub>k</sub>) &le; &epsilon;), тем точнее рассчитываются коэффициенты для регрессионной модели.
+The lower the value of stopping criterion for gradient descent &epsilon; (f(x<sub>k+1</sub>) — f(x<sub>k</sub>) &le; &epsilon;), the more accurate coefficicents for regression model are calculated.
 
 * **Denormalize model coefficients**: denormalization is required for interpretation of results. As the model can work only with the normalized data, first, it is required to normalize data that has been sent to the model for its usage, and then denormalization must be performed to make data return the same kind it has had before normalization. It is a boolean value, enabled by default.
 
@@ -171,20 +171,20 @@ The following options are available for different methods:
 
 > **Note:** All available parameters of the logistic regression configuration can be set by means of variables.
 
-### Поправка на долю событий
+### Correction for Event Rate
 
-Данная опция используется в качестве способа введения поправки на априорную (заранее известную) вероятность. Поправка осуществляется корректировкой константы финальной модели.
+This option is used as a method of prior (known beforehand) probability correction introduction. The correction is implemented by adjustment of the final model intercept.
 
-Введение поправки на априорную вероятность влияет на результаты отчётов:
-* в отчёте по логистической регрессии будет изменена константа финальной модели узла;
-* в визуализаторе «Качество бинарной классификации» изменится количество верно классифицированных событий и не-событий, а также показатели качества классификации в таблицах.
+Introduction of prior probability correction affects the report results:
+* the final model intercept will be changed in the logistic regression report;
+* the number of correctly classified events and non-events and also parameters of classification quality in tables will be changed in the "Binary classification assessment" visualizer.
 
-Поправка на долю событий может осуществляться:
-* на основе обучающего множества (используется по умолчанию);
-* на основе тестового множества;
-* вручную.
+Correction for event rate can be implemented as follows:
+* based on the training set (used by default);
+* based on the test set;
+* manually.
 
-Если на момент построения модели априорная вероятность точно не определена, лучше использовать опцию по умолчанию.
+If the prior probability is not precisely defined at the moment of model training, it's better to use the default option.
 
 ### Detailed Settings
 
