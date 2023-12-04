@@ -4,4 +4,4 @@ description: Раздел Data Mining. Оглавление.
 
 # Data Mining
 
-Компоненты, выделенные в эту группу, являются инструментами для реализации различных методов Data Mining: кластеризация, ассоциативные правила и другие.
+The components related to this group represent the tools for implementation of different Data Mining methods: clustering, association rules, etc.

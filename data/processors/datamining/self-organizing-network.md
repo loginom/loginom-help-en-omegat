@@ -57,7 +57,7 @@ The wizard includes the following groups of parameters:
 * Self-organizing network.
    * Type of self-organizing network:
       * Kohonen network.
-      * Neural gas. При выборе данной опции блок *Параметры сети* становится неактивным.
+      * Neural gas. When selecting this option, *Network Parameters* pack becomes inactive.
    * Network Parameters:
       * Network topology: 1D, 2D rectangular, 2D hexagonal, 3D.
       * Network size X. The parameter is available for editing with any network topology. The integer value is set in the interval from 2 to 100. By default — 3.
@@ -66,7 +66,7 @@ The wizard includes the following groups of parameters:
 
 * **Random seed** is a starting seed (integer, positive ) that is used for initialization of pseudo-random number generator. Sequence of generator numbers is fully determined by the starting seed. If the generator is repeatedly initialized with the same starting seed, it will provide the same sequence of numbers.
 
-   Параметр влияет на воспроизводимость результата обучения. It is possible to reproduce the node training result if the same data is provided and the same random seed is set.
+   The parameter has an impact on the training result reproducibility. It is possible to reproduce the node training result if the same data is provided and the same random seed is set.
 
    The following commands are available for the parameter:
 

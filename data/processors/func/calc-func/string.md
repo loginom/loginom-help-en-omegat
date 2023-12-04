@@ -173,7 +173,7 @@ PCRE2 library is used. Syntax and semantics are compatible with the Perl regular
 
 * RegularExpression - the regular expressions string.
 * InputString - the input string that will be replaced.
-* СтрокаЗамены - строка, которая будет вставлена вместо части входной строки, соответствующей регулярному выражению;
+* ReplaceString - the string that will be inserted instead of the input string part matching the regular expression.
 * PartNumber - the part index matching the regular expression, input string. Parameter must be included into the range from 1 to RegExMatchCount.
 * ExtendedSyntax - extended replacement syntax (only for PCRE2).
 

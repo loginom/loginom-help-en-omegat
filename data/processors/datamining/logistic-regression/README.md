@@ -29,11 +29,11 @@ The logistic regression enables to estimate possibility of the event occurrence 
 * ![](./../../../images/icons/app/node/ports/inputs/table_inactive.svg) —  [Regression model coefficients](./coef-regression.md) (data table).
 * ![](./../../../images/icons/app/node/ports/outputs/variable_inactive.svg) —  [Summary](./report.md) (variables).
 
-## Взвешивание записей
+## Record Weighing
 Для логистической регрессии предусмотрена возможность задать весовые коэффициенты для каждой записи (строки) обучающих данных.<br>
-Весовой вектор (столбец из входной таблицы для узла "Логистическая регрессия", используемый для определения «весов») выбирается на этапе «Настройка входных столбцов». Для этого выбирается свойство «Назначение» &#8212; «Вес».<br>
+Весовой вектор (столбец из входной таблицы для узла "Логистическая регрессия", используемый для определения «весов») выбирается на этапе «Настройка входных столбцов». "Usage type" &#8212; "Weight"<br> property is selected for this purpose.
 
-![Взвешивание записей](./weight.png)
+![Record Weighing](./weight.png)
 
 «Веса» должны быть вещественным положительным числом с типом данных «Непрерывный».<br>
 Записи с нулевыми «весами» и пустыми значениями не участвуют при построении модели.<br>
@@ -96,15 +96,15 @@ A set of parameters to configure the logistic regression can be grouped in the f
       * Maximum speed.
 
    При использовании автоматической настройки коэффициенты регуляризации определяются автоматически. Критерием для отбора является логарифм функции правдоподобия. При построении модели алгоритм подбирает такие коэффициенты регуляризации, которые обеспечивают наибольшее значение критерия для отбора.
-   В зависимости от установленного приоритета применяются определенные параметры. Их значения приведены в таблице ниже.
+   В зависимости от установленного приоритета применяются определенные параметры. Their values are provided in the table below.
 
-| **Приоритет** | **Регуляризатор** | **Критерий остановки градиентного спуска &epsilon;** |
+| **Priority** | **Regularizer** | **Критерий остановки градиентного спуска &epsilon;** |
 | :------------ | :------------: | :------------: |
-| Максимальная точность | Эластичная сеть (Elastic-net) | 10<sup><small>-7</small></sup> |
-| Повышенная точность | Эластичная сеть (Elastic-net) | 10<sup><small>-6</small></sup> |
-| Средняя скорость | Ridge | 10<sup><small>-5</small></sup> |
-| Повышенная скорость | Ridge | 10<sup><small>-4</small></sup> |
-| Максимальная скорость | Ridge | 10<sup><small>-3<small></sup> |
+| Maximum accuracy | Elastic-net | 10<sup><small>-7</small></sup> |
+| Increased accuracy | Elastic-net | 10<sup><small>-6</small></sup> |
+| Average speed | Ridge | 10<sup><small>-5</small></sup> |
+| Increased speed | Ridge | 10<sup><small>-4</small></sup> |
+| Maximum speed | Ridge | 10<sup><small>-3<small></sup> |
 
 Чем меньше значение критерия остановки градиентного спуска &epsilon; (f(x<sub>k+1</sub>) — f(x<sub>k</sub>) &le; &epsilon;), тем точнее рассчитываются коэффициенты для регрессионной модели.
 
@@ -132,7 +132,7 @@ It is used if *Auto setup* checkbox is not selected, or it is set by means of va
    * **Backward**: this method is based on the following principle: it is required to start from all available indicators and exclude the "worst" ones by means of successive iterations.
    * **Stepwise**: modification of the *Forward* method, however, at each step upon entering of the new variable into the model, other variables that have already been entered into it earlier are tested for significance.
    * **Ridge** (Ridge): L2 regularization procedure that is designated for protection from overfitting (reduction of overfitting level of the trained model) that secures better prediction. It implies the introduction of "fines" to decrease the regression coefficient values. The "fine" size is calculated as the sum of squares of variables сoefficients multiplied by regularization сoefficient.
-   * **LASSO** (LASSO regression): just like *Ridge* it is applied for regularization (protection from overfitting) of the trained model. It implies the introduction of "fines" (it is calculated as the sum of modules of variables сoefficients multiplied by regularization сoefficient) to decrease the regression coefficient values. Регуляризация Lasso (L1) позволяет снизить размерность и упростить регрессионную модель за счёт зануления коэффициентов некоторых признаков.
+   * **LASSO** (LASSO regression): just like *Ridge* it is applied for regularization (protection from overfitting) of the trained model. It implies the introduction of "fines" (it is calculated as the sum of modules of variables сoefficients multiplied by regularization сoefficient) to decrease the regression coefficient values. Lasso (L1) enables to decrease dimension and simplify regression model due to сoefficient nulling of some indicators.
    * **Elastic-Net** ("Elastic Net" regression): regression model with two regularizers -  *L1*, *L2*. *LASSO* *L1 = 0* and *Ridge* of *L2 = 0* regression are the models that represent special cases. This type of regularization enables to take into account efficiency of both regularization methods, and it is applied in the cases when it is important to keep correlation relationship of variables and not to allow nulling of regression model coefficients (as with LASSO).
 * Accuracy/speed priority.
    * Integer type in the range from 0 to 4 inclusive:

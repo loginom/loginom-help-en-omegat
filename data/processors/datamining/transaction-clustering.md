@@ -24,7 +24,8 @@ Input data means the transactions generated in 2 fields one of which is a transa
 
 The fields with the continuous data kind are not suitable for processing.
 
-Преобразовать к требуемому виду (с полями Транзакция и Элемент) обычный набор данных, состоящий из столбцов с измеренными свойствами объектов всегда можно при помощи узлов Loginom, таких как [Свёртка столбцов](./../transformation/collapse-columns.md) и [Калькулятор](./../transformation/calc/README.md)
+It is always possible to convert the standard data set that consists of columns with measured object properties to the required kind (with the "Transaction" and "Item" fields) using such Megaladata nodes as [Unpivoting](./../transformation/collapse-columns.md) and [Calculator](./../transformation/calc/README.md).
+
 
 ### Output
 
