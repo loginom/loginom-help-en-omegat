@@ -71,7 +71,7 @@ It is required to set the [usage type](./../../data/datasetfieldfeatures.md) of 
 #### ARIMAX Model Structure
 
 * **Auto detect structure**: when this checkbox is selected, automatic selection of the model parameters is enabled. The parameters are selected in the calculation process to minimize the *AIC* value.
-* **AR part order** sets the order of (р) autoregressive part. It sets the number of the previous series values that are considered when constructing the model. The integer value more than 0 is set.
+* **AR part order** sets the order of (р) autoregressive part. It sets the number of the previous series values that are considered when training the model. The integer value more than 0 is set.
 * **Integration order** sets the order of (d) series differences if it is required to set the source series to the [stationary](https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D1%80%D0%BD%D0%BE%D1%81%D1%82%D1%8C) one. The integer value more than 0 is set.
 * **MA part order** sets the order of (q) part of moving average. It defines the lag size for the source series smoothing. The integer value more than 0 is set.
 * **Enable seasonality calculation**: selection of this checkbox enables to set parameters for the [seasonal component](https://wiki.loginom.ru/articles/seasonal-component.html):

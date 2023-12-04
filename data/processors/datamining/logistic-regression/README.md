@@ -30,14 +30,13 @@ The logistic regression enables to estimate possibility of the event occurrence 
 * ![](./../../../images/icons/app/node/ports/outputs/variable_inactive.svg) —  [Summary](./report.md) (variables).
 
 ## Record Weighing
-Для логистической регрессии предусмотрена возможность задать весовые коэффициенты для каждой записи (строки) обучающих данных.<br>
-Весовой вектор (столбец из входной таблицы для узла "Логистическая регрессия", используемый для определения «весов») выбирается на этапе «Настройка входных столбцов». "Usage type" &#8212; "Weight"<br> property is selected for this purpose.
+It is possible to set weighted coefficients for each record (string) of training data for the logistic regression.<br> Weight vector (the column from the input table for the "Logistic regression" node used for "weight" determination) is selected at "Configure input column" stage. "Usage type" &#8212; "Weight"<br> property is selected for this purpose.
 
 ![Record Weighing](./weight.png)
 
-«Веса» должны быть вещественным положительным числом с типом данных «Непрерывный».<br>
-Записи с нулевыми «весами» и пустыми значениями не участвуют при построении модели.<br>
-Если при построении логистической регрессии не назначить «Вес», весовые коэффициенты принимаются равными 1 для каждой записи.
+"Weights" must be the real positive number with the "Continuous" data type.<br>
+Records with the null "weights" and null values do not take part in the model training process.<br>
+If "Weight" is not set when constructing the logistic regression, the weight coefficients are taken equal to 1 for each record.
 
 ## Node Wizard
 
