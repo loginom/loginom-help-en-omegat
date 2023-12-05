@@ -104,14 +104,14 @@ It is also possible to set the upper and lower bounds of the activation function
    * Mean (60).
    * Strong (80).
    * Very strong (100).
-* **Продолжить обучение** — установление данного флага позволяет начать переобучение модели не со случайных значений весов *Нейросети*, а с полученных при последнем обучении. При этом параметр *Количество рестартов* игнорируется.
+* **Continue training**:  selection of this checkbox enables to start the model overfitting not from the random values of the * Neural Network* weights, but from the ones obtained during the last training. In this case, the *Number of restarts* parameter is ignored.
 
 #### Stop Criteria
 
-The network is trained in the iterative manner. The whole training data set is read for each iteration, and the *Neural Network* weights are changed. Этот процесс продолжается до тех пор, пока относительные изменения весов не станут меньше заданного порога или количество итераций не превысит заданной величины.
+The network is trained in the iterative manner. The whole training data set is read for each iteration, and the *Neural Network* weights are changed. This process continues until the relative weights changes are less than the set threshold, or iteration count exceeds the set value.
 
-* **Порог минимального изменения весов** — если на очередном шаге обучения относительное изменение нормы вектора весов становится меньше порога, то обучение останавливается. By default = 0.01.
-* **Максимальное количество эпох** — максимальное количество итераций обучения алгоритма. This parameter is disabled by default. If it is required to limit the training process in time, in this case, it will be stopped upon the set number of epochs even if the training has not reached the optimal point, namely, the minimum weight change threshold has not been reached yet.
+* **Minimum weight change threshold**: if the relative change of the weights vector norm is less than the threshold at another training step, the training stops. By default = 0.01.
+* **Maximum number of epochs** means the maximum count of the algorithm training iterations. This parameter is disabled by default. If it is required to limit the training process in time, in this case, it will be stopped upon the set number of epochs even if the training has not reached the optimal point, namely, the minimum weight change threshold has not been reached yet.
 
 ### Шаг 5. Configure Auto Selection of Neural Network Parameters
 
@@ -119,16 +119,16 @@ The network is trained in the iterative manner. The whole training data set is r
 
 * Number of hidden layers (0, 1 or 2).
 * Number of neurons in each hidden layer.
-* **Степень регуляризации** — параметр, регулирующий жесткость модели.
+* **Decay degree** enables to adjust the model stiffness.
 
 #### Common Parameters
 
-* **Подобрать структуру** — автоматический подбор структуры *Нейросети*:
-   * **Начать с указанной структуры** — использование в качестве начальных параметров значений, заданных на странице настройки параметров *Нейросети*.
-* **Подобрать степень регуляризации** — автоматический подбор степени регуляризации *Нейросети*:
-   * **Начать с указанной степени регуляризации** — использование в качестве начальной *Степени регуляризации* значения, заданного на странице настройки параметров *Нейросети*.
+* **Structure autofit** provides the auto selection of the * Neural Тetwork* structure:
+   * **Start with the specified structure**: usage of the values set on the page of the *Neural Network* parameters configuration as the initial parameters.
+* **Decay degree autofit** provides the auto selection of the *Neural Network* decay degree:
+   * **Start with the specified decay degree**: usage of the value as the initial *Decay degree* that is set on the page of the *Neural Network* parameters configuration.
 
-> **Примечание:** если необходимо осуществлять подбор параметров для больших входных объемов или сложных моделей, можно включить только подбор структуры, либо только подбор степени регуляризации, сократив время на обучение.
+> **Note:** If it is required to select parameters for the large input volumes or complex models, it is possible to enable only the structure selection, or only decay degree reducing the time spent on training.
 
 #### Sampling Parameters
 
@@ -140,12 +140,12 @@ To speed up the autofit process, it is required to set the subsample in which it
 
 #### Auto Stop Criteria
 
-The auto selection process is stopped by default if it is not possible to find better parameters as compared with the detected ones. Для ограничения времени работы предусмотрена возможность ограничить, в том числе одновременно количество шагов автоподбора и время автоподбора:
+The auto selection process is stopped by default if it is not possible to find better parameters as compared with the detected ones. To limit the operation time, at the same time it is possible to limit also the number of autofit stages and autofit time:
 
 * **Autofit stages not more**: the maximum number of the algorithm steps (0 — restrictions are disabled).
 * **Autofit time not more (s)**: the maximum algorithm operation time (0 — restriction is disabled).
 
-> **Примечание:** при работе следует учитывать, что фактически оба ограничения могут быть незначительно превышены при использовании подвыборки для автоподбора, так как последним этапом, который не учитывается ограничениями, будет осуществлено обучение лучшей *Нейросети* на полном наборе.
+> **Note:** In the course of the work it is required to take into account that practically both restrictions can be insignificantly exceeded when using subsample for autofit, as the best full set *Neural Network* will be trained at the last unrestricted stage.
 
 #### Optimization Strategy
 
@@ -154,14 +154,14 @@ The root-mean-square error of the training set is a target function for the opti
 The following optimization strategy is used:
 
 * If it is required to select only the decay degree for the set structure:
-   * Если начальная точка не задана, то степень регуляризации подбирается методом *золотого сечения*, в противном случае — методом *схождения к вершине*.
-* Если необходимо подобрать только структуру, не изменяя степень регуляризации:
-   * Если не задана начальная структура, то она подбирается в два этапа: сначала происходит выбор количества скрытых слоев (0, 1 или 2), затем, если результат предыдущего этапа не 0, грубо подбирается размер скрытых слоев методом *золотого сечения*, причем для 2 скрытых слоев количество нейронов на данном этапе делается одинаковым;
-   * Структура подбирается сразу по всем трем параметрам (число слоев, число нейронов) методом *схождения к вершине* из заданной, либо подобранной начальной точки.
+   * If the starting point is not set, the decay degree is selected using the *golden section search* method, otherwise, the *hill climbing* method is used.
+* If it is required to select only the structure without changing the decay degree:
+   * If the initial structure is not set, it is selected in two stages. First, the number of hidden layers is selected (0, 1 or 2), then, the size of hidden layers is approximately selected using the *golden section search* method if the previous stage result is not equal to 0. In this case, the number of neurons for 2 hidden layers becomes the same at this stage.
+   * The structure is selected for all three parameters at once (number of layers, number of neurons) using the *hill climbing* method from the set or selected starting point.
 * If autofit of structure and decay is required:
-   * The structure is selected as in the previous clause. При этом, если начальное значение регуляризации задано, то используется оно, в противном случае — регуляризация отключена.
-   * Если начальное значение регуляризации не было задано, оно подбирается методом *золотого сечения*.
-   * Финальный этап автоподбора производится методом *схождения к вершине* по всем четырем параметрам.
+   * The structure is selected as in the previous clause.  In this case, if the initial decay value is set, it can be used, otherwise, the decay option is disabled.
+   * If the initial decay value is not set, it is selected using the *golden section search* method.
+   * The final autofit stage is implemented using the *hill climbing* method for all four parameters.
 
 The flowgraph (transition graph) of the implemented autofit strategy is shown on the figure below.
 
