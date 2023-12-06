@@ -63,8 +63,8 @@ description: Визуализатор. Качество данных произ�
 | Длины строк | ![](./../../images/icons/common/data-types/discrete_default.svg) | Диапазон длин строк в формате: *минимальная длина - максимальная длина* |
 | Отрицательные | ![](./../../images/icons/common/data-types/continuous_default.svg) | Количество записей с отрицательными значениями |
 | Бесконечности | ![](./../../images/icons/common/data-types/continuous_default.svg) | Количество записей, в которых значения равны бесконечности |
-| Уникальные | ![](./../../images/icons/common/data-types/discrete_default.svg) | Количество уникальных значений |
-| Максимум | ![](./../../images/icons/common/data-types/continuous_default.svg) | Максимальное значение |
+| Unique | ![](./../../images/icons/common/data-types/discrete_default.svg) | Count of unique values |
+| Maximum | ![](./../../images/icons/common/data-types/continuous_default.svg) | Максимальное значение |
 | [Медиана](https://wiki.loginom.ru/articles/median.html) | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | Медиана для данного поля |
 | Монотонность | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | Показывает однообразие значений поля (*Убывающая, Возрастающая, Не монотонная*) |
 

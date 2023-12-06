@@ -53,7 +53,7 @@ Returns cosine of the set angle.
 
 ## CumulativeSum
 
-**CumulativeSum("ИмяПоля" [, "ИмяПоляГруппы"])**
+**CumulativeSum("FieldName" [, "GroupFieldName"])**
 
 * ИмяПоля - поле, по которому необходимо получить накапливающуюся сумму.
 * ИмяПоляГруппы - поле, по которому происходит группировка данных. Этот параметр не является обязательным. Если этот параметр указан, то накапливающиеся суммы считаются в пределах групп.
@@ -61,7 +61,7 @@ Returns cosine of the set angle.
 Функция возвращает накапливающуюся сумму по полю.
 
 Примечание: ИмяПоля и ИмяПоляГруппы - строковые значения, т.е. явно заданные ИмяПоля и ИмяПоляГруппы должны быть указаны в кавычках.
-Например: CumulativeSum("COL1", "COL2")
+For example: CumulativeSum("COL1", "COL2")
 ## Exp
 
 **Exp(Degree)**
@@ -96,7 +96,7 @@ Returns the integer part of the Argument.
 
 ## IsInfinite
 
-**IsInfinite(Аргумент)**
+**IsInfinite(Argument)**
 
 * Argument - numeric expression.
 

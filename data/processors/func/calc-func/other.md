@@ -7,10 +7,10 @@ description: Справка по прочим функциям Loginom. Рабо
 
 **CRC32(String)**
 
-* Строка - строка, для которой расcчитывается CRC32 значение.
+* String: the string for which CRC32 value is calculated.
 
-Function returns the number - CRC32 value calculated on the basis of the given string.
-Расчеты производятся над последовательностью символов Строки в кодировке UTF-8.
+Function returns the number: CRC32 value calculated on the basis of the given string.
+Calculations are performed with the String characters sequence using UTF-8 encoding.
 
 ## CreateGUID
 
@@ -50,10 +50,10 @@ If the function is called without arguments, it returns the caption of the curre
 
 **MD5(String)**
 
-* Строка - строка, для которой расcчитывается MD5 значение.
+* String: the string for which MD5 value is calculated.
 
 Function returns HEX value MD5 calculated on the basis of the given string.
-Расчеты производятся над последовательностью символов Строки в кодировке UTF-8.
+Calculations are performed with the String characters sequence using UTF-8 encoding.
 
 ## Null
 
@@ -92,7 +92,7 @@ Function returns the current record number of the data source.
 
 **SHA1(String)**
 
-* Строка - строка, для которой раcсчитывается SHA1 значение.
+* String: the string for which SHA1 value is calculated.
 
 Function returns HEX value SHA1 calculated on the basis of the given string.
-Расчеты производятся над последовательностью символов Строки в кодировке UTF-8.
+Calculations are performed with the String characters sequence using UTF-8 encoding.

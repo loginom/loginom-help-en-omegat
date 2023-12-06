@@ -3,18 +3,18 @@ description: Компонент Нейросеть (регрессия) в Login
 ---
 # ![ ](./../../images/icons/components/regressionneuralnet_default.svg) Neural Network (Regression)
 
-Решает задачу [регрессии](https://wiki.loginom.ru/articles/regression-line.html) — в выходном наборе *Нейросеть* выдаст прогнозируемое значение переменной, зависимое от множества входных параметров.
+It handles the task of [regression](https://wiki.loginom.ru/articles/regression-line.html): in the *Neural Network* output data set it will provide the predicted variable value dependent on a set of input parameters.
 
-Перед тем, как производить прогноз, алгоритм обучается на тренировочном наборе данных — [обучающей выборке](https://wiki.loginom.ru/articles/training-set.html). Each row of such sample contains the following data:
+Before forecasting, it is required to train the algorithm using the training data set, namely, the [training sample](https://wiki.loginom.ru/articles/training-set.html). Each row of such sample contains the following data:
 
-* в полях, обозначенных как *входные* — множество входных параметров;
-* в поле, обозначенном как *выходное* — соответствующее входным параметрам значение [зависимой переменной](https://wiki.loginom.ru/articles/output-variable.html).
+* a set of input parameters in the fields marked as the *input* ones;
+* in the field marked as the *output* one — matching the input parameters of the [dependent variable](https://wiki.loginom.ru/articles/output-variable.html) value.
 
 Technically, the training consists in determination of *weights* — coefficients of links between neurons. In the process of training, the neural network enables to detect complex dependences between input and output parameters, and also to perform generalization. It means that on condition of the successful training, the *Neural Network* can return the correct result based on the data that was absent in the training sample, and also incomplete and/or "noisy", partially distorted data. The Quasi-Newton [Broyden — Fletcher — Goldfarb — Shanno method](https://ru.wikipedia.org/wiki/Алгоритм_Бройдена_—_Флетчера_—_Гольдфарба_—_Шанно) is used for training with limited use of L-BFGS memory.
 
-Only the fields with continuous [data kind](./../../data/datakind.md) can be the *output* ones in the regression task (as opposed to the [classification task](./../../processors/datamining/neural-network-classification.md)). Вид данных *входных* полей не регламентируется.
+Only the fields with continuous [data kind](./../../data/datakind.md) can be the *output* ones in the regression task (as opposed to the [classification task](./../../processors/datamining/neural-network-classification.md)). Data kind of *input* fields is not regulated.
 
-> **Примечание:** для каждого непрерывного параметра в структуре *Нейросети* будет создан один вход, в то время, как для каждого дискретного – столько входов, сколько у данного параметра имеется различных уникальных значений.
+> **Note:** One input will be created for each continuous parameter in the *Neural Network* structure, whereas each discrete one will be provided with the inputs the number of which will comply with the number of different unique values of this parameter.
 
 ## Ports
 
@@ -28,8 +28,8 @@ The input data set fields that will be used as the *input* or *output* ones, mus
 
 ### Output
 
-* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) Выход нейросети (таблица данных) – к входному набору данных добавляется поле с прогнозируемым значением Имя_поля|Прогноз.
-* ![ ](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) [Сводка](./neural-network-regression/report.md) (переменные) – показатели качества модели.
+* ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg) Neural network output (data table): the field with predicted value Field_name|Forecast is added to the input data set.
+* ![ ](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) [Summary](./neural-network-regression/report.md) (variables) – model quality indicators.
 
 ## Wizard
 
@@ -39,28 +39,28 @@ It is required to set the [usage type](./../../data/datasetfieldfeatures.md) of 
 It is required to select one of the following usage types for each of the fields:
 
 * ![ ](./../../images/icons/common/usage-types/active_default.svg) **Input**: the field contains the values of one of the input parameters.
-* ![ ](./../../images/icons/common/usage-types/predicted_default.svg) **Выходное** — поле содержит целевые значения. В качестве выходного должно быть задано только одно поле набора данных.
+* ![ ](./../../images/icons/common/usage-types/predicted_default.svg) **Output**: the field contains the target values. Only one data set field must be set as the output one.
 * ![ ](./../../images/icons/common/usage-types/unspecified_default.svg) **Not defined**: the field is not included into processing. It is set for other fields by default.
 
 ### Step 2. Configuration of Normalization
 
-На этом этапе входные данные приводятся к определенным диапазонам в соответствии с выбранным алгоритмом [нормализации](./../normalization/README.md). Использование нормализации увеличивает качество и скорость обучения *Нейросети*.
+At this stage, the input data is set to defined ranges according to the selected [normalization](./../normalization/README.md) algorythm. Normalization use increases the quality and speed of the *Neural Network* training.
 
 ### Step 3. Partitioning
 
-На этом этапе входные данные можно разделить на [обучающее](https://wiki.loginom.ru/articles/training-set.html) и [тестовое](https://wiki.loginom.ru/articles/test-set.html)  и множества (выборки).
+At this stage, the input data can be divided into the [training](https://wiki.loginom.ru/articles/training-set.html) and [test](https://wiki.loginom.ru/articles/test-set.html) and sets (samples).
 
 #### Partition Method
 
-* **Случайный** — данные для тестового и обучающего множеств формируется из всего объема входных данных в случайном порядке и случайной пропорции.
-* **Последовательный** — соотношение данных для тестового и обучающего множеств задается вручную. Порядок множеств можно менять (кнопки *Сдвинуть вверх*, *Сдвинуть вниз*).
+* **Random**: the data for the test and training sets is formed from the whole volume of the input data in random order and proportion.
+* **Consequent**: data ratio for the test and training sets is customized. It is posssible to change the order of sets (*Move up*, *Move down* buttons).
 * **By column**: partitioning to training and test sets is set using the parameter. Parameter is a column with the logical data type where &laquo;TRUE&raquo; value indicates that the record relates to the test set, and &laquo;FALSE&raquo; value indicates that the record relates to the training set (namely, it is possible to partition the set to training and test sets in the [Partitioning](../preprocessing/partitioning.md) node, and submit data from *Common output data set* port to the input of the *Neural network (regression)* node having selected the "Test set" column as partitioning by column parameter). When selecting this method, the training and test set correlation selection table becomes inactive.
 
 #### Validation Method
 
-* Без валидации — [валидация](./../validation.md) обучения *Нейросети* не производится.
-* [K-fold кросс-валидация](https://wiki.loginom.ru/articles/cross-validation.html) — входные данные разбиваются на *К* колод (частей). *Нейросеть* обучается на основе всех колод кроме одной, которая  используется для валидации. Обучение повторяется *K* раз, при этом на каждой итерации для валидации используется новая колода.
-* [Монте-Карло](https://wiki.loginom.ru/articles/monte-carlo-technique.html) — входные данные случайным образом разделяются на обучающее и валидационное множество в соответствии с заданной пропорцией. Обучение повторяется в соответствии с заданным *Количеством итераций ресемплинга*, при этом для каждой итерации формируется новое валидационное множество (ресемпл).
+* No validation: [validation](./../validation.md) of the *Neural Network* training is not performed.
+* [K-fold cross validation](https://wiki.loginom.ru/articles/cross-validation.html): the input data is divided into *К* folds (parts). The *Neural Network* is trained on the basis of all folds, with the exception of one that is used for validation. The training process is repeated *K* times, and a new fold is used for the validation purposes for each iteration.
+* [Monte Carlo](https://wiki.loginom.ru/articles/monte-carlo-technique.html): the input data is randomly divided into the training and validation set according to the set proportion. The training process is repeated according to the set *Count of resampling iterations*, and a new validation set (resample) is generated for each iteration.
 
 **Random seed** is a starting seed (integer, positive ) that is used for initialization of pseudo-random number generator. Sequence of generator numbers is fully determined by the starting seed. If the generator is repeatedly initialized with the same starting seed, it will provide the same sequence of numbers.
 
@@ -85,12 +85,12 @@ The following commands are available for the parameter:
 
 #### Output Value Limit
 
-Тип ограничения определяет форму [активационной функции](https://wiki.loginom.ru/articles/activation-function.html) выходного слоя *Нейросети*:
+The limit type defines the form of [activation function](https://wiki.loginom.ru/articles/activation-function.html) of the output *Neural Network* layer:
 
-* **Нет** — линейная.
-* **Интервал** — гиперболический тангенс.
-* **Только снизу** — усеченная снизу экспонента.
-* **Только сверху** — усеченная сверху экспонента.
+* **No** — linear.
+* **Interval** — hyperbolic tangent.
+* **Bottom only** — exponent truncated from below.
+* **Top only** — exponent truncated from above.
 
 It is also possible to set the upper and lower bounds of the activation function form limit. As a rule, this parameter directly correlates with the normalization parameter of the input data.
 
@@ -113,9 +113,9 @@ The network is trained in the iterative manner. The whole training data set is r
 * **Minimum weight change threshold**: if the relative change of the weights vector norm is less than the threshold at another training step, the training stops. By default = 0.01.
 * **Maximum number of epochs** means the maximum count of the algorithm training iterations. This parameter is disabled by default. If it is required to limit the training process in time, in this case, it will be stopped upon the set number of epochs even if the training has not reached the optimal point, namely, the minimum weight change threshold has not been reached yet.
 
-### Шаг 5. Configure Auto Selection of Neural Network Parameters
+### Step 5. Configure Auto Selection of Neural Network Parameters
 
-*Нейросеть* имеет три подбираемых параметра, относящихся к структуре:
+Three structure related parameters can be selected for the *Neural Network*:
 
 * Number of hidden layers (0, 1 or 2).
 * Number of neurons in each hidden layer.
