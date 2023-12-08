@@ -5,7 +5,7 @@ description: Трансформация даты/времени в Loginom. Фо
 
 Компонент *Дата и время* производит трансформацию данных формата ![Дата/Время](./../../../images/icons/common/data-types/datetime_default.svg) *Дата/Время*.
 
-The point of such transformation is that one or several additional columns in which particular information on date/time is selected are generated on the basis of the column with information on date/time.
+The point of such transformation is that one or several additional columns in which particular information on date/time are selected are generated on the basis of the column with information on date/time.
 
 %spoiler%Example:%spoiler%
 

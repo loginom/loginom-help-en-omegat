@@ -71,27 +71,27 @@ Returns one-sided probability of Chi-square distribution.
 
 **Stat("FieldName", "Type")**
 
-* ИмяПоля — поле, по которому необходимо получить значение показателя,
-* Тип — показатель статистики, который необходимо получить.
+* FieldName: the field by which it is required to get the indicator value.
+* Type: the statistics indicator which must be obtained.
 
-Функция возвращает значение одного из статистических показателей.
+Function returns the value of one of the statistical indicators.
 
-> В таблице представлены требования для входных данных.
+> Requirements for input data are listed in the table.
 
 | Type of statistics indicator | Indicator value | Data kind | Data type |
 | ------------------------- | ------------------- | ---------- | ---------- |
 | Min | Minimum value | ![](./../../../images/icons/common/data-types/continuous_default.svg) Continuous, ![](./../../../images/icons/common/data-types/discrete_default.svg) Discrete | ![](./../../../images/icons/common/data-types/float_default.svg) Real, ![](./../../../images/icons/common/data-types/integer_default.svg) Integer |
 | Max | Maximum value | ![](./../../../images/icons/common/data-types/continuous_default.svg) Continuous, ![](./../../../images/icons/common/data-types/discrete_default.svg) Discrete | ![](./../../../images/icons/common/data-types/float_default.svg) Real, ![](./../../../images/icons/common/data-types/integer_default.svg) Integer |
-| Mode | Наиболее часто встречающееся значение | ![](./../../../images/icons/common/data-types/discrete_default.svg) Discrete | ![](./../../../images/icons/common/data-types/float_default.svg) Real, ![](./../../../images/icons/common/data-types/integer_default.svg) Integer, ![](./../../../images/icons/common/data-types/string_default.svg) String, ![](./../../../images/icons/common/data-types/boolean_default.svg) Logical, ![](./../../../images/icons/common/data-types/datetime_default.svg) Date/time |
+| Mode | The most frequently occurring value | ![](./../../../images/icons/common/data-types/discrete_default.svg) Discrete | ![](./../../../images/icons/common/data-types/float_default.svg) Real, ![](./../../../images/icons/common/data-types/integer_default.svg) Integer, ![](./../../../images/icons/common/data-types/string_default.svg) String, ![](./../../../images/icons/common/data-types/boolean_default.svg) Logical, ![](./../../../images/icons/common/data-types/datetime_default.svg) Date/time |
 | Avg | Average value | ![](./../../../images/icons/common/data-types/continuous_default.svg) Continuous, ![](./../../../images/icons/common/data-types/discrete_default.svg) Discrete | ![](./../../../images/icons/common/data-types/float_default.svg) Real, ![](./../../../images/icons/common/data-types/integer_default.svg) Integer |
 | StdDev | Standard deviation | ![](./../../../images/icons/common/data-types/continuous_default.svg) Continuous, ![](./../../../images/icons/common/data-types/discrete_default.svg) Discrete | ![](./../../../images/icons/common/data-types/float_default.svg) Real, ![](./../../../images/icons/common/data-types/integer_default.svg) Integer |
 | Sum | Sum of values | ![](./../../../images/icons/common/data-types/continuous_default.svg) Continuous, ![](./../../../images/icons/common/data-types/discrete_default.svg) Discrete | ![](./../../../images/icons/common/data-types/float_default.svg) Real, ![](./../../../images/icons/common/data-types/integer_default.svg) Integer |
-| SumSq | Сумма квадратов значений | ![](./../../../images/icons/common/data-types/continuous_default.svg) Continuous, ![](./../../../images/icons/common/data-types/discrete_default.svg) Discrete | ![](./../../../images/icons/common/data-types/float_default.svg) Real, ![](./../../../images/icons/common/data-types/integer_default.svg) Integer |
+| SumSq | Sum of square values | ![](./../../../images/icons/common/data-types/continuous_default.svg) Continuous, ![](./../../../images/icons/common/data-types/discrete_default.svg) Discrete | ![](./../../../images/icons/common/data-types/float_default.svg) Real, ![](./../../../images/icons/common/data-types/integer_default.svg) Integer |
 | Count | Sum of values | ![](./../../../images/icons/common/data-types/continuous_default.svg) Continuous, ![](./../../../images/icons/common/data-types/discrete_default.svg) Discrete | ![](./../../../images/icons/common/data-types/float_default.svg) Real, ![](./../../../images/icons/common/data-types/integer_default.svg) Integer, ![](./../../../images/icons/common/data-types/string_default.svg) String, ![](./../../../images/icons/common/data-types/boolean_default.svg) Logical, ![](./../../../images/icons/common/data-types/datetime_default.svg) Date/time |
 | UniqueCount | Count of unique values | ![](./../../../images/icons/common/data-types/discrete_default.svg) Discrete | ![](./../../../images/icons/common/data-types/float_default.svg) Real, ![](./../../../images/icons/common/data-types/integer_default.svg) Integer, ![](./../../../images/icons/common/data-types/string_default.svg) String, ![](./../../../images/icons/common/data-types/boolean_default.svg) Logical, ![](./../../../images/icons/common/data-types/datetime_default.svg) Date/time |
 | NullCount | Count of the null values | ![](./../../../images/icons/common/data-types/continuous_default.svg) Continuous, ![](./../../../images/icons/common/data-types/discrete_default.svg) Discrete | ![](./../../../images/icons/common/data-types/float_default.svg) Real, ![](./../../../images/icons/common/data-types/integer_default.svg) Integer, ![](./../../../images/icons/common/data-types/string_default.svg) String, ![](./../../../images/icons/common/data-types/boolean_default.svg) Logical, ![](./../../../images/icons/common/data-types/datetime_default.svg) Date/time |
 
-Расчет производится по полям, заданным на вход узла [Калькулятор](https://help.loginom.ru/userguide/processors/transformation/calc/). Столбцы, вычисленные в этом же *Калькуляторе*, не будут рассчитаны.
+Calculation is made by the fields that are set for the [Calculator](https://help.loginom.ru/userguide/processors/transformation/calc/) node input. The columns calculated in the same *Calculator* will not be calculated.
 
 ## StdDev
 
@@ -99,7 +99,7 @@ Returns one-sided probability of Chi-square distribution.
 
 * Arguments - any numeric expressions.
 
-Возвращает стандартное отклонение аргументов, определенное на основе несмещенной дисперсии.
+It returns the standard deviation of arguments defined on the basis of unbiased variance.
 
 ## Sum
 

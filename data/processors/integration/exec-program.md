@@ -7,7 +7,7 @@ description: Компонент Выполнение программы в Login
 
 *Program Execution* component can start execution of the external program (there are the following executed files: cmd, bat, exe, etc.)
 
-> **Important:** This component is not safe as it provides access to programs and file system. Rights to this operation are defined in [Administration](./../../admin/parameters.md). По умолчанию в серверных редакциях платформы *Выполнение программы* запрещено, а в настольных редакциях — разрешено.
+> **Important:** This component is not safe as it provides access to programs and file system. Rights to this operation are defined in [Administration](./../../admin/parameters.md). By default, *Program execution* is forbidden in the server platform editions, and it is allowed in the desktop editions.
 
 ## Ports
 
@@ -55,11 +55,11 @@ If the project has been saved, the current package directory is considered to be
 
 > **Note:** The derived node is operated in the context of the package in which it is located as any other node. Thus, the current directory of the derived node will be the current package directory in which exactly the derived node is located but not the base one.
 
-#### Настольная редакция Loginom
+#### Desktop Megaladata Edition
 
-В настольной редакции приложения, если проект не сохранен, то текущий каталог совпадает с текущим каталогом Loginom.
+If the project is not saved, the current directory matches the current Megaladata directory in the desktop edition.
 
-#### Серверная редакция Loginom
+#### Server Megaladata Edition
 
 As far as the Loginom server is concerned, if the project is not saved, the current directory matches the user directory.
 

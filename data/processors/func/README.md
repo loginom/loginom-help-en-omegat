@@ -3,4 +3,4 @@ description: Основные функции, представленные в Lo
 ---
 # Functions
 
-В [Калькуляторе](../transformation/calc/README.md), а также в некоторых других компонентах Loginom, для расчетов и преобразования данных используются встроенные функции.
+Built-in functions are used for calculations and data transformation in the [Calculator](../transformation/calc/README.md) and some other Megaladata components.

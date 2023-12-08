@@ -15,7 +15,7 @@ description: Справка по нормализации непрерывных
 * **Standardization**: the average value is subtracted from each value, and then it is divided by the standard deviation.
 * **Quotient**: each value is divided by the statistical indicator or the value set by a user.
    * Divisor:
-      * Статистический показатель (Минимум, Максимум, Среднее, Сумма, Стандартное отклонение на основе несмещенной дисперсии).
+      * Statistical indicator (Minimum, Maximum, Average, Sum, Standard deviation on the basis of unbiased variance).
       * Set value.
 
 ## Range Control

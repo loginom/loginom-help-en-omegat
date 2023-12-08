@@ -3,18 +3,18 @@ description: Компонент REST-запрос в Loginom. Взаимодей
 ---
 # ![ ](./../../images/icons/common/data-sources/web-rest-client_default.svg) REST Request
 
-Компонент позволяет взаимодействовать с внешним [REST-сервисом](https://ru.wikipedia.org/wiki/REST), отправляя ему GET, PUT, DELETE, PATCH, POST запросы и получая ответы. The table with the request parameters is used as the input data set. REST service will get as many requests as there are rows in the input data set.
+The component enables to interact with the external [REST service](https://ru.wikipedia.org/wiki/REST). It sends GET, PUT, DELETE, PATCH, POST requests to it and receives responses. The table with the request parameters is used as the input data set. REST service will get as many requests as there are rows in the input data set.
 
 > **Note**: As the input data set with the request parameters is optional, when it is not provided, the REST service call node will send the only request without parameters.
 
-В выходных портах узла формируются:
+The following data is generated in the output ports of the node:
 
 - Table of the service responses.
 - Additional data on the results of each request execution.
 
-В случае отправки GET и DELETE запросов, каждая строка входного набора должна содержать параметры запроса, а при PUT, PATCH, POST запросах — [тело HTTP-запроса](https://ru.wikipedia.org/wiki/HTTP#Тело_сообщения). When configuring the node, the random number of [HTTP request headers](https://ru.wikipedia.org/wiki/HTTP#Заголовки) is set.
+If GET и DELETE requests are sent, each row of the input data set must contain the request parameters, and in the case of PUT, PATCH, POST requests, the [HTTP request body](https://ru.wikipedia.org/wiki/HTTP#Тело_сообщения) must be provided. When configuring the node, the random number of [HTTP request headers](https://ru.wikipedia.org/wiki/HTTP#Заголовки) is set.
 
-It is required to provide the configured [Connection to REST service](./../../integration/connections/list/rest-service.md) to work with REST service. Выбор метода HTTP-запроса, а так же определение списка параметров запроса осуществляется при настройке этого подключения. The REST service call node checks the response type, and if the received response does not match the one stated in the `"Type of Response Content-Type"` parameter of the used connection, the output data sets of the node will contain error messages.
+It is required to provide the configured [Connection to REST service](./../../integration/connections/list/rest-service.md) to work with REST service. The HTTP request method is selected, and the list of request parameters is defined when this connection is configured. The REST service call node checks the response type, and if the received response does not match the one stated in the `"Type of Response Content-Type"` parameter of the used connection, the output data sets of the node will contain error messages.
 
 ## Ports
 
@@ -27,7 +27,7 @@ It is required to provide the configured [Connection to REST service](./../../in
 ### Output Ports
 
 * ![](./../../images/icons/app/node/ports/outputs/table_inactive.svg) — Output data set (table with the service responses);
-* ![](./../../images/icons/app/node/ports/outputs/table_inactive.svg) — Дополнительные данные (таблица с результатами выполнения запросов, описанием ошибок, кодами завершения и состояния HTTP).
+* ![](./../../images/icons/app/node/ports/outputs/table_inactive.svg) — Additional data (table with the results of requests execution, errors description, exit codes and HTTP states).
 
 ## Wizard
 
@@ -43,9 +43,9 @@ The request parameters are set at this stage. The list of the input data set fie
 
 > **Note**: If the link between the field and object has been incorrectly established, it can be deleted. In order to do that, it is required to select the caption and press ![ ](./../../images/icons/link-grid/remove-link_hover.svg) button in the line. If all links are to be deleted, ![ ](./../../images/icons/common/toolbar-controls/remove-all-links_default.svg) *Delete all links* button is used.
 
-При PUT, PATCH, POST запросах поля входной таблицы связываются с предопределенным параметром `request`, принимающим тело HTTP-запроса.
+ In the case of PUT, PATCH, POST requests, the input table fields are linked to the predefined `request` parameter that accepts the HTTP request body.
 
-Параметр **Наличие временной зоны** определяет указывается ли информация о [часовом поясе](https://ru.wikipedia.org/wiki/Список_часовых_поясов_по_странам) в рамках стандарта [ISO_8601](https://ru.wikipedia.org/wiki/ISO_8601) при передачи параметров запроса типа `Дата/Время`. Possible values:
+**Specify time zone** parameter defines whether the [time zone](https://ru.wikipedia.org/wiki/Список_часовых_поясов_по_странам) information is specified according to [ISO_8601](https://ru.wikipedia.org/wiki/ISO_8601) when request parameters of the `Date/Time` type are transferred. Possible values:
 
 - Do not specify;
 - Specify always.
@@ -58,7 +58,7 @@ HTTP request headers and their values are set at this stage.
 
 - **Provide description of error codes** enables to display description of the errors that occurred while request sending, receipt and parsing of the service response.
 
-> **Примечание**: При кодах состояния HTTP >= 400 устанавливается *Код завершения* = 6 (`Ошибка HTTP-клиента`) и выводится соответствующее *Описание ошибки*.
+> **Note**: When state code HTTP >= 400, *Exit code* = 6 (`HTTP client error`) and corresponding *Error description* is displayed.
 
 - **Save Request Text to Disk**: all requests sent to the service are written to the specified folder in the file storage.
-- **Имитировать запрос с ответом в файле** — при установке флага фактического запроса к сервису не происходит, а узел в качестве ответа сервиса подставляет содержимое указанного файла.
+- **Simulate request with response in a file**: when this checkbox is selected, no actual request is sent to the service, and the node substitutes content of the specified file as the service response.

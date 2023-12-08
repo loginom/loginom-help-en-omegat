@@ -151,7 +151,7 @@ Returns the hour according to the specified date/time.
 
 * Argument: the string expression containing date/time in ISO 8601 format
 
-Function converts the string containing the date/time in ISO 8601 format into the "Date/Time" value. Если в аргументе указано смещение времени относительно UTC, то дата/время приводится к текущей временной зоне. Otherwise, date/time remains unchanged.
+Function converts the string containing the date/time in ISO 8601 format into the "Date/Time" value. If time offset relative to UTC is specified in the argument, date/time are set to the current time zone. Otherwise, date/time remains unchanged.
 
 ## Minute
 

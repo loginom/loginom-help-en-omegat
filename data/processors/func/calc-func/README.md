@@ -3,4 +3,4 @@ description: Справка по основным функциям, доступ
 ---
 # Calculator Functions
 
-Функции [Калькулятора](../../transformation/calc/README.md) позволяют выполнять различные вычисления и преобразования с данными. Для каждой функции приводится ее описание, список и назначение параметров. Для удобства использования функции разделены на категории.
+The [Calculator](../../transformation/calc/README.md) functions enable to perform different calculations and data transformations. Description, list and designation of parameters are provided for each function. The functions are divided into categories for ease of use.

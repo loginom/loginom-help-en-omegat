@@ -55,12 +55,12 @@ Returns cosine of the set angle.
 
 **CumulativeSum("FieldName" [, "GroupFieldName"])**
 
-* ИмяПоля - поле, по которому необходимо получить накапливающуюся сумму.
-* ИмяПоляГруппы - поле, по которому происходит группировка данных. Этот параметр не является обязательным. Если этот параметр указан, то накапливающиеся суммы считаются в пределах групп.
+* FieldName: the field by which it is required to get the cumulative sum.
+* GroupFieldName: the field by which data is grouped. This parameter is not the required one. If this parameter is specified, the cumulative sums are calculated within groups.
 
-Функция возвращает накапливающуюся сумму по полю.
+Function returns the cumulative sum by the field.
 
-Примечание: ИмяПоля и ИмяПоляГруппы - строковые значения, т.е. явно заданные ИмяПоля и ИмяПоляГруппы должны быть указаны в кавычках.
+Note: FieldName and GroupFieldName are string values, namely, explicitly set FieldName and GroupFieldName must be indicated in quotation marks.
 For example: CumulativeSum("COL1", "COL2")
 ## Exp
 
@@ -100,7 +100,7 @@ Returns the integer part of the Argument.
 
 * Argument - numeric expression.
 
-Определяет, является ли переданное значение бесконечным числом.
+It defines whether the passed value is an infinite number.
 
 ## Ln
 
