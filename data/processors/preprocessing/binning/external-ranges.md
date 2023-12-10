@@ -3,11 +3,11 @@ description: Компонент Квантование в Loginom. Внешни�
 ---
 # External Ranges
 
-This binning method is available when the external binning tables are connected. Чтобы их подключить, нужно добавить еще один порт у узла, нажав кнопку ![ Добавить еще один порт](./../../../images/icons/app/node/ports/add/add_inactive_default.svg). The table with the data on the included ranges is connected to the appeared port.
+This binning method is available when the external binning tables are connected. To connect them, it is required to add another port for the node by clicking on ![ Add another port](./../../../images/icons/app/node/ports/add/add_inactive_default.svg) button. The table with the data on the included ranges is connected to the appeared port.
 
-Пример данной таблички можно посмотреть на выходном порту "Диапазоны квантования" [узла Квантование](./../binning.md), а тут  [структура результирующего набора](./calculated-columns.md) его подробное описание.
+Example of this table can be viewed at the "Binning ranges" output port of the [Binning node](./../binning.md), and  [resulting data set structure](./calculated-columns.md) is described in detail here.
 
-Данные с выходного порта "Диапазоны квантования" можно сохранить их в файл или подать их напрямую на второй вход узла "Квантование". In this case, when starting the wizard, the input range configuration window will be opened first. It will be required to provide columns mapping there.
+Data of the "Binning ranges" output port can be saved to a file or sent directly to the second input of the "Binning" node. In this case, when starting the wizard, the input range configuration window will be opened first. It will be required to provide columns mapping there.
 
 The input table must contain corresponding data. It is described in the table:
 
