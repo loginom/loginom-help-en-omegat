@@ -5,7 +5,7 @@ description: Компонент Редактирование выбросов в
 
 ## Description
 
-Компонент предназначен для автоматической корректировки выбросов и экстремальных значений в наборах данных. A user sets criteria of outliers and extreme values determination for each field of the source data set by specifying the allowable [standard deviation](https://wiki.loginom.ru/articles/mean-square-deviation.html) or interquartile range. The outliers mean the data values that distinctly deviate from the average ones, the extreme values mean the values that deviate from the typical values to such extent that they are not consistent with the logics of the processes and events under research anymore.
+The component is designated for automatic elimination of outliers and extreme values in data sets. A user sets criteria of outliers and extreme values determination for each field of the source data set by specifying the allowable [standard deviation](https://wiki.loginom.ru/articles/mean-square-deviation.html) or interquartile range. The outliers mean the data values that distinctly deviate from the average ones, the extreme values mean the values that deviate from the typical values to such extent that they are not consistent with the logics of the processes and events under research anymore.
 
 ## Ports
 
@@ -25,7 +25,7 @@ description: Компонент Редактирование выбросов в
 * **Area of configuration of outliers and extreme values elimination methods** contains a list of the fields available for processing. It is possible to select the checkbox that enables to define the processing avialability for each field. Upon selection of the field, it is possible to set the processing method.
 * **Determination of outliers and extreme values**: two detection methods are available:
    * Standard deviation: the criterion is deviation of the indicator value from the mean one more than by the set number of standard deviations. In this case, this parameter can be separately set for outliers and exreme values. This method can be used if it is known that data distribution is close to the normal one.
-   * [Интерквартильный размах](https://wiki.loginom.ru/articles/iqr.html) — критерием является расстояние между 1-м и 3-м квартилями распределения значений признака. If the indicator value deviates from the median more than by the set number of the interquartile range, it is considered to be anomalous. This parameter is set only for outliers and exreme values. This method can be also used when data distribution differs from the normal one.
+   * [Interquartile range](https://wiki.loginom.ru/articles/iqr.html): the criterion is distance between the first and the third quartiles of indicator values distribution. If the indicator value deviates from the median more than by the set number of the interquartile range, it is considered to be anomalous. This parameter is set only for outliers and exreme values. This method can be also used when data distribution differs from the normal one.
 
 The following elimination methods are available both for outliers and extreme values:
 
@@ -33,7 +33,7 @@ The following elimination methods are available both for outliers and extreme va
 * Delete records: delete the records with anomalous values from data set.
 * Replace with average: replace anomalous values with the average column value.
 * Replace with median: replace anomalous values with the median calculated for the column.
-* заменять наиболее вероятным — замена аномалий наиболее вероятным значением по столбцу, замена производится на [среднее значение из наиболее вероятного интервала](https://wiki.loginom.ru/articles/mean-most-likely-interval.html), число интервалов варьируется в зависимости от объема выборки — чем она больше, тем больше интервалов;
+* Replace with most frequent: replace anomalous values with the most frequent column value. Replacement is performed using the [average value from the most frequent bin](https://wiki.loginom.ru/articles/mean-most-likely-interval.html). The bin count varies according to the sample size: the larger the sample size, the higher number of bins.
 * Replace with set value: replace anomalous values with the manually recorded value.
 * Limit: replace anomalous values with the bound value from which the anomalous values start.
 

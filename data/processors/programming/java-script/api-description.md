@@ -3,27 +3,27 @@ description: Компонент JavaScript в Loginom. Полное описан
 ---
 # ![](../../../images/icons/components/javascript_default.svg) Full API Description
 
-Ниже приведено описание API, специфичного для Loginom и не являющегося частью [стандарта языка (ECMA-262)](https://www.ecma-international.org/ecma-262/6.0/).
+API typical of Megaladata that is not a part of [language standard (ECMA-262)](https://www.ecma-international.org/ecma-262/6.0/) is described below.
 
-## Глобальные объекты
+## Global Objects
 
-Глобальные объекты доступны в модуле узла JavaScript без импорта дополнительных модулей.
+Global objects are available in the JavaScript node module without import of additional modules.
 
 ```typescript
 
-// Объект require применяется для импорта модулей CommonJS
+// Объект require is applied for import of CommonJS modules
 const require: IRequire;
 
-// Представление модуля
+// Module view
 interface IModule {
     readonly id: string;               // identifier
     parent?: this;                     // calling module
     filename?: string;                 // full path to module
     loaded: boolean;                   // whether the module is completely loaded
-    exports: any;                      // экспортируемый объект
+    exports: any;                      // exported object
 }
 
-// Функция require принимает идентификатор модуля и возвращает свойство модуля exports
+// require function accepts the module identifier and returns the exports module property
 interface IRequireFunction {
     (id: string): any;
 }
@@ -35,7 +35,7 @@ interface IRequire extends IRequireFunction  {
     cache: { [resolvedId: string]: IModule]; };
 }
 
-// Объект console
+// console object
 var console: Console;
 
 interface Console {
@@ -65,15 +65,15 @@ function atob(text: string, encoding?: "utf-8"): string;
 
 ```
 
-## Встроенный модуль "builtIn/Data"
+## "builtIn/Data" built-in module
 
-Объекты модуля "builtIn/Data" предоставляют доступ к портам узла JavaScript. По умолчанию код узла содержит строку импорта этих объектов.
+Объекты модуля "builtIn/Data" предоставляют доступ к портам узла JavaScript. By default, the node code contains the import string of these objects.
 
 ```typescript
-const InputTable: IDataSource;      // Источник данных с первого порта
-const InputTables: IDataSource[];   // Массив входных источников данных
-const OutputTable: IOutputTable;    // Выходной набор данных
-const InputVariables: IVariables;   // Входные переменные
+const InputTable: IDataSource;      // Source of the data from the first port
+const InputTables: IDataSource[];   // Array of the input data sources
+const OutputTable: IOutputTable;    // Output data set
+const InputVariables: IVariables;   // Input variables
 
 // Перечисления, описывающие метаданные полей и переменных
 enum DataType {                                                          // Тип данных
@@ -86,13 +86,13 @@ enum DataType {                                                          // Ти
      Variant = 6
 }
 
-enum DataKind {                                                          // Вид данных
+enum DataKind {                                                          // Data kind
      Undefined = 0,
      Continuous = 1,
      Discrete = 2
 }
 
-enum UsageType {                                                         // Назначение полей
+enum UsageType {                                                         // Field usage type
      Unspecified = 0,
      Excluded = 1,
      Useless = 2,
@@ -108,16 +108,16 @@ enum UsageType {                                                         // На
      Item = 9
 }
 
-// Информация о столбце
+// Column info
 interface IColumnInfo {
     readonly Name: string;                                                  // Name
     readonly DisplayName: string;                                           // Caption
     readonly DataType: DataType;                                            // Data type
     readonly DataKind: DataKind;                                            // Data kind
-    readonly DefaultUsageType: UsageType;                                   // Назначение поля
+    readonly DefaultUsageType: UsageType;                                   // Field usage type
 }
 
-// Представление столбца набора данных
+// Column view of data set
 interface IColumn extends IColumnInfo, Iterable<boolean | number | string | Date | undefined> {
     readonly Index: number;                                                 // Index
     readonly RowCount: number;                                              // Number of values
@@ -127,31 +127,31 @@ interface IColumn extends IColumnInfo, Iterable<boolean | number | string | Date
     IsNull(row: number): boolean;
 }
 
-// Свойства столбца входного набора данных
+// Column properties of input data set
 interface IIntputColumn extends IColumn {
-    readonly UsageType: UsageType;                                          // Назначение поля
+    readonly UsageType: UsageType;                                          // Field usage type
 }
 
-// Свойства и методы столбца выходного набора данных
+// Properties and methods of the output data set column
 interface IOutputColumn extends IColumn {
-    // Свойства столбца доступны на чтение и запись
-    DisplayName: string;                                                    // Метка
-    DataType: DataType;                                                     // Тип данных
-    DataKind: DataKind;                                                     // Вид данных
-    DefaultUsageType: UsageType;                                            // Назначение поля
-    // Метод Set задает значение поля в записи, созданной методом Append
+    // Column properties are available in read-only and write-only modes
+    DisplayName: string;                                                    // Caption
+    DataType: DataType;                                                     // Data type
+    DataKind: DataKind;                                                     // Data kind
+    DefaultUsageType: UsageType;                                            // Field usage type
+    // Set method sets the field value in the record created by means of Append method
     Set(value: boolean | number | string | Date | null | undefined): void;
 }
 
-// Доступ к итерируемому списку столбцов по имени и индексу
+// Access to iterated list of columns by name and index
 interface IIntputColumns extends Iterable<IIntputColumn> {
     [name: string]: IIntputColumn;
     [index: number]: IIntputColumn;
 }
 
-// Свойства и методы набора данных
+// Properties and methods of data set
 interface IDataSource {
-    readonly Columns: IIntputColumns;                                       // Список столбцов
+    readonly Columns: IIntputColumns;                                       // List of columns
     readonly ColumnCount: number;                                           // List of columns
     readonly RowCount: number;                                              // Row count
 
@@ -159,24 +159,24 @@ interface IDataSource {
     Get(row: number, col: number | string): boolean | number | string | Date | undefined;
     // IsNull method checks for the Null value of the set row in the set column
     IsNull(row: number, col: number | string): boolean;
-    // Метод GetColumn возвращает столбец источника данных
+    // Метод GetColumn returns the data source column
     GetColumn(col: number | string): IIntputColumn;
 }
 
-// Свойства и методы выходного набора
+// Properties and methods of output data set
 interface IOutputTable extends IDataSource {
-    readonly Columns: IOutputColumns;                                       // Список столбцов
-    // Метод AssignColumns создает столбцы из итерируемого источника
+    readonly Columns: IOutputColumns;                                       // List of columns
+    // Метод AssignColumns creates columns from iterated source
     AssignColumns(source: Iteratable<string | IColumnInfo>): void;
-    // Метод GetColumn возвращает столбец выходного набора
+    // Метод GetColumn returns the output data set column
     GetColumn(col: number | string): IOutputColumn;
-    // Метод AddColumn добавляет столбец в конец списка столбцов
+    // Метод AddColumn adds column to the column list end.
     AddColumn(source?: string | IColumnInfo): IOutputColumn;
-    // Метод InsertColumn вставляет столбец по заданному индексу
+    // Метод InsertColumn inserts column by the set index
     InsertColumn(col: number, source?: IColumnInfo): IOutputColumn;
-    // Метод DeleteColumn удаляет столбец по индексу или имени
+    // Метод DeleteColumn deletes column by index or name
     DeleteColumn(col: number | string): void;
-    // Метод ClearColumns удаляет все столбцы
+    // Метод ClearColumns deletes all columns
     ClearColumns(): void;
     // Append method enables to append a record to data set
     Append(): void;
@@ -184,13 +184,13 @@ interface IOutputTable extends IDataSource {
     Set(col: number | string, value: boolean | number | string | Date | null | undefined): void;
 }
 
-// Доступ к итерируемому списку столбцов выходного набора по имени и индексу
+// Access to iterated list of the output data set columns by name and index
 interface IOutputColumns extends Iterable<IOutputColumn> {
     [index: number]: IOutputColumn;
     [name: string]: IOutputColumn;
 }
 
-// Представление входной переменной
+// View of input variable
 interface IVariable {
     readonly Index: number;                                                 // Index
     readonly Name: string;                                                  // Name
@@ -213,7 +213,7 @@ interface IVariables {
 
 ```
 
-## Встроенный модуль "builtIn/Fetch"
+## "builtIn/Fetch" built-in module
 
 `Fetch API` — интерфейс для работы с запросами и ответами HTTP, предоставляет возможность взаимодействия с ресурсами сети непосредственно из узла JavaScript.
 
@@ -237,7 +237,7 @@ declare var Headers: {
     new(init?: HeadersInit): Headers;
 }
 
-// Представление тела запроса/ответа
+// View of request/response body
 interface Body {
     readonly bodyUsed: boolean;
     arrayBuffer(): Promise<ArrayBuffer>;
@@ -245,7 +245,7 @@ interface Body {
     text(): Promise<string>;
 }
 
-// Представление запроса
+// Request view
 type RequestInfo = Request | string;
 type RequestRedirect = "error" | "follow" | "manual";
 interface Request extends Body {
@@ -267,7 +267,7 @@ declare var Request: {
     new(input: RequestInfo, init?: RequestInit): Request;
 }
 
-// Представление ответа
+// Response view
 interface Response extends Body {
     readonly headers: Headers;
     readonly ok: boolean;
@@ -289,13 +289,13 @@ declare var Response: {
     redirect(url: string, status?: number): Response;
 }
 
-// Функция запроса ресурса сети
+// Network resource request function
 function fetch(url: Request|string, init?: RequestInit): Promise<Response>;
 ```
 
-## Встроенный модуль "builtIn/FS"
+## "builtIn/FS" built-in module
 
-`File Storage API` — интерфейс для работы с файловой системой. Представляет набор функций для выполнения различных операций с файлами и папками непосредственно из узла JavaScript.
+`File Storage API` — file system operation interface. Представляет набор функций для выполнения различных операций с файлами и папками непосредственно из узла JavaScript.
 
 ```typescript
 

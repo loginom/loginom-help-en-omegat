@@ -3,7 +3,7 @@ description: Компонент JavaScript в Loginom. Интерфейс для
 ---
 # ![](../../../images/icons/components/javascript_default.svg) FileStorage API
 
-`File Storage API` — интерфейс для работы с файловой системой. Представляет набор функций для выполнения различных операций с файлами и папками непосредственно из узла JavaScript.
+`File Storage API` — file system operation interface. Представляет набор функций для выполнения различных операций с файлами и папками непосредственно из узла JavaScript.
 
 Для использования File Storage API необходимо импортировать встроенный модуль `builtIn/FS`:
 

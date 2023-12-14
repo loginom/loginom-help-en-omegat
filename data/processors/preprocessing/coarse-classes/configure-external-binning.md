@@ -3,7 +3,7 @@ description: Компонент Конечные классы в Loginom. Нас
 ---
 # Configure External Binning
 
-Данная настройка необходима в том случае, когда задан порт *Внешние диапазоны квантования*, т.е. в узел Конечные классы подается внешнее разбиение в виде таблицы. Если входной источник данных содержит настройки разбиения для данного столбца, то в мастере для него выбирается назначение *Входное (внешнее разбиение)*. In this case, the binning is taken from the table, and it is not calculated using the algorithm based on the current data.
+This option is required when *External binning ranges* port is set, namely, the external binning is supplied to the Coarse Classes node in the table form. If the input data source contains binning settings for this column, *Input (external binning)* usage type is selected for it in the wizard. In this case, the binning is taken from the table, and it is not calculated using the algorithm based on the current data.
 
 ## Requirements to the External Binning
 
@@ -18,7 +18,7 @@ The columns that must be included into the external binning for the continuous a
 | -------- | -------- | -------- | -------- | -------- | -------- |
 | Column name | ColumnName | String | + | + | Field name of the main data source to which the external binning relates. Namely, the strings that define the external binning for the main data source field are selected by the current column value. |
 | Upper bound | UpperBound | Real/integer | + | - | Strictly increasing sequence of binning bounds. In this case, count of classes is calculated with one more class, as it is required to take into account the class that includes the values exceeding the last bound. |
-| Upper bound open | IncludeUpperBound | Binary | + | - | Строго постоянное в рамках разбиения одного поля значение, определяющее тип верхней границы диапазона класса — открытая (не включается) или закрытая (включается) |
+| Upper bound open | IncludeUpperBound | Binary | + | - | Strictly constant value within binning of one field that defines the upper class bin bound type whether it is open (not included) or close (included). |
 | Unique value | UniqueValue | Any (valid) | - | + | Unique values of the main data source fields that map the external binning. |
 | Class number | ClassNumber | Integer | - | + | The class number that meets the unique value. |
 
