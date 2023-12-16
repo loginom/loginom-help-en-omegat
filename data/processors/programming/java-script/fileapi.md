@@ -3,7 +3,7 @@ description: Компонент JavaScript в Loginom. Интерфейс для
 ---
 # ![](../../../images/icons/components/javascript_default.svg) FileStorage API
 
-`File Storage API` — file system operation interface. Представляет набор функций для выполнения различных операций с файлами и папками непосредственно из узла JavaScript.
+`File Storage API` — file system operation interface.  It provides a set of functions for execution of different operations with files and folders directly from the JavaScript node.
 
 Для использования File Storage API необходимо импортировать встроенный модуль `builtIn/FS`:
 
@@ -11,17 +11,17 @@ description: Компонент JavaScript в Loginom. Интерфейс для
 import * as fs from "builtIn/FS";
 ```
 
-## Описание объектов
+## Objects Description
 
 ### Stats
 
-%spoiler% Описание %spoiler%
+%spoiler% Description %spoiler%
 
 ```javascript
 class Stats {
-    isFile(): boolean; // Проверка, объект - файл?
-    isDirectory(): boolean; // Проверка, объект - папка?
-    isSymbolicLink(): boolean; // Проверка, объект - символическая ссылка?
+    isFile(): boolean; // Authentification, object - file?
+    isDirectory(): boolean; // Authentification, object - folder?
+    isSymbolicLink(): boolean; // Authentification, object - symbolic link?
 
     mode: number; // Битовое поле, описывающее тип файла и режим доступа
     size: number; // Размер файла в байтах
@@ -38,7 +38,7 @@ class Stats {
 
 ### FileHandle
 
-%spoiler% Описание %spoiler%
+%spoiler% Description %spoiler%
 
 ```javascript
 class FileHandle {
@@ -53,14 +53,14 @@ class FileHandle {
 
 ### Dirent
 
-%spoiler% Описание %spoiler%
+%spoiler% Description %spoiler%
 
 ```javascript
 class Dirent {
     isFile(): boolean; // Проверка, является ли объект обычным файлом
     isDirectory(): boolean; // Проверка, является ли объект папкой
     isSymbolicLink(): boolean; // Проверка, является ли объект символической ссылкой
-    name: string; // Имя объекта
+    name: string; // Object name
 }
 
 ```
@@ -78,7 +78,7 @@ class Dirent {
 * file — полное имя файла или его файловый дескриптор. Принимает значения типа `string`, `FileHandle`. Required parameter.
 * data — данные. Принимает значения типа `string`, `ArrayBuffer`, `ArrayBufferView`. Required parameter.
 * options (необязательный параметр):
-   * writeBOM — запись BOM. Принимает значение типа `boolean`.
+   * writeBOM — запись BOM. It takes the value of the `boolean` type.
    * encoding — кодировка файла. По умолчанию: **'utf8'**.
    * [flag](https://help.loginom.ru/userguide/processors/programming/java-script/fileapi.html#flagi-faylovoy-sistemy) — флаг файловой системы. По умолчанию: **'a'**.
 
@@ -90,7 +90,7 @@ class Dirent {
 
 **closeSync(fd)**
 
-* fd — файловый дескриптор. Обязательный параметр
+* fd — file descriptor. Обязательный параметр
 
 Закрывает дескриптор файла. Возвращает `undefined`.
 
@@ -101,8 +101,8 @@ class Dirent {
 
 **copyFileSync(src, dest, mode)**
 
-* src — путь к файлу-источнику операции копирования. Принимает значение типа `string`. Required parameter.
-* dest — путь к файлу-приемнику операции копирования. Принимает значение типа `string`. Required parameter.
+* src — путь к файлу-источнику операции копирования. It takes the value of the `string` type. Required parameter.
+* dest — путь к файлу-приемнику операции копирования. It takes the value of the `string` type. Required parameter.
 * mode — необязательный параметр, определяющий поведение операции копирования. It takes the value of the `number` type. Задается маской, которая может состоять из комбинации следующих значений (например, ```constants.COPYFILE_EXCL | constants.COPYFILE_FICLONE```):
    * ``` constants.COPYFILE_EXCL``` — операция копирования завершится ошибкой, если `dest` уже существует.
    * ```constants.COPYFILE_FICLONE``` — использовать механизм копирования при записи (copy-on-write), при котором физический перенос данных не производится. Если операция не поддерживается, то будет произведено обычное копирование.
@@ -118,7 +118,7 @@ class Dirent {
 
 **existsSync(path)**
 
-* path — путь. Принимает значение типа `string`. Required parameter.
+* path — path. It takes the value of the `string` type. Required parameter.
 
 Возвращает `true`, если путь существует, `false` — в противном случае.
 
@@ -129,7 +129,7 @@ class Dirent {
 
 **fstatSync(fd)**
 
-* fd — файловый дескриптор. Принимает значение типа `FileHandle`. Required parameter.
+* fd — file descriptor. Принимает значение типа `FileHandle`. Required parameter.
 
 Возвращает объект [Stats](https://help.loginom.ru/userguide/processors/programming/java-script/fileapi.html#class-stats) для файлового дескриптора.
 
@@ -140,7 +140,7 @@ class Dirent {
 
 **ftruncateSync(fd, len)**
 
-* fd — файловый дескриптор. Принимает значение типа `FileHandle`. Required parameter.
+* fd — file descriptor. Принимает значение типа `FileHandle`. Required parameter.
 * len — необязательный параметр, который указывает размер в байтах. It takes the value of the `number` type.
 
 Устанавливает длину обычного файла с файловым дескриптором `fd` в `len` байт. Если файл до этой операции был длиннее, то отсеченные данные теряются. Если файл был короче, то он увеличивается, а добавленная часть заполняется нулевыми байтами. Возвращает `undefined`.
@@ -152,9 +152,9 @@ class Dirent {
 
 **lstatSync(path, options)**
 
-* path — путь. Принимает значение типа `string`. Required parameter.
+* path — path. It takes the value of the `string` type. Required parameter.
 * options (необязательный параметр):
-   * throwIfNoEntry. Принимает значение типа `boolean`. Будет ли выдано исключение, если путь в файловой системе не существует. По умолчанию: `true`.
+   * throwIfNoEntry. It takes the value of the `boolean` type. Будет ли выдано исключение, если путь в файловой системе не существует. По умолчанию: `true`.
 
 Возвращает объект [Stats](https://help.loginom.ru/userguide/processors/programming/java-script/fileapi.html#class-stats) для `path`. Если `path` — это путь символической ссылки, то возвращает информацию о самой ссылке.
 
@@ -165,9 +165,9 @@ class Dirent {
 
 **mkdirSync(path, options, mode)**
 
-* path — путь. Принимает значение типа `string`. Required parameter.
+* path — path. It takes the value of the `string` type. Required parameter.
 * options (необязательный параметр):
-   * recursive. Указывает, следует ли создавать родительские каталоги. Принимает значение типа `boolean`. По умолчанию: `false`.
+   * recursive. Указывает, следует ли создавать родительские каталоги. It takes the value of the `boolean` type. По умолчанию: `false`.
    * mode. Под Windows не используется. По умолчанию: `0o777`.
 
 Создает каталог.  Возвращает `undefined`.
@@ -179,8 +179,8 @@ class Dirent {
 
 **openSync(path, flags, mode)**
 
-* path — путь. Принимает значение типа `string`. Required parameter.
-* [flags](https://help.loginom.ru/userguide/processors/programming/java-script/fileapi.html#flagi-faylovoy-sistemy) — флаги файловой системы. Определяют, в каком режиме открыть файл. Необязательный параметр. По умолчанию: `r`.
+* path — путь. It takes the value of the `string` type. Required parameter.
+* [flags](https://help.loginom.ru/userguide/processors/programming/java-script/fileapi.html#flagi-faylovoy-sistemy) — флаги файловой системы. Определяют, в каком режиме открыть файл. The optional parameter. По умолчанию: `r`.
 * mode. Устанавливает права доступа к файлу, когда он создаётся. На Windows влияет на атрибут файла «Только чтение». [Подробнее](https://ru.wikipedia.org/wiki/Chmod). По умолчанию: `0o666`. Принимает значения типа `number`, `string`.
 
 Возвращает объект, представляющий дескриптор файла.
@@ -192,9 +192,9 @@ class Dirent {
 
 **readdirSync(path, options)**
 
-* path — путь. Принимает значение типа `string`. Required parameter.
+* path — path. It takes the value of the `string` type. Required parameter.
 * options (необязательный параметр):
-   * withFileTypes — параметр, определяющий тип возвращаемого значения функции. По умолчанию: `false`.
+   * withFileTypes — параметр, определяющий тип возвращаемого значения функции. By default: `false`.
 
 Читает содержимое каталога. Если `withFileTypes` — `false`, возвращает массив строк. Если `true`, то возвращает массив объектов `Dirent`.
 
@@ -219,11 +219,11 @@ class Dirent {
 
 **readSync(fd, buffer, offset, length, position)**
 
-* fd — файловый дескриптор. Принимает значение `FileHandle`.
+* fd — file descriptor. Принимает значение `FileHandle`.
 * buffer — буфер, в который записываются данные. Принимает значения `ArrayBuffer`, `ArrayBufferView`. Required parameter.
-* offset — позиция `buffer` для записи данных. Необязательный параметр. Принимает значение `number`.
-* length — количество байт для чтения. Необязательный параметр. Принимает значение `number`.
-* position — указывает, с какого места начать чтение в файле. Если `position` равно **null** или **-1**, то данные будут считаны из текущей позиции в файле, и позиция в файле изменится. Если `position` — целое число, то текущая позиция в файле не изменяется. Необязательный параметр. Принимает значение `number`.
+* offset — позиция `buffer` для записи данных. The optional parameter. Принимает значение `number`.
+* length — количество байт для чтения. The optional parameter. Принимает значение `number`.
+* position — указывает, с какого места начать чтение в файле. Если `position` равно **null** или **-1**, то данные будут считаны из текущей позиции в файле, и позиция в файле изменится. Если `position` — целое число, то текущая позиция в файле не изменяется. The optional parameter. Принимает значение `number`.
 
 Читает в буфер указанный диапазон байтов из файла. Возвращает число прочитанных байт.
 
@@ -234,7 +234,7 @@ class Dirent {
 
 **realpathSync(path)**
 
-* path — путь. Принимает значение типа `string`. Required parameter.
+* path — path. It takes the value of the `string` type. Required parameter.
 
 Возвращает полный путь.
 
@@ -245,8 +245,8 @@ class Dirent {
 
 **renameSync(oldPath, newPath)**
 
-* oldPath — старый путь. Принимает значение типа `string`. Required parameter.
-* newPath — новый путь. Принимает значение типа `string`. Required parameter.
+* oldPath — old path. It takes the value of the `string` type. Required parameter.
+* newPath — new path. It takes the value of the `string` type. Required parameter.
 
 Переименовывает файл из `oldPath` в `newPath`. Возвращает `undefined`.
 
@@ -257,9 +257,9 @@ class Dirent {
 
 **rmdirSync(path, options)**
 
-* path — путь до каталога. Принимает значение типа `string`. Required parameter.
+* path — путь до каталога. It takes the value of the `string` type. Required parameter.
 * options (необязательный параметр):
-   * recursive. Принимает значение типа `boolean`. Если `true`, выполнить рекурсивное удаление каталога. По умолчанию: `false`.
+   * recursive. It takes the value of the `boolean` type. Если `true`, выполнить рекурсивное удаление каталога. By default: `false`.
 
 Удаляет папку. Возвращает `undefined`.
 
@@ -270,10 +270,10 @@ class Dirent {
 
 **rmSync(path, options)**
 
-* path — путь. Принимает значение типа `string`. Required parameter.
+* path — path. It takes the value of the `string` type. Required parameter.
 * options (необязательный параметр):
-   * force. Принимает значение типа `boolean`. Когда `true`, исключение будет игнорироваться, если путь не существует. По умолчанию: `false`.
-   * recursive. Принимает значение типа `boolean`. Если `true`, выполнить рекурсивное удаление каталога. По умолчанию: `false`.
+   * force. It takes the value of the `boolean` type. Когда `true`, исключение будет игнорироваться, если путь не существует. By default:
+   * recursive. It takes the value of the `boolean` type. Если `true`, выполнить рекурсивное удаление каталога. By default: `false`.
 
 Удаляет файлы и каталоги. Возвращает `undefined`.
 
@@ -284,9 +284,9 @@ class Dirent {
 
 **statSync(path, options)**
 
-* path — путь. Принимает значение типа `string`. Required parameter.
+* path — path. It takes the value of the `string` type. Required parameter.
 * options (необязательный параметр):
-   * throwIfNoEntry. Принимает значение типа `boolean`. Будет ли выдано исключение, если путь в файловой системе не существует. По умолчанию: `true`.
+   * throwIfNoEntry. It takes the value of the `boolean` type. Будет ли выдано исключение, если путь в файловой системе не существует. По умолчанию: `true`.
 
 Возвращает объект [Stats](https://help.loginom.ru/userguide/processors/programming/java-script/fileapi.html#class-stats) для `path`.
 
@@ -297,7 +297,7 @@ class Dirent {
 
 **truncateSync(path, len)**
 
-* path — путь. Принимает значение типа `string`. Required parameter.
+* path — path. It takes the value of the `string` type. Required parameter.
 * len — необязательный параметр, который указывает размер в байтах. It takes the value of the `number` type.
 
 Устанавливает длину обычного файла с именем `path` в `len` байт. Если файл до этой операции был длиннее, то отсеченные данные теряются. Если файл был короче, то он увеличивается, а добавленная часть заполняется нулевыми байтами. Возвращает `undefined`.
@@ -309,7 +309,7 @@ class Dirent {
 
 **function unlinkSync(path)**
 
-* path — путь. Принимает значение типа `string`. Required parameter.
+* path — path. It takes the value of the `string` type. Required parameter.
 
 Удаляет файл. Возвращает `undefined`.
 
@@ -324,8 +324,8 @@ class Dirent {
 * data — содержимое файла. Принимает значения типа `ArrayBuffer`, `ArrayBufferView`. Required parameter.
 * options (необязательный параметр):
    * encoding — кодировка файла. По умолчанию: **'utf8'**.
-   * [flag](https://help.loginom.ru/userguide/processors/programming/java-script/fileapi.html#flagi-faylovoy-sistemy) — флаг файловой системы. По умолчанию: **'r'**.
-   * writeBOM — запись BOM. Принимает значение типа `boolean`.
+   * [flag](https://help.loginom.ru/userguide/processors/programming/java-script/fileapi.html#flagi-faylovoy-sistemy) — флаг файловой системы. By default: **'r'**.
+   * writeBOM — запись BOM. It takes the value of the `boolean` type.
    * mode. Влияет на права доступа к файлу. [Подробнее](https://ru.wikipedia.org/wiki/Chmod). Принимает значение типа `number`.
 
 Записывает данные в файл, создавая новый, если он не существует. Возвращает `undefined`.
@@ -337,11 +337,11 @@ class Dirent {
 
 **writeSync(fd, buffer, offset, length, position)**
 
-* fd — файловый дескриптор. Принимает значение `FileHandle`.
+* fd — file descriptor. Принимает значение `FileHandle`.
 * buffer — буфер, в который записываются данные. Принимает значения `ArrayBuffer`, `ArrayBufferView`. Required parameter.
-* offset — позиция `buffer` для записи данных. Необязательный параметр. Принимает значение `number`.
-* length — количество байт для чтения. Необязательный параметр. Принимает значение `number`.
-* position — указывает, с какого места начать чтение в файле. Необязательный параметр. Принимает значение `number`.
+* offset — позиция `buffer` для записи данных. The optional parameter. Принимает значение `number`.
+* length — количество байт для чтения. The optional parameter. Принимает значение `number`.
+* position — указывает, с какого места начать чтение в файле. The optional parameter. Принимает значение `number`.
 
 Записывает `buffer` в указанный файл.
 

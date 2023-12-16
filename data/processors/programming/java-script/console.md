@@ -18,7 +18,7 @@ The `error` logging level:
 **assert([assertion, msg1 , ..., msgN])**
 
 - assertion means any boolean expression. If the expression is false, the error message is output to the console.
-- msg1...msgN — список JavaScript объектов на вывод. The string representation of these objects will be combined in the order specified in the list. It will be output to the console.
+- msg1...msgN: a list of the JavaScript of objects to be displayed. The string representation of these objects will be combined in the order specified in the list. It will be output to the console.
 
 It shows the error message, if the first parameter = `false`. Otherwise, the message is not shown.
 

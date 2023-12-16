@@ -15,7 +15,7 @@ As the first port is in the *JavaScript* node by default, there is a separate `I
 
 **Columns**
 
-It contains read-only collection of columns. Возвращает объект, реализующий интерфейс `IIntputColumns`. Элементы коллекции — объекты, реализующие интерфейс `IIntputColumn` (см. [Полное описание API](./api-description.md)).
+It contains read-only collection of columns. Возвращает объект, реализующий интерфейс `IIntputColumns`. Элементы коллекции — объекты, реализующие интерфейс `IIntputColumn` (см. [Full API Description](./api-description.md)).
 
 %/spoiler%
 

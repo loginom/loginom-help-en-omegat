@@ -9,9 +9,9 @@ description: Компонент Python в Loginom. Перечисления. Т�
 
 ### DataType
 
-Представляет [типы данных Loginom](./../../../data/datatype.md). Enumeration items:
+It provides the [Megaladata data types](./../../../data/datatype.md). Enumeration items:
 
-| Name | Value | Представляемый тип данных |
+| Name | Value | Represented type of data |
 | :-------- | :------  | :------ |
 | None | 0 | ![](./../../../images/icons/common/usage-types/unspecified_default.svg) No data type specified |
 | Boolean | 1 | ![](./../../../images/icons/common/data-types/boolean_default.svg) Logical |
@@ -23,9 +23,9 @@ description: Компонент Python в Loginom. Перечисления. Т�
 
 ### DataKind
 
-Представляет [виды данных Loginom](./../../../data/datakind.md). Enumeration items:
+It provides the [Megaladata data kinds](./../../../data/datakind.md). Enumeration items:
 
-| Name | Value | Представляемый вид данных |
+| Name | Value | Represented data kind |
 | :-------- | :------  | :------ |
 | Undefined | 0 | ![](./../../../images/icons/common/usage-types/unspecified_default.svg) No data kind defined |
 | Continuous | 1 | ![](./../../../images/icons/common/data-types/continuous_default.svg) Continuous |
@@ -33,9 +33,9 @@ description: Компонент Python в Loginom. Перечисления. Т�
 
 ### UsageType
 
-Представляет [назначение полей Loginom](./../../../data/datasetfieldfeatures.md). Enumeration items:
+It provides the [Megaladata fields usage type](./../../../data/datasetfieldfeatures.md). Enumeration items:
 
-| Name | Value | Представляемое назначение поля |
+| Name | Value | Represented field usage type |
 | :-------- | :------  | :------ |
 | Unspecified | 0 | ![](./../../../images/icons/common/usage-types/unspecified_default.svg) No usage type specified |
 | Excluded | 1 | ![](./../../../images/icons/common/usage-types/unused_default.svg) Excluded |

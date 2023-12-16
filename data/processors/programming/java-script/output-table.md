@@ -69,7 +69,7 @@ The method returns the boolean `true` value if the column in the set string has 
 
 **AssignColumns(array)**
 
-- array — итерируемый объект, содержащий значения типа `string` или объекты, реализующих интерфейс `IColumnInfo` (см. [Полное описание API](./api-description.md)).
+- array — итерируемый объект, содержащий значения типа `string` или объекты, реализующих интерфейс `IColumnInfo` (см. [Full API Description](./api-description.md)).
 
 Метод создает столбцы выходного набора из коллекции имен столбцов или объектов, реализующих интерфейс `IColumnInfo`.
 
@@ -79,9 +79,9 @@ The method returns the boolean `true` value if the column in the set string has 
 
 **AddColumn(columninfo)**
 
-- columninfo — значение типа `string` или объект, реализующий интерфейс `IColumnInfo` (см. [Полное описание API](./api-description.md)). Необязательный аргумент.
+- columninfo — значение типа `string` или объект, реализующий интерфейс `IColumnInfo` (см. [Full API Description](./api-description.md)). The optional argument.
 
-Метод добавляет столбец в конец списка столбцов выходного набора, принимая в качестве аргумента имя столбца или объект, реализующий интерфейс `IColumnInfo`. Возвращает объект, реализующий интерфейс `IOutputColumn` (см. [Полное описание API](./api-description.md)).
+Метод добавляет столбец в конец списка столбцов выходного набора, принимая в качестве аргумента имя столбца или объект, реализующий интерфейс `IColumnInfo`. Возвращает объект, реализующий интерфейс `IOutputColumn` (см. [Full API Description](./api-description.md)).
 
 %/spoiler%
 
@@ -90,7 +90,7 @@ The method returns the boolean `true` value if the column in the set string has 
 **InsertColumn(col, columninfo)**
 
 - col — индекса столбца. It takes the value of the `number` type.
-- columninfo — объект, реализующий интерфейс `IColumnInfo` (см. [Full API Description](./api-description.md)). Необязательный аргумент.
+- columninfo — объект, реализующий интерфейс `IColumnInfo` (см. [Full API Description](./api-description.md)). The optional argument.
 
 Метод вставляет столбец по заданному индексу в выходной набор. Возвращает объект, реализующий интерфейс `IOutputColumn` (см. [Full API Description](./api-description.md)).
 

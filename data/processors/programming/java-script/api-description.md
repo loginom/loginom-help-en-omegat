@@ -51,23 +51,23 @@ interface Console {
     // clear method enables to clean the message console in the preview window
     clear(): void;
 }  
-// Функция позволяет отложить выполнение функции
+// The function enables to delay execution of function
 function setTimeout(callback: Function, delay: number = 0, ...args: any[]): number;  
 
-// Функция отменяет таймаут, установленный вызовом setTimeout 
+// The function cancels the timeout set by call setTimeout 
 function clearTimeout(timeoutID: number): void; 
 
-// Функция кодирует в base-64 строку бинарных данных
+// The function encodes in base-64 string of the binary data
 function btoa(text: string, encoding?: "utf-8"): string;
 
-// Функция декодирует строку, закодированную c использованием base-64
+// The function decodes the string encoded with usage of base-64
 function atob(text: string, encoding?: "utf-8"): string;
 
 ```
 
 ## "builtIn/Data" built-in module
 
-Объекты модуля "builtIn/Data" предоставляют доступ к портам узла JavaScript. By default, the node code contains the import string of these objects.
+Objects of "builtIn/Data" module provide access to the JavaScript node ports. By default, the node code contains the import string of these objects.
 
 ```typescript
 const InputTable: IDataSource;      // Source of the data from the first port
@@ -215,10 +215,10 @@ interface IVariables {
 
 ## "builtIn/Fetch" built-in module
 
-`Fetch API` — интерфейс для работы с запросами и ответами HTTP, предоставляет возможность взаимодействия с ресурсами сети непосредственно из узла JavaScript.
+`Fetch API`: interface for working with HTTP requests and responses. It provides an opportunity of interaction with the network resources directly from the JavaScript node.
 
 ```typescript
-// Представление заголовков запроса и ответа
+// View of request and response headers
 interface Headers {
     append(name: string, value: string): void;
     delete(name: string): void;
@@ -295,7 +295,7 @@ function fetch(url: Request|string, init?: RequestInit): Promise<Response>;
 
 ## "builtIn/FS" built-in module
 
-`File Storage API` — file system operation interface. Представляет набор функций для выполнения различных операций с файлами и папками непосредственно из узла JavaScript.
+`File Storage API` — file system operation interface. It provides a set of functions for execution of different operations with files and folders directly from the JavaScript node.
 
 ```typescript
 
@@ -318,8 +318,8 @@ namespace constants {
 }
 
 type Encoding = "utf8" | "utf-8" | "utf16le" | "ucs2" | "ucs-2" | "latin1" | "binary"; 
-// или явное указание номера кодовой страницы однобайтовой кодировки в формате cp<CodePageNumber>, например, cp1252
-// или явное указание номера кодовой страницы iso-8859 в формате "iso-8859-<номер>", например, iso-8859-1
+// or explicit specification of the code page number of single-byte encoding in cp<CodePageNumber> format, for example, cp1252
+// or explicit specification of the code page number iso-8859 in the following format: "iso-8859-<number>", for example, iso-8859-1
 type OpenMode = number | string;
 type Mode = number | string;
 

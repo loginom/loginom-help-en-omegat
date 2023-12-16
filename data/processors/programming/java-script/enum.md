@@ -9,9 +9,9 @@ The enumerations describing the fields and variables metadata is built in within
 
 ### DataType
 
-Представляет [типы данных Loginom](./../../../data/datatype.md). Enumeration items:
+It provides the [Megaladata data types](./../../../data/datatype.md). Enumeration items:
 
-| Name | Value | Представляемый тип данных |
+| Name | Value | Represented type of data |
 | :-------- | :------  | :------ |
 | None | 0 | ![](./../../../images/icons/common/usage-types/unspecified_default.svg) No data type specified |
 | Boolean | 1 | ![](./../../../images/icons/common/data-types/boolean_default.svg) Logical |
@@ -23,9 +23,9 @@ The enumerations describing the fields and variables metadata is built in within
 
 ### DataKind
 
-Представляет [виды данных Loginom](./../../../data/datakind.md). Enumeration items:
+It provides the [Megaladata data kinds](./../../../data/datakind.md). Enumeration items:
 
-| Name | Value | Представляемый вид данных |
+| Name | Value | Represented data kind |
 | :-------- | :------  | :------ |
 | Undefined | 0 | ![](./../../../images/icons/common/usage-types/unspecified_default.svg) No data kind defined |
 | Continuous | 1 | ![](./../../../images/icons/common/data-types/continuous_default.svg) Continuous |
@@ -33,15 +33,15 @@ The enumerations describing the fields and variables metadata is built in within
 
 ### UsageType
 
-Представляет [назначение полей Loginom](./../../../data/datasetfieldfeatures.md). Enumeration items:
+It provides the [Megaladata fields usage type](./../../../data/datasetfieldfeatures.md). Enumeration items:
 
-| Name | Value | Представляемое назначение поля |
+| Name | Value | Represented field usage type |
 | :-------- | :------  | :------ |
 | Unspecified | 0 | ![](./../../../images/icons/common/usage-types/unspecified_default.svg) No usage type specified |
 | Excluded | 1 | ![](./../../../images/icons/common/usage-types/unused_default.svg) Excluded |
 | Useless | 2 | ![](./../../../images/icons/common/usage-types/useless_default.svg) Useless |
-| Active (синонимы: Used, Input) | 3 | ![](./../../../images/icons/common/usage-types/active_default.svg) Active |
-| Predicted (синоним: Output) | 4 | ![](./../../../images/icons/common/usage-types/predicted_default.svg) Predicted |
+| Active (synonyms: Used, Input) | 3 | ![](./../../../images/icons/common/usage-types/active_default.svg) Active |
+| Predicted (synonym: Output) | 4 | ![](./../../../images/icons/common/usage-types/predicted_default.svg) Predicted |
 | Key | 5 | ![](./../../../images/icons/common/usage-types/source_default.svg) Key |
 | Group | 6 | ![](./../../../images/icons/common/usage-types/group_default.svg) Group |
 | Value | 7 | ![](./../../../images/icons/common/usage-types/value_default.svg) Value |
