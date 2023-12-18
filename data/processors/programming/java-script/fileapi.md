@@ -167,7 +167,7 @@ It returns the [Stats](https://help.loginom.ru/userguide/processors/programming/
 
 * path — path. It takes the value of the `string` type. Required parameter.
 * options (optional parameter):
-   * recursive. Указывает, следует ли создавать родительские каталоги. It takes the value of the `boolean` type. By default: `false`.
+   * recursive. It specifies whether it is required to create parent directories. It takes the value of the `boolean` type. By default: `false`.
    * mode. It is not used with Windows. By default: `0o777`.
 
 It creates a directory.  It returns `undefined`.
