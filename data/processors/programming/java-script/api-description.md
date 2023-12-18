@@ -65,7 +65,7 @@ function atob(text: string, encoding?: "utf-8"): string;
 
 ```
 
-## "builtIn/Data" built-in module
+## built-in "builtIn/Data" module
 
 Objects of "builtIn/Data" module provide access to the JavaScript node ports. By default, the node code contains the import string of these objects.
 
@@ -213,7 +213,7 @@ interface IVariables {
 
 ```
 
-## "builtIn/Fetch" built-in module
+## built-in "builtIn/Fetch" module
 
 `Fetch API`: interface for working with HTTP requests and responses. It provides an opportunity of interaction with the network resources directly from the JavaScript node.
 
@@ -293,7 +293,7 @@ declare var Response: {
 function fetch(url: Request|string, init?: RequestInit): Promise<Response>;
 ```
 
-## "builtIn/FS" built-in module
+## built-in "builtIn/FS" module
 
 `File Storage API` — file system operation interface. It provides a set of functions for execution of different operations with files and folders directly from the JavaScript node.
 
