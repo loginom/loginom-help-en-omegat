@@ -154,9 +154,9 @@ It returns the [Stats](https://help.loginom.ru/userguide/processors/programming/
 
 * path — path. It takes the value of the `string` type. Required parameter.
 * options (optional parameter):
-   * throwIfNoEntry. It takes the value of the `boolean` type. Будет ли выдано исключение, если путь в файловой системе не существует. By default: `true`.
+   * throwIfNoEntry. It takes the value of the `boolean` type. An exception will be made, if there is no path in the file system. By default: `true`.
 
-It returns the [Stats](https://help.loginom.ru/userguide/processors/programming/java-script/fileapi.html#class-stats) for `path`. Если `path` — это путь символической ссылки, то возвращает информацию о самой ссылке.
+It returns the [Stats](https://help.loginom.ru/userguide/processors/programming/java-script/fileapi.html#class-stats) for `path`. If `path` is a path to the symbolic link, it returns information on the link as such.
 
 %/spoiler%
 
@@ -183,7 +183,7 @@ It creates a directory.  It returns `undefined`.
 * [flags](https://help.loginom.ru/userguide/processors/programming/java-script/fileapi.html#flagi-faylovoy-sistemy) — флаги файловой системы. Определяют, в каком режиме открыть файл. The optional parameter. By default: `r`.
 * mode. Устанавливает права доступа к файлу, когда он создаётся. На Windows влияет на атрибут файла «Только чтение». [Show detailes](https://ru.wikipedia.org/wiki/Chmod). By default: `0o666`. It takes the values of the `number`, `string` types.
 
-Возвращает объект, представляющий дескриптор файла.
+It returns the object that represents the file descriptor.
 
 %/spoiler%
 
@@ -194,7 +194,7 @@ It creates a directory.  It returns `undefined`.
 
 * path — path. It takes the value of the `string` type. Required parameter.
 * options (optional parameter):
-   * withFileTypes — параметр, определяющий тип возвращаемого значения функции. By default: `false`.
+   * withFileTypes — parameter that defines the functuin return value type. By default: `false`.
 
 It reads the directory contents. If `withFileTypes` — `false`, it returns array of strings. If it is `true`, it returns array of the `Dirent` objects.
 
@@ -210,7 +210,7 @@ It reads the directory contents. If `withFileTypes` — `false`, it returns arra
    * encoding — file encoding. By default: **'utf8'**.
    * [flag](https://help.loginom.ru/userguide/processors/programming/java-script/fileapi.html#flagi-faylovoy-sistemy) — file system checkbox. By default: **'r'**.
 
-Возвращает содержимое файла `path`. Если `encoding` опция указана, то функция возвращает строку, в противном случае возвращает `ArrayBuffer`.
+It returns `path` file content. Если `encoding` опция указана, то функция возвращает строку, в противном случае возвращает `ArrayBuffer`.
 
 %/spoiler%
 
@@ -225,7 +225,7 @@ It reads the directory contents. If `withFileTypes` — `false`, it returns arra
 * length — количество байт для чтения. The optional parameter. It takes the value of the `number` type.
 * position — указывает, с какого места начать чтение в файле. Если `position` равно **null** или **-1**, то данные будут считаны из текущей позиции в файле, и позиция в файле изменится. Если `position` — целое число, то текущая позиция в файле не изменяется. The optional parameter. It takes the value of the `number` type.
 
-Читает в буфер указанный диапазон байтов из файла. Возвращает число прочитанных байт.
+Читает в буфер указанный диапазон байтов из файла. It returns the number of read bytes.
 
 %/spoiler%
 
@@ -236,7 +236,7 @@ It reads the directory contents. If `withFileTypes` — `false`, it returns arra
 
 * path — path. It takes the value of the `string` type. Required parameter.
 
-Возвращает полный путь.
+аIt returns the full path.
 
 %/spoiler%
 
@@ -248,7 +248,7 @@ It reads the directory contents. If `withFileTypes` — `false`, it returns arra
 * oldPath — old path. It takes the value of the `string` type. Required parameter.
 * newPath — new path. It takes the value of the `string` type. Required parameter.
 
-Переименовывает файл из `oldPath` в `newPath`. It returns `undefined`.
+It renames the file from `oldPath` to `newPath`. It returns `undefined`.
 
 %/spoiler%
 
@@ -257,9 +257,9 @@ It reads the directory contents. If `withFileTypes` — `false`, it returns arra
 
 **rmdirSync(path, options)**
 
-* path — путь до каталога. It takes the value of the `string` type. Required parameter.
+* path — path to directory. It takes the value of the `string` type. Required parameter.
 * options (optional parameter):
-   * recursive. It takes the value of the `boolean` type. Если `true`, выполнить рекурсивное удаление каталога. By default: `false`.
+   * recursive. It takes the value of the `boolean` type. If it is `true`, recursive directory deletion is to be performed. By default: `false`.
 
 It deletes a folder. It returns `undefined`.
 
@@ -273,9 +273,9 @@ It deletes a folder. It returns `undefined`.
 * path — path. It takes the value of the `string` type. Required parameter.
 * options (optional parameter):
    * force. It takes the value of the `boolean` type. Когда `true`, исключение будет игнорироваться, если путь не существует. By default:
-   * recursive. It takes the value of the `boolean` type. Если `true`, выполнить рекурсивное удаление каталога. By default: `false`.
+   * recursive. It takes the value of the `boolean` type. If it is `true`, recursive directory deletion is to be performed. By default: `false`.
 
-Удаляет файлы и каталоги. It returns `undefined`.
+It deletes files and directories. It returns `undefined`.
 
 %/spoiler%
 
@@ -286,7 +286,7 @@ It deletes a folder. It returns `undefined`.
 
 * path — path. It takes the value of the `string` type. Required parameter.
 * options (optional parameter):
-   * throwIfNoEntry. It takes the value of the `boolean` type. Будет ли выдано исключение, если путь в файловой системе не существует. By default: `true`.
+   * throwIfNoEntry. It takes the value of the `boolean` type. An exception will be made, if there is no path in the file system. By default: `true`.
 
 It returns the [Stats](https://help.loginom.ru/userguide/processors/programming/java-script/fileapi.html#class-stats) for `path`.
 
