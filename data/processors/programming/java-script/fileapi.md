@@ -154,9 +154,9 @@ It returns the [Stats](https://help.loginom.ru/userguide/processors/programming/
 
 * path — path. It takes the value of the `string` type. Required parameter.
 * options (optional parameter):
-   * throwIfNoEntry. It takes the value of the `boolean` type. Будет ли выдано исключение, если путь в файловой системе не существует. По умолчанию: `true`.
+   * throwIfNoEntry. It takes the value of the `boolean` type. Будет ли выдано исключение, если путь в файловой системе не существует. By default: `true`.
 
-Возвращает объект [Stats](https://help.loginom.ru/userguide/processors/programming/java-script/fileapi.html#class-stats) для `path`. Если `path` — это путь символической ссылки, то возвращает информацию о самой ссылке.
+It returns the [Stats](https://help.loginom.ru/userguide/processors/programming/java-script/fileapi.html#class-stats) for `path`. Если `path` — это путь символической ссылки, то возвращает информацию о самой ссылке.
 
 %/spoiler%
 
@@ -181,7 +181,7 @@ It creates a directory.  It returns `undefined`.
 
 * path — path. It takes the value of the `string` type. Required parameter.
 * [flags](https://help.loginom.ru/userguide/processors/programming/java-script/fileapi.html#flagi-faylovoy-sistemy) — флаги файловой системы. Определяют, в каком режиме открыть файл. The optional parameter. By default: `r`.
-* mode. Устанавливает права доступа к файлу, когда он создаётся. На Windows влияет на атрибут файла «Только чтение». [Подробнее](https://ru.wikipedia.org/wiki/Chmod). By default: `0o666`. Принимает значения типа `number`, `string`.
+* mode. Устанавливает права доступа к файлу, когда он создаётся. На Windows влияет на атрибут файла «Только чтение». [Show detailes](https://ru.wikipedia.org/wiki/Chmod). By default: `0o666`. It takes the values of the `number`, `string` types.
 
 Возвращает объект, представляющий дескриптор файла.
 
@@ -223,7 +223,7 @@ It reads the directory contents. If `withFileTypes` — `false`, it returns arra
 * buffer — буфер, в который записываются данные. It takes the values of the `ArrayBuffer`, `ArrayBufferView` types. Required parameter.
 * offset — позиция `buffer` для записи данных. The optional parameter. It takes the value of the `number` type.
 * length — количество байт для чтения. The optional parameter. It takes the value of the `number` type.
-* position — указывает, с какого места начать чтение в файле. Если `position` равно **null** или **-1**, то данные будут считаны из текущей позиции в файле, и позиция в файле изменится. Если `position` — целое число, то текущая позиция в файле не изменяется. The optional parameter. Принимает значение `number`.
+* position — указывает, с какого места начать чтение в файле. Если `position` равно **null** или **-1**, то данные будут считаны из текущей позиции в файле, и позиция в файле изменится. Если `position` — целое число, то текущая позиция в файле не изменяется. The optional parameter. It takes the value of the `number` type.
 
 Читает в буфер указанный диапазон байтов из файла. Возвращает число прочитанных байт.
 
@@ -288,7 +288,7 @@ It deletes a folder. It returns `undefined`.
 * options (optional parameter):
    * throwIfNoEntry. It takes the value of the `boolean` type. Будет ли выдано исключение, если путь в файловой системе не существует. By default: `true`.
 
-Возвращает объект [Stats](https://help.loginom.ru/userguide/processors/programming/java-script/fileapi.html#class-stats) для `path`.
+It returns the [Stats](https://help.loginom.ru/userguide/processors/programming/java-script/fileapi.html#class-stats) for `path`.
 
 %/spoiler%
 
@@ -321,12 +321,12 @@ It deletes a file. It returns `undefined`.
 **writeFileSync(path, data, options)**
 
 * path — path or file descriptor. It takes the values of the `string`, `FileHandle` types. Required parameter.
-* data — содержимое файла. Принимает значения типа `ArrayBuffer`, `ArrayBufferView`. Required parameter.
+* data — file content. Принимает значения типа `ArrayBuffer`, `ArrayBufferView`. Required parameter.
 * options (optional parameter):
    * encoding — file encoding. By default: **'utf8'**.
    * [flag](https://help.loginom.ru/userguide/processors/programming/java-script/fileapi.html#flagi-faylovoy-sistemy) — file system checkbox. By default: **'r'**.
    * writeBOM — write BOM. It takes the value of the `boolean` type.
-   * mode. Влияет на права доступа к файлу. [Подробнее](https://ru.wikipedia.org/wiki/Chmod). Принимает значение типа `number`.
+   * mode. Влияет на права доступа к файлу. [Show detailes](https://ru.wikipedia.org/wiki/Chmod). It takes the value of the `number` type.
 
 Записывает данные в файл, создавая новый, если он не существует. It returns `undefined`.
 
