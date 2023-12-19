@@ -5,9 +5,9 @@ description: Переменные сценария в аналитической
 
 The [ports](./../ports/README.md) of the Workflow variables are located in the upper left corner of the Workflow construction area:
 
-* ![ ](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Variables** represent the final set of all Workflow variables listed below. Переменные недоступны для редактирования.
-* ![ ](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) **System variables** represent a set of variables of the operating system environment. It is read from the system settings. Переменные недоступны для редактирования.
-* ![ ](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Session variables** represent a set of variables of the current session. Переменные недоступны для редактирования.
+* ![ ](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Variables** represent the final set of all Workflow variables listed below. Variables cannot be edited.
+* ![ ](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) **System variables** represent a set of variables of the operating system environment. It is read from the system settings. Variables cannot be edited.
+* ![ ](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Session variables** represent a set of variables of the current session. Variables cannot be edited.
 * ![ ](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Package variables** represent a set of variables of the current Package. [Предопределенные переменные](./../../workflow/variables/predefined-variables.md#peremennye-paketa) недоступны для редактирования.
 * ![ ](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) **User variables** represent a set of variables set by the user of the current Workflow.
 * ![ ](./../../images/icons/app/node/ports/submodel-port/submodel-port_20x20.svg) enables to call the action menu of ports of the Workflow variables. It is used during the Workflow debugging.

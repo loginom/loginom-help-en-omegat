@@ -7,7 +7,7 @@ description: Компонент JavaScript в Loginom. Описание. Про�
 ## Description
 
 The node creates a new data set with the set composition and features of fields. It appends data to it during the JavaScript code execution. To append the output data set, it is possible to use the data of the input ports in the code.
-Состав и параметры полей выходного набора могут задаваться как в мастере настройки узла, так и из кода JavaScript.
+Composition and features of the output data set fields can be set both in the node wizard and from the JavaScript code.
 
 ### Input
 
@@ -23,10 +23,10 @@ The node creates a new data set with the set composition and features of fields.
 
 The following configuration stages are successively executed:
 
-* Настройка столбцов выходной таблицы;
+* Configure columns of output table.
 * JavaScript.
 
-### Настройка столбцов выходной таблицы
+### Configure columns of output table
 
 Столбцы выходного набора можно задать как на странице *Настройка столбцов выходной таблицы JavaScript* мастера, так и динамически, в ходе исполнения кода JavaScript. При установке флага *Разрешить формировать выходные столбцы из кода* доступно динамическое создание, изменение и удаление выходных столбцов.
 

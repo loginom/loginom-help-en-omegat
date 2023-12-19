@@ -24,7 +24,7 @@ description: Компонент Python в Loginom. Доступ к входны�
 
 **ColumnCount**
 
-It contains read-only count of columns.  Возвращает значение типа `int`.
+It contains read-only count of columns.  It returns the value of the `int` type.
 
 %/spoiler%
 
@@ -32,7 +32,7 @@ It contains read-only count of columns.  Возвращает значение �
 
 **RowCount**
 
-It contains read-only count of rows. Возвращает значение типа `int`.
+It contains read-only count of rows. It returns the value of the `int` type.
 
 %/spoiler%
 
@@ -42,10 +42,10 @@ It contains read-only count of rows. Возвращает значение ти�
 
 **Get(row, col)**
 
-- row: row index. Принимает значение типа `int`.
-- col: column index or name. Принимает значение типов `int` или `str`.
+- row: row index. It takes the value of the `int` type.
+- col: column index or name. It takes the value of the `int` or `str` types.
 
-The method returns the value of the set column in the set string. Возвращаемое значение может иметь типы: `bool`, `int`, `float`, `str`, `datetime.datetime`, `None`.
+The method returns the value of the set column in the set string. The returned value can have the following types: `bool`, `int`, `float`, `str`, `datetime.datetime`, `None`.
 
 %/spoiler%
 
@@ -53,7 +53,7 @@ The method returns the value of the set column in the set string. Возвращ
 
 **GetColumn(col)**
 
-- col: column index or name. Принимает значение типов `int` или `str`.
+- col: column index or name. It takes the value of the `int` or `str` types.
 
 Метод возвращает столбец входного набора. Возвращаемое значение имеет тип `InputColumnClass`, унаследованный от `ColumnClass`, реализующий протокол *Sequence*. (refer to [Full API Description](./api-description.md)).
 
@@ -63,14 +63,14 @@ The method returns the value of the set column in the set string. Возвращ
 
 **IsNull(row, col)**
 
-- row: row index. Принимает значение типа `int`.
+- row: row index. It takes the value of the `int` type.
 - col: column index or name. Принимает значение типа `int` или `str`.
 
 The method returns the boolean `true` value if the column in the set string has the null value. Otherwise, the `false` value returns.
 
 %/spoiler%
 
-## Использование модуля builtin_pandas_utils
+## builtin_pandas_utils Module Use
 
 Для создания `pandas.DataFrame` по набору данных порта в модуле [builtin_pandas_utils](./api-description.md#modul-builtinpandasutils) реализован метод `to_data_frame`, принимающий в качестве аргумента значение типа `DataSourceClass` (см. пример ниже).
 

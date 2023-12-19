@@ -6,17 +6,17 @@ description: Компонент Python в Loginom. Создание нового
 
 ## Description
 
-Узел создает новый набор данных с заданным составом и параметрами полей и заполняет его данными в ходе выполнения кода **Python**. To append the output data set, it is possible to use the data of the input ports in the code.
+The node creates a new data set with the set composition and features of fields. It appends data to it during the **Python** code execution. To append the output data set, it is possible to use the data of the input ports in the code.
 
-Состав и параметры полей выходного набора могут задаваться как в мастере настройки узла, так и из кода Python.
+Composition and features of the output data set fields can be set both in the node wizard and from the Python code.
 
 > **Примечание:** Для работы узлов *Python* может потребоваться предварительная настройка Loginom и установка Python. Подробности в разделе [Параметры компонента: Python](./../../../admin/parameters.html#parametry-komponenta-python).
 
 ### Input
 
-* ![](./../../../images/icons/app/node/ports/outputs/table_inactive.svg) **Входной источник данных** (таблица данных), необязательный;
+* ![](./../../../images/icons/app/node/ports/outputs/table_inactive.svg) **Input data source** (data table), optional;
 * ![](./../../../images/icons/app/node/ports/add/add_inactive_default.svg) Add another port enables to create a new port - Input data source[N] where N is an order port number.
-* ![](./../../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) **Входные переменные** (переменные), необязательный.
+* ![](./../../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) **Input variables** (variables), optional.
 
 ### Output
 
@@ -26,10 +26,10 @@ description: Компонент Python в Loginom. Создание нового
 
 The following configuration stages are successively executed:
 
-* Настройка столбцов **Выходной таблицы** *Python*;
+* Configure columns of **Output Table** *Python*;
 * **Python** – ввод кода и предварительный просмотр результатов.
 
-### Настройка столбцов выходной таблицы
+### Configure columns of output table
 
 Столбцы выходного набора можно задать как на странице **Настройка столбцов выходной таблицы Python** мастера, так и динамически, в ходе исполнения кода Python. При установке флага **Разрешить формировать выходные столбцы из кода** доступно динамическое создание, изменение и удаление выходных столбцов.
 
@@ -47,7 +47,7 @@ The following configuration stages are successively executed:
 
 > **Примечание:** под Linux не поддерживается режим выполнения Python внутри процесса Loginom, следовательно, нет и настройки *Путь библиотеки*. Узлы *Python*, настроенные на выполнение внутри процесса, на Linux будут выполняться в отдельном процессе.
 
-Поддерживается импорт модулей Python (см. [Параметры компонента: Python](./../../../admin/parameters.html#parametry-komponenta-python)).
+Поддерживается импорт модулей Python (см. [Component parameters: Python](./../../../admin/parameters.html#parametry-komponenta-python)).
 
 Also refer to [Code editor hotkeys](./hotkeys.md)
 
@@ -94,27 +94,27 @@ When calling the *Preview* window or executing the node, the message informing a
 
 Относительно сохраненного пакета Loginom расположены следующие модули:
 
-- модуль `./foo/__init__.py`:
+- `./foo/__init__.py` module:
 
 ```python
 __all__ = ["module"]
 from .foo import cube
 ```
 
-- модуль `./foo/foo.py`:
+- `./foo/foo.py` module:
 
 ```python
 def cube(x):
     return x * x * x
 ```
 
-- модуль `./foo/module/__init__.py`:
+- `./foo/module/__init__.py` module:
 
 ```python
 from .module import say_hello
 ```
 
-- модуль `./foo/module/module.py`:
+- `./foo/module/module.py` module:
 
 ```python
 def say_hello():

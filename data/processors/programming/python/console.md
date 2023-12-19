@@ -11,12 +11,12 @@ description: Компонент Python в Loginom. Панель вывода с�
 ```python
 import sys, warnings
 
-#вывод в stdout
+#outputting to stdout
 print(sys.path[0])
 sys.stdout.write(str(99) + '\n')
 
-#вывод в stderr
-warnings.warn("Ошибка!")
+#outputting to stderr
+warnings.warn("Error!")
 try:
     а = 10 / 0
 except ZeroDivisionError as err:

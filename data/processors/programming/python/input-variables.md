@@ -19,7 +19,7 @@ It contains read-only collection of the input variables of the node. Элеме�
 
 **Count**
 
-It contains read-only count of the input node variables.  Возвращает значение типа `int`.
+It contains read-only count of the input node variables.  It returns the value of the `int` type.
 
 %/spoiler%
 
