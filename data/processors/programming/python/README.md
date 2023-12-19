@@ -10,7 +10,7 @@ The node creates a new data set with the set composition and features of fields.
 
 Composition and features of the output data set fields can be set both in the node wizard and from the Python code.
 
-> **Примечание:** Для работы узлов *Python* может потребоваться предварительная настройка Loginom и установка Python. Подробности в разделе [Параметры компонента: Python](./../../../admin/parameters.html#parametry-komponenta-python).
+> Note:** For *Python* nodes operation, Megaladata preset and Python installation can be required. More detailed information is provided in [Component Parameters: Python](./../../../admin/parameters.html#parametry-komponenta-python) section.
 
 ### Input
 
@@ -27,7 +27,7 @@ Composition and features of the output data set fields can be set both in the no
 The following configuration stages are successively executed:
 
 * Configure columns of **Output Table** *Python*;
-* **Python** – ввод кода и предварительный просмотр результатов.
+* **Python** – code setting and preview of results.
 
 ### Configure columns of output table
 
@@ -35,55 +35,55 @@ The output data set columns can be set on the following wizard page: **Configure
 
 ### Python
 
-Страница *Python* содержит редактор исполняемого узлом кода. Запускать написанный скрипт возможно внутри процесса Loginom или в отдельном процессе (в *Процессе интерпретатора*) при установке флага **Запускать в отдельном процессе**.
+The *Python* page contains editor of the code executed by the node. Запускать написанный скрипт возможно внутри процесса Loginom или в отдельном процессе (в *Процессе интерпретатора*) при установке флага **Запускать в отдельном процессе**.
 
 По кнопке [Предпросмотр…](./../../../visualization/preview/preview.md) в отдельном окне выводится до 100 первых строк результирующего набора данных и [панель вывода сообщений](./console.md).
 
 > **Note: It is possible to activate all input ports ** by pressing *Preview* button. The *Preview* window is opened if the activation has been successfully finished.
 
-При запуске скрипта на Python внутри процесса Loginom одновременно может выполняться только один узел *Python*, соответственно последующий в очереди запуска узел *Python* ожидает выполнения предыдущего. Максимальное время ожидания задается параметром **Тайм-аут ожидания запуска (мс)**. По умолчанию тайм-аут неограничен. Если время тайм-аута превышено, выполнение узла завершается с соответствующей ошибкой.
+При запуске скрипта на Python внутри процесса Loginom одновременно может выполняться только один узел *Python*, соответственно последующий в очереди запуска узел *Python* ожидает выполнения предыдущего. Максимальное время ожидания задается параметром **Тайм-аут ожидания запуска (мс)**. Timeout is not limited by default. If timeout time is exceeded, node execution is terminated with a corresponding error.
 
 При запуске исполняемого кода на Python в отдельном процессе может выполняться сразу несколько узлов *Python* параллельно, соответственно **Тайм-аут ожидания запуска (мс)** не поддерживается.
 
-> **Примечание:** под Linux не поддерживается режим выполнения Python внутри процесса Loginom, следовательно, нет и настройки *Путь библиотеки*. Узлы *Python*, настроенные на выполнение внутри процесса, на Linux будут выполняться в отдельном процессе.
+> **Note:** The Python execution mode is not supported in Linux inside the Megaladata process, consequently, there is no *Library path* setting. The *Python* nodes configured for execution inside the process will be executed in the separate process in Linux.
 
-Поддерживается импорт модулей Python (см. [Component parameters: Python](./../../../admin/parameters.html#parametry-komponenta-python)).
+Python modules import is supported (refer to [Component parameters: Python](./../../../admin/parameters.html#parametry-komponenta-python)).
 
 Also refer to [Code editor hotkeys](./hotkeys.md)
 
-## Доступ из кода Python к данным портов и другим встроенным объектам
+## Access from the Python code to port data and other built-in objects
 
-Для доступа к данным портов и другим встроенным объектам в контексте выполнения кода предусмотрены следующие объекты:
+To provide access to port data and other built-in objects, the following objects are provided in the context of the code execution :
 
 * [Input data sets](./input-tables.md) (`InputTables`, `InputTable`);
 * [Input variables](./input-variables.md) (`InputVariables`);
 * [Output data set](./output-table.md) (`OutputTable`);
 * [Required enumerations](./enum.md) (`DataType`, `DataKind`, `UsageType`).
 
-Вышеуказанные объекты импортируются из встроенного модуля `"builtin_data"`. The import string of these objects is added to the text of the code executed by the node by default.
+The objects specified above are imported from the built-in `"builtin_data"` module. The import string of these objects is added to the text of the code executed by the node by default.
 
 ## Processing of Errors
 
 When calling the *Preview* window or executing the node, the message informing about detected syntactic and execution errors is shown specifying position of the code with an error.
 
-## Особенности использования и ограничения
+## Special Aspects of Use and Restrictions
 
-* Минимальная поддерживаемая версия Python — 3.5.
-* Максимальная протестированная версия Python — 3.10.
-* Python из дистрибутива Anaconda не поддерживается.
-* Не поддерживаются модули пакета [multiprocessing](https://docs.python.org/3/library/multiprocessing.html).
-* Создание GUI-интерфейса из кода Python не является целевым назначением компонента *Python* и в некоторых случаях может приводить к неверной работе приложения. For example:
-   * работа узла не будет прекращена до завершения работы GUI-приложения. При работе в серверных редакциях Loginom пользователь, как правило, не имеет доступа к окну GUI-приложения.
-   * для работы `matplotlib` с бэкэндом [Qt](https://wiki.qt.io/About_Qt) и в целом с [PyQt](https://riverbankcomputing.com/software/pyqt/intro) требуется наличие файла [qt.conf](https://doc.qt.io/qt-5/qt-conf.html) с путями к библиотекам/плагинам Qt. При невозможности их найти, приложение Loginom будет принудительно завершено с сообщением об ошибке.
-* Оставленные незавершенными фоновые потоки могут приводить к аварийному завершению приложения.
-* В случае критических ошибок python3x.dll может аварийно завершить приложение. Рекомендуется использовать предварительно отлаженный код Python.
-* Одновременно может выполняться только один узел *Python*.
-* Остановить выполнение узла *Python* можно только между инструкциями интерпретатора.
+* Minimum supported Python version — 3.5.
+* Maximum tested Python version — 3.10.
+* Python from Anaconda distribution kit is not supported.
+* [multiprocessing](https://docs.python.org/3/library/multiprocessing.html) package modules are not supported.
+* Creation of GUI interface from the Python code is not designation of the *Python* component, and in some cases it can cause incorrect application operation. For example:
+   * node operation will not be terminated until GUI application operation is completed. As a rule, the Megaladata user does not have access to the GUI application window when working in the server editions.
+   * for `matplotlib` operation with [Qt](https://wiki.qt.io/About_Qt) backend and in general with [PyQt](https://riverbankcomputing.com/software/pyqt/intro), availability of [qt.conf](https://doc.qt.io/qt-5/qt-conf.html) file with paths to Qt libraries/plugins is required. If it is not possible to find them, the Megaladata application will be forcibly terminated with an error message.
+* The background threads left unterminated can cause application crash.
+* In the case of crytical errors python3x.dll can shut the application down. It is recommended to use preliminarily debugged Python code.
+* Only one *Python* node can be simultaneously executed.
+* It is possible to stop the *Python* node execution only between interpreter instructions.
 * [Virtual environments](https://docs.python.org/3/library/venv.html) can be used when setting *Interpreter path*.
 
-Код узла выполняется в модуле `__main__`. Таким образом выполняется условие `__name__ == '__main__'`, которое обычно используется для запуска скриптов.
+The node code is executed in `__main__` module. Таким образом выполняется условие `__name__ == '__main__'`, которое обычно используется для запуска скриптов.
 
-Поддерживается импорт модулей из [файлового хранилища](./../../../location_user_files.md). В коде узла:
+Import of modules from the [file storage](./../../../location_user_files.md) is supported. В коде узла:
 
 - Если пакет сохранен, то относительный путь к импортируемому модулю указывается от расположения пакета. [sys.path](https://docs.python.org/3/library/sys.html#sys.path) (`sys.path[0]`) содержит путь к директории пакета, в котором находится узел *Python*.
 - Если пакет не сохранен, то относительный путь к импортируемому модулю указывается от каталога пользователя. [sys.path](https://docs.python.org/3/library/sys.html#sys.path) (`sys.path[0]`) содержит путь к каталогу пользователя.
@@ -150,7 +150,7 @@ else:
 
 %/spoiler%
 
-Доступна глобальная функция `filestoragepath`, которая принимает путь в [файловом хранилище](./../../../location_user_files.md) и преобразует его в абсолютный путь в файловой системе. Дополнительных импортов для ее применения выполнять не нужно.
+Доступна глобальная функция `filestoragepath`, которая принимает путь в [файловом хранилище](./../../../location_user_files.md) и преобразует его в абсолютный путь в файловой системе. No additional imports are required for its application.
 
 %spoiler%Example:%spoiler%
 

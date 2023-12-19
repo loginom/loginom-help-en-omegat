@@ -133,7 +133,7 @@ The introduced changes take effect upon pressing ![](./../images/icons/common/to
 
 For *Python* nodes operation, it is required to take into account the following peculiarities and restrictions:
 
-* Maximum supported Python version — 3.5.
+* Minimum supported Python version — 3.5.
 * Maximum tested Python version — 3.10.
 * Creation of GUI interface from the Python code is not designation of the *Python* component, and in some cases it can cause incorrect application operation. For example:
    * node operation will not be terminated until GUI application operation is completed. As a rule, the Megaladata user does not have access to the GUI application window when working in the server editions.

@@ -168,7 +168,7 @@ interface IOutputTable extends IDataSource {
     readonly Columns: IOutputColumns;                                       // List of columns
     // Метод AssignColumns creates columns from iterated source
     AssignColumns(source: Iteratable<string | IColumnInfo>): void;
-    // Метод GetColumn returns the output data set column
+    // The GetColumn method returns the output data set column
     GetColumn(col: number | string): IOutputColumn;
     // Метод AddColumn adds column to the column list end.
     AddColumn(source?: string | IColumnInfo): IOutputColumn;

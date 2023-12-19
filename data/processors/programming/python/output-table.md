@@ -3,7 +3,7 @@ description: Компонент Python в Loginom. Доступ к выходн�
 ---
 # ![](./../../../images/icons/components/python_default.svg) Access to the Output Data Set
 
-Для доступа к данным выходного порта используется объект типа `OutputTable`.
+For access to the output port data, the `OutputTable` object is used.
 
 ## OutputTable Properties
 
@@ -11,7 +11,7 @@ description: Компонент Python в Loginom. Доступ к выходн�
 
 **Columns**
 
-It contains read-only iterated collection of columns. It implements *Mapping* and *Sequence* protocols.  It returns the value of the `ColumnsClass` type. Доступ к элементам может осуществляться через скобочную нотацию [] по именам и по индексам. При установке флага *Разрешить формировать выходные столбцы из кода* элементы коллекции имеют тип `ConfigurableOutputColumnClass`, иначе — `OutputColumnClass`. Оба этих типа унаследованны от `ColumnClass`, и реализуют протокол *Sequence* (см. [Full API Description](./api-description.md)).
+It contains read-only iterated collection of columns. It implements *Mapping* and *Sequence* protocols.  It returns the value of the `ColumnsClass` type. Access to the elements can be provided by means of [] parenthetic notation by names and indexes. When selecting *Allow creating output columns in script* checkbox, the collection elements have the `ConfigurableOutputColumnClass` type, otherwise — `OutputColumnClass`. Both types are inherited from `ColumnClass` and they implement the *Sequence* protocol (refer to [Full API Description](./api-description.md)).
 
 %/spoiler%
 
@@ -60,7 +60,7 @@ The method returns the boolean `true` value if the column in the set string has 
 **GetColumn(col)**
 
 - col: column index or name. It takes the value of the `int` or `str` types.
-   При установке флага *Разрешить формировать выходные столбцы из кода* возвращается значение типа `ConfigurableOutputColumnClass`, иначе — `OutputColumnClass`. Оба этих типа унаследованны от `ColumnClass`, и реализуют протокол *Sequence* (см. [Full API Description](./api-description.md)).
+   When selecting *Allow creating output columns in script* checkbox, the value of the `ConfigurableOutputColumnClass` type is returned, otherwise — `OutputColumnClass`.  Both types are inherited from `ColumnClass` and they implement the *Sequence* protocol (refer to [Full API Description](./api-description.md)).
 
 %/spoiler%
 
@@ -87,8 +87,8 @@ The method enables to set the value of the set column in the string appended by 
 
 **AssignColumns(array)**
 
-- array — итерируемый объект, содержащий элементы типа ColumnInfo (см. [Full API Description](./api-description.md)).
-   Метод создает столбцы выходного набора из коллекции элементов типа ColumnInfo.
+- array — iterated object that contains the elements of the ColumnInfo type (refer to [Full API Description](./api-description.md)).
+   The method creates the output data set columns from the collection of elements of the ColumnInfo type.
 
 %/spoiler%
 
@@ -146,17 +146,17 @@ It does not have arguments. The method clears the column list.
 
 ## builtin_pandas_utils Module Use
 
-Если включена опция "Разрешить формировать выходные столбцы из кода", доступны следующие методы (см. Example No2):
+If "Allow creating output columns in script" option is enabled, the following methods are available (refer to Example No2):
 
 %spoiler%to_data_frame%spoiler%
 
 **to_data_frame(table, dataframe, with_index)**
 
-Метод задает структуру полей `OutputTable` по `pandas.DataFrame`. Arguments:
+The method sets the structure of the `OutputTable` fields by `pandas.DataFrame`. Arguments:
 
-- table — ссылка на выходной набор OutputTableClass;
-- dataframe — ссылка на `pandas.DataFrame`, структура которого используется для создания столбцов выходного набора;
-- with_index — если аргумент принимает `True`, то индексы `pandas.DataFrame` включаются в структуру выходного набора. The optional argument. The default value is `False`.
+- table — reference to OutputTableClass output data set;
+- dataframe — reference to `pandas.DataFrame` the structure of which is used to create the output data set columns.
+- with_index — if argument takes `True`, `pandas.DataFrame` indexes are included into the output data set structure. The optional argument. The default value is `False`.
 
 %/spoiler%
 
@@ -164,11 +164,11 @@ It does not have arguments. The method clears the column list.
 
 **fill_table(table, dataframe, with_index)**
 
-Метод осуществляет запись из `pandas.DataFrame` в `OutputTable`. Arguments:
+The method provides record from `pandas.DataFrame` to `OutputTable`. Arguments:
 
-- table — ссылка на выходной набор. Принимает значение типа `OutputTableClass`;
-- dataframe — ссылка на `pandas.DataFrame`;
-- with_index — если аргумент принимает `True`, то индексы `pandas.DataFrame` выгружаются в выходной набор. The optional argument. The default value is `False`.
+- table — reference to output data set. It takes the value of the `OutputTableClass` type.
+- dataframe — reference to `pandas.DataFrame`.
+- with_index — if argument takes `True`, `pandas.DataFrame` indexes are downloaded to the output data set. The optional argument. The default value is `False`.
 
 %/spoiler%
 
@@ -245,12 +245,12 @@ if InputTable:
     input_frame = to_data_frame(InputTable)
     #input_frame grouping
     output_frame = input_frame.groupby(["Class"]).sum()
-    #Если включена опция "Разрешить формировать выходные столбцы из кода",
-    #структуру выходного набора можно подготовить по pd.DataFrame
+    #If "Allow creating output columns in script" option is enabled,
+    #the output data set structure can be prepared by pd.DataFrame
     assert isinstance(OutputTable, ConfigurableOutputTableClass)
-    #Определение структуры выходного набора
+    #Output data set structure defining
     prepare_compatible_table(OutputTable, output_frame, with_index=True)
-    #Заполнение выходного набора
+    #Output data set appending
     fill_table(OutputTable, output_frame, with_index=True)
 
 ```
