@@ -117,7 +117,7 @@ class VariablesClass:
 
 ```
 
-> **Примечание:** Принимать аргументы по ключевым словам могут только методы `OutputTable.AddColumn` и `OutputTable.InsertColumn`, остальные принимают только позиционированные аргументы.
+> **Note:** Only `OutputTable.AddColumn` and `OutputTable.InsertColumn` methods can accept arguments by key words. The remaining ones can take only positioned arguments.
 
 
 ## builtin_pandas_utils module

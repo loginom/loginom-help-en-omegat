@@ -16,7 +16,7 @@ To get resulting data sets, it is required to provide preliminary [node training
 * ![ ](./../../images/icons/app/node/ports/inputs-optional/table_inactive.svg) — **Input data source** (data table). Optional.<br>
    The port waits for the data set with identifier columns and transaction items.
 * ![ ](./../../images/icons/app/node/ports/inputs-optional/table_inactive.svg) — **Supplementary data** (data table). Optional.<br>
-   It accepts supplementary transaction items that can be taken into account when calculating association rules.
+   It takes supplementary transaction items that can be taken into account when calculating association rules.
 
 #### Requirements to the Received Data
 

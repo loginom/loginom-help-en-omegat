@@ -1,10 +1,10 @@
 ---
 description: Компонент Python в Loginom. Панель вывода сообщений. Примеры.
 ---
-# ![](./../../../images/icons/components/python_default.svg) Панель вывода сообщений
+# ![](./../../../images/icons/components/python_default.svg) Message Display Panel
 
-В панели *Вывод* окна [Предпросмотра](./../../../visualization/preview/preview.md) отображаются сообщения *стандартного вывода* (`sys.stdout`) и *стандартного вывода ошибок* (`sys.stderr`).
-По умолчанию панель свернута. Для ее отображения/сворачивания используются кнопки ![ ](./../../../images/icons/common/toolbar-controls/up_default.svg) и ![ ](./../../../images/icons/common/toolbar-controls/down_default.svg).
+On the *Display* panel of the [Preview](./../../../visualization/preview/preview.md) window the *standard display* (`sys.stdout`) and *standard display of errors* (`sys.stderr`) messages are displayed.
+The panel is collapsed by default ![ ](./../../../images/icons/common/toolbar-controls/up_default.svg) and ![ ](./../../../images/icons/common/toolbar-controls/down_default.svg) buttons are used for its display/collapsing.
 
 ## Examples:
 

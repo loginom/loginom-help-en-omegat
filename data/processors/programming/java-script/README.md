@@ -28,9 +28,9 @@ The following configuration stages are successively executed:
 
 ### Configure columns of output table
 
-Столбцы выходного набора можно задать как на странице *Настройка столбцов выходной таблицы JavaScript* мастера, так и динамически, в ходе исполнения кода JavaScript. При установке флага *Разрешить формировать выходные столбцы из кода* доступно динамическое создание, изменение и удаление выходных столбцов.
+The output data set columns can be set on the following wizard page: *Configure JavaScript Output Table Columns*. It can be also  done in a dynamic manner during the JavaScript code execution. When selecting *Allow creating output columns in script* checkbox, dynamic creation, change and deletion of output columns are available.
 
-> **Примечание:** Динамическое создание, изменение и удаление выходных столбцов возможно в коде до момента добавления первой записи в выходной набор, т.е. до первого вызова [метода Append()](./output-table.md#metody-outputtable) объекта `OutputTable`.
+> **Note:** Dynamic creation, change and deletion of output columns can be possible in the code up to addition of the first record to the output data set, namely, up to the first call of [Append() method](./output-table.md#metody-outputtable) of `OutputTable` object.
 
 ### JavaScript
 
@@ -57,11 +57,11 @@ In the context of the JavaScript code execution, the *Calculator* functions are 
 
 ## Fetch API
 
-В контексте выполнения JavaScript-кода доступны объекты интерфейса [Fetch API](./fetch-api.md), предназначенные для работы с HTTP-запросами и ответами. Перед использованием объекты должны быть импортированы из встроенного модуля `"builtIn/Fetch"`.
+In the context of the JavaScript code execution, the [Fetch API](./fetch-api.md) interface objects are available. They are designated for work with HTTP requests and responses. The objects must be imported from the built-in `"builtIn/Fetch"` module before use.
 
 ## File Storage API
 
-В контексте выполнения JavaScript-кода доступны объекты интерфейса [File Storage API](./fileapi.md), предназначенные для работы с файловой системой. Перед использованием объекты должны быть импортированы из встроенного модуля `"builtIn/FS"`.
+In the context of the JavaScript code execution, the [File Storage API](./fileapi.md) interface objects are available. They are designated for work with file system. The objects must be imported from the built-in `"builtIn/FS"` module before use.
 
 ## Processing of Errors
 

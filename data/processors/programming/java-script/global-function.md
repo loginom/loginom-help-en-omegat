@@ -9,33 +9,33 @@ description: Глобальные функции и их описание в к�
 **function setTimeout(callback, delay, ...args)**
 
 * callback — function to be executed. `function` type.
-* delay — задержка перед вызовом callback-функции в миллисекундах. `number` type.
-* args — аргументы, передаваемые в callback-функцию. The optional parameter.
+* delay — delay before callback function calling in milliseconds. `number` type.
+* args — arguments transferred to callback function. The optional parameter.
 
-Позволяет вызвать функцию один раз через определённый интервал времени. It returns the timeout identifier.
+It enables to call the function once after a certain time interval. It returns the timeout identifier.
 
 ## clearTimeout
 
 **function clearTimeout(timeoutID)**
 
-* timeoutID — идентификатор таймаута, который вы хотите отменить. `number` type.
+* timeoutID — timeout identifier to be cancelled. `number` type.
 
-Отменяет таймаут, установленный вызовом `setTimeout`.
+It cancels the timeout set by `setTimeout` call.
 
 ## btoa
 
 **function btoa(text, encoding)**
 
 * text — string to be encoded. `string` type.
-* encoding — необязательный параметр, который может принимать единственное значение "utf-8", что означает, что в base64 кодируется строка в кодировке utf-8. Если аргумент не указан или равен `undefined`, то это означает, что в base64 кодируется строка в кодировке latin-1. `string` type.
+* encoding — optional parameter that can take the single "utf-8" value meaning that the string is encoded in base64 using utf-8 encoding. If the argument is not specified or it is equal to `undefined`, it means that the string is encoded using latin-1 encoding in base64. `string` type.
 
-Создаёт ASCII строку, закодированную в base-64 из "строки" бинарных данных. It returns the encoded string.
+It creates ASCII string encoded in base-64 from the binary data "string". It returns the encoded string.
 
 ## atob
 
 **function atob(text, encoding)**
 
 * text — string to be encoded. Тип `string`.
-* encoding — необязательный параметр, который может принимать единственное значение "utf-8", что означает, что в base64 была закодирована строка в кодировке utf-8. Если аргумент не указан или равен `undefined`, то это означает, что в base64 была закодирована строка в кодировке latin-1. `string` type.
+* encoding — optional parameter that can take the single "utf-8" value meaning that the string is encoded in base64 using utf-8 encoding. If the argument is not specified or it is equal to `undefined`, it means that the string is encoded using latin-1 encoding in base64. `string` type.
 
-Декодирует строку, закодированную с использованием base-64. Возвращает декодированную строку.
+It decodes the string encoded using base-64. It returns the decoded string.

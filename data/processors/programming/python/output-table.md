@@ -11,7 +11,7 @@ description: Компонент Python в Loginom. Доступ к выходн�
 
 **Columns**
 
-Содержит доступную для чтения итерируемую коллекцию столбцов. Реализует протоколы *Mapping* и *Sequence*.  Возвращает значение типа `ColumnsClass`. Доступ к элементам может осуществляться через скобочную нотацию [] по именам и по индексам. При установке флага *Разрешить формировать выходные столбцы из кода* элементы коллекции имеют тип `ConfigurableOutputColumnClass`, иначе — `OutputColumnClass`. Оба этих типа унаследованны от `ColumnClass`, и реализуют протокол *Sequence* (см. [Full API Description](./api-description.md)).
+It contains read-only iterated collection of columns. It implements *Mapping* and *Sequence* protocols.  It returns the value of the `ColumnsClass` type. Доступ к элементам может осуществляться через скобочную нотацию [] по именам и по индексам. При установке флага *Разрешить формировать выходные столбцы из кода* элементы коллекции имеют тип `ConfigurableOutputColumnClass`, иначе — `OutputColumnClass`. Оба этих типа унаследованны от `ColumnClass`, и реализуют протокол *Sequence* (см. [Full API Description](./api-description.md)).
 
 %/spoiler%
 
@@ -96,16 +96,16 @@ The method enables to set the value of the set column in the string appended by 
 
 **AddColumn(ColumnInfo, Name, DisplayName, DataType, DataKind, DefaultUsageType)**
 
-It accepts arguments by key words:
+It takes arguments by key words:
 
 - ColumnInfo — value of the ColumnInfo type (refer to [Full API Description](./api-description.md)). The optional argument.
 - Name — column name, the value of the `str` type. The optional argument.
 - DisplayName — column caption, the value of the `str` type. The optional argument.
 - DataType — column data type, the value of the `int` type (refer to [Enumerations](./enum.md)). The optional argument.
 - DataKind — the column data kinds, the value of the `int` type (refer to [Enumerations](./enum.md)). The optional argument.
-- DefaultUsageType — назначение по умолчанию столбца, значение типа `int`(см. [Enumerations](./enum.md)). The optional argument.
+- DefaultUsageType — default column usage type, the value of the `int` type (refer to [Enumerations](./enum.md)). The optional argument.
 
-Метод добавляет столбец в конец списка столбцов выходного набора. It returns the value of the OutputColumnClass type (refer to [Full API Description](./api-description.md)).
+The method adds column to the column list end of the output data set. It returns the value of the OutputColumnClass type (refer to [Full API Description](./api-description.md)).
 
 %/spoiler%
 
@@ -113,15 +113,15 @@ It accepts arguments by key words:
 
 **InsertColumn(Index, ColumnInfo, Name, DisplayName, DataType, DataKind, DefaultUsageType)**
 
-It accepts arguments by key words:
+It takes arguments by key words:
 
-- Index — индекс столбца в коллекции столбцов, принимает значение типа `int`.
+- Index — column index in the column collection that takes the value of the `int` type.
 - ColumnInfo — value of the ColumnInfo type (refer to [Full API Description](./api-description.md)). The optional argument.
 - Name — column name, the value of the `str` type. The optional argument.
 - DisplayName — column caption, the value of the `str` type. The optional argument.
 - DataType — column data type, the value of the `int` type (refer to [Enumerations](./enum.md)). The optional argument.
 - DataKind — the column data kinds, the value of the `int` type (refer to [Enumerations](./enum.md)). The optional argument.
-- DefaultUsageType — назначение по умолчанию столбца, значение типа `int`(см. [Enumerations](./enum.md)). The optional argument.
+- DefaultUsageType — default column usage type, the value of the `int` type (refer to [Enumerations](./enum.md)). The optional argument.
 
 The method inserts the column by the set index into the output data set. It returns the value of the OutputColumnClass type (refer to [Full API Description](./api-description.md)).
 

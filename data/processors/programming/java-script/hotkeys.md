@@ -10,6 +10,6 @@ The following hotkeys are supported in the code editor:
 - %kbd Ctrl O % — show the variable description;
 - %kbd Ctrl Q % — rename the variable;
 - %kbd Ctrl . % — select variables in the code (multiple cursors are added);
-- %kbd Ctrl / % — закомментировать/раскомментировать код;
-- %kbd Shift Tab % — выполнить деиндентацию выделенного кода;
-- %kbd Tab % — ввод 4 пробелов. Если выделено более одной строки, то выполняется индентация строк выделенного кода.
+- %kbd Ctrl / % — comment out/uncomment the code;
+- %kbd Shift Tab % — perform deindentation of the selected code;
+- %kbd Tab % — enter 4 spaces. If more than one string is selected, string indentation of the selected code is performed.

@@ -69,9 +69,9 @@ The method returns the column object that implements the `IColumn` interface (re
 
 **AssignColumns(array)**
 
-- array — итерируемый объект, содержащий значения типа `string` или объекты, реализующих интерфейс `IColumnInfo` (см. [Full API Description](./api-description.md)).
+- array — iterated object that contains the values of the `string` type or the objects that implement the `IColumnInfo` interface (refer to [Full API Description](./api-description.md)).
 
-Метод создает столбцы выходного набора из коллекции имен столбцов или объектов, реализующих интерфейс `IColumnInfo`.
+The method creates the output data set columns from the collection of columns names of objects that implement the `IColumnInfo` interface.
 
 %/spoiler%
 
@@ -79,9 +79,9 @@ The method returns the column object that implements the `IColumn` interface (re
 
 **AddColumn(columninfo)**
 
-- columninfo — значение типа `string` или объект, реализующий интерфейс `IColumnInfo` (см. [Full API Description](./api-description.md)). The optional argument.
+- columninfo — value of the `string` type or the object that implements the `IColumnInfo` interface (refer to [Full API Description](./api-description.md)). The optional argument.
 
-Метод добавляет столбец в конец списка столбцов выходного набора, принимая в качестве аргумента имя столбца или объект, реализующий интерфейс `IColumnInfo`. It returns the object that implements the `IOutputColumn` interface (refer to [Full API Description](./api-description.md)).
+The method adds column to the column list end of the output data set taking the column name or the object that implements the `IColumnInfo` interface as an argument. It returns the object that implements the `IOutputColumn` interface (refer to [Full API Description](./api-description.md)).
 
 %/spoiler%
 

@@ -31,7 +31,7 @@ The following configuration stages are successively executed:
 
 ### Configure columns of output table
 
-Столбцы выходного набора можно задать как на странице **Настройка столбцов выходной таблицы Python** мастера, так и динамически, в ходе исполнения кода Python. При установке флага **Разрешить формировать выходные столбцы из кода** доступно динамическое создание, изменение и удаление выходных столбцов.
+The output data set columns can be set on the following wizard page: **Configure Python Output Table Columns**. It can be also done in a dynamic manner during the Python code execution. When selecting **Allow creating output columns in script** checkbox, dynamic creation, change and deletion of output columns are available.
 
 ### Python
 

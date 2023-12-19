@@ -142,8 +142,8 @@ let request = new Request(input[, init]);
 
 where:
 
-- `input` — object of the `RequestInfo` type (refer to [Full API Description](./api-description.md#vstroennyy-modul-builtinfetch)). Required parameter. It accepts URL address of the requested resource or object that implements the `Request` interface.
-- `init` — object that implements the `RequestInit` interface (refer to [Full API Description](./api-description.md#vstroennyy-modul-builtinfetch)). The optional parameter. It accepts parameters of HTTP request. `init`-object can include the following parameters:
+- `input` — object of the `RequestInfo` type (refer to [Full API Description](./api-description.md#vstroennyy-modul-builtinfetch)). Required parameter. It takes URL address of the requested resource or object that implements the `Request` interface.
+- `init` — object that implements the `RequestInit` interface (refer to [Full API Description](./api-description.md#vstroennyy-modul-builtinfetch)). The optional parameter. It takes parameters of HTTP request. `init`-object can include the following parameters:
    - `body` — HTTP request body. Object of the `BodyInit` type (refer to [Full API Description](./api-description.md#vstroennyy-modul-builtinfetch)). `body` can be represented by a string or object related to `ArrayBuffer`, `ArrayBufferView` types.
    - `headers` — HTTP request headers. [headers-object](#headers) (refer to also [Full API Description](./api-description.md#vstroennyy-modul-builtinfetch)).
    - `method` — string that contains the HTTP request method (`get`, `post`, etc).
