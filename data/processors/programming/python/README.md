@@ -35,15 +35,15 @@ The output data set columns can be set on the following wizard page: **Configure
 
 ### Python
 
-The *Python* page contains editor of the code executed by the node. Запускать написанный скрипт возможно внутри процесса Loginom или в отдельном процессе (в *Процессе интерпретатора*) при установке флага **Запускать в отдельном процессе**.
+The *Python* page contains editor of the code executed by the node. It is possible to start the written script inside the Megaladata process or in the separate process (in the *Interpreter process*) when selecting **Start in separate process** checkbox.
 
-По кнопке [Предпросмотр…](./../../../visualization/preview/preview.md) в отдельном окне выводится до 100 первых строк результирующего набора данных и [панель вывода сообщений](./console.md).
+[Preview…](./../../../visualization/preview/preview.md) button enables to display up to 100 first strings of the resulting data set and [message display panel](./console.md) in the separate window.
 
 > **Note: It is possible to activate all input ports ** by pressing *Preview* button. The *Preview* window is opened if the activation has been successfully finished.
 
-При запуске скрипта на Python внутри процесса Loginom одновременно может выполняться только один узел *Python*, соответственно последующий в очереди запуска узел *Python* ожидает выполнения предыдущего. Максимальное время ожидания задается параметром **Тайм-аут ожидания запуска (мс)**. Timeout is not limited by default. If timeout time is exceeded, node execution is terminated with a corresponding error.
+When starting the script using Python inside the Megaladata process, only one *Python* node can be executed simultaneously, correspondingly, the next following *Python* node in the start queue must wait for execution of the previous one. The maximum timeout is set by **Start wait timeout (ms)** parameter. Timeout is not limited by default. If timeout time is exceeded, node execution is terminated with a corresponding error.
 
-При запуске исполняемого кода на Python в отдельном процессе может выполняться сразу несколько узлов *Python* параллельно, соответственно **Тайм-аут ожидания запуска (мс)** не поддерживается.
+When starting the executed code using Python in the separate process several *Python* nodes at once can be executed in parallel. Correspondingly, **Start wait timeout (ms)** is not supported.
 
 > **Note:** The Python execution mode is not supported in Linux inside the Megaladata process, consequently, there is no *Library path* setting. The *Python* nodes configured for execution inside the process will be executed in the separate process in Linux.
 
@@ -81,18 +81,18 @@ When calling the *Preview* window or executing the node, the message informing a
 * It is possible to stop the *Python* node execution only between interpreter instructions.
 * [Virtual environments](https://docs.python.org/3/library/venv.html) can be used when setting *Interpreter path*.
 
-The node code is executed in `__main__` module. Таким образом выполняется условие `__name__ == '__main__'`, которое обычно используется для запуска скриптов.
+The node code is executed in `__main__` module. Thus, `__name__ == '__main__'` condition is fulfilled. It is generally used to start scripts.
 
-Import of modules from the [file storage](./../../../location_user_files.md) is supported. В коде узла:
+Import of modules from the [file storage](./../../../location_user_files.md) is supported. In the node code:
 
-- Если пакет сохранен, то относительный путь к импортируемому модулю указывается от расположения пакета. [sys.path](https://docs.python.org/3/library/sys.html#sys.path) (`sys.path[0]`) содержит путь к директории пакета, в котором находится узел *Python*.
-- Если пакет не сохранен, то относительный путь к импортируемому модулю указывается от каталога пользователя. [sys.path](https://docs.python.org/3/library/sys.html#sys.path) (`sys.path[0]`) содержит путь к каталогу пользователя.
+- If the package is saved, the relative path to the imported module is specified from the package location. [sys.path](https://docs.python.org/3/library/sys.html#sys.path) (`sys.path[0]`) contains the path to the package directory in which the *Python* node is located.
+- If the package is not saved, the relative path to the imported module is specified from the user directory. [sys.path](https://docs.python.org/3/library/sys.html#sys.path) (`sys.path[0]`) contains the path to the user directory.
 
-В модулях относительный путь указывается от расположения модуля, осуществляющего импорт.
+The relative path in modules is specified from the location of the importing module.
 
 %spoiler%Example:%spoiler%
 
-Относительно сохраненного пакета Loginom расположены следующие модули:
+The following modules are located relative to the saved Megaladata package:
 
 - `./foo/__init__.py` module:
 
@@ -121,7 +121,7 @@ def say_hello():
     return "Hello"
 ```
 
-При таком расположении модулей импорт и вызов функций этих модулей может осуществляться в узле *Python* следующим образом:
+Under condition of such location of modules, importing and calling of these functions can be performed in the *Python* node as follows:
 
 ```python
 from foo import cube
@@ -134,7 +134,7 @@ print("3 ** 3 =", cube(3))
 
 %/spoiler%
 
-В режиме [Предпросмотра](./console.md) результатов значение атрибута `__file__` модуля `__main__` равно `<preview>`, при выполнении узла — `<main>`.
+In the [Preview](./console.md) of results mode the value of the `__file__` attribute of the`__main__` module is equal to `<preview>`, when executing the node — `<main>`.
 
 %spoiler%Example:%spoiler%
 
@@ -150,7 +150,7 @@ else:
 
 %/spoiler%
 
-Доступна глобальная функция `filestoragepath`, которая принимает путь в [файловом хранилище](./../../../location_user_files.md) и преобразует его в абсолютный путь в файловой системе. No additional imports are required for its application.
+The global `filestoragepath` function is available. It takes the path in the  [file storage](./../../../location_user_files.md) and transforms it to the absolute path in the file system. No additional imports are required for its application.
 
 %spoiler%Example:%spoiler%
 
