@@ -88,7 +88,7 @@ The optional port is displayed using the stipple line (their color-coded indicat
 ![ ](./../../images/icons/app/node/ports/inputs-optional/table_inactive.svg)
 . No link with another port can be established for such port.
 
-> **Note**: The color-coded indication of the ports of variables, connections and the ports with undefined data structure is similar to the one analyzed above.
+> **Note**: The color-coded indication of the ports of variables, connections and the ports with undefined data structure is similar to the one analysed above.
 
 ## Linking of Ports
 

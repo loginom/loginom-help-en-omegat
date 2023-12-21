@@ -5,7 +5,7 @@ description: Компонент Сэмплинг в Loginom. Метод сэмп
 
 ## Description
 
-The component uses different methods to select records for the sample from the source data set. Such sample is created to decrease the analyzed data volume, for example, to avoid redundant computation, as complexity of some Data Mining algorithms is increased with data volume increase in an exponential manner.
+The component uses different methods to select records for the sample from the source data set. Such sample is created to decrease the analysed data volume, for example, to avoid redundant computation, as complexity of some Data Mining algorithms is increased with data volume increase in an exponential manner.
 
 When creating the sample, a user can set the sampling method: random, random uniform, stratified, sequence, biased sampling.
 

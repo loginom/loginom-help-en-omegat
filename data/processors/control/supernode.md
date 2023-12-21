@@ -5,7 +5,7 @@ description: Компонент Подмодель в Loginom. Упрощени�
 
 *Supernode* is a special node that contains other nodes of the *[Workflow](./../../workflow/README.md#proektirovanie-stsenariev)*.
 
-The Main Designation of the *Supernode*:
+The Main Usage Type of the *Supernode*:
 - Simplification of the *Workflow* structure is achieved by combination of several nodes performing particular stage of the data processing into one node of the *Supernode*. The *Supernode* can include other *Supernodes*, their nesting into each other is not restricted. Thus, it is possible to create the hierarchic structure of the workflow.
 - Multiple use of the created processing logics for different data. It is possible to implement the random processing logics and set the required structure of input and output data in the *Supernode*. Using the following tools: the *[Derived component](./../../workflow/derived-component.md)*, *[Node execution](./execute-node.md)*, *[Publication of web services](./../../integration/web-services/README.md#sozdanie-sobstvennykh-veb-servisov)*, *[Batch processing of the workflows](./../../workflow/batchlauncher.md#paketnoe-vypolnenie-stsenariev)*, it is possible to use the processing logics created in the *Supernode* many times for different data.
 

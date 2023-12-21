@@ -9,7 +9,7 @@ Use of the LDAP authentification is available in the Megaladata Enterprise editi
 
 ## Configure
 
-The LDAP server connection settings are analyzed in [Parameters](./parameters.md#parametry-ldap) subsection of Administration section, change of *Authentification* user method is analyzed in [Users](./users/README.md) subsection.
+The LDAP server connection settings are analysed in [Parameters](./parameters.md#parametry-ldap) subsection of Administration section, change of *Authentification* user method is analysed in [Users](./users/README.md) subsection.
 
 ## Authentification
 

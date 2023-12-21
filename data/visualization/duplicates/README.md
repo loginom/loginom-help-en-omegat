@@ -1,7 +1,7 @@
 ---
 description: Визуализация дубликатов и противоречий в Loginom. Подробная справка по интерфейсу и общим принципам работы в таблице с дубликатами и противоречиями.
 ---
-# ![](./../../images/icons/components/duplicates_default.svg) Дубликаты и противоречия
+# ![](./../../images/icons/components/duplicates_default.svg) Duplicates and Contradictions
 
 Предназначен для просмотра дублирующих, противоречивых записей исходного набора данных.
 ## Interface

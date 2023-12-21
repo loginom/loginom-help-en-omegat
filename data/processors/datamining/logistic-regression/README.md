@@ -5,7 +5,7 @@ description: Компонент Логистическая регрессия в
 
 ## Description
 
-[Logistic regression](https://wiki.loginom.ru/articles/logistic-regression.html) is a kind of multiple regression general purpose of which is to analyze relations between several [independent variables](https://wiki.loginom.ru/articles/input-variable.html) and [dependent variable](https://wiki.loginom.ru/articles/output-variable.html).
+[Logistic regression](https://wiki.loginom.ru/articles/logistic-regression.html) is a kind of multiple regression general purpose of which is to analyse relations between several [independent variables](https://wiki.loginom.ru/articles/input-variable.html) and [dependent variable](https://wiki.loginom.ru/articles/output-variable.html).
 
 The logistic regression enables to estimate possibility of the event occurrence for a particular test person (sick/healthy person, credit repayment/default, etc).
 

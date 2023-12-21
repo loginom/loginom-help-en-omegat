@@ -5,7 +5,7 @@ description: Компонент корреляционный анализ в Log
 
 ## Description
 
-Компонент на основании вычисляемых коэффициентов корреляции выявляет взаимосвязь между рядами данных входного набора. It is used to access the supposed dependence of factors.
+The component detects interrelation between the series of the input data set based on the calculated correlation coefficients. It is used to access the supposed dependence of factors.
 
 %spoiler%Example:%spoiler%
 
@@ -27,7 +27,7 @@ Source table:
 | 11.09.17 | 13 | 21 | 9 | 23 |
 | 12.09.17 | 17 | 25 | 7 | 25 |
 
-Определим корреляцию товара "Спагетти" с остальными товарами на основе коэффициентов Пирсона (в мастере настройки узла поле "Спагетти" отметим в "Наборе 1", а остальные товары - в "Наборе 2").
+Let's define correlation of the "Spaghetti" item of goods with other goods based on the Pearson coefficients (it is required to mark the "Spaghetti" field in "Set 1" and other goods in "Set 2" in the node wizard).
 
 Output table:
 
@@ -56,10 +56,10 @@ As shown in the table, the sale series of the "Tomato paste" item of goods is di
       * **Fields|Name**: the name of the second field in the correlation pair.
       * **Fields|Caption**: the caption of the second field in the correlation pair.
    * There are the following fields the availability of which is set by a user:
-      * **Пирсона** — коэффициенты корреляции Пирсона.
-      * **Correlation function Ф.** — [экстремумы взаимнокорреляционной функции](https://wiki.loginom.ru/articles/ccf-max.html).
-      * **Лаг К.Ф.** —  величина смещения, при которой экстремум ВКФ был получен. Значение лага выводится только для взаимнокорреляционной функции.
-      * **Tay-b Кендалла** — [коэффициенты ранговой корреляции Кендалла](https://wiki.loginom.ru/articles/rank-correlation-kendall.html).
+      * **Pearson**: the Pearson correlation coefficients.
+      * **Correlation function F.**: [extremums of cross-correlation function](https://wiki.loginom.ru/articles/ccf-max.html).
+      * **Correction function lag**: the bias value with which the cross-correlation function extreme was obtained. The lag value is displayed only for the cross-correlation function.
+      * **Kendall's Tau-b**: the [Kendall's Tau-b rank correlation coefficient](https://wiki.loginom.ru/articles/rank-correlation-kendall.html).
       * **Spearman**: the Spearman's rank correlation coefficient.
 
 ## Wizard
@@ -71,8 +71,8 @@ It includes the list of checkboxes that enable to select coefficients for correl
 * **Extremum of cross-correlation function** enables to calculate the maximum absolute value of the correlation coefficients of two processes calculated for all possible time shifts. It should be applied if it is required to determine the linear relationship between two processes, or parts of the processes that occur with a certain time lag.
 * **Spearman's rank correlation coefficient** is another version of the rank correlation. Corresponding ranks, not numerical values, are used for numerical fields to estimate the connection strength. Therefore, the Spearman coefficient will be 1 or -1 for any monotone sequences.
 
-It is possible to select the series in the table to analyze interconnection. For each field from "Set 1" selected with a checkbox, correlation coefficients with the fields selected with checkboxes in "Set 2" will be calculated.
+It is possible to select the series in the table to analyse interconnection. For each field from "Set 1" selected with a checkbox, correlation coefficients with the fields selected with checkboxes in "Set 2" will be calculated.
 
 **See also:**
 
-* [Мультиколлинеарность](https://wiki.loginom.ru/articles/multicollinearity.html)
+* [Multicollinearity](https://wiki.loginom.ru/articles/multicollinearity.html)

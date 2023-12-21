@@ -3,4 +3,4 @@ description: Стандартные компоненты. Оглавление.
 ---
 # Standard Components
 
-Стандартные компоненты — библиотека базовых компонентов Loginom, позволяющих выполнять различные операции над данными. Компоненты разделены на группы по функционалу.
+Standard components: a library of the Megaladata base components that enable to perform different operations with data. The components are divided into groups by functionality.

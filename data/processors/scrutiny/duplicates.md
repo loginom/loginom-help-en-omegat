@@ -1,25 +1,25 @@
 ---
 description: Компонент Дубликаты и противоречия в Loginom. Уменьшение избыточности данных, повышение информативности данных, повышение качества моделей.
 ---
-# ![](./../../images/icons/components/duplicates_default.svg) Дубликаты и противоречия
+# ![](./../../images/icons/components/duplicates_default.svg) Duplicates and Contradictions
 
 ## Description
 
-Компонент позволяет выявить в исходной выборке данных дублирующие и противоречивые записи.
+The component enables to detect duplicate and contradictory records.
 
-**Дубликаты** — записи в таблице, все входные и выходные поля которых одинаковые. Дубликаты приводят к избыточности, увеличивают объем выборки, при этом не повышая информативность данных.
+**Duplicates**: table records in which all input and output fields are the same. Duplicates cause redundancy, increase sample size but information capacity is not increased.
 
-**Противоречия** — записи в таблице, у которых все входные поля одинаковые, но отличаются хотя бы по одному выходному полю. Противоречия приводят к искажению результата анализа и снижают качество моделей, поскольку нарушают общие закономерности в данных, обнаружение которых и является целью исследования.
+**Contradictions**: table records in which all input fields are the same but they differ at least by one output field. Contradictions cause distortion of analysis results and decrease model quality because they violate general data laws detection of which is the scrutiny purpose.
 
-Алгоритм ищет в наборе данных записи, для которых одинаковым входным полям соответствуют одинаковые (дубликаты) или разные (противоречия) выходные поля.
+The algorithm searches for the data set records for which the same input fields match the same (dublicates) or different (contradictions) output fields.
 
 %spoiler%Example:%spoiler%
 
-Исследуем следующий набор данных на дубликаты и противоречия, для этого зададим назначение ![](./../../images/icons/common/usage-types/active_default.svg) "Входное" для полей "Поле 1" и "Поле 2", назначение ![](./../../images/icons/common/usage-types/predicted_default.svg) "Выходное" для полей "Поле 3" и "Поле 4" в настройках входного порта.
+Let's analyse the following data set with respect to duplicates and contradictions. For this purpose, let's set the following usage type: ![](./../../images/icons/common/usage-types/active_default.svg) "Input" for "Field 1" and "Field 2", usage type ![](./../../images/icons/common/usage-types/predicted_default.svg) "Output" for "Field 3" and "Field 4" in the input port settings.
 
 Source table:
 
-| Поле 1 | Поле 2 | Поле 3 | Поле 4 |
+| Field 1 | Field 2 | Field 3 | Field 4 |
 |:-----------|-------:|-------:|-------:|
 | 01.01.2019 | 2 | 1000 | 1500 |
 | 21.05.2019 | 3 | 1000 | 1500 |
@@ -30,7 +30,7 @@ Source table:
 
 Output table:
 
-| Дубликат | Группа дубликата | Противоречие | Группа противоречия | Поле 1 | Поле 2 | Поле 3 | Поле 4 |
+| Duplicate | Duplicate group | Contradiction | Contradiction group | Field 1 | Field 2 | Field 3 | Field 4 |
 |:---|---:|:---|---:|:---|:---|---:|---:|
 | false |   | false |   | 01.01.2019 | 2 | 1 000 | 1 500 |
 | false |   | true | 1 | 21.05.2019 | 3 | 1 000 | 1 500 |
@@ -39,7 +39,7 @@ Output table:
 | true | 2 | false |   | 01.09.2019 | 4 | 1 200 | 1 700 |
 | true | 2 | false |   | 01.09.2019 | 4 | 1 200 | 1 700 |
 
-В результате найдены две группы дубликатов и одна группа противоречий.
+In the result, two groups of duplicates and one group of contradictions are found.
 
 %/spoiler%
 
@@ -47,17 +47,17 @@ Output table:
 
 ### Input
 
-* ![](./../../images/icons/app/node/ports/inputs/table_inactive.svg) Входной источник данных (таблица данных). В настройках этого порта следует выставить назначение ![](./../../images/icons/common/usage-types/active_default.svg) "Входное" и ![](./../../images/icons/common/usage-types/predicted_default.svg) "Выходное" полям, которые будут использоваться для исследования на дубликаты и противоречия.
+* ![](./../../images/icons/app/node/ports/inputs/table_inactive.svg) Input data source (data table). It is required to set ![](./../../images/icons/common/usage-types/active_default.svg) "Input" and ![](./../../images/icons/common/usage-types/predicted_default.svg) "Output" usage type in the settings of this port for the fields that will be used for duplicates and contradictions scrutiny.
 
-> **Примечание:** обязательно должна быть задана хотя бы одна входная колонка.
+> **Note:** at least one input column must be set.
 
 ### Output
 
-* ![](./../../images/icons/app/node/ports/inputs/table_inactive.svg) Выходной набор данных. The table has the following structure:
+* ![](./../../images/icons/app/node/ports/inputs/table_inactive.svg) Output data set. The table has the following structure:
    * Required fields:
-      * **Дубликат** — значение логического типа, определяющее является ли исходная строка дубликатом или нет;
-      * **Группа дубликата** — в одну группу дубликатов объединяются дубликаты, у которых входные и выходные колонки совпадают;
-      * **Противоречие** — значение логического типа, определяющее является ли исходная строка противоречием или нет;
-      * **Группа противоречия** —  в одну группу противоречий объединяются все противоречия, у которых входные колонки совпадают.
+      * **Duplicate**: the boolean value that defines whether the source string is a duplicate or not.
+      * **Duplicate group**: the duplicates with matching input and output columns are included into one group.
+      * **Contradiction**: the boolean value that defines whether the source string is a contradiction or not.
+      * **Contradiction group**: all contradictions with matching input columns are included into one group of contradictions.
 
-> **Примечание:** нумерация групп начинается с *1*.
+> **Note:** group numbering starts from *1*.
