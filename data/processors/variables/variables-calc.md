@@ -78,7 +78,7 @@ The expression formula can contain the following components:
 
 На панели расположена кнопка вызова окна ![Предпросмотр](./../../images/icons/common/toolbar-controls/print-preview_default.svg) **Предпросмотра** и кнопки, по нажатию на которые в область кода выражения вставляются шаблоны или части выражения.
 
-![Предпросмотр](./../../images/icons/common/toolbar-controls/print-preview_default.svg) Предпросмотр — позволяет оценить корректность расчетов, отображая до 100 первых строк результирующей таблицы. Горячая клавиша вызова — `F3`.
+![Preview](./../../images/icons/common/toolbar-controls/print-preview_default.svg) Preview enables to assess correctness of calculations displaying up to 100 first strings of the resulting table. Call hotkey — `F3`.
 
 Logical operations:
 

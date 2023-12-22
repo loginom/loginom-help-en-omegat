@@ -60,18 +60,18 @@ The wizard window is divided into two areas: available fields (to the left) and 
 %spoiler%Агрегация фактов и возможные типы данных:%spoiler%
 
 
-|Вид агрегации|![](../../images/icons/common/data-types/string_default.svg)|![](../../images/icons/common/data-types/integer_default.svg)|![](../../images/icons/common/data-types/float_default.svg)|![](../../images/icons/common/data-types/boolean_default.svg)|![](../../images/icons/common/data-types/datetime_default.svg)|![](../../images/icons/common/data-types/variant_default.svg)|
+|Aggregation kind|![](../../images/icons/common/data-types/string_default.svg)|![](../../images/icons/common/data-types/integer_default.svg)|![](../../images/icons/common/data-types/float_default.svg)|![](../../images/icons/common/data-types/boolean_default.svg)|![](../../images/icons/common/data-types/datetime_default.svg)|![](../../images/icons/common/data-types/variant_default.svg)|
 |:-|:-:|:-:|:-:|:-:|:-:|:-:
-|![](../../images/icons/common/aggregations/factor-sum_default.svg) Сумма|||**•**||||
-|![](../../images/icons/common/aggregations/factor-count_default.svg) Количество|**•**|**•**|**•**|**•**|**•**|**•**|
-|![](../../images/icons/common/aggregations/factor-min_default.svg) Минимум|**•**||**•**|**•**|**•**|**•**|
-|![](../../images/icons/common/aggregations/factor-max_default.svg) Максимум|**•**||**•**|**•**|**•**|**•**|
-|![](../../images/icons/common/aggregations/factor-avg_default.svg) Среднее|||**•**||**•**||
-|![](../../images/icons/common/aggregations/factor-stddev_default.svg) Стандартное отклонение|||**•**||**•**||
-|![](../../images/icons/common/aggregations/factor-unique-count_default.svg) Количество уникальных|**•**||**•**|**•**|**•**|**•**|
-|![](../../images/icons/common/aggregations/factor-null-count_default.svg) Количество пропусков|**•**||**•**|**•**|**•**|**•**|
-|![](../../images/icons/common/aggregations/factor-stat-first_default.svg) Первый|**•**||**•**|**•**|**•**|**•**|
-|![](../../images/icons/common/aggregations/factor-stat-last_default.svg) Последний|&nbsp;&nbsp;**•**&nbsp;&nbsp;||&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;||
+|![](../../images/icons/common/aggregations/factor-sum_default.svg) Sum|||**•**||||
+|![](../../images/icons/common/aggregations/factor-count_default.svg) Count|**•**|**•**|**•**|**•**|**•**|**•**|
+|![](../../images/icons/common/aggregations/factor-min_default.svg) Minimum|**•**||**•**|**•**|**•**|**•**|
+|![](../../images/icons/common/aggregations/factor-max_default.svg) Maximum|**•**||**•**|**•**|**•**|**•**|
+|![](../../images/icons/common/aggregations/factor-avg_default.svg) Average|||**•**||**•**||
+|![](../../images/icons/common/aggregations/factor-stddev_default.svg) Standard deviation|||**•**||**•**||
+|![](../../images/icons/common/aggregations/factor-unique-count_default.svg) Count of unique|**•**||**•**|**•**|**•**|**•**|
+|![](../../images/icons/common/aggregations/factor-null-count_default.svg) Null count|**•**||**•**|**•**|**•**|**•**|
+|![](../../images/icons/common/aggregations/factor-stat-first_default.svg) First|**•**||**•**|**•**|**•**|**•**|
+|![](../../images/icons/common/aggregations/factor-stat-last_default.svg) Last|&nbsp;&nbsp;**•**&nbsp;&nbsp;||&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;||
 
 %/spoiler%
 
@@ -82,7 +82,7 @@ The *Available fields* area always contains the *Count* synthetic field apart fr
 
 The values of these fields will be the columns headers. Поля в данной группе обязательно должны иметь дискретный [вид данных](../../data/datakind.md).
 
-#### **Измерение в колонках**
+#### **Dimension in columns**
 
 Данная панель может быть открыта следующими способами:
 * ![](../../images/icons/common/system-object/../system-objects/sliced_18x18/edit_default.svg) в правом верхнем углу;
@@ -90,7 +90,7 @@ The values of these fields will be the columns headers. Поля в данной
 * двойной клик на поле;
 * горячая клавиша %kbd F2 %.
 
-![Измерение в колонках](./cross-table/measure.PNG)
+![Dimension in columns](./cross-table/measure.PNG)
 
 When using the cross table, new values can appear in the fields by which the columns were generated. В узле имеется два подхода к решению этой проблемы:
 
@@ -134,9 +134,9 @@ Resulting table:
 
 * **Group of values**: if the new values appear in the source field from the moment of the last node configuration, in this case, with the enabled *Other* checkbox, measures for such values will be aggregated in the *Other* column. The enabled *Null* checkbox displays the field data with null values in the output data set. Measures for them will be aggregated in the *Null values* column.
 
-**Общие настройки для колонок**
+**General columns settings**
 
-![Общие настройки для колонок](./cross-table/general_settings.PNG)
+![General columns settings](./cross-table/general_settings.PNG)
 
 Расположены в нижней части мастера и имеют следующие параметры:
 
@@ -212,14 +212,14 @@ Source table:
 
 *Cross table* with the following order of strings: *Point of sale*, *Date*. Measure: *Amount of sales (Amount)*.
 
-|Точка продажи|Дата|Сумма продажи|
+|Point of sale|Date|Amount of sales|
 |:-|:-|-:|
-|Павильон|11.04.2022|320|
-|Павильон|12.04.2022|190|
-|Павильон|13.04.2022|490|
-|СтройРынок|10.04.2022|705|
-|СтройРынок|12.04.2022|130|
-|СтройРынок|13.04.2022|65|
+|Trade stand|11.04.2022|320|
+|Trade stand|12.04.2022|190|
+|Trade stand|13.04.2022|490|
+|StroyRynok|10.04.2022|705|
+|StroyRynok|12.04.2022|130|
+|StroyRynok|13.04.2022|65|
 
 %/spoiler%
 

@@ -5,9 +5,9 @@ description: Модуль Калькулятор в Loginom. Вычислени�
 
 When installing the *JavaScript* syntax, the expression code area must contain JavaScript.
 
-> **Примечание.** Наименования полей/переменных/выражений чувствительны к регистру.
+> **Note:** Names of fields/variables/expressions are case sensitive.
 
-Следующий пример демонстрирует вычисление суммы двух полей *Калькулятора*:
+The next example shows how to calculate the sum of two *Calculator* fields:
 
 ```javascript
 // Calculation of the sum of fields
@@ -17,7 +17,7 @@ result = COL1 + COL2;
 return result;
 ```
 
-It is possible to use references to other *Calculator* fields or variables created in the expressions list, including the new ones. Через промежуточное выражение с типом Переменный можно передать массив. Ко входным Переменным можно обращаться через объект `this.Var.`.
+It is possible to use references to other *Calculator* fields or variables created in the expressions list, including the new ones. It is possible to transfer an array via intermediate value of the Variable type. It is possible to access the input Variables via `this.Var.` object.
 
 > **Note:** It is possible to use references to the expressions calculated earlier in the expression, namely, the expressions that are higher in the list of expressions. Consequently, incorrect list item position can cause a mistake.
 
@@ -93,10 +93,10 @@ delete require.cache[path];  // The cache of the "foo/foo.js" module is cleaned 
 
 ## Quick Access Toolbar
 
-На панели расположена кнопка вызова окна ![Предпросмотр](../../../images/icons/common/toolbar-controls/toolbar-controls_18x18_print-preview_disabled.svg) **Предпросмотра** и кнопки, по нажатию на которые в область кода выражения вставляется заготовка либо шаблон.
+The toolbar includes the ![Preview](../../../images/icons/common/toolbar-controls/toolbar-controls_18x18_print-preview_disabled.svg) **Preview** window call button and the buttons that enable to insert a template or preset layout into the expression code area upon their pressing.
 
 
-![Предпросмотр](../../../images/icons/common/toolbar-controls/toolbar-controls_18x18_print-preview_disabled.svg) Предпросмотр — позволяет оценить корректность расчетов, отображая до 100 первых строк результирующей таблицы. Горячая клавиша вызова — `F3`.
+![Preview](../../../images/icons/common/toolbar-controls/toolbar-controls_18x18_print-preview_disabled.svg) Preview enables to assess correctness of calculations displaying up to 100 first strings of the resulting table. Call hotkey — `F3`.
 
 Logical operations:
 

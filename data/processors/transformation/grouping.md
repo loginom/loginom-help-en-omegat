@@ -52,21 +52,21 @@ The wizard window is divided into two areas.
 
 %spoiler%Агрегация показателей и возможные типы данных%spoiler%
 
-|Вид агрегации|![](./../../images/icons/common/data-types/string_default.svg)|![](./../../images/icons/common/data-types/integer_default.svg)|![](./../../images/icons/common/data-types/float_default.svg)|![](./../../images/icons/common/data-types/boolean_default.svg)|![](./../../images/icons/common/data-types/datetime_default.svg)|![](./../../images/icons/common/data-types/variant_default.svg)
+|Aggregation kind|![](./../../images/icons/common/data-types/string_default.svg)|![](./../../images/icons/common/data-types/integer_default.svg)|![](./../../images/icons/common/data-types/float_default.svg)|![](./../../images/icons/common/data-types/boolean_default.svg)|![](./../../images/icons/common/data-types/datetime_default.svg)|![](./../../images/icons/common/data-types/variant_default.svg)
 |:-|:-:|:-:|:-:|:-:|:-:|:-:|
-|![](./../../images/icons/common/aggregations/factor-sum_default.svg) Сумма||**•**|**•**||||
-|![](./../../images/icons/common/aggregations/factor-count_default.svg) Количество|**•**|**•**|**•**|**•**|**•**|**•**|
-|![](./../../images/icons/common/aggregations/factor-min_default.svg) Минимум|**•**|**•**|**•**|**•**|**•**|**•**|
+|![](./../../images/icons/common/aggregations/factor-sum_default.svg) Sum||**•**|**•**||||
+|![](./../../images/icons/common/aggregations/factor-count_default.svg) Count|**•**|**•**|**•**|**•**|**•**|**•**|
+|![](./../../images/icons/common/aggregations/factor-min_default.svg) Minimum|**•**|**•**|**•**|**•**|**•**|**•**|
 |![](./../../images/icons/common/aggregations/factor-max_default.svg) Максимум|**•**|**•**|**•**|**•**|**•**|**•**|
-|![](./../../images/icons/common/aggregations/factor-avg_default.svg) Среднее||**•**|**•**||||
-|![](./../../images/icons/common/aggregations/factor-median_default.svg) Медиана||**•**|**•**||||
-|![](./../../images/icons/common/aggregations/mode_default.svg) Мода|**•**|**•**|**•**|**•**|**•**|**•**|
-|![](./../../images/icons/common/aggregations/factor-stddev_default.svg) Стандартное отклонение||**•**|**•**||||
-|![](./../../images/icons/common/aggregations/factor-unique-count_default.svg) Количество уникальных|**•**|**•**|**•**|**•**|**•**|**•**|
-|![](./../../images/icons/common/aggregations/factor-null-count_default.svg) Количество пропусков|**•**|**•**|**•**|**•**|**•**|**•**|
-|![](./../../images/icons/common/aggregations/factor-stat-first_default.svg) Первый|**•**|**•**|**•**|**•**|**•**|**•**|
-|![](./../../images/icons/common/aggregations/factor-stat-last_default.svg) Последний|**•**|**•**|**•**|**•**|**•**|**•**|
-|![](./../../images/icons/common/aggregations/factor-only_default.svg) Единственный|**•**|**•**|**•**|**•**|**•**|**•**|
+|![](./../../images/icons/common/aggregations/factor-avg_default.svg) Average||**•**|**•**||||
+|![](./../../images/icons/common/aggregations/factor-median_default.svg) Median||**•**|**•**||||
+|![](./../../images/icons/common/aggregations/mode_default.svg) Mode|**•**|**•**|**•**|**•**|**•**|**•**|
+|![](./../../images/icons/common/aggregations/factor-stddev_default.svg) Standard deviation||**•**|**•**||||
+|![](./../../images/icons/common/aggregations/factor-unique-count_default.svg) Count of unique|**•**|**•**|**•**|**•**|**•**|**•**|
+|![](./../../images/icons/common/aggregations/factor-null-count_default.svg) Null count|**•**|**•**|**•**|**•**|**•**|**•**|
+|![](./../../images/icons/common/aggregations/factor-stat-first_default.svg) First|**•**|**•**|**•**|**•**|**•**|**•**|
+|![](./../../images/icons/common/aggregations/factor-stat-last_default.svg) Last|**•**|**•**|**•**|**•**|**•**|**•**|
+|![](./../../images/icons/common/aggregations/factor-only_default.svg) Only|**•**|**•**|**•**|**•**|**•**|**•**|
 
 %/spoiler%
 
