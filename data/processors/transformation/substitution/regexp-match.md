@@ -38,14 +38,14 @@ The regular expression is used to search for the set sequence of characters in e
 |:-:|:-:|:-:|
 | 1 | 0100597 | false |
 | 2 | 0100598 | false |
-| 3 | Корректный | true |
-| 4 | Корректный | true |
-| 5 | Корректный | true |
-| 6 | Корректный | true |
-| 7 | Корректный | true |
-| 8 | Корректный | true |
-| 9 | Корректный | true |
-| 10 | Корректный | true |
+| 3 | Correct | true |
+| 4 | Correct | true |
+| 5 | Correct | true |
+| 6 | Correct | true |
+| 7 | Correct | true |
+| 8 | Correct | true |
+| 9 | Correct | true |
+| 10 | Correct | true |
 
 Поменяем теперь настройки. И в параметре **Заменять остальные** выбираем *На значение*. И в качестве значения укажем *Некорректный*.
 
@@ -55,15 +55,15 @@ The regular expression is used to search for the set sequence of characters in e
 
 | # | Артикул Замена | Артикул Заменен |
 |:-:|:-:|:-:|
-| 1 | Некорректный | true |
-| 2 | Некорректный | true |
-| 3 | Корректный | true |
-| 4 | Корректный | true |
-| 5 | Корректный | true |
-| 6 | Корректный | true |
-| 7 | Корректный | true |
-| 8 | Корректный | true |
-| 9 | Корректный | true |
-| 10 | Корректный | true |
+| 1 | Incorrect | true |
+| 2 | Incorrect | true |
+| 3 | Correct | true |
+| 4 | Correct | true |
+| 5 | Correct | true |
+| 6 | Correct | true |
+| 7 | Correct | true |
+| 8 | Correct | true |
+| 9 | Correct | true |
+| 10 | Correct | true |
 
 %/spoiler%

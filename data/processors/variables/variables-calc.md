@@ -127,7 +127,7 @@ included between (slash-asterisk)
 
 ### Variables
 
-Область содержит список переменных, передаваемых на вход узла. Перечень и параметры переменных определяются при настройке входных портов узла.
+The area contains a list of variables passed to the node input. The list and parameters of variables are defined when configuring input ports of the node.
 
 Double click on the list item position enables to enter the variable name to the expression code area.
 

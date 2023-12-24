@@ -1,7 +1,7 @@
 ---
 description: Фильтр строк в Loginom. Условия фильтрации. Работа с NULL-ми значениями.
 ---
-# Условия фильтрации в компоненте Фильтр строк
+# Filtering Criteria in the Row Filter Component
 
 A list of possible conditions and data types to which they can be applied.
 
@@ -27,49 +27,49 @@ A list of possible conditions and data types to which they can be applied.
 | true | | | | | • | • |
 | false | | | | | • | • |
 
-> **Примечание.**
-> При фильтрации полей с типом данных [Дата/Время](https://help.loginom.ru/userguide/data/datatype.html) и видом данных Дискретный не доступен выбор значений из календаря. Для того чтобы появилась возможность выбирать значение Дата/Время из календаря, нужно изменить вид данных на Непрерывный. Это можно сделать с помощью узла [Параметры полей](https://help.loginom.ru/userguide/processors/transformation/fields-parameters.html). В противном случае значения можно выбирать из списка значений, либо вводить их вручную.
+> **Note.**
+> When filtering the fields with the [Date/Time](https://help.loginom.ru/userguide/data/datatype.html) data type and the Discrete data kind, selection of values from calendar is not available. In order to have an opportunity to select the Date/Time value from calendar, it is required to change data kind for the Continuous one. It can be done using the [Features of fields](https://help.loginom.ru/userguide/processors/transformation/fields-parameters.html) node. Otherwise, values can be selected from the list of values or they can be manually entered.
 
 
-# Принцип работы компонента Фильтр строк с NULL-ми значениями
+# Operation principle of the Row Filter component with NULL values
 
-NULL-значения — это значения с отсутствием данных. Такие значения нельзя сравнивать с непустыми значениями, более того нельзя сравнивать NULL-значения между собой.
+NULL values are the values with null data. It is not allowed to compare such values with not null values. Moreover, it is not allowed to compare NULL values with each other.
 
-Для того чтобы в выходном наборе Фильтра строк были пропущенные значения, нужно добавлять отдельное условие в Мастере настроек: "Имя поля" пустое. В противном случае записи с NULL-ми в выходной набор не попадут.
+To provide null values in the Row Filter output data set, it is required to add a separate condition in the Wizard: "Field name" is null. Otherwise, records with NULLs will not be included into the output data set.
 
 %spoiler%Example:%spoiler%
 
-Исходный набор данных
+Source data set
 
-| # | Имя поля |
+| # | Filed name |
 |:--|:-----|
 | 1 | 10 |
 | 2 | NULL |
 | 3 | 100 |
 
-Если данный набор подать на узел Фильтр Строк и задать условие:
+If this data set is sent to the Row Filter node and the following condition is established:
 
-![Настройка Фильтр строк без NULL](./settings1.png)
+![Configuration of Row Filter without NULL](./settings1.png)
 
 
-то в выходном наборе получим следующую таблицу:
+the following table will be received in the output data set:
 
-| # | Имя поля |
+| # | Field name |
 |:--|:-----|
 | 1 | 100 |
 
-Для того чтобы NULL-значение попало в выходной набор, нужно условие задать следующим образом:
+To include the NULL value into the output data set, it is required to establish condition as follows:
 
-![Настройка Фильтр строк с NULL](./settings2.png)
+![Configuration of Row Filter with NULL](./settings2.png)
 
-в таком случае в выходном наборе получим следующую таблицу:
+In this case, the following table will be received in the output data set:
 
-| # | Имя поля |
+| # | Field name |
 | :--|:-----|
 | 1 | NULL |
 | 2 | 100 |
 
 %/spoiler%
 
-> **Примечание.**
-> Данная логика при работе с NULL-значениями согласуется со стандартами <a href="https://wikipedia.org/wiki/Null_(SQL)#Law_of_the_excluded_fourth_.28in_WHERE_clauses.29" title="Null (SQL) in WHERE clauses ">SQL</a>.
+> **Note.**
+> Such logics of work with NULL values complies with standards. <a href="https://wikipedia.org/wiki/Null_(SQL)#Law_of_the_excluded_fourth_.28in_WHERE_clauses.29" title="Null (SQL) in WHERE clauses ">SQL</a>.

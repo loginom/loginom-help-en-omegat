@@ -3,7 +3,7 @@ description: Трансформация даты/времени в Loginom. Фо
 ---
 # ![Date and Time](./../../../images/icons/components/date-reform_default.svg) Date and Time
 
-Компонент *Дата и время* производит трансформацию данных формата ![Дата/Время](./../../../images/icons/common/data-types/datetime_default.svg) *Дата/Время*.
+The *Date and time* component transforms data of ![Date/Time](./../../../images/icons/common/data-types/datetime_default.svg) *Date/Time* format.
 
 The point of such transformation is that one or several additional columns in which particular information on date/time are selected are generated on the basis of the column with information on date/time.
 

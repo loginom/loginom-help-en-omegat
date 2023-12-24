@@ -3,7 +3,7 @@ description: Объединение данных в Loginom. Аналог опе
 ---
 # ![Union](./../../images/icons/components/union_default.svg) Union
 
-С помощью компонента Объединение исходный набор данных дополняется записями присоединяемых наборов. The union is an analogue of the `UNION` operation in SQL.
+The source data set is appended with the records of the joined data sets by means of the Union component. The union is an analogue of the `UNION` operation in SQL.
 
 %spoiler%Example:%spoiler%
 

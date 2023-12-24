@@ -3,7 +3,7 @@ description: Группировка данных в Loginom. Аналог SQL-з
 ---
 # ![Grouping](./../../images/icons/components/group-data_default.svg) Grouping
 
-The grouping enables to perform actions with a data set that are simillar to the SQL query actions using `GROUP BY` offer. Компонент позволяет объединять записи избранных полей в группы, а для оставшихся полей вычислять статистические показатели (сумму, среднее, минимум и т.д.). One string is returned for each group. In this case, the statistical indicators (or [aggregation functions](./../func/aggregation-functions.md)) are calculated for each group but not for the whole data set.
+The grouping enables to perform actions with a data set that are simillar to the SQL query actions using `GROUP BY` offer. The component enables to combine records of the selected fields into groups, and to calculate the statistical indicators for the remaining fields (sum, mean, minimum, etc). One string is returned for each group. In this case, the statistical indicators (or [aggregation functions](./../func/aggregation-functions.md)) are calculated for each group but not for the whole data set.
 
 %spoiler%Example:%spoiler%
 
@@ -48,9 +48,9 @@ The wizard window is divided into two areas.
 * **Available fields** contain a list of fields of the input data set.
 * **Selected fields** are divided into the *Group* and *Parameters* lists.
    * ![Group](./../../images/icons/common/usage-types/group_default.svg) **Group**: grouping fields.
-   * ![Показатели](./../../images/icons/common/usage-types/value_default.svg) **Показатели** — поля, по которым рассчитываются [функции агрегации](./../../processors/func/aggregation-functions.md).
+   * ![Parameters](./../../images/icons/common/usage-types/value_default.svg) **Parameters** denote the fields by which the [aggregation functions](./../../processors/func/aggregation-functions.md) are calculated.
 
-%spoiler%Агрегация показателей и возможные типы данных%spoiler%
+%spoiler%Parameter aggregation and possible data types%spoiler%
 
 |Aggregation kind|![](./../../images/icons/common/data-types/string_default.svg)|![](./../../images/icons/common/data-types/integer_default.svg)|![](./../../images/icons/common/data-types/float_default.svg)|![](./../../images/icons/common/data-types/boolean_default.svg)|![](./../../images/icons/common/data-types/datetime_default.svg)|![](./../../images/icons/common/data-types/variant_default.svg)
 |:-|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -70,9 +70,9 @@ The wizard window is divided into two areas.
 
 %/spoiler%
 
-To configure, it is required to move the input data set fields to the *Group* or *Parameters* lists, dragging them with the mouse. Так же это можно сделать с помощью кнопок : ![Переместить в Группу](./../../images/icons/common/usage-types/group_default.svg) **Переместить в Группу** (комбинация горячих клавиш **Alt+G**) и ![Переместить в Показатель](./../../images/icons/common/usage-types/value_default.svg) **Переместить в Показатели** (комбинация горячих клавиш **Alt+S**). The ![](./../../images/icons/common/toolbar-controls/toolbar-controls_18x18_filter_default.svg) *Filter* field is located over the list of the available fields. It enables to find the field by name or its part.
+To configure, it is required to move the input data set fields to the *Group* or *Parameters* lists, dragging them with the mouse. It can be also done using the following buttons : ![Move to Group](./../../images/icons/common/usage-types/group_default.svg) **Move to Group** (hotkeys combination - **Alt+G**) and ![Move to Parameter](./../../images/icons/common/usage-types/value_default.svg) **Move to Parameters** (hotkeys combination - **Alt+S**). The ![](./../../images/icons/common/toolbar-controls/toolbar-controls_18x18_filter_default.svg) *Filter* field is located over the list of the available fields. It enables to find the field by name or its part.
 
-The aggregation method is configured for each parameter in a separate window. Чтобы его открыть, нужно дважды кликнуть по полю в списке *Показатели* или вызвать это окно из контекстного меню. Then, it is required to tick the necessary aggregation methods. The result for each method will be recorded in a separate column.
+The aggregation method is configured for each parameter in a separate window. To open it, it is required to double click on the field in the *Parameters* list, or to call this window from the context menu. Then, it is required to tick the necessary aggregation methods. The result for each method will be recorded in a separate column.
 
 Two parameters selected using checkboxes are located in the lower part of the wizard:
 

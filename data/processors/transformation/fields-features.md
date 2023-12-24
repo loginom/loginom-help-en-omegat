@@ -41,12 +41,12 @@ The node enables to [cache](./../../workflow/caching.md) the whole data set, or 
    * **On activation**: on the node activation, the data set field will be cached.
    * **While handling**: the field will be cached in the case of the first request of its data by the subsequent workflow nodes or visualizer.
 
-## Исключение столбцов
-В настройках узла "Параметры полей" имеется возможность исключить столбцы из дальнейшей обработки. Для этого необходимо установить соответствующий флаг.
+## Exclusion of Columns
+It is possible to exclude the columns from the further processing in the "Field features" node settings. For this purpose, it is required to select corresponding checkbox.
 
-![Исключение столбцов](./field_type.png)
+![Exclusion of Columns](./field_type.png)
 
-Можно исключить один столбец или несколько столбцов. Нельзя исключить из дальнейшей обработки одновременно все столбцы используемого набора данных. При попытке этого действия возникнет ошибка.
-> Все исключаемые поля получают назначение "Используемое" на входном порте узла "Параметры полей". Исключаемое поле должно быть обязательным.
+It is possible to exclude one column or several columns. It is not possible to exclude from the further processing all columns of the used data set at once. While attempting to perform this action, an error occurs.
+> All excluded fields get the "Used" usage type in the input port of the "Field features" node. The excluded field must be the required one
 
-Для упрощения процесса исключения большого количества столбцов доступна опция группового редактирования. Для этого необходимо выделить все исключаемые столбцы, нажав на правую кнопку мышки, выбрать опцию "Редактирование", установить флаг "Исключить".
+To simplify exclusion of large amount of columns, group editing option is available. For this purpose, it is required to select all excluded columns by clicking the right mouse button, selecting "Edit" option and "Exclude" checkbox.

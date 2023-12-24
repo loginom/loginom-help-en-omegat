@@ -111,7 +111,7 @@ It is possible to add measures in two ways:
 * Drag (Drag-and-Drop) the required field from the Area of Free Fields (1) to the Area of Measures (3).
 * By pressing on ![Measures](./../../images/icons/common/toolbar-controls/sum_default.svg) Measures button, it is necessary to select the required field and in the appeared [window](./add-measure.md) select the required method of [aggregation](./../../processors/func/aggregation-functions.md) and method of its display.
 
-%spoiler%Агрегация фактов и возможные типы данных%spoiler%
+%spoiler%Measure aggregation and possible data types%spoiler%
 
 |Вид агрегации|![](./../../images/icons/common/data-types/string_default.svg)|![](./../../images/icons/common/data-types/integer_default.svg)|![](./../../images/icons/common/data-types/float_default.svg)|![](./../../images/icons/common/data-types/boolean_default.svg)|![](./../../images/icons/common/data-types/datetime_default.svg)|![](./../../images/icons/common/data-types/variant_default.svg)|
 |:-|:-:|:-:|:-:|:-:|:-:|:-:|

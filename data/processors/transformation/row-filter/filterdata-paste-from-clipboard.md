@@ -1,34 +1,34 @@
 ---
 description: Фильтр строк в Loginom. Вставка значений из буфера обмена в фильтре строк.
 ---
-# Особенности работы с буфером обмена в Фильтре строк
+# Features of Work with Clipboard in the Row Filter
 
-Для условий *в списке/вне списка* доступны команды для работы с буфером обмена. Значения для сравнения можно вставить из буфера обмена в поле *Список*, вырезать или скопировать из поля *Список*.
+There are available clipboard commands in *listed/not listed* conditions. Compare values can be inserted from the clipboard to the *List* field. They can be also cut or copied from the *List* field.
 
-Команды для работы с буфером обмена доступны в контекстном меню поля *Список* или через горячие клавиши:
+The clipboard commands are available in the context menu of the *List* field or via hotkeys:
 
-![Контекстное меню в фильтре строк](./row-filter-context-menu.png)
+![Context menu in the row filter](./row-filter-context-menu.png)
 
-Поле, для которого задается условие фильтрации, должно содержать данные  [дискретного вида](./../../../data/datakind.md).
+The field for which filtering criterion is set must contain the data of the  [discrete kind](./../../../data/datakind.md).
 
-Разделителем копируемых/вставляемых элементов является перевод строки.
+Delimiter of the copied/pasted elements must be line break.
 
-В процессе вставки автоматически проверяется соответствие [типа данных](./../../../data/datatype.md) (т.е. в числовое поле строку вставить не получится).
+[Data type](./../../../data/datatype.md) mapping is automatically checked while pasting (namely, it won't be possible to paste a row into the numeric field).
 
-Для типа данных ![](./../../../images/icons/common/data-types/datetime_default.svg) Дата/Время требуется соответствие формату данных.
+Data format must match the![](./../../../images/icons/common/data-types/datetime_default.svg) Date/Type data type.
 
-При вставке значений, уже присутствующих в поле *Список*, их дублирования не происходит.
+When pasting the values already existing in the *List* field, they are not duplicated.
 
-## Ограничения
+## Restrictions
 
-Контекстное меню работает в настольной версии, а также в [Loginom Studio](https://help.loginom.ru/adminguide/studio/) при работе через браузер по протоколу `https` или на `localhost`.
+The context menu can be used in the desktop version and also in [Megaladata Studio](https://help.loginom.ru/adminguide/studio/) when working via browser or `https` protocol or using `localhost`.
 
-> Важно: для браузера `Firefox` по умолчанию работают команды контекстного меню "Вырезать" и "Копировать". Для работы команды "Вставить" необходимо в адресной строке браузера ввести `about:config`, найти параметр `dom.events.testing.asyncClipboard` и изменить его значение на `true`.
+> Important: The context menu commands "Cut" and "Copy" are available by default for the `Firefox` browser. To use "Paste" command, it is required to enter `about:config` in the browser address bar, find `dom.events.testing.asyncClipboard` parameter and change its value for `true`.
 
-При работе по протоколу `http` используйте сочетание горячих клавиш:
+It is required to use the following hotkeys combinations when working via `http` protocol:
 
-* для вставки значений из буфера обмена — %kbd Ctrl % + %kbd V %;
-* для копирования в буфер обмена — %kbd Ctrl % + %kbd С %;
-* для вырезания — %kbd Ctrl % + %kbd X %.
+* to paste values from clipboard — %kbd Ctrl % + %kbd V %;
+* to copy to clipboard — %kbd Ctrl % + %kbd С %;
+* to cut — %kbd Ctrl % + %kbd X %.
 
-Для работы в Loginom Studio необходимо использовать актуальную версию браузера.
+It is required to use the current browser version for work in Megaladata Studio.
