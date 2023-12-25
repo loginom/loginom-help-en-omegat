@@ -3,7 +3,7 @@ description: Компонент Соединение (переменные) в L
 ---
 # ![Variable Union](./../../images/icons/components/unionvariables_default.svg) Variable Union
 
-Компонент предназначен для объединения двух или более наборов переменных в один набор.
+The component is designated for combination of two and more sets of variables into one set.
 
 If names of the variables from different sets coincide, names of such variables in the output data set will be supplemented by unique numbers. If the variable name ends with a digit, in this case, names of these variables are numbered in an ascending order in the output data set.
 
@@ -55,6 +55,6 @@ It is required to provide serial connection to the node. We will receive the fol
 | a2 | a | 30 | from set C, variable a1 |
 | b_1 | b | 25 | from set C, variable b |
 
-Как видно вторая переменная `b` была переименована в `b_1`, в то время как вторая переменная `a0` была переименована в `a1`, и `a1` была переименована в `a2` так как после переименования `a0` в `a1` уже она являлась дублем.
+Obviously, the second variable `b` was renamed to `b_1`, whereas the second variable `a0` was renamed to `a1`, and `a1` was renamed to `a2` because after renaming of `a0` to `a1`, it had already been a double.
 
 %/spoiler%

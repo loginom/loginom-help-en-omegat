@@ -3,7 +3,7 @@ description: Компонент Таблица в переменные в Logino
 ---
 # ![Table to Variables](./../../images/icons/components/datatovariables_default.svg) Table to Variables
 
-Компонент позволяет преобразовать табличные данные в переменные. A variable is generated from the data of each table field. A variable can have only one value that's why different [aggregation functions](./../func/aggregation-functions.md) are applied to the field data for its calculation.
+The component enables to convert the table data to variables. A variable is generated from the data of each table field. A variable can have only one value that's why different [aggregation functions](./../func/aggregation-functions.md) are applied to the field data for its calculation.
 
 ## Ports
 
@@ -34,10 +34,10 @@ It is possible to add the selected fields to the *Selected fields* list using th
 
 ### Selected Fields
 
-При добавлении поля в список *Выбранные поля* функция агрегации будет назначена по умолчанию:
+When adding fields to the *Selected fields* list, the aggregation function will be assigned by default:
 
 * The *sum* function will be selected for digits.
-* для остальных — функция *единственный*.
+* The *single* function will be selected for others.
 
 It is possible to use the mouse to perform actions with the selected fields. It is possible to change position in the selected fields by dragging inside the list. It is possible to exclude by means of fields transfer to the *Available fields* list. Double click on the field enables to open the "Aggregation selection" window.
 
