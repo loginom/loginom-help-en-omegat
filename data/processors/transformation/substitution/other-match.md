@@ -13,7 +13,7 @@ description: Замена в Loginom. Замена данных не попав�
 And the row for input of the new value of the records not included into the *Replacement table*.
 
 
-Рассмотрим варианты настройки на примере, который мы рассматривали в статье [Замена по точному совпадению](./exact-match.md#zamena-po-tochnomu-sovpadeniyu).
+Let's consider configuration options using the example analysed in [Replacement by Exact Match](./exact-match.md#zamena-po-tochnomu-sovpadeniyu) article.
 
 Let's use the following data set:
 
@@ -25,13 +25,13 @@ Let's use the following data set:
 | 1989 | Bulletproof | 255 |
 | 2209 | Autobarn | 389 |
 
-и зададим узлу *Замена* следующие настройки:
+And customize the following settings for the *Replace* node:
 
-![Настройки Замена для примера.](substitution-exact-match-2.png)
+![Replace settings for example.](substitution-exact-match-2.png)
 
-## Не заменять
+## Do not replace
 
-В случае выбора *Не заменять*, к значениям не попавшим в Таблицу замен не применяется дополнительная обработка:
+When selecting *Do not replace*, the values not included into the Replacemnt Table are not subject to additional processing:
 
 | Shop code | Shop name Replace | Shop name Replaced | Number of buyers |
 |:-:|:-:|:-:|:-:|
@@ -43,7 +43,7 @@ Let's use the following data set:
 
 ## With Empty
 
-При выборе пункта *На пропущенное*, все значения не попавшие в *Таблицу замен* будут заменены на пустое значение `<null>`:
+When selecting *With empty* option, all values not included into the *Replacement table* will be replaced with the null value `<null>`:
 
 | Shop code | Shop name Replace | Shop name Replaced | Number of buyers |
 |:-:|:-:|:-:|:-:|
@@ -55,8 +55,8 @@ Let's use the following data set:
 
 ## With Value
 
-Пункт *На значение* заменяет все значения вне *Таблицы замен* на введенное в строке.
-Укажем в строке значение `*Город*`:
+*With value* option replaces all values outside the *Replacement table* with the value entered into the row.
+Let's specify `*City*` value in the row:
 
 | Shop code | Shop name Replace | Shop name Replaced | Number of buyers |
 |:-:|:-:|:-:|:-:|
@@ -70,7 +70,7 @@ Let's use the following data set:
 
 If *With regular expression* option of *Replace other* parameter is selected, reserved `$1` character is used for the values not detected using the replacement table. `$1` characters will be replaced with the source value in the row that enables to set the new value.
 
-Укажем в строке значение `*$1 — Не опеределено*`:
+Let's specify `*$1 — Not defined*` value in the row:
 
 | Shop code | Shop name Replace | Shop name Replaced | Number of buyers |
 |:-:|:-:|:-:|:-:|

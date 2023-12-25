@@ -113,10 +113,10 @@ It is required to select **Usage type** for the table fields from the following 
 
 ### Output data set
 
-В результирующий набор данных для каждого поля, по которому производилась замена, будет добавлен столбец логического типа с именем "`Имя поля`_Replaced" и меткой "`Метка поля` Заменен".
+The boolean column with "`Field name`_Replaced" name and caption "`Field caption` Replaced" will be added to the resulting data set for each field by which replacement has been performed.
 
-При настройках по умолчанию замена будет произведена в исходном столбце, а к метке поля будет добавлено слово "Замена". Имя столбца не изменится.
+When settings are default, replacement will be performed in the source column, and "Replace" word will be added to the field caption. Column name won't be changed.
 
-В результирующем наборе данных можно оставить исходный столбец без изменений, а замененные значения выводить в отдельном столбце. Для этого в окне *Настройка соответствия между столбцами* мастера настройки узла *Замена* (шаг 2) на панели инструментов списка "Входные" необходимо указать ![](./../../../images/icons/common/toolbar-controls/tune_default.svg) *Тип создания производных столбцов* ![](./../../../images/icons/common/toolbar-controls/plus_default.svg) **Добавление** (см. также [Интерфейс "Связи"](./../../../workflow/ports/connections-interface.md)).
+The source column can be left in the resulting data set without changes, and replaced values can be displayed in a separate column. For this purpose, in *Adjustment of columns mapping* window of the *Replace* node wizard (step 2) on the "Input" list toolbar it is required to specify ![](./../../../images/icons/common/toolbar-controls/tune_default.svg) *Derived columns creation type* ![](./../../../images/icons/common/toolbar-controls/plus_default.svg) **Supplement** (refer to also ["Links" Interface](./../../../workflow/ports/connections-interface.md)).
 
-В этом случае в результирующий набор будет включен дополнительный столбец, к имени которого будет добавлен постфикс  "_Replace", а к метке слово "Замена".
+In this case, the additional column to the name of which "_Replace" postfix will be added, and "Replace" word will be added to the caption in the resulting data set.
