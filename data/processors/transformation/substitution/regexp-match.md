@@ -9,9 +9,9 @@ The regular expression is used to search for the set sequence of characters in e
 
 Значения, не попавшие в *Таблицу замен*, обрабатываются согласно настройке параметра [Заменять остальные](./other-match.md).
 
-%spoiler%**Пример.**%spoiler%
+%spoiler%**Example.**%spoiler%
 
-| # | Артикул |
+| # | Product item |
 |:-:|:-:|
 | 1 | 0100597 |
 | 2 | 0100598 |
@@ -32,9 +32,9 @@ The regular expression is used to search for the set sequence of characters in e
 
 В параметре **Заменять остальные** установим значение *Не заменять*.
 
-Получаем следующий набор данных:
+The following data set is obtained:
 
-| # | Артикул Замена | Артикул Заменен |
+| # | Product item Replacement | Product item Replaced |
 |:-:|:-:|:-:|
 | 1 | 0100597 | false |
 | 2 | 0100598 | false |
@@ -53,7 +53,7 @@ The regular expression is used to search for the set sequence of characters in e
 
 В результате получим следующий набор данных:
 
-| # | Артикул Замена | Артикул Заменен |
+| # | Артикул Замена | Product item Replaced |
 |:-:|:-:|:-:|
 | 1 | Incorrect | true |
 | 2 | Incorrect | true |

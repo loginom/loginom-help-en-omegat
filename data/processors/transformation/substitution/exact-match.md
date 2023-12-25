@@ -3,15 +3,15 @@ description: Замена в Loginom. Замена по точному совп�
 ---
 # Replacement by Exact Match
 
-Для того чтобы произвести Замену по точному совпадению, нужно в Мастере настроек для нужного поля выставить значение способа замены *Ввод вручную*.
+To perform Replacement by Exact Match, it is required to set the value of the *Manual input* replacement method for the required field in the Wizard.
 
-![Мастер настроек. Ввод вручную](./substitution-exact-match-1.png)
+![Wizard. Manual input](./substitution-exact-match-1.png)
 
-**Точное совпадение** — значение, которое требуется заменить.
+**Exact match**: the va;ue to be replaced.
 
-**Регулярное выражение** — значение задается с помощью [регулярного выражения](./regexp-match.md). Доступно только для [Строкового](./../../../data/datatype.md) типа данных.
+**Regular expression**: the value is set using the [regular expression](./regexp-match.md). It is available only for the [String](./../../../data/datatype.md) data type.
 
-**Замена** — значение, на которое требуется заменить.
+**Replace**: the value to be replaced with.
 
 %spoiler%**Example**%spoiler%
 
@@ -23,20 +23,20 @@ description: Замена в Loginom. Замена по точному совп�
 | 1989 | Bulletproof | 255 |
 | 2209 | Autobarn | 389 |
 
-Применим к исходному набору следующие настройки:
+Let's apply the following settings to the source data set:
 
-![Настройки Замены для примера.](substitution-exact-match-2.png)
+![Replacement settings for example.](substitution-exact-match-2.png)
 
-В параметре [Заменять остальные](./other-match.md) выбираем *Не заменять.*
+In [Replace other](./other-match.md) parameter it is required to select *Do not replace.*
 
-Получаем следующий набор:
+The following set is obtained:
 
 | Shop code | Shop name Replace | Shop name Replaced | Number of buyers |
 |:-:|:-:|:-:|:-:|
 | 001253 | Ryazan | true | 170 |
 | 007569 | Beauty&Seoul | false | 295 |
-| 000709 | Москва | true | 427 |
-| 001989 | Краснодар | true | 255 |
+| 000709 | Moscow | true | 427 |
+| 001989 | Krasnodar | true | 255 |
 | 002209 | Autobarn | false | 389 |
 
 %/spoiler%
@@ -44,11 +44,11 @@ description: Замена в Loginom. Замена по точному совп�
 
 ## Use of the Allowable Interval
 
-При поиске среди [Вещественных](./../../../data/datatype.md) и [Целых](./../../../data/datatype.md) данных возможно указание допустимого интервала поиска. За его настройку отвечает параметр *Точность*. Интервалы рассчитываются следующим образом: `от <Значение поля замена>-<Точность> до <Значение поля замена>+<Точность>`, включая границы интервала. If several matches are found taking into account the interval, the closest match to the source one will be used.
+It is possible to specify the allowable search interval when searching among [Real](./../../../data/datatype.md) and [Integer](./../../../data/datatype.md) data. *Precision* parameter is required for its configuration. Intervals are calculated as follows: `from <Replace field value>-<Precision> to <Replace field value>+<Precision>`, including the interval bounds. If several matches are found taking into account the interval, the closest match to the source one will be used.
 
 %spoiler%**Example**%spoiler%
 
-Возьмём набор данных из предыдущего примера.
+Let's take the data set from the previous example.
 
 | Shop code | Shop name | Number of buyers |
 |:-:|:-:|:-:|
@@ -58,23 +58,23 @@ description: Замена в Loginom. Замена по точному совп�
 | 1989 | Bulletproof | 255 |
 | 2209 | Autobarn | 389 |
 
-И установим следующие настройки.
+And customize the following settings.
 
-![Настройки Замены для примера.](substitution-exact-match-3.png)
+![Replacement settings for example.](substitution-exact-match-3.png)
 
-В параметре **Точность** установим значение, равное *85*.
-В параметре **Заменять остальные** установим значение *Не заменять*.
+In the **Precision** parameter it is required to set the value equal to *85*.
+In **Replace other** parameter it is required to set *Do not replace* value.
 
-Получаем следующий набор:
+The following set is obtained:
 
-| Shop code | Shop name | Количество покупателей Замена | Количество покупателей Заменен | Количество покупателей отклонение |
+| Shop code | Shop name | Number of buyers Replacement | Number of buyers Replaced | Number of buyers deviation |
 |:-:|:-:|:-:|:-:|:-:|
 | 001253 | Ryazan | Good | true | 85,00 |
 | 007569 | Beauty&Seoul | Good | true | -40,00 |
-| 000709 | Москва | 427 | false | |
-| 001989 | Краснодар | Good | true | 0,00 |
+| 000709 | Moscow | 427 | false | |
+| 001989 | Krasnodar | Good | true | 0,00 |
 | 002209 | Autobarn | 389 | false | |
 
 %/spoiler%
 
-Значения, не попавшие ни в *Таблицу замен*, ни в *Допустимые интервалы*, обрабатываются согласно настройке параметра [Заменять остальные](./other-match.md).
+The values included neither into the *Replacement table*, nor into *Allowable intervals*, are processed according to the configured parameter - [Replace other](./other-match.md).
