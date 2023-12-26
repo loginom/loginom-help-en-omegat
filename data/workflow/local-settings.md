@@ -1,7 +1,7 @@
 ---
 description: Источник региональных настроек (языковые стандарты, формат представления чисел, времени, даты) для сервера Loginom. Компоненты Loginom, в которых результат может зависеть от региональных настроек.
 ---
-# Настройка локали
+# Locale Configuration
 
 These settings contain information on the language standards, number, time, date formats. For example, one of the sources of these settings for Windows users for the Loginom server are "Language and regional standards" settings.
 

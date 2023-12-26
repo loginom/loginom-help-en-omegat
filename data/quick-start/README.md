@@ -14,7 +14,7 @@ One of the main concepts on which the [**Loginom**](https://loginom.ru) platform
 
 The workflow node performs a separate operation with data. A list of possible operations is represented by a number of ready *components*.
 
-The processing sequence is determined by connection of the previous workflow node output and input of the subsequent one. Входом и выходом узла являются *входные* и *выходные [порты](./../workflow/ports/README.md)*.
+The processing sequence is determined by connection of the previous workflow node output and input of the subsequent one. The node input and output are *input* and *output [ports](./../workflow/ports/README.md)*.
 
 ![Workflow example](./readme-1.png)
 
@@ -50,7 +50,7 @@ Types of ports of the workflow nodes:
     </tr>
     <tr>
         <td><img src="../images/icons/app/node/ports/inputs/variable_inactive.svg"> Variables</td>
-        <td>They are objects containing only one value. С помощью специальных компонентов имеется возможность преобразовать данные из таблиц в переменные и обратно.</td>
+        <td>They are objects containing only one value. It is possible to convert the data from tables to variables and vice versa using the special components.</td>
     </tr>
      <tr>
         <td><img src="../images/icons/app/node/ports/inputs/tree_inactive.svg"> Data tree</td>
