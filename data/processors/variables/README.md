@@ -4,12 +4,12 @@ description: Переменные. Оглавление.
 
 # Variables
 
-[Variable](../../workflow/variables/README.md): the named object that can contain only one value of the particular type. В Loginom есть несколько видов [переменных](../../workflow/variables/scenario-variables.md).
+[Variable](../../workflow/variables/README.md): the named object that can contain only one value of the particular type. There are several kinds of [variables](../../workflow/variables/scenario-variables.md) in Megaladata.
 
-Значения переменных могут использоваться в вычислениях, например, в узлах [Калькулятор](./../../processors/transformation/calc/README.md),
-[Условие](./../../processors/control/condition.md)
-и других. Так же значения переменных могут использоваться в качестве
-[управляющих переменных](./../../workflow/variables/control-variables.md)
-для задания параметров настройки узлов.
+The variables values can be used in calculations, for example, in the following nodes: [Calculator](./../../processors/transformation/calc/README.md),
+[Condition](./../../processors/control/condition.md),
+etc. The variables values can be also used as
+[control variables](./../../workflow/variables/control-variables.md)
+to set parameters of the node settings.
 
-В Loginom есть компоненты, предназначенные для работы с переменными. Они выделены в отдельную группу на панели Компоненты.
+There are components designated for work with variables in Megaladata. They are separated into a separate group on the Components panel.

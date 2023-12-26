@@ -11,20 +11,20 @@ The component is designated for mathematical operations with variables. New vari
 
 ### Input
 
-* ![Входные переменные](./../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) **Входные переменные** — список переменных, которые можно использовать в узле.
+* ![Input variables](./../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) **Input variables**: list of variables that can be used in the node.
 
 ### Output
 
-* ![Выходные переменные](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Выходные переменные** — входные переменные и новые переменные, вычисленные узлом.
+* ![Output variables](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Output variables**: input variables and new variables calculated by the node.
 
 ## Wizard
 
 The wizard window includes the following areas:
 
-[Список выражений](#spisok-vyrazheniy)
-[Область кода выражения](#oblast-koda-vyrazheniya)
-[Переменные](#peremennye)
-[Список функций](#spisok-funktsiy)
+[List of expressions](#spisok-vyrazheniy)
+[Expression code area](#oblast-koda-vyrazheniya)
+[Variables](#peremennye)
+[List of functions](#spisok-funktsiy)
 
 ### List of Expressions
 
@@ -32,9 +32,9 @@ The area is designated for entry of *expressions*, namely, calculated variables 
 
 It is possible to create a new expression using the toolbar area or the context menu. There are the following toolbar and context menu operations:
 
-* ![Редактировать](./../../images/icons/common/toolbar-controls/edit_default.svg) **Редактировать выражение** — задание параметров выражения.
-* ![Переместить вверх](./../../images/icons/common/toolbar-controls/up_default.svg) **Переместить вверх** — поднять выражение на одну позицию вверх по списку.
-* ![Переместить вниз](./../../images/icons/common/toolbar-controls/down_default.svg) **Переместить вниз** — опустить выражение на одну позицию вниз по списку.
+* ![Edit](./../../images/icons/common/toolbar-controls/edit_default.svg) **Edit** enables to set expression parameters.
+* ![Move up](./../../images/icons/common/toolbar-controls/up_default.svg) **Move up** enables to move the expression one item position up the list.
+* ![Move down](./../../images/icons/common/toolbar-controls/down_default.svg) **Move down** enables to move the expression one item position down the list.
 * ![Add expression](./../../images/icons/common/toolbar-controls/plus_default.svg) **Add expression** enables to add a new expression with default parameters.
 * ![Add expression by the example](./../../images/icons/common/toolbar-controls/clone_default.svg) **Clone expression** enables to add a new expression with data type, description and formula similar to the current expression.
 * ![Delete expression](./../../images/icons/common/toolbar-controls/delete_default.svg) **Delete expression** enables to delete the current expression.
@@ -76,25 +76,25 @@ The expression formula can contain the following components:
 
 ### Quick Access Toolbar
 
-На панели расположена кнопка вызова окна ![Предпросмотр](./../../images/icons/common/toolbar-controls/print-preview_default.svg) **Предпросмотра** и кнопки, по нажатию на которые в область кода выражения вставляются шаблоны или части выражения.
+The toolbar includes the ![Preview](./../../images/icons/common/toolbar-controls/print-preview_default.svg) **Preview** window call button and the buttons that enable to insert templates or parts of expression into the expression code area upon their pressing.
 
 ![Preview](./../../images/icons/common/toolbar-controls/print-preview_default.svg) Preview enables to assess correctness of calculations displaying up to 100 first strings of the resulting table. Call hotkey — `F3`.
 
 Logical operations:
 
-* **AND** — операция Логическое "И".
-* **OR** — операция Логическое "ИЛИ".
-* **NOT** — операция Логическое "НЕ".
+* **AND**: the Logical "AND" operator.
+* **OR**: the Logical "OR" operator.
+* **NOT**: the Logical "NOT" operator.
 * **XOR**: the Logical "exclusive OR" operator.
 
 Comparisons operator:
 
-* **=** — равно;
-* **<>** — не равно;
-* **<** — меньше;
-* **>** — больше;
-* **<=** — меньше или равно;
-* **>=** — больше или равно.
+* **=** — equals;
+* **<>** — not equal;
+* **<** — less than;
+* **>** — greater than;
+* **<=** — less than or equal to;
+* **>=** — greater than or equal to.
 
 Templates:
 
