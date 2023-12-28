@@ -20,7 +20,7 @@ Loginom Desktop operation is similar to the Studio operation, with the exception
 | [Integration](./integration/README.md) | •/- | • |
 
 
-Платформа [Loginom](https://loginom.ru) предлагается в 6-ти редакциях:
+6 editions of the [Megaladata](https://loginom.ru) platform are available:
 
 * Community Edition
 * Personal
@@ -29,8 +29,8 @@ Loginom Desktop operation is similar to the Studio operation, with the exception
 * Enterprise
 * Cloud
 
-Чтобы выбрать подходящую редакцию, необходимо ориентироваться на кейсы использования и интеграцию в корпоративную информационную среду, а не от доступных алгоритмов обработки или способов визуализации, которые во всех версиях одинаковы.
-С более подробным описанием редакций можно ознакомиться в статье "Сравнение редакций".
+To choose the suitable edition, it is required to consider use cases and integration into the corporate IT environment but not available processing algorithms or visualization methods that are the same in all versions.
+More detailed description of editions is provided in "Compare Editions" article.
 
 **See also:**
 
