@@ -23,9 +23,9 @@ The chart visually shows dependence of values of one field on the other one. Two
 * ![](./../../images/icons/common/toolbar-controls/zoom-zone_default.svg) **Сбросить масштаб** — снимает все настройки масштабирования (по обеим осям).
 * ![](./../../images/icons/common/toolbar-controls/zoom-vert_default.svg) **Сбросить масштаб Y** — снимает масштабирование диаграммы по оси Y, но оставляет приближение по оси X.
 * ![](./../../images/icons/common/toolbar-controls/import_default.svg) **Экспорт** — позволяет сохранить диаграмму, как она выглядит в окне просмотра в файл с изображением. The name of the format that has been selected for export will be displayed in this menu option:
-   * Экспорт в SVG;
-   * Экспорт в PNG;
-   * Экспорт в JPG;
+   * Export to SVG;
+   * Export to PNG;
+   * Export to JPG;
    * Export to PDF.
 
 ### Chart Configuration
@@ -39,7 +39,7 @@ The fields that can be used as the chart axes are displayed in the left list. Fo
 
 When configuring the X axis settings, it is also possible to use the buttons in the fields list (to the right from the field name):
 
-* ![](./../../images/icons/icons/icon1.svg) Использовать как поле абсцисс (Alt+X);
+* ![](./../../images/icons/icons/icon1.svg) Use as abscissa field (Alt+X);
 * ![](./../../images/icons/icons/icon2.svg) Use as caption field (Alt+L).
 
 Thus, the X axis values field and caption field (the axis points marks) must not necessarily coincide.
@@ -59,7 +59,7 @@ The following types of charts are available:
 * ![](./../../images/icons/series/d11.svg) Errors.
 * ![](./../../images/icons/series/d12.svg) Polygon.
 * ![](./../../images/icons/series/d13.svg) Columns with ranges.
-* Тепловая карта.
+* Heatmap.
 
 > **Примечание:** все диаграммы строятся на принципе — одному значению X соответствует **только одно** значение Y.
 

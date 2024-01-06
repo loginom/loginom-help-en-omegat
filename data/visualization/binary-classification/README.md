@@ -8,10 +8,10 @@ description: Качество бинарной классификации в Log
 The visualizer is divided into 3 areas:
 
 * [Area of settings](#oblast-nastroek) is designated for the chart selection and configuration.
-* [Область диаграммы](#oblast-diagrammy) — отображает диаграмму, выбранную в области настроек;
+* [Chart area](#oblast-diagrammy) displays the chart selected in the area of settings.
 * [Area of classification assessments](#oblasti-otsenok-klassifikatsii) contains the tables with classification assessments.
 
-> **Примечание**: *Область оценок классификации* можно изменить в размерах, если потянуть за линию-разделитель левой кнопкой мыши. При двойном щелчке по линии-разделителю или одинарном посередине линии, область будет скрыта. It is possible to hide the area also for *Area of settings*.
+> **Note**: Sizes of *Area of classification assessments* can be changed by dragging the separator line with the left mouse button. The area will be hidden by double clicking on the separator line or single clicking on the middle part of the line. It is possible to hide the area also for *Area of settings*.
 
 ## Area of Settings
 
@@ -23,9 +23,9 @@ The group contains nine switches each of which calls the definite chart in the v
 
 * **[ROC curve](https://wiki.loginom.ru/articles/roc-analysis.html)**: dependence of *TPR* on *FPR*.
 * **PR curve**: dependence of *TPR* on *PPV*.
-* **Базовые показатели** — на диаграмме строятся графики: *TPR*, *TNR*, *FPR*, *FNR*, и отображается порог отсечения.
-* **Диаграмма точности** — на диаграмме строятся графики *PPV*, *NPV*, *OPR*, *OCR*, и отображается порог отсечения.
-* **Диаграмма равновесия** — на диаграмме строятся графики *PPV*, *TPR*, и отображается порог отсечения.
+* **Basic rates**: the following graphic charts are constructed in the chart: *TPR*, *TNR*, *FPR*, *FNR* and cutoff is displayed.
+* **Precision chart**: the following graphic charts are constructed in the chart: *PPV*, *NPV*, *OPR*, *OCR* and cutoff is displayed.
+* **Break even chart**: the following graphic charts are constructed in the chart: *PPV*, *TPR* and cutoff is displayed.
 * **% captured response**: according to the selected *Cumulative* checkbox shows as follows:
    * ![☑](./../../images/icons/ext/checkbox-states/checked_default.svg): cumulative % of events of the total number of events according to the sample size.
    * ![☐](./../../images/icons/ext/checkbox-states/unchecked_default.svg): % of events that are in the bin of the total number of events according to the bin number.
@@ -37,7 +37,7 @@ The group contains nine switches each of which calls the definite chart in the v
    * ![☐](./../../images/icons/ext/checkbox-states/unchecked_default.svg): % of events in the bin according to the bin number.
 * **Gain chart**: Gain value according to the sample size.
 
-> **Примечание**: посмотреть расшифровку сокращений можно в статье [Метрики качества моделей бинарной классификации](https://loginom.ru/blog/classification-quality).
+> **Note**: Meanings of abbreviations are available in the following article: [Metrics of the Binary Classification Models Quality](https://loginom.ru/blog/classification-quality).
 
 *Cumulative* checkbox becomes active when selecting the following charts: *% captured response*, *Lift chart* and *Response chart*. The checkbox is selected by default. When deselecting the checkbox, it becomes possible to select the bins in the drop-down list. Available values:
 
