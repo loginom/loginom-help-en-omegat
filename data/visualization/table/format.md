@@ -30,13 +30,13 @@ Parameters are set in the right area of the *Format* window:
 
    It is possible to restore width of fields to the default values using the following context menu command: *Restore width of all fields*.
 
-* **Форматирование** — группа параметров для настройки отображения полей типов: ![](./../../images/icons/common/data-types/integer_default.svg) Целый, ![](./../../images/icons/common/data-types/float_default.svg) Вещественный и ![](./../../images/icons/common/data-types/datetime_default.svg) Дата/Время.
+* **Formatting**: group of parameters for display configuration of the following field types: ![](./../../images/icons/common/data-types/integer_default.svg) Integer, ![](./../../images/icons/common/data-types/float_default.svg) Real and ![](./../../images/icons/common/data-types/datetime_default.svg) Date/Time.
 
-   Для полей целого и вещественного типов можно задать следующие параметры:
+   The following parameters can be set for the fields related to the integer and real types:
 
-   * **Число десятичных знаков** — по умолчанию значения отображаются в визуализаторе *Таблица* с той точностью, с которой они представлены в наборе. Для изменения представления необходимо задать требуемое число десятичных знаков (по умолчанию установлено равным 0).
-   * **Разделитель разрядов** — при выставленном флаге число будет представлено с разделением разрядов.
-   * **Денежный знак** — символ, который указан в поле ввода, будет добавлен к значению поля в визуализаторе *Таблица*.
+   * **Decimal place limit**: by default, values are displayed in the *Table* visualizer providing the same accuracy as compared with the data set. To change representation, it is necessary to set the required decimal place limit (by default, it is set to 0). 
+   * **Thousands separator**: when the checkbox is selected, the number will be represented with thousands separator.
+   * **Currency**: the character that is specified in the entry field will be added to the field value in the *Table* visualizer.
    * **Экспоненциальная форма** — при выставленном флаге число в визуализаторе *Таблица* будет представлено в экспоненциальной форме.
    * **Особый формат** — поле позволяет настроить формат представления числа, задав соответствующую маску.
    * **Пример** — поле предназначено для тестирования параметров форматирования. Число, введенное в поле, будет преобразовано в соответствии с заданным форматом и показано рядом с надписью *Результат*.
@@ -47,11 +47,11 @@ Parameters are set in the right area of the *Format* window:
 
    Восстановить все параметры форматирования до исходных значений можно командой контекстного меню *Восстановить формат всех полей*.
 
-Произведенные настройки вступают в силу после нажатия кнопки *Применить*.
+Made settings take effect upon pressing *Apply* button.
 
 ### Group Formatting
 
-Задать параметры форматирования можно одновременно для нескольких полей. Для этого в левой области окна *Формат* нужно выделить поля (множественное выделение осуществляется с помощью указателя мыши с зажатой клавишей Ctrl или Shift), а в правой области задать значения параметрам. После нажатия кнопки *Применить* заданные значения параметров форматирования будут применены одновременно ко всем выделенным полям.
+It is possible to set formatting parameters simultaneously for several fields. Для этого в левой области окна *Формат* нужно выделить поля (множественное выделение осуществляется с помощью указателя мыши с зажатой клавишей Ctrl или Shift), а в правой области задать значения параметрам. После нажатия кнопки *Применить* заданные значения параметров форматирования будут применены одновременно ко всем выделенным полям.
 
 Например, если в левой части окна *Формат* выделить два поля, а в правой части задать параметр *Ширина колонки*, то после нажатия кнопки *Применить* оба столбца в визуализаторе *Таблица* будут иметь заданную ширину.
 
