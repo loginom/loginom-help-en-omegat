@@ -37,24 +37,24 @@ Parameters are set in the right area of the *Format* window:
    * **Decimal place limit**: by default, values are displayed in the *Table* visualizer providing the same accuracy as compared with the data set. To change representation, it is necessary to set the required decimal place limit (by default, it is set to 0). 
    * **Thousands separator**: when the checkbox is selected, the number will be represented with thousands separator.
    * **Currency**: the character that is specified in the entry field will be added to the field value in the *Table* visualizer.
-   * **Экспоненциальная форма** — при выставленном флаге число в визуализаторе *Таблица* будет представлено в экспоненциальной форме.
-   * **Особый формат** — поле позволяет настроить формат представления числа, задав соответствующую маску.
-   * **Пример** — поле предназначено для тестирования параметров форматирования. Число, введенное в поле, будет преобразовано в соответствии с заданным форматом и показано рядом с надписью *Результат*.
+   * **Exponential form**: when the checkbox is selected the number in the *Table* visualizer will be represented in the exponential form.
+   * **Custom format**: the field enables to configure the format of number representation by setting corresponding mask.
+   * **Example**: the field is designated for formatting parameters testing. The number entered in the field will be transformed according to the set format and it will be shown near the following text: *Result*.
 
-      > **Примечание:** если форматирование задается через параметр *Особый формат* остальные параметры форматирования становятся недоступными для редактирования. По умолчанию установлен флаг *Особый формат*, чтобы задать форматирование через другие параметры, необходимо его снять.
+      > **Note:** if formatting is set using *Custom format* parameter, other formatting parameters become unavailable for editing. *Custom format* checkbox is selected by default. To set formatting by other parameters, it is required to deselect this checkbox.
 
-   Для полей типа Дата/Время можно выбрать формат отображения значений из предложенного списка, либо задать *Особый формат* (например, DD.MM.YYYY).
+   It is possible to select values display format from the available list for the Date/Time fields or to set *Custom format* (for example, DD.MM.YYYY).
 
-   Восстановить все параметры форматирования до исходных значений можно командой контекстного меню *Восстановить формат всех полей*.
+   It is possible to restore all formatting parameters to the source values using the following context menu command: *Restore format of all fields*.
 
 Made settings take effect upon pressing *Apply* button.
 
 ### Group Formatting
 
-It is possible to set formatting parameters simultaneously for several fields. Для этого в левой области окна *Формат* нужно выделить поля (множественное выделение осуществляется с помощью указателя мыши с зажатой клавишей Ctrl или Shift), а в правой области задать значения параметрам. После нажатия кнопки *Применить* заданные значения параметров форматирования будут применены одновременно ко всем выделенным полям.
+It is possible to set formatting parameters simultaneously for several fields. For this purpose, it is required to select fields in the left area of the *Format* window (multiple selection is performed using mouse cursor with Ctrl or Shift key pressed), and it is required to set parameters values in the right area. Upon pressing *Apply* button, set values of formatting parameters will be simultaneously applied to all selected fields.
 
-Например, если в левой части окна *Формат* выделить два поля, а в правой части задать параметр *Ширина колонки*, то после нажатия кнопки *Применить* оба столбца в визуализаторе *Таблица* будут иметь заданную ширину.
+For example, if two fields are selected in the left part of the *Format* window, and *Column width* parameter is set in the right part, upon pressing *Apply* button, both columns in the *Table* visualizer will have the set width.
 
-> **Примечание:** при одновременном изменении параметров для полей разных типов будут недоступны для редактирования параметры форматирования, если они недоступны для одного из типов. Например, если выделены поля строкового и вещественного типов, можно будет изменить только параметр *Ширина колонки* т.к. остальные параметры недоступны для полей строкового типа.
+> **Note:** in the case of simultaneous change of parameters for the fields related to different types, formatting parameters will be unavailable for editing if they are unavailable for any of the types. For example, if the fields related to the string or real types are selected, it will be possible to change only *Column width* parameter because other parameters are unavailable for the string fields.
 
-Аналогично можно одновременно перемещать несколько полей командами контекстного меню ![](./../../images/icons/common/toolbar-controls/moveup_default.svg) *Переместить вверх*, ![](./../../images/icons/common/toolbar-controls/movedown_default.svg) *Переместить вниз*.
+Similarly, it is possible to move several fields simultaneously using the following context menu commands: ![](./../../images/icons/common/toolbar-controls/moveup_default.svg) *Move up*, ![](./../../images/icons/common/toolbar-controls/movedown_default.svg) *Move down*.
