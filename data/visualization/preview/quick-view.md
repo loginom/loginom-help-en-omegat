@@ -3,15 +3,15 @@ description: Справка по быстрому просмотру данны�
 ---
 # ![ ](./../../images/icons/common/toolbar-controls/show-fast-viewer_default.svg) Quick Data View
 
-Представляет ограниченное количество данных для ознакомления в виде плоской двумерной таблицы, дерева или формы. Возможности фильтрации, изменения формата отображения данных нет. Real numbers (with floating point) are displayed with two places after decimal separator. The data in the date/time format is displayed without seconds.
+It provides the limited amount of data for information purposes in the form of the flat two-dimensional table, tree or form. Filtration, change of data view format are not available. Real numbers (with floating point) are displayed with two places after decimal separator. The data in the date/time format is displayed without seconds.
 
-> **Важно:** Вещественные числа участвуют в обработке с тем количеством знаков после десятичного разделителя, что и в исходном источнике данных (или с тем количеством знаков, которое было определено на предыдущих этапах обработки), и только отображаются с двумя знаками после десятичного разделителя.  Аналогично и данные в формате Дата/время только в визуализаторе представлены в сокращенном формате.
+> **Important:** Real numbers participate in the processing with the same number of places after decimal separator as in the source data set (or with the same number of places that has been determined at the previous processing stages), and they are displayed only with two places after decimal separator.  Аналогично и данные в формате Дата/время только в визуализаторе представлены в сокращенном формате.
 
 This visualizer is available in any active output:
 
-* ![ ](./../../images/icons/app/node/ports/outputs/table_active.svg) табличном порту,
-* ![ ](./../../images/icons/app/node/ports/outputs/variable_active.svg) порту переменных,
-* ![ ](./../../images/icons/app/node/ports/outputs/tree_active.svg) tree port.
+* ![ ](./../../images/icons/app/node/ports/outputs/table_active.svg) table port,
+* ![ ](./../../images/icons/app/node/ports/outputs/variable_active.svg) port of variables,
+* ![ ](./../../images/icons/app/node/ports/outputs/tree_active.svg) port of tree.
 
 ## Функционал Быстрого просмотра
 
@@ -23,9 +23,9 @@ This visualizer is available in any active output:
 При первом запуске *Быстрый просмотр* открывается в виде модального окна.
 
 > **Примечание.** В окне *Быстрого просмотра* набор данных может отображаться неполностью:
-* для Google Chrome и Opera — 1 млн. записей,
-* для Firefox — 300 тыс. записей,
-* для Microsoft Edge — 50 тыс. записей.
+* for Google Chrome and Opera — 1 mln. records,
+* for Firefox — 300 thous. records,
+* for Microsoft Edge — 50 thous. records.
 
 Для отображения полного набора можно воспользоваться визуализатором [Таблица](./../table/README.md).
 
@@ -50,12 +50,12 @@ This visualizer is available in any active output:
 * непосредственно в панели *Быстрого просмотра*, выбирая нужную вкладку,
 * кликая левой кнопкой мыши по выходным портам.
 
-## Табличный порт
+## Table port
 
 Быстрое переключение между вариантами отображения данных в Табличном порту реализовано с помощью горячих клавиш:
 
-* Показать таблицу %kbd Alt % + %kbd 1 %;
-* Показать форму %kbd Alt % + %kbd 2 %.
+* Show table %kbd Alt % + %kbd 1 %;
+* Show form %kbd Alt % + %kbd 2 %.
 * Скрыть *Быстрый просмотр* %kbd Esc % — работает при незакрепленной панели *Быстрого просмотра*.
 
 ### Table
@@ -70,7 +70,7 @@ The total count of rows in the data set is shown in the left lower corner of *Qu
 
 > **Примечание.** При выборе Таблица/Форма каждый следующий порт открывается согласно выбранному значению. Узлы, которые были открыты до этого, открываются по "старому" значению.
 
-### Форма
+### Form
 
 Отображает строку в виде ключ-значение.
 
@@ -101,20 +101,20 @@ The total count of rows in the data set is shown in the left lower corner of *Qu
 
 %spoiler%Hotkeys:%spoiler%
 
-* Первая строка %kbd Alt % + %kbd Up %;
-* Предыдущая строка %kbd Alt % + %kbd Left %;
-* Следующая строка %kbd Alt % + %kbd Right %;
-* Последняя строка %kbd Alt % + %kbd Down %.
+* First row %kbd Alt % + %kbd Up %;
+* Previous row %kbd Alt % + %kbd Left %;
+* Next row %kbd Alt % + %kbd Right %;
+* Last row %kbd Alt % + %kbd Down %.
 
 %/spoiler%
 
-## Порт переменных
+## Port of variables
 
 Отображает переменные в виде ключ-значение.
 
 ![Быстрый просмотр данных Порта переменных.](./images/var-amt.png)
 
-## Порт дерева
+## Port of tree
 
 Отображает данные в виде иерархической (древовидной) формы.
 
@@ -130,7 +130,7 @@ Different ports have different options and constraints:
 <thead>
   <tr>
     <th>Port</th>
-    <th>Режим</th>
+    <th>Mode</th>
     <th>Sorting</th>
     <th>Visibility change</th>
     <th>Freezing</th>
@@ -141,9 +141,9 @@ Different ports have different options and constraints:
 <tbody>
   <tr>
     <td rowspan="2">Table</td>
-    <td>Форма</td>
+    <td>Form</td>
     <td></td>
-    <td align="center">• (частично)</td>
+    <td align="center">• (partially)</td>
     <td></td>
     <td></td>
     <td></td>
@@ -154,7 +154,7 @@ Different ports have different options and constraints:
     <td align="center">•</td>
     <td align="center">•</td>
     <td align="center">•</td>
-    <td><ul><li>1 млн. строк для <i>Chrome</i> и <i>Chromium</i></li><li>300 тыс. для <i>FireFox</i></li><li>50 тыс. для остальных браузеров (<i>IE</i>)</li></ul></td>
+    <td><ul><li>1 mln. rows for <i>Chrome</i> and <i>Chromium</i></li><li>300 thous. for <i>FireFox</i></li><li>50 thous. for other browsers (<i>IE</i>)</li></ul></td>
   </tr>
   <tr>
     <td>Tree</td>

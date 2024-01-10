@@ -126,13 +126,13 @@ The table is divided into two areas and includes the following rows:
  <tr><td>Non-event</td><td>FN</td><td>TN</td><td>FN+TN</td></tr>
 </table>
 
-> **Примечание**: над верхним правым углом таблицы расположен переключатель ![ ](./../../images/icons/switches/roc/absolute_default.svg)/![ ](./../../images/icons/switches/roc/relative_default.svg)*Абсолютные или относительные значения*, при переключении которого данные в таблице будут представлены в процентах или в количестве записей, попавших в категорию.
+> **Note**: The ![ ](./../../images/icons/switches/roc/absolute_default.svg)/![ ](./../../images/icons/switches/roc/relative_default.svg)*Absolute or relative values* switch is located over the upper right table corner. When it is switched, the table data will be displayed in percentage terms or as number of the records included into the category.
 
 ### Recognized
 
-В данной таблице показано отношение правильно распознанных событий к общему количеству событий во множествах. The table consists of two fields:
+This table shows the ratio of correctly captured response to the total number of events in sets. The table consists of two fields:
 
 * **Set**: the set type is displayed in this column.
 * **Recognized**: the number of captured response from the total number of events. It is defined using the following formula: $$\mathsf{\frac{TP+TN}{TP+TN+FP+FN}}$$
 
-> **Примечание**: над верхним правым углом таблицы расположен переключатель ![ ](./../../images/icons/switches/roc/absolute_default.svg)/![ ](./../../images/icons/switches/roc/relative_default.svg)*Абсолютные или относительные значения*, при переключении которого данные в таблице будут представлены в процентах или в количестве записей, попавших в категорию.
+> **Note**: The ![ ](./../../images/icons/switches/roc/absolute_default.svg)/![ ](./../../images/icons/switches/roc/relative_default.svg)*Absolute or relative values* switch is located over the upper right table corner. When it is switched, the table data will be displayed in percentage terms or as number of the records included into the category.
