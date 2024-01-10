@@ -34,22 +34,22 @@ Mouse and navigation panel in the lower part of the visualizer are used for navi
 * Go to the ![](./../../images/icons/common/toolbar-controls/prev_default.svg) previous/![](./../../images/icons/common/toolbar-controls/next_default.svg) next page.
 * Go to the ![](./../../images/icons/common/toolbar-controls/first_default.svg) first/![](./../../images/icons/common/toolbar-controls/last_default.svg) last page.
 
-To go to the given page, it is required to enter its number in the entry field located between the navigation buttons. На одной странице отображается 1 000 000 записей.
+To go to the given page, it is required to enter its number in the entry field located between the navigation buttons. 1,000,000 records are displayed on one page.
 
 %spoiler%Hotkeys:%spoiler%
 
-* %kbd Ctrl % + %kbd Left % — перейти на предыдущую страницу;
-* %kbd Ctrl % + %kbd Right % — перейти на следующую страницу;
-* %kbd Alt % + %kbd 1 % —  %kbd Alt % + %kbd 8 % — перейти на страницу с номером;
-* %kbd Ctrl % + %kbd G % — перейти к строке;
-* %kbd Ctrl % + %kbd F % — поиск текущего выделенного значения;
-* %kbd F3 % — перейти к следующему найденному значению;
-* %kbd Home % — перейти на первую колонку строки таблицы;
-* %kbd Home % + %kbd Alt % — перейти на первую строку таблицы;
-* %kbd End % — перейти на последнюю колонку строки таблицы;
-* %kbd End % + %kbd Alt % — перейти на последнюю строку таблицы;
-* %kbd Ctrl % + %kbd Up % — переместить строку в Детализации вверх;
-* %kbd Ctrl % + %kbd Down % — переместить строку в Детализации вниз.
+* %kbd Ctrl % + %kbd Left %: go to the previous page.
+* %kbd Ctrl % + %kbd Right %: go to the next page.
+* %kbd Alt % + %kbd 1 % —  %kbd Alt % + %kbd 8 %: go to the page with number.
+* %kbd Ctrl % + %kbd G %: go to the row.
+* %kbd Ctrl % + %kbd F %: search for the current selected value.
+* %kbd F3 %: go to the next found value.
+* %kbd Home %: go to the first column of the table row.
+* %kbd Home % + %kbd Alt %: go to the first table row.
+* %kbd End %: go to the last column of the table row.
+* %kbd End % + %kbd Alt %: go to the last table row.
+* %kbd Ctrl % + %kbd Up %: move up the row in Detailing.
+* %kbd Ctrl % + %kbd Down %: move down the row in Detailing.
 
 %/spoiler%
 

@@ -24,7 +24,7 @@ description: Просмотр статистических показателе�
 
 The following eight indicators are displayed by default:
 * Histogram.
-* [Диаграмма размаха](https://wiki.loginom.ru/articles/box-plot.html);
+* [Box plot](https://wiki.loginom.ru/articles/box-plot.html).
 * Minimum.
 * Maximum.
 * Average.
