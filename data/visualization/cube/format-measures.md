@@ -3,11 +3,11 @@ description: Форматирование данных OLAP куба в Loginom.
 ---
 # ![Formatting](./../../images/icons/viewers/cube/cases/case-format_default.svg) Formatting
 
-Позволяет настроить формат отображения фактов и заголовков измерений в Кубе, выбрав нужный факт или заголовок в соответствующей вкладке в верхнем левом углу окна Форматирование (см. Figure 1).
+It enables to set the format of display of measures and captions of dimensions in the Cube by selecting the required measure or caption in the corresponding tab in the upper left corner of the Formatting window (refer to Figure 1).
 
 ![Formatting window](./cube-format-fact.png)
 
-На вкладке *Факты* доступны следующие опции форматирования:
+The following formatting options are available in the *Measures* tab:
 
 * ![Switch](./../../images/icons/ext/checkbox-states/checked_default.svg) **Negative in red**: the negative values will be displayed in red.
 * **Alignment** enables to configure alignment of values in cells:
@@ -23,14 +23,14 @@ description: Форматирование данных OLAP куба в Loginom.
 
    * ![Switch](./../../images/icons/ext/checkbox-states/checked_default.svg) **Custom format**" set own format of measures display if the standard formatting functionality is not sufficient. For example, it is possible to add display of any character.
 
-      > **Примечание:** если форматирование задается через параметр *Особый формат* остальные параметры из группы *Форматирование* становятся недоступными для редактирования.
+      > **Note:** if formatting is set using *Custom format* parameter, other formatting parameters from the *Formatting* group become unavailable for editing.
 
    The current configured view is also shown in this window:
    * **Example**: enter the value example to check correctness of the configured formatting.
    * **Result**: the final formatting applied to the example.
 
-Formatting can be applied to several measures at the same time. Множественное выделение осуществляется с помощью указателя мыши с зажатой клавишей Ctrl или Shift.
+Formatting can be applied to several measures at the same time. Multiple selection is performed using mouse cursor with Ctrl or Shift key pressed.
 
 Options of dimensions captions formatting are available in the *Dimensions* tab. Formatting configuration is similar to *Measures*, with the exception of selection of negative values in red.
 
-Для отображения настроенного форматирования в *Кубе* необходимо нажать кнопку *Применить*.
+To display the configured formatting in the *Cube*, it is required to press *Apply* button.

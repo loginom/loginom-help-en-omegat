@@ -32,11 +32,11 @@ The list of the columns that can be used as dimensions or measures is displayed 
 
 #### Dimensions
 
-To generate a report using the Cube, it is necessary to add the required dimensions to rows or columns. Добавить измерения в Куб можно несколькими способами:
+To generate a report using the Cube, it is necessary to add the required dimensions to rows or columns. It is possible to add dimensions to the Cube in several ways:
 
-* Перетащить (Drag-and-Drop) поле из Области свободных полей (1) в Область измерений колонок или строк (2 или 4).
+* Drag (Drag-and-Drop) field from the Area of Free Fields (1) to the Area of Dimensions of columns or rows (2 or 4).
 * press ![Add](./../../images/icons/common/toolbar-controls/plus-native_default.svg) button of the required area and select the required field from the list.
-* Нажать кнопку ![Настроить измерения](./../../images/icons/common/toolbar-controls/dimension_default.svg) на Панели инструментов и распределить поля в нужные области.
+* Press ![Configure dimensions](./../../images/icons/common/toolbar-controls/dimension_default.svg) button on the Toolabr and distribute fields between the required areas.
 
 Count of dimensions is limited by the number of the available fields. It is recommended to use not more than 5-7 dimensions to make the report clear and interpretable.
 
@@ -53,19 +53,19 @@ The following options are available when pressing ![Open menu](./../../images/ic
 * ![In original order](../../images/icons/blank.svg) **In original order**: place the values in the order of their appearance in data.
 * ![Delete](../../images/icons/common/toolbar-controls/delete_default.svg) **Delete**: delete a dimension from the Cube. It is possible to delete a dimension by dragging (Drag-and-Drop) back to the Area of Free Fields.
 
-При нажатии на измерение появляется toolbar со следующими возможностями:
-* ![](../../images/icons/common/toolbar-controls/toolbar-controls_18x18_visible_default.svg)**Отметить все** / ![](../../images/icons/common/toolbar-controls/invert-eye_default.svg)**Снять все** — выделяет все значения в списке или снимает выделение со всех значений списка (%kbd Ctrl A %/ %kbd Ctrl Shift A %).
+When pressing the dimension, toolbar with the following options appears:
+* ![](../../images/icons/common/toolbar-controls/toolbar-controls_18x18_visible_default.svg)**Check all** / ![](../../images/icons/common/toolbar-controls/invert-eye_default.svg)**Uncheck all** enables to select all values in the list or deselect all list values (%kbd Ctrl A %/ %kbd Ctrl Shift A %).
 * ![ ](../../images/icons/common/toolbar-controls/invert-eye_default.svg) **Invert selection**: change the selected values from the list to the unselected ones and vice versa.
 * ![ ](../../images/icons/common/toolbar-controls/eye-filter_default.svg) **Check by pattern...**: set the condition and method of dimensions selection.
-* ![](../../images/icons/common/toolbar-controls/toolbar-controls_18x18_copy_default.svg) **Копировать отмеченные** (%kbd Ctrl C %).
-* ![](../../images/icons/common/toolbar-controls/toolbar-controls_18x18_paste_default.svg) **Добавить к отмеченным** (%kbd Ctrl V %).
+* ![](../../images/icons/common/toolbar-controls/toolbar-controls_18x18_copy_default.svg) **Copy marked** (%kbd Ctrl C %).
+* ![](../../images/icons/common/toolbar-controls/toolbar-controls_18x18_paste_default.svg) **Add to marked** (%kbd Ctrl V %).
 
-Специальные возможности копирования и добавления:
+Special features of copying and adding:
 
-* Из фильтра копируются отмеченные значения списка в буфер обмена.
-* В фильтр добавляются значения из буфера обмена и присоединяются к уже существующим значениям.
+* The marked list values are copied from the filter to the clipboard.
+* The clipboard values are added to the filter and join already existing values.
 
-%spoiler% Ограничения копирования и вставки %spoiler%
+%spoiler% Copy and paste restrictions %spoiler%
 
 В браузерах Google Chrome и Mozila Firefox при работе через протокол `http` кнопки ![](../../images/icons/common/toolbar-controls/toolbar-controls_18x18_copy_default.svg) **Копировать**, ![](../../images/icons/common/toolbar-controls/toolbar-controls_18x18_paste_default.svg) **Вставить** и горячая клавиша (%kbd Ctrl C % работать не будут.
 
@@ -75,11 +75,11 @@ The following options are available when pressing ![Open menu](./../../images/ic
 
 %/spoiler%
 
-* **Режим выбора значений фильтра:**
+* **Filter mode:**
 
 To filter data by the dimension, it is required to click on the required dimension with the mouse, configure the filter on the opened panel and press "Apply". If filtration has been configured by the dimension, it is highlighted in orange. The filter can be used in three modes:
 
-%spoiler% Фильтр по измерению  %spoiler%
+%spoiler% Dimension filter  %spoiler%
 
 * ![ ](../../images/icons/common/toolbar-controls/icon-200_default.svg) **Multiple selection**: a user can select the random count of values from the list of the available ones. The selected values will be displayed in the Cube.
 * ![ ](../../images/icons/common/toolbar-controls/icon-201_default.svg)
@@ -94,11 +94,11 @@ To filter data by the dimension, it is required to click on the required dimensi
 
 To configure selection, it is required to open *Check by pattern* window (the configured dimension is also specified in the window header). It is required to select the condition of dimension values and pattern mapping to the left in the drop-down list. The pattern is set to the right from the list in the entry field. The selected method of selection will be applied to all dimensions that comply with the condition (*Check, Add to checked, Uncheck* or *Remove from checked*). The case of letters can be taken into account during the selection process. For this purpose, it is required to select *Case-sensitive* checkbox.
 
-| Режим | Копирование | Вставка |
+| Mode | Copy | Paste |
 |:-:|:-:|:-:|
-| Множественный, режим включенных значений | Копируются все включенные значения (проходящие фильтр) | Успешно распознанные значения добавляются во включенные значения |
-| Множественный, режим исключенных значений | Копируются все исключенные значения (непроходящие фильтр) | Успешно распознанные значения добавляются в исключенные значения |
-| Одиночный и комбинированный режимы | Копируется текущее выбранное значение | Обрабатывается только первое строковое значение, остальные игнорируются, успешно распознанное значение становится выделенным, на него прокручивается таблица |
+| Multiple, inclusive filter | All included values (passing through the filter) are copied | Successfully captured values are added to the included values |
+| Multiple, exclusive filter | All excluded values (not passing through the filter) are copied | Successfully captured values are added to the excluded values |
+| Single and Combined Modes | The current selected value is copied | Only the first row value is processed, the other ones are ignored, the successfully captured value becomes the selected one, the table is scrolled to reach it |
 
 %/spoiler%
 
@@ -113,18 +113,18 @@ It is possible to add measures in two ways:
 
 %spoiler%Measure aggregation and possible data types%spoiler%
 
-|Вид агрегации|![](./../../images/icons/common/data-types/string_default.svg)|![](./../../images/icons/common/data-types/integer_default.svg)|![](./../../images/icons/common/data-types/float_default.svg)|![](./../../images/icons/common/data-types/boolean_default.svg)|![](./../../images/icons/common/data-types/datetime_default.svg)|![](./../../images/icons/common/data-types/variant_default.svg)|
+|Aggregation kind|![](./../../images/icons/common/data-types/string_default.svg)|![](./../../images/icons/common/data-types/integer_default.svg)|![](./../../images/icons/common/data-types/float_default.svg)|![](./../../images/icons/common/data-types/boolean_default.svg)|![](./../../images/icons/common/data-types/datetime_default.svg)|![](./../../images/icons/common/data-types/variant_default.svg)|
 |:-|:-:|:-:|:-:|:-:|:-:|:-:|
-|![](./../../images/icons/common/aggregations/factor-sum_default.svg) Сумма||**•**|**•**||||
-|![](./../../images/icons/common/aggregations/factor-count_default.svg) Количество|**•**|**•**|**•**|**•**|**•**|**•**|
-|![](./../../images/icons/common/aggregations/factor-min_default.svg) Минимум|**•**|**•**|**•**|**•**|**•**||
-|![](./../../images/icons/common/aggregations/factor-max_default.svg) Максимум|**•**|**•**|**•**|**•**|**•**||
-|![](./../../images/icons/common/aggregations/factor-avg_default.svg) Среднее||**•**|**•**||**•**||
-|![](./../../images/icons/common/aggregations/factor-stddev_default.svg) Стандартное отклонение||**•**|**•**||**•**||
-|![](./../../images/icons/common/aggregations/factor-unique-count_default.svg) Количество уникальных|**•**|**•**|**•**|**•**|**•**|**•**|
-|![](./../../images/icons/common/aggregations/factor-null-count_default.svg) Количество пропусков|**•**|**•**|**•**|**•**|**•**|**•**|
-|![](./../../images/icons/common/aggregations/factor-stat-first_default.svg) Первый|**•**|**•**|**•**|**•**|**•**|**•**|
-|![](./../../images/icons/common/aggregations/factor-stat-last_default.svg) Последний|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|
+|![](./../../images/icons/common/aggregations/factor-sum_default.svg) Sum||**•**|**•**||||
+|![](./../../images/icons/common/aggregations/factor-count_default.svg) Count|**•**|**•**|**•**|**•**|**•**|**•**|
+|![](./../../images/icons/common/aggregations/factor-min_default.svg) Minimum|**•**|**•**|**•**|**•**|**•**||
+|![](./../../images/icons/common/aggregations/factor-max_default.svg) Maximum|**•**|**•**|**•**|**•**|**•**||
+|![](./../../images/icons/common/aggregations/factor-avg_default.svg) Average||**•**|**•**||**•**||
+|![](./../../images/icons/common/aggregations/factor-stddev_default.svg) Standard deviation||**•**|**•**||**•**||
+|![](./../../images/icons/common/aggregations/factor-unique-count_default.svg) Count of unique|**•**|**•**|**•**|**•**|**•**|**•**|
+|![](./../../images/icons/common/aggregations/factor-null-count_default.svg) Null count|**•**|**•**|**•**|**•**|**•**|**•**|
+|![](./../../images/icons/common/aggregations/factor-stat-first_default.svg) First|**•**|**•**|**•**|**•**|**•**|**•**|
+|![](./../../images/icons/common/aggregations/factor-stat-last_default.svg) Last|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|
 
 %/spoiler%
 

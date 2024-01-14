@@ -3,29 +3,29 @@ description: Основная таблица с дубликатами и про
 ---
 # Main Table
 
-Таблица отображает дубликаты и противоречия в исходном наборе данных:
+The table displays duplicates and contradictions in the source data set:
 
-![Таблица дубликатов и противоречий.](./images/duplicates-main-table.png)
+![Table of duplicates and contradictions.](./images/duplicates-main-table.png)
 
-> **Примечание**: колонки "Дубликат" и "Противоречие" — по умолчанию скрыты при первом запуске визуализатора. Для отображения скрытых столбцов необходимо в выпадающем списке ![](./../../images/icons/grid/columns.svg) "Столбцы" установить галочки напротив столбцов "Дубликат" и/или "Противоречие".
+> **Note**: "Duplicate" and "Contradiction" columns are hidden by default after the first visualizer start. To display the hidden columns, it is required to select "Duplicate" and/or "Contradiction" checkboxes in the ![](./../../images/icons/grid/columns.svg) "Columns" drop-down list.
 
-## Цветовая индикация
+## Color-Coded Indication
 
-В таблице своим цветом выделяются строки:
+The following rows are highlighted by specific color in the table:
 
-* ![](./images/duplicates-color.png) Дубликаты;
-* ![](./images/contradictions-color.png) Противоречия;
-* ![](./images/duplicates-contradictions-color.png) Дубликаты и противоречия.
+* ![](./images/duplicates-color.png) Duplicates;
+* ![](./images/contradictions-color.png) Contradictions;
+* ![](./images/duplicates-contradictions-color.png) Duplicates and contradictions.
 
-Заголовки колонок "Признак дубликата", "Группа дубликата", "Признак противоречия", "Группа противоречия" выделяются таким же цветом, как и соответствующие строки.
+Headers of "Duplicate indicator", "Duplicate group", "Contradiction indicator", "Contradiction group" columns are highlighted by the same color as corresponding rows.
 
-Заголовки колонок, помеченные в компоненте как входные и выходные, выделяются цветом (градации серого), имена этих колонок выделены полужирным шрифтом. Помимо этого, входные поля подчеркиваются ![](./images/input-color.png) цветом, а выходные надчеркиваются ![](./images/output-color.png) цветом.
+Headers of the columns marked in the component as the input and output ones are highlighted by color (gray gradations). Names of these columns are displayed in semibold type. Besides, the input fields are underlined with the ![](./images/input-color.png) color and the output ones are underlined with the ![](./images/output-color.png) color.
 
-## Выделение противоречий
+## Selection of Contradictions
 
-При выделении строки с противоречием другие противоречия из этой группы, которые отличаются от выделенного (только первое отличие), будут отмечены цветом:
+When selecting the row with contradiction, other contradictions from this group that differ from the selected one (only the first difference) will be highlighted with color:
 
-![Пример выделения группы противоречий.](./images/duplicates-main-table-select-contradiction.png)
+![Example of selection of contradiction group.](./images/duplicates-main-table-select-contradiction.png)
 
 ## Navigation
 

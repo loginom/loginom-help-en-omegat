@@ -39,9 +39,9 @@ The toolbar contains the following buttons:
 
 The actions listed above with the exception of **Restrictions** button are duplicated by the *Cube Chart* context menu commands. Besides, **Tooltip style** context menu command enables to set display of the tooltips that appear when hovering cursor over the series point:
 
-* **Групповые подсказки** - подсказка общая для всех серий, которые имеют значение с данным значением аргумента.
-* **Одиночные подсказки** - подсказка только для серии, на которую наведен указатель мыши.
-* **Нет подсказок** - подсказки не отображаются.
+* **Shared tooltips**: shared tooltip for all series that have value with this argument value.
+* **Single tooltips**: tooltip only for the series over which the mouse cursor is hovered.
+* **No tooltips**: tooltips are not displayed.
 
 Чтобы отключить серию (не отображать на диаграмме), необходимо щелкнуть указателем мыши по этой серии в легенде *Диаграммы Куба*.
 

@@ -57,7 +57,7 @@ The wizard window is divided into two areas.
 |![](./../../images/icons/common/aggregations/factor-sum_default.svg) Sum||**•**|**•**||||
 |![](./../../images/icons/common/aggregations/factor-count_default.svg) Count|**•**|**•**|**•**|**•**|**•**|**•**|
 |![](./../../images/icons/common/aggregations/factor-min_default.svg) Minimum|**•**|**•**|**•**|**•**|**•**|**•**|
-|![](./../../images/icons/common/aggregations/factor-max_default.svg) Максимум|**•**|**•**|**•**|**•**|**•**|**•**|
+|![](./../../images/icons/common/aggregations/factor-max_default.svg) Maximum|**•**|**•**|**•**|**•**|**•**|**•**|
 |![](./../../images/icons/common/aggregations/factor-avg_default.svg) Average||**•**|**•**||||
 |![](./../../images/icons/common/aggregations/factor-median_default.svg) Median||**•**|**•**||||
 |![](./../../images/icons/common/aggregations/mode_default.svg) Mode|**•**|**•**|**•**|**•**|**•**|**•**|

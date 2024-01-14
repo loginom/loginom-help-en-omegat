@@ -2,9 +2,9 @@
 description: Визуализатор. Качество данных производит комплексную оценку набора данных.
 ---
 
-# ![](./../../images/icons/view_types/data-quality_default.svg) Качество данных
+# ![](./../../images/icons/view_types/data-quality_default.svg) Data Quality
 
-Визуализатор позволяет производить комплексную оценку качества данных для каждого поля.
+The visualizer enables to perform comprehensive data quality assessment for each field.
 
 ## Interface
 

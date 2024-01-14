@@ -3,18 +3,18 @@ description: Визуализация дубликатов и противоре
 ---
 # ![](./../../images/icons/components/duplicates_default.svg) Duplicates and Contradictions
 
-Предназначен для просмотра дублирующих, противоречивых записей исходного набора данных.
+It is designated for view of duplicate, contradictory records of the source data set.
 ## Interface
 
 The main window will be opened after addition to the visualizer node (Figure 1):
 
-![Главное окно визуализатора "Дубликаты и противоречия".](./images/duplicates-main-window.png)
+![The main window of "Duplicates and Contradictions" visualizer.](./images/duplicates-main-window.png)
 
-Главное окно условно можно разделить на 2 области (см. Figure 1):
+The main window can be conventionally divided into 2 areas (refer to Figure 1):
 
-1. **Панель инструментов** — содержит следующие управляющие элементы:
+1. **Toolbar** contains the following control elements:
    * ![](./../../images/icons/common/toolbar-controls/grid-row-no_default.svg) **Row number**: show/hide continuous row number.
-   * ![](./../../images/icons/common/toolbar-controls/rec-no_default.svg) **Номер записи** — показать/скрыть номер записи;
+   * ![](./../../images/icons/common/toolbar-controls/rec-no_default.svg) **Record number**: show/hide record number.
    * ![](./../../images/icons/common/toolbar-controls/show-data-type_default.svg) **Data types**: show/hide data types.
    * ![](./../../images/icons/common/toolbar-controls/null-count_default.svg) **Show null values**: show/hide null values.
    * ![](./../../images/icons/common/toolbar-controls/format_default.svg) **Format**: open [format configuration window](./format.md) of data view.
@@ -24,4 +24,4 @@ The main window will be opened after addition to the visualizer node (Figure 1):
    * ![](./../../images/icons/common/toolbar-controls/export_default.svg) **Export**: export table to the file of the selected format (XLS or HTML). 
    * ![](./../../images/icons/common/toolbar-controls/toggle-left-panel_default.svg) **Detailing**: show/hide detailing by the table row.
    * **Go to row**: go to the row with the set number (available in the context men).
-1. **[Основная таблица](./main-table.md)** — содержит информацию о дубликатах и противоречиях в исходном наборе данных.
+1. **[Main table](./main-table.md)** contains information on duplicates and contradictions in the source data set.
