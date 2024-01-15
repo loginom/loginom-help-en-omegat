@@ -1,7 +1,7 @@
 ---
 description: Работа с окном настроек диаграммы в Loginom. Знакомство с интерфейсом. Установка заголовков, типов децимации, цветовых схем, фонов, накопления, меток, подсказок. Нормирование данных. Включение и настройка анимации.
 ---
-# ![](./../../images/icons/common/toolbar-controls/setup_default.svg) Общие настройки
+# ![](./../../images/icons/common/toolbar-controls/setup_default.svg) The General Settings
 
 ## Configuration Window
 
@@ -22,8 +22,8 @@ description: Работа с окном настроек диаграммы в L
       * Spectrum;
       * Elegant;
       * Composite.
-   * **Задание цвета через код RGB** — аддитивная цветовая модель, описывающая способ кодирования цвета для цветовоспроизведения с помощью трёх цветов: красный, зеленый и синий;
-   * **Задание цвета через код Hex** — шестнадцатиричное представление цвета RGB;
+   * **Set the color via RGB code**: the additive color model that describes the color coding method for color reproduction using three colors: red, green and blue.
+   * **Set the color via Hex code**: the sexadecimal RGB color representation.
    * **Parameter A**: intensity of the selected color is set (from the dark to the light one).
    * **Button** ![](./../../images/icons/common/toolbar-controls/undo_default.svg): return the default color.
 * **Stacking type:**

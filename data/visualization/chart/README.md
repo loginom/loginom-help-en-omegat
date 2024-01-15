@@ -16,8 +16,8 @@ The chart visually shows dependence of values of one field on the other one. Two
 * ![](./../../images/icons/common/toolbar-controls/normalize_default.svg) **Нормировать** — приводит все графики к одному масштабу.
 * ![](./../../images/icons/common/toolbar-controls/toolbar-controls_18x18_histogram_default.svg) **Горизонтальная ориентация** — меняет местами оси, то есть поле по X перемещается на ось Y, и наоборот ось Y становится осью X.
 * ![](./../../images/icons/common/toolbar-controls/telescope_default.svg) **Навигатор** — позволяет детализировать по оси X какой-либо участок диаграммы, отображается снизу под осью. Moving the navigator edge, it is possible to select the required chart area.
-* ![](./../../images/icons/common/toolbar-controls/cursor_default.svg) **Режим приближения** — увеличивает масштаб просмотра выделенной области (см. также [Работа с построенной диаграммой](#rabota-s-postroennoy-diagrammoy)).
-* ![](./../../images/icons/common/toolbar-controls/hand_default.svg) **Режим перетаскивания** — позволяет передвигать диаграмму по экрану (см. также [Работа с построенной диаграммой](#rabota-s-postroennoy-diagrammoy)).
+* ![](./../../images/icons/common/toolbar-controls/cursor_default.svg) **Режим приближения** — увеличивает масштаб просмотра выделенной области (см. [How to Use the Constructed Chart](#rabota-s-postroennoy-diagrammoy)).
+* ![](./../../images/icons/common/toolbar-controls/hand_default.svg) **Режим перетаскивания** — позволяет передвигать диаграмму по экрану (см. [How to Use the Constructed Chart](#rabota-s-postroennoy-diagrammoy)).
 * ![](./../../images/icons/common/toolbar-controls/zoom-in_default.svg) **Приблизить** — приближает/увеличивает область диаграммы.
 * ![](./../../images/icons/common/toolbar-controls/zoom-out_default.svg) **Отдалить** — отдаляет/уменьшает область диаграммы.
 * ![](./../../images/icons/common/toolbar-controls/zoom-zone_default.svg) **Сбросить масштаб** — снимает все настройки масштабирования (по обеим осям).

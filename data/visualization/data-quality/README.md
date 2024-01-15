@@ -45,17 +45,17 @@ The visualizer enables to perform comprehensive data quality assessment for each
 
 | Indicator | Data kind | Value |
 |:----------|:----------:|:--------|
-| Индекс качества | ![](./../../images/icons/common/data-types/discrete_default.svg) | Отражает разнообразие значений в поле |
-| [Гистограмма](https://wiki.loginom.ru/articles/histogram.html) | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | Предпросмотр гистограммы |
-| Экстремальные | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | Количество записей, в которых значение является экстремальным |
-| Пустые | ![](./../../images/icons/common/data-types/discrete_default.svg) | Количество записей с пустыми значениями |
-| Пробелы в конце | ![](./../../images/icons/common/data-types/discrete_default.svg) | Количество записей со значениями, которые оканчиваются пробельным символом (показатель не включает в себя, записи, состоящие только из пробельных символов) |
-| Диапазон значений | ![](./../../images/icons/common/data-types/discrete_default.svg) | Диапазон значений в формате: *первое ... последнее значение* в отсортированном списке значений |
-| Нулевые | ![](./../../images/icons/common/data-types/continuous_default.svg) | Количество записей, в которых значения равны нулю |
+| Quality indicator | ![](./../../images/icons/common/data-types/discrete_default.svg) | Отражает разнообразие значений в поле |
+| [Histogram](https://wiki.loginom.ru/articles/histogram.html) | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | Предпросмотр гистограммы |
+| Extremes | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | Количество записей, в которых значение является экстремальным |
+| Empty | ![](./../../images/icons/common/data-types/discrete_default.svg) | Количество записей с пустыми значениями |
+| Trailing spaces | ![](./../../images/icons/common/data-types/discrete_default.svg) | Количество записей со значениями, которые оканчиваются пробельным символом (показатель не включает в себя, записи, состоящие только из пробельных символов) |
+| Range of values | ![](./../../images/icons/common/data-types/discrete_default.svg) | Диапазон значений в формате: *первое ... последнее значение* в отсортированном списке значений |
+| Zeros | ![](./../../images/icons/common/data-types/continuous_default.svg) | Количество записей, в которых значения равны нулю |
 | [Box plot](https://wiki.loginom.ru/articles/box-plot.html) | ![](./../../images/icons/common/data-types/continuous_default.svg) | Считает показатели: *Наименьший выброс, Нижний квартиль, Медиана, Верхний квартиль, Наибольший выброс, Наблюдаемый максимум* |
 | Minimum | ![](./../../images/icons/common/data-types/continuous_default.svg) | Minimum value |
 | Среднее | ![](./../../images/icons/common/data-types/continuous_default.svg) | Average value |
-| [Mode](https://wiki.loginom.ru/articles/mode.html) | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | Наиболее часто встречающееся значение[^1] |
+| [Mode](https://wiki.loginom.ru/articles/mode.html) | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | The most frequently occurring value[^1] |
 | Null count | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | Количество записей, в которых отсутствует значение для данного поля |
 | Values | ![](./../../images/icons/common/data-types/discrete_default.svg) | Отображает диаграмму, в которой показано разнообразие значений по строкам |
 | Outliers | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | Количество записей, в которых значение является выбросом |
@@ -64,17 +64,17 @@ The visualizer enables to perform comprehensive data quality assessment for each
 | Negative | ![](./../../images/icons/common/data-types/continuous_default.svg) | Number of records with negative values |
 | Infinities | ![](./../../images/icons/common/data-types/continuous_default.svg) | Количество записей, в которых значения равны бесконечности |
 | Unique | ![](./../../images/icons/common/data-types/discrete_default.svg) | Count of unique values |
-| Maximum | ![](./../../images/icons/common/data-types/continuous_default.svg) | Максимальное значение |
-| [Медиана](https://wiki.loginom.ru/articles/median.html) | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | Медиана для данного поля |
-| Монотонность | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | Показывает однообразие значений поля (*Убывающая, Возрастающая, Не монотонная*) |
+| Maximum | ![](./../../images/icons/common/data-types/continuous_default.svg) | Maximum value |
+| [Median](https://wiki.loginom.ru/articles/median.html) | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | Median for this field |
+| Monotony | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | Показывает однообразие значений поля (*Убывающая, Возрастающая, Не монотонная*) |
 
 [^1]: Если в поле значений моды несколько, то показывается первое из этих значений, и отображается ![](./../../images/icons/viewers/data-quality/mode/sliced_18x18/multi_default.svg)иконка мультимодальности.
 
-### Настройки показателей
+### Configure Parameters
 
 В *Настройках показателей* выбирается Метод идентификации и его параметры.
 
-![Настройки показателей](./images/settings-index.png)
+![Configure Parameters](./images/settings-index.png)
 
 После выбора полей и показателей для анализа качества данных нужно активировать кнопку  ![](./../../images/icons/common/toolbar-controls/execute_default.svg) *Рассчитать статистики*.
 
@@ -86,17 +86,17 @@ The visualizer enables to perform comprehensive data quality assessment for each
 
 При выборе ячейки и нажатии кнопки ![Детализация](./../../images/icons/common/toolbar-controls/show-fast-viewer_default.svg) Детализация внизу открывается окно со всеми записями из этой ячейки.
 
-![Детализация ячейки](./images/detalization-data-quality.png)
+![Cell Detailing](./images/detalization-data-quality.png)
 
 При выборе ячейки и нажатии на кнопку ![Гистограмма](./../../images/icons//common/toolbar-controls/toggle-left-panel_default.svg) Гистограмма в правой части интерфейса открывается окно с более детальной гистограммой. Для дискретных полей можно выбирать значения для отображения:
 
-![Возможные значения](./images/settings-histogram.png)
+![Possible values](./images/settings-histogram.png)
 
-## Проблемы
+## Problems
 
 В колонке *Проблемы* отображается общее значение проблемных строк по данному полю.
 
-### Виды проблем
+### Kinds of Problems
 
 * **Пропуски** — количество записей, содержащих пропущенные значения.
 * **Пустые** — количество записей, содержащих пустые значения.
@@ -115,5 +115,5 @@ The visualizer enables to perform comprehensive data quality assessment for each
 
 Рядом со значением *Вида проблем* указывается количество строк с такой проблемой, в скобках указывается процентное соотношение проблемных строк к общему количеству строк.
 
-![Виды проблем](./images/problem-types-value.png)
+![Kinds of Problems](./images/problem-types-value.png)
 
