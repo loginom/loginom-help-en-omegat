@@ -30,8 +30,8 @@ It contains the following control elements:
    * ![ ](./../../images/icons/common/toolbar-controls/width-same_default.svg) **Equal column width**.
 * ![ ](./../../images/icons/common/toolbar-controls/transform_default.svg) **Transpose**: move dimensions from rows to columns and vice versa.
 * ![ ](./../../images/icons/common/toolbar-controls/dimension_default.svg)
-   **Настроить измерения** — открыть окно для [настройки измерений](./configure-axis.md).
-* ![ ](./../../images/icons/viewers/cube/cases/case-tune_default.svg)  **Настроить факты…** — открыть окно [настройки фактов](./configure-measures.md).
+   **Configure dimensions**: open window to [configure dimensions](./configure-axis.md).
+* ![ ](./../../images/icons/viewers/cube/cases/case-tune_default.svg)  **Configure measures…**: open window to [configure measures](./configure-measures.md).
 * ![ ](./../../images/icons/viewers/cube/cases/case-calc_default.svg) **Add calculated measure…**: open the window to add the new [calculated measure](./calculated-measure.md) to [^1] cube.
 * ![ ](./../../images/icons/viewers/cube/cases/case-filter_default.svg) **Filter measures…**: open the window to [filter measures](./filter-measures.md).
 * ![ ](./../../images/icons/viewers/cube/cases/case-format_default.svg) **Formatting…**: open the window for [formatting](./format-measures.md) of measures and headers of dimensions.
@@ -44,16 +44,16 @@ It contains the following control elements:
 
 The specified operations are also available via the context menu that can be called by clicking on any Construction area place with the right mouse button. Apart from the Toolbar buttons, there is ![ ](./../../images/icons/ext/checkbox-states/checked_default.svg) **Hide single measure** option in the context menu. It enables to hide headers of measures if the only measure is active.
 
-%spoiler%**Горячие клавиши:**%spoiler%
+%spoiler%**Hotkeys:**%spoiler%
 
-* **Up/Down/Left/Right** — перейти на одну ячейку вверх/вниз/влево/вправо.
-* **PageUp/PageDown** — перейти на экран вверх/вниз.
-* **Alt** + **PageUp/PageDown** — перейти на экран вправо/влево.
-* **Home/End** — перейти до конца вправо/влево.
-* **Alt** + **Home/End** — перейти до конца вверх/вниз.
-* **+/-** — раскрыть/свернуть заголовки в строках.
-* **Alt** + **+/-** — раскрыть/свернуть заголовки в столбцах.
-* **Alt** + **Up\Down\Left\Right** — перейти к выделенной ячейке.
-* **Shift** + **scroll** — прокрутка колесом мыши по горизонтали.
+* **Up/Down/Left/Right**: go one cell up/down/left/right.
+* **PageUp/PageDown**: go screen up/down.
+* **Alt** + **PageUp/PageDown**: go screen right/left.
+* **Home/End**: go right/left to the end.
+* **Alt** + **Home/End**: go up/down to the end.
+* **+/-**: expand/collapse captions in rows.
+* **Alt** + **+/-**: expand/collapse captions in columns.
+* **Alt** + **Up\Down\Left\Right**: go to the selected cell.
+* **Shift** + **scroll**: scroll with the mouse wheel in horizontal direction.
 
 %/spoiler%

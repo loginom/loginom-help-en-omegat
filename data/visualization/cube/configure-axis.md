@@ -1,4 +1,4 @@
-# ![Настроить измерения](./../../images/icons/common/dataset-operations/dsa-group_default.svg) Настроить измерения
+# ![Configure dimensions](./../../images/icons/common/dataset-operations/dsa-group_default.svg) Configure dimensions
 
 Позволяет настроить отображаемые измерения, распределяя доступные поля по колонкам и строкам. Так же есть возможность применения фильтра по нужным полям.
 

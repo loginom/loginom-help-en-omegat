@@ -43,11 +43,11 @@ The actions listed above with the exception of **Restrictions** button are dupli
 * **Single tooltips**: tooltip only for the series over which the mouse cursor is hovered.
 * **No tooltips**: tooltips are not displayed.
 
-Чтобы отключить серию (не отображать на диаграмме), необходимо щелкнуть указателем мыши по этой серии в легенде *Диаграммы Куба*.
+To disable the series (not to display on the chart), it is required to click on this series with mouse cursor in the *Cube Chart* legend.
 
-Легенда *Диаграммы Куба* имеет собственное контекстное меню, которое содержит команды для группового управления сериями:
-* ![](./../../images/icons/common/toolbar-controls/visible_default.svg) **Показать все серии** - все серии будут показаны на диаграмме.
-* ![](./../../images/icons/common/toolbar-controls/invisible_default.svg) **Скрыть все серии** - скрывает все серии на диаграмме.
-* ![](./../../images/icons/common/toolbar-controls/invert-eye_default.svg) **Инвертировать серии** - одновременно отображает все скрытые серии и скрывает все отображаемые серии.
+The *Cube Chart* legend has its own context menu that contains commands for the group series control:
+* ![](./../../images/icons/common/toolbar-controls/visible_default.svg) **Show all series**: all series will be shown on the chart.
+* ![](./../../images/icons/common/toolbar-controls/invisible_default.svg) **Hide all series**: all series will be hidden on the chart.
+* ![](./../../images/icons/common/toolbar-controls/invert-eye_default.svg) **Invert series visibility** enables to display all hidden series and hide all displayed series simultaneously.
 
 

@@ -52,17 +52,17 @@ The visualizer enables to perform comprehensive data quality assessment for each
 | Пробелы в конце | ![](./../../images/icons/common/data-types/discrete_default.svg) | Количество записей со значениями, которые оканчиваются пробельным символом (показатель не включает в себя, записи, состоящие только из пробельных символов) |
 | Диапазон значений | ![](./../../images/icons/common/data-types/discrete_default.svg) | Диапазон значений в формате: *первое ... последнее значение* в отсортированном списке значений |
 | Нулевые | ![](./../../images/icons/common/data-types/continuous_default.svg) | Количество записей, в которых значения равны нулю |
-| [Диаграмма размаха](https://wiki.loginom.ru/articles/box-plot.html) | ![](./../../images/icons/common/data-types/continuous_default.svg) | Считает показатели: *Наименьший выброс, Нижний квартиль, Медиана, Верхний квартиль, Наибольший выброс, Наблюдаемый максимум* |
-| Минимум | ![](./../../images/icons/common/data-types/continuous_default.svg) | Минимальное значение |
-| Среднее | ![](./../../images/icons/common/data-types/continuous_default.svg) | Среднее значение |
-| [Мода](https://wiki.loginom.ru/articles/mode.html) | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | Наиболее часто встречающееся значение[^1] |
-| Пропуски | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | Количество записей, в которых отсутствует значение для данного поля |
+| [Box plot](https://wiki.loginom.ru/articles/box-plot.html) | ![](./../../images/icons/common/data-types/continuous_default.svg) | Считает показатели: *Наименьший выброс, Нижний квартиль, Медиана, Верхний квартиль, Наибольший выброс, Наблюдаемый максимум* |
+| Minimum | ![](./../../images/icons/common/data-types/continuous_default.svg) | Minimum value |
+| Среднее | ![](./../../images/icons/common/data-types/continuous_default.svg) | Average value |
+| [Mode](https://wiki.loginom.ru/articles/mode.html) | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | Наиболее часто встречающееся значение[^1] |
+| Null count | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | Количество записей, в которых отсутствует значение для данного поля |
 | Values | ![](./../../images/icons/common/data-types/discrete_default.svg) | Отображает диаграмму, в которой показано разнообразие значений по строкам |
-| Выбросы | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | Количество записей, в которых значение является выбросом |
-| Пробельные | ![](./../../images/icons/common/data-types/discrete_default.svg) | Количество записей со значениями, состоящими только из пробельных символов |
-| Длины строк | ![](./../../images/icons/common/data-types/discrete_default.svg) | Диапазон длин строк в формате: *минимальная длина - максимальная длина* |
-| Отрицательные | ![](./../../images/icons/common/data-types/continuous_default.svg) | Количество записей с отрицательными значениями |
-| Бесконечности | ![](./../../images/icons/common/data-types/continuous_default.svg) | Количество записей, в которых значения равны бесконечности |
+| Outliers | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | Количество записей, в которых значение является выбросом |
+| Whitespaces | ![](./../../images/icons/common/data-types/discrete_default.svg) | Количество записей со значениями, состоящими только из пробельных символов |
+| String lengths | ![](./../../images/icons/common/data-types/discrete_default.svg) | Диапазон длин строк в формате: *минимальная длина - максимальная длина* |
+| Negative | ![](./../../images/icons/common/data-types/continuous_default.svg) | Number of records with negative values |
+| Infinities | ![](./../../images/icons/common/data-types/continuous_default.svg) | Количество записей, в которых значения равны бесконечности |
 | Unique | ![](./../../images/icons/common/data-types/discrete_default.svg) | Count of unique values |
 | Maximum | ![](./../../images/icons/common/data-types/continuous_default.svg) | Максимальное значение |
 | [Медиана](https://wiki.loginom.ru/articles/median.html) | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | Медиана для данного поля |
@@ -110,7 +110,7 @@ The visualizer enables to perform comprehensive data quality assessment for each
 * **Нет данных** — проблема проявляется при анализе пустого набора данных.
 * **Экстремальные** — количество записей, в которых значение является экстремальным.
 * **Выбросы** — количество записей, в которых значение является выбросом.
-* **Отрицательные** — количество записей с отрицательными значениями.
+* **Negative**: number of records with negative values.
 * **Пробелы в конце** — количество записей со значениями, которые оканчиваются пробельным символом (показатель не включает в себя, записи, состоящие только из пробельных символов).
 
 Рядом со значением *Вида проблем* указывается количество строк с такой проблемой, в скобках указывается процентное соотношение проблемных строк к общему количеству строк.

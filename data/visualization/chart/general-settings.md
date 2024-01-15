@@ -18,28 +18,28 @@ description: Работа с окном настроек диаграммы в L
    * Ggplot2;
    * Seaborn.
 * **Цвет фона** — по умолчанию установлен белый (`#FFF`), однако цвет можно изменить, используя для этого:
-   * **Палитру цветов** — нужный цвет выбирается с помощью мыши. Palette types:
+   * **Color palette**: the required color is selected using the mouse. Palette types:
       * Spectrum;
       * Elegant;
       * Composite.
    * **Задание цвета через код RGB** — аддитивная цветовая модель, описывающая способ кодирования цвета для цветовоспроизведения с помощью трёх цветов: красный, зеленый и синий;
    * **Задание цвета через код Hex** — шестнадцатиричное представление цвета RGB;
-   * **Параметр A** — задается интенсивность выбранного цвета (от темного до светлого);
-   * **Кнопка** ![](./../../images/icons/common/toolbar-controls/undo_default.svg) — возвращает цвет по умолчанию.
+   * **Parameter A**: intensity of the selected color is set (from the dark to the light one).
+   * **Button** ![](./../../images/icons/common/toolbar-controls/undo_default.svg): return the default color.
 * **Stacking type:**
    * **Нет** — серии располагаются независимо друг от друга;
    * **Обычное** — серии располагаются друг над другом;
    * **Процент** — первая серия выбирается за базис, *100%*. Остальные серии строятся в процентном отношении к нему.
 * **Type of captions** and **Type of tooltips.**
-   * **Нет** — метки не отображаются;
-   * **Значение** — представлено собственно значение, отображаемое элементом диаграммы;
-   * **Процент** — выводится процентное соотношение данного элемента к итоговому результату;
-   * **Метка** — выводятся подсказки, необходимые для понимания смысла того или иного элемента;
-   * **Метка, процент** — одновременно выводятся и метки, и проценты;
-   * **Метка, значение** — одновременно выводятся и метки, и значения;
-   * **Процент, итог** — одновременно выводятся и процентное отношение элемента ко всему итоговому результату, и сам этот результат;
-   * **Метка, процент, итог** — одновременно отображаются метка, процентное соотношение и итог;
-   * **Значение X** — выводится координата столбца по оси X.
+   * **No**: captions are not dispalyed.
+   * **Value**: the value displayed by the chart element is represented.
+   * **Percent**: percentage of this element to the final result is displayed.
+   * **Caption**: the tooltips necessary to understand the meaning of this or that element are displayed.
+   * **Caption, percent**: both captions, and percents are displayed at the same time.
+   * **Caption, value**: both captions, and values are displayed at the same time.
+   * **Percent, total**: both percentage of the element to the final result, and the result as such are displayed at the same time.
+   * **Caption, percent, total**: caption, percentage and total are displayed at the same time.
+   * **X value**: the column coordinate along the X axis is displayed.
 * **Combine tooltips** enables to combine the pop-up tooltips of all series (when hovering cursor over the series) if they have been separately configured for each series.
 * **Легенда** — подпись, определяющая категорию данных на диаграмме, с использованием узора и цвета. Настройка позволяет изменить положение легенды относительно диаграммы:
    * ![](./../../images/icons/viewers/chart/legend-alignments/legend-alignments-left-top_default.svg) Top left;
