@@ -9,18 +9,18 @@ The chart visually shows dependence of values of one field on the other one. Two
 
 ### Operations
 
-* ![](./../../images/icons/common/toolbar-controls/fields-list_default.svg) **Настройка полей** — показать/скрыть список полей набора данных.
-* ![](./../../images/icons/common/toolbar-controls/setup_default.svg) [**Общие настройки**](./general-settings.md) — настройки диаграммы в целом. It is possible to open the configuration window using the toolbar or by double clicking on the charting area with the left mouce button. Часть общих настроек (*Нормировать*, *Горизонтальная ориентация*, *Навигатор*) вынесена на панель инструментов.
-* ![](./../../images/icons/common/toolbar-controls/tune-chart_default.svg) [**Настройки серий**](./series-settings.md) — настройки списка серий и параметров конкретных серий (графиков).
-* ![](./../../images/icons/common/toolbar-controls/axis_default.svg) [**Настройки осей**](./axis-settings.md) — позволяет задать параметры соответствующим осям диаграммы.
-* ![](./../../images/icons/common/toolbar-controls/normalize_default.svg) **Нормировать** — приводит все графики к одному масштабу.
-* ![](./../../images/icons/common/toolbar-controls/toolbar-controls_18x18_histogram_default.svg) **Горизонтальная ориентация** — меняет местами оси, то есть поле по X перемещается на ось Y, и наоборот ось Y становится осью X.
-* ![](./../../images/icons/common/toolbar-controls/telescope_default.svg) **Навигатор** — позволяет детализировать по оси X какой-либо участок диаграммы, отображается снизу под осью. Moving the navigator edge, it is possible to select the required chart area.
-* ![](./../../images/icons/common/toolbar-controls/cursor_default.svg) **Режим приближения** — увеличивает масштаб просмотра выделенной области (см. [How to Use the Constructed Chart](#rabota-s-postroennoy-diagrammoy)).
-* ![](./../../images/icons/common/toolbar-controls/hand_default.svg) **Режим перетаскивания** — позволяет передвигать диаграмму по экрану (см. [How to Use the Constructed Chart](#rabota-s-postroennoy-diagrammoy)).
-* ![](./../../images/icons/common/toolbar-controls/zoom-in_default.svg) **Приблизить** — приближает/увеличивает область диаграммы.
-* ![](./../../images/icons/common/toolbar-controls/zoom-out_default.svg) **Отдалить** — отдаляет/уменьшает область диаграммы.
-* ![](./../../images/icons/common/toolbar-controls/zoom-zone_default.svg) **Сбросить масштаб** — снимает все настройки масштабирования (по обеим осям).
+* ![](./../../images/icons/common/toolbar-controls/fields-list_default.svg) **Configure fields**: show/hide the list of the data set fields.
+* ![](./../../images/icons/common/toolbar-controls/setup_default.svg) [**General settings**](./general-settings.md): general chart settings. It is possible to open the configuration window using the toolbar or by double clicking on the charting area with the left mouce button. A part of general settings (*Rationing*, *Horizontal orientation*, *Navigator*) is available on the toolbar.
+* ![](./../../images/icons/common/toolbar-controls/tune-chart_default.svg) [**Series editor**](./series-settings.md): settings of the series list and parameters of particular series (graphic charts).
+* ![](./../../images/icons/common/toolbar-controls/axis_default.svg) [**Configure axes**](./axis-settings.md) enables to set parameters according to the chart axes.
+* ![](./../../images/icons/common/toolbar-controls/normalize_default.svg) **Rationing** enables to set the same scale for all charts.
+* ![](./../../images/icons/common/toolbar-controls/toolbar-controls_18x18_histogram_default.svg) **Horizontal orientation** enables to reverse the axes positions, namely, the field along the X axis is moved to the Y axis, and vice versa, the Y axis becomes the X axis.
+* ![](./../../images/icons/common/toolbar-controls/telescope_default.svg) **Navigator** enables to detail any chart section along the X axis, it is displayed under the axis. Moving the navigator edge, it is possible to select the required chart area.
+* ![](./../../images/icons/common/toolbar-controls/cursor_default.svg) **Pointer mode** enables to zoom in the selected area view (also refer to [How to Use the Constructed Chart](#rabota-s-postroennoy-diagrammoy)).
+* ![](./../../images/icons/common/toolbar-controls/hand_default.svg) ** Drag mode** enables to move the chart on the screen (refer to [How to Use the Constructed Chart](#rabota-s-postroennoy-diagrammoy)).
+* ![](./../../images/icons/common/toolbar-controls/zoom-in_default.svg) **Zoom in** enables to zoom in the chart area.
+* ![](./../../images/icons/common/toolbar-controls/zoom-out_default.svg) **Zoom out** enables to zoom out the chart area.
+* ![](./../../images/icons/common/toolbar-controls/zoom-zone_default.svg) **Reset zoom** enables to reset all scaling settings (for both axes).
 * ![](./../../images/icons/common/toolbar-controls/zoom-vert_default.svg) **Сбросить масштаб Y** — снимает масштабирование диаграммы по оси Y, но оставляет приближение по оси X.
 * ![](./../../images/icons/common/toolbar-controls/import_default.svg) **Экспорт** — позволяет сохранить диаграмму, как она выглядит в окне просмотра в файл с изображением. The name of the format that has been selected for export will be displayed in this menu option:
    * Export to SVG;
