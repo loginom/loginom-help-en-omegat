@@ -20,9 +20,9 @@ The chart visually shows dependence of values of one field on the other one. Two
 * ![](./../../images/icons/common/toolbar-controls/hand_default.svg) ** Drag mode** enables to move the chart on the screen (refer to [How to Use the Constructed Chart](#rabota-s-postroennoy-diagrammoy)).
 * ![](./../../images/icons/common/toolbar-controls/zoom-in_default.svg) **Zoom in** enables to zoom in the chart area.
 * ![](./../../images/icons/common/toolbar-controls/zoom-out_default.svg) **Zoom out** enables to zoom out the chart area.
-* ![](./../../images/icons/common/toolbar-controls/zoom-zone_default.svg) **Reset zoom** enables to reset all scaling settings (for both axes).
-* ![](./../../images/icons/common/toolbar-controls/zoom-vert_default.svg) **Сбросить масштаб Y** — снимает масштабирование диаграммы по оси Y, но оставляет приближение по оси X.
-* ![](./../../images/icons/common/toolbar-controls/import_default.svg) **Экспорт** — позволяет сохранить диаграмму, как она выглядит в окне просмотра в файл с изображением. The name of the format that has been selected for export will be displayed in this menu option:
+* ![](./../../images/icons/common/toolbar-controls/zoom-zone_default.svg) **Reset zoom** enables to reset all scaling settings (along both axes).
+* ![](./../../images/icons/common/toolbar-controls/zoom-vert_default.svg) **Reset zoom Y** enables to reset scaling of the chart along the Y axis but the X axis zooming in is preserved.
+* ![](./../../images/icons/common/toolbar-controls/import_default.svg) **Export** enables to save the chart as it is displayed in the view window in the file with an image. The name of the format that has been selected for export will be displayed in this menu option:
    * Export to SVG;
    * Export to PNG;
    * Export to JPG;
@@ -61,14 +61,14 @@ The following types of charts are available:
 * ![](./../../images/icons/series/d13.svg) Columns with ranges.
 * Heatmap.
 
-> **Примечание:** все диаграммы строятся на принципе — одному значению X соответствует **только одно** значение Y.
+> **Note:** all charts are constructed according to the following principle: one X value matches **only one** Y value.
 
 All main settings are available either using the context menu options (it is required to press the chart area with the right mouse button), or the toolbar buttons (in the upper part over the chart).
 
 ### How to Use the Constructed Chart
 
-When using the chart, it is possible to zoom in the view of the whole chart or its random part. Для этого на панели инструментов нужно сделать активным ![](./../../images/icons/common/toolbar-controls/cursor_default.svg) *Режим приближения* и далее следует, удерживая левую кнопку мыши нажатой, выделить ту область диаграммы, которую нужно просмотреть более детально. As soon as the mouse button is released, it will be possible to zoom in the selected area view. The procedure is to be repeated to zoom in again.
+When using the chart, it is possible to zoom in the view of the whole chart or its random part. For this purpose, it is required to enable ![](./../../images/icons/common/toolbar-controls/cursor_default.svg) *Pointer mode* on the toolbar, and then it is required to select the chart area that must be viewed in more details by holding down the left mouse button. As soon as the mouse button is released, it will be possible to zoom in the selected area view. The procedure is to be repeated to zoom in again.
 
-Чтобы детальнее рассмотреть диаграмму при заданном увеличении, необходимо сделать активным ![](./../../images/icons/common/toolbar-controls/hand_default.svg) *Режим перетаскивания*. It will enable to move the chart on the screen.
+To provide more detailed view of the chart with the set zooming in, it is required to enable ![](./../../images/icons/common/toolbar-controls/hand_default.svg) *Drag mode*. It will enable to move the chart on the screen.
 
-Чтобы вернуться к исходному масштабу диаграммы, нужно воспользоваться функцией ![](./../../images/icons/common/toolbar-controls/zoom-zone_default.svg) *Сбросить приближение*.
+To return to the initial chart scale, it is required to use ![](./../../images/icons/common/toolbar-controls/zoom-zone_default.svg) *Reset zoom* function.

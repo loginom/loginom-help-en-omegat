@@ -67,11 +67,11 @@ Special features of copying and adding:
 
 %spoiler% Copy and paste restrictions %spoiler%
 
-В браузерах Google Chrome и Mozila Firefox при работе через протокол `http` кнопки ![](../../images/icons/common/toolbar-controls/toolbar-controls_18x18_copy_default.svg) **Копировать**, ![](../../images/icons/common/toolbar-controls/toolbar-controls_18x18_paste_default.svg) **Вставить** и горячая клавиша (%kbd Ctrl C % работать не будут.
+When working in Google Chrome and Mozila Firefox browsers via `http` protocol, ![](../../images/icons/common/toolbar-controls/toolbar-controls_18x18_copy_default.svg) **Copy**, ![](../../images/icons/common/toolbar-controls/toolbar-controls_18x18_paste_default.svg) **Paste** buttons and (%kbd Ctrl C % hotkey will not function.
 
-> Примечание: В браузере `Firefox` для расширения функционала по протоколу `https` необходимо в адресной строке браузера ввести `about:config`, найти параметр `dom.events.testing.asyncClipboard` и изменить его значение на `true`. Заработают горячие клавиши и кнопка ![](../../images/icons/common/toolbar-controls/toolbar-controls_18x18_copy_default.svg) Копировать.
+> Note: In `Firefox` browser to expand the functionality via `https` protocol, it is required to enter `about:config` in the browser address bar, find `dom.events.testing.asyncClipboard` parameter and change its value for `true`. Hotkeys and ![](../../images/icons/common/toolbar-controls/toolbar-controls_18x18_copy_default.svg) Copy button will function.
 
-Формат данных буфера обмена — строковые значения, разделенные переводами строки.
+Format of clipboard data — the string values separated with line breaks.
 
 %/spoiler%
 
@@ -86,10 +86,10 @@ To filter data by the dimension, it is required to click on the required dimensi
    **Single selection**: select only one value from the list that will be displayed in the Cube.
 * ![ ](../../images/icons/common/toolbar-controls/icon-202_default.svg) **Combined selection**: select one dimension value from the list that has been earlier formed in the multiple selection mode.
 
-В режимах ![ ](../../images/icons/common/toolbar-controls/icon-201_default.svg)
-**Одиночный выбор** или ![ ](../../images/icons/common/toolbar-controls/icon-202_default.svg) **Комбинированный выбор** при просмотре куба появляются кнопки у измерения![<](../../images/icons/common/toolbar-controls/arrow-l_default.svg) и ![>](../../images/icons/common/toolbar-controls/arrow-r_default.svg) для перелистывания значений фильтра. The Area of Measures (3) will be rebuilt to comply with the filter value when paging. It is possible to enable paging across the bounds of the values list by pressing on ![ ](../../images/icons/common/toolbar-controls/roll-over_default.svg) **Loop values** button.
+In ![ ](../../images/icons/common/toolbar-controls/icon-201_default.svg)
+**Single selection** or ![ ](../../images/icons/common/toolbar-controls/icon-202_default.svg) **Combined selection** modes when viewing the cube, buttons of ![<](../../images/icons/common/toolbar-controls/arrow-l_default.svg) and ![>](../../images/icons/common/toolbar-controls/arrow-r_default.svg) dimension appear to turn over the filter values. The Area of Measures (3) will be rebuilt to comply with the filter value when paging. It is possible to enable paging across the bounds of the values list by pressing on ![ ](../../images/icons/common/toolbar-controls/roll-over_default.svg) **Loop values** button.
 
-В режиме ![ ](../../images/icons/common/toolbar-controls/icon-200_default.svg) **Множественный выбор** с помощью переключателя **Режим включенных/исключенных** фильтр запоминает проходящие фильтр значения, в режиме исключённых значений фильтр запоминает отфильтрованные значения. При изменении входных данных новые значения будут проходить или не проходить фильтр в зависимости от этой настройки.
+In ![ ](../../images/icons/common/toolbar-controls/icon-200_default.svg) **Multiple selection** mode using **Inclusive/exclusive filter** switch, the filter memorizes the values passing through the filter, and the filter memorizes the filtered values in the exclusive filter mode. When changing the input data, the new values will pass or won't pass the filter according to this setting.
 
 
 To configure selection, it is required to open *Check by pattern* window (the configured dimension is also specified in the window header). It is required to select the condition of dimension values and pattern mapping to the left in the drop-down list. The pattern is set to the right from the list in the entry field. The selected method of selection will be applied to all dimensions that comply with the condition (*Check, Add to checked, Uncheck* or *Remove from checked*). The case of letters can be taken into account during the selection process. For this purpose, it is required to select *Case-sensitive* checkbox.
@@ -139,4 +139,4 @@ It is possible to delete a measure by deselecting the checkbox in called *Config
 
 > **Note:** The aggregation option and method of its display first in the list are selected by default. Display of several aggregation options and methods of their display for each measure is supported.
 
-It is possible to move ![Measures](./../../images/icons/common/toolbar-controls/sum_default.svg)Measures button from rows to columns, and, thus, it is possible to change location of measures headers. В случаях когда требуется переместить факт в измерения, необходимо с помощью метода DnD переместить факты из Область измерений в колонках переместить (4) в Область измерений в строках (2).
+It is possible to move ![Measures](./../../images/icons/common/toolbar-controls/sum_default.svg)Measures button from rows to columns, and, thus, it is possible to change location of measures headers. When it is required to move measure to dimensions, it is necessary to move measures using DnD method from the Area of Dimensions in columns (4) to the Area of Dimensions in rows (2).
