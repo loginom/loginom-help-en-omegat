@@ -68,52 +68,52 @@ When opening *Data quality* visualizer, *Summary* table with the list of fields 
 | [Median](https://wiki.loginom.ru/articles/median.html) | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | Median for this field |
 | Monotony | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | It displays uniformity of the field values (*Descending, Increasing, Non-monotonic*) |
 
-[^1]: Если в поле значений моды несколько, то показывается первое из этих значений, и отображается ![](./../../images/icons/viewers/data-quality/mode/sliced_18x18/multi_default.svg)иконка мультимодальности.
+[^1]: If there are several mode values in the field, the first of these values is shown and ![](./../../images/icons/viewers/data-quality/mode/sliced_18x18/multi_default.svg)multimodality icon is displayed.
 
-### Configure Parameters
+### Configure Indicators
 
-В *Настройках показателей* выбирается Метод идентификации и его параметры.
+Identification method and its parameters are selected in *Configure indicators*.
 
-![Configure Parameters](./images/settings-index.png)
+![Configure Indicators](./images/settings-index.png)
 
-После выбора полей и показателей для анализа качества данных нужно активировать кнопку  ![](./../../images/icons/common/toolbar-controls/execute_default.svg) *Рассчитать статистики*.
+After selection of fields and indicators to perform data quality analysis, it is required to activate  ![](./../../images/icons/common/toolbar-controls/execute_default.svg) *Calculate statistics* button.
 
 Now `Discrete` and `Continuous` tables become available.
 
-При нажатии на кнопку ![Кнопка](./../../images/icons/common/toolbar-controls/down_default.svg) можно сортировать поля по выбранному показателю, а также убрать/добавить столбцы с показателями.
+Upon pressing ![Button](./../../images/icons/common/toolbar-controls/down_default.svg) button, it is possible to sort fields by the selected indicator and remove/add columns with indicators.
 
 ![Sort and delete/add columns](./images/add-index-sorting.png)
 
-При выборе ячейки и нажатии кнопки ![Детализация](./../../images/icons/common/toolbar-controls/show-fast-viewer_default.svg) Детализация внизу открывается окно со всеми записями из этой ячейки.
+When selecting the cell and pressing ![Detailing](./../../images/icons/common/toolbar-controls/show-fast-viewer_default.svg) Detailing button, a window is opened in the lower part with all records from this cell.
 
 ![Cell Detailing](./images/detalization-data-quality.png)
 
-При выборе ячейки и нажатии на кнопку ![Гистограмма](./../../images/icons//common/toolbar-controls/toggle-left-panel_default.svg) Гистограмма в правой части интерфейса открывается окно с более детальной гистограммой. It is possible to select values for the discrete fields to display as follows:
+When selecting the cell and pressing ![Histogram](./../../images/icons//common/toolbar-controls/toggle-left-panel_default.svg) Histogram button, a window with more detailed histogram is opened in the right part of the interface. It is possible to select values for the discrete fields to display as follows:
 
 ![Possible values](./images/settings-histogram.png)
 
 ## Problems
 
-В колонке *Проблемы* отображается общее значение проблемных строк по данному полю.
+Total value of the problematic rows for this field will be displayed in *Problems* column.
 
 ### Kinds of Problems
 
 * **Null count**: number of the records that contain null values.
 * **Empty**: number of the records that contain null values.
 * **Zeros**: number of the records that contain zero values.
-* **Пробелы** — количество записей, содержащих только пробельные символы (пробел, неразрывный пробел, табуляция и т.д.)
-* **Бесконечности** — количество записей, содержащих значение *Бесконечность*.
-* **Константа** — указывает, что поле содержит только одно уникальное значение, при этом в поле могут быть пропуски.
-* **Уникальное** — указывает, что каждое значение в этом поле является уникальным.
-* **Ошибка конвертации** — появляется, если поле содержит значения, которые не могут быть приведены к типу данных поля.
-* **Не вычислено** — отмечает поля, которые не содержат рассчитанных показателей.
-* **Нет данных** — проблема проявляется при анализе пустого набора данных.
-* **Экстремальные** — количество записей, в которых значение является экстремальным.
-* **Выбросы** — количество записей, в которых значение является выбросом.
+* **Spaces**: number of the records that contain only whitespaces (space character, nonbreaking space, tabulation, etc.)
+* **Infinities**: number of the records that contain *Infinity* value.
+* **Intercept** indicates that the field contains only one unique value, in this case null count can be in this field.
+* **Unique** indicates that every value in this field is unique.
+* **Conversion error** appears if the field contains the values that cannot be set to the field data type.
+* **Not calculated**: the fields that do not contain calculated indicators are marked.
+* **No data**: the problem occurs when analyzing the empty data set.
+* **Extreme**: number of the records in which the value is extreme.
+* **Outliers**: number of the records in which the value is outlier.
 * **Negative**: number of records with negative values.
-* **Пробелы в конце** — количество записей со значениями, которые оканчиваются пробельным символом (показатель не включает в себя, записи, состоящие только из пробельных символов).
+* **Trailing spaces**: number of the records with the values that end with whitespace (the indicator does not include the records that consist only of whitespaces).
 
-Рядом со значением *Вида проблем* указывается количество строк с такой проблемой, в скобках указывается процентное соотношение проблемных строк к общему количеству строк.
+Number of rows with such problem is specified near *Kind of problems* value. Percentage of the problematic rows to the total number of rows is specified in brackets.
 
 ![Kinds of Problems](./images/problem-types-value.png)
 
