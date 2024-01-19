@@ -45,10 +45,10 @@ The group contains nine switches each of which calls the definite chart in the v
 * **20 bins**: divide a set into 20 equal parts.
 * **50 bins**: divide a set into 50 equal parts.
 
-### Априорная доля событий
-Возможно использование поправки на априорную вероятность, определенную в мастере настроек узла "Логистическая регрессия" до того, как будут получены результаты обработки данных с помощью классификатора. Для этого необходимо, чтобы флажок "Априорная доля событий" был проставлен.
-Использование поправки на априорную вероятность может изменить количество правильно классифицированных событий и не-событий, что приведёт к изменению значений в таблице с оценками классификации и в матрице ошибок.
-Если после проставления или снятия флажка "Априорная доля событий" никаких изменений не произошло, то необходимо проверить корректность настроек "Поправки на долю событий" в мастере настройки "Логистической регрессии". После внесения изменений в настройки узел необходимо переобучить.
+### Prior Probability
+It is possible to use prior probability correction defined in the "Logistic regression" node wizard before getting results of data processing using classifier. For this purpose, it is required to select "Prior Probability" checkbox before.
+Use of prior probability correction can change the number of correctly classified events and non-events that will cause the change of values in the table with classification assessments and error matrix.
+If after selection or deselection of "Prior Probability" checkbox nothing has changed, it is required to check correctness of "Event Weight Correction"settings in the "Logistic regression" wizard. After introduction of changes into the settings, the node must be retrained.
 
 ### Sets
 
@@ -61,31 +61,31 @@ It is possible to select only one set for the following charts: *Basic rates*, *
 
 ### Cutoff
 
-Представляет собой выпадающий список, содержащий следующие значения:
+It represents the drop-down list that contains the following values:
 
-* **Из настроек узла** — используется порог, заданный узлом *Логистическая регрессия*.
+* **From node settings**: the cutoff set by the *Logistic regression* node is used.
 * **Set** enables to set the own cutoff. The cutoff is entered in the *Value* field, or it is set by moving the slider under the field.
-* **Баланс (TPR = TNR)** — задает порог отсечения, при котором *TPR* и *TNR* равны.
-* **Максимум (TPR + TNR)** — задает порог отсечения, при котором сумма *TPR* и *TNR* имеет максимальное значение.
-* **Точка равновесия (TPR = PPV)** — задает порог отсечения, при котором *TPR* и *PPV* равны.
-* **Максимум общей точности** — задает порог отсечения, при котором значение *OCR* максимально.
-* **Максимум F1 Score** — задает порог отсечения, при котором значение F<sub>1</sub> Score максимально.
-* **Коэффициент Мэтьюса (MCC)** — задает порог отсечения, при котором значение MCC максимально.
+* **Balance (TPR = TNR)** sets the cutoff with which  *TPR* and *TNR* are equal.
+* **Maximum (TPR + TNR)** sets the cutoff with which the sum of *TPR* and *TNR* has the maximum value.
+* **Break even point (TPR = PPV)** sets the cutoff with which  *TPR* and *PPV* are equal.
+* **Highest overall accuracy** sets the cutoff with which  *OCR* value is maximum.
+* **Maximum F1 Score** sets the cutoff with which F<sub>1</sub> Score value is maximum.
+* **Matthews coefficient (MCC)** sets the cutoff with which MCC value is maximum.
 
 ## Chart Area
 
 The area contains the following elements:
 
 * **Header** shows the name of the displayed chart.
-* **Событие** — выводит метку выходного поля и значение, являющееся событием.
+* **Event** displays the output field caption and the value that is an event.
 * **Chart** places the chart into the center. It is always located in the area center and has the same height and width.
-* **Легенда** — содержит названия серий, выводимых на диаграмме. When pressing the series in the legend, it is possible to hide or display it on the chart.
+* **Legend** contains names of the series displayed on the chart. When pressing the series in the legend, it is possible to hide or display it on the chart.
 
-> **Примечание**: в зависимости от свободного пространства области легенда будет располагаться под диаграммой или справа от нее.
+> **Note**: depending upon the free area space the legend will be located under the chart or to the right from it.
 
 ## Areas of Classification Assessments
 
-Располагается в правой стороне экрана и содержит таблицы, описывающие результаты классификации. Data in these tables is updated with *Cutoff* change.
+It is located in the right part of the screen and contains the tables describing classification results. Data in these tables is updated with *Cutoff* change.
 
 ### Classification Scores
 
@@ -93,17 +93,17 @@ The table contains the columns:
 
 * **Value** displays the name of the calculated item.
 * **Sets**: the group from two columns:
-   * **Обучающее** — в столбце выводятся значения оценки показателей, рассчитанных для обучающего множества.
-   * **Тестовое** — в столбце выводятся значения оценки показателей, рассчитанных для тестового множества.
+   * **Training**: the assessment values of the indicators calculated for the training set are shown in the column.
+   * **Test**: the assessment values of the indicators calculated for the test set are shown in the column.
 
 The table is divided into two areas and includes the following rows:
 
-* **Оценки классификации** — эта часть содержит оценки, которые рассчитываются для всей модели и не зависят от *Порога отсечения*:
+* **Classification scores**: this area contains the scores that are calculated for the whole model and do not depend on the *Cutoff*:
    * **AUC ROC** shows the [area under the ROC curve](https://wiki.loginom.ru/articles/auc.html).
    * **AUC PR** shows the area under the PR curve. It is defined similar to ROC curve, and Precision and Recall but not FPR and TPR are set on the axes.
    * **Gini index**: [Gini index](https://ru.wikipedia.org/wiki/Коэффициент_Джини).
    * **KS**: [Kolmogorov-Smirnov statistics](https://wiki.loginom.ru/articles/ks-test.html).
-* **Порог отсечения** — в этой части расположены оценки, зависящие от *Порога отсечения*. Название порога выводится после двоеточия, например, *Порог отсечения: Заданный*:
+* **Cutoff**: the scores depending on the *Cutoff* are located in this part. The cutoff name is shown after the colon, for example, *Cutoff: Set*:
    * **Value** shows the used *Cutoff* value.
    * **TPR (Sensitivity)** shows *TPR* value for the used cutoff.
    * **TNR (Specificity)** shows *TNR* value for the used cutoff.
@@ -112,11 +112,11 @@ The table is divided into two areas and includes the following rows:
    * **F1 Score** shows *F1 Score* value for the used cutoff.
    * **MCC** shows the Matthews correlation coefficient value for the used cutoff.
 
-> **Примечание**: если множество данных отсутствует, то соответствующие ему ячейки таблиц будут серыми, и в них ничего не будет выводиться.
+> **Note**: if there is no data set, its matching table cells will be grey and they will show nothing.
 
 ### Confusion Matrices
 
-Содержит [матрицы ошибок](https://wiki.loginom.ru/articles/error-matrix.html) для обучающего и тестового множества и имеет следующий вид:
+It contains [error matrices](https://wiki.loginom.ru/articles/error-matrix.html) for the training and test sets, and it is as follows:
 
 <table>
 <tr><th align="left" rowspan="2">Predicted</th><th align="left" colspan="2">Actually</th><th rowspan="2" align="left">Total</th></tr>
