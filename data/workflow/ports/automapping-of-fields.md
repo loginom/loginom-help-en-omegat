@@ -23,7 +23,7 @@ and ["Connections" interface](./connections-interface.md)).
 
 > **Important:** By default for the ports that receive the table data, ![](./../../images/icons/common/toolbar-controls/auto-sync-columns_default.svg) "Automapping enabled" option is used.
 
-Отключение автосинхронизации визуально сигнализируется дополнительным кругом на иконке порта. For example:
+The disabled automapping is visually displayed by the additional circle on the port icon. For example:
 
-- ![ ](./../../images/icons/app/node/ports/inputs/table_inactive.svg), ![ ](./../../images/icons/app/node/ports/inputs/variable_inactive.svg), ![ ](./../../images/icons/app/node/ports/inputs/tree_inactive.svg) — порты с включенной автосинхронизацией;
-- ![ ](./../../images/icons/app/node/ports/inputs/table-no-autosync_inactive.svg), ![ ](./../../images/icons/app/node/ports/inputs/variable-no-autosync_inactive.svg), ![ ](./../../images/icons/app/node/ports/inputs/tree-no-autosync_inactive.svg) — порты с выключенной автосинхронизацией.
+- ![ ](./../../images/icons/app/node/ports/inputs/table_inactive.svg), ![ ](./../../images/icons/app/node/ports/inputs/variable_inactive.svg), ![ ](./../../images/icons/app/node/ports/inputs/tree_inactive.svg) — ports with enabled automapping;
+- ![ ](./../../images/icons/app/node/ports/inputs/table-no-autosync_inactive.svg), ![ ](./../../images/icons/app/node/ports/inputs/variable-no-autosync_inactive.svg), ![ ](./../../images/icons/app/node/ports/inputs/tree-no-autosync_inactive.svg) — ports with disabled automapping.

@@ -18,10 +18,10 @@ The "Input" column cells values are edited. Cell editing is performed by selecti
 
 The table toolbar contains the following commands:
 
-* ![](./../../images/icons/common/toolbar-controls/plus_default.svg) **Добавить** — добавляет новое поле/переменную в список настраиваемых столбцов/переменных и открывает диалог редактирования параметров.
-* ![](./../../images/icons/common/toolbar-controls/clone_default.svg) **Клонировать** — добавляет новое поле/переменную на основе выделенного и открывает окно редактирования параметров. При клонировании копируются все атрибуты поля/переменной, кроме значения связанного поля/переменной из исходного набора данных.
-* ![](./../../images/icons/common/toolbar-controls/edit_default.svg) **Редактировать...** — открывает диалог редактирования [параметров поля](./../../data/datasetfieldfeatures.md)/переменной. Диалог также можно открыть двойным кликом по выбранной строке таблицы или нажатием клавиши %kbd F2 %.
-* ![](./../../images/icons/common/toolbar-controls/moveup_default.svg) ![](./../../images/icons/common/toolbar-controls/movedown_default.svg) **Переместить вверх/вниз** — изменяет позицию выделенного поля/переменной в списке (поля в исходящей с порта таблице будут расположены слева направо в том же порядке, в каком они расположены в списке сверху вниз).
+* ![](./../../images/icons/common/toolbar-controls/plus_default.svg) **Add** enables to add the new field/variable to the list of the configurable columns/variables and opens the dialog of parameters editing.
+* ![](./../../images/icons/common/toolbar-controls/clone_default.svg) **Clone** enables to add the new field/variable on the basis of the selected one and opens the window of parameters editing. All field/variable attributes are copied while cloning with the exception of the value of the connected field/variable from the source data set.
+* ![](./../../images/icons/common/toolbar-controls/edit_default.svg) **Edit...** enables to open the dialog of [features of field](./../../data/datasetfieldfeatures.md)/variable editing. The dialog can be also opened by double clicking on the selected table row or by pressing %kbd F2 %.
+* ![](./../../images/icons/common/toolbar-controls/moveup_default.svg) ![](./../../images/icons/common/toolbar-controls/movedown_default.svg) **Move up/down** enables to change position of the selected field/variable in the list (the fields in the table outcoming from the port will be located from left to right in the same order in which they are located in the list from up to down).
 * ![](./../../images/icons/common/toolbar-controls/sync-columns_default.svg) **Map fields**: the list of the output fields/variables of the port is mapped with the list of the input ones (more detailed information on the mapping algorithm is provided in [Automapping of Fields](./automapping-of-fields.md)).
 * ![](./../../images/icons/common/toolbar-controls/auto-sync-columns_default.svg) **Automapping**: when this mode is enabled, ![](./../../images/icons/common/toolbar-controls/sync-columns_default.svg) Map fields command will be automatically executed when executing the node.
 * ![](./../../images/icons/common/toolbar-controls/auto-connect_default.svg) **Auto link**: there is an attempt to establish the links between the output and input list of fields/variables. The list of the input/output fields/variables is not changed (the new fields are not added). New links can be added. If some links are already available, they are left unchanged. The algorithm used to create links tries to map the output fields/variables that do not have links with the input ones that do not have links:
@@ -34,7 +34,7 @@ The table toolbar contains the following commands:
 
 If it is required to configure several positions simultaneously, they can be selected using the following methods:
 
-* Зажать клавишу CTRL и выделить их по одному кликами левой кнопки мыши; повторное нажатие по полю снимает выделение.
+* Press CTRL button and select them with one click of the left mouse button. The repeated field pressing deselects the field.
 * Click on one field, press SHIFT button. Then it is required to click on another field. The list of positions between these fields will be selected in the result.
 
 Both methods can be successively applied. For example, first, it is required to select the list using SHIFT, then press CTRL and delete some fields from the list or select the others.

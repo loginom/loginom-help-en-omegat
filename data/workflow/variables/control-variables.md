@@ -7,7 +7,7 @@ The control variables port accepts the variables that enable to set parameters o
 
 > **Note:** To display the control ports, it is required to select the following item in the context menu of the node: "Show control variables port".
 
-Управляющие переменные не обязательно принимать от другого узла. When configuring the port, it is required to set their list and values by default.
+It is not required to accept control variables from another node. When configuring the port, it is required to set their list and values by default.
 
 If a value is set for, at least, one of the control node variables, a switch for selection of method used to set values of its parameters will appear in the wizard:
 

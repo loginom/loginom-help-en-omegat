@@ -5,12 +5,12 @@ description: Предопределенные переменные в анали
 
 ## System Variables
 
-| Имя | Описание | Пример |
+| Name | Description | Example |
 | :---- | :---- | :---- |
-| ProductEdition | Редакция платформы Loginom | Enterprise |
-| ProductVersion | Версия платформы Loginom | 6.5.0 |
+| ProductEdition | Megaladata platform edition| Enterprise |
+| ProductVersion | Megaladata platform version | 6.5.0 |
 
-> **Примечание:** В случае конфликта имён с переменными операционной системы приоритет получают переменные с версией и редакцией Loginom.
+> **Note:** In the case of the name conflict with the operating system variables, variables with the Megaladata version and edition are prioritized.
 
 ## Package Variables
 
@@ -42,6 +42,6 @@ Parameters of the Package in which the Derived Component is used:
 | :---- | :---- | :---- |
 | UserName | Login of the user who opened this Workflow | user |
 | SessionGuid | Identifier of the current session on the Loginom server | {AA037666-56F9-4B06-AE6F-AE3E2E00052F} |
-| RequestId | Уникальный идентификатор запроса, выполняемого через Интегратор | 79341b90d0274ff496c2dbf5600b7ac6 |
+| RequestId | Unique identifier of the request executed via Integrator | 79341b90d0274ff496c2dbf5600b7ac6 |
 
-> **Примечание:** Все предопределенные переменные имеют [строковый тип](./../../data/datatype.md).
+> **Note:** All predefined variables are related to the [string type](./../../data/datatype.md).

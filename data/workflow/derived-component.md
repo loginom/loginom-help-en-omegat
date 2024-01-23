@@ -33,7 +33,7 @@ The list of the changes prohibited in the case of the derived node overdetermina
 
 To cancel all changes introduced into the derived node forcibly and to make the derived and base nodes identical, it is required to select *Restore the source node configuration* item in the context menu of the derived node.
 
-> **Важно:** При переопределении и наследовании настроек базового узла необходимо учитывать что именно является атомарным объектом переопределения и наследования. Например, в условии фильтрации `< 01.01.2020` присутствуют две атомарные части: `<` и `01.01.2020`. В этом случае к каждой из этих частей механизмы переопределения и наследования применяются отдельно, а не ко всему условию в целом. Это означает, что при переопределении одной из них, другая может быть изменена механизмом наследования при изменении базового узла.
+> **Important:** In the case of overdetermination and inheritance of the base node settings, it is required to take into account what exactly is an atomic object of overdetermination and inheritance. Например, в условии фильтрации `< 01.01.2020` присутствуют две атомарные части: `<` и `01.01.2020`. В этом случае к каждой из этих частей механизмы переопределения и наследования применяются отдельно, а не ко всему условию в целом. Это означает, что при переопределении одной из них, другая может быть изменена механизмом наследования при изменении базового узла.
 >
 > В разных компонентах атомарными могут быть как отдельные настройки, так и группы настроек.
 
