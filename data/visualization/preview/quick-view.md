@@ -78,7 +78,7 @@ All fields of the data source are displayed in the form by default.
 
 ![Quick data view of the Table port (the Form mode).](./images/form-amt.png)
 
-The Search is available in the Fom mode. It enables to find keys by the Caption or Name.
+The Search is available in the Form mode. It enables to find keys by the Caption or Name.
 
 > **Note**: "Name" column is hidden by default. To display it, it is required to set a tick in the ![](./../../images/icons/grid/columns.svg) "Column" drop-down list opposite to the "Name" column.
 
