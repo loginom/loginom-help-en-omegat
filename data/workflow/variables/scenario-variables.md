@@ -13,23 +13,23 @@ The [ports](./../ports/README.md) of the Workflow variables are located in the u
 * ![ ](./../../images/icons/app/node/ports/submodel-port/submodel-port_20x20.svg) enables to call the action menu of ports of the Workflow variables. It is used during the Workflow debugging.
 
 To add the package Variable, it is required to perform the following actions:
-* нажать кнопку Навигация в главном меню;
-* в открывшейся древовидной структуре Пакета выбрать раздел Переменные.
+* press Navigation button in the main menu;
+* select the Variable section in the opened tree-like Package structure.
 
-При добавлении новой переменной задаётся Имя, Метка и Тип данных. Значение переменной можно не задавать.
+Name, Caption and Type of data are set when adding the new variable. It is allowed not to set the variable value.
 
-![Добавление Переменной](./add-variable.png)
+![Add Variable](./add-variable.png)
 
-При выставлении флага **Скрытая** пользователи, у которых отсутствует роль [Проектирование сценариев](./../../admin/users/roles.md#proektirovanie-stsenariev), не видят переменную.
+When **Hidden** checkbox is selected, the users without [Workflows design](./../../admin/users/roles.md#proektirovanie-stsenariev) role do not see the variable.
 
-При выставлении флага **Только для чтения** пользователи, у которых отсутствует роль Проектирование сценариев, не могут задавать Значение переменной.
+When **Read-only** checkbox is selected, the users without Workflows design role cannot set the variable Value.
 
-Если у пользователя отсутствует роль Проектирование сценариев, то на редактирование переменных накладываются некоторые ограничения:
+If the user does not have Workflows design role, some restrictions are imposed on variables editing:
 
-* нельзя Удалять/Добавлять/Перемещать переменные;
-* нельзя менять Имя/Метку/Тип переменной.
+* it is not allowed to Delete/Add/Move variables;
+* it is not allowed to change the variable Name/Caption/Type.
 
-> **Примечание:** Внутри [Подмодели](./../../processors/control/supernode.md) также имеется возможность использовать переменные Сценария. Однако, порт «Переменные пользователя» в этом случае содержит собственный набор переменных, применимых только внутри Подмодели.
+> **Note:** It is also possible to use the Workflow variables inside the [Supernode](./../../processors/control/supernode.md). However, in this case, the "User variables" port contains its own set of variables used only inside the Supernode.
 
 The action menu contains the following commands:
 
@@ -55,7 +55,7 @@ Thus, user variables have the highest priority.
 
 For example:
 
-* Переменная системы USERNAME=«PC-01$»;
-* Переменная пользователя USERNAME=«Иванов».
+* USERNAME=«PC-01$» system variable;
+* USERNAME="Ivanov" user variable.
 
-Итоговый набор в порту «Переменные» содержит перечень всех переменных, их значения вычислены с учетом вышеизложенного приоритета. Значение переменной *USERNAME* в ней будет равно «Иванов».
+The final set in the "Variables" port contains a list of all variables. Their values are calculated taking into account the priority specified above. The value of the *USERNAME* variable in it will be "Ivanov".
