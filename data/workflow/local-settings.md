@@ -5,26 +5,26 @@ description: Источник региональных настроек (язы�
 
 These settings contain information on the language standards, number, time, date formats. For example, one of the sources of these settings for Windows users for the Loginom server are "Language and regional standards" settings.
 
-В настольных версиях по умолчанию локаль определяется локалью пользователя.
+Locale is defined by the user locale by default in the desktop versions.
 
-В серверных редакциях локаль по умолчанию определяется локалью пользователя, под которым запущена служба *Loginom*.
+In the server editions locale is defined by default by locale of the user who started the *Megaladata* service.
 
-> **Примечание:** в Windows эти настройки можно задать: Панель управления -> Часы, язык и регион -> Язык и региональные стандарты.
+> **Note:**in Windows these settings are configured as follows: Control panel -> Clock, language and region -> Language and regional standards.
 
-## Локаль сервера/приложения Loginom
+## Server locale/Megaladata applications
 
-Изменить локаль сервера/приложения *Loginom* можно в параметрах [Администрирования](./../admin/parameters.md). По умолчанию в параметре *Локаль* указано значение `Не задана(...)`. Новая локаль начинает действовать только после перезапуска сервера/приложения *Loginom*.
+It is possible to change server locale/*Megaladata* applications in [Administration](./../admin/parameters.md) parameters. In *Locale* parameter `Not set(...)` value is specified by default. The new locale becomes active only after restart of server/*Megaladata* application.
 
-> **Примечание:** в [Быстром просмотре](./../visualization/preview/quick-view.md) и редакторах (поля, в которые пользователь может задавать *Значение*), используется локаль браузера.
+> **Note:** In [Quick View](./../visualization/preview/quick-view.md) and editors (the fields in which a user can set the *Value*) the browser locale is used.
 
-## Локаль пакета
+## Package Locale
 
-При создании пакету присваивается локаль сервера/приложения Loginom.
+The package is assigned with the server/Megaladata application locale after creation.
 
-Локаль пакета можно поменять в настройках [Свойств пакета](./../interface/packages.md). Новая локаль будет применена после закрытия пакета и всех зависимых от него открытых пакетов (для новых пакетов локаль применяется сразу).
+The package locale can be changed in [Package properties](./../interface/packages.md) settings. New locale will be applied when the package and all opened dependent packages are closed.
 
 > **Important:** after locale change some nodes, for example: [Sort](./../processors/transformation/sorting.md), [Export to the Text File](./../integration/export/txt-csv.md), etc. can function in a different way.
 
-Локаль узла можно посмотреть в [Инспекторе свойств](./../interface/property-inspector.md).
+The node locale can be viewed in the [Property inspector](./../interface/property-inspector.md).
 
-Локаль производных узлов совпадает с локалью базового узла.
+Locale of the derived nodes matches the base node locale.

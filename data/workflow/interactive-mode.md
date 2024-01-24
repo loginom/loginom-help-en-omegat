@@ -3,16 +3,16 @@ description: Интерактивный режим проектирования 
 ---
 # Interactive Mode of Operation
 
-**Интерактивный режим работы** — режим, при котором проектирование, запуск узлов и отладка *Сценария* осуществляется в [интерфейсе](./../interface/README.md) Loginom Studio.
+**Interactive mode of operation** means the mode when design, start of nodes and debugging of the *Workflow* are performed in the Megaladata Studio [interface](./../interface/README.md).
 
-Интерактивный режим работы осуществляется на странице «Сценарий» (см. Figure 1).
+The interactive mode of operation is performed on "Workflow" page (refer to Figure 1).
 
-![Страница «Сценарий»](./interactive-mode-1.png)
+!["Workflow" Page](./interactive-mode-1.png)
 
-Разработка *Сценария* ведется в специальной зоне — области построения сценария, которая расположена справа.
+The *Workflow* is designed in the special zone, namely, in the workflow construction area that is located to the right.
 
-Узлы основываются на *Компонентах*, панель которых расположена в левой части окна. Чтобы компонент стал узлом, его необходимо перенести в область построения сценария с помощью мышки или контекстного меню.
+The nodes are based on the *Components* the panel of which is located in the left part of the window. To make the node from the component, it is required to move it to the workflow construction area using the mouse or context menu.
 
-Расположив несколько узлов в области построения сценария и соединив их между собой, получим *Сценарий*, запустить который можно с помощью последовательной (каждый узел отдельно) или одновременной активации узлов.
+It is possible to create the *Workflow* by placing several nodes into the workflow construction area and connecting them with each other. The workflow is started by the sequential (each node is separately activated) or simultaneous activation of nodes.
 
-Корректировка *Сценария* осуществляется стандартными манипуляциями с узлами (настройка, добавление, удаление), а также воздействием на их последовательные связи.
+The *Workflow* is corrected by the standard operations with nodes (configuration, adding, deletion) and impact on their sequential links.

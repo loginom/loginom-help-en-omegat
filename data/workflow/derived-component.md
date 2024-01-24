@@ -33,9 +33,9 @@ The list of the changes prohibited in the case of the derived node overdetermina
 
 To cancel all changes introduced into the derived node forcibly and to make the derived and base nodes identical, it is required to select *Restore the source node configuration* item in the context menu of the derived node.
 
-> **Important:** In the case of overdetermination and inheritance of the base node settings, it is required to take into account what exactly is an atomic object of overdetermination and inheritance. Например, в условии фильтрации `< 01.01.2020` присутствуют две атомарные части: `<` и `01.01.2020`. В этом случае к каждой из этих частей механизмы переопределения и наследования применяются отдельно, а не ко всему условию в целом. Это означает, что при переопределении одной из них, другая может быть изменена механизмом наследования при изменении базового узла.
+> **Important:** In the case of overdetermination and inheritance of the base node settings, it is required to take into account what exactly is an atomic object of overdetermination and inheritance. For example, there are two atomic parts in `< 01.01.2020` filtering criterion: `<` and `01.01.2020`. In this case, the mechanisms of overriding and inheritance are separately applied to each of these parts but not to the criterion as a whole. Thus, in the case of overdetermination of one of it, the other one can be changed by the inheritance mechanism when changing the base node.
 >
-> В разных компонентах атомарными могут быть как отдельные настройки, так и группы настроек.
+> Both separate settings and gropus of settings can be atomic in different components.
 
 ## Creation and Configuration of the Derived Component
 
@@ -50,27 +50,26 @@ To create the Derived Component, it is required to select the base node (Superno
    * Partially private (available only in the current Module and its Supernodes);
    * Public (available only in the current Package);
    * Public (available in all packages): to use the Derived Component from the other package, it is required to create the Reference to the Package (refer to the [access modifier](./access-modifier.md)) in which the Derived Component has been created.
-* **Целевые типы узлов** — типы узлов, которые можно создавать по производному компоненту (по умолчанию выставлен флаг у *Выполнение узла* и *Цикл*, хотя бы один флаг должен быть выставлен):
-   * Выполнение узла и Цикл — разрешается создание узлов *Выполнение узла* и *Цикл* по производному компоненту;
-   * Производные узлы — разрешается создание производных узлов по производному компоненту.
+* **Target node types**: types of the nodes that can be created by the derived component (by default, checkbox is selected for *Node execution* and *Loop*, at least, one checkbox must be selected):
+   * Node execution and Loop: it is allowed to create *Node execution* and *Loop* nodes by the derived component.
+   * Derived nodes: it is allowed to create derived nodes by the derived component.
 
-> **Примечание:** Если метка *Производного компонента* начинается на `__` , то он не будет виден на панели компонентов в других пакетах, даже если имеет значение *Открытый* в параметре *Область видимости*. На такие *Производные компоненты* можно ссылаться только внутри пакета, а также строить `другие Производные компоненты` внутри пакета. Если узел построен с помощью "скрытого" *Производного компонента* (с открытой областью видимости), то на него можно ссылаться в других пакетах, при этом не будет возникать ошибок, как при случае, если построить узел с помощью "закрытого" *Производного компонента*.
+> **Note:** If the *Derived Component* caption starts from `__` , it will not be visible on the components panel in other packages, even if it has the *Public* value in *Visibility* parameter. It is possible to refer to such *Derived Components* inside the package, and also construct `other Derived Components` inside the package. If the node has been constructed using the "hidden" *Derived Component* (with the public visibility), it is possible to refer to it in other packages. In this case, no errors will occur as in the case when the node is constructed using the "private" *Derived Component*.
 
-Upon saving the settings, the Derived Component will be available on *Derived components* panel. Все доступные `Производные компоненты` отображаются в виде списка и группируются по принадлежности к пакету, в котором они созданы.
-В Панели навигации кликом правой кнопкой мыши по папке *Текущий модуль* вызывается меню с опцией `Перейти к производным компонентам`. При активации этой опции открывается окно `Компоненты` со списком *Производных компонентов*. Аналогично, если кликнуть правой кнопкой мыши по определённому *Производному компоненту* — откроется окно `Компоненты` со списком *Производных компонентов*, но с фокусировкой на выбранном компоненте.
+Upon saving the settings, the Derived Component will be available on *Derived Components* panel. All available `Derived Components` are displayed in the list form and they are grouped by assignment to the package in which they have been created.
+Right-clicking the *Current module* folder on the Navigation Bar enables to call the menu with `Go to derived components` option. When activating this option, `Components` window with the list of *Derived Components* is opened. Similarly, right-clicking the definite *Derived Component* enables to open `Components` window with the list of *Derived Components*. But focus will be on the selected component.
 
-Для создания узла *Сценария* на основе производного компонента можно воспользоваться контекстным меню, нажав правой кнопкой мыши по нужному компоненту. Также можно перенести производный компонент в область построения *Сценария* методом Drag-and-Drop:
+To create the *Workflow* node on the derived component basis, it is possible to use the context menu by right-clicking the required component. It is also possible to move the derived component to the *Workflow* construction area using Drag-and-Drop method:
 
-* с зажатой кнопкой *Shift* в сценарий переносится узел *Цикл*;
-* с зажатой кнопкой *Ctrl* в сценарий переносится *Производный узел*;
-* без зажатых клавиш в сценарий переносится узел *Выполнение узла*.
+* pressed *Shift* button enables to move the *Loop* node to the workflow;
+* pressed *Ctrl* button enables to move the *Derived Node* to the workflow;
+* *Node execution* node is moved to the workflow without pressed buttons.
 
-На созданных таким образом узлах отображается кнопка ![](./../images/icons/common/toolbar-controls/show-derived-nodes_default.svg)
-"Показать базовый узел", которая позволяет найти базовый узел (в случае, если он расположен в пределах текущей области построения Сценария).
+![](./../images/icons/common/toolbar-controls/show-derived-nodes_default.svg) "Show base node" button is displayed on the nodes created in such a way. It enables to find the base node (if it is located in the current Workflow construction area).
 
-При попытке создать производный компонент по узлу, по которому уже есть производный компонент, пользователю задаётся вопрос о том, действительно ли он хочет создать ещё один.
+While attempting to create the derived component by the node for which the derived component is already available, the user is asked whether he really wants to create one more.
 
-Для производных компонентов второго и последующих уровней, созданных от производного узла, в конце метки ставится индекс (`#2`, `#3`, и т.д.).
+Index is placed at the caption end for the derived components of the second and subsequent levels created from the derived node(`#2`, `#3`, etc).
 
 It is possible to edit the settings of the Derived Components created in the package in the following section: *Navigation panel components*: Navigation panel -> Packages -> Current package -> Components. When selecting this section, the window with the list of the Derived Components in which the following actions are available will be opened:
 
