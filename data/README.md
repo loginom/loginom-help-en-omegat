@@ -1,13 +1,13 @@
 ---
 description: Руководство пользователя Loginom – описание интерфейса пользователя, основные функции и рекомендации по их использованию. Обзор редакций платформы.
 ---
-# Loginom — User Manual
+# Megaladata — User Manual
 
-[**Loginom**](https://loginom.ru) is an analytical platform that enables to execute all business analysis stages in the uniform environment from data consolidation and model training to visualization and integration into business process.
+[**Megaladata**](https://loginom.ru) is an analytical platform that enables to execute all business analysis stages in the uniform environment from data consolidation and model training to visualization and integration into business process.
 
-![The Loginom platform components](./components.svg)
+![The Megaladata platform components](./components.svg)
 
-Loginom Desktop operation is similar to the Studio operation, with the exception of unavailable mechanisms of integration and teamwork.
+Megaladata Desktop operation is similar to the Studio operation, with the exception of unavailable mechanisms of integration and teamwork.
 
 | Component functionality | Desktop | Studio |
 |:-------------|:------:|:-------:|
