@@ -8,7 +8,7 @@ The Megaladata analytical platform can be operated in the server mode for the te
 
 ## Desktop
 
-The platform component designated for the autonomous data processing on the personal computer. It can process large data volumes restricted only by the working station resources.
+The platform component designated for the autonomous data processing on the personal computer. It can process large data arrays restricted only by the working station resources.
 
 Megaladata Desktop does not contain tools for team work, differentiation of rights and publication of web services.
 
