@@ -4,7 +4,7 @@ description: Компоненты платформы — Desktop, Server, Studio
 
 # Platform Components
 
-The Megaladata analytical platform can be operated in the server mode for the team work and in the desktop application mode for the personal analytics. Composition of components depends on the [platform edition](compare-editions.md).
+The Megaladata analytical platform can be operated in the server mode for the team work and in the desktop application form for the personal analytics. Composition of components depends on the [platform edition](compare-editions.md).
 
 ## Desktop
 
