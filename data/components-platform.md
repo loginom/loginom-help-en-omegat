@@ -14,7 +14,7 @@ Megaladata Desktop does not contain tools for team work, differentiation of righ
 
 System requirements for [OS Windows](https://help.loginom.ru/adminguide/desktop/) and [OS Linux](https://help.loginom.ru/adminguide/desktop/linux/).
 
-## Server проба
+## Server
 
 An analytics server that performs the loading, calculation, model training, visualization, right management and other tasks. Megaladata Server is a key platform element required for team work. Megaladata Server is designated for deployment in the internal network when there is more than one user working from different working places.
 
