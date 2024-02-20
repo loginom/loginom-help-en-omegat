@@ -28,4 +28,4 @@ There are the following parameters in the wizard:
 * **Additional Consumer configuration**: collection of *Kafka* parameters in the following form: *Parameter — Value*.
 
 **See also:**
-* [Official manufacturer website](https://kafka.apache.org/documentation/).
+* [Official vendor's website](https://kafka.apache.org/documentation/).

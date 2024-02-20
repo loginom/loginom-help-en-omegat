@@ -27,5 +27,5 @@ Versions 95, 97, 2000, 2003, 2007, 2010, 2013, 2016 and 2019.
 
 **See also:**
 
-* [Official manufacturer website](https://www.microsoft.com/ru-ru);
+* [Official vendor's website](https://www.microsoft.com/ru-ru);
 * [Product Documentation](https://docs.microsoft.com/ru-ru/).

@@ -30,4 +30,4 @@ The following parameters are set during the connection setup:
 * **Comment**: form for notes.
 
 **See also:**
-* [Official manufacturer website](https://kafka.apache.org/documentation/).
+* [Official vendor's website](https://kafka.apache.org/documentation/).

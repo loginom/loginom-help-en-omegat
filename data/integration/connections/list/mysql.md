@@ -74,5 +74,5 @@ The window includes two fields:
 **See also**:
 
 * [Information in the Russian section in Wikipedia](https://ru.wikipedia.org/wiki/MySQL);
-* [Official manufacturer website](https://www.mysql.com/);
+* [Official vendor's website](https://www.mysql.com/);
 * [SQL Syntax Documentation](https://dev.mysql.com/doc/refman/8.0/en/sql-statements.html).

@@ -28,5 +28,5 @@ The ODBC driver related errors are also corrected by installation of these compo
 
 **See also:**
 
-* [Official manufacturer website](https://www.microsoft.com/ru-ru);
+* [Official vendor's website](https://www.microsoft.com/ru-ru);
 * [Product Documentation](https://docs.microsoft.com/ru-ru/).

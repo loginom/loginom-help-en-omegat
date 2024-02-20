@@ -34,4 +34,4 @@ More detailed description of editions is provided in "Compare Editions" article.
 
 **See also:**
 
-* [Official manufacturer website](https://loginom.ru);
+* [Official vendor's website](https://loginom.ru);

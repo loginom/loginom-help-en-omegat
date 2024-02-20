@@ -59,6 +59,6 @@ The following parameters are set during the connection setup:
 **See also:**
 
 * [Information in the Russian section in Wikipedia](https://ru.wikipedia.org/wiki/Oracle_Database);
-* [Official manufacturer website](https://www.oracle.com/)
+* [Official vendor's website](https://www.oracle.com/)
 * [Brief SQL Syntax Documentation](http://docs.oracle.com/database/122/SQLQR/toc.htm)
 * [Full SQL Syntax Documentation](http://docs.oracle.com/database/122/SQLRF/toc.htm)

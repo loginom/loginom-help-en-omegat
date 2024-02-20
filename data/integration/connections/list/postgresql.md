@@ -73,6 +73,6 @@ Versions 9 - 15.1.
 **See also:**
 
 * [Information in the Russian section in Wikipedia](https://ru.wikipedia.org/wiki/PostgreSQL).
-* [Official manufacturer website](https://www.postgresql.org/).
+* [Official vendor's website](https://www.postgresql.org/).
 * [SQL Syntax Documentation](https://postgrespro.ru/docs/postgresql).
 * [The Russian DBMS (Postgres Pro) based on free open-source DBMS PostgreSQL](https://postgrespro.ru/).
