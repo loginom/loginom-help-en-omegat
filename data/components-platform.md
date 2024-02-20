@@ -8,25 +8,25 @@ The Megaladata analytical platform can be operated in the server mode for the te
 
 ## Desktop
 
-The platform component designated for the autonomous data processing on the personal computer. It can process large data arrays restricted only by the working station resources.
+The platform component designated for autonomous data processing on a personal computer. It can process large data arrays restricted only by the working station resources.
 
 Megaladata Desktop does not contain tools for team work, differentiation of rights and publication of web services.
 
 System requirements for [OS Windows](https://help.loginom.ru/adminguide/desktop/) and [OS Linux](https://help.loginom.ru/adminguide/desktop/linux/).
 
-## Server
+## Server проба
 
-The analytical server, completes the loading, calculation, model training, visualisation, right management and other tasks. Megaladata Server is a key platform element required for the team work. Megaladata Server is designated for deployment in the internal network when there is more than one user working from different working places.
+An analytics server that performs the loading, calculation, model training, visualization, right management and other tasks. Megaladata Server is a key platform element required for team work. Megaladata Server is designated for deployment in the internal network when there is more than one user working from different working places.
 
-Megaladata Studio is required for server control, configuration, visualisation and other operations. Other platform components, with the exception of the Desktop component, can interact with Megaladata Server.
+Megaladata Studio is required for server control, configuration, visualization and other operations. Other platform components, with the exception of the Desktop component, can interact with Megaladata Server.
 
-The basic delivery of all server and cloud editions includes Megaladata Server and minimum 5 competitive licenses for the users with "Workflows design" or "View reports" roles. To execute workflows by means of scheduled start or calling of the web services published with Integrator, no additional user licences are required. The basic server delivery is sufficient.
+The basic delivery of all server and cloud editions includes Megaladata Server and minimum 5 competitive licenses for the users with the "Workflows design" or "View reports" roles. To execute workflows by means of scheduled start or calling of the web services published with Integrator, no additional user licences are required. The basic server delivery is sufficient.
 
 System requirements for [OS Linux](https://help.loginom.ru/adminguide/linux/server/), for [OS Windows](https://help.loginom.ru/adminguide/windows/server/).
 
 ## Studio
 
-The client web application designated for processing workflows design, data visualisation, server configuration, control of user rights.
+The client web application designated for processing workflows design, data visualization, server configuration, control of user rights.
 
 Studio is the main working place of analyst and end user that implements user interface of the platform operation. Megaladata Server provides data processing.
 
