@@ -86,9 +86,9 @@ A cloud edition. The platform is operated using a rented virtual machine's capac
 Notes:
 
 <sup>1</sup> Additionally purchased  
-<sup>2</sup> Additional contours for development, testing, etc. supplied within the terms of the techical support agreement  
-<sup>3</sup> Number of sessions is limited for one person/one working place (more detailed information is provided below in **Important** section)  
+<sup>2</sup> Additional contours for development, testing, etc., supplied within the terms of the techical support agreement  
+<sup>3</sup> Number of sessions for one person/one working place is limited (more detailed information is provided below in the **Important** section)  
 <sup>4</sup> For commercial use
 
 
-> **Important**: Session is considered to be one tab or browser window when Megaladata is operated. A user can start Megaladata 2 times simultaneously in different tabs/windows in the Team and Standard editions, namely, maximum 10 sessions are provided for 5 working places, whereas 20 sessions are provided for 10 working places. While attempting to open the third tab or window with Megladata, a user will receive the following message: "Exceeded number of sessions available for your edition". There are no restriictions for the users with admin rights or in the case of batch processing of workflow.
+> **Important**: A session is considered to be one tab or browser window when Megaladata is operated. In the Team and Standard editions, a user can start Megaladata 2 times simultaneously in different tabs/windows, namely, maximum 10 sessions are provided for 5 working places, whereas 20 sessions are provided for 10 working places. While attempting to open the third tab or window with Megladata, the user will receive the following message: "Exceeded number of sessions allowed for your edition". There are no restriictions for the users with admin rights or during batch processing of a workflow.
