@@ -34,7 +34,7 @@ The list of supported browsers can be found at the following [link](https://help
 
 ## Integrator
 
-The platform component that enables to publish your own web services that implement the logics developed in the Megaladata Server workflows. Megaladata Integrator provides an opportunity to implement the architecture that secures failure safety, load balancing and scaling out.
+The platform component that enables to publish your own web services that implement the logics developed in the Megaladata Server workflows. Megaladata Integrator provides an opportunity to implement the architecture that secures failure safety, load balancing and horizontal scaling.
 
 System requirements for [OS Linux](https://help.loginom.ru/adminguide/linux/integrator/), for [OS Windows](https://help.loginom.ru/adminguide/windows/integrator/).
 
