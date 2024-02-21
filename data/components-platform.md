@@ -26,7 +26,7 @@ System requirements for [OS Linux](https://help.loginom.ru/adminguide/linux/serv
 
 ## Studio
 
-The client web application designated for processing workflows design, data visualization, server configuration, control of user rights.
+The client web application designated for processing workflows design, data visualization, server configuration, user rights management.
 
 Studio is the main working place of the analyst and the end user that implements user interface of the platform operation. Megaladata Server provides data processing.
 
