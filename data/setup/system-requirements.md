@@ -57,7 +57,7 @@ Browsers:
 
 ## Loginom Integrator
 
-The component is operated in the application form for Internet Information Services (IIS) and gives an opportunity to publish own web services.
+The component is operated in the application form for Internet Information Services (IIS) and gives an opportunity to publish your own web services.
 
 | Component | Minimum | Recommended |
 |:--------- |:-------------|:------------- |

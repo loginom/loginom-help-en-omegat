@@ -33,15 +33,15 @@ A server edition. It is designated for small teams of up to 5 people, and is tar
 
 ## Standard
 
-A server edition. It is designated for average companies with from 5 to 10 users. Not more than 12 processor cores and up to 24 GB of RAM can be used. It is possible to process data in batch mode, call the third party web services for integration into the company's business processes, publish web services and construct a server cluster. The edition is available for the Linux and Windows operating systems.
+A server edition. It is designated for average companies with the number of users from 5 to 10. Not more than 12 processor cores and up to 24 GB of RAM can be used. It is possible to process data in batch mode, call third party web services for integration into the company's business processes, publish web services and construct a server cluster. The edition is available for the Linux and Windows operating systems.
 
 ## Enterprise
 
-A server edition. It is targeted at the corporate processing of large volumes of data and implementation of critical business processes in a fail-safe and scalable environment. There is no limit on the number of processor cores and used RAM size. It is possible to buy additional licences for any number of users. It is possible to process data in batch mode, call the third party web services for integration into the company's business processes, publish web services and construct a server cluster. The edition is available for the Linux and Windows operating systems.
+A server edition. It is targeted at the corporate processing of large volumes of data and implementation of critical business processes in a fail-safe and scalable environment. There is no limit on the number of processor cores and used RAM size. It is possible to buy additional licences for any number of users. It is possible to process data in batch mode, call third party web services for integration into the company's business processes, publish web services and construct a server cluster. The edition is available for the Linux and Windows operating systems.
 
 ## Cloud
 
-A cloud edition. The platform is operated using a rented virtual machine's capacities only. The supplied resources can be scaled upon customer request according to the load size changes. There is no limit on the number of processor cores and used RAM size. Server and Megaladata Integrator are supplied at once. It is possible to process data in the batch mode, call the third party web services for integration into the company business processes, publish web services and construct server cluster. The edition is available only for Linux operating system.
+A cloud edition. The platform is operated using a rented virtual machine's capacities only. The supplied resources can be scaled upon customer request according to the load size change. There is no limit on the number of processor cores and used RAM size. Server Edition and Megaladata Integrator are supplied at once. It is possible to process data in batch mode, call third party web services for integration into the company's business processes, publish web services and construct a server cluster. The edition is available only for the Linux operating system.
 
 ## Comparison table
 
@@ -59,12 +59,12 @@ A cloud edition. The platform is operated using a rented virtual machine's capac
 | Linux | ● | ● |          | ● | ● | ● |
 | **Restrictions** |           |          |          |          |            |        |
 | Work places<sup>3</sup> | 1 | 1 | 5 | 5-10 | 10-∞ | 1-∞ |
-| Processor core |           |          | 1-6 | 1-12 | ∞ | ∞ |
-| RAM |           |          | up to12 GB | up to 24 Гб | ∞ | ∞ |
+| Processor cores |           |          | 1-6 | 1-12 | ∞ | ∞ |
+| RAM |           |          | up to12 GB | up to 24 GB | ∞ | ∞ |
 | **Functions** |           |          |          |          |            |        |
 | Processing and visualization | ● | ● | ● | ● | ● | ● |
 | Batch processing |           |          | ● | ● | ● | ● |
-| Поддержка LDAP<[LDAP support](./admin/ldap.md) |           |          |          |          | ● | ● |
+| [LDAP support](./admin/ldap.md) |           |          |          |          | ● | ● |
 | **Integration** |           |          |          |          |            |        |
 | Files | ● | ● | ● | ● | ● | ● |
 | Databases | ● | ● | ● | ● | ● | ● |
@@ -75,7 +75,7 @@ A cloud edition. The platform is operated using a rented virtual machine's capac
 | [Standard training](https://skills.loginom.ru/marketplace/1/category/%D0%91%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BA%D1%83%D1%80%D1%81%D1%8B) |           | ● | ● | ● | ● |        |
 | [Workshops](https://mastering.loginom.ru/) |           | ● | ● | ● | ● |        |
 | [Skills](https://skills.loginom.ru/marketplace/6/category/%D0%9D%D0%B0%D0%B2%D1%8B%D0%BA%D0%B8) |           | ● | ● | ● | ● |        |
-| [Component library](https://marketplace.loginom.ru/libraries/)<sup>4</sup> | | ● | ● | ● | ● |        |
+| [Component libraries](https://marketplace.loginom.ru/libraries/)<sup>4</sup> | | ● | ● | ● | ● |        |
 | [Business training](https://skills.loginom.ru/marketplace/2/category/%D0%91%D0%B8%D0%B7%D0%BD%D0%B5%D1%81-%D0%BA%D1%83%D1%80%D1%81%D1%8B) |           |          | ● | ● | ● |        |
 | Workflow frames and templates |        |          | ● | ● | ● |        |
 | **Technical support** |           |          |          |          |            |        |
