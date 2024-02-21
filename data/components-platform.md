@@ -4,7 +4,7 @@ description: Компоненты платформы — Desktop, Server, Studio
 
 # Platform Components
 
-The Megaladata analytical platform can be operated in the server mode for the team work and in the desktop application form for the personal analytics. Composition of components depends on the [platform edition](compare-editions.md).
+The Megaladata analytical platform can be operated as a server edition for team work and as a desktop application for personal analytics. Composition of components depends on the [platform edition](compare-editions.md).
 
 ## Desktop
 
@@ -28,13 +28,13 @@ System requirements for [OS Linux](https://help.loginom.ru/adminguide/linux/serv
 
 The client web application designated for processing workflows design, data visualization, server configuration, control of user rights.
 
-Studio is the main working place of analyst and end user that implements user interface of the platform operation. Megaladata Server provides data processing.
+Studio is the main working place of the analyst and the end user that implements user interface of the platform operation. Megaladata Server provides data processing.
 
-List of supported browsers can be found at the following [link](https://help.loginom.ru/adminguide/studio/).
+The list of supported browsers can be found at the following [link](https://help.loginom.ru/adminguide/studio/).
 
 ## Integrator
 
-The platform component that enables to publish own web services that implement the logics developed in the Megaladata Server workflows. Megaladata Integrator provides an opportunity to implement the architecture that secures failure safety, load balancing and scaling out.
+The platform component that enables to publish your own web services that implement the logics developed in the Megaladata Server workflows. Megaladata Integrator provides an opportunity to implement the architecture that secures failure safety, load balancing and scaling out.
 
 System requirements for [OS Linux](https://help.loginom.ru/adminguide/linux/integrator/), for [OS Windows](https://help.loginom.ru/adminguide/windows/integrator/).
 
@@ -42,6 +42,6 @@ System requirements for [OS Linux](https://help.loginom.ru/adminguide/linux/inte
 
 It is an optional platform component that provides integration of Megaladata Server with non-standard web services, for example, with credit reference bureau.
 
-Megaladata Adapter enables to perform complex transformations to bring XML request to its standard type that can be processed by other Megaladata platform components.
+Megaladata Adapter enables to perform complex transformations to bring an XML request to its standard type that can be processed by other Megaladata platform components.
 
 System requirements for [OS Windows](https://help.loginom.ru/adminguide/adapter/).

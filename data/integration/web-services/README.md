@@ -9,7 +9,7 @@ Loginom provides the tools used for integration with external web services and p
 
 The following Loginom platform components are required for the web services integration and operation:
 
-* [Server](https://loginom.ru/platform/pricing#component-server) is the main platform component. It completes the loading, calculation, model training, visualisation, right management and other tasks.
+* [Server](https://loginom.ru/platform/pricing#component-server) is the main platform component. It completes the loading, calculation, model training, visualization, right management and other tasks.
 * [Integrator](https://loginom.ru/platform/pricing#component-integrator): the component responsible for publication of own web services based on the packages created in Loginom. It is used in combination with [IIS](https://ru.wikipedia.org/wiki/Internet_Information_Services) creating a separate application in it.
 * [Adapter](https://loginom.ru/platform/pricing#component-adapter): optional component. It is required for interaction with non-standard web services, for example, with credit reference bureau.
 

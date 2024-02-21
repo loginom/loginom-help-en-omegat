@@ -1,7 +1,7 @@
 ---
 description: Построение OLAP-куба в Loginom. Руководство по многомерному анализу данных с помощью визуализатора OLAP куба. Настройка измерений и фактов.
 ---
-# ![Cube Visualiser](./../../images/icons/common/view_types/cube_default.svg) Cube
+# ![Cube Visualizer](./../../images/icons/common/view_types/cube_default.svg) Cube
 
 [Cube](https://wiki.loginom.ru/articles/cube.html) is one of the wide spread methods of the complex multidimensional data analysis called [OLAP](https://wiki.loginom.ru/articles/online-analytical-processing.html) (OnLine Analytical Processing). It is based on data view in the form of the multidimensional cubes that are also called OLAB cubes or hypercubes.
 

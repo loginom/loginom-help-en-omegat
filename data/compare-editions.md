@@ -4,44 +4,44 @@ description: Сравнение редакций Loginom. Варианты ре�
 
 # Compare Editions
 
-To select Megaladata editions, it is required to define the platform use options. There is no difference between the editions as far as available processing algorythms or visualization methods are concerned. Their differences are connected with use cases and integration into the corporate IT environment.
+To select a Megaladata edition, it is required to define the platform use options. There is no difference between the editions as far as available processing algorythms or visualization methods are concerned. Their differences are connected with the use cases and integration into the corporate IT environment.
 
 The key questions that stipulate edition selection:
 
 * Is team work required?
 * How many users will work with the platform?
-* How large amounts of data are to be processed?
+* How large are the amounts of data  that will be processed?
 * What are the performance requirements?
 * Is automatic workflow start required?
 * Is it required to publish web services?
 * Is integration with non-standard web services planned?
-* How is it required to integrate analytics with the company IT systems?
+* How is it required to integrate analytics with the company's IT systems?
 * Is it required to build fail-safe and scalable architecture?
 * What operating system must be supported by the platform?
 
 ## Community
 
-Desktop edition. It is used to train analysts and students how to work with the Megaladata platform. It is not allowed to use this edition of the platform for commercial purposes. Individual data analysis without team work mechanisms is provided. Work of multiple data sources is supported, integration with 1C is available only for Windows. Besides, work with REST services is available. The edition is available for Linux and Windows operating systems.
+A desktop edition. It is used to train analysts and students on how to work with the Megaladata platform. It is not allowed to use this edition of the platform for commercial purposes. Individual data analysis without team work mechanisms is provided. Work with multiple data sources is supported. Integration with 1C is available only for Windows. Besides, work with REST services is available. The edition is available for the Linux and Windows operating systems.
 
 ## Personal
 
-Desktop edition. It is designated for the autonomous analytical processing. Performance depends only on the capacity of the used working station. There is no limit on the number of processors or memory sizes. As the edition is targeted at the personal work of analyst, there are no built-in mechanisms of team work, integration with business processes and SOAP services. Automatic start of workflows is not available. The edition is available only for Linux and Windows operating systems.
+A desktop edition. It is designated for the autonomous analytical processing. Performance depends only on the capacity of the used working station. There is no limit on the number of processors or memory size. As the edition is targeted at the personal work of analyst, there are no built-in mechanisms of team work, integration with business processes and SOAP services. Automatic start of workflows is not available. The edition is available only for the Linux and Windows operating systems.
 
 ## Team
 
-Server edition. It is designated for small teams up to 5 people and it is targeted at solution of the basic analytical tasks. The processed data sizes must match the server with not more than 6 processor cores and RAM size up to 12 GB. Batch processing of workflows is available. It is not possible to call the third party SOAP services and publications of own web services. The edition is available only for Windows operating system.
+A server edition. It is designated for small teams of up to 5 people, and is targeted at the solution of basic analytical tasks. The processed data sizes must match the server with not more than 6 processor cores and RAM size up to 12 GB. Batch processing of workflows is available. It is not possible to call the third party SOAP services and publish own web services. The edition is available only for the Windows operating system.
 
 ## Standard
 
-Server edition. It is designated for average companies with from 5 to 10 users. Not more than 12 processor cores and up to 24 GB of RAM can be used. It is possible to process data in the batch mode, call the third party web services for integration into the company business processes, publish web services and construct server cluster. The edition is available for Linux and Windows operating systems.
+A server edition. It is designated for average companies with from 5 to 10 users. Not more than 12 processor cores and up to 24 GB of RAM can be used. It is possible to process data in batch mode, call the third party web services for integration into the company's business processes, publish web services and construct a server cluster. The edition is available for the Linux and Windows operating systems.
 
 ## Enterprise
 
-Server edition. It is targeted at the corporate processing of large volumes of data, implementation of the critical business processes in the fail-safe and scalable environment. There is no limit on the number of processor cores and used RAM size. It is possible to buy additional licences for any number of users. It is possible to process data in the batch mode, call the third party web services for integration into the company business processes, publish web services and construct server cluster. The edition is available for Linux and Windows operating systems.
+A server edition. It is targeted at the corporate processing of large volumes of data and implementation of critical business processes in a fail-safe and scalable environment. There is no limit on the number of processor cores and used RAM size. It is possible to buy additional licences for any number of users. It is possible to process data in batch mode, call the third party web services for integration into the company's business processes, publish web services and construct a server cluster. The edition is available for the Linux and Windows operating systems.
 
 ## Cloud
 
-Cloud edition. The platform is operated using the rented virtual machine capacities. The supplied resources can be scaled upon customer request according to the load size change. There is no limit on the number of processor cores and used RAM size. Server and Megaladata Integrator are supplied at once. It is possible to process data in the batch mode, call the third party web services for integration into the company business processes, publish web services and construct server cluster. The edition is available only for Linux operating system.
+A cloud edition. The platform is operated using a rented virtual machine's capacities only. The supplied resources can be scaled upon customer request according to the load size changes. There is no limit on the number of processor cores and used RAM size. Server and Megaladata Integrator are supplied at once. It is possible to process data in the batch mode, call the third party web services for integration into the company business processes, publish web services and construct server cluster. The edition is available only for Linux operating system.
 
 ## Comparison table
 
@@ -62,7 +62,7 @@ Cloud edition. The platform is operated using the rented virtual machine capacit
 | Processor core |           |          | 1-6 | 1-12 | ∞ | ∞ |
 | RAM |           |          | up to12 GB | up to 24 Гб | ∞ | ∞ |
 | **Functions** |           |          |          |          |            |        |
-| Processing and visualisation | ● | ● | ● | ● | ● | ● |
+| Processing and visualization | ● | ● | ● | ● | ● | ● |
 | Batch processing |           |          | ● | ● | ● | ● |
 | Поддержка LDAP<[LDAP support](./admin/ldap.md) |           |          |          |          | ● | ● |
 | **Integration** |           |          |          |          |            |        |
