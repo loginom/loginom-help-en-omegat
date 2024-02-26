@@ -6,6 +6,6 @@ description: Компонент Python в Loginom. Горячие клавиши
 The following hotkeys are supported in the code editor:
 
 - %kbd Ctrl Space % — code completion;
-- %kbd Ctrl / % — закомментировать/раскомментировать код;
-- %kbd Shift Tab % — выполнить деиндентацию выделенного кода;
-- %kbd Tab % — ввод 4 пробелов. Если выделено более одной строки, то выполняется индентация строк выделенного кода.
+- %kbd Ctrl / % — %kbd Ctrl / % — закомментировать/раскомментировать код;
+- %kbd Shift Tab % — perform deindentation of the selected code;
+- %kbd Tab % — enter 4 spaces. If more than one string is selected, string indentation of the selected code is performed.

@@ -33,10 +33,10 @@ Selecting the process on the information panel, it is possible to call the conte
 * ![](./../images/icons/common/toolbar-controls/stop_default.svg) **Cancel** enables to cancel execution of the selected process.
 * ![](./../images/icons/common/toolbar-controls/stop-all_default.svg) **Cancel all processes...** enables to cancel execution of all processes.
 * ![](./../images/icons/common/toolbar-controls/delete_default.svg) **Remove from list** enables to remove the process from the information panel list.
-* ![](./../images/icons/common/toolbar-controls/delete-all_default.svg) **Удалить все завершенные процессы...** — удаляет все завершенные процессы из списка информационной панели;
-* ![](..\images\icons\blank.svg) **Показать узел** — выделяет выбранный узел на области построения Сценариев;
-* ![ ](..\images\icons\blank.svg) **Подробнее** — выводит на экран сообщение об ошибке передаваемое узлом;
-* ![ ](./../images/icons/ext/checkbox-states/unchecked_default.svg) **Отображать завершенные процессы** — изменяет отображение процессов на панели:
+* ![](./../images/icons/common/toolbar-controls/delete-all_default.svg) **Delete all completed processes...** enables to delete all completed processes from the information panel list.
+* ![](..\images\icons\blank.svg) **Show node** enables to show the selected node in the Workflow construction area.
+* ![ ](..\images\icons\blank.svg) **Show details** enables to display an error message delivered by a node.
+* ![ ](./../images/icons/ext/checkbox-states/unchecked_default.svg) **Show completed processes](./../images/icons/ext/checkbox-states/unchecked_default.svg) enables to change display of the processes on the panel:
    * If ![](./../images/icons/common/toolbar-controls/apply_default.svg) is available, it shows all processes, with the exception of those processes that have been removed by a user.
    * If there is no ![](./../images/icons/common/toolbar-controls/apply_default.svg), it shows only active processes and the processes in which errors occurred. If none of the processes is executed at the moment, and there were no errors in the completed processes, there will be no data on the information panel.
 

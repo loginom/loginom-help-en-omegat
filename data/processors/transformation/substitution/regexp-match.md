@@ -7,11 +7,11 @@ The regular expression is used to search for the set sequence of characters in e
 
 > **Note:** The regular expression is a template used for search for sequences of characters. It is set using the language of rules based on a subset of [regular expressions ](https://ru.wikipedia.org/wiki/%D0%A0%D0%B5%D0%B3%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%B5_%D0%B2%D1%8B%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F) Perl (Perl regular expressions, regex).
 
-Значения, не попавшие в *Таблицу замен*, обрабатываются согласно настройке параметра [Заменять остальные](./other-match.md).
+The values not included into the *Replacement table* are processed according to the configured parameter - [Replace other](./other-match.md).
 
-%spoiler%**Пример.**%spoiler%
+%spoiler%**Example.**%spoiler%
 
-| # | Артикул |
+| # | Product item |
 |:-:|:-:|
 | 1 | 0100597 |
 | 2 | 0100598 |
@@ -24,46 +24,46 @@ The regular expression is used to search for the set sequence of characters in e
 | 9 | 0102493 |
 | 10 | 0102548 |
 
-Применим к данному набору узел *Замена*, со следующими настройками:
+Let's apply the *Replace* node with the following settings to this data set:
 
-![Настройки Замена по регулярному выражению](./substitution-regexp-match-1.png)
+![Replace by regular expression settings](./substitution-regexp-match-1.png)
 
-Регулярное выражение `^0102` выделяет все записи, которые начинаются на `0102`.
+`^0102` regular expression selects all records that start from `0102`.
 
-В параметре **Заменять остальные** установим значение *Не заменять*.
+In **Replace other** parameter let's set *Do not replace* value.
 
-Получаем следующий набор данных:
+The following data set is obtained:
 
-| # | Артикул Замена | Артикул Заменен |
+| # | Product item Replace | Product item Replaced |
 |:-:|:-:|:-:|
 | 1 | 0100597 | false |
 | 2 | 0100598 | false |
-| 3 | Корректный | true |
-| 4 | Корректный | true |
-| 5 | Корректный | true |
-| 6 | Корректный | true |
-| 7 | Корректный | true |
-| 8 | Корректный | true |
-| 9 | Корректный | true |
-| 10 | Корректный | true |
+| 3 | Correct | true |
+| 4 | Correct | true |
+| 5 | Correct | true |
+| 6 | Correct | true |
+| 7 | Correct | true |
+| 8 | Correct | true |
+| 9 | Correct | true |
+| 10 | Correct | true |
 
-Поменяем теперь настройки. И в параметре **Заменять остальные** выбираем *На значение*. И в качестве значения укажем *Некорректный*.
+Now let's change the settings. In **Replace other** parameter let's select *With value*. Let's specify *Incorrect* as the value.
 
-![Настройки параметра **Заменять остальные**](./substitution-regexp-match-2.png)
+![Parameter settings**Replace other**](./substitution-regexp-match-2.png)
 
-В результате получим следующий набор данных:
+The following data set is obtained in the result:
 
-| # | Артикул Замена | Артикул Заменен |
+| # | Product item Replace | Product item Replaced |
 |:-:|:-:|:-:|
-| 1 | Некорректный | true |
-| 2 | Некорректный | true |
-| 3 | Корректный | true |
-| 4 | Корректный | true |
-| 5 | Корректный | true |
-| 6 | Корректный | true |
-| 7 | Корректный | true |
-| 8 | Корректный | true |
-| 9 | Корректный | true |
-| 10 | Корректный | true |
+| 1 | Incorrect | true |
+| 2 | Incorrect | true |
+| 3 | Correct | true |
+| 4 | Correct | true |
+| 5 | Correct | true |
+| 6 | Correct | true |
+| 7 | Correct | true |
+| 8 | Correct | true |
+| 9 | Correct | true |
+| 10 | Correct | true |
 
 %/spoiler%

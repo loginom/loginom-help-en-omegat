@@ -3,7 +3,7 @@ description: Компонент Переменные в таблицу в Logino
 ---
 # ![Variables to Table](./../../images/icons/components/variablestodata_default.svg) Variables to Table
 
-Компонент преобразовывает список переменных в таблицу. It is possible to place the values of variables in the strings or columns of the resulting table.
+The component transforms the list of variables to table. It is possible to place the values of variables in the strings or columns of the resulting table.
 
 ## Ports
 

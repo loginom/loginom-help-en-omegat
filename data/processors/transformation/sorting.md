@@ -3,7 +3,7 @@ description: Сортировка данных в Loginom. Последоват�
 ---
 # ![](./../../images/icons/components/sorting_default.svg) Sort
 
-Компонент выполняет сортировку записей входного набора. The algorithm provides serial sorting by several fields.
+The component sorts the input data set records. The algorithm provides serial sorting by several fields.
 
 The following parameters are taken into account while sorting:
 
@@ -53,6 +53,6 @@ To exclude sorting by the field, it is required to perform the following actions
 
 To clear the whole list, it is required to press ![](./../../images/icons/common/toolbar-controls/delete-all_default.svg) *Delete all...*.
 
-Внизу мастера находится чекбокс "Кэшировать все данные", по умолчанию отключен.
+"Cache all data" checkbox is located in the lower wizard part. It is disabled by default.
 
 > **Note**: Сharacters are compared and sorted according to the local settings of the user whose login is used to start Loginom.

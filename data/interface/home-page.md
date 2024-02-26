@@ -3,22 +3,22 @@ description: Элементы интерфейса начальной стран
 ---
 # "Home" Page
 
-После открытия приложения, в случае настольной редакции Loginom, или авторизации, в случае серверной редакции Loginom, появляется страница «Начало» (см. Figure 1).
+Upon the application opening, in the case of the desktop Megaladata edition, or authorization, in the case of the server Megaladata edition, the "Home" page is opened (refer to Figure 1).
 
 !["Home" page](./home-page.png)
 
 This page contains the following commands to use [packages](./../quick-start/package.md):
 
-* **Создать новый пакет** — позволяет создать и сохранить новый Пакет.
-* **Ctrl** + **Создать новый пакет** — создает новый пакет и открывает его в новой вкладке.
-* **Создать черновик** — создает временный Пакет и  позволяет работать с ним, не сохраняя его.
-* **Ctrl** + **Создать черновик** — создает черновик и открывает его в новой вкладке.
+* **New Package** enables to create and save a new Package.
+* **Ctrl** + **New package** enable to create the new package and open it in the new tab.
+* **New draft** enables to create the temporary Package and work with it without saving.
+* **Ctrl** + **New draft** enable to create the draft and open it in the new tab.
 * **Open Package** enables to open an existing Package.
-* **Ctrl** + **Открыть пакет** — открывает пакет в новой вкладке.
+* **Ctrl** + **Open package** opens the package in the new tab.
 
 "Recent opened packages" column is located below. It includes the history of opening of the Packages with the following fields:
 
-* **Имя** — файл Пакета.
+* **Name**: the Package file.
 * **Open time**: the date and time of the Package opening.
 
-> **Примечание:** можно открыть пакет из списка "Последние открытые пакеты", нажав на его имя. При нажатии **Ctrl** + *выбранный пакет* пакет открывается в новой вкладке.
+> **Note:** It is possible to open the package from the "Last opened packages" list having pressed its name. When pressing **Ctrl** + *selected package*, the package is opened in the new tab.

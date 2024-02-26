@@ -4,12 +4,12 @@ description: Основные блоки интерфейса аналитиче
 
 # Interface
 
-На рисунке 1 показаны основные блоки интерфейса:
+The main interface blocks are shown on Figure 1:
 
-![Основные блоки интерфейса](./interface-blocks.png)
+![Main interface blocks](./interface-blocks.png)
 
-1. [Главное меню](./main-menu.md) — позволяет пользователю начать/завершить работу, получить доступ к пакетам и настройкам платформы и др.
-   Состав элементов *Главного меню* может изменяться в зависимости от редакции платформы (Server/Desktop), прав пользователя, а также при работе с визуализаторами.
-2. [Адресная строка](./address-bar.md) — строка, содержащая путь к открытому объекту.
-3. Рабочее пространство — область, в которой осуществляются основные действия по построению сценария, настройке подключений, отчетов, администрированию платформы и т.п. Состав элементов, доступных команд и визуальное отображение этой области зависят от того, какая страница платформы находится в активном состоянии. На рисунке 1 показано рабочее пространство страницы [«Сценарий»](./workflow.md).
-4. [Панель «Процессы»](./processes-panel.md) — панель, содержащая подробную информацию о процессах обработки данных узлами Сценария.
+1. [Main menu](./main-menu.md) enables user to start/complete the work, gain access to packages and platform settings, etc.
+   Composition of the *Main menu* elements can be changed according to the platform edition (Server/Desktop), user rights, and also when using visualizers.
+2. [Address bar](./address-bar.md): the line that contains a path to the opened object.
+3. Working space: the area in which the main actions related to workflow construction, configuration of connections, reports, platform administration, etc. are performed. Composition of elements, available commands and visual display of this area depend on the platform page that is in active state. Working space of ["Workflow"](./workflow.md) page is shown on Figure 1.
+4. ["Processes" panel](./processes-panel.md): the panel that contains detailed information on processing of data by the Workflow nodes.

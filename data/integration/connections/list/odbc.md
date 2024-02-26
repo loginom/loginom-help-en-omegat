@@ -10,23 +10,23 @@ It is used for connection to one of the [ODBC](https://wiki.loginom.ru/articles/
 The following parameters are set during the connection setup:
 
 * **Caption** contains the connection name set by a user.
-* **Строка подключения** — строка вида `DSN | ODBC connection string`. Выбирается один из настроенных в системе источников данных или указывается строка подключения в формате установленного в системе драйвера ODBC.
+* **Connection string**: the string of `DSN | ODBC connection string` kind. It is possible to select one of the data sources configured in the system, or the connection string in the format set in the ODBC driver system is specified.
 
-> **Примечание:** В Loginom Desktop может указываться File DSN (файл с настройками подключения).
+> **Note:** File DSN (file with connection settings) can be specified in Megaladata Desktop.
 
-Список источников вызывается при клике мышью по кнопке ![ ](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg). The available ODBC data sources are listed. Настройка источников осуществляется в [администраторе источников данных ODBC Windows](https://docs.microsoft.com/ru-ru/sql/database-engine/configure-windows/open-the-odbc-data-source-administrator). Там же содержится информация об установленных в системе драйверах и можно узнать формат строки подключения.
+List of the sources is called by clicking on ![ ](../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button. The available ODBC data sources are listed. The sources are configured in [ODBC Windows data sources administrator](https://docs.microsoft.com/ru-ru/sql/database-engine/configure-windows/open-the-odbc-data-source-administrator). It also contains information on the drivers installed in the system, and it is possible to define the connection string format.
 
-> **Примечание:** Необходимо учитывать, что источники данных, заданные в разделе "Пользовательский DSN" администратора источников данных ODBC, доступны только создавшим их пользователям. Поэтому эти источники могут быть недоступны пользователю, из-под которого запускается приложение/служба Loginom. Рекомендуется создавать источники данных ODBC в разделе "Системный DSN", поскольку они доступны всем пользователям.
+> **Note:** It is required to take into account that the data sources set in "User DSN" section of ODBC data sources administrator are available only to the users that have created them. That is why these sources can be unavailable to the user who starts the Megaladata application/service. It is recommended to create the ODBC data sources in "System DSN" section because they are available to all users.
 
 
-* **Тестировать** — тест указанных настроек подключения.
+* **Test**: test of the specified connection settings.
 * **Login**: login of the DB user.
 * **Password**: password of the DB user.
-* **Показывать системные таблицы** — при установке этого флага в мастере импорта, использующего данное подключение, становятся видимы доступные пользователю системные таблицы БД (необходимо ставить при подключении к файлу Excel).
+* **Show system tables**: when selecting this checkbox in the import wizard that uses this connection, the system DB tables available to a user become visible (it is required to select when connecting to the Excel file).
 * **Quote names**: if the database objects names (for example, names of tables, fields) contain spaces or reserved characters, it is required to use framing characters fixing the name start and end.
-* **Не использовать клиент СУБД** — для подключений ODBC эта опция не используется.
+* **Do not use DBMS client**: this option is not used for the ODBC connections.
 * **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for the quick call upon the node deactivation. This parameter is disabled by default.
-* **Тайм-аут подключения (c)** — задает предельное время подключения, значение по умолчанию 20 секунд. Если импорт из базы данных или экспорт в базу данных будет выполняться в режиме игнорирования ошибок, то в случае неудавшегося подключения в течение установленного времени, соответствующая ошибка будет записана в выходной порт *Статус выполнения* узла Импорт из БД/Экспорт в БД, а при импорте/экспорте в обычном режиме — выполнение узла завершится ошибкой. Параметр активен, если поддерживается драйвером.
+* **Connection timeout (s)** sets connection time limit, the default value is 20 s. If import from database or export to database is performed in the error ignoring mode, in the case of failed connection during the set period of time corresponding error will be recorded to the *Execution status* output port of the Import from DB/Export to DB node, and when importing/exporting in the normal mode, the node execution will fail. The parameter is active if it is supported by the driver.
 * **Comment**: it is possible to provide any reference data concerning connection in this form.
 
 > **Note:** To provide connection, it is required to install the ODBC driver with the same bitness as the Loginom application/server bitness. Two ODBC data sources administrators are used in 64 bit OS - 32 bit C:\Windows\SysWOW64\odbcad32.exe and 64 bit C:\Windows\System32\odbcad32.exe.
@@ -63,7 +63,7 @@ List of the ODBC drivers for which it is recommended to use the connection strin
 * Microsoft Visual FoxPro Driver
 * Drivers for PostgreSQL
 * Drivers for Sybase/Adaptive Server Enterprise
-* Драйвера для Apache Hive
+* Drivers for Apache Hive
 
 If the driver is not listed, it is possible to set up a connection to it only by selecting already configured data source.
 

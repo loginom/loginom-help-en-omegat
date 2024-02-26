@@ -3,7 +3,7 @@ description: Компонент Дерево в таблицу в Loginom. Об�
 ---
 # ![](./../../images/icons/components/tree-to-data_default.svg) Tree to Table
 
-Компонент преобразует данные, представленные в иерархической древовидной форме, в таблицу. The selected nodes will be organized in columns of the output data set.
+The component transforms the data represented in the hierarchic tree-like form to table. The selected nodes will be organized in columns of the output data set.
 
 ### Input
 
@@ -17,7 +17,7 @@ description: Компонент Дерево в таблицу в Loginom. Об�
 
 ### Configuration of the Input Data Set
 
-Данные во входном порте узла представлены в виде входного и выходного наборов.
+Data in the input node port  is represented in the form of the input and output data sets.
 
 The Input Tree list displays fields of the data set accepted by the port. It is required to map them with fields of the data set supplied by the port for processing - Output Tree (refer to [Ports](./../../workflow/ports/README.md)).
 
@@ -25,7 +25,7 @@ It is possible to set the structure of the set supplied for processing in the ma
 
 #### Manual Setting of the Nodes Structure
 
-При ручном формировании структуры набора, который впоследствии будет подан на обработку, используются команды панели инструментов или контекстного меню.
+In the case of the manual structuring of the data set to be subsequently supplied for processing, the context menu or toolbar commands are used.
 
 The toolbar and context menu of the Input Tree list contains the following commands:
 
@@ -33,7 +33,7 @@ The toolbar and context menu of the Input Tree list contains the following comma
 * ![](./../../images/icons/common/toolbar-controls/uncheck-all_default.svg) **Deselect all** enables to deselect all nodes.
 * ![](./../../images/icons/common/toolbar-controls/reverse-check_default.svg) **Invert selection** enables to invert the selected nodes to unselected and vice versa.
 
-Для списка Выходное дерево на панели инструментов и в контекстном меню доступны команды:
+The following commands are available for the Output tree list on the toolbar and in the context menu:
 
 * ![](./../../images/icons/wizards/datatree/add-child_default.svg) **Add child node** enables to add the child node to the root node.
 * ![](./../../images/icons/wizards/datatree/add-neighbor_default.svg) **Add neighboring node** enables to create the node of the same hierarchic level as provided for the selected one.
@@ -86,7 +86,7 @@ It is possible to delete the links between nodes as follows:
 
 ### Selection of the Tree Nodes
 
-Мастер настройки узла представляет собой отображение дерева (дерево, поданное на выход входного порта) с возможностью выбора некоторых или всех узлов. The selected nodes will be organized in columns of the output data set.
+The node wizard is a tree view (the tree passed to output of the input port) with possibility to select some or all nodes. The selected nodes will be organized in columns of the output data set.
 
 Available actions are represented in the form of the toolbar buttons and in the context menu:
 
@@ -94,7 +94,7 @@ Available actions are represented in the form of the toolbar buttons and in the 
 * ![](./../../images/icons/common/toolbar-controls/uncheck-all_default.svg) **Deselect all** enables to deselect all nodes.
 * ![](./../../images/icons/common/toolbar-controls/reverse-check_default.svg) **Invert selection** enables to invert the selected nodes to unselected and vice versa.
 
-Пометить выделенный узел можно нажав клавишу *Enter*, повторное нажатие *Enter* снимает выделение.
+It is possible to check the selected node by pressing *Enter*. Pressing *Enter* repeatedly allows for deselection.
 
 Logics of Nodes Selection:
 

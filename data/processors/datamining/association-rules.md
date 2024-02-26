@@ -5,18 +5,18 @@ description: Компонент Ассоциативные правила в Log
 
 ## Description
 
-Компонент выявляет [ассоциативные правила](https://wiki.loginom.ru/articles/association-rules.html) в [транзакционных данных](https://wiki.loginom.ru/articles/transaction.html). To provide an example of such rule, it is observed that a consumer who buys "Bread" (*condition of rule*), will buy "Milk" as well (*consequence of rule*) with a probability of 75%. The transaction specified in this example is a sales check that contains a list of acquired goods, and each item of goods in the check is a transaction item. The [FP-Growth](https://loginom.ru/blog/fpg) algorithm is used when searching for association rules.
+The component detects [association rules](https://wiki.loginom.ru/articles/association-rules.html) in the [transaction data](https://wiki.loginom.ru/articles/transaction.html). To provide an example of such rule, it is observed that a consumer who buys "Bread" (*condition of rule*), will buy "Milk" as well (*consequence of rule*) with a probability of 75%. The transaction specified in this example is a sales check that contains a list of acquired goods, and each item of goods in the check is a transaction item. The [FP-Growth](https://loginom.ru/blog/fpg) algorithm is used when searching for association rules.
 
-Alongside with analysis of the main transaction data, it is possible to take into account the supplementary one. For example, if the check is a transaction, and items are goods, the following data can be used as the supplementary one: sex of consumer, age, region, season, etc. Actually, the supplementary data is considered by the algorithm as one more transaction item, and its "supplementary" context is used only when dealing with analytical tasks. Поскольку вспомогательные данные чаще представляются в источниках данных как дополнительные атрибуты транзакций, узел имеет отдельный вход для их приема.
+Alongside with analysis of the main transaction data, it is possible to take into account the supplementary one. For example, if the check is a transaction, and items are goods, the following data can be used as the supplementary one: sex of consumer, age, region, season, etc. Actually, the supplementary data is considered by the algorithm as one more transaction item, and its "supplementary" context is used only when dealing with analytical tasks. As the supplementary data is more frequently represented in the data sources as additional transaction attributes, the node has a separate input to receive it.
 
-Для получения результирующих наборов требуется предварительное [обучение узла](./../../workflow/training-processors.md).
+To get resulting data sets, it is required to provide preliminary [node training](./../../workflow/training-processors.md).
 
 ### Input
 
 * ![ ](./../../images/icons/app/node/ports/inputs-optional/table_inactive.svg) — **Input data source** (data table). Optional.<br>
    The port waits for the data set with identifier columns and transaction items.
 * ![ ](./../../images/icons/app/node/ports/inputs-optional/table_inactive.svg) — **Supplementary data** (data table). Optional.<br>
-   It accepts supplementary transaction items that can be taken into account when calculating association rules.
+   It takes supplementary transaction items that can be taken into account when calculating association rules.
 
 #### Requirements to the Received Data
 

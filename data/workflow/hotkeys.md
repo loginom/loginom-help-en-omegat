@@ -1,20 +1,20 @@
 ---
 description: Быстрые клавиши для работы со сценарием.
 ---
-# Горячие клавиши
+# Hotkeys
 
-При проектировании сценария поддерживаются следующие горячие клавиши:
+The following hotkeys are supported when designing the workflow:
 
-* %kbd Ctrl X % — вырезать выделенное;
-* %kbd Ctrl С % — скопировать выделенное;
-* %kbd Ctrl V % — вставить содержимое буфера обмена (вставка происходит в текущих координатах курсора мыши);
-* %kbd Ctrl A % — выделить все узлы сценария;
-* %kbd Del % — удалить выделенное;
-* %kbd F2 % — переименовать узел;
-* %kbd F3 % — открыть быстрый просмотр выходных данных;
-* %kbd F9 % — запустить выбранный узел на выполнение;
-* %kbd Shiht Enter % — войти в настройку узла;
-* %kbd Enter % — войти в подмодель;
-* %kbd Ctrl Enter % — войти в подмодель и открыть в новом окне;
-* %kbd Backspace % — выйти из подмодели;
-* %kbd Ctrl Backspace % — выйти из подмодели и открыть в новом окне.
+* %kbd Ctrl X % — cut selected;
+* %kbd Ctrl С % — copy selected;
+* %kbd Ctrl V % — paste clipboard contents (pasting is performed in the current mouse cursor coordinates);
+* %kbd Ctrl A % — select all workflow nodes;
+* %kbd Del % — delete selected;
+* %kbd F2 % — rename node;
+* %kbd F3 % — open quick view of the output data;
+* %kbd F9 % — start execution of the selected node;
+* %kbd Shiht Enter % — move into the node configuration;
+* %kbd Enter % — move into the supernode;
+* %kbd Ctrl Enter % — move into the supernode and open in the new window;
+* %kbd Backspace % — move out;
+* %kbd Ctrl Backspace % — move out and open in the new window.

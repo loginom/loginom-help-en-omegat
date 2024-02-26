@@ -4,7 +4,7 @@ description: Дополнение данных в Loginom. Аналог Лево
 
 # ![Enrich Data](./../../images/icons/components/enrich-data_default.svg) Enrich Data
 
-Join of the data tables based on connection by the key fields — analogue of the `LEFT JOIN` operation in SQL. Узел выполняет действие аналогичное [Левому соединению](./join/left.md) узла [Слияние](./join/README.md), но количество присоединяемых таблиц произвольно.
+Join of the data tables based on connection by the key fields — analogue of the `LEFT JOIN` operation in SQL. The node performs the action similar to the [Left join](./join/left.md) of the [Join](./join/README.md) node but the number of joined tables is optional.
 
 ## Ports
 

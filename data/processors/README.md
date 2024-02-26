@@ -17,7 +17,7 @@ The workflow **node** performs a separate operation with data. A list of possibl
 
 The workflow nodes are created from 2 types of components :
 
-* [Стандартные компоненты](./standard-components.md) - предоставляются в рамках платформы;
+* [Standard components](./standard-components.md) are provided within the platform.
 * [Derived components](./../workflow/derived-component.md) are created and configured by a user. The derived component can be created from combination of the workflow nodes implementing the random processing logics.
 
 Thus, a set of tools for implementation of different data processing logics is not limited by standard platform components, and it can be expanded by users.
@@ -26,6 +26,6 @@ The [supernode](./control/supernode.md) is most commonly used to create the deri
 
 The supernode accepts information by means of input ports, performs processing and sends results to output ports. Input and output ports are set by a user.
 
-От узла к узлу могут передаваться как наборы данных - таблицы, так и переменные - объекты, содержащие лишь одно значение. Статистические данные таблиц (например, сумма по столбцу, среднее значение и т.д.) при помощи специального компонента могут быть преобразованы в переменные.
+Tables and variables - objects that contain only one value can be transferred from node to node as data sets. The statistical table data (for example, column sum, average value, etc.) can be transformed to variables using the special component.
 
-Переменные, в свою очередь, могут применяться в узлах для преобразования таблиц. As tables and variables have different structure, the ports corresponding to them cannot be connected with each other, and they are differently identified.
+In their turn, variables can be applied in nodes to transform tables. As tables and variables have different structure, the ports corresponding to them cannot be connected with each other, and they are differently identified.

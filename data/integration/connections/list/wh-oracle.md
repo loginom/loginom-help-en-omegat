@@ -12,16 +12,16 @@ It is possible to provide connection both via DBMS client, and the internal Logi
 The following parameters are set during the connection setup:
 
 * **Caption** contains the connection name set by a user.
-* **Строка подключения** — строка, используемая драйвером для подключения к базе данных. The string connection format is defined by the used driver (refer to параметр *Не использовать клиент СУБД*):
-   * **При использовании встроенного драйвера:** `host[:port]/ServiceName | host:port:SID` (параметр в [ ] является опциональным; формат строки может быть задан в одном из двух вариантов, между вариантами используется | ):
-      * `host` — хост сервера СУБД;
-      * `port` — порт TCP, используемый сервером СУБД для взаимодействия с клиентом;
-      * `ServiceName` — имя службы;
-      * `SID` — Oracle Database Instance (SID), содержащий необходимые данные.
+* **Connection string**: this string is used by the driver for database connection. The string connection format is defined by the used driver (refer to *Do not use DBMS client* parameter):
+   * **When the inbox driver is used:** `host[:port]/ServiceName | host:port:SID` (parameter in [ ] is optional; the string format can be set as one of two options, | is used between options):
+      * `host`: the DBMS server host.
+      * `port`: the TCP port used by the DBMS server to provide interaction with the client.
+      * `ServiceName`: service name.
+      * `SID`: Oracle Database Instance (SID) that contains the required data.
 
-   * **При использовании клиента СУБД:** `net_service_name` — хост сервера СУБД, как указано в конфигурационном файле tnsnames.ora сервера Oracle.
+   * **When DBMS client is used:** `net_service_name`: DBMS server host as it is specified in tnsnames.ora configuration file of the Oracle server.
 
-* **Тестировать** — проверка возможности подключения при заданных настройках.
+* **Test**: connectivity test with the specified settings.
 * **Login**: login of the DB user.
 * **Password**: password of the DB user.
 
@@ -32,15 +32,15 @@ The following parameters are set during the connection setup:
    * **Do not use DBMS client**: if this option is used, the alternative inbox driver built into the platform is used for connection to DBMS.
    * **Clear pool when deactivated** enables to clear the pool of the Loginom Integrator packages frequently used in the batch processing saved for the quick call upon the node deactivation. This parameter is disabled by default.
 
-* **Параметры хранилища данных**:
+* **Data warehouse parameters**:
 
-   * **Имя схемы в базе данных** — имя схемы, в которой находятся метаданные и данные ХД.
+   * **Schema name in database**: name of the schema in which metadata and DW data are kept.
 
-      > **Примечание:** Если имя схемы содержит символы `"`, `[` `]`, могут выдаваться сообщения об ошибках.
+      > **Note:** If schema name contains `"`, `[` `]` characters, error messages can be displayed.
 
-* **Комментарий** — в этом поле можно оставить любую справочную информацию о подключении.
+* **Comment**: It is possible to provide any reference connection data in this field.
 
-> **Примечание:** Если используется клиент СУБД, то он должен быть той же разрядности, что и разрядность приложения/сервера Loginom.
+> **Note:** If DBMS client is used, it must be with the same bitness as the Megaladata application/server bitness.
 
 ## Compatibility
 
@@ -50,5 +50,5 @@ Starting from Oracle Database 9i and higher.
 
 **See also:**
 
-* [Информация по Oracle Database в русском разделе википедии](https://ru.wikipedia.org/wiki/Oracle_Database).
+* [Information on Oracle Database in the Russian section in Wikipedia](https://ru.wikipedia.org/wiki/Oracle_Database).
 * [Official website of the Oracle Database manufacturer](https://www.oracle.com/database).

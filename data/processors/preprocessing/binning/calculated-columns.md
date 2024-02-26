@@ -3,7 +3,7 @@ description: Компонент Квантование в Loginom. Структ�
 ---
 # Resulting Data Set Structure
 
-Результирующий набор состоит из столбцов исходного набора данных и столбцов, рассчитанных узлом, их описание приведено в таблице:
+The resulting data set consists of the source data set columns and the columns calculated by the node. They are described in the table:
 
 |Column name|Description|
 |:-|:-|

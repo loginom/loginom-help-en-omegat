@@ -3,21 +3,21 @@ description: Пошаговая инструкция по созданию пе�
 ---
 # The First Workflow
 
-В вариантах поставки [Enterprise](https://loginom.ru/platform/pricing#edition-enterprise), [Standard](https://loginom.ru/platform/pricing#edition-standard) и [Team](https://loginom.ru/platform/pricing#edition-team) перед началом работы необходимо авторизоваться. Для этого нужно пройти процедуру аутентификации (ввести логин и пароль) одним из доступных способов, которые подробно описаны в статье [Аутентификация в Loginom](./authentication.md).
+It is required to log in before work in case of the supplied [Enterprise](https://loginom.ru/platform/pricing#edition-enterprise), [Standard](https://loginom.ru/platform/pricing#edition-standard) and [Team](https://loginom.ru/platform/pricing#edition-team) editions. For this purpose, it is required to pass the authentication procedure (to enter login and password) using one of the available methods described in detail in the following article: [Authentication in Megaladata](./authentication.md).
 
-В вариантах [Personal](https://loginom.ru/platform/pricing#edition-personal) и [Community](https://loginom.ru/platform/pricing#edition-personal) авторизация отсутствует.
+There is no authorization for the [Personal](https://loginom.ru/platform/pricing#edition-personal) and [Community](https://loginom.ru/platform/pricing#edition-personal) editions.
 
-После авторизации (или после запуска приложения, в случае использования настольной редакции) открывается страница [«Начало»](./../interface/home-page.md), на которой можно выполнять следующие операции с пакетами:
+After authorization (or after the application start when the desktop edition is used), [«Home»](./../interface/home-page.md) page is opened. It enables to perform the following operations with packages:
 
 * **New package** — creation of the new package. You will be asked to show the path to save the package.
 * **New Draft** — creation of the new package without preliminary saving. It is possible to save the package only during the process of work with it.
 * **Open Package** — opening of the earlier created package.
 
-> **Важно:**  по умолчанию автосохранение пакетов не выполняется, при закрытии окна программы (вкладки браузера) все изменения будут утеряны. Включить автосохранение можно в настройках, более подробную информацию можно найти на странице [«Пакеты»](https://help.loginom.ru/userguide/interface/packages.html).
+> **Important:** By default, packages are not auto saved. When closing the software window (browser tab), all changes will be lost. The auto save option can be enabled in the settings. More detailed information is provided on the ["Packages"](https://help.loginom.ru/userguide/interface/packages.html) page.
 
-После создания нового пакета/черновика пользователь попадает на страницу [«Сценарий»](./../interface/workflow.md), на которой увидит панель Компоненты (1), содержащую стандартные компоненты предоставляемые платформой, и область построения сценария (2), в которую перетаскиваются (добавляются) компоненты для построения сценария (см. Figure 1):
+Upon creation of the new package/draft, a user will be forwarded to the ["Workflow"](./../interface/workflow.md) page with the Components (1) panel that contains standard components provided by the platform and area of workflow construction (2) to which the components for workflow construction are dragged (added) (refer to Figure 1):
 
-![Страница «Сценарий» ](./first-scenario-2.png)
+!["Workflow" Page](./first-scenario-2.png)
 
 In the simplest case the workflow will import the data from the external sources, or it will transform them and export (send to report).
 Let's create a simple workflow that will form TOP10 list of the best clients.
@@ -52,7 +52,7 @@ The export node is added to the resulting workflow, and/or the [Visualizer](./..
 
 ![Resulting Workflow](./first-scenario-6.png)
 
-The block of the nodes forming TOP 10 list of clients can be grouped as a separate function by placing them into the [Supernode](./../processors/control/supernode.md). Для этого необходимо выделить эти узлы и при помощи кнопки ![](./../images/icons/common/toolbar-controls/compose-generic-model_default.svg) создать подмодель (см. рисунок 6-7).
+The block of the nodes forming TOP 10 list of clients can be grouped as a separate function by placing them into the [Supernode](./../processors/control/supernode.md). For this purpose, it is required to select these nodes and using ![](./../images/icons/common/toolbar-controls/compose-generic-model_default.svg) button create a supernode (refer to Figure 6-7).
 
 ![Selection of the Block of Nodes](./first-scenario-7.png)
 
@@ -60,6 +60,6 @@ The block of the nodes forming TOP 10 list of clients can be grouped as a separa
 
 Later on, the supernode executing the function set by a user can be published as a derived component and frequently used in other workflows along with standard components. Principles of creation of the solutions based on own components are analysed in the [Design of Workflows](./../workflow/README.md) article.
 
-The package must be *saved* before its closure. It can be done in the Package menu (refer to рисунок 8).
+The package must be *saved* before its closure. It can be done in the Package menu (refer to Figure 8).
 
 ![Save Package](./first-scenario-9.png)

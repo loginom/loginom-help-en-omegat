@@ -3,7 +3,7 @@ description: Компонент Python в Loginom. Доступ к входны�
 ---
 # ![](./../../../images/icons/components/python_default.svg) Access to the Input Variables
 
-Для доступа к входным переменным используется объект типа `InputVariables`.
+For access to the input variables, the `InputVariables` object is used.
 
 ## InputVariables Properties
 
@@ -11,7 +11,7 @@ description: Компонент Python в Loginom. Доступ к входны�
 
 **Items**
 
-It contains read-only collection of the input variables of the node. Элементы коллекции имеют тип `VariableClass` (см. [Full API Description](./api-description.md)).
+It contains read-only collection of the input variables of the node. The collection elements have the  `VariableClass` type (refer to [Full API Description](./api-description.md)).
 
 %/spoiler%
 
@@ -19,7 +19,7 @@ It contains read-only collection of the input variables of the node. Элеме�
 
 **Count**
 
-It contains read-only count of the input node variables.  Возвращает значение типа `int`.
+It contains read-only count of the input node variables.  It returns the value of the `int` type.
 
 %/spoiler%
 
@@ -29,30 +29,30 @@ It contains read-only count of the input node variables.  Возвращает �
 from builtin_data import InputVariables
 import numpy as np
 
-#Перебор входных переменных и вывод в консоль значений их свойств:
+#Iterating over the input variables and outputting the values of their properties to the console:
 for i in range(InputVariables.Count):
-    #Обращение к переменной по индексу
+    #Access to the variable by index
     variable = InputVariables.Items[i]
     print("Index: ", variable.Index)
     print("Name: ", variable.Name)
     print("DisplayName: ", variable.DisplayName)
     print("DataType: ", variable.DataType, "\n")
     
-#Перебор входных переменных с использованием итератора
+#Iterating over the input variables by means of iterator
 for variable in InputVariables.Items:
     print(variable.Name, "=", variable.Value)
     
-#Получение из объекта Items массива переменных
+#Getting the variables array from the Items object
 arrayOfvariables = np.array(InputVariables.Items)
 for variable in arrayOfvariables:
     print(variable.Name, "=", variable.Value)
 
-#Обращение к переменной по имени и индексу
+#Access to the variable by name and index
 print(InputVariables.Items["VAR0"].Value)
 print(InputVariables.Items[1].Value)
 
-#Проверка существования переменной "MyVar"
+# Check for existence of "MyVar" variable
 if 'MyVar' in (var.Name for var in InputVariables.Items):
-    print("Переменная существует")
+    print("The variable existsт")
 
 ```

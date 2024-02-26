@@ -3,7 +3,7 @@ description: Соединение данных в Loginom. Создание св
 ---
 # ![](./../../images/icons/components/coluniondata_default.svg) Column Union
 
-С помощью компонента *Соединение* исходный набор данных дополняется полями присоединяемых наборов. In this case, each record of the source data set is joined with the record of the additional data set with the same order number.
+The source data set is appended with the fields of the joined data sets by means of the *Column Union* component. In this case, each record of the source data set is joined with the record of the additional data set with the same order number.
 
 If the joined data sets have different number of records, the resulting data set can contain null values. The wizard enables to use different processing options in this situation. The joined data sets can be cut up to the number of records of the smaller data set, or they can be appended up to the largest one.
 

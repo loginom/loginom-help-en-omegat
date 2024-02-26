@@ -21,44 +21,44 @@ The wizard contains several configuration stages.
 
 The following parameters are specified at the first configuration stage:
 
-* **Имя файла/URL** — путь к файлу, содержащему необходимые данные. Также в имени файла можно задавать URL-ссылку для скачивания.
-* **Кодовая страница** — кодировка, в которой хранится текст в файле.
-* **Заголовок в первой строке** — флаг, определяющий, что метки полей создаваемого набора данных содержатся в первой строке импортируемого текста.
+* **File name/URL**: the path to the file containing the required data. It is also possible to set URL reference for downloading in the file name.
+* **Codepage**: the encoding used for storage of text in a file.
+* **First line title**: the checkbox that enables to determine that captions of the fields of the created data set are present in the first line of the imported text.
 * **Skip rows**: count of the rows from the text beginning that cannot be imported.
 
 ### Step 2. Configure Import Formats
 
-**Определить автоматически** — автоматически определяются все разделители и рассчитывается структура полей.
+**Auto determine**: all separators are auto determined, and field structure is calculated.
 
 It is required to specify the following parameters at the configuration stage:
 
 * **Column delimiter**: the character separating data of adjacent columns.
 
-> **Примечание:** Есть несколько стандартных разделителей: `tab`, `,`, `;`. Если есть `tab` или `;`, используется тот, который чаще встречается, иначе приоритет отдаётся `,`. Также присутствует возможность задать разделитель вручную, для этого необходимо в строке заменить предложенный в форме ввода текст на нужный разделитель. Если названных разделителей нет, то делается попытка разделить по пробелам.
+> **Note:** There are several standard delimiters: `tab`, `,`, `;`. If there is `tab` or `;`, it is required to use the one that occurs more frequently, otherwise the priority is given to `,`. It is also possible to set the delimiter manually. For this purpose, it is required to replace the text provided in the entry form in the string with the required delimiter. If there are no named delimiters, an attempt is made to divide by spaces.
 
-* **Считать последовательные разделители одним** — установка флага позволит принимать несколько подряд идущих разделителей столбцов за один.
+* **Consider consecutive delimiters as one**: selected checkbox enables to consider several consecutive column delimiters as one.
 * **Text qualifier**: the character that frames cell values of the downloaded data set. The text following this character and preceding its subsequent occurrence is imported as one value even if the text contains a separating character.
 * **Null**: the text that represents the *Null* value.
-* **Переменный тип** — установка флага определяет поля, содержащие в себе записи с различными типами данных, как [Переменный тип](./../../data/datatype.md). При неактивном флаге таким полям присваивается [Строковый тип](./../../data/datatype.md).
+* **Variable type**: the selected checkbox defines the fields that contain records with different data types as [Variable type](./../../data/datatype.md). [String type](./../../data/datatype.md) is assigned to such fields when the checkbox is not active.
 * **Decimal separator**: the character that separates fractional and integer parts of numeric expressions.
 * **Date format**: the parameter enables to set the date format used in the imported text.
 * **Date separator**: the character that separates date components.
 * **Time separator**: the character that separates time components.
 
-> **Примечание:** Распознавание чисел и даты происходит так: выбирается первый строковый столбец, который преобразуется в нужный тип (целый, вещественный, дата/время). Разделитель, распознанный в этом столбце, будет применяться в остальной таблице.
+> **Note:** Digits and dates are recognized as follows: the first string column that is transformed to the required type is selected (integer, real, date/time). The delimiter recognized in this column will be used in the remaining table part.
 
 * **True**: the text that represents the logical *True* value.
 * **False**: the text that represents the logical *False* value.
 
 The table part of the wizard window is designated for configuration of import parameters for each data set field.
 
-* ![Обновить все](./../../images/icons/common/toolbar-controls/refresh_default.svg) **Обновить все** — рассчитывает все имена, метки, типы и виды данных полей.
-* ![Определить типы данных](./../../images/icons/common/toolbar-controls/refresh-data_default.svg) **Определить типы данных** — рассчитывает заново только типы и виды данных.
+* ![Refresh all](./../../images/icons/common/toolbar-controls/refresh_default.svg) **Refresh all** calculates all names, captions, types and kinds of field data.
+* ![Define data types](./../../images/icons/common/toolbar-controls/refresh-data_default.svg) **Define data types** calculates only types and kinds of data once again.
 * **Row count for analysis** enables to set row count of a data set used for data type analysis. The maximum row count to be displayed is 200.
 * **Raw data**: the source (text) version of downloaded data will be displayed in the table wizard part.
 * **Result**: result of data transformation will be displayed in the table wizard part, taking into account the set parameters of fields.
-* ![Развернуть](./../../images/icons/common/toolbar-controls/maximize_default.svg)**Развернуть** — разворачивает табличную часть мастера настроек.
-* ![Свернуть](./../../images/icons/common/toolbar-controls/minimize_default.svg)**Свернуть** — сворачивает табличную часть мастера настроек.
+* ![Expand](./../../images/icons/common/toolbar-controls/maximize_default.svg)**Expand** expands the table part of wizard.
+* ![Collapse](./../../images/icons/common/toolbar-controls/minimize_default.svg)**Collapse** collapses the table part of wizard.
 
 The following settings are used to generate the resulting data set in the manual way:
 
@@ -71,13 +71,13 @@ The following settings are used to generate the resulting data set in the manual
    * Undefined
 * **Use**: checkbox of the field inclusion into the resulting data set.
 
-### Автоматическое определение структуры таблицы
+### Auto determination of table structure
 
-Свойства таблицы, которые могут быть определены автоматически:
+Table properties that can be automatically determined:
 
-* **Заголовок в первой строке**,
-* **Ограничитель строк**,
-* **Десятичный разделитель**,
-* **Разделитель даты**,
-* **Разделитель времени**,
-* **Формат даты**.
+* **First line title**,
+* **Text qualifier**,
+* **Decimal separator**,
+* **Date separator**,
+* **Time separator**,
+* **Date format**.

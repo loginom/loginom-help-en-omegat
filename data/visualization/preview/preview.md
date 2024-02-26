@@ -3,9 +3,9 @@ description: Работа предпросмотра в Loginom. Руковод�
 ---
 # Preview
 
-It provides the limited amount of data (not more than 100 first rows of possible resulting data set) for information purposes in the form of the flat two-dimensional table. Filtration, change of data view format and search are not available. Вещественные числа (с плавающей точкой) отображаются с двумя знаками после десятичного разделителя, данные в формате Дата/время отображаются без указания секунд (при этом сокращенный формат представления вещественных чисел и данных в формате Дата/время используется только для визуализации).
+It provides the limited amount of data (not more than 100 first rows of possible resulting data set) for information purposes in the form of the flat two-dimensional table. Filtration, change of data view format and search are not available. Real numbers (with floating point) are displayed with two places after decimal separator. The data in the Date/time format is displayed without seconds (in this case, the abbreviated format of the real numbers and data representation in the Date/time format is used only for the visualization purposes).
 
-Доступен в мастерах [Импорт из базы данных](./../../integration/import/database.md), [Импорт из 1С](./../../integration/import/1c-db.md), [JavaScript](./../../processors/programming/java-script/README.md), [Python](./../../processors/programming/python/README.md). При нажатии на кнопку *Предпросмотр* активируются все входные порты, кроме непосредственно соединенных с текущим узлом *Подключений*. This window is opened when the activation is successfully finished.
+It is available in [Import from database](./../../integration/import/database.md), [Import from 1С](./../../integration/import/1c-db.md), [JavaScript](./../../processors/programming/java-script/README.md), [Python](./../../processors/programming/python/README.md) wizards. When pressing *Preview* button, it is possible to activate all input ports, with the exception of the *Connections* connected with the current node. This window is opened when the activation is successfully finished.
 
 When the cursor is hovered over the field caption, ![ ](./../../images/icons/common/toolbar-controls/down_default.svg) button with the additional functions will appear:
 
@@ -17,8 +17,8 @@ It is possible to move the fields relative to each other, and it is also possibl
 
 Field settings are reset when closing the window.
 
-В *Предпросмотре* узла *JavaScript* есть возможность контролировать работу скрипта в ![консоль](./../../images/icons/components/javascript/console.svg) [Консоли отладки кода](./../../processors/programming/java-script/console.md).
+In *Preview* of the *JavaScript* node it is possible to control the script operation in ![console](./../../images/icons/components/javascript/console.svg) of [Code debugging console](./../../processors/programming/java-script/console.md).
 
-В *Предпросмотре* узла *Python* для отображения сообщений *стандартного вывода* (`sys.stdout`) и *стандартного вывода ошибок* (`sys.stderr`) доступна панель ![консоль](./../../images/icons/components/javascript/console.svg) [Вывод](./../../processors/programming/python/console.md).
+In *Preview* of the *Python* node to display messages of *standard display* (`sys.stdout`) and *standard display of errors* (`sys.stderr`), ![console](./../../images/icons/components/javascript/console.svg) [Output](./../../processors/programming/python/console.md) panel is available.
 
-Закрыть *Предпросмотр* узлов *JavaScript* и *Python* можно кнопкой *X*, в узле *Импорт из базы данных* также доступна кнопка *Закрыть*.
+It is possible to close *Preview* of *JavaScript* and *Python* nodes using *X* button, in *Import from database* node, *Close* button is also available.

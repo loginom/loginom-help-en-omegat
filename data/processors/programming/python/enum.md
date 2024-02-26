@@ -1,17 +1,17 @@
 ---
 description: Компонент Python в Loginom. Перечисления. Типы данных Loginom. Виды данных Loginom. Назначение полей Loginom. Примеры использования.
 ---
-# ![](./../../../images/icons/components/python_default.svg) Перечисления
+# ![](./../../../images/icons/components/python_default.svg) Enumerations
 
-В контекст выполнения Python встроены перечисления, описывающие метаданные полей и переменных.
+The enumerations that describe metadata of fields and variables are built into the Python execution context.
 
 ## Description of Enumerations
 
 ### DataType
 
-Представляет [типы данных Loginom](./../../../data/datatype.md). Enumeration items:
+It provides the [Megaladata data types](./../../../data/datatype.md). Enumeration items:
 
-| Name | Value | Представляемый тип данных |
+| Name | Value | Represented type of data |
 | :-------- | :------  | :------ |
 | None | 0 | ![](./../../../images/icons/common/usage-types/unspecified_default.svg) No data type specified |
 | Boolean | 1 | ![](./../../../images/icons/common/data-types/boolean_default.svg) Logical |
@@ -23,9 +23,9 @@ description: Компонент Python в Loginom. Перечисления. Т�
 
 ### DataKind
 
-Представляет [виды данных Loginom](./../../../data/datakind.md). Enumeration items:
+It provides the [Megaladata data kinds](./../../../data/datakind.md). Enumeration items:
 
-| Name | Value | Представляемый вид данных |
+| Name | Value | Represented data kind |
 | :-------- | :------  | :------ |
 | Undefined | 0 | ![](./../../../images/icons/common/usage-types/unspecified_default.svg) No data kind defined |
 | Continuous | 1 | ![](./../../../images/icons/common/data-types/continuous_default.svg) Continuous |
@@ -33,15 +33,15 @@ description: Компонент Python в Loginom. Перечисления. Т�
 
 ### UsageType
 
-Представляет [назначение полей Loginom](./../../../data/datasetfieldfeatures.md). Enumeration items:
+It provides the [Megaladata fields usage type](./../../../data/datasetfieldfeatures.md). Enumeration items:
 
-| Name | Value | Представляемое назначение поля |
+| Name | Value | Represented field usage type |
 | :-------- | :------  | :------ |
 | Unspecified | 0 | ![](./../../../images/icons/common/usage-types/unspecified_default.svg) No usage type specified |
 | Excluded | 1 | ![](./../../../images/icons/common/usage-types/unused_default.svg) Excluded |
 | Useless | 2 | ![](./../../../images/icons/common/usage-types/useless_default.svg) Useless |
-| Active (синонимы: Used, Input) | 3 | ![](./../../../images/icons/common/usage-types/active_default.svg) Active |
-| Predicted (синоним: Output) | 4 | ![](./../../../images/icons/common/usage-types/predicted_default.svg) Predicted |
+| Active (synonyms: Used, Input) | 3 | ![](./../../../images/icons/common/usage-types/active_default.svg) Active |
+| Predicted (synonym: Output) | 4 | ![](./../../../images/icons/common/usage-types/predicted_default.svg) Predicted |
 | Key | 5 | ![](./../../../images/icons/common/usage-types/source_default.svg) Key |
 | Group | 6 | ![](./../../../images/icons/common/usage-types/group_default.svg) Group |
 | Value | 7 | ![](./../../../images/icons/common/usage-types/value_default.svg) Value |
@@ -54,12 +54,12 @@ description: Компонент Python в Loginom. Перечисления. Т�
 from builtin_data import OutputTable, DataType, UsageType
 
 col0 = OutputTable.Columns[0]
-#Проверка значения свойства с типом "перечисление"
+#Assertion of the property value with the "enumeration" type
 if (col0.DataType == DataType.String):
-    print("Столбец {} имеет строковый тип данных".format(col0.Name))
+    print("Column {} has string data type".format(col0.Name))
     
-#Вывод числового представления значения перечисления
+#Displaying of the numeric representation of the enumeration value
 print(col0.DefaultUsageType)
-#Вывод строкового представления значения перечисления
+#Displaying of the string representation of the enumeration value
 print(UsageType(col0.DefaultUsageType).name)
 ```

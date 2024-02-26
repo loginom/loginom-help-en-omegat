@@ -3,7 +3,7 @@ description: Компонент Python в Loginom. Доступ к выходн�
 ---
 # ![](./../../../images/icons/components/python_default.svg) Access to the Output Data Set
 
-Для доступа к данным выходного порта используется объект типа `OutputTable`.
+For access to the output port data, the `OutputTable` object is used.
 
 ## OutputTable Properties
 
@@ -11,7 +11,7 @@ description: Компонент Python в Loginom. Доступ к выходн�
 
 **Columns**
 
-Содержит доступную для чтения итерируемую коллекцию столбцов. Реализует протоколы *Mapping* и *Sequence*.  Возвращает значение типа `ColumnsClass`. Доступ к элементам может осуществляться через скобочную нотацию [] по именам и по индексам. При установке флага *Разрешить формировать выходные столбцы из кода* элементы коллекции имеют тип `ConfigurableOutputColumnClass`, иначе — `OutputColumnClass`. Оба этих типа унаследованны от `ColumnClass`, и реализуют протокол *Sequence* (см. [Полное описание API](./api-description.md)).
+It contains read-only iterated collection of columns. It implements *Mapping* and *Sequence* protocols.  It returns the value of the `ColumnsClass` type. Access to the elements can be provided by means of [] parenthetic notation by names and indexes. When selecting *Allow creating output columns in script* checkbox, the collection elements have the `ConfigurableOutputColumnClass` type, otherwise — `OutputColumnClass`. Both types are inherited from `ColumnClass` and they implement the *Sequence* protocol (refer to [Full API Description](./api-description.md)).
 
 %/spoiler%
 
@@ -19,7 +19,7 @@ description: Компонент Python в Loginom. Доступ к выходн�
 
 **ColumnCount**
 
-It contains read-only count of columns of the output data set.  Возвращает значение типа `int`.
+It contains read-only count of columns of the output data set.  It returns the value of the `int` type.
 
 %/spoiler%
 
@@ -27,7 +27,7 @@ It contains read-only count of columns of the output data set.  Возвраща
 
 **RowCount**
 
-It contains read-only count of rows of the output data set.  Возвращает значение типа `int`.
+It contains read-only count of rows of the output data set.  It returns the value of the `int` type.
 
 %/spoiler%
 
@@ -37,10 +37,10 @@ It contains read-only count of rows of the output data set.  Возвращае�
 
 **Get(row, col)**
 
-- row: row index. Принимает значение типа `int`.
-- col: column index or name. Принимает значение типов `int` или `str`.
+- row: row index. It takes the value of the `int` type.
+- col: column index or name. It takes the value of the `int` or `str` types.
 
-The method returns the value of the set column in the set string. Возвращаемое значение может иметь типы: `bool`, `int`, `float`, `str`, `datetime.datetime`, `None`.
+The method returns the value of the set column in the set string. The returned value can have the following types: `bool`, `int`, `float`, `str`, `datetime.datetime`, `None`.
 
 %/spoiler%
 
@@ -48,8 +48,8 @@ The method returns the value of the set column in the set string. Возвращ
 
 **IsNull(row, col)**
 
-- row: row index. Принимает значение типа `int`.
-- col: column index or name. Принимает значение типов `int` или `str`.
+- row: row index. It takes the value of the `int` type.
+- col: column index or name. It takes the value of the `int` or `str` types.
 
 The method returns the boolean `true` value if the column in the set string has the null value. Otherwise, the `false` value returns.
 
@@ -59,8 +59,8 @@ The method returns the boolean `true` value if the column in the set string has 
 
 **GetColumn(col)**
 
-- col: column index or name. Принимает значение типов `int` или `str`.
-   При установке флага *Разрешить формировать выходные столбцы из кода* возвращается значение типа `ConfigurableOutputColumnClass`, иначе — `OutputColumnClass`. Оба этих типа унаследованны от `ColumnClass`, и реализуют протокол *Sequence* (см. [Полное описание API](./api-description.md)).
+- col: column index or name. It takes the value of the `int` or `str` types.
+   When selecting *Allow creating output columns in script* checkbox, the value of the `ConfigurableOutputColumnClass` type is returned, otherwise — `OutputColumnClass`.  Both types are inherited from `ColumnClass` and they implement the *Sequence* protocol (refer to [Full API Description](./api-description.md)).
 
 %/spoiler%
 
@@ -76,8 +76,8 @@ The method enables to append the new row to the output data set. It does not hav
 
 **Set(col, value)**
 
-- col: column index or name. Принимает значение типов `int` или `str`.
-- value — value. Принимает значения следующих типов: `bool`, `int`, `float`, `str`, `datetime.datetime`, `None`.
+- col: column index or name. It takes the value of the `int` or `str` types.
+- value — value. It takes the values of the following types: `bool`, `int`, `float`, `str`, `datetime.datetime`, `None`.
 
 The method enables to set the value of the set column in the string appended by the `Append() method`.
 
@@ -87,8 +87,8 @@ The method enables to set the value of the set column in the string appended by 
 
 **AssignColumns(array)**
 
-- array — итерируемый объект, содержащий элементы типа ColumnInfo (см. [Полное описание API](./api-description.md)).
-   Метод создает столбцы выходного набора из коллекции элементов типа ColumnInfo.
+- array — iterated object that contains the elements of the ColumnInfo type (refer to [Full API Description](./api-description.md)).
+   The method creates the output data set columns from the collection of elements of the ColumnInfo type.
 
 %/spoiler%
 
@@ -96,16 +96,16 @@ The method enables to set the value of the set column in the string appended by 
 
 **AddColumn(ColumnInfo, Name, DisplayName, DataType, DataKind, DefaultUsageType)**
 
-Принимает аргументы по ключевым словам:
+It takes arguments by key words:
 
-- ColumnInfo — значение типа ColumnInfo (см. [Полное описание API](./api-description.md)). Необязательный аргумент.
-- Name — имя столбца, значение типа `str`. Необязательный аргумент.
-- DisplayName — метка столбца, значение типа `str`. Необязательный аргумент.
-- DataType — тип данных столбца, значение типа `int`(см. [Перечисления](./enum.md)). Необязательный аргумент.
-- DataKind — виды данных столбца, значение типа `int`(см. [Перечисления](./enum.md)). Необязательный аргумент.
-- DefaultUsageType — назначение по умолчанию столбца, значение типа `int`(см. [Перечисления](./enum.md)). Необязательный аргумент.
+- ColumnInfo — value of the ColumnInfo type (refer to [Full API Description](./api-description.md)). The optional argument.
+- Name — column name, the value of the `str` type. The optional argument.
+- DisplayName — column caption, the value of the `str` type. The optional argument.
+- DataType — column data type, the value of the `int` type (refer to [Enumerations](./enum.md)). The optional argument.
+- DataKind — the column data kinds, the value of the `int` type (refer to [Enumerations](./enum.md)). The optional argument.
+- DefaultUsageType — default column usage type, the value of the `int` type (refer to [Enumerations](./enum.md)). The optional argument.
 
-Метод добавляет столбец в конец списка столбцов выходного набора. Возвращает значение типа OutputColumnClass (см. [Полное описание API](./api-description.md)).
+The method adds column to the column list end of the output data set. It returns the value of the OutputColumnClass type (refer to [Full API Description](./api-description.md)).
 
 %/spoiler%
 
@@ -113,17 +113,17 @@ The method enables to set the value of the set column in the string appended by 
 
 **InsertColumn(Index, ColumnInfo, Name, DisplayName, DataType, DataKind, DefaultUsageType)**
 
-Принимает аргументы по ключевым словам:
+It takes arguments by key words:
 
-- Index — индекс столбца в коллекции столбцов, принимает значение типа `int`.
-- ColumnInfo — значение типа ColumnInfo (см. [Полное описание API](./api-description.md)). Необязательный аргумент.
-- Name — имя столбца, значение типа `str`. Необязательный аргумент.
-- DisplayName — метка столбца, значение типа `str`. Необязательный аргумент.
-- DataType — тип данных столбца, значение типа `int`(см. [Перечисления](./enum.md)). Необязательный аргумент.
-- DataKind — виды данных столбца, значение типа `int`(см. [Перечисления](./enum.md)). Необязательный аргумент.
-- DefaultUsageType — назначение по умолчанию столбца, значение типа `int`(см. [Перечисления](./enum.md)). Необязательный аргумент.
+- Index — column index in the column collection that takes the value of the `int` type.
+- ColumnInfo — value of the ColumnInfo type (refer to [Full API Description](./api-description.md)). The optional argument.
+- Name — column name, the value of the `str` type. The optional argument.
+- DisplayName — column caption, the value of the `str` type. The optional argument.
+- DataType — column data type, the value of the `int` type (refer to [Enumerations](./enum.md)). The optional argument.
+- DataKind — the column data kinds, the value of the `int` type (refer to [Enumerations](./enum.md)). The optional argument.
+- DefaultUsageType — default column usage type, the value of the `int` type (refer to [Enumerations](./enum.md)). The optional argument.
 
-Метод вставляет столбец по заданному индексу в выходной набор. Возвращает значение типа OutputColumnClass (см. [Полное описание API](./api-description.md)).
+The method inserts the column by the set index into the output data set. It returns the value of the OutputColumnClass type (refer to [Full API Description](./api-description.md)).
 
 %/spoiler%
 
@@ -131,8 +131,8 @@ The method enables to set the value of the set column in the string appended by 
 
 **DeleteColumn(col)**
 
-- col: column index or name. Принимает значение типов `int` или `str`.
-   Метод удаляет столбец по имени или индексу.
+- col: column index or name. It takes the value of the `int` or `str` types.
+   The method deletes the column by name or index.
 
 %/spoiler%
 
@@ -140,23 +140,23 @@ The method enables to set the value of the set column in the string appended by 
 
 **ClearColumns()**
 
-It does not have arguments. Метод очищает список столбцов.
+It does not have arguments. The method clears the column list.
 
 %/spoiler%
 
-## Использование модуля builtin_pandas_utils
+## builtin_pandas_utils Module Use
 
-Если включена опция "Разрешить формировать выходные столбцы из кода", доступны следующие методы (см. Пример №2):
+If "Allow creating output columns in script" option is enabled, the following methods are available (refer to Example No2):
 
 %spoiler%to_data_frame%spoiler%
 
 **to_data_frame(table, dataframe, with_index)**
 
-Метод задает структуру полей `OutputTable` по `pandas.DataFrame`. Аргументы:
+The method sets the structure of the `OutputTable` fields by `pandas.DataFrame`. Arguments:
 
-- table — ссылка на выходной набор OutputTableClass;
-- dataframe — ссылка на `pandas.DataFrame`, структура которого используется для создания столбцов выходного набора;
-- with_index — если аргумент принимает `True`, то индексы `pandas.DataFrame` включаются в структуру выходного набора. Необязательный аргумент. Значение по умолчанию `False`.
+- table — reference to OutputTableClass output data set;
+- dataframe — reference to `pandas.DataFrame` the structure of which is used to create the output data set columns.
+- with_index — if argument takes `True`, `pandas.DataFrame` indexes are included into the output data set structure. The optional argument. The default value is `False`.
 
 %/spoiler%
 
@@ -164,45 +164,45 @@ It does not have arguments. Метод очищает список столбц�
 
 **fill_table(table, dataframe, with_index)**
 
-Метод осуществляет запись из `pandas.DataFrame` в `OutputTable`. Аргументы:
+The method provides record from `pandas.DataFrame` to `OutputTable`. Arguments:
 
-- table — ссылка на выходной набор. Принимает значение типа `OutputTableClass`;
-- dataframe — ссылка на `pandas.DataFrame`;
-- with_index — если аргумент принимает `True`, то индексы `pandas.DataFrame` выгружаются в выходной набор. Необязательный аргумент. Значение по умолчанию `False`.
+- table — reference to output data set. It takes the value of the `OutputTableClass` type.
+- dataframe — reference to `pandas.DataFrame`.
+- with_index — if argument takes `True`, `pandas.DataFrame` indexes are downloaded to the output data set. The optional argument. The default value is `False`.
 
 %/spoiler%
 
 ## Examples:
 
-### Пример №1
+### Example No1
 
 ```python
 from builtin_data import InputTable, OutputTable, DataType, DataKind, UsageType
 import datetime
 
-#Копирование столбцов входного набора
+#Copy input data set columns
 OutputTable.AssignColumns(InputTable.Columns)
-#Удаление столбца по индексу
+#Delete column by index
 OutputTable.DeleteColumn(0)
-#Удаление столбца по имени
+#Delete column by name
 OutputTable.DeleteColumn("Test1")
-#Удаление всего списка столбцов
+#Delete the whole list of columns
 OutputTable.ClearColumns()
-#Добавление столбца в конец списка столбцов выходного набора
+#Add column to the list end of the output data set columns
 OutputTable.AddColumn(Name="COL0",
-                      DisplayName="Дата/Время",
+                      DisplayName="Date/Time",
                       DataType=DataType.DateTime,
                       DataKind=DataKind.Continuous,
                       DefaultUsageType=UsageType.Active)
-#Вставка столбца по заданному индексу в список столбцов выходного набора
+#Insertion of a column into the output data set column list by the set index
 OutputTable.InsertColumn(Index=0,
                          Name="COL1",
-                         DisplayName="Признак",
+                         DisplayName="Indicator",
                          DataType=DataType.Boolean)
-#Получение ссылки на столбец по имени
+#Getting reference to the column by name
 COL0 = OutputTable.GetColumn("COL0")
 COL1 = OutputTable.GetColumn("COL1")
-#Вывод значений свойств столбца
+#Outputting the values of the columns properties
 print("Index: ", COL1.Index)
 print("Name: ", COL1.Name)
 print("DisplayName: ", COL1.DisplayName)
@@ -210,47 +210,47 @@ print("DataType: ", COL1.DataType)
 print("DataKind: ", COL1.DataKind)
 print("DefaultUsageType: ", COL1.DefaultUsageType)
 
-#Добавление строки в выходной набор данных
+#Append string to the output data set
 OutputTable.Append()
-#В поле с индексом 0 записываются текущие Дата/Время
+#The current Date/Time are recorded in the field with index 0
 OutputTable.Columns[1].Set(datetime.datetime.now())
-#В поле с индексом 1 записывается значение true
+#true value is recorded in the field with index 1 
 OutputTable.GetColumn(0).Set(True)
-#Копирование значений первой строки во вторую
+#Copying the values of the first string to the second one
 OutputTable.Append()
 for i in range(OutputTable.ColumnCount):
     value = OutputTable.Get(0, i)
     OutputTable.Set(i, value)
 
-#Проверка, что значение в строке с индексом 0 в столбце с индексом 1 не определено
+#Checking that the value in the string with index 0 in the column with index 1 is not defined
 print(OutputTable.IsNull(0, 1))
 print(OutputTable.Get(0, 1) is None)
 
 print("RowCount = ", OutputTable.RowCount)
-#Вывод: RowCount =  2
+#Outputting: RowCount =  2
 
 ```
 
-### Пример №2
+### Example No2
 
-Применение модуля `builtin_pandas_utils`
+Apply `builtin_pandas_utils` module
 
 ```python
 from builtin_data import InputTable, OutputTable, ConfigurableOutputTableClass
 from builtin_pandas_utils import to_data_frame, prepare_compatible_table, fill_table
 
-#Входной порт необязательный и может не содержать данные
+#The input port is optional, and it is possible that it does not contain data
 if InputTable:
-    #Создать pd.DataFrame по входному набору
+    #Create pd.DataFrame by input data set
     input_frame = to_data_frame(InputTable)
-    #Группировка input_frame
+    #input_frame grouping
     output_frame = input_frame.groupby(["Class"]).sum()
-    #Если включена опция "Разрешить формировать выходные столбцы из кода",
-    #структуру выходного набора можно подготовить по pd.DataFrame
+    #If "Allow creating output columns in script" option is enabled,
+    #the output data set structure can be prepared by pd.DataFrame
     assert isinstance(OutputTable, ConfigurableOutputTableClass)
-    #Определение структуры выходного набора
+    #Output data set structure defining
     prepare_compatible_table(OutputTable, output_frame, with_index=True)
-    #Заполнение выходного набора
+    #Output data set appending
     fill_table(OutputTable, output_frame, with_index=True)
 
 ```

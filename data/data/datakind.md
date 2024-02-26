@@ -9,10 +9,10 @@ description: Вид данных, используемых в Loginom. Ключ�
 
 The table below shows the data kind that can be used for each data type.
 
-| Тип данных | ![](./../images/icons/common/data-types/continuous_default.svg) Непрерывный | ![](./../images/icons/common/data-types/discrete_default.svg) Дискретный |
+| Data type | ![](./../images/icons/common/data-types/continuous_default.svg) Continuous | ![](./../images/icons/common/data-types/discrete_default.svg) Discrete |
 | :- | :-: | :-: |
-| ![](./../images/icons/common/data-types/boolean_default.svg) Логический | | • |
-| ![](./../images/icons/common/data-types/datetime_default.svg) Дата/время | • |•|
-| ![](./../images/icons/common/data-types/float_default.svg) Вещественный | • | • |
-| ![](./../images/icons/common/data-types/integer_default.svg) Целый | • | • |
-| ![](./../images/icons/common/data-types/string_default.svg) Строковый | | • |
+| ![](./../images/icons/common/data-types/boolean_default.svg) Logical | | • |
+| ![](./../images/icons/common/data-types/datetime_default.svg) Date/time | • |•|
+| ![](./../images/icons/common/data-types/float_default.svg) Real | • | • |
+| ![](./../images/icons/common/data-types/integer_default.svg)  Integer | • | • |
+| ![](./../images/icons/common/data-types/string_default.svg) String | | • |

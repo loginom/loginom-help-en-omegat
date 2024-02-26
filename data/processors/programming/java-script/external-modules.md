@@ -5,7 +5,7 @@ description: Компонент JavaScript в Loginom. Импорт внешни
 
 ## Module Systems
 
-[ES6](https://www.ecma-international.org/ecma-262/6.0/#sec-modules) (ECMAScript 6) and [CommonJS](http://wiki.commonjs.org/wiki/Modules/1.1.1) module systems are supported. Код узла является корневым модулем системы ES6.
+[ES6](https://www.ecma-international.org/ecma-262/6.0/#sec-modules) (ECMAScript 6) and [CommonJS](http://wiki.commonjs.org/wiki/Modules/1.1.1) module systems are supported. The node code is a root module of ES6 system.
 The static and dynamic import of ES6 modules is supported in ES6 modules, to import the CommonJS modules, it is required to use `require` function (refer to [Full API Description](./api-description.md)).
 
 %spoiler%Examples%spoiler%
@@ -112,19 +112,19 @@ Use of "child_module.js" module in the code of the JavaSript node:
 
 ```javascript
 // require.resolve:
-// - на сервере Loginom возвращает полный путь модуля в файловом хранилище
-// - в настольной редакции возвращает полный путь модуля в файловой системе
+// - returns the full module path in the file storage on the Megaladata server
+// - returns the full module path in the file system in the desktop edition
 let path = require.resolve("child_module.js");
 console.log(path);
-// Вызов внешнего модуля системы CommonJS
+// Calling of the external module of the CommonJS system
 let childModule = require("child_module.js");
 console.log(childModule.filename);
 console.log(childModule.parent);
 console.log(childModule.loaded);
-// Очищается кэш модуля "child_module.js"
+// Cache of "child_module.js" module is cleared
 delete require.cache[path];
-// и внешний модуль вызывается повторно,
-// в результате чего повторно выводится "Hello! I am ... ".
+// and the external module is repeatedly called,
+// consequently, the following information is repeatedly displayed: "Hello! I am ... ".
 // It is not possible without cache flush
 require("child_module.js");
 ```
@@ -164,7 +164,7 @@ For example:
 import { cube, foo, sayHello } from "/user/foo/foo.js";
 ```
 
-#### В настольной редакции
+#### In the desktop edition
 
 The absolute path: the full path in the file system. For example:
 

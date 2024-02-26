@@ -13,14 +13,14 @@ It is not obligatory to use the input data set in the first and second cases. Bu
 
 In the third case, the input data set rows are divided according to the given parameters to the groups of rows, and the rows of the next group are supplied to the looped node input for each iteration. If unique identifiers of the input data set rows are specified as the group parameter, such group will contain only one row. In this case, the loop will iterate over the input data rows, and then it will transfer the next row to the looped node input.
 
-Добавить узел *Цикл* в сценарий можно двумя способами:
+It is possible to add the *Loop* to the workflow in two ways:
 
-* Из стандартных компонентов: методом Drag-and-Drop, перенеся производный компонент в область построения *Сценария*, или через конетекстное меню, нажав правой кнопкой мыши по компоненту.
-* Из [производных компонентов](../../workflow/derived-component.md): также методом Drag-and-Drop (дополнительно зажать кнопку *Shift* на клавиатуре) или через контекстное меню.
+* From the standard components: using the Drag-and-Drop method by moving the derived component to the *Workflow* construction area or via the context menu by pressing the component with the right mouse button.
+* From the [derived components](../../workflow/derived-component.md): also using the Drag-and-Drop method (it is additionally required to press *Shift* keyboard button) or via the context menu.
 
-При добавлении узла *Цикл* от производного компонента его метка формируется следующим образом: `Метка производного компонента (цикл)`.
+When adding the *Loop* node from the derived component, its caption is formed in the following way: `Derived component caption (loop)`.
 
-При настройке узла *Цикл* всегда создается производный компонент по базовому узлу. То есть *Цикл* может ссылаться только на компонент. Создаваемые таким образом производные компоненты по умолчанию имеют [область видимости](../../workflow/access-modifier.md) *Закрытый*, а настройка *Производные узлы* отключена.
+When configuring the *Loop* node, the derived component is always created by the base node. Namely, the *Loop* can refer only to the component. By default, created in such a way derived components have [visibility area](../../workflow/access-modifier.md) *Private*, and *Derived nodes* setting is disabled.
 
 ## Ports
 
@@ -30,16 +30,16 @@ Being originally created, the node does not have [ports](./../../workflow/ports/
 
 ### Step 1. Selection of the Loop Node
 
-На данном этапе предоставляется список в виде дерева *Доступных* узлов для заключения в цикл:
+At this stage the list is provided in the tree form of the *Available* for loop nodes:
 
-* **Узлы текущего модуля** — содержит перечень узлов модуля, в котором на данный момент ведётся работа;
-* **Компоненты** — содержит текущий пакет и перечень внешних пакетов, на которые настроены ссылки и их производные компоненты с областью видимости *Открытый*.
+* **Current module nodes** contains a list of module nodes in which the work is executed at the moment.
+* **Components** contains the current package and list of external packages to which references and their derived components with  *Public* visibility area are configured.
 
 The wizard interface enables to search for the nodes in the general list by means of filters, namely, by name and node comment.
 
-Не допускается выполнение в цикле узлов, созданных на базе следующих компонентов: [Выполнение узла](./execute-node.md), [Узел-ссылка](./reference-node.md), [Условие](./condition.md) и *Цикл*.
+It is not allowed to execute the nodes created on the base of the following components in the loop: [Node execution](./execute-node.md), [Reference node](./reference-node.md), [Condition](./condition.md) and *Loop*.
 
-**Сохранять конфигурацию выбранного узла** — параметр отвечает за сохранение собственной конфигурации внутреннего компонента, в случае если она отличается от исходной. По умолчанию не установлен.
+**Save configuration of the selected node**: the parameter saves own configuration of the internal component if it differs from the source one. It is not set by default.
 
 
 ### Step 2. Configuration of the Loop Type

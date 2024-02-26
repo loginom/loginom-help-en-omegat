@@ -5,7 +5,7 @@ description: Компонент Разбиение на множества в Lo
 
 ## Description
 
-Partitioning is used when according to the analysis task it is required to divide the source data set into the training and test samples. It is possible to configure the size of these samples, and records are selected for them using the selected sampling method. Сначала отбираются записи для обучающей выборки, оставшиеся используются для тестовой (этот порядок можно изменить в мастере настройки узла).
+Partitioning is used when according to the analysis task it is required to divide the source data set into the training and test samples. It is possible to configure the size of these samples, and records are selected for them using the selected sampling method. The training sample records are selected first, the remaining ones are used for the test one (this order can be changed in the node wizard).
 
 ## Ports
 
@@ -36,16 +36,16 @@ Partitioning is used when according to the analysis task it is required to divid
 
    There are three selection modes defined by "Priority test set position" parameter:
 
-   * *Определяется алгоритмом* — записи будут отобраны в соответствии с выбранным ранее методом сэмплинга.
-   * *В начале набора* — в качестве тестовой выборки будут использованы строки из начала набора, взятые в том же порядке, что и в исходной таблице.
+   * *Defined by algorithm*: records will be selected according to the previously selected sampling method.
+   * *Start of set*: the set start rows taken in the same order as in the source table will be used as the test sample.
    * *End of set*: the set end rows taken in the same order as in the source table will be used as the test sample.
 
-* **Random seed** — начальное число (целое, положительное), которое используется для инициализации генератора псевдослучайных чисел. Последовательность чисел генератора полностью определяется начальным числом. Если генератор повторно инициализируется с тем же начальным числом, он выдаст ту же последовательность чисел.
+* **Random seed** is a starting seed (integer, positive ) that is used for initialization of pseudo-random number generator. Sequence of generator numbers is fully determined by the starting seed. If the generator is repeatedly initialized with the same starting seed, it will provide the same sequence of numbers.
 
-   Параметр влияет на порядок случайного разбиения на тестовое и обучающее множество. Можно повторить разбиение, если подать те же данные и выставить тот же random seed.
+   The parameter affects the order of random partitioning to the test and training sets. It is possible to reproduce the partitioning if the same data is provided and the same random seed is set.
 
-   Для параметра доступны следующие команды:
+   The following commands are available for the parameter:
 
-   * Всегда случайно — начальное число всегда будет случайным.
-   * Генерировать — сгенерируется новое начальное число.
-   * Копировать — в буфер обмена будет скопировано указанное значение.
+   * Always randomly: the starting seed will always be random.
+   * Generate: the new starting seed will be generated.
+   * Copy: the specified value will be copied to the clipboard.

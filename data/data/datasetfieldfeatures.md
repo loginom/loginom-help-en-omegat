@@ -10,4 +10,4 @@ description: Доступные параметры для полей набор�
 * **Caption**: random field description.
 * **Data type**: one of the possible [data types](./datatype.md).
 * **Data kind**: one of the possible [data kinds](./datakind.md).
-* **Назначение** — для ряда узлов обязательно к заполнению при настройке входного порта. Перечень назначений, которые может принимать параметр, индивидуален для каждого узла. Задает функциональность данных столбца в контексте выполняемого узлом алгоритма.
+* **Usage type** — to be filled in for some nodes while configuring the input port. The list of usage types that can be taken by the parameter is individual for each node. It sets the column data feature in the context of the algorithm executed by the node.

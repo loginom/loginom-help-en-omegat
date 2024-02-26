@@ -16,7 +16,7 @@ The [ARIMA](https://wiki.loginom.ru/articles/arima.html) models are used to acco
 ### Input
 
 * ![ ](./../../images/icons/app/node/ports/inputs/table_inactive.svg)  **Input data source** — data table. The input data must meet the following requirements:
-   * Поля, которые будут использоваться в качестве входных или выходных, не должны содержать пропущенные значения. If this requirement is not met, error message will appear when node activating.
+   * The fields that will be used as the input or output ones must not contain null values. If this requirement is not met, error message will appear when node activating.
    * The field mapping the time series must relate to the *Forecast* usage type, *Real* [data type](./../../data/datatype.md) and *Continuous* [data kind](./../../data/datakind.md). Only one such field is allowed.
    * The fields mapping the exogenous factors must relate to the *Input* usage type. There are no restrictions for the data type in these fields, any data kind is allowed, with the exception of the *Undefined* one. These fields can be available or not in any amount.
 
@@ -28,29 +28,29 @@ The [ARIMA](https://wiki.loginom.ru/articles/arima.html) models are used to acco
    * Field_name|Lower bound: the lower bound of the [confidence interval](https://wiki.loginom.ru/articles/confidence-interval.html). The field is available if the following checkbox is selected: *Calculate confidence interval*.
    * Field_name|Upper bound: the lower bound of the confidence interval. The field is available if the following checkbox is selected: *Calculate confidence interval*.
 * ![ ](./../../images/icons/app/node/ports/outputs/table_inactive.svg)  **Model coefficients**: the data table that contains the following coefficients:
-   * Тип;
-   * Параметр;
-   * [Лаг](https://ru.wikipedia.org/wiki/%D0%9B%D0%B0%D0%B3%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80);
-   * Имя входного поля;
-   * Уникальное значение;
-   * Коэффициент;
-   * [Стандартное отклонение](https://wiki.loginom.ru/articles/mean-square-deviation.html);
-   * [T-статистика](https://wiki.loginom.ru/articles/students-distribution.html);
+   * Type;
+   * Parameter;
+   * [Lag](https://ru.wikipedia.org/wiki/%D0%9B%D0%B0%D0%B3%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80);
+   * Input field name;
+   * Unique value;
+   * Coefficient;
+   * [Standard deviation](https://wiki.loginom.ru/articles/mean-square-deviation.html);
+   * [T-statistics](https://wiki.loginom.ru/articles/students-distribution.html);
    * [P-value](https://wiki.loginom.ru/articles/p-value.html).
 * ![ ](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Summary**: variables:
-   * Всего примеров (TotalSamples);
-   * Всего отобранных примеров (TotalSelectedSamples);
-   * Примеров в [обучающем множестве](https://wiki.loginom.ru/articles/training-set.html) (TrainSamples);
-   * Среднеквадратическая ошибка на обучающем множестве (TrainRMSError);
-   * [Средняя абсолютная ошибка](https://wiki.loginom.ru/articles/mae.html) на обучающем множестве (TrainAvgError);
-   * [Средняя относительная ошибка](https://wiki.loginom.ru/articles/mrpe.html) на обучающем множестве (TrainAvgRelError);
-   * Информационный критерий Акаике ([AIC](https://wiki.loginom.ru/articles/aic.html));
-   * Информационный критерий Акаике скорректированный ([AICc](https://wiki.loginom.ru/articles/aicc.html));
-   * Информационный критерий Байеса ([BIC](https://wiki.loginom.ru/articles/bic.html));
-   * Коэффициент детерминации ([R2](https://wiki.loginom.ru/articles/coefficient-of-determination.html));
-   * Скорректированный коэффициент детерминации ([AdjustedR2](https://wiki.loginom.ru/articles/coefficient-determ-adj.html));
-   * Число [степеней свободы](https://wiki.loginom.ru/articles/degrees-of-freedom.html) модели (ModelDF);
-   * Число степеней свободы остатков (ResDF).
+   * Total Samples (TotalSamples);
+   * Total Selected Samples (TotalSelectedSamples);
+   * Examples in [Train Sample](https://wiki.loginom.ru/articles/training-set.html) (TrainSamples);
+   * The root-mean-square error of the training set  (TrainRMSError);
+   * The [mean absolute error](https://wiki.loginom.ru/articles/mae.html) of the training set (TrainAvgError);
+   * The [mean relative error ](https://wiki.loginom.ru/articles/mrpe.html) of the training set (TrainAvgRelError);
+   * Akaike information criterion ([AIC](https://wiki.loginom.ru/articles/aic.html));
+   * Akaike information criterion corrected ([AICc](https://wiki.loginom.ru/articles/aicc.html));
+   * Bayesian information criterion ([BIC](https://wiki.loginom.ru/articles/bic.html));
+   * Determination coefficient ([R2](https://wiki.loginom.ru/articles/coefficient-of-determination.html));
+   * Adjusted determination coefficient ([AdjustedR2](https://wiki.loginom.ru/articles/coefficient-determ-adj.html));
+   * Number of [the model degrees of freedom](https://wiki.loginom.ru/articles/degrees-of-freedom.html) (ModelDF);
+   * Number of the residues degrees of freedom (ResDF).
 
 ## Wizard
 
@@ -71,7 +71,7 @@ It is required to set the [usage type](./../../data/datasetfieldfeatures.md) of 
 #### ARIMAX Model Structure
 
 * **Auto detect structure**: when this checkbox is selected, automatic selection of the model parameters is enabled. The parameters are selected in the calculation process to minimize the *AIC* value.
-* **AR part order** sets the order of (р) autoregressive part. It sets the number of the previous series values that are considered when constructing the model. The integer value more than 0 is set.
+* **AR part order** sets the order of (р) autoregressive part. It sets the number of the previous series values that are considered when training the model. The integer value more than 0 is set.
 * **Integration order** sets the order of (d) series differences if it is required to set the source series to the [stationary](https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D1%80%D0%BD%D0%BE%D1%81%D1%82%D1%8C) one. The integer value more than 0 is set.
 * **MA part order** sets the order of (q) part of moving average. It defines the lag size for the source series smoothing. The integer value more than 0 is set.
 * **Enable seasonality calculation**: selection of this checkbox enables to set parameters for the [seasonal component](https://wiki.loginom.ru/articles/seasonal-component.html):
@@ -83,7 +83,7 @@ It is required to set the [usage type](./../../data/datasetfieldfeatures.md) of 
 
 #### Time Series Prediction
 
-* [**Forecast horizon**](https://wiki.loginom.ru/articles/time-horizon.html) sets the number of the values that will be forecast and added to the output data set at the end of the source time series. Устанавливает значение целого типа >= 1.
+* [**Forecast horizon**](https://wiki.loginom.ru/articles/time-horizon.html) sets the number of the values that will be forecast and added to the output data set at the end of the source time series. It sets the integer value more than >= 1.
 * **Calculate the approximation error**: selection of this checkbox enables to add a column with the mean deviations of the forecast values from the actual ones to the output data set.
 * **Calculate confidence interval** provides manual setting of the following parameter:
-   * **Уровень доверия прогноза, %** — значение вещественного типа 0 до 100, по умолчанию 95.
+   * **Forecast confidence level, %**: the real value in the range of 0 to 100, by default 95.

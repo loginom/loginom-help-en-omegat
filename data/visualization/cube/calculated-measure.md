@@ -56,7 +56,7 @@ And on methods of measures aggregation:
 * **Average** (*Measure name.Avg* ): the average value of all measures values.
 * **Minimum** (*Measure name.Min* ): the least value from all measures values.
 * **Maximum** (*Measure name.Max* ): the highest value from all measures values.
-* **Стандартное откл.** (*Имя факта.StdDev* ) — стандартное отклонение значений фактов, рассчитанное на основе несмещенной дисперсии.
+* **Standard deviation** (*Measure name.StdDev* ): the standard deviation of measures values calculated on the basis of unbiased variance.
 * **Sum of squares** (*Measure name.SumSq* ): the sum of squares of all measures values.
 * **Count of unique** (*Measure name.UniqueCount* ): count of the unique measure values.
 * **Null count** (*Measure name.NullCount* ): count of the null values of measure.

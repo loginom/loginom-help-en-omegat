@@ -2,118 +2,118 @@
 description: Визуализатор. Качество данных производит комплексную оценку набора данных.
 ---
 
-# ![](./../../images/icons/view_types/data-quality_default.svg) Качество данных
+# ![](./../../images/icons/view_types/data-quality_default.svg) Data Quality
 
-Визуализатор позволяет производить комплексную оценку качества данных для каждого поля.
+The visualizer enables to perform comprehensive data quality assessment for each field.
 
 ## Interface
 
 ### Operations
 
-* ![Сводка](./../../images/icons/common/toolbar-controls/info_default.svg) **Сводка** — происходит выбор полей для анализа данных, отображаются общие показатели качества данных и обнаруженные проблемы в полях данных.
-* ![Дискретные](./../../images/icons/common/data-types/discrete_default.svg) **Дискретные** — обзор качества данных для дискретных полей.
-* ![Непрерывные](./../../images/icons/common/data-types/continuous_default.svg) **Непрерывные** — обзор качества данных для непрерывных полей.
-* ![Показатели](./../../images/icons/common/toolbar-controls/fields-list-settings_default.svg) **Показатели** — выбор и настройка показателей:
-   * ![Выбор показателей](./../../images/icons/common/toolbar-controls/row-sum_default.svg) Выбор показателей — выбираются показатели, которые требуются пользователю для оценки качества данных.
-   * ![Настройка показателей](./../../images/icons/common/toolbar-controls/setup_default.svg) Настройки показателей — выбор метода идентификации, настройка параметров метода идентификации, настройка максимального количества пропусков.
-* ![Абсолютные или относительные значения](./../../images/icons/switches/roc/relative_default.svg) **Абсолютные или относительные значения** — переключает режим отображения количественных значений с абсолютного на процентный.
-* ![Экспорт](./../../images/icons/common/toolbar-controls/export_default.svg) **Экспорт** — позволяет экспортировать файл с отчетом. Экспортируется только текущая таблица ( Сводка, Дискретные, Непрерывные). The name of the format that has been selected for export will be displayed in this menu option:
-   * Экспорт в XLS(html);
-   * Экспорт в HTML.
-* ![Детализация](./../../images/icons/common/toolbar-controls/show-fast-viewer_default.svg) **Детализация** — показывает входной набор данных, отфильтрованный по заданному показателю для выбранного поля. Например, при выборе ячейки *Пропуски* будут показаны все записи входного набора, которые в выбранном поле имеют пропуски. Детализация доступна только для таблиц *Дискретные* и *Непрерывные*.
-* ![Гистограмма](./../../images/icons/common/toolbar-controls/toggle-left-panel_default.svg) **Гистограмма** — отображает панель с гистограммой по выбранному полю. Гистограмма доступна только для таблиц *Дискретные* и *Непрерывные*.
+* ![Summary](./../../images/icons/common/toolbar-controls/info_default.svg) **Summary**: fields for data analysis are selected, general data quality indicators and problems detected in the data fields are displayed.
+* ![Discrete](./../../images/icons/common/data-types/discrete_default.svg) **Discrete**: overview of data quality for discrete fields.
+* ![Continuous](./../../images/icons/common/data-types/continuous_default.svg) **Continuous**: overview of data quality for continuous fields.
+* ![Indicators](./../../images/icons/common/toolbar-controls/fields-list-settings_default.svg) **Indicators**: selection and configuration of the following indicators:
+   * ![Selection of indicators](./../../images/icons/common/toolbar-controls/row-sum_default.svg) Selection of indicators: the indicators that are required to a user for data quality assessment are selected.
+   * ![Configure indicators](./../../images/icons/common/toolbar-controls/setup_default.svg) Configure indicators: selection of identification method, configuration of identification method parameters, configuration of the maximum null count.
+* ![Absolute or relative values](./../../images/icons/switches/roc/relative_default.svg) **Absolute or relative values**: switch the mode of the quantitative values representation from the absolute to the percentage-based one.
+* ![Export](./../../images/icons/common/toolbar-controls/export_default.svg) **Export** enables to export the file with a report. Only the current table is exported (Summary, Discrete, Continuous). The name of the format that has been selected for export will be displayed in this menu option:
+   * Export to XLS(html);
+   * Export to HTML.
+* ![Detailing](./../../images/icons/common/toolbar-controls/show-fast-viewer_default.svg) **Detailing** shows the input data set filtered by the set indicator for the selected field. For example, when selecting *Null count* cell, all records of the input data set that have null count in the selected field will be shown. Detailing is available only for *Discrete* and *Continuous* tables.
+* ![Histogram](./../../images/icons/common/toolbar-controls/toggle-left-panel_default.svg) **Histogram** displays the panel with histogram by the selected field. Histogram is available only for *Discrete* and *Continuous* tables.
 
-## Характеристики набора данных
+## Data Set Statistics
 
-* **Метод определения нетипичных значений** — показывает метод идентификации. По умолчанию устанавливается метод *Стандартное отклонение*
-* **Столбцов** — общее количество столбцов в исследуемом наборе.
-* **Строк** — общее количество записей в исследуемом наборе.
-* **Заполненных полей** — количество полей, которые не содержат пропущенные значения, в процентном соотношении.
-* **Полных записей** — количество записей, которые не содержат пропущенные значения, в процентном соотношении.
-* **Пригодных столбцов** — количество пригодных столбцов. Столбец считается непригодным, если:
-   * процент *Пропусков* выше показателя *Максимальный процент пропусков* (данный показатель задаётся в *Настройках показателей*);
-   * *Индекс качества* у дискретного поля равен 0 (поле содержит константу).
-* **Индекс EPV** — отношение количества записей к количеству столбцов.
+* **Determination of outliers and extreme values** shows identification method. *Standard deviation* method is set by default
+* **Columns**: total number of columns in the data set under research.
+* **Rows**: total number of records in the data set under research.
+* **Fully filled fields**: number of the fields that do not contain null values in percentage terms.
+* **Fully filled records**: number of the records that do not contain null values in percentage terms.
+* **Suitable columns**: number of suitable columns. The column is considered to be useless if one of the following conditions is met:
+   * Percentage of *Null count* is highter than *Maximum percentage of null data* indicator (this indicator is set in *Configure indicators*).
+   * *Quality indicator* of the discrete field is equal to 0 (the field contains intercept).
+* **EPV index**: ratio of number of records to the number of columns.
 
-## Настройка таблиц
+## Configure Tables
 
-При открытии визуализатора *Качество данных* отображается таблица *Сводка* со списком полей. С помощью флагов можно выбирать поля, которые понадобятся пользователю для обработки. Таблицы *Дискретные* и Н*епрерывные* в этот момент не доступны.
+When opening *Data quality* visualizer, *Summary* table with the list of fields is displayed. Checkboxes enable to select the fields that will be required for processing to a user. *Discrete* and *Continuous* tables are not available at this moment.
 
-![Выбор полей для обработки](./images/settings-choice-column.png)
+![Selection of fields for processing](./images/settings-choice-column.png)
 
-### **Доступные показатели:**
+### **Available indicators:**
 
 | Indicator | Data kind | Value |
 |:----------|:----------:|:--------|
-| Индекс качества | ![](./../../images/icons/common/data-types/discrete_default.svg) | Отражает разнообразие значений в поле |
-| [Гистограмма](https://wiki.loginom.ru/articles/histogram.html) | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | Предпросмотр гистограммы |
-| Экстремальные | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | Количество записей, в которых значение является экстремальным |
-| Пустые | ![](./../../images/icons/common/data-types/discrete_default.svg) | Количество записей с пустыми значениями |
-| Пробелы в конце | ![](./../../images/icons/common/data-types/discrete_default.svg) | Количество записей со значениями, которые оканчиваются пробельным символом (показатель не включает в себя, записи, состоящие только из пробельных символов) |
-| Диапазон значений | ![](./../../images/icons/common/data-types/discrete_default.svg) | Диапазон значений в формате: *первое ... последнее значение* в отсортированном списке значений |
-| Нулевые | ![](./../../images/icons/common/data-types/continuous_default.svg) | Количество записей, в которых значения равны нулю |
-| [Диаграмма размаха](https://wiki.loginom.ru/articles/box-plot.html) | ![](./../../images/icons/common/data-types/continuous_default.svg) | Считает показатели: *Наименьший выброс, Нижний квартиль, Медиана, Верхний квартиль, Наибольший выброс, Наблюдаемый максимум* |
-| Минимум | ![](./../../images/icons/common/data-types/continuous_default.svg) | Минимальное значение |
-| Среднее | ![](./../../images/icons/common/data-types/continuous_default.svg) | Среднее значение |
-| [Мода](https://wiki.loginom.ru/articles/mode.html) | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | Наиболее часто встречающееся значение[^1] |
-| Пропуски | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | Количество записей, в которых отсутствует значение для данного поля |
-| Values | ![](./../../images/icons/common/data-types/discrete_default.svg) | Отображает диаграмму, в которой показано разнообразие значений по строкам |
-| Выбросы | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | Количество записей, в которых значение является выбросом |
-| Пробельные | ![](./../../images/icons/common/data-types/discrete_default.svg) | Количество записей со значениями, состоящими только из пробельных символов |
-| Длины строк | ![](./../../images/icons/common/data-types/discrete_default.svg) | Диапазон длин строк в формате: *минимальная длина - максимальная длина* |
-| Отрицательные | ![](./../../images/icons/common/data-types/continuous_default.svg) | Количество записей с отрицательными значениями |
-| Бесконечности | ![](./../../images/icons/common/data-types/continuous_default.svg) | Количество записей, в которых значения равны бесконечности |
-| Уникальные | ![](./../../images/icons/common/data-types/discrete_default.svg) | Количество уникальных значений |
-| Максимум | ![](./../../images/icons/common/data-types/continuous_default.svg) | Максимальное значение |
-| [Медиана](https://wiki.loginom.ru/articles/median.html) | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | Медиана для данного поля |
-| Монотонность | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | Показывает однообразие значений поля (*Убывающая, Возрастающая, Не монотонная*) |
+| Quality indicator | ![](./../../images/icons/common/data-types/discrete_default.svg) | It displays variety of values in the field |
+| [Histogram](https://wiki.loginom.ru/articles/histogram.html) | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | Histogram Preview |
+| Extremes | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | Number of the records in which the value is extreme |
+| Empty | ![](./../../images/icons/common/data-types/discrete_default.svg) | Number of the records with null values |
+| Trailing spaces | ![](./../../images/icons/common/data-types/discrete_default.svg) | Number of the records with the values that end with whitespace (the indicator does not include the records that consist only of whitespaces) |
+| Range of values | ![](./../../images/icons/common/data-types/discrete_default.svg) | Range of values in the following format: *first ... last value* in the sorted list of values |
+| Zeros | ![](./../../images/icons/common/data-types/continuous_default.svg) | Number of the records in which the values are equal to zero |
+| [Box plot](https://wiki.loginom.ru/articles/box-plot.html) | ![](./../../images/icons/common/data-types/continuous_default.svg) | It counts the following indicators: *Minimum outlier, Lower quartile, Median, Upper quartile, Maximum outlier, Sample maximum* |
+| Minimum | ![](./../../images/icons/common/data-types/continuous_default.svg) | Minimum value |
+| Average | ![](./../../images/icons/common/data-types/continuous_default.svg) | Average value |
+| [Mode](https://wiki.loginom.ru/articles/mode.html) | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | The most frequently occurring value[^1] |
+| Null count | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | Number of the records in which there is no value for this field |
+| Values | ![](./../../images/icons/common/data-types/discrete_default.svg) | It displays the chart in which variety of values is displayed by rows |
+| Outliers | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | Number of the records in which the value is outlier |
+| Whitespaces | ![](./../../images/icons/common/data-types/discrete_default.svg) | Number of the records with the values that consist only of whitespaces |
+| String lengths | ![](./../../images/icons/common/data-types/discrete_default.svg) | Range of row lengths in the following format: *minimum length - maximum length* |
+| Negative | ![](./../../images/icons/common/data-types/continuous_default.svg) | Number of records with negative values |
+| Infinities | ![](./../../images/icons/common/data-types/continuous_default.svg) | Number of the records in which the values are equal to infinity |
+| Unique | ![](./../../images/icons/common/data-types/discrete_default.svg) | Count of unique values |
+| Maximum | ![](./../../images/icons/common/data-types/continuous_default.svg) | Maximum value |
+| [Median](https://wiki.loginom.ru/articles/median.html) | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | Median for this field |
+| Monotony | ![](./../../images/icons/common/data-types/discrete_default.svg) ![](./../../images/icons/common/data-types/continuous_default.svg) | It displays uniformity of the field values (*Descending, Increasing, Non-monotonic*) |
 
-[^1]: Если в поле значений моды несколько, то показывается первое из этих значений, и отображается ![](./../../images/icons/viewers/data-quality/mode/sliced_18x18/multi_default.svg)иконка мультимодальности.
+[^1]: If there are several mode values in the field, the first of these values is shown and ![](./../../images/icons/viewers/data-quality/mode/sliced_18x18/multi_default.svg)multimodality icon is displayed.
 
-### Настройки показателей
+### Configure Indicators
 
-В *Настройках показателей* выбирается Метод идентификации и его параметры.
+Identification method and its parameters are selected in *Configure indicators*.
 
-![Настройки показателей](./images/settings-index.png)
+![Configure Indicators](./images/settings-index.png)
 
-После выбора полей и показателей для анализа качества данных нужно активировать кнопку  ![](./../../images/icons/common/toolbar-controls/execute_default.svg) *Рассчитать статистики*.
+After selection of fields and indicators to perform data quality analysis, it is required to activate  ![](./../../images/icons/common/toolbar-controls/execute_default.svg) *Calculate statistics* button.
 
-Теперь становятся доступными таблицы `Дискретные` и `Непрерывные`.
+Now `Discrete` and `Continuous` tables become available.
 
-При нажатии на кнопку ![Кнопка](./../../images/icons/common/toolbar-controls/down_default.svg) можно сортировать поля по выбранному показателю, а также убрать/добавить столбцы с показателями.
+Upon pressing ![Button](./../../images/icons/common/toolbar-controls/down_default.svg) button, it is possible to sort fields by the selected indicator and remove/add columns with indicators.
 
-![Сортировка и удаление/добавление столбцов](./images/add-index-sorting.png)
+![Sort and delete/add columns](./images/add-index-sorting.png)
 
-При выборе ячейки и нажатии кнопки ![Детализация](./../../images/icons/common/toolbar-controls/show-fast-viewer_default.svg) Детализация внизу открывается окно со всеми записями из этой ячейки.
+When selecting the cell and pressing ![Detailing](./../../images/icons/common/toolbar-controls/show-fast-viewer_default.svg) Detailing button, a window is opened in the lower part with all records from this cell.
 
-![Детализация ячейки](./images/detalization-data-quality.png)
+![Cell Detailing](./images/detalization-data-quality.png)
 
-При выборе ячейки и нажатии на кнопку ![Гистограмма](./../../images/icons//common/toolbar-controls/toggle-left-panel_default.svg) Гистограмма в правой части интерфейса открывается окно с более детальной гистограммой. Для дискретных полей можно выбирать значения для отображения:
+When selecting the cell and pressing ![Histogram](./../../images/icons//common/toolbar-controls/toggle-left-panel_default.svg) Histogram button, a window with more detailed histogram is opened in the right part of the interface. It is possible to select values for the discrete fields to display as follows:
 
-![Возможные значения](./images/settings-histogram.png)
+![Possible values](./images/settings-histogram.png)
 
-## Проблемы
+## Problems
 
-В колонке *Проблемы* отображается общее значение проблемных строк по данному полю.
+Total value of the problematic rows for this field will be displayed in *Problems* column.
 
-### Виды проблем
+### Kinds of Problems
 
-* **Пропуски** — количество записей, содержащих пропущенные значения.
-* **Пустые** — количество записей, содержащих пустые значения.
-* **Нули** — количество записей, содержащих нулевые значения.
-* **Пробелы** — количество записей, содержащих только пробельные символы (пробел, неразрывный пробел, табуляция и т.д.)
-* **Бесконечности** — количество записей, содержащих значение *Бесконечность*.
-* **Константа** — указывает, что поле содержит только одно уникальное значение, при этом в поле могут быть пропуски.
-* **Уникальное** — указывает, что каждое значение в этом поле является уникальным.
-* **Ошибка конвертации** — появляется, если поле содержит значения, которые не могут быть приведены к типу данных поля.
-* **Не вычислено** — отмечает поля, которые не содержат рассчитанных показателей.
-* **Нет данных** — проблема проявляется при анализе пустого набора данных.
-* **Экстремальные** — количество записей, в которых значение является экстремальным.
-* **Выбросы** — количество записей, в которых значение является выбросом.
-* **Отрицательные** — количество записей с отрицательными значениями.
-* **Пробелы в конце** — количество записей со значениями, которые оканчиваются пробельным символом (показатель не включает в себя, записи, состоящие только из пробельных символов).
+* **Null count**: number of the records that contain null values.
+* **Empty**: number of the records that contain null values.
+* **Zeros**: number of the records that contain zero values.
+* **Spaces**: number of the records that contain only whitespaces (space character, nonbreaking space, tabulation, etc.)
+* **Infinities**: number of the records that contain *Infinity* value.
+* **Intercept** indicates that the field contains only one unique value, in this case null count can be in this field.
+* **Unique** indicates that every value in this field is unique.
+* **Conversion error** appears if the field contains the values that cannot be set to the field data type.
+* **Not calculated**: the fields that do not contain calculated indicators are marked.
+* **No data**: the problem occurs when analyzing the empty data set.
+* **Extreme**: number of the records in which the value is extreme.
+* **Outliers**: number of the records in which the value is outlier.
+* **Negative**: number of records with negative values.
+* **Trailing spaces**: number of the records with the values that end with whitespace (the indicator does not include the records that consist only of whitespaces).
 
-Рядом со значением *Вида проблем* указывается количество строк с такой проблемой, в скобках указывается процентное соотношение проблемных строк к общему количеству строк.
+Number of rows with such problem is specified near *Kind of problems* value. Percentage of the problematic rows to the total number of rows is specified in brackets.
 
-![Виды проблем](./images/problem-types-value.png)
+![Kinds of Problems](./images/problem-types-value.png)
 

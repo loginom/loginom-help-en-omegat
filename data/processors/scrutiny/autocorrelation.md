@@ -5,7 +5,7 @@ description: Компонент автокорреляция в Loginom. Лаг,
 
 ## Description
 
-**[Autocorrelation](https://wiki.loginom.ru/articles/autocorrelation.html)** is a concept related to mathematical statistics that defines the level of statistical interrelation between data elements of one time series. In other words, correlation between time series and its copy shifted to one or several time lags is calculated. Компонент позволяет вычислять автокорреляцию временных рядов, количество отсчетов выбирается пользователем.
+**[Autocorrelation](https://wiki.loginom.ru/articles/autocorrelation.html)** is a concept related to mathematical statistics that defines the level of statistical interrelation between data elements of one time series. In other words, correlation between time series and its copy shifted to one or several time lags is calculated. The component enables to calculate autocorrelation of time series, the lag count is selected by a user.
 
 %spoiler%Example:%spoiler%
 
@@ -72,5 +72,5 @@ It provides three settings:
 * ACF calculation area:
    * **Time** is recommended in the case of the small lag count processing.
    * **Frequency** is recommended in the case of the large lag count processing to speed up the calculation process.
-   * **автоматически** — узел определит область расчета, исходя из количества отсчетов самостоятельно.
+   * **Auto **: the node will define the calculation area according to the lag count independently.
 * **Calculate PACF**: availability of this checkbox adds calculation of partial autocorrelation function. Its distinctive feature is exclusion of the correlation dependence between the observations inside the lags, namely, partial autocorrelation function in each lag differs from the standard autocorrelation function by the value of remote autocorrelations with smaller time lags. Consequently, partial autocorrelation function provides more detailed characteristics of the autocorrelation dependence inside the time lag.

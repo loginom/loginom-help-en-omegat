@@ -1,7 +1,7 @@
 ---
 description: Построение OLAP-куба в Loginom. Руководство по многомерному анализу данных с помощью визуализатора OLAP куба. Настройка измерений и фактов.
 ---
-# ![Cube Visualiser](./../../images/icons/common/view_types/cube_default.svg) Cube
+# ![Cube Visualizer](./../../images/icons/common/view_types/cube_default.svg) Cube
 
 [Cube](https://wiki.loginom.ru/articles/cube.html) is one of the wide spread methods of the complex multidimensional data analysis called [OLAP](https://wiki.loginom.ru/articles/online-analytical-processing.html) (OnLine Analytical Processing). It is based on data view in the form of the multidimensional cubes that are also called OLAB cubes or hypercubes.
 
@@ -32,11 +32,11 @@ The list of the columns that can be used as dimensions or measures is displayed 
 
 #### Dimensions
 
-To generate a report using the Cube, it is necessary to add the required dimensions to rows or columns. Добавить измерения в Куб можно несколькими способами:
+To generate a report using the Cube, it is necessary to add the required dimensions to rows or columns. It is possible to add dimensions to the Cube in several ways:
 
-* Перетащить (Drag-and-Drop) поле из Области свободных полей (1) в Область измерений колонок или строк (2 или 4).
+* Drag (Drag-and-Drop) field from the Area of Free Fields (1) to the Area of Dimensions of columns or rows (2 or 4).
 * press ![Add](./../../images/icons/common/toolbar-controls/plus-native_default.svg) button of the required area and select the required field from the list.
-* Нажать кнопку ![Настроить измерения](./../../images/icons/common/toolbar-controls/dimension_default.svg) на Панели инструментов и распределить поля в нужные области.
+* Press ![Configure dimensions](./../../images/icons/common/toolbar-controls/dimension_default.svg) button on the Toolabr and distribute fields between the required areas.
 
 Count of dimensions is limited by the number of the available fields. It is recommended to use not more than 5-7 dimensions to make the report clear and interpretable.
 
@@ -53,52 +53,52 @@ The following options are available when pressing ![Open menu](./../../images/ic
 * ![In original order](../../images/icons/blank.svg) **In original order**: place the values in the order of their appearance in data.
 * ![Delete](../../images/icons/common/toolbar-controls/delete_default.svg) **Delete**: delete a dimension from the Cube. It is possible to delete a dimension by dragging (Drag-and-Drop) back to the Area of Free Fields.
 
-При нажатии на измерение появляется toolbar со следующими возможностями:
-* ![](../../images/icons/common/toolbar-controls/toolbar-controls_18x18_visible_default.svg)**Отметить все** / ![](../../images/icons/common/toolbar-controls/invert-eye_default.svg)**Снять все** — выделяет все значения в списке или снимает выделение со всех значений списка (%kbd Ctrl A %/ %kbd Ctrl Shift A %).
+When pressing the dimension, toolbar with the following options appears:
+* ![](../../images/icons/common/toolbar-controls/toolbar-controls_18x18_visible_default.svg)**Check all** / ![](../../images/icons/common/toolbar-controls/invert-eye_default.svg)**Uncheck all** enables to select all values in the list or deselect all list values (%kbd Ctrl A %/ %kbd Ctrl Shift A %).
 * ![ ](../../images/icons/common/toolbar-controls/invert-eye_default.svg) **Invert selection**: change the selected values from the list to the unselected ones and vice versa.
 * ![ ](../../images/icons/common/toolbar-controls/eye-filter_default.svg) **Check by pattern...**: set the condition and method of dimensions selection.
-* ![](../../images/icons/common/toolbar-controls/toolbar-controls_18x18_copy_default.svg) **Копировать отмеченные** (%kbd Ctrl C %).
-* ![](../../images/icons/common/toolbar-controls/toolbar-controls_18x18_paste_default.svg) **Добавить к отмеченным** (%kbd Ctrl V %).
+* ![](../../images/icons/common/toolbar-controls/toolbar-controls_18x18_copy_default.svg) **Copy marked** (%kbd Ctrl C %).
+* ![](../../images/icons/common/toolbar-controls/toolbar-controls_18x18_paste_default.svg) **Add to marked** (%kbd Ctrl V %).
 
-Специальные возможности копирования и добавления:
+Special features of copying and adding:
 
-* Из фильтра копируются отмеченные значения списка в буфер обмена.
-* В фильтр добавляются значения из буфера обмена и присоединяются к уже существующим значениям.
+* The marked list values are copied from the filter to the clipboard.
+* The clipboard values are added to the filter and join already existing values.
 
-%spoiler% Ограничения копирования и вставки %spoiler%
+%spoiler% Copy and paste restrictions %spoiler%
 
-В браузерах Google Chrome и Mozila Firefox при работе через протокол `http` кнопки ![](../../images/icons/common/toolbar-controls/toolbar-controls_18x18_copy_default.svg) **Копировать**, ![](../../images/icons/common/toolbar-controls/toolbar-controls_18x18_paste_default.svg) **Вставить** и горячая клавиша (%kbd Ctrl C % работать не будут.
+When working in Google Chrome and Mozila Firefox browsers via `http` protocol, ![](../../images/icons/common/toolbar-controls/toolbar-controls_18x18_copy_default.svg) **Copy**, ![](../../images/icons/common/toolbar-controls/toolbar-controls_18x18_paste_default.svg) **Paste** buttons and (%kbd Ctrl C % hotkey will not function.
 
-> Примечание: В браузере `Firefox` для расширения функционала по протоколу `https` необходимо в адресной строке браузера ввести `about:config`, найти параметр `dom.events.testing.asyncClipboard` и изменить его значение на `true`. Заработают горячие клавиши и кнопка ![](../../images/icons/common/toolbar-controls/toolbar-controls_18x18_copy_default.svg) Копировать.
+> Note: In `Firefox` browser to expand the functionality via `https` protocol, it is required to enter `about:config` in the browser address bar, find `dom.events.testing.asyncClipboard` parameter and change its value for `true`. Hotkeys and ![](../../images/icons/common/toolbar-controls/toolbar-controls_18x18_copy_default.svg) Copy button will function.
 
-Формат данных буфера обмена — строковые значения, разделенные переводами строки.
+Format of clipboard data — the string values separated with line breaks.
 
 %/spoiler%
 
-* **Режим выбора значений фильтра:**
+* **Filter mode:**
 
 To filter data by the dimension, it is required to click on the required dimension with the mouse, configure the filter on the opened panel and press "Apply". If filtration has been configured by the dimension, it is highlighted in orange. The filter can be used in three modes:
 
-%spoiler% Фильтр по измерению  %spoiler%
+%spoiler% Dimension filter  %spoiler%
 
 * ![ ](../../images/icons/common/toolbar-controls/icon-200_default.svg) **Multiple selection**: a user can select the random count of values from the list of the available ones. The selected values will be displayed in the Cube.
 * ![ ](../../images/icons/common/toolbar-controls/icon-201_default.svg)
    **Single selection**: select only one value from the list that will be displayed in the Cube.
 * ![ ](../../images/icons/common/toolbar-controls/icon-202_default.svg) **Combined selection**: select one dimension value from the list that has been earlier formed in the multiple selection mode.
 
-В режимах ![ ](../../images/icons/common/toolbar-controls/icon-201_default.svg)
-**Одиночный выбор** или ![ ](../../images/icons/common/toolbar-controls/icon-202_default.svg) **Комбинированный выбор** при просмотре куба появляются кнопки у измерения![<](../../images/icons/common/toolbar-controls/arrow-l_default.svg) и ![>](../../images/icons/common/toolbar-controls/arrow-r_default.svg) для перелистывания значений фильтра. The Area of Measures (3) will be rebuilt to comply with the filter value when paging. It is possible to enable paging across the bounds of the values list by pressing on ![ ](../../images/icons/common/toolbar-controls/roll-over_default.svg) **Loop values** button.
+In ![ ](../../images/icons/common/toolbar-controls/icon-201_default.svg)
+**Single selection** or ![ ](../../images/icons/common/toolbar-controls/icon-202_default.svg) **Combined selection** modes when viewing the cube, buttons of ![<](../../images/icons/common/toolbar-controls/arrow-l_default.svg) and ![>](../../images/icons/common/toolbar-controls/arrow-r_default.svg) dimension appear to turn over the filter values. The Area of Measures (3) will be rebuilt to comply with the filter value when paging. It is possible to enable paging across the bounds of the values list by pressing on ![ ](../../images/icons/common/toolbar-controls/roll-over_default.svg) **Loop values** button.
 
-В режиме ![ ](../../images/icons/common/toolbar-controls/icon-200_default.svg) **Множественный выбор** с помощью переключателя **Режим включенных/исключенных** фильтр запоминает проходящие фильтр значения, в режиме исключённых значений фильтр запоминает отфильтрованные значения. При изменении входных данных новые значения будут проходить или не проходить фильтр в зависимости от этой настройки.
+In ![ ](../../images/icons/common/toolbar-controls/icon-200_default.svg) **Multiple selection** mode using **Inclusive/exclusive filter** switch, the filter memorizes the values passing through the filter, and the filter memorizes the filtered values in the exclusive filter mode. When changing the input data, the new values will pass or won't pass the filter according to this setting.
 
 
 To configure selection, it is required to open *Check by pattern* window (the configured dimension is also specified in the window header). It is required to select the condition of dimension values and pattern mapping to the left in the drop-down list. The pattern is set to the right from the list in the entry field. The selected method of selection will be applied to all dimensions that comply with the condition (*Check, Add to checked, Uncheck* or *Remove from checked*). The case of letters can be taken into account during the selection process. For this purpose, it is required to select *Case-sensitive* checkbox.
 
-| Режим | Копирование | Вставка |
+| Mode | Copy | Paste |
 |:-:|:-:|:-:|
-| Множественный, режим включенных значений | Копируются все включенные значения (проходящие фильтр) | Успешно распознанные значения добавляются во включенные значения |
-| Множественный, режим исключенных значений | Копируются все исключенные значения (непроходящие фильтр) | Успешно распознанные значения добавляются в исключенные значения |
-| Одиночный и комбинированный режимы | Копируется текущее выбранное значение | Обрабатывается только первое строковое значение, остальные игнорируются, успешно распознанное значение становится выделенным, на него прокручивается таблица |
+| Multiple, inclusive filter | All included values (passing through the filter) are copied | Successfully captured values are added to the included values |
+| Multiple, exclusive filter | All excluded values (not passing through the filter) are copied | Successfully captured values are added to the excluded values |
+| Single and Combined Modes | The current selected value is copied | Only the first row value is processed, the other ones are ignored, the successfully captured value becomes the selected one, the table is scrolled to reach it |
 
 %/spoiler%
 
@@ -111,20 +111,20 @@ It is possible to add measures in two ways:
 * Drag (Drag-and-Drop) the required field from the Area of Free Fields (1) to the Area of Measures (3).
 * By pressing on ![Measures](./../../images/icons/common/toolbar-controls/sum_default.svg) Measures button, it is necessary to select the required field and in the appeared [window](./add-measure.md) select the required method of [aggregation](./../../processors/func/aggregation-functions.md) and method of its display.
 
-%spoiler%Агрегация фактов и возможные типы данных%spoiler%
+%spoiler%Measure aggregation and possible data types%spoiler%
 
-|Вид агрегации|![](./../../images/icons/common/data-types/string_default.svg)|![](./../../images/icons/common/data-types/integer_default.svg)|![](./../../images/icons/common/data-types/float_default.svg)|![](./../../images/icons/common/data-types/boolean_default.svg)|![](./../../images/icons/common/data-types/datetime_default.svg)|![](./../../images/icons/common/data-types/variant_default.svg)|
+|Aggregation kind|![](./../../images/icons/common/data-types/string_default.svg)|![](./../../images/icons/common/data-types/integer_default.svg)|![](./../../images/icons/common/data-types/float_default.svg)|![](./../../images/icons/common/data-types/boolean_default.svg)|![](./../../images/icons/common/data-types/datetime_default.svg)|![](./../../images/icons/common/data-types/variant_default.svg)|
 |:-|:-:|:-:|:-:|:-:|:-:|:-:|
-|![](./../../images/icons/common/aggregations/factor-sum_default.svg) Сумма||**•**|**•**||||
-|![](./../../images/icons/common/aggregations/factor-count_default.svg) Количество|**•**|**•**|**•**|**•**|**•**|**•**|
-|![](./../../images/icons/common/aggregations/factor-min_default.svg) Минимум|**•**|**•**|**•**|**•**|**•**||
-|![](./../../images/icons/common/aggregations/factor-max_default.svg) Максимум|**•**|**•**|**•**|**•**|**•**||
-|![](./../../images/icons/common/aggregations/factor-avg_default.svg) Среднее||**•**|**•**||**•**||
-|![](./../../images/icons/common/aggregations/factor-stddev_default.svg) Стандартное отклонение||**•**|**•**||**•**||
-|![](./../../images/icons/common/aggregations/factor-unique-count_default.svg) Количество уникальных|**•**|**•**|**•**|**•**|**•**|**•**|
-|![](./../../images/icons/common/aggregations/factor-null-count_default.svg) Количество пропусков|**•**|**•**|**•**|**•**|**•**|**•**|
-|![](./../../images/icons/common/aggregations/factor-stat-first_default.svg) Первый|**•**|**•**|**•**|**•**|**•**|**•**|
-|![](./../../images/icons/common/aggregations/factor-stat-last_default.svg) Последний|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|
+|![](./../../images/icons/common/aggregations/factor-sum_default.svg) Sum||**•**|**•**||||
+|![](./../../images/icons/common/aggregations/factor-count_default.svg) Count|**•**|**•**|**•**|**•**|**•**|**•**|
+|![](./../../images/icons/common/aggregations/factor-min_default.svg) Minimum|**•**|**•**|**•**|**•**|**•**||
+|![](./../../images/icons/common/aggregations/factor-max_default.svg) Maximum|**•**|**•**|**•**|**•**|**•**||
+|![](./../../images/icons/common/aggregations/factor-avg_default.svg) Average||**•**|**•**||**•**||
+|![](./../../images/icons/common/aggregations/factor-stddev_default.svg) Standard deviation||**•**|**•**||**•**||
+|![](./../../images/icons/common/aggregations/factor-unique-count_default.svg) Count of unique|**•**|**•**|**•**|**•**|**•**|**•**|
+|![](./../../images/icons/common/aggregations/factor-null-count_default.svg) Null count|**•**|**•**|**•**|**•**|**•**|**•**|
+|![](./../../images/icons/common/aggregations/factor-stat-first_default.svg) First|**•**|**•**|**•**|**•**|**•**|**•**|
+|![](./../../images/icons/common/aggregations/factor-stat-last_default.svg) Last|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|
 
 %/spoiler%
 
@@ -139,4 +139,4 @@ It is possible to delete a measure by deselecting the checkbox in called *Config
 
 > **Note:** The aggregation option and method of its display first in the list are selected by default. Display of several aggregation options and methods of their display for each measure is supported.
 
-It is possible to move ![Measures](./../../images/icons/common/toolbar-controls/sum_default.svg)Measures button from rows to columns, and, thus, it is possible to change location of measures headers. В случаях когда требуется переместить факт в измерения, необходимо с помощью метода DnD переместить факты из Область измерений в колонках переместить (4) в Область измерений в строках (2).
+It is possible to move ![Measures](./../../images/icons/common/toolbar-controls/sum_default.svg)Measures button from rows to columns, and, thus, it is possible to change location of measures headers. When it is required to move measure to dimensions, it is necessary to move measures using DnD method from the Area of Dimensions in columns (4) to the Area of Dimensions in rows (2).

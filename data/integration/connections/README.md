@@ -23,15 +23,15 @@ Before [interaction with SOAP services](./../../processors/integration/soap-requ
 
 * Web Services:
    * [Kafka](./list/kafka.md).
-   * [REST-сервиса](./list/rest-service.md).
-   * [SOAP-сервиса](./list/soap-service.md).
+   * [REST service](./list/rest-service.md).
+   * [SOAP service](./list/soap-service.md).
 * Data Warehouses:
-   * [Набор XSD-схем](./list/schemes.md).
+   * [Set of XSD schemas](./list/schemes.md).
    * [Deductor Warehouse [Firebird]](./list/wh-firebird.md).
    * [Deductor Warehouse [MS SQL]](./list/wh-mssql.md).
    * [Deductor Warehouse [Oracle]](./list/wh-oracle.md).
 * Business Applications:
-   * [1C:Предприятие 8](./list/1c.md).
+   * [1C:Enterprise 8](./list/1c.md).
 ## Connection Setup
 
 A separate list of connections can be set for each module included into the package. To create/edit connections, it is required to show the package structure on the navigation bar and select *Connections* of corresponding module (refer to Figure 1).

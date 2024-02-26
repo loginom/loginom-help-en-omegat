@@ -3,46 +3,46 @@ description: Справка по функциям агрегации данны�
 ---
 # Aggregation Functions
 
-**Функции агрегации** — статистические функции, которые работают с множеством значений. They return one value that is characteristic of such set.
+**Aggregation functions** are statistical functions that are used with a set of values. They return one value that is characteristic of such set.
 
-Рассмотрим все возможные функции агрегации, реализованные в Loginom:
+Let's consider all possible aggregation functions available in Megaladata:
 
-#### ![](./../../images/icons/common/aggregations/factor-sum_default.svg) Сумма
-Результатом является сумма значений всех ячеек в столбце.
-#### ![](./../../images/icons/common/aggregations/factor-count_default.svg) Количество
-Итог — общее количество записей в наборе данных, в том числе пустые записи и записи без значения (*`<null>`*).
-#### ![](./../../images/icons/common/aggregations/factor-min_default.svg) Минимум
-Результатом является наименьшее значение по столбцу. Пустые записи в агрегации не участвуют, кроме типа ![](./../../images/icons/common/data-types/string_default.svg) Строковый, где пустая запись является наименьшей. Записи с *`<null>`* в агрегации не участвуют вовсе.
-#### ![](./../../images/icons/common/aggregations/factor-max_default.svg) Максимум
-Результатом является наибольшее значение по столбцу. Для ![](./../../images/icons/common/data-types/string_default.svg) Строкового типа сравнение производится с учетом локали.
-#### ![](./../../images/icons/common/aggregations/factor-avg_default.svg) Среднее
-Итогом является среднее значение всех ячеек столбца. В расчетах участвуют все поля, кроме пустых и  *`<null>`*.
-#### ![](./../../images/icons/common/aggregations/factor-median_default.svg) Медиана
-Итог — значение [медианы](https://wiki.loginom.ru/articles/median.html) по столбцу.
-#### ![](./../../images/icons/common/aggregations/mode_default.svg) Мода
-Итог — значение [моды](https://wiki.loginom.ru/articles/mode.html) по столбцу.
-Мода доступна для всех [видов данных](../../data/datakind.md) и [типов данных](../../data/datatype.md).
-Колонка результата имеет тип данных исходного поля, а вид данных явно установлен в Дискретный.
-Пропущенные значения игнорируются, как и при расчете количества уникальных значений.
-В случае, если мод несколько, то будет выбрано наименьшее значение:
+#### ![](./../../images/icons/common/aggregations/factor-sum_default.svg) Sum
+The sum of values of all column cells is a result.
+#### ![](./../../images/icons/common/aggregations/factor-count_default.svg) Count
+Result: total number of records in the data set, including null records and records without a value (*`<null>`*).
+#### ![](./../../images/icons/common/aggregations/factor-min_default.svg) Minimum
+The minimum value by column is a result. The null records are not included into the aggregation, with the exception of ![](./../../images/icons/common/data-types/string_default.svg) String type where the null record is the minimum one. Records with *`<null>`* are not included into the aggregation at all.
+#### ![](./../../images/icons/common/aggregations/factor-max_default.svg) Maximum
+The highest value by column is a result. For ![](./../../images/icons/common/data-types/string_default.svg) String type comparison is made taking locale into account.
+#### ![](./../../images/icons/common/aggregations/factor-avg_default.svg) Average
+The average value of all column cells is a result. The fields that are not empty and *`<null>`* are included into calculations.
+#### ![](./../../images/icons/common/aggregations/factor-median_default.svg) Median
+Result: [Median](https://wiki.loginom.ru/articles/median.html) value by column.
+#### ![](./../../images/icons/common/aggregations/mode_default.svg) Mode
+Result: [mode](https://wiki.loginom.ru/articles/mode.html) value by column.
+The mode is available for all [data linds](../../data/datakind.md) and [data types](../../data/datatype.md).
+The result column has the source field data type, and data kind is explicitly set in Discrete.
+Null values are ignored as when calculating the count of unique values.
+If there are several modes, the lowest value will be selected:
 
-* для логического типа данных - False;
+* for the logical data type - False;
 
-* для числовых данных - наименьшее из чисел;
+* for the numeric data - the least number;
 
-* для строк - наименьшее в лексикографическом порядке.
-#### ![](./../../images/icons/common/aggregations/factor-stddev_default.svg) Стандартное отклонение
-Результатом является среднеквадратическое [отклонение](https://wiki.loginom.ru/articles/mean-square-deviation.html) по столбцу. Участвующие в агрегации поля такие же, как у агрегации Среднее.
-#### ![](./../../images/icons/common/aggregations/factor-unique-count_default.svg) Количество уникальных
-Итог — количество уникальных значений записей. При подсчете не учитываются записи со значением *`<null>`* или значением, не соответствующим типу данных.
-#### ![](./../../images/icons/common/aggregations/factor-null-count_default.svg) Количество пропусков
-Результатом является количество записей с пустыми значениями, со значением *`<null>`* или со значениями, не соответствующими типу данных. Кроме типа данных ![](./../../images/icons/common/data-types/string_default.svg) Строковый, где пропусками считаются записи со значением *`<null>`*.
-#### ![](./../../images/icons/common/aggregations/factor-stat-first_default.svg) Первый
-Выводится значение первой записи в наборе данных.
-#### ![](./../../images/icons/common/aggregations/factor-stat-last_default.svg) Последний
-Выводится значение последней записи наборе данных.
-#### ![](./../../images/icons/common/aggregations/factor-only_default.svg) Единственный
-Выводится единственное уникальное значение, при этом не учитываются (игнорируются) записи без значения (*`<null>`*).
+* for strings - the least one in the lexicographical order.
+#### ![](./../../images/icons/common/aggregations/factor-stddev_default.svg) Standard deviation
+The mean-square [deviation](https://wiki.loginom.ru/articles/mean-square-deviation.html) by column is a result. The fields that are included into the aggregation are as for the Average aggregation.
+#### ![](./../../images/icons/common/aggregations/factor-unique-count_default.svg) Count of unique
+Result: count of unique values of records. The records with the null value, with *`<null>`* value or the value that does not match the data type are not taken into account in the calculation process.
+#### ![](./../../images/icons/common/aggregations/factor-null-count_default.svg) Null count
+The number of records with the null values, *`<null>`* value or the values that do not match the data type is a result. With the exception of ![](./../../images/icons/common/data-types/string_default.svg) String data type where the records with  *`<null>`* value are considered to be null.
+#### ![](./../../images/icons/common/aggregations/factor-stat-first_default.svg) First
+The first record value in the data set is displayed.
+#### ![](./../../images/icons/common/aggregations/factor-stat-last_default.svg) Last
+The last record value in the data set is displayed.
+#### ![](./../../images/icons/common/aggregations/factor-only_default.svg) Single
+The only unique value is displayed. In this case, the records without a value (*`<null>`*) are not taken into account (ignored).
 
 
 

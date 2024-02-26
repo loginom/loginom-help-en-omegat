@@ -4,4 +4,4 @@ description: Исследование в Loginom. Оглавление
 
 # Scrutiny
 
-С помощью этих компонентов можно оценить и/или визуализировать структуру и статистические характеристики данных. They also enable to perform exploratory and descriptive analysis.
+These components enable to assess and/or visualize the structure and statistical characteristics of data. They also enable to perform exploratory and descriptive analysis.

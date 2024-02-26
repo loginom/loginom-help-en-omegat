@@ -29,24 +29,24 @@ Joined table:
 |2|Saint Petersburg|
 |3|Kazan|
 
-![Для CROSS JOIN слияния связь между таблицами не устанавливается](./merge-crossjoin.png)
+![For CROSS JOIN no connection between tables is established](./merge-crossjoin.png)
 
 Resulting table:
 
-|Имя|Id города|id|Город|
+|Name|City Id|id|City|
 |:-|-:|-:|:-|
-|Андрей|1|1|Москва|
-|Андрей|1|2|Санкт-Петербург|
-|Андрей|1|3|Казань|
-|Леонид|2|1|Москва|
-|Леонид|2|2|Санкт-Петербург|
-|Леонид|2|3|Казань|
-|Сергей|1|1|Москва|
-|Сергей|1|2|Санкт-Петербург|
-|Сергей|1|3|Казань|
-|Григорий|4|1|Москва|
-|Григорий|4|2|Санкт-Петербург|
-|Григорий|4|3|Казань|
+|Andrey|1|1|Moscow|
+|Andrey|1|2|Saint Petersburg|
+|Andrey|1|3|Kazan|
+|Leonid|2|1|Moscow|
+|Leonid|2|2|Saint Petersburg|
+|Leonid|2|3|Kazan|
+|Sergey|1|1|Moscow|
+|Sergey|1|2|Saint Petersburg|
+|Sergey|1|3|Kazan|
+|Gregory|4|1|Moscow|
+|Gregory|4|2|Saint Petersburg|
+|Gregory|4|3|Kazan|
 
 ## Full Join (SQL Analogue: `FULL JOIN`)
 
@@ -93,7 +93,7 @@ Resulting table:
 
 > **Important:** To use `FULL JOIN` when selecting *Full join* method of join, it is required to map the key fields of the joined data sets in the wizard. If there is no mapping, the `CROSS JOIN` algorithm of join is used. When selecting this join method, the resulting sample volume can get higher very rapidly.
 
-Only the key fields of the main table can be included into the resulting data set for any join (`JOIN`). To include the key fields of the joined table into the resulting data set, it is required to select the following checkbox: *Add joined key fields*. Если флаг установлен, то результирующая таблица из предыдущего примера будет выглядеть следующим образом:
+Only the key fields of the main table can be included into the resulting data set for any join (`JOIN`). To include the key fields of the joined table into the resulting data set, it is required to select the following checkbox: *Add joined key fields*. If the checkbox is selected, the resulting table specified in the previous example will be as follows:
 
 |Name|City Id|City|Id|
 |:-|-:|:-|:-|

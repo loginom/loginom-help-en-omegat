@@ -1,101 +1,101 @@
 ---
 description: Матрица доступа пользователей в Loginom. Пользователи. Проектирование сценариев. Просмотр отчётов. Пакетное выполнение. Администрирование. 
 ---
-# Матрица доступов
+# Access Matrix
 
-В данной статье описывается распределение прав доступа в аналитической платформе Loginom.
+Access rights allocation in the Megaladata analytical platform is described in this article.
 
-Условные обозначения:
+Identification:
 
-| Обозначение |Описание|
+| Designation |Description|
 |:-:|:-|
-|ADMIN|пользователь с ролью Администрирование|
-|USER|пользователь с ролью Проектирование сценариев|
-|VIEWER|пользователь с ролью Просмотр отчетов|
-|SERVICE|пользователь с ролью Пакетное выполнение|
-|●|полный доступ в Loginom Studio|
-|○|функционал доступен при наличии у пользователя прав доступа, которые назначаются соответствующими настройками его учетной записи|
+|ADMIN|user with Administration role|
+|USER|user with Workflows design role|
+|VIEWER|user with View reports role|
+|SERVICE|user with Batch processing role|
+|●|full access to Megaladata Studio|
+|○|functionality is only available if the user has access rights provided by means of corresponding account settings|
 
 
-|Элемент пользовательского интерфейса или действие|ADMIN|USER|VIEWER|SERVICE|
+|User interface element or action|ADMIN|USER|VIEWER|SERVICE|
 |:-|:--:|:--:|:--:|:--:|
-|[**Главное меню**](./../../interface/main-menu.md)|●|●|●||
-|&nbsp;&nbsp;&nbsp;[**Меню**](./../../interface/main-menu.md#меню)|●|●|●||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Начало](./../../interface/home-page.md)|●|●|●||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Справка|●|●|●||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Задать вопрос](https://qa.loginom.ru/questions/)|●|●|●||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;О программе|●|●|●||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Выход|●|●|●||
-|&nbsp;&nbsp;&nbsp;[**Пакеты**](./../../interface/packages.md)||●|●||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Создать||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Открыть||●|●||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Сохранить||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Закрыть||●|●||
-|&nbsp;&nbsp;&nbsp;[**Панель навигации**](./../../interface/main-menu.md#навигация)|●|●|●||
-|&nbsp;&nbsp;&nbsp;[**Файловое хранилище**](./../../interface/main-menu.md#файлы)|●|●|●||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Личная папка|●|●|●|●|
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Общие папки|○|○|○|○|
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Полный доступ|○|○|○|○|
-|&nbsp;&nbsp;&nbsp;[**Раздел Администрирование**](./../README.md)|●||||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Пользователи](./README.md)|●||||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Общие папки](./../shared-folder.md)|●||||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Параметры](./../parameters.md)|●||||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Диспетчер](./../dispatcher.md)|●||||
-|[**Страница Сценарий**](./../../interface/workflow.md)||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Компоненты](./../../processors/standard-components.md)||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Добавление в сценарий||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Настройка||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Удаление из сценария||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Производные компоненты](./../../workflow/derived-component.md)||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Создание||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Использование||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Подключения](./../../integration/connections/README.md)||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Создание||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Настройка||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Использование в сценарии||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Удаление||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Ссылки](./../../workflow/reference-to-package.md)||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Модули||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Добавить||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Редактировать||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Удалить||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Задать область видимости||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Публикация пакетов](./../../integration/web-services/README.md)||○|||
-|[**Страница Визуализаторы**](./../../visualization/README.md)||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Создание и настройка||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Переименовать||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Удалить||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Добавить в отчеты||●|||
-|[**Страница Отчеты**](./../../report/README.md)||●|●||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Открыть||●|●||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Добавить группу||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Переименовать||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Сгруппировать||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Переместить||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Удалить||●|||
-|[**Страница Веб-сервисы**](./../../integration/web-services/administration-web-services.md)||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Добавить||○|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Обновить публикацию||○|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Редактировать||○|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Завершить||○|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Обновить список||●|||
-|[**Страница Переменные**](./../../workflow/variables/README.md)||●|●||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Переменные системы](./../../workflow/variables/predefined-variables.md#переменные-системы) (чтение)||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Переменные сессии](./../../workflow/variables/predefined-variables.md#переменные-сессии) (чтение)||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Переменные пакета](./../../workflow/variables/predefined-variables.md#переменные-пакета) (чтение)<sup>1</sup>||●|●||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Добавить<sup>2</sup>||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Редактировать<sup>2</sup>||●|●||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Изменить порядок<sup>2</sup>||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Фильтрация<sup>2</sup>||●|●||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Удалить<sup>2</sup>||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Переменные пользователя](./../../workflow/variables/scenario-variables.md)||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Добавить||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Редактировать||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Изменить порядок||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Фильтрация||●|||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Удалить||●|||
-|[**Панель процессы**](./../../interface/processes-panel.md)||●|●|&nbsp;|
+|[**Main menu**](./../../interface/main-menu.md)|●|●|●||
+|&nbsp;&nbsp;&nbsp;[**Menu**](./../../interface/main-menu.md#меню)|●|●|●||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Start](./../../interface/home-page.md)|●|●|●||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Help|●|●|●||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Ask](https://qa.loginom.ru/questions/)|●|●|●||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About|●|●|●||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exit|●|●|●||
+|&nbsp;&nbsp;&nbsp;[**Packages**](./../../interface/packages.md)||●|●||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Open||●|●||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Save||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Close||●|●||
+|&nbsp;&nbsp;&nbsp;[**Navigation toolbar**](./../../interface/main-menu.md#навигация)|●|●|●||
+|&nbsp;&nbsp;&nbsp;[**File storage**](./../../interface/main-menu.md#файлы)|●|●|●||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Personal folder|●|●|●|●|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shared folders|○|○|○|○|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Full access|○|○|○|○|
+|&nbsp;&nbsp;&nbsp;[**Administration section**](./../README.md)|●||||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Users](./README.md)|●||||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Shared folders](./../shared-folder.md)|●||||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Parameters](./../parameters.md)|●||||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Session Manager](./../dispatcher.md)|●||||
+|[**Workflow page**](./../../interface/workflow.md)||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Components](./../../processors/standard-components.md)||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add to workflow||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Configure||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Delete from workflow||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Derived components](./../../workflow/derived-component.md)||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Connections](./../../integration/connections/README.md)||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Configure||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use in workflow||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Delete||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[References](./../../workflow/reference-to-package.md)||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Modules||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Edit||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Delete||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Set visibility area||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Publish packages](./../../integration/web-services/README.md)||○|||
+|[**Visualizers page**](./../../visualization/README.md)||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create and configure||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rename||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Delete||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add to reports||●|||
+|[**Reports page**](./../../report/README.md)||●|●||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Open||●|●||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add to group||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rename||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Group||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Move||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Delete||●|||
+|[**Web Services page**](./../../integration/web-services/administration-web-services.md)||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add||○|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Update publication||○|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Edit||○|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Terminate||○|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Update list||●|||
+|[**Variable page**](./../../workflow/variables/README.md)||●|●||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[System variables](./../../workflow/variables/predefined-variables.md#переменные-системы) (read)||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Sessions variables](./../../workflow/variables/predefined-variables.md#переменные-сессии) (read)||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Package variables](./../../workflow/variables/predefined-variables.md#переменные-пакета) (read)<sup>1</sup>||●|●||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add<sup>2</sup>||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Edit<sup>2</sup>||●|●||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Change order<sup>2</sup>||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Filter<sup>2</sup>||●|●||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Delete<sup>2</sup>||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[User variables](./../../workflow/variables/scenario-variables.md)||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Edit||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Change order||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Filter||●|||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Delete||●|||
+|[**Processes panel**](./../../interface/processes-panel.md)||●|●|&nbsp;|
 
-<sup>1</sup> Для системных переменных пакета
+<sup>1</sup> For system package variables
 
-<sup>2</sup> Для пользовательских переменных пакета
+<sup>2</sup> For user package variables

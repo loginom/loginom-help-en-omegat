@@ -21,14 +21,14 @@ The wizard contains several configuration stages.
 
 The following parameters are specified at the first configuration stage:
 
-* **Имя файла/URL** — задает путь к импортируемому файлу при локальном подключении, либо имя файла при использовании подключения к папке. Также в имени файла можно задавать URL-ссылку для скачивания. ![ ](./../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button calls the file selection dialog.
+* **File name/URL** enables to set a path to the imported file when the connection is local, or a file name when using connection to a folder. It is also possible to set URL reference for downloading in the file name. ![ ](./../../../images/extjs-theme/form/open-trigger/open-trigger_default.svg) button calls the file selection dialog.
 * *Data source* group of parameters
    * **Object selection**: it is requested to select one of the selection options of the Excel object containing the imported data.
       * **By number**: by the workbook sheet order number.
       * **By name**: by the workbook sheet name.
       * **Named range**: by the name of the named range created in the workbook.
    * **Whole sheet**: area of the sheet containing data for import is automatically defined.
-   * **Reference style**: it is requested to select one of the identification options of the Excel worksheet cells.
+   * **Reference style**: it is requested to select one of the identification options of the Excel sheet cells.
       * **A1**: according to this format, the row cells are identified in Latin characters, and a column is identified in figures.
       * **R1C1**: in R[x]C[y] format where x is a cell row number, y is a cell column number.
    * **Range**: the range of the imported cells set in ` format [address of the upper left cell]:[address of the bottom right cell]`.

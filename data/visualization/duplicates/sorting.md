@@ -3,11 +3,11 @@ description: Настройка сортировки в таблице дубл�
 ---
 # ![](./../../images/icons/common/toolbar-controls/sort-asc_default.svg) Configure Sorting
 
-В визуализаторе [Дубликаты и противоречия](./README.md) сортировка данных следует правилам описанным в узле [Сортировка](./../../processors/transformation/sorting.md).
+Data sorting in the [Duplicates and Contradictions](./README.md) visualizer is performed according to the rules described in the [Sorting](./../../processors/transformation/sorting.md) node.
 
 ## Configuration Window
 
-В левом списке отображаются поля, по которым можно производить сортировку, и столбцы, видимость которых убрана в таблице.
+The fields used for sorting and the columns with the visibility disabled in the Table are displayed in the left list.
 
 It is possible to filter the list of fields by specifying the field caption in the filter area.
 

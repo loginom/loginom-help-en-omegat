@@ -1,27 +1,27 @@
 ---
 description: Авторизация в Loginom. Basic Authentication.
 ---
-# Аутентификация в Loginom
+# Authentication in Megaladata
 
-В [серверных редакциях](https://loginom.ru/platform/pricing) Loginom перед началом работы необходимо авторизоваться. Для этого нужно пройти процедуру аутентификации одним из способов:
+In the [server Megaladata editions](https://loginom.ru/platform/pricing) it is required to log in before work. For this purpose, it is required to pass the authentication procedure using one of the following ways:
 
-* ввести логин и пароль на стартовой странице;
-* указать логин и пароль в [URL](#аутентификация-в-url);
-* через [LDAP](./../admin/ldap.md) сервер (для редакции Enterprise).
+* to enter a username and password on the home page;
+* to specify login and password in [URL](#аутентификация-в-url);
+* via the [LDAP](./../admin/ldap.md) server (for the Enterprise edition).
 
-Логин и пароль выдаются администратором, но при установке программы существует пользователь по умолчанию: логин *user*, без пароля.
+Login and password are provided by the administrator, but there is a default user in the case of the software installation: *user* login, without password.
 
-## Аутентификация в URL
+## Authentication in URL
 
-В общем виде URL с параметрами для аутентификации выглядит так:
+Generally, URL with authentification parameters is as follows:
 
-`http://login:password@address`, где
+`http://login:password@address` where
 
-* `login` — логин (имя) пользователя (строка, которая может содержать символы латинского алфавита, цифры, символы `_ - .`, пробел (URL encoded) и любую другую URL encoded строку);
-* `password` — пароль (строка, содержащая любые символы);
-* `address` — URL-адрес веб-интерфейса сервера Loginom.
+* `login`: login (name) of user (the string that can contain the Roman alphabet characters, digits, characters `_ - .`, space (URL encoded) and any other URL encoded string).
+* `password`: password (the string that can contain any characters).
+* `address`: URL address of the Megaladata server web interface.
 
-%spoiler%Примеры URL%spoiler%
+%spoiler%URL examples%spoiler%
 
 `http://user@localhost/app/`
 
@@ -29,24 +29,24 @@ description: Авторизация в Loginom. Basic Authentication.
 
 %/spoiler%
 
-Есть возможность использовать такой способ аутентификации вместе с [LDAP](./../admin/ldap.md).
+It is possible to use such authentification method with [LDAP](./../admin/ldap.md).
 
-> Аутентификация в URL не работает в браузерах Safari и Яндекс.Браузер. В Firefox необходима [настройка](#настройки-для-браузера-firefox).
+> Authentification in URL is not available in Safari and Yandex.Browser. [Configuration](#настройки-для-браузера-firefox) is required in Firefox.
 
-> Если доступ к Loginom осуществляется из сети Интернет, рекомендуется настроить сервер для работы через `https` протокол.
+> If Megaladata is accessed from the Internet, it is recommended to configure server for operation via the `https` protocol.
 
-### Настройки для браузера Firefox
+### Firefox Browser Settings
 
-В Firefox, при передаче параметров аутентификации в URL, будет показано предупреждающее окно, если сервер не запросил Basic аутентификацию. Чтобы Firefox не отображал предупреждающее окно, нужно сконфигурировать сервер Apache так, чтобы он запрашивал Basic аутентификацию.
+When transferring authentification parameters to URL in Firefox, warning window will be displayed if server hasn't requested the Basic authentification. To avoid the warning window displayed by Firefox, it is required to configure the Apache server in such a way to make it request the Basic configuration.
 
-%spoiler%Пример настройки Firefox для localhost %spoiler%
+%spoiler%Example of Firefox configuration for localhost %spoiler%
 
-Совместно с `http://localhost/app/` создаем alias, например, такой: `http://localhost/app-basicauth/`, по которому также будет доступно приложение.
-При заходе в Firefox по `http://localhost/app-basicauth/` Apache запрашивает Basic аутентификацию.
+It is required to create alias with `http://localhost/app/`, for example: `http://localhost/app-basicauth/`. It will make the application available.
+When logging into Firefox via `http://localhost/app-basicauth/`, Apache will request the Basic authentification.
 
-Потребуется создать файл с именами пользователей и хэшированными паролями - [документация](https://httpd.apache.org/docs/2.4/programs/htpasswd.html).
+It is required to create a file with usernames and hashed passwords - [documentation](https://httpd.apache.org/docs/2.4/programs/htpasswd.html).
 
-Если нужно настроить только для пользователя `user`, который по умолчанию без пароля, то достаточно просто создать файл `.htpasswd` (без указания расширения) в папке `C:\Program Files\Loginom\Client` с кодом:
+If it is required to provide configuration only for `user` user who doesn't have a password by default, it is sufficient just to create `.htpasswd` file (without extension) in the following folder: `C:\Program Files\Loginom\Client` with the following code:
 
 ```
 <If "%{HTTP_USER_AGENT} =~ /Firefox/ && %{REQUEST_URI} =~ /\/app-basicauth\//">
@@ -61,6 +61,6 @@ description: Авторизация в Loginom. Basic Authentication.
 </Else>
 ```
 
-В результате Firefox будет отображать информационное окно с текстом: `You are about to log in to the site “localhost” with the username “user”`.
+In the result, Firefox will show the information window with the following text: `You are about to log in to the site “localhost” with the username “user”`.
 
 %/spoiler%

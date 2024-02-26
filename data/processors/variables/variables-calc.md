@@ -3,7 +3,7 @@ description: Компонент Калькулятор (переменные) в
 ---
 # ![Calculator-Variables](./../../images/icons/components/calc-variables_default.svg) Calculator (Variables)
 
-Компонент предназначен для математических операций над переменными. New variables are created and their values are calculated in the wizard according to the expressions set by a user.
+The component is designated for mathematical operations with variables. New variables are created and their values are calculated in the wizard according to the expressions set by a user.
 
 > **Important:** Values of the expressions are calculated in the order in which they are stated in the expressions list, namely, the expressions that are higher in the list are calculated first. It is allowed to use only the expressions that are higher in the list in the expression formula. Consequently, incorrect list item position can cause a mistake.
 
@@ -11,20 +11,20 @@ description: Компонент Калькулятор (переменные) в
 
 ### Input
 
-* ![Входные переменные](./../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) **Входные переменные** — список переменных, которые можно использовать в узле.
+* ![Input variables](./../../images/icons/app/node/ports/inputs-optional/variable_inactive.svg) **Input variables**: list of variables that can be used in the node.
 
 ### Output
 
-* ![Выходные переменные](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Выходные переменные** — входные переменные и новые переменные, вычисленные узлом.
+* ![Output variables](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Output variables**: input variables and new variables calculated by the node.
 
 ## Wizard
 
 The wizard window includes the following areas:
 
-[Список выражений](#spisok-vyrazheniy)
-[Область кода выражения](#oblast-koda-vyrazheniya)
-[Переменные](#peremennye)
-[Список функций](#spisok-funktsiy)
+[List of expressions](#spisok-vyrazheniy)
+[Expression code area](#oblast-koda-vyrazheniya)
+[Variables](#peremennye)
+[List of functions](#spisok-funktsiy)
 
 ### List of Expressions
 
@@ -32,25 +32,25 @@ The area is designated for entry of *expressions*, namely, calculated variables 
 
 It is possible to create a new expression using the toolbar area or the context menu. There are the following toolbar and context menu operations:
 
-* ![Редактировать](./../../images/icons/common/toolbar-controls/edit_default.svg) **Редактировать выражение** — задание параметров выражения.
-* ![Переместить вверх](./../../images/icons/common/toolbar-controls/up_default.svg) **Переместить вверх** — поднять выражение на одну позицию вверх по списку.
-* ![Переместить вниз](./../../images/icons/common/toolbar-controls/down_default.svg) **Переместить вниз** — опустить выражение на одну позицию вниз по списку.
-* ![Добавить выражение](./../../images/icons/common/toolbar-controls/plus_default.svg) **Добавить выражение** — добавляет новое выражение с параметрами по умолчанию.
-* ![Добавить выражение по образцу](./../../images/icons/common/toolbar-controls/clone_default.svg) **Клонировать выражение** — добавляет новое выражение с типом данных, описанием и формулой, как у текущего выражения.
-* ![Удалить выражение](./../../images/icons/common/toolbar-controls/delete_default.svg) **Удалить выражение** — удаляет текущее выражение.
+* ![Edit](./../../images/icons/common/toolbar-controls/edit_default.svg) **Edit** enables to set expression parameters.
+* ![Move up](./../../images/icons/common/toolbar-controls/up_default.svg) **Move up** enables to move the expression one item position up the list.
+* ![Move down](./../../images/icons/common/toolbar-controls/down_default.svg) **Move down** enables to move the expression one item position down the list.
+* ![Add expression](./../../images/icons/common/toolbar-controls/plus_default.svg) **Add expression** enables to add a new expression with default parameters.
+* ![Add expression by the example](./../../images/icons/common/toolbar-controls/clone_default.svg) **Clone expression** enables to add a new expression with data type, description and formula similar to the current expression.
+* ![Delete expression](./../../images/icons/common/toolbar-controls/delete_default.svg) **Delete expression** enables to delete the current expression.
 * ![Delete all expressions](./../../images/icons/common/toolbar-controls/delete-all_default.svg) **Delete all expressions…** enables to delete all existing expressions.
 
 When adding and editing expressions, the dialog of parameters editing is displayed. The following expression parameters can be changed:
 
-* **Имя** — имя переменной в выходном наборе данных.
-* **Метка** — метка переменной в выходном наборе данных.
-* **Тип** — [тип данных](./../../data/datatype.md) переменной в выходном наборе данных.
-* **Промежуточное** — при установке этого флага выражение может использоваться в расчетах, но не включается в список переменных выходного набора данных.
+* **Name**: the variable name in the output data set.
+* **Caption**: the variable caption in the output data set.
+* **Type** — [data type](./../../data/datatype.md) of the variable in the output data set.
+* **Intermediate**: when selecting this checkbox, the expression can be used in calculations but it is not included into the list of variables of the output data set.
 * **Description**: clarifying information.
 
 > **Important:** The name must be unique. It must start from the capital or lower case Latin letter or from the underscore character. Succeeding name characters can be the same, or they can be digits.
 
-При первом открытии мастера настройки список выражений содержит один элемент с именем *Expr1* вещественного типа. *ExpressionN* caption and *ExprN* name are assigned to the new expression by default where *N* is a number providing uniqueness.
+When you first open the wizard, the list of expressions contains one real item with *Expr0* name. *ExpressionN* caption and *ExprN* name are assigned to the new expression by default where *N* is a number providing uniqueness.
 
 After configuration of the expression parameters, it is required to enter the calculated formula to the code area.
 
@@ -76,25 +76,25 @@ The expression formula can contain the following components:
 
 ### Quick Access Toolbar
 
-На панели расположена кнопка вызова окна ![Предпросмотр](./../../images/icons/common/toolbar-controls/print-preview_default.svg) **Предпросмотра** и кнопки, по нажатию на которые в область кода выражения вставляются шаблоны или части выражения.
+The toolbar includes the ![Preview](./../../images/icons/common/toolbar-controls/print-preview_default.svg) **Preview** window call button and the buttons that enable to insert templates or parts of expression into the expression code area upon their pressing.
 
-![Предпросмотр](./../../images/icons/common/toolbar-controls/print-preview_default.svg) Предпросмотр — позволяет оценить корректность расчетов, отображая до 100 первых строк результирующей таблицы. Горячая клавиша вызова — `F3`.
+![Preview](./../../images/icons/common/toolbar-controls/print-preview_default.svg) Preview enables to assess correctness of calculations displaying up to 100 first strings of the resulting table. Call hotkey — `F3`.
 
 Logical operations:
 
-* **AND** — операция Логическое "И".
-* **OR** — операция Логическое "ИЛИ".
-* **NOT** — операция Логическое "НЕ".
+* **AND**: the Logical "AND" operator.
+* **OR**: the Logical "OR" operator.
+* **NOT**: the Logical "NOT" operator.
 * **XOR**: the Logical "exclusive OR" operator.
 
 Comparisons operator:
 
-* **=** — равно;
-* **<>** — не равно;
-* **<** — меньше;
-* **>** — больше;
-* **<=** — меньше или равно;
-* **>=** — больше или равно.
+* **=** — equals;
+* **<>** — not equal;
+* **<** — less than;
+* **>** — greater than;
+* **<=** — less than or equal to;
+* **>=** — greater than or equal to.
 
 Templates:
 
@@ -105,7 +105,7 @@ Templates:
 
 Logical values:
 
-* **FALSE** — Ложь.
+* **FALSE** — False.
 * **TRUE**: the true value.
 
 #### Comments
@@ -127,7 +127,7 @@ included between (slash-asterisk)
 
 ### Variables
 
-Область содержит список переменных, передаваемых на вход узла. Перечень и параметры переменных определяются при настройке входных портов узла.
+The area contains a list of variables passed to the node input. The list and parameters of variables are defined when configuring input ports of the node.
 
 Double click on the list item position enables to enter the variable name to the expression code area.
 
@@ -141,4 +141,4 @@ Double click on the position of the selected function enables to enter its synta
 
 ---
 
-> **Примечание**: узел "Калькулятор" использует механизм [ленивых вычислений](https://wiki.loginom.ru/articles/lazy-evaluation.html), это означает, что расчет производится только тогда, когда значение выражения отображается или используется другим узлом сценария.
+> **Note**: The "Calculator" node is based on the [lazy computation](https://wiki.loginom.ru/articles/lazy-evaluation.html) technique. It means that the computation is performed only when the expression value is displayed or used by the other workflow node.

@@ -19,36 +19,36 @@ It is allowed to use [Control variables](./../../workflow/variables/control-vari
 ### Output Ports
 
 * ![ ](./../../images/icons/app/node/ports/inputs/table_inactive.svg) **Data set**: the table with imported data.
-* ![ ](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Статус выполнения** — переменные выходного порта отображают текст ошибки (если ошибка возникла) и код завершения выполнения узла:
-   * **0** — выполнение завершилось без ошибок;
-   * **1** — ошибка при выполнении;
-   * **2** — выполнение остановлено по тайм-ауту.
+* ![ ](./../../images/icons/app/node/ports/outputs/variable_inactive.svg) **Execution status**: the output port variables display the error text (if an error occurs) and the node execution completion code:
+   * **0** — execution finished without errors;
+   * **1** — execution finished with an error;
+   * **2** — execution terminated by timeout.
 
 ## Wizard
 
 There are the following parameters in the wizard:
 
-* **Connection** enables to display a string of connection to data source. Нет доступна для редактирования.
-* **Тип запроса** — отображает какой именно тип запроса осуществляется:
-   * **Выбор таблицы** — после установки переключателя в этом положении необходимо указать, из какого именно источника будет происходить импорт. Его нужно выбрать из выпадающего списка *Таблица/Представление*, в котором отобразятся все доступные варианты. В том случае, если подключение не активно, необходимо нажать кнопку Активировать.
-   * **SQL запрос** — выбирается для настройки импорта данных при помощи языка SQL.
-* **Игнорировать ошибки** — при установленном флаге узел активируется успешно, даже если в процессе активации возникли ошибки.
-* **Тайм-аут импорта (с)** — устанавливает максимальное время на выполнение запроса к базе данных и получение данных из нее (время подключения к серверу БД в тайм-аут не входит). Тайм-аут импорта не распространяется на предварительный просмотр внутри мастера настройки. При срабатывании тайм-аута, в зависимости от этапа выполнения, останавливается выполнение запроса или заполнение выходного набора данных. Таким образом, в режиме выполнения узла «Игнорировать ошибки» выходной набор данных может оказаться частично заполненным.
-* **Область настройки параметров извлечения данных из БД** — зависит от выбранного типа запроса:
-   * При типе запроса *Выбор таблицы* — в левой части области настройки   *Таблицы/представления* отображаются таблицы подключенной базы данных. Для выбора определенной таблицы необходимо дважды нажать по ней левой кнопкой мыши, после чего в правой части отобразятся имена полей данной таблицы. Для импорта можно выбрать все поля сразу с помощью кнопки Извлекать всё или только нужные поля, проставив соответствующие флаги.
-   * При типе запроса *SQL запрос* — в левой части *Таблицы/представления* отображаются таблицы подключенной базы данных и область для работы с переменными, которая по умолчанию скрыта внизу поля. В правой части задается текст SQL запроса к базе данных. При формировании запроса требуемые поля из левой части в правую можно переместить несколькими способами:
-      * Перетащить мышью (Drag-and-drop) — по умолчанию перетаскивается непосредственное имя объекта, а при зажатой клавише CTRL — полное имя. Из таблицы с переменными по умолчанию перетаскивается параметр, а при зажатой клавише CTRL — макроподстановка.
-      * Два раза щелкнуть левой кнопкой мыши по полю.
-      * Вызвать контекстное меню нажатием правой кнопки мыши. Далее выбрать пункт Вставить имя в редактор SQL кода или Вставить полное имя в редактор SQL кода.
+* **Connection** enables to display a string of connection to data source. Edition is not possible.
+* **Request type** displays what type of request is executed exactly:
+   * **Table selection**: when the switch is set in this position, it is required to specify the source from which import will be performed. It must be selected from the *Tables/Views* drop-down list  in which all available options will be displayed. In this case, if connection is not active, it is required to press Activate button.
+   * **SQL query** is selected for data import configuration using SQL language.
+* **Ignore errors**: when this checkbox is selected, the node is successfully activated even if errors occur in the activation process.
+* **Import timeout (s)** sets the maximum time for the database query execution and data acquisition (time of connection to the DB server is not included into the timeout). Import timeout does not apply to preview inside the wizard. When timeout is enabled, query execution or output data set filling in is terminated according to the execution stage. Thus, the output data set can be partially filled in for the mode of "Ignore errors" node execution.
+* **Area of parameters configuration for data extraction from DB** depends on the selected type of query:
+   * Tables of the connected database are displayed for *Table selection* query type in the left part of *Tables/Views* configuration area. To select the particular table, it is required to double click on it using the left mouse button. Then field names of this table will be displayed in the right part. For import it is required to select all fields at once using Extract all button or only required fields selecting corresponding checkboxes.
+   * Tables of the connected database and area of work with variables that is hidden in the lower part of the field by default are displayed for *SQL query* type in the left part of *Tables/Views*. The text of SQL query to database is set in the right part. When generating the query, the required fields can be moved from the left pat to the right part using several methods:
+      * Drag-and-drop: only the object name is dragged by default, and with CTRL key pressed - the full name. Parameter is dragged by default from the table with variables, and with CTRL key pressed - macro substitution.
+      * It is required to double click on the field using the left mouse button.
+      * The context menu is called by pressing the right mouse button. Then it is required to select Paste name to the SQL code editor or Paste full name to the SQL code editor.
 
 [Preview…](./../../visualization/preview/preview.md) button enables to access request accuracy. It displays up to 100 first rows of the resulting table.
 
 ## Use of Variables in Queries
 
-В SQL-запросах возможно два варианта использование переменных:
+Two options of variables use are allowed in SQL queries:
 
-* As **parameter**: a defined value is set for the variable. В тексте запроса параметр записывается со знаком двоеточие, например, `:var1`. The variable type will be taken into account in this case, for example, the string will be in quotation marks.  It is allowed to use parameters only in the *WHERE* section. Выбрать этот вариант использования можно в контекстном меню переменной.
-* в качестве **подстановки** — в значении переменной указывается SQL-запрос или какая-то его часть. В тексте запроса ее необходимо обрамлять знаками процента, например, `%condition%`. Выбрать этот вариант использования можно в контекстном меню переменной.
+* As **parameter**: a defined value is set for the variable. Parameter is recorded with colon in the query text, for example, `:var1`. The variable type will be taken into account in this case, for example, the string will be in quotation marks.  It is allowed to use parameters only in the *WHERE* section. It is possible to select this use option in the variable context menu.
+* as **substitution** — SQL query or its any part is specified as variable. It must be encased with percent signs in the query text, for example, `%condition%`. It is possible to select this use option in the variable context menu.
 
 > **Note:** if the substitution construction is in quotation marks, quotation marks are prioritized but not the substitution.
 

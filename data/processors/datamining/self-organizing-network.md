@@ -11,7 +11,7 @@ In particular, [Kohonen networks](https://wiki.loginom.ru/articles/kohonen-netwo
 
 [Neural gas](https://ru.wikipedia.org/wiki/%D0%9D%D0%B5%D0%B9%D1%80%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B3%D0%B0%D0%B7) is one ot the types of self-organizing networks. The neural gas is an algorithm that provides adaptive clustering of input data, namely, not only to cluster the space but also to define its required count according to data peculiarities.
 
-Для получения результирующих наборов требуется предварительное [обучение узла](./../../workflow/training-processors.md).
+To get resulting data sets, it is required to provide preliminary [node training](./../../workflow/training-processors.md).
 
 ## Ports
 
@@ -57,19 +57,19 @@ The wizard includes the following groups of parameters:
 * Self-organizing network.
    * Type of self-organizing network:
       * Kohonen network.
-      * Neural gas. При выборе данной опции блок *Параметры сети* становится неактивным.
+      * Neural gas. When selecting this option, *Network Parameters* pack becomes inactive.
    * Network Parameters:
       * Network topology: 1D, 2D rectangular, 2D hexagonal, 3D.
       * Network size X. The parameter is available for editing with any network topology. The integer value is set in the interval from 2 to 100. By default — 3.
       * Network size Y. The parameter is available for editing with the following network topologies: 2D rectangular, 2D hexagonal, 3D. The integer value is set in the interval from 2 to 100. By default — 3.
       * Network size Z. The parameter is available for editing with 3D network topology. The integer value is set in the interval from 2 to 100. By default — 3.
 
-* **Random seed** — начальное число (целое, положительное), которое используется для инициализации генератора псевдослучайных чисел. Последовательность чисел генератора полностью определяется начальным числом. Если генератор повторно инициализируется с тем же начальным числом, он выдаст ту же последовательность чисел.
+* **Random seed** is a starting seed (integer, positive ) that is used for initialization of pseudo-random number generator. Sequence of generator numbers is fully determined by the starting seed. If the generator is repeatedly initialized with the same starting seed, it will provide the same sequence of numbers.
 
-   Параметр влияет на воспроизводимость результата обучения. Можно повторить результат обучения узла, если подать те же данные и выставить тот же random seed.
+   The parameter has an impact on the training result reproducibility. It is possible to reproduce the node training result if the same data is provided and the same random seed is set.
 
-   Для параметра доступны следующие команды:
+   The following commands are available for the parameter:
 
-   * Всегда случайно — начальное число всегда будет случайным.
-   * Генерировать — сгенерируется новое начальное число.
-   * Копировать — в буфер обмена будет скопировано указанное значение.
+   * Always randomly: the starting seed will always be random.
+   * Generate: the new starting seed will be generated.
+   * Copy: the specified value will be copied to the clipboard.

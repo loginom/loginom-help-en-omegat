@@ -3,7 +3,7 @@ description: Слияние данных в Loginom. Разность.
 ---
 # ![Difference](./../../../images/icons/components/joindata/join-diff_default.svg) Difference
 
-The resulting data set contains records of the main data set for which there is no detected mapping by the key fields in the joined data set. There are only fields of the main data set in the resulting data set. Аналогом для данной операции в Transact-SQL является оператор `EXCEPT`.
+The resulting data set contains records of the main data set for which there is no detected mapping by the key fields in the joined data set. There are only fields of the main data set in the resulting data set. Analogue of this operation in Transact-SQL is `EXCEPT` operator.
 
 For example:
 

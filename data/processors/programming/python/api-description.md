@@ -3,14 +3,14 @@ description: Компонент Python в Loginom. Полное описание
 ---
 # ![](./../../../images/icons/components/python_default.svg) Full API Description
 
-## Модуль builtin_data
+## builtin_data module
 
 ```python
 InputTable: Union[DataSourceClass, None]
 InputTables: Tuple[Union[DataSourceClass, None], ...]
 InputVariables: VariablesClass
-OutputTable: ConfigurableOutputTableClass ''' или OutputTableClass, если отключена настройка
-                                              "Разрешить формировать выходные столбцы из кода" '''
+OutputTable: ConfigurableOutputTableClass ''' or OutputTableClass if configuration is disabled
+                                              "Allow creating output columns in script" '''
 
 class DataType(enum.IntEnum):
      None = 0
@@ -71,8 +71,8 @@ class ConfigurableOutputColumnClass(OutputColumnClass):
     DataKind: int
     DefaultUsageType: int
 
-''' У InputTable ColumnClass – это InputColumnClass,
-    у OutputTable ColumnClass – это OutputColumnClass или ConfigurableOutputColumnClass '''
+''' For InputTable ColumnClass – InputColumnClass,
+    for OutputTable ColumnClass – OutputColumnClass or ConfigurableOutputColumnClass '''
 class ColumnsClass(Mapping[Union[int, str], ColumnClass], Sequence[ColumnClass])
 
 class DataSourceClass:
@@ -117,19 +117,19 @@ class VariablesClass:
 
 ```
 
-> **Примечание:** Принимать аргументы по ключевым словам могут только методы `OutputTable.AddColumn` и `OutputTable.InsertColumn`, остальные принимают только позиционированные аргументы.
+> **Note:** Only `OutputTable.AddColumn` and `OutputTable.InsertColumn` methods can accept arguments by key words. The remaining ones can take only positioned arguments.
 
 
-## Модуль builtin_pandas_utils
+## builtin_pandas_utils module
 
 ```python
-#Метод осуществляет преобразование InputTable в pandas.DataFrame
+#The method performs transformation of InputTable to pandas.DataFrame
 def to_data_frame(table: DataSourceClass) -> pandas.DataFrame
 
-#Метод задает структуру полей OutputTable по pandas.DataFrame
+#The method sets the structure of OutputTable fields by pandas.DataFrame
 def prepare_compatible_table(table: OutputTableClass, dataframe: pandas.DataFrame, with_index=False) -> None
 
-#Метод осуществляет запись из pandas.DataFrame в OutputTable
+#The method provides record from pandas.DataFrame to OutputTable
 def fill_table(table: OutputTableClass, dataframe: pandas.DataFrame, with_index=False) -> None
 
 ```

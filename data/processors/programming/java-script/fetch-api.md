@@ -3,51 +3,51 @@ description: Компонент JavaScript в Loginom. Интерфейс для
 ---
 # ![](../../../images/icons/components/javascript_default.svg) Fetch API
 
-`Fetch API` — интерфейс для работы с HTTP-запросами и ответами, предоставляет возможность взаимодействия с веб-сервисами, ресурсами сети непосредственно из узла `JavaScript`.
+`Fetch API`: interface for working with HTTP requests and responses. It provides an opportunity of interaction with web services, network resources directly from the `JavaScript` node.
 
-Интерфейс `Fetch API` включает в себя следующие объекты:
+`Fetch API` interface includes the following objects:
 
-- Headers — заголовки запроса/ответа;
-- Request — запрос ресурса сети;
-- Response — ответ на запрос;
-- fetch() — функция, используемая для получения ресурсов сети.
+- Headers — headers of request/response.
+- Request — request of the network resource.
+- Response — response to the request.
+- fetch() — function used to get the network resources.
 
-Перед использованием вышеуказанные объекты должны быть импортированы из встроенного модуля `builtIn/Fetch`:
+The objects specified above must be imported from the built-in `builtIn/Fetch` module before use:
 
 ```javascript
 import {fetch, Request, Response, Headers} from "builtIn/Fetch";
 ```
 
-> **Примечание**: у объектов `Request` и `Response` отсутствует часть методов и свойств, стандартных для браузеров. Полный перечень см. в [Полное описание API](./api-description.md#vstroennyy-modul-builtinfetch), а также в описании ниже.
+> **Note**: there are no some methods and properties standard for browsers for `Request` and `Response` objects. The full list is provided in [Full API Description](./api-description.md#vstroennyy-modul-builtinfetch) and in the description below.
 
-## Описание объектов
+## Objects Description
 
 ### Headers
 
-Представляет итерируемую коллекцию HTTP-заголовков. Методы объекта позволяют получать, устанавливать, добавлять и удалять заголовки из коллекции заголовков запроса.
+It represents the iterated collection of HTTP headers. The object methods enable to get, set, add and delete headers from the request headers collection.
 
-#### Конструктор
+#### Constructor
 
 ```javascript
 let headers = new Headers([init]);
 ```
 
-где:
+where:
 
-- `init` принимает объект типа `HeadersInit` (см. [Полное описание API](./api-description.md#vstroennyy-modul-builtinfetch)). Необязательный параметр.
+- `init` takes the object of the `HeadersInit` type (refer to [Full API Description](./api-description.md#vstroennyy-modul-builtinfetch)). The optional parameter.
 
-Создает объект `Headers`(см. [Full API Description](./api-description.md#vstroennyy-modul-builtinfetch)).
+It creates the `Headers` object (refer to [Full API Description](./api-description.md#vstroennyy-modul-builtinfetch)).
 
-#### Методы Headers
+#### Headers Methods
 
 %spoiler%append%spoiler%
 
 **append(name, value)**
 
-- name — имя добавляемого заголовка. Принимает значение типа `string`. Required parameter.
-- value — значение заголовка. Принимает значение типа `string`. Required parameter.
+- name — name of the added header. It takes the value of the `string` type. Required parameter.
+- value — header value. It takes the value of the `string` type. Required parameter.
 
-Добавляет новое значение к существующему заголовку внутри Headers-объекта или добавляет заголовок, если он еще не существует. Метод возвращает `undefined`.
+It adds the new value to the existing header inside the Headers-object or adds the header if it does not exist yet. The method returns `undefined`.
 
 %/spoiler%
 
@@ -55,9 +55,9 @@ let headers = new Headers([init]);
 
 **delete(name)**
 
-- name — имя удаляемого заголовка. Принимает значение типа `string`. Required parameter.
+- name — name of the deleted header. It takes the value of the `string` type. Required parameter.
 
-Удаляет заголовок из текущего Headers-объекта.  Метод возвращает `undefined`.
+It deletes a header from the current Headers-object.  The method returns `undefined`.
 
 %/spoiler%
 
@@ -65,7 +65,7 @@ let headers = new Headers([init]);
 
 **entries()**
 
-Метод возвращает итерируемую коллекцию пар имя/значение заголовков, содержащихся в Headers-объекте. Имя и значение являются строками.
+The method returns the iterated collection of pairs name/value of the headers included into the Headers-object. Name and value are strings.
 
 %/spoiler%
 
@@ -73,13 +73,13 @@ let headers = new Headers([init]);
 
 **forEach(callbackfn(value, key, parent)[, thisArg])**
 
-- callbackfn — функция, применяемая к каждому заголовку. Required parameter. В `callbackfn` в указанном порядке передаются параметры:
-   - value — значение заголовка. Принимает значение типа `string`.
-   - key — имя заголовка. Принимает значение типа `string`.
-   - parent — Headers-объект.
-- thisArg — значение, используемое как `this` при вызове `callbackfn`. Необязательный параметр.
+- callbackfn — function applied to each header. Required parameter. The following parameters are transferred in `callbackfn` in the specified order:
+   - value — header value. It takes the value of the `string` type.
+   - key — header name. It takes the value of the `string` type.
+   - parent — Headers-object.
+- thisArg — values used as `this` when calling `callbackfn`. The optional parameter.
 
-Метод перебирает коллекцию заголовков в Headers-объекте и выполняет предоставленную функцию для каждого заголовка.
+The method iterates over collection of headers in the Headers-object and executes the provided function for each header.
 
 %/spoiler%
 
@@ -87,9 +87,9 @@ let headers = new Headers([init]);
 
 **get(name)**
 
-- name — имя заголовка. Принимает значение типа `string`. Required parameter.
+- name — header name. It takes the value of the `string` type. Required parameter.
 
-Возвращает строку, представляющую значение заголовка или `null`, если этот заголовок не установлен.
+It returns the string that represents the header value or `null` if this header is not set.
 
 %/spoiler%
 
@@ -97,10 +97,10 @@ let headers = new Headers([init]);
 
 **set(name, value)**
 
-- name — имя заголовка. Принимает значение типа `string`. Required parameter.
-- value — значение заголовка. Принимает значение типа `string`. Required parameter.
+- name — header name. It takes the value of the `string` type. Required parameter.
+- value — header value. It takes the value of the `string` type. Required parameter.
 
-Устанавливает новое значение для существующего заголовка внутри Headers-объекта или добавляет заголовок, если он еще не существует. Метод возвращает `undefined`.
+It sets the new value for the existing header inside the Headers-object or adds the header if it does not exist yet. The method returns `undefined`.
 
 %/spoiler%
 
@@ -108,9 +108,9 @@ let headers = new Headers([init]);
 
 **has(name)**
 
-- name — имя заголовка. Принимает значение типа `string`. Required parameter.
+- name — header name. It takes the value of the `string` type. Required parameter.
 
-Возвращает `true` или `false` в зависимости от того, содержит ли Headers-объект заголовок с указанным именем.
+It returns `true` or `false` depending on the fact whether the Headers-object contains the header with the specified name.
 
 %/spoiler%
 
@@ -118,7 +118,7 @@ let headers = new Headers([init]);
 
 **keys()**
 
-Возвращает итерируемую коллекцию имен заголовков Headers-объекта.
+It returns the iterated collection of names of the Headers-object headers.
 
 %/spoiler%
 
@@ -126,42 +126,42 @@ let headers = new Headers([init]);
 
 **values()**
 
-Возвращает итерируемую коллекцию значений заголовков Headers-объекта.
+It returns the iterated collection of values of the Headers-object headers.
 
 %/spoiler%
 
 ### Request
 
-Представляет собой HTTP-запрос.
+It represents HTTP request.
 
-#### Конструктор
+#### Constructor
 
 ```javascript
 let request = new Request(input[, init]);
 ```
 
-где:
+where:
 
-- `input` — объект типа `RequestInfo` (см. [Полное описание API](./api-description.md#vstroennyy-modul-builtinfetch)). Required parameter. Принимает URL-адрес запрашиваемого ресурса или объект, реализующий интерфейс `Request`.
-- `init` — объект, реализующий интерфейс `RequestInit` (см. [Полное описание API](./api-description.md#vstroennyy-modul-builtinfetch)). Необязательный параметр. Принимает параметры HTTP-запроса . `init`-объект может содержать следующие параметры:
-   - `body` — тело HTTP-запроса. Объект типа `BodyInit` (см. [Полное описание API](./api-description.md#vstroennyy-modul-builtinfetch)). `body` может быть строкой или объектом типов `ArrayBuffer`, `ArrayBufferView`.
-   - `headers` — заголовки HTTP-запроса. [headers-объект](#headers) (см. также [Полное описание API](./api-description.md#vstroennyy-modul-builtinfetch)).
-   - `method` — строка, содержащая метод HTTP-запроса (`get`, `post` и т.д.).
-   - `redirect` — строка, содержащая режим обработки перенаправлений (`follow`, `error`, `manual`).
+- `input` — object of the `RequestInfo` type (refer to [Full API Description](./api-description.md#vstroennyy-modul-builtinfetch)). Required parameter. It takes URL address of the requested resource or object that implements the `Request` interface.
+- `init` — object that implements the `RequestInit` interface (refer to [Full API Description](./api-description.md#vstroennyy-modul-builtinfetch)). The optional parameter. It takes parameters of HTTP request. `init`-object can include the following parameters:
+   - `body` — HTTP request body. Object of the `BodyInit` type (refer to [Full API Description](./api-description.md#vstroennyy-modul-builtinfetch)). `body` can be represented by a string or object related to `ArrayBuffer`, `ArrayBufferView` types.
+   - `headers` — HTTP request headers. [headers-object](#headers) (refer to also [Full API Description](./api-description.md#vstroennyy-modul-builtinfetch)).
+   - `method` — string that contains the HTTP request method (`get`, `post`, etc).
+   - `redirect` — string that contains the redirecting processing mode (`follow`, `error`, `manual`).
 
-Создает объект `Request` (см. [Full API Description](./api-description.md#vstroennyy-modul-builtinfetch)).
+It creates the `Request` object (refer to [Full API Description](./api-description.md#vstroennyy-modul-builtinfetch)).
 
-#### Особенности реализации
+#### Implementation Features
 
-Разрешена установка HTTP-заголовков `Cookie` и `Cookie2`.
+It is allowed to set `Cookie` and `Cookie2` HTTP-headers.
 
-#### Свойства Request
+#### Request Properties
 
 %spoiler%bodyUsed%spoiler%
 
 **bodyUsed**
 
-Содержит логическое значение, указывающее, было ли считано тело запроса (тело запроса может быть считано только один раз).  Возвращает `true` или `false`. Доступно только для чтения.
+It contains the logical value that enables to define whether the request body was read or not (the request body can be read only once).  It returns `true` or `false`. Read-only.
 
 %/spoiler%
 
@@ -169,7 +169,7 @@ let request = new Request(input[, init]);
 
 **headers**
 
-Содержит HTTP-заголовки запроса (объект `Headers`). Доступно только для чтения.
+It contains HTTP headers of request (`Headers` object). Read-only.
 
 %/spoiler%
 
@@ -177,7 +177,7 @@ let request = new Request(input[, init]);
 
 **method**
 
-Содержит метод запроса (GET, POST и т.д.). Возвращает значение типа `string`. Доступно только для чтения.
+It contains the request method (GET, POST и т.д.). It returns the value of the `string` type. Read-only.
 
 %/spoiler%
 
@@ -185,13 +185,13 @@ let request = new Request(input[, init]);
 
 **redirect**
 
-Содержит режим обработки перенаправлений. Возвращает одно из значений типа `string`:
+It contains the redirecting processing mode. It returns one of the `string` type values:
 
 - `follow`
 - `error`
 - `manual`
 
-Если свойство не указано при создании запроса, принимает значение по умолчанию `follow`. Доступно только для чтения.
+If the property is not specified when creating a request, it takes the default `follow` value. Read-only.
 
 %/spoiler%
 
@@ -199,17 +199,17 @@ let request = new Request(input[, init]);
 
 **url**
 
-Содержит URL-адрес запроса. Возвращает значение типа `string`. Доступно только для чтения.
+It contains the request URL address. It returns the value of the `string` type. Read-only.
 
 %/spoiler%
 
-#### Методы Request
+#### Request Methods
 
 %spoiler%arrayBuffer%spoiler%
 
 **arrayBuffer()**
 
-Считывает тело запроса и возвращает promise значения типа `ArrayBuffer`.
+It reads the request body and returns the promise values of the `ArrayBuffer` type.
 
 %/spoiler%
 
@@ -217,7 +217,7 @@ let request = new Request(input[, init]);
 
 **json()**
 
-Возвращает promise с объектом, полученным в результате разбора тела запроса как текста в формате JSON.
+It returns promise with the object received in the result of the request body parsing as the text in the JSON format.
 
 %/spoiler%
 
@@ -225,7 +225,7 @@ let request = new Request(input[, init]);
 
 **text()**
 
-Возвращает promise со строкой, полученной в результате интерпретации тела запроса как текста в кодировке UTF-8.
+It returns promise with the string received in the result of the request body interpretation as the text in UTF-8 encoding.
 
 %/spoiler%
 
@@ -233,40 +233,40 @@ let request = new Request(input[, init]);
 
 **clone()**
 
-Создает копию текущего Request-объекта.
+It creates copy of the current Request object.
 
 %/spoiler%
 
 ### Response
 
-Представляет собой ответ на HTTP-запрос.
+It represents response to HTTP request.
 
-#### Конструктор
+#### Constructor
 
-Можно создать новый Response-объект с помощью конструктора, но на практике скорее всего встретится объект, возвращаемый функцией [fetch()](#fetch).
+It is possible to create the new Response-object using constructor but practically and most likely the object returned by the  [fetch()](#fetch) function will occur.
 
 ```javascript
 let response = new Response([body][, init]);
 ```
 
-где:
+where:
 
-- `body` принимает объект типа `BodyInit` (см. [Полное описание API](./api-description.md#vstroennyy-modul-builtinfetch)) или `null`. Необязательный параметр.
-- `init` принимает объект, реализующий интерфейс `ResponseInit` (см. [Полное описание API](./api-description.md#fetch-api)). Необязательный параметр.
+- `body` takes the object of the `BodyInit` type (refer to [Full API Description](./api-description.md#vstroennyy-modul-builtinfetch)) or `null`. The optional parameter.
+- `init` takes the object that implements the `ResponseInit` interface (refer to [Full API Description](./api-description.md#fetch-api)). The optional parameter.
 
-Создает объект `Response` (см. [Full API Description](./api-description.md#vstroennyy-modul-builtinfetch)).
+It creates the `Response` object (refer to [Full API Description](./api-description.md#vstroennyy-modul-builtinfetch)).
 
-#### Особенности реализации
+#### Implementation Features
 
-Разрешены заголовки `Set-Cookie` и `Set-Cookie2` для использования совместно с заголовками `Cookie` и `Cookie2` запроса.
+`Set-Cookie` and `Set-Cookie2` headers are allowed for use with `Cookie` and `Cookie2` headers of the request.
 
-#### Свойства Response
+#### Response Properties
 
 %spoiler%bodyUsed%spoiler%
 
 **bodyUsed**
 
-Содержит логическое значение, указывающее, было ли считано тело ответа (тело ответа может быть считано только один раз).  Возвращает `true` или `false`. Доступно только для чтения.
+It contains the logical value that enables to define whether the response body was read or not (the response body can be read only once).  It returns `true` or `false`. Read-only.
 
 %/spoiler%
 
@@ -274,7 +274,7 @@ let response = new Response([body][, init]);
 
 **headers**
 
-Содержит HTTP-заголовки ответа (объект `Headers`). Доступно только для чтения.
+It contains HTTP headers of response (`Headers` object). Read-only.
 
 %/spoiler%
 
@@ -282,7 +282,7 @@ let response = new Response([body][, init]);
 
 **ok**
 
-Содержит логическое значение, указывающее, был ли ответ успешным (статус в диапазоне 200–299) или нет.  Возвращает `true` или `false`. Доступно только для чтения.
+It contains the logical value that enables to define whether the response was successful (status in the range from 200 to 299) or not.  It returns `true` or `false`. Read-only.
 
 %/spoiler%
 
@@ -290,7 +290,7 @@ let response = new Response([body][, init]);
 
 **redirected**
 
-Содержит логическое значение, указывающее, является ли ответ результатом перенаправленного запроса. Возвращает `true` или `false`. Доступно только для чтения.
+It contains the logical value that enables to define whether the response was the redirected request result. It returns `true` or `false`. Read-only.
 
 %/spoiler%
 
@@ -298,7 +298,7 @@ let response = new Response([body][, init]);
 
 **status**
 
-Содержит [код состояния HTTP-ответа](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status). Возвращает значение типа `number`. Доступно только для чтения.
+It contains the [HTTP response status code](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status). It returns the value of the `number` type. Read-only.
 
 %/spoiler%
 
@@ -306,7 +306,7 @@ let response = new Response([body][, init]);
 
 **statusText**
 
-Содержит сообщение, соответствующее [коду состояния HTTP-ответа](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status). Например, `OK` соответствует коду состояния 200, `Continue` — 100, `Not Found` — 404. Возвращает значение типа `string`. Доступно только для чтения.
+It contains the message that matches the [HTTP response status code](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status). For example, `OK` matches status code 200, `Continue` — 100, `Not Found` — 404. It returns the value of the `string` type. Read-only.
 
 %/spoiler%
 
@@ -314,17 +314,17 @@ let response = new Response([body][, init]);
 
 **url**
 
-Содержит URL-адрес ответа. Значение `url` свойства будет конечным URL-адресом, полученным после любых перенаправлений. Возвращает значение типа `string`. Доступно только для чтения.
+It contains the response URL address. `url` value of property will be the final URL address received after any redirectings. It returns the value of the `string` type. Read-only.
 
 %/spoiler%
 
-#### Методы Response
+#### Response Methods
 
 %spoiler%arrayBuffer%spoiler%
 
 **arrayBuffer()**
 
-Считывает тело ответа и возвращает promise значения типа `ArrayBuffer`.
+It reads the response body and returns the promise values of the `ArrayBuffer` type.
 
 %/spoiler%
 
@@ -332,7 +332,7 @@ let response = new Response([body][, init]);
 
 **json()**
 
-Возвращает promise с объектом, полученным в результате разбора тела ответа как текста в формате JSON.
+It returns promise with the object received in the result of the response body parsing as the text in the JSON format.
 
 %/spoiler%
 
@@ -340,7 +340,7 @@ let response = new Response([body][, init]);
 
 **text()**
 
-Возвращает promise со строкой, полученной в результате интерпретации тела запроса как текста в кодировке UTF-8.
+It returns promise with the string received in the result of the request body interpretation as the text in UTF-8 encoding.
 
 %/spoiler%
 
@@ -348,7 +348,7 @@ let response = new Response([body][, init]);
 
 **clone()**
 
-Создает копию текущего Response-объекта.
+It creates copy of the current Response object.
 
 %/spoiler%
 
@@ -356,33 +356,33 @@ let response = new Response([body][, init]);
 
 `fetch(resource[, init])`, где
 
-- resource — принимает объект, реализующий интерфейс `Request`, или строку, содержащую URL запроса. Required parameter.
-- init — принимает объект, реализующий интерфейс `RequestInit` (см. [Full API Description](./api-description.md#vstroennyy-modul-builtinfetch)). Необязательный параметр.
+- resource takes the object that implements the `Request` interface or the string that contains the request URL. Required parameter.
+- init takes the object that implements the `RequestInit` interface (refer to [Full API Description](./api-description.md#vstroennyy-modul-builtinfetch)). The optional parameter.
 
-Асинхронная функция `fetch` запускает процесс извлечения ресурса из сети, возвращая promise объекта `Response` (см. [Полное описание API](./api-description.md#vstroennyy-modul-builtinfetch)).
+Asynchronous `fetch` function starts the process of resource extraction from network returning promise of the `Response` object (refer to [Full API Description](./api-description.md#vstroennyy-modul-builtinfetch)).
 
 
 ## Examples:
 
-### Использование Fetch API
+### Fetch API Use
 
 ```javascript
 import {fetch, Request, Headers} from "builtIn/Fetch";
 
-// Создание объекта заголовков запроса:
+// Create request header object:
 let headers = new Headers({"Content-Type": "text/html", "Custom-Header": "delete me"})
-// Вывод значения заголовка
+// Display header value
 console.log("Custom-Header: ", headers.get("Custom-Header"))
-// Удаление заголовка
+// Delete header
 headers.delete("Custom-Header")
-// Проверка существования заголовка
+// Check header availability
 console.log(headers.has('Custom-Header'));
-// Добавление нового заголовка
+// Add new header
 headers.append("Accept-Charset", "utf-8")
-// Изменение значения заголовка
+// Change header value
 headers.set("Content-Type", "application/json")
 
-// Создание объекта запроса:
+// Create request object:
 let request = new Request("http://httpbin.org/post", {
     method: "post",
     headers: headers,
@@ -390,7 +390,7 @@ let request = new Request("http://httpbin.org/post", {
     redirect: "follow"
 });
 
-// Вывод параметров запроса:
+// Display of request parameters:
 console.log("url: " + request.url);
 console.log("bodyUsed: " + request.bodyUsed);
 console.log("redirect: " + request.redirect);
@@ -399,7 +399,7 @@ for (let header of headers.entries()) {
     console.log(header[0]+ ': '+ header[1]);
 }
 
-// Вызов сервиса httpbin.org и вывод параметров ответа:
+// Calling of httpbin.org service and display of response parameters:
 fetch(request)
     .then(response => {
         console.log("ok: " + response.ok);
@@ -415,12 +415,12 @@ fetch(request)
 
 ```
 
-### Получение курсов валют ЦБ РФ
+### Receipt of exchange rates of the Central Bank of the Russian Federation
 
 ```javascript
 import {fetch} from "builtIn/Fetch";
 
-// Запрос сервиса ЦБ:
+// CB service request:
 fetch("https://www.cbr-xml-daily.ru/daily_json.js")
     .then(response => {
         if (!response.ok) {
@@ -434,14 +434,14 @@ fetch("https://www.cbr-xml-daily.ru/daily_json.js")
 
 ```
 
-### Последовательное выполнение запросов
+### Sequential execution of requests
 
 ```javascript
 import {fetch, Headers} from "builtIn/Fetch";
 
 (async() => {
     try {
-        // Запрос 1-ого сервиса
+        // 1-st service request
         let response1 = await fetch('https://jsonplaceholder.typicode.com/posts', {
             method: 'POST',
             body: JSON.stringify({
@@ -453,7 +453,7 @@ import {fetch, Headers} from "builtIn/Fetch";
         });
         let payload = await response1.arrayBuffer();
 
-        // Запрос 2-ого сервиса
+        // 2-nd service request
         let response2 = await fetch('http://httpbin.org/post', {
             method: 'POST',
             headers: new Headers({"Content-Type": "application/json",

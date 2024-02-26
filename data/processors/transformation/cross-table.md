@@ -3,7 +3,7 @@ description: Кросс-таблица в Loginom. Создание сводно
 ---
 # ![Cross Table](../../images/icons/components/cross-tab_default.svg) Cross Table
 
-Компонент создает сводную таблицу на основе исходного набора. When creating the table, the following criteria are met:
+The component creates the pivot table based on the source data set. When creating the table, the following criteria are met:
 
 * A part of fields of the source data set is unchanged forming the **strings** of the pivot table.
 * The values of cells of the other fields groups form the **columns** of the pivot table defining their headers.
@@ -24,7 +24,7 @@ Source table:
 | 10.02.2022 | Wallpaper | 3000 |
 | 11.02.2022 | Sealer | 250 |
 
-Преобразуем исходную таблицу со следующими параметрами: колонки — *Товар*, строки — *Дата*, факты — *Количество продаж*. Let's select the *Sum* aggregation function by the *Volume of sales* field.
+Let's transform the source table with the following parameters: columns - *Goods*, strings - *Date*, measures - *Volume of sales*. Let's select the *Sum* aggregation function by the *Volume of sales* field.
 
 Output data set:
 
@@ -57,21 +57,21 @@ The wizard window is divided into two areas: available fields (to the left) and 
    * ![Strings](../../images/icons/common/dataset-operations/dsa-rows_default.svg) Strings.
    * ![Measures](../../images/icons/common/dataset-operations/dsa-factor_default.svg) Measures.
 
-%spoiler%Агрегация фактов и возможные типы данных:%spoiler%
+%spoiler%Measure aggregation and possible data types:%spoiler%
 
 
-|Вид агрегации|![](../../images/icons/common/data-types/string_default.svg)|![](../../images/icons/common/data-types/integer_default.svg)|![](../../images/icons/common/data-types/float_default.svg)|![](../../images/icons/common/data-types/boolean_default.svg)|![](../../images/icons/common/data-types/datetime_default.svg)|![](../../images/icons/common/data-types/variant_default.svg)|
+|Aggregation kind|![](../../images/icons/common/data-types/string_default.svg)|![](../../images/icons/common/data-types/integer_default.svg)|![](../../images/icons/common/data-types/float_default.svg)|![](../../images/icons/common/data-types/boolean_default.svg)|![](../../images/icons/common/data-types/datetime_default.svg)|![](../../images/icons/common/data-types/variant_default.svg)|
 |:-|:-:|:-:|:-:|:-:|:-:|:-:
-|![](../../images/icons/common/aggregations/factor-sum_default.svg) Сумма|||**•**||||
-|![](../../images/icons/common/aggregations/factor-count_default.svg) Количество|**•**|**•**|**•**|**•**|**•**|**•**|
-|![](../../images/icons/common/aggregations/factor-min_default.svg) Минимум|**•**||**•**|**•**|**•**|**•**|
-|![](../../images/icons/common/aggregations/factor-max_default.svg) Максимум|**•**||**•**|**•**|**•**|**•**|
-|![](../../images/icons/common/aggregations/factor-avg_default.svg) Среднее|||**•**||**•**||
-|![](../../images/icons/common/aggregations/factor-stddev_default.svg) Стандартное отклонение|||**•**||**•**||
-|![](../../images/icons/common/aggregations/factor-unique-count_default.svg) Количество уникальных|**•**||**•**|**•**|**•**|**•**|
-|![](../../images/icons/common/aggregations/factor-null-count_default.svg) Количество пропусков|**•**||**•**|**•**|**•**|**•**|
-|![](../../images/icons/common/aggregations/factor-stat-first_default.svg) Первый|**•**||**•**|**•**|**•**|**•**|
-|![](../../images/icons/common/aggregations/factor-stat-last_default.svg) Последний|&nbsp;&nbsp;**•**&nbsp;&nbsp;||&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;||
+|![](../../images/icons/common/aggregations/factor-sum_default.svg) Sum|||**•**||||
+|![](../../images/icons/common/aggregations/factor-count_default.svg) Count|**•**|**•**|**•**|**•**|**•**|**•**|
+|![](../../images/icons/common/aggregations/factor-min_default.svg) Minimum|**•**||**•**|**•**|**•**|**•**|
+|![](../../images/icons/common/aggregations/factor-max_default.svg) Maximum|**•**||**•**|**•**|**•**|**•**|
+|![](../../images/icons/common/aggregations/factor-avg_default.svg) Average|||**•**||**•**||
+|![](../../images/icons/common/aggregations/factor-stddev_default.svg) Standard deviation|||**•**||**•**||
+|![](../../images/icons/common/aggregations/factor-unique-count_default.svg) Count of unique|**•**||**•**|**•**|**•**|**•**|
+|![](../../images/icons/common/aggregations/factor-null-count_default.svg) Null count|**•**||**•**|**•**|**•**|**•**|
+|![](../../images/icons/common/aggregations/factor-stat-first_default.svg) First|**•**||**•**|**•**|**•**|**•**|
+|![](../../images/icons/common/aggregations/factor-stat-last_default.svg) Last|&nbsp;&nbsp;**•**&nbsp;&nbsp;||&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;|&nbsp;&nbsp;**•**&nbsp;&nbsp;||
 
 %/spoiler%
 
@@ -80,19 +80,19 @@ The *Available fields* area always contains the *Count* synthetic field apart fr
 
 ### Columns
 
-The values of these fields will be the columns headers. Поля в данной группе обязательно должны иметь дискретный [вид данных](../../data/datakind.md).
+The values of these fields will be the columns headers. The fields included into this group must relate to the discrete [data kind](../../data/datakind.md).
 
-#### **Измерение в колонках**
+#### **Dimension in columns**
 
-Данная панель может быть открыта следующими способами:
-* ![](../../images/icons/common/system-object/../system-objects/sliced_18x18/edit_default.svg) в правом верхнем углу;
-* контекстное меню;
-* двойной клик на поле;
-* горячая клавиша %kbd F2 %.
+This panel can be opened using the following methods:
+* ![](../../images/icons/common/system-object/../system-objects/sliced_18x18/edit_default.svg) in the right upper corner;
+* context menu;
+* double click on the field;
+* %kbd F2 % hotkey.
 
-![Измерение в колонках](./cross-table/measure.PNG)
+![Dimension in columns](./cross-table/measure.PNG)
 
-When using the cross table, new values can appear in the fields by which the columns were generated. В узле имеется два подхода к решению этой проблемы:
+When using the cross table, new values can appear in the fields by which the columns were generated. The node provides two approaches to solve this problem:
 
 * **Sliding unique values** enable to create columns from the unique field (fields) values. When changing the source data set values, the whole structure of the resulting table will be fully reconstructed taking into account the new unique values. It is also possible to set the minimum number of the fields values from which the columns will be created. But in this case, the column with the remaining values will be left in the resulting table.
 
@@ -105,10 +105,10 @@ Input table:
 | StroyRynok | Wallpaper | 170 |
 | StroyRynok | Tiles | 400 |
 
-Кросс-таблица с колонкой: Товар.<br>
-Для колонки установлено минимальное количество уникальных значений = 4.<br>
-Со строкой: Точка продажи.<br>
-Фактом: Сумма продажи (Сумма).<br>
+Cross table with the following column: Goods.<br>
+The minimum number of the unique values is set for the column = 4.<br>
+With string: Point of sale.<br>
+Measure: Amount of sales (Amount).<br>
 
 Resulting table:
 
@@ -116,7 +116,7 @@ Resulting table:
 |:--------------|:-----:|:-----:|---|---|
 | StroyRynok | 170 | 400 | | | |
 
-Если во входной набор добавился ещё один товар:
+If another product is added to the input data set:
 
 | Point of sale | Goods | Amount of sales |
 |:--------------|:-----:|:--------------|
@@ -124,7 +124,7 @@ Resulting table:
 | StroyRynok | Tiles | 400 |
 | StroyRynok | Sealer | 135 |
 
-И настройки кросс-таблицы не изменились, то результирующий набор будет следующим:
+And the cross table settings are unchanged, the resulting data set will be as follows:
 
 | Point of sale | Wallpaper | Tiles | Sealer | 4 |
 |:--------------|:-----:|:-----:|:--------:|---|
@@ -134,15 +134,15 @@ Resulting table:
 
 * **Group of values**: if the new values appear in the source field from the moment of the last node configuration, in this case, with the enabled *Other* checkbox, measures for such values will be aggregated in the *Other* column. The enabled *Null* checkbox displays the field data with null values in the output data set. Measures for them will be aggregated in the *Null values* column.
 
-**Общие настройки для колонок**
+**General columns settings**
 
-![Общие настройки для колонок](./cross-table/general_settings.PNG)
+![General columns settings](./cross-table/general_settings.PNG)
 
-Расположены в нижней части мастера и имеют следующие параметры:
+They are located in the lower wizard part and have the following parameters:
 
 * **Field caption parts separator**: it is required to select the character to separate the new fields captions when selecting several fields in the columns.
    * . (Dot).
-   * | (вертикальная линия).
+   * | (vertical line).
    * ->.
    * Space.
 * **Sliding unique values**: the checkbox selection enables to create columns from the unique field (fields) values again. When changing the source data set values, the whole structure of the resulting table will be fully reconstructed taking into account the new values.
@@ -154,20 +154,20 @@ Using ![Up](../../images/icons/common/toolbar-controls/moveup_default.svg) and !
 
 Source table:
 
-|Точка продажи|Товар|Сумма продажи|Дата|
+|Point of sale|Goods|Amount of sale|Date|
 |:-|:-|-:|:-|
-|СтройРынок|Обои|170|10.04.2022|
-|СтройРынок|Плитка|400|10.04.2022|
-|СтройРынок|Герметик|135|10.04.2022|
-|Павильон|Обои|240|11.04.2022|
-|Павильон|Плитка|80|11.04.2022|
-|Павильон|Герметик|40|12.04.2022|
-|СтройРынок|Обои|130|12.04.2022|
-|Павильон|Обои|130|12.04.2022|
-|Павильон|Плитка|20|12.04.2022|
-|Павильон|Обои|230|13.04.2022|
-|СтройРынок|Герметик|65|13.04.2022|
-|Павильон|Герметик|260|13.04.2022|
+|StroyRynok|Wallpaper|170|10.04.2022|
+|StroyRynok|Tiles|400|10.04.2022|
+|StroyRynok|Sealer|135|10.04.2022|
+|Trade stand|Wallpaper|240|11.04.2022|
+|Trade stand|Tiles|80|11.04.2022|
+|Trade stand|Sealer|40|12.04.2022|
+|StroyRynok|Wallpaper|130|12.04.2022|
+|Trade stand|Wallpaper|130|12.04.2022|
+|Trade stand|Tiles|20|12.04.2022|
+|Trade stand|Wallpaper|230|13.04.2022|
+|StroyRynok|Sealer|65|13.04.2022|
+|Trade stand|Sealer|260|13.04.2022|
 
 *Cross table* with the following order of columns: *Goods*, *Point of sale*.  Measure: *Amount of sales (Amount)*. And the following parameter: *Field caption parts separator*: `.`
 
@@ -183,11 +183,11 @@ Source table:
 
 %/spoiler%
 
-> **Примечание:** **Скользящие уникальные значения** и **Группа значений** являются несовместимыми параметрами. То есть при включении одного нет возможности задать второй и наоборот.
+> **Note:** **Sliding unique values** and **Group of values** are incompatible parameters. Namely, when one parameter is enabled, it is not possible to set the second one and vice versa.
 
 ### Strings
 
-The cross table rows will be generated from the fields values. Одинаковые значения поля (полей) будут сгруппированы таким же образом, как это происходит в узле [Группировка](./grouping.md).
+The cross table rows will be generated from the fields values. The similar field (fields) values will be grouped in the same manner as it is organized in the [Grouping](./grouping.md) node.
 
 The fields order in this group has an impact on data sorting in the resulting table by these fields.
 
@@ -195,31 +195,31 @@ The fields order in this group has an impact on data sorting in the resulting ta
 
 Source table:
 
-|Точка продажи|Товар|Сумма продажи|Дата|
+|Point of sale|Goods|Amount of sale|Date|
 |:-|:-|-:|:-|
-|СтройРынок|Обои|170|10.04.2022|
-|СтройРынок|Плитка|400|10.04.2022|
-|СтройРынок|Герметик|135|10.04.2022|
-|Павильон|Обои|240|11.04.2022|
-|Павильон|Плитка|80|11.04.2022|
-|Павильон|Герметик|40|12.04.2022|
-|СтройРынок|Обои|130|12.04.2022|
-|Павильон|Обои|130|12.04.2022|
-|Павильон|Плитка|20|12.04.2022|
-|Павильон|Обои|230|13.04.2022|
-|СтройРынок|Герметик|65|13.04.2022|
-|Павильон|Герметик|260|13.04.2022|
+|StroyRynok|Wallpaper|170|10.04.2022|
+|StroyRynok|Tiles|400|10.04.2022|
+|StroyRynok|Sealer|135|10.04.2022|
+|Trade stand|Wallpaper|240|11.04.2022|
+|Trade stand|Tiles|80|11.04.2022|
+|Trade stand|Sealer|40|12.04.2022|
+|StroyRynok|Wallpaper|130|12.04.2022|
+|Trade stand|Wallpaper|130|12.04.2022|
+|Trade stand|Tiles|20|12.04.2022|
+|Trade stand|Wallpaper|230|13.04.2022|
+|StroyRynok|Sealer|65|13.04.2022|
+|Trade stand|Sealer|260|13.04.2022|
 
 *Cross table* with the following order of strings: *Point of sale*, *Date*. Measure: *Amount of sales (Amount)*.
 
-|Точка продажи|Дата|Сумма продажи|
+|Point of sale|Date|Amount of sales|
 |:-|:-|-:|
-|Павильон|11.04.2022|320|
-|Павильон|12.04.2022|190|
-|Павильон|13.04.2022|490|
-|СтройРынок|10.04.2022|705|
-|СтройРынок|12.04.2022|130|
-|СтройРынок|13.04.2022|65|
+|Trade stand|11.04.2022|320|
+|Trade stand|12.04.2022|190|
+|Trade stand|13.04.2022|490|
+|StroyRynok|10.04.2022|705|
+|StroyRynok|12.04.2022|130|
+|StroyRynok|13.04.2022|65|
 
 %/spoiler%
 
@@ -227,6 +227,6 @@ Source table:
 
 The fields data in this group are processed according to the [aggregation functions](../func/aggregation-functions.md). The obtained values are displayed at the intersection of columns and strings. By default, the *Sum* function is selected for all numerical types, whereas for others - *Count*.
 
-To select other aggregation functions, it is required to double click on the field. При выборе нескольких вариантов функций каждая из них будет рассчитана в отдельном столбце.
+To select other aggregation functions, it is required to double click on the field. When selecting several function options, each of them will be calculated in a separate column.
 
 The order of fields does not matter in the *Measures* group.

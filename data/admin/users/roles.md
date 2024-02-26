@@ -1,24 +1,24 @@
 ---
 description: Справка по ролям пользователей в Loginom. Управление пользователями. Выбор ролей из списка доступных. Проектирование сценариев. Просмотр отчётов. Пакетное выполнение. Администрирование.
 ---
-# Роли пользователей в Loginom
+# User Roles in Megaladata
 
-Процесс анализа данных делится на 2 этапа:
+The data analysis process is divided into two stages:
 
-* **Разработка аналитических моделей** — нетривиальная задача, требующая понимания методики анализа и особенностей ведения бизнеса. As a rule, a limited number of experienced analysts hold responsibility for this task in companies.
-* **Просмотр готовых отчетов** — просматривать отчеты должны многие сотрудники из различных подразделений компании: топ-менеджеры, руководители департаментов, специалисты различных отделов и другие. They must be provided with access to the required results without necessity of thorough understanding of the development process.
+* **Development of the analytical models** is a specific task. It is required to understand the analysis methods and peculiarities of business operations. As a rule, a limited number of experienced analysts hold responsibility for this task in companies.
+* **View of ready reports**. Many employees from different company subdivisions must view reports: top managers, heads of departments, specialists of different departments, etc. They must be provided with access to the required results without necessity of thorough understanding of the development process.
 
-Доступ пользователей к функциональным возможностям платформы предоставляется согласно функциональной роли.
+Users must be provided with access to the functional platform capabilities according to the functional role.
 
-В Loginom есть четыре Роли пользователей:
+There are four User Roles in Megaladata:
 
-* **Проектирование сценариев** – пользователю с этой ролью предоставляется доступ ко всем аналитическим возможностям Loginom. Он может разрабатывать логику обработки данных, создавать [веб-сервисы](./../../integration/web-services/README.md), реализовывать собственные компоненты и [делиться](./../../processors/integration/README.md) ими, подключаться к [внешним источникам](./../../integration/connections/README.md) и прочее.
-* **Просмотр отчетов** – пользователь имеет доступ к настроенным отчетам на странице [Отчеты](./../../report/README.md) в Loginom. Он может манипулировать отчетами: изменять их вид, группировать данные, настраивать фильтры, менять типы графиков и др. Реализация логики расчетов от него скрыта.
-* **Пакетное выполнение** – пользователь имеет доступ к выполнению пакетов через утилиту [BatchLauncher](./../../workflow/batchlauncher.md) или компонент Loginom Integrator без доступа к графическому интерфейсу Loginom Studio.
-* **Администрирование** – пользователь с этой роль получает доступ в странице [Администрирование](./../../admin/README.md).  На странице Администрирование можно управлять параметрами сервера Loginom, учетными записями других пользователей, общими папками и открытыми сессиями.
+* **Workflows design**: the user with this role is provided with access to all analytical capabilities of Megaladata. He can develop the data processing logics, create [web services](./../../integration/web-services/README.md), implement his own components and [share](./../../processors/integration/README.md) them, connect to the [external sources](./../../integration/connections/README.md) etc.
+* **View reports**: the user has access to the configured reports on [Reports](./../../report/README.md) page in Megaladata. He can handle the reports: change their kind, group data, configure filters, change types of graphic charts. The calculation logics is hidden from him.
+* **Batch processing**: the user has access to batch processing via [BatchLauncher](./../../workflow/batchlauncher.md) utility application or Megaladata Integrator component without access to the Megaladata Studio graphical interface.
+* **Administration**: the user with this role is provided with access on the [Administration](./../../admin/README.md) page.  It is possible to control the Megaladata server parameters, accounts of other users, shared folders and opened sessions on the Administration page.
 
-> Регистрация новых ролей пользователей не предусмотрена.
+> It is not possible to register new user roles.
 
-В соответствии с назначенной ролью пользователь получает [доступ](./access-matrix.md) к определенным разделам аналитической платформы.
+According to the assigned role, the user is provided with [access](./access-matrix.md) to the specific sections of the analytical platform.
 
 

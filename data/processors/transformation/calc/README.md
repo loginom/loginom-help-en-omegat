@@ -40,11 +40,11 @@ It is possible to create a new expression using the toolbar area or the context 
 
 When adding and editing expressions, the dialog of parameters editing is displayed. The following expression parameters can be changed:
 
-* **Имя** — вводится [имя поля](./../../../data/datasetfieldfeatures.md), присваиваемое столбцу в выходном наборе данных;
-* **Метка** — вводится [метка поля](./../../../data/datasetfieldfeatures.md), присваиваемая столбцу в выходном наборе данных;
+* **Name**: the [field name](./../../../data/datasetfieldfeatures.md) assigned to the output data set column is entered.
+* **Caption**: the [field caption](./../../../data/datasetfieldfeatures.md) assigned to the output data set column is entered.
 * **Data type**: it is required to select [data type](./../../../data/datatype.md) of the field in the output data set.
 * **Intermediate**: when selecting this checkbox, the expression can be used in calculations but it is not included into the list of fields of the output data set.
-* **Кэшировать** — сохранение однажды вычисленного значения выражения, целесообразно при неоднократном использовании значений выражения последующими узлами и визуализаторами во избежание выполнения повторных вычислений;
+* **Cache**: saving of the earlier calculated expression value is reasonable in the case of the repeated use of the expression values by the subsequent nodes and visualizers in order to avoid repeated calculations.
 * **Description**: clarifying information.
 
 > **Important:** The name must be unique. It must start from the capital or lower case Latin letter or from the underscore character. Succeeding name characters can be the same, or they can be digits.
@@ -59,13 +59,13 @@ Changes in the code area are saved on exit.
 
 ### Fields/Variables
 
-Область содержит список *Полей* и *Переменных*, передаваемых на вход узла. Перечень и параметры полей/переменных определяются при настройке входных портов узла.
+The area contains a list of *Fields* and *Variables* passed to the node input. The list and parameters of fields/variables are defined when configuring input ports of the node.
 
 Double click on the list item position enables to enter the field/variable name to the expression code area. The Drag-and-Drop method enables to perform the same actions.
 
-Если у *Поля/Выражения* и *Переменной* совпадают имена, то используется *Поле/Выражение*. В таком случае к *Переменной* можно обращаться только через префикс `Var.`/`this.Var.` ( `Var.` используется для синтаксиса [Выражение](./expression.md), `this.Var.` — для синтаксиса в [Javascript](./javascript.md) ).
+If *Field/Expression*and *Variable* names are matching, *Field/Expression* is used. In this case, it is possible to access the *Variable* only via `Var.`/`this.Var.` prefix ( `Var.` is used for the [Expresssion](./expression.md) syntax, `this.Var.` — for the syntax in [Javascript](./javascript.md) ).
 
-> **Примечание.** При добавлении *Переменной* с именем существующего *Поля* в *Калькуляторе*, к имени *Переменной* добавляется префикс `Var.`.
+> **Note:** When adding the *Variable* with the current *Field* name in the *Calculator*, to the *Variable* name `Var.` prefix is added.
 
 ### List of Functions
 

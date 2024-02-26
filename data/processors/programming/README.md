@@ -2,6 +2,6 @@
 description: Раздел Программирование. Оглавление.
 ---
 
-# Программирование
+# Programming
 
-Компоненты этой группы используются для обработки данных с помощью языков программирования JavaScript и Python.
+Components of this group are used for data processing using JavaScript and Python programming languages.

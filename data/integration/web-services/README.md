@@ -9,7 +9,7 @@ Loginom provides the tools used for integration with external web services and p
 
 The following Loginom platform components are required for the web services integration and operation:
 
-* [Server](https://loginom.ru/platform/pricing#component-server) is the main platform component. It completes the loading, calculation, model training, visualisation, right management and other tasks.
+* [Server](https://loginom.ru/platform/pricing#component-server) is the main platform component. It completes the loading, calculation, model training, visualization, right management and other tasks.
 * [Integrator](https://loginom.ru/platform/pricing#component-integrator): the component responsible for publication of own web services based on the packages created in Loginom. It is used in combination with [IIS](https://ru.wikipedia.org/wiki/Internet_Information_Services) creating a separate application in it.
 * [Adapter](https://loginom.ru/platform/pricing#component-adapter): optional component. It is required for interaction with non-standard web services, for example, with credit reference bureau.
 
@@ -29,8 +29,8 @@ Later on, the output data of the created connection is used by corresponding nod
 - [REST request](./../../processors/integration/rest-request.md) — REST request.
 
 > **Note:**
-> * Ряд сервисов предоставляет ответ в виде вложенного XML. Для его преобразования в табличный вид предназначен компонент [Разбор XML](./../../processors/integration/extracting-xml.md). Для преобразования ответа, полученного в виде JSON, возможно использование конструкции [JSON.parse()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse) в компоненте [Java-script](./../../processors/programming/java-script)
-> * Необходимо учитывать ограничения, которые накладываются в работе Loginom на устаревших версиях Windows, не имеющих поддержки современных протоколов обмена данными (TLS 1.1 и выше). Поскольку некоторые сервисы требуют для взаимодействия с ними использование этих протоколов, то отсутствие в операционной системе их поддержки вызывет ошибку при обращении к сервису.
+> * Some services provide response in the form of nested XML. [XML parsing](./../../processors/integration/extracting-xml.md) component is designated for its transformation to the table form. To transform the response received in the form of JSON, it is possible to use [JSON.parse()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse) construction in [Java-script](./../../processors/programming/java-script) component
+> * It is required to take into account the restrictions that are imposed while using Megaladata on the older Windows versions that are not supported by the modern data exchange protocols (TLS 1.1 and higher). As these protocols are required for interaction with some services, absence of their support by the operating system causes an error on service access.
 
 ### Creation of Own Web Services
 

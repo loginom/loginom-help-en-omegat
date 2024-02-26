@@ -3,15 +3,15 @@ description: Пакетное выполнение сценариев в ана�
 ---
 # Batch Processing of Workflows
 
-**Пакетный режим** — исполнение [Cценариев](./../interface/workflow.md) [Пакета](./../interface/packages.md) без отображения какого-либо пользовательского интерфейса и вывода сообщений на экран. As a rule, in this case, the batch processing result is generation of the summarized data and its transfer to the external system (for example, to the data warehouse or another accounting system).
+**Batch mode**: execution of the [Workflows](./../interface/workflow.md) of the [Package](./../interface/packages.md) without display of any user interface and screen display of messages. As a rule, in this case, the batch processing result is generation of the summarized data and its transfer to the external system (for example, to the data warehouse or another accounting system).
 
-Пакетное выполнение cценариев осуществляется при помощи утилиты *BatchLauncher*, поставляемой в комплекте с сервером *Loginom* версий *Team*, *Standard*, *Enterprise*. When installing by default, the utility application path is as follows:
+The workflows batch processing is performed using *BatchLauncher* utility application that is supplied as a set with the *Megaladata* server (*Team*, *Standard*, *Enterprise* versions). When installing by default, the utility application path is as follows:
 
 `"C:\Program Files\Loginom\Server\BatchLauncher.exe"`.
 
 To launch the batch processing according to schedule, it is possible to use the external job scheduler, for example, Windows job scheduler.
 
-> **Важно:** *BatchLauncher* работает синхронно с сервером  и ждёт завершения процесса. Если *BatchLauncher* закрыть, то в [Loginom Server](https://help.loginom.ru/adminguide/windows/server/) отменится соответствующий процесс.
+> **Important:** *BatchLauncher* is operated synchronously with the server and it waits for the process completion. If *BatchLauncher* is closed, in the [Megaladata Server](https://help.loginom.ru/adminguide/windows/server/) corresponding process will be cancelled.
 
 Syntax of the start string in the batch mode:
 
@@ -21,7 +21,7 @@ BatchLauncher /Package=<FileName> [/Teach] [/Node=<NodeName>] [/Address=<Address
 
 Where:
 
-*/Package*, */Teach*, */Node*, */Address*, */Port*, */UserName*, */Password*, */PortName.VarName*,  */VarName*, */Save* — параметры запуска в пакетном режиме.
+*/Package*, */Teach*, */Node*, */Address*, */Port*, */UserName*, */Password*, */PortName.VarName*,  */VarName*, */Save* are launch parameters in the batch mode.
 
 Several parameters are separated with space character in the start string.
 
@@ -35,7 +35,7 @@ For example:
 
 ### Package
 
-Путь к файлу пакета внутри [файлового хранилища](./../location_user_files.md). Required parameter.
+Path to the package file is inside the [file storage](./../location_user_files.md). Required parameter.
 
 Examples:
 
@@ -59,7 +59,7 @@ BatchLauncher /Package=/user/test.lgp /Node=executable_node
 
 ### PortName.VarName
 
-Используется для задания значений входных [Переменных узла](./../workflow/variables/control-variables.md), определенного параметром */Node*.
+It is used to set values of the input [Variables of the node](./../workflow/variables/control-variables.md) defined by */Node* parameter.
 
 * **PortName**: port name.
 * **VarName**: name of the variable which value must be set in the start string.
@@ -78,10 +78,10 @@ It is allowed not to specify the port name (for example, */Parameter1=true*. How
 The source string value specified in the command string is converted according to the data type of the target variable:
 
 * If the source string value is equal to null (case-sensitive), the target variable will get the null value irrespective of its data type.
-* Если целевая переменная имеет тип [Логический, Целый, Вещественный или Дата/Время](./../data/datatype.md), то исходное строковое значение конвертируется по правилам соответствующего типа, причём для *Вещественного типа* используется десятичный разделитель . (Dot). Для *Даты/Времени* используется подмножество форматов ISO 8601: "YYYY-MM-DD", "YYYY-MM-DDThh:mm[:ss[.zzz]]", "hh:mm[:ss[.zzz]]". Допустимыми значениями *Логического типа* считаются *true* и *false* (без учёта регистра).
-* Если целевая переменная имеет *Строковый тип*, то преобразование типа данных не выполняется. If the source value is enclosed in single quotes, these quotes are unescaped. Otherwise, the source value is assigned to the variable without changes.
-* Если целевая переменная имеет *Переменный тип*, то происходит попытка поочерёдно преобразовать исходное строковое значение к типам Логический, Целый, Вещественный и Дата/Время, причём если ни одно из этих преобразований не удалось, то целевая переменная получает строковое значение.
-* Для переменных типа *Вещественный* и *Переменный* в качестве параметров можно передавать экспоненциальную форму записи числа (пример: 4.205E2, 4.205E-2).
+* If the target variable refers to the [Logical, Integer, Real or Date/Time](./../data/datatype.md) type, the source string value is converted according to the rules related to the corresponding type. In this case, the decimal separator is used for the *Real type*. (Dot). Subset of ISO 8601 formats is used for *Date/Time*: "YYYY-MM-DD", "YYYY-MM-DDThh:mm[:ss[.zzz]]", "hh:mm[:ss[.zzz]]". *true* and *false* (non-case-sensitive) are considered to be allowable values of the *Logical type*.
+* If the target variable is related to the *String type*, the data type transformation is not performed. If the source value is enclosed in single quotes, these quotes are unescaped. Otherwise, the source value is assigned to the variable without changes.
+* If the target varaible is related to the *Variable type*, there is an attempt to convert alternately the source string value to the Logical, Integer, Real and Date/Time types. In this case, if all these conversions fail, the target variable will get the string value.
+* The exponential form of number record can be transferred as parameters for the variables related to the *Real* and *Variable* types (for example: 4.205E2, 4.205E-2).
 
 For example:
 
@@ -89,7 +89,7 @@ For example:
 BatchLauncher /Package=/user/test.lgp /Node=test_node /Var0=null /Var1=True /Var2=1 /Var3='1' /Var4='null' /Var5= /Var6=test /Var7='te''st' /Var8="test" "/Var9=a b c"
 ```
 
-Если все переменные имеют *Переменный тип*, то они получат следующие значения:
+If all variables refer to the *Variable type*, they get the following values:
 
 ```batch
 Var0 — empty value;
@@ -106,18 +106,18 @@ Var9 — string a b c value.
 
 ### VarName
 
-Используется для задания значений [Переменных пакета](./../workflow/variables/scenario-variables.md).
+It is used to set values of the [Package variables](./../workflow/variables/scenario-variables.md).
 
-Для того чтобы задать значение переменной, необходимо указать параметр формата:
+To set the variable value, it is required to specify the format parameter:
 
 1. `/VarName=Value`.
-2. `/.VarName=Value` — используется, если имя переменной совпадает с именем, зарезервированным параметром *BatchLauncher* (например, `Package` или `UserName`),
+2. `/.VarName=Value` is used if the variable name matches the name reserved by *BatchLauncher* parameter (for example, `Package` or `UserName`),
 
-где:
-* `VarName` — наименование переменной, значение которой необходимо задать в строке запуска;
-* `Value` — значение переменной.
+where:
+* `VarName`: name of the variable which value must be set in the start string.
+* `Value`: variable value.
 
-> **Примечание:** нельзя устанавливать значения переменных, которые доступны "Только для чтения".
+> **Note:** it is not allowed to set values of the variables which are "Read-only" available.
 
 For example:
 
@@ -137,7 +137,7 @@ BatchLauncher /Package=/user/test.lgp /Teach
 
 ### Address
 
-IP адрес или имя хоста сервера *Loginom*. По умолчанию используется *localhost*.
+IP address or host name of the *Megaladata* server. *localhost* is used by default.
 
 For example:
 
@@ -147,7 +147,7 @@ BatchLauncher /Package=/user/test.lgp /Address=192.168.0.95
 
 ### Port
 
-Порт, по которому происходит обращение к серверу *Loginom*. По умолчанию используется *4580*.
+The port used for access to the *Megaladata* server. *4580* is used by default.
 
 For example:
 
@@ -157,7 +157,7 @@ BatchLauncher /Package=/user/test.lgp /Address=192.168.0.95 /Port=4555
 
 ### UserName
 
-Username. Если параметр не указан, то используется пользователь по умолчанию *service*. Если пользователя *service* удалить, то необходимо обязательно указывать параметр *UserName*.
+Username. If the parameter is not specified, the *service* user is used by default. If the *service* user is deleted, it is required to specify *UserName* parameter.
 
 For example:
 
@@ -177,9 +177,9 @@ BatchLauncher /Package=/user/test.lgp /UserName=user /Password=12345
 
 ### Save
 
-При наличии этого параметра пакет будет сохранён на диск после выполнения или переобучения.
+If this parameter is available, the package will be saved to disk after execution or retraining.
 
-Если при выполнении пакета возникнет ошибка, то он не будет сохранен.
+If an error occurs when executing the package, it will not be saved.
 
 For example:
 
@@ -189,7 +189,7 @@ BatchLauncher /Package=test.lgp /Teach /Save
 
 &nbsp;
 
-> **Важно:** при использовании пробельных символов в выражении, задающем значение параметра, все выражение необходимо заключить в двойные кавычки.
+> **Important:** When using the space characters in the expression that enables to set the parameter value, it is required to enclose the whole expression in double quotes.
 
 For example:
 

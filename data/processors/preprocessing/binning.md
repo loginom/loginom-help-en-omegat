@@ -5,7 +5,7 @@ description: Компонент Квантование в Loginom. Конечн�
 
 ## Description
 
-Компонент разбивает диапазон значений выбранных полей исходного набора на конечное число интервалов. Different algorithms can be used for binning (refer to binning methods further), and [external tables](./binning/external-ranges.md) with the set binning ranges can be used. Binning is used for the following data types: integer, real and date/time (refer to [data types](./../../data/datatype.md)).
+The component bins values range of the selected fields of the source data set to the final bin count. Different algorithms can be used for binning (refer to binning methods further), and [external tables](./binning/external-ranges.md) with the set binning ranges can be used. Binning is used for the following data types: integer, real and date/time (refer to [data types](./../../data/datatype.md)).
 
 ### Input
 
@@ -35,7 +35,7 @@ The area table consists of several columns:
 * **Method**: the field is represented by the drop-down list to select a binning method:
    * Width: a user can select the bin width and count of bins is automatically calculated as ratio of upper and lower bounds difference and the set width. The following parameters can be set by selecting corresponding checkboxes:
       * Upper bound — upper bound of the highest bin.
-      * Нижнюю границу — нижняя граница самого низкого интервала.
+      * Lower bound — lower bound of the lowest bin.
    * Count: count of bins is selected and the width is automatically calculated as ratio of upper and lower bounds difference and the set count of bins. Upper and lower bounds can be also set for this method.
    * Tile: a user selects count of bins and the component enables to set bin ranges in such a way that provides approximately the same number of values in each bin. There are several methods to process matching values:
       * Add to next: moves the values of matching observations to the next (higher) separation bin.
@@ -75,4 +75,4 @@ The table with the binning results received for the selected field is located un
 * **Caption** — bin caption (it can be set using a template);
 * **Volume** enables to display the volume of values included into the bin (it is displayed in the form of a histogram).
 
-> **Важно:** При изменении границ диапазонов квантования вручную гистограмма автоматически не пересчитывается. Чтобы увидеть обновленную (пересчитанную) гистограмму, нужно нажать на кнопку ![ ](./../../images/icons/common/toolbar-controls/calculate-barchart_default.svg) "Пересчитать гистограмму". При большом объеме данных перестройка гистограммы займет некоторое время, если нет необходимости в ее просмотре, можно сразу перейти на следующий шаг мастера настройки.
+> **Important:** When changing binning range bounds manually, the histogram is not automatically recalculated. To display the updated (recalculated) histogram, it is required to press ![ ](./../../images/icons/common/toolbar-controls/calculate-barchart_default.svg) "Recalculate histogram" button. In the case of the large data volumes, the histogram reconstruction will take some time. Thus, if it is not required to view it, it is possible to move directly to the next wizard step.

@@ -3,7 +3,7 @@ description: Справка по нормализации данных в Logino
 ---
 # Normalization
 
-**[Нормализация](https://wiki.loginom.ru/articles/data-normalization.html) значений полей** — это преобразование данных к виду, наиболее подходящему для обработки алгоритмом.
+**[Normalization](https://wiki.loginom.ru/articles/data-normalization.html) of field values** means the data transformation by the kind that is the most suitable one for algorithm processing.
 
 Normalization configuration is available as a separate page in the following wizards:
 * [Linear regression](./../datamining/linear-regression/README.md).

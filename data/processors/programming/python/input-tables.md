@@ -3,12 +3,12 @@ description: Компонент Python в Loginom. Доступ к входны�
 ---
 # ![](./../../../images/icons/components/python_default.svg) Access to the Input Data Sets
 
-Для доступа к данным портов `Входной источник данных[N]` используется кортеж `InputTables[]`, в котором обращение к источнику данных порта происходит через его номер:
+To have access to the data of `Input data source[N]` ports, `InputTables[]` tuple is used. Access to the port data source is provided by its number in this tuple:
 
 `InputTables[N]` where N is a port number (index). The first port has 0 index.
 
-Элементы кортежа имеют тип `DataSourceClass` (см. [Full API Description](./api-description.md)).
-Поскольку первый порт присутствует в узле *Python* по умолчанию, для доступа к его данным выделен отдельный класс `InputTable`.
+The tuple elements have the`DataSourceClass` type (refer to [Full API Description](./api-description.md)).
+As the first port is in the *Python* node by default, there is a separate `InputTable` class to provide access to its data.
 
 ## Data Source Properties
 
@@ -16,7 +16,7 @@ description: Компонент Python в Loginom. Доступ к входны�
 
 **Columns**
 
-Содержит доступную для чтения итерируемую коллекцию столбцов. Реализует протоколы *Mapping* и *Sequence*.  Возвращает значение типа `ColumnsClass`. Доступ к элементам может осуществляться через скобочную нотацию [] по именам и по индексам. Элементы коллекции имеют тип `InputColumnClass`, унаследованный от `ColumnClass`, реализующий протокол *Sequence* (см. [Полное описание API](./api-description.md)).
+It contains read-only iterated collection of columns. It implements *Mapping* and *Sequence* protocols.  It returns the value of the `ColumnsClass` type. Access to the elements can be provided by means of [] parenthetic notation by names and indexes. The collection elements have the `InputColumnClass` type inherited from `ColumnClass` that implements the *Sequence* protocol (refer to [Full API Description](./api-description.md)).
 
 %/spoiler%
 
@@ -24,7 +24,7 @@ description: Компонент Python в Loginom. Доступ к входны�
 
 **ColumnCount**
 
-It contains read-only count of columns.  Возвращает значение типа `int`.
+It contains read-only count of columns.  It returns the value of the `int` type.
 
 %/spoiler%
 
@@ -32,7 +32,7 @@ It contains read-only count of columns.  Возвращает значение �
 
 **RowCount**
 
-It contains read-only count of rows. Возвращает значение типа `int`.
+It contains read-only count of rows. It returns the value of the `int` type.
 
 %/spoiler%
 
@@ -42,10 +42,10 @@ It contains read-only count of rows. Возвращает значение ти�
 
 **Get(row, col)**
 
-- row: row index. Принимает значение типа `int`.
-- col: column index or name. Принимает значение типов `int` или `str`.
+- row: row index. It takes the value of the `int` type.
+- col: column index or name. It takes the value of the `int` or `str` types.
 
-The method returns the value of the set column in the set string. Возвращаемое значение может иметь типы: `bool`, `int`, `float`, `str`, `datetime.datetime`, `None`.
+The method returns the value of the set column in the set string. The returned value can have the following types: `bool`, `int`, `float`, `str`, `datetime.datetime`, `None`.
 
 %/spoiler%
 
@@ -53,9 +53,9 @@ The method returns the value of the set column in the set string. Возвращ
 
 **GetColumn(col)**
 
-- col: column index or name. Принимает значение типов `int` или `str`.
+- col: column index or name. It takes the value of the `int` or `str` types.
 
-Метод возвращает столбец входного набора. Возвращаемое значение имеет тип `InputColumnClass`, унаследованный от `ColumnClass`, реализующий протокол *Sequence*. (refer to [Full API Description](./api-description.md)).
+The method returns the input data set column. The returned value has the `InputColumnClass` type inherited from `ColumnClass` that implements the *Sequence* protocol. (refer to [Full API Description](./api-description.md)).
 
 %/spoiler%
 
@@ -63,16 +63,16 @@ The method returns the value of the set column in the set string. Возвращ
 
 **IsNull(row, col)**
 
-- row: row index. Принимает значение типа `int`.
-- col: column index or name. Принимает значение типа `int` или `str`.
+- row: row index. It takes the value of the `int` type.
+- col: column index or name. It takes the value of the `int` or `str` type.
 
 The method returns the boolean `true` value if the column in the set string has the null value. Otherwise, the `false` value returns.
 
 %/spoiler%
 
-## Использование модуля builtin_pandas_utils
+## builtin_pandas_utils Module Use
 
-Для создания `pandas.DataFrame` по набору данных порта в модуле [builtin_pandas_utils](./api-description.md#modul-builtinpandasutils) реализован метод `to_data_frame`, принимающий в качестве аргумента значение типа `DataSourceClass` (см. пример ниже).
+To create `pandas.DataFrame` by the port data set in [builtin_pandas_utils](./api-description.md#modul-builtinpandasutils) module, `to_data_frame` method that takes as an argument the value of the `DataSourceClass` type is implemented (refer to the example below).
 
 ## Examples:
 
@@ -81,12 +81,12 @@ from builtin_data import InputTable, InputTables
 from builtin_pandas_utils import to_data_frame
 import numpy as np
 
-inputTable0 = InputTables[0]                    #Источник данных с порта №1
-inputTable1 = InputTables[1]                    #Источник данных с порта №2
-colOutlook0 = inputTable0.Columns["OUTLOOK"]    #Получение ссылки на столбец по имени
-colOutlook1 = inputTable1.Columns[1]            #Получение ссылки на столбец по индексу
+inputTable0 = InputTables[0]                    #Source of the data from port No №1
+inputTable1 = InputTables[1]                    #Source of the data from port No2
+colOutlook0 = inputTable0.Columns["OUTLOOK"]    #Getting reference to the column by name
+colOutlook1 = inputTable1.Columns[1]            #Getting reference to the column by index
 
-#Вывод значений свойств столбцов
+#Outputting the values of the columns properties
 for column in InputTable.Columns:
     print("Index: ", column.Index)
     print("Name: ", column.Name)
@@ -97,22 +97,22 @@ for column in InputTable.Columns:
     print("DefaultUsageType: ", column.DefaultUsageType)
     print("RowCount: ", column.RowCount, "\n")
 
-#Вывод значений столбца
+#Outputting the column values
 for index, value in enumerate(colOutlook0):
     print("Индекс {}, значение {}".format(index, value))
 
-#Чтение значений из входной таблицы методом Get
+#Reading the values from the input table using the Get method
 for i in range(InputTable.RowCount):
-    #Вывод значений столбца с индексом 0
+    #Outputting the values of the column with 0 index
     print("InputTable.Get({}, 0) = {}".format(i, InputTable.Get(i, 0)))
-    #Вывод значений столбца с именем "CLASS"
+    #Outputting the values of the column with the "CLASS" name
     print("InputTable.Get({}, 'CLASS') = {}".format(i, InputTable.Get(i, "CLASS")))
 
-#Получение из столбца "CLASS" массива значений
+#Getting the values array from the "CLASS" column
 arrayOfColumnValues = np.array(InputTable.Columns["CLASS"])
 print(arrayOfColumnValues)
 
-#Создание pd.DataFrame по входному набору
+#Creation of pd.DataFrame by the input data set
 data = to_data_frame(InputTable)
 print(data)
 

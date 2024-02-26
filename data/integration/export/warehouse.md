@@ -18,11 +18,11 @@ description: Экспорт данных из Loginom в Хранилище да
 
 * **Connection** enables to display a string of connection to data source. It cannot be edited.
 * **Activate** provides connection with the Data Warehouse if it has not been established yet. Upon connection establishment, the button is inactive, and the name is changed to *Activated*.
-* **Объекты хранилища данных** — содержит древовидный список ![Процессы](./../../images/icons/imports/dwh/data-warehouse/fact-tables-folder_default.svg) *Процессов* и ![Измерения](./../../images/icons/imports/dwh/data-warehouse/dimensions-folder_default.svg) *Измерений*, из которых необходимо выбрать лишь один объект — ![Процесс](./../../images/icons/imports/dwh/data-warehouse/fact-table_default.svg) *Процесс* или ![Измерение](./../../images/icons/imports/dwh/data-warehouse/dimension_default.svg) *Измерение*.
+* **Data Warehouse objects** contain a tree list ![Processes](./../../images/icons/imports/dwh/data-warehouse/fact-tables-folder_default.svg) *Processes* and ![Dimensions](./../../images/icons/imports/dwh/data-warehouse/dimensions-folder_default.svg) *Dimensions* from which it is required to select only one object, namely,![Process](./../../images/icons/imports/dwh/data-warehouse/fact-table_default.svg) *Process* or ![Dimension](./../../images/icons/imports/dwh/data-warehouse/dimension_default.svg) *Dimension*.
 
 ### Step 2. Экспорт в хранилище данных
 
-На данной странице происходит работа с внутренними элементами объекта, выбранного на предыдущем шаге.
+This page is designated for work with internal items of the object selected at the previous stage.
 
 The wizard window is divided into two areas:
 

@@ -1,9 +1,9 @@
-# Заметки
+# Notes
 
-Заметки добавляются на поле сценария, они являются независимыми блоками, не привязанными к узлам или другим элементам. Располагаются всегда под узлами и линками. Могут вырезаться, копироваться, вставляться, а также сворачиваться и разворачиваться в составе подмоделей.
+Notes are always added to the workflow field. They are independent blocks that are not connected with nodes or other elements. They are always located under nodes and links. They can be cut, copied, pasted, collapsed and expanded in the framework of supernodes.
 
-Заметки имеют набор предустановленных цветовых стилей и видов обводки. Меню стилей заметки открывается по правому клику на заметку.
+There is a set of preinstalled color styles and stroke kinds available for notes. The note styles menu is opened by right-clicking the note.
 
-Текст внутри заметок переносится на новую строку, делая разрыв даже в середине слова. Если текст не помещается в заметку — добавляется скролл (только вертикальный). Последовательные пробелы при отображении заметки сворачиваются в один.
+Text inside the notes is carried over to the new line with word break even in the middle of the word. If there is no enough space for the text in the note, it is possible to add scrolling (only the vertical one). Successive spaces are collapsed into one when displaying the note.
 
-![Пример заметки](./note.png)
+![Note Example](./note.png)

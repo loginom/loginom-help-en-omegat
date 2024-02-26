@@ -5,7 +5,7 @@ description: Трансформация даты/времени в Loginom. Си
 
 When setting the user format, it is possible to use a combination of user-defined text and pre-defined markers.
 
-List and Designation of Markers:
+List and Usage Type of Markers:
 
 * **Day.**
    * **%d** — day of the month with leading zero.

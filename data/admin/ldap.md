@@ -3,17 +3,17 @@ description: Использование LDAP аутентификации в Log
 ---
 # LDAP
 
-В редакции платформы Loginom Enterprise доступно использование LDAP аутентификации, что позволяет авторизоваться на сервере Loginom через LDAP сервер.
+Use of the LDAP authentification is available in the Megaladata Enterprise edition of the platform. It provides for the Megaladata server login via the LDAP server.
 
 > **Note:** Both Active Directory and OpenLDAP can be used as the LDAP server.
 
 ## Configure
 
-The LDAP server connection settings are analyzed in [Parameters](./parameters.md#parametry-ldap) subsection of Administration section, change of *Authentification* user method is analyzed in [Users](./users/README.md) subsection.
+The LDAP server connection settings are analysed in [Parameters](./parameters.md#parametry-ldap) subsection of Administration section, change of *Authentification* user method is analysed in [Users](./users/README.md) subsection.
 
 ## Authentification
 
-The user name and password entered on the Loginom home page are used for *Authentification*:
+The username and password entered on the Loginom home page are used for *Authentification*:
 
 1. The current user is searched for by the specified name on the Loginom server.
 2. If the user has been found, and the "LDAP" authentification method has been set for him, or no user has been found, *Authentification* attempt is made using the LDAP server.

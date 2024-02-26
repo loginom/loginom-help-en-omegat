@@ -3,9 +3,9 @@ description: Справка по администрированию в Loginom. 
 ---
 # ![Administration](./../images/icons/common/admin-system-objects/admin_default.svg) Administration
 
-Этот раздел в интерфейсе программы нужен для управления [пользователями](./users/README.md), [рабочими папками](./shared-folder.md), [параметрами](./parameters.md) работы сервера, просмотра открытых сессий и пакетов, мониторинга и управления их активностью в [диспетчере](./dispatcher.md). В отличие от серверных редакций поставки (Team, Standard, Enterprise), настольные (Community, Personal) имеют всего один пункт в разделе — *Параметры*.
+This section of the program interface is required for control of [users](./users/README.md), [work folders](./shared-folder.md), [parameters](./parameters.md) of server operation, view of opened folders and packages, monitoring and control of their activity in the [Session Manager](./dispatcher.md). As opposed to the supplied server editions (Team, Standard, Enterprise), the desktop editions (Community, Personal) have only one point in the section — *Parameter*.
 
-В серверных редакциях доступ в раздел имеют только пользователи с ролью *Администратор*.
+Only users with the *Administrator* role have access to the section in the server editions.
 
 > **Attention:** admin user with the *Administrator* rights and a password (admin) is set in the system by default.
 > It is obligatory to change the password of this user after the system setup.

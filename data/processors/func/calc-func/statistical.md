@@ -7,7 +7,7 @@ description: Справка по статистическим функциям L
 
 **Avg(Argument1, Argument2 ...)**
 
-* Аргументы — любые числовые выражения.
+* Arguments - any numeric expressions.
 
 Returns the arithmetic mean of arguments.
 
@@ -15,8 +15,8 @@ Returns the arithmetic mean of arguments.
 
 **DKhi2(Degrees\_of\_freedom, Argument)**
 
-* Степени\_свободы — число степеней свободы.
-* Аргумент — значение, для которого требуется вычислить плотность распределения.
+* Degrees\_of\_freedom - number of degrees of freedom.
+* Argument: the value for which it is required to calculate the distribution density.
 
 Density function of gamma distribution of Chi-square.
 
@@ -24,8 +24,8 @@ Density function of gamma distribution of Chi-square.
 
 **FKhi2(Degrees\_of\_freedom, Argument)**
 
-* Степени\_свободы — число степеней свободы.
-* Аргумент — значение, для которого требуется вычислить плотность распределения.
+* Degrees\_of\_freedom - number of degrees of freedom.
+* Argument: the value for which it is required to calculate the distribution density.
 
 Integral function of gamma distribution equal to (1 - one-sided probability of Chi-square distribution) with n degrees of freedom.
 
@@ -33,8 +33,8 @@ Integral function of gamma distribution equal to (1 - one-sided probability of C
 
 **InvKhi2(Degrees\_of\_freedom, Probability)**
 
-* Степени\_свободы — число степеней свободы.
-* Вероятность — вероятность, связанная с гамма-распределением.
+* Degrees\_of\_freedom - number of degrees of freedom.
+* Probability: the probability connected with gamma distribution.
 
 Returns inverse gamma distribution for the integral function equal to (1 - one-sided probability of Chi-square distribution). If p=FKhi2(N, X), then InvKhi2(N, P) = X
 
@@ -44,7 +44,7 @@ Returns inverse gamma distribution for the integral function equal to (1 - one-s
 
 * Argument1.
 * Argument2.
-* ... — числовые выражения.
+* ... — numeric expressions.
 
 Returns the maximum argument.
 
@@ -54,7 +54,7 @@ Returns the maximum argument.
 
 * Argument1.
 * Argument2.
-* ... — числовые выражения.
+* ... — numeric expressions.
 
 Returns the minimum argument.
 
@@ -62,50 +62,50 @@ Returns the minimum argument.
 
 **PKhi2(Degrees\_of\_freedom, Argument)**
 
-* Степени\_свободы — число степеней свободы.
-* Аргумент — значение, для которого требуется вычислить плотность распределения.
+* Degrees\_of\_freedom - number of degrees of freedom.
+* Argument: the value for which it is required to calculate the distribution density.
 
 Returns one-sided probability of Chi-square distribution.
 
 ## Stat
 
-**Stat("ИмяПоля", "Тип")**
+**Stat("FieldName", "Type")**
 
-* ИмяПоля — поле, по которому необходимо получить значение показателя,
-* Тип — показатель статистики, который необходимо получить.
+* FieldName: the field by which it is required to get the indicator value.
+* Type: the statistics indicator which must be obtained.
 
-Функция возвращает значение одного из статистических показателей.
+Function returns the value of one of the statistical indicators.
 
-> В таблице представлены требования для входных данных.
+> Requirements for input data are listed in the table.
 
-| Тип показателя статистики | Значение показателя | Data kind | Data type |
+| Type of statistics indicator | Indicator value | Data kind | Data type |
 | ------------------------- | ------------------- | ---------- | ---------- |
-| Min | Минимальное значение | ![](./../../../images/icons/common/data-types/continuous_default.svg) Непрерывный, ![](./../../../images/icons/common/data-types/discrete_default.svg) Дискретный | ![](./../../../images/icons/common/data-types/float_default.svg) Вещественный, ![](./../../../images/icons/common/data-types/integer_default.svg) Целый |
-| Max | Максимальное значение | ![](./../../../images/icons/common/data-types/continuous_default.svg) Непрерывный, ![](./../../../images/icons/common/data-types/discrete_default.svg) Дискретный | ![](./../../../images/icons/common/data-types/float_default.svg) Вещественный, ![](./../../../images/icons/common/data-types/integer_default.svg) Целый |
-| Mode | Наиболее часто встречающееся значение | ![](./../../../images/icons/common/data-types/discrete_default.svg) Discrete | ![](./../../../images/icons/common/data-types/float_default.svg) Вещественный, ![](./../../../images/icons/common/data-types/integer_default.svg) Целый, ![](./../../../images/icons/common/data-types/string_default.svg) Строковый, ![](./../../../images/icons/common/data-types/boolean_default.svg) Логический, ![](./../../../images/icons/common/data-types/datetime_default.svg) Дата/время |
-| Avg | Среднее значение | ![](./../../../images/icons/common/data-types/continuous_default.svg) Непрерывный, ![](./../../../images/icons/common/data-types/discrete_default.svg) Дискретный | ![](./../../../images/icons/common/data-types/float_default.svg) Вещественный, ![](./../../../images/icons/common/data-types/integer_default.svg) Целый |
-| StdDev | Стандартное отклонение | ![](./../../../images/icons/common/data-types/continuous_default.svg) Непрерывный, ![](./../../../images/icons/common/data-types/discrete_default.svg) Дискретный | ![](./../../../images/icons/common/data-types/float_default.svg) Вещественный, ![](./../../../images/icons/common/data-types/integer_default.svg) Целый |
-| Sum | Сумма значений | ![](./../../../images/icons/common/data-types/continuous_default.svg) Непрерывный, ![](./../../../images/icons/common/data-types/discrete_default.svg) Дискретный | ![](./../../../images/icons/common/data-types/float_default.svg) Вещественный, ![](./../../../images/icons/common/data-types/integer_default.svg) Целый |
-| SumSq | Сумма квадратов значений | ![](./../../../images/icons/common/data-types/continuous_default.svg) Непрерывный, ![](./../../../images/icons/common/data-types/discrete_default.svg) Дискретный | ![](./../../../images/icons/common/data-types/float_default.svg) Вещественный, ![](./../../../images/icons/common/data-types/integer_default.svg) Целый |
-| Count | Количество значений | ![](./../../../images/icons/common/data-types/continuous_default.svg) Непрерывный, ![](./../../../images/icons/common/data-types/discrete_default.svg) Дискретный | ![](./../../../images/icons/common/data-types/float_default.svg) Вещественный, ![](./../../../images/icons/common/data-types/integer_default.svg) Целый, ![](./../../../images/icons/common/data-types/string_default.svg) Строковый, ![](./../../../images/icons/common/data-types/boolean_default.svg) Логический, ![](./../../../images/icons/common/data-types/datetime_default.svg) Дата/время |
-| UniqueCount | Количество уникальных значений | ![](./../../../images/icons/common/data-types/discrete_default.svg) Discrete | ![](./../../../images/icons/common/data-types/float_default.svg) Вещественный, ![](./../../../images/icons/common/data-types/integer_default.svg) Целый, ![](./../../../images/icons/common/data-types/string_default.svg) Строковый, ![](./../../../images/icons/common/data-types/boolean_default.svg) Логический, ![](./../../../images/icons/common/data-types/datetime_default.svg) Дата/время |
-| NullCount | Количество пропущенных значений | ![](./../../../images/icons/common/data-types/continuous_default.svg) Непрерывный, ![](./../../../images/icons/common/data-types/discrete_default.svg) Дискретный | ![](./../../../images/icons/common/data-types/float_default.svg) Вещественный, ![](./../../../images/icons/common/data-types/integer_default.svg) Целый, ![](./../../../images/icons/common/data-types/string_default.svg) Строковый, ![](./../../../images/icons/common/data-types/boolean_default.svg) Логический, ![](./../../../images/icons/common/data-types/datetime_default.svg) Дата/время |
+| Min | Minimum value | ![](./../../../images/icons/common/data-types/continuous_default.svg) Continuous, ![](./../../../images/icons/common/data-types/discrete_default.svg) Discrete | ![](./../../../images/icons/common/data-types/float_default.svg) Real, ![](./../../../images/icons/common/data-types/integer_default.svg) Integer |
+| Max | Maximum value | ![](./../../../images/icons/common/data-types/continuous_default.svg) Continuous, ![](./../../../images/icons/common/data-types/discrete_default.svg) Discrete | ![](./../../../images/icons/common/data-types/float_default.svg) Real, ![](./../../../images/icons/common/data-types/integer_default.svg) Integer |
+| Mode | The most frequently occurring value | ![](./../../../images/icons/common/data-types/discrete_default.svg) Discrete | ![](./../../../images/icons/common/data-types/float_default.svg) Real, ![](./../../../images/icons/common/data-types/integer_default.svg) Integer, ![](./../../../images/icons/common/data-types/string_default.svg) String, ![](./../../../images/icons/common/data-types/boolean_default.svg) Logical, ![](./../../../images/icons/common/data-types/datetime_default.svg) Date/time |
+| Avg | Average value | ![](./../../../images/icons/common/data-types/continuous_default.svg) Continuous, ![](./../../../images/icons/common/data-types/discrete_default.svg) Discrete | ![](./../../../images/icons/common/data-types/float_default.svg) Real, ![](./../../../images/icons/common/data-types/integer_default.svg) Integer |
+| StdDev | Standard deviation | ![](./../../../images/icons/common/data-types/continuous_default.svg) Continuous, ![](./../../../images/icons/common/data-types/discrete_default.svg) Discrete | ![](./../../../images/icons/common/data-types/float_default.svg) Real, ![](./../../../images/icons/common/data-types/integer_default.svg) Integer |
+| Sum | Sum of values | ![](./../../../images/icons/common/data-types/continuous_default.svg) Continuous, ![](./../../../images/icons/common/data-types/discrete_default.svg) Discrete | ![](./../../../images/icons/common/data-types/float_default.svg) Real, ![](./../../../images/icons/common/data-types/integer_default.svg) Integer |
+| SumSq | Sum of square values | ![](./../../../images/icons/common/data-types/continuous_default.svg) Continuous, ![](./../../../images/icons/common/data-types/discrete_default.svg) Discrete | ![](./../../../images/icons/common/data-types/float_default.svg) Real, ![](./../../../images/icons/common/data-types/integer_default.svg) Integer |
+| Count | Sum of values | ![](./../../../images/icons/common/data-types/continuous_default.svg) Continuous, ![](./../../../images/icons/common/data-types/discrete_default.svg) Discrete | ![](./../../../images/icons/common/data-types/float_default.svg) Real, ![](./../../../images/icons/common/data-types/integer_default.svg) Integer, ![](./../../../images/icons/common/data-types/string_default.svg) String, ![](./../../../images/icons/common/data-types/boolean_default.svg) Logical, ![](./../../../images/icons/common/data-types/datetime_default.svg) Date/time |
+| UniqueCount | Count of unique values | ![](./../../../images/icons/common/data-types/discrete_default.svg) Discrete | ![](./../../../images/icons/common/data-types/float_default.svg) Real, ![](./../../../images/icons/common/data-types/integer_default.svg) Integer, ![](./../../../images/icons/common/data-types/string_default.svg) String, ![](./../../../images/icons/common/data-types/boolean_default.svg) Logical, ![](./../../../images/icons/common/data-types/datetime_default.svg) Date/time |
+| NullCount | Count of the null values | ![](./../../../images/icons/common/data-types/continuous_default.svg) Continuous, ![](./../../../images/icons/common/data-types/discrete_default.svg) Discrete | ![](./../../../images/icons/common/data-types/float_default.svg) Real, ![](./../../../images/icons/common/data-types/integer_default.svg) Integer, ![](./../../../images/icons/common/data-types/string_default.svg) String, ![](./../../../images/icons/common/data-types/boolean_default.svg) Logical, ![](./../../../images/icons/common/data-types/datetime_default.svg) Date/time |
 
-Расчет производится по полям, заданным на вход узла [Калькулятор](https://help.loginom.ru/userguide/processors/transformation/calc/). Столбцы, вычисленные в этом же *Калькуляторе*, не будут рассчитаны.
+Calculation is made by the fields that are set for the [Calculator](https://help.loginom.ru/userguide/processors/transformation/calc/) node input. The columns calculated in the same *Calculator* will not be calculated.
 
 ## StdDev
 
 **StdDev(Argument1, Argument2 ...)**
 
-* Аргументы — любые числовые выражения.
+* Arguments - any numeric expressions.
 
-Возвращает стандартное отклонение аргументов, определенное на основе несмещенной дисперсии.
+It returns the standard deviation of arguments defined on the basis of unbiased variance.
 
 ## Sum
 
 **Sum(Argument1, Argument2 ...)**
 
-* Аргументы — любые числовые выражения.
+* Arguments - any numeric expressions.
 
 Returns the sum of arguments.
 
@@ -113,6 +113,6 @@ Returns the sum of arguments.
 
 **SumSq(Argument1, Argument2 ...)**
 
-* Аргументы — любые числовые выражения.
+* Arguments - any numeric expressions.
 
 Returns the sum of squared arguments.

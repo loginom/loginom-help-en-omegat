@@ -7,7 +7,7 @@ The Coarse Classes handler enables to solve the following problems:
 
 * Conversion of the continuous and discrete input fields used for training of the models related to the [binary classification](https://wiki.loginom.ru/articles/binary-classification.html) by means of the [binning](https://wiki.loginom.ru/articles/binning.html) based on totality-of-evidence approach or  [WoE analysis](https://wiki.loginom.ru/articles/weight-of-evidence.html) (weights of evidence, WoE).
 * Reduction of data dimensionality by excluding the indicators with low significance, by decreasing variety of indicator values.
-* восстановление пропусков, когда пропуски образуют отдельную метку интервала квантования или объединяются с соседним, близким по значению WoE-индекса;
+* Null data recovery when null data forms a separate binning range caption, or it is joined with the nearest one that is close by the WoE coefficient value.
 * The struggle against outliers and extreme values is based on formation of the binning range captions during discretization of the continuous field or union of rare unique values into one category.
 * Simplification of description of the objects under study.
 
@@ -17,16 +17,16 @@ The visualizer includes the following items:
 * [Area of fine classes](#oblast-nachalnykh-klassov).
 * [Area of coarse classes](#oblast-konechnykh-klassov).
 
-> **Примечание:** визуализатор *Конечные классы* может использоваться только с узлом [*Конечные классы*](./../../processors/preprocessing/coarse-classes.md).
+> **Note:** The *Coarse сlasses* visualizer can be used only with the [*Coarse classes*](./../../processors/preprocessing/coarse-classes.md) node.
 
 ## Interface
 
 ### Operations
-Для *Списка входных столбцов* доступна операция ![](./../../images/icons/common/toolbar-controls/fields-list_default.svg)**Скрыть боковую панель**. Pressing the button enables to hide the bar with the list of input columns, whereas the repeated pressing returns the bar.
+For the *List of input columns* ![](./../../images/icons/common/toolbar-controls/fields-list_default.svg)**Hide side bar** operation is available. Pressing the button enables to hide the bar with the list of input columns, whereas the repeated pressing returns the bar.
 
 *Area of coarse classes* can be represented in the [table](#tablitsa) form - ![](./../../images/icons/common/toolbar-controls/table-view_default.svg) **Show coarse class table** *(Alt+One*) or in the form of [charts - ](#diagramma) ![](./../../images/icons/common/toolbar-controls/chart_default.svg) **Show coarse class charts** (*Alt+Two*).
 
-Также имеется переключатель ![](./../../images/icons/switches/roc/relative_default.svg)**Доли событий** / ![](./../../images/icons/switches/roc/absolute_default.svg)**Количество событий** — для выбора отображения абсолютных и относительных значений.
+![](./../../images/icons/switches/roc/relative_default.svg)**Event rates** / ![](./../../images/icons/switches/roc/absolute_default.svg)**Events count** switch is available to select display of absolute and relative values.
 
 ### List of Input Columns
 
@@ -34,7 +34,7 @@ The visualizer includes the following items:
    * ![](./../../images/icons/common/toolbar-controls/unlocked_default.svg) **Unlocked** shows whether this field can be used in the process of the coarse classes generation while model overfitting.
    * ![](./../../images/icons/common/toolbar-controls/locked_default.svg) **Locked** shows that this field will not be used while overfitting.
 
-> **Примечание:** статус поля изменить нельзя, он только отражает настройки в соответствующем узле [*Конечные классы*](./../../processors/preprocessing/coarse-classes.md).
+> **Note:** It is not possible to change the field status. It only displays settings in the corresponding [*Coarse classes*](./../../processors/preprocessing/coarse-classes.md) node.
 
 * Column caption.
 * Estimated significance level IV (refer to Figure 1).
@@ -71,7 +71,7 @@ The coarse classes are displayed in the form of a table or WoE chart (refer to F
 
 #### Table
 
-При установке переключателя в положение *Количество событий*, таблица будет состоять из следующих полей:
+When *Events count* switch position is selected, the table will include the following fields:
 
 | Field | Description |
 |:--------------------|:----------|
@@ -83,7 +83,7 @@ The coarse classes are displayed in the form of a table or WoE chart (refer to F
 | Non-events | Opposite state of the binary target class variable |
 | Total | The sum of class events and non-events |
 | Rate | The coarse class rate based on the total volume of records |
-| Weight of evidence | Коэффициент WoE |
+| Weight of evidence | WoE coefficient |
 | [Inf. value](https://wiki.loginom.ru/articles/information-value.html) | The value that defines the indicator significance in the [binary classification](https://wiki.loginom.ru/articles/binary-classification.html) model |
 
 The sum is displayed in the lower part of the table:
@@ -93,14 +93,14 @@ The sum is displayed in the lower part of the table:
 * Events and non-events of all classes.
 * Information values of all classes.
 
-При установке переключателя в положение *Доли событий*, вместо полей *События* и *Не-события* будут отображаться поля *Доля событий* и *Доля не-событий*.
+When *Event rates* switch position is selected, instead of *Events* and *Non-events* fields, *Event rate* and *Non-event rate* fields will be displayed.
 
-При этом в нижней части таблицы будет отображаться:
+In this case, the following information will be displayed in the lower table part:
 
-* Доля суммы Событий всех классов ;
-* Доля суммы Не-событий всех классов;
-* Сумма Событий и Не-событий всех классов;
-* Сумма информационных индексов всех классов.
+* Part of the sum of Events of all classes.
+* Part of the sum of Non-events of all classes.
+* Sum of Events and Non-events of all classes.
+* Sum of information values of all classes.
 
 
 #### Chart
@@ -120,8 +120,8 @@ When hovering mouse cursor over the chart column, the window appears (refer to. 
 * For WoE chart:
    * WoE value.
 * For chart IV:
-   * значение IV.
-   * количество Событий.
-   * non-events count.
+   * value IV.
+   * Events count.
+   * Non-events count.
 
 ![WoE chart and chart IV.](./charts-6.png)

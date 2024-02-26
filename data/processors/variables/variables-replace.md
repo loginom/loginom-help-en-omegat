@@ -3,7 +3,7 @@ description: Компонент Замена (переменные) в Loginom. 
 ---
 # ![Replace (Variables)](./../../images/icons/components/replace-variables_default.svg) Replace (Variables)
 
-Компонент заменяет входные переменные, используя таблицы замен. The replacement tables contain couples of the replaced and new values or regular expressions that enable to compute them.
+The component replaces the input variables using replacement tables. The replacement tables contain couples of the replaced and new values or regular expressions that enable to compute them.
 
 Sequence of the replacement algorithm actions:
 

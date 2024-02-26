@@ -15,7 +15,7 @@ As the first port is in the *JavaScript* node by default, there is a separate `I
 
 **Columns**
 
-It contains read-only collection of columns. Возвращает объект, реализующий интерфейс `IIntputColumns`. Элементы коллекции — объекты, реализующие интерфейс `IIntputColumn` (см. [Полное описание API](./api-description.md)).
+It contains read-only collection of columns. It returns the object that implements the `IIntputColumns` interface. Collection elements — objects that implement `IIntputColumn` interface (refer to [Full API Description](./api-description.md)).
 
 %/spoiler%
 
@@ -65,7 +65,7 @@ The method returns the boolean `true` value if the column in the set string has 
 
 - col: column index or name. It takes the value of the `number` or `string` types.
 
-Метод возвращает объект столбца, реализующий интерфейс `IIntputColumn` (см. [Full API Description](./api-description.md)).
+The method returns the column object that implements the `IIntputColumn` interface (refer to [Full API Description](./api-description.md)).
 
 %/spoiler%
 
@@ -74,16 +74,17 @@ The method returns the boolean `true` value if the column in the set string has 
 ```javascript
 import { InputTable, InputTables } from "builtIn/Data";
 
-let inputTable0 = InputTables[0],                   // Источник данных с порта №1
-    inputTable1 = InputTables[1];                   // Источник данных с порта №2
-let colOutlook0 = inputTable0.Columns.OUTLOOK,      // Получение ссылки на столбец по имени
+let inputTable0 = InputTables[0],                   // Source of the data from port No1
+    inputTable1 = InputTables[1];                   // Source of the data from port No2
+let colOutlook0 = inputTable0.Columns.OUTLOOK,      // Getting reference to the column by name
     colDefault0 = inputTable0.GetColumn("DEFAULT");
-let colOutlook1 = inputTable1.Columns[0],           // Получение ссылки на столбец по индексу
+let colOutlook1 = inputTable1.Columns[0],           // Getting reference to the column by index
+
     colDefault1 = inputTable1.GetColumn(1);
 
-// Получение из объекта Columns массива столбцов
+// Getting the columns array from the Columns object
 let arrayOfColumns = Array.from(InputTable.Columns);
-// Вывод значений свойств столбцов в консоль
+// Outputting the values of the columns properties to the console
 arrayOfColumns.forEach(column => {
     console.log("Index: ", column.Index);
     console.log("Name: ", column.Name);

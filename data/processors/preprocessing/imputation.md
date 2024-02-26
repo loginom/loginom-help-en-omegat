@@ -5,7 +5,7 @@ description: Компонент Заполнение пропусков в Login
 
 ## Description
 
-Компонент предназначен для автоматического заполнения пропущенных значений в наборах данных.
+The component is designated for automatic filling of null values in data sets.
 A user can select the most suitable imputation method for each column of the source data set. Null values are considered to be null data.
 
 > **Note:** The node does not process the fields with the variable data type (refer to [data types](./../../data/datatype.md)).
@@ -28,37 +28,37 @@ Adjustment of columns mapping is performed in the [table](./../../workflow/ports
 
 * **Source data ordered**: it is required to select this checkbox when it is known that the data is ordered. For example, time or other series the values of which are ordered in ascending or descending order (for example, by date or time). Diffferent imputation methods can be used for ordered and unordered data.
 * **Allowable percentage of nulls**: it takes the value expressed in percentage terms and sets the threshold after which no imputation occurs. For example, if 50 value is set for this parameter, the fileds that contain more than 50% of null data will not be filled in.
-* **Random seed** — начальное число (целое, положительное), которое используется для инициализации генератора псевдослучайных чисел. Последовательность чисел генератора полностью определяется начальным числом. Если генератор повторно инициализируется с тем же начальным числом, он выдаст ту же последовательность чисел.
+* **Random seed** is a starting seed (integer, positive ) that is used for initialization of pseudo-random number generator. Sequence of generator numbers is fully determined by the starting seed. If the generator is repeatedly initialized with the same starting seed, it will provide the same sequence of numbers.
 
-   Параметр влияет на порядок замены случайными значениями. Можно повторить результат выполнения узла, если подать те же данные и выставить тот же random seed.
+   The parameter affects the order of replacement with random values. It is possible to reproduce the node execution result if the same data is provided and the same random seed is set.
 
-   Для параметра доступны следующие команды:
+   The following commands are available for the parameter:
 
-   * Всегда случайно — начальное число всегда будет случайным.
-   * Генерировать — сгенерируется новое начальное число.
-   * Копировать — в буфер обмена будет скопировано указанное значение.
+   * Always randomly: the starting seed will always be random.
+   * Generate: the new starting seed will be generated.
+   * Copy: the specified value will be copied to the clipboard.
 
-* **Область настройки методов обработки пропусков** — содержит список полей доступных для обработки, с указанием вида данных. It is possible to select the checkbox that enables to define the processing necessity for each field. Then, it is possible to set the imputation method.
+* **Area of configuration of null data processing** contains a list of the fields available for processing with data kind specification. It is possible to select the checkbox that enables to define the processing necessity for each field. Then, it is possible to set the imputation method.
 
 The following processing methods are available:
 
-* **Заменять средним** — выявленные пропуски заменяются средним значением столбца.
-* **Заменять медианой** — выявленные пропуски заменяются медианой, вычисленной по столбцу.
-* **Заменять наиболее вероятным** — выявленные пропуски заменяются наиболее вероятным значением по столбцу, замена производится на [среднее значение из наиболее вероятного интервала](https://wiki.loginom.ru/articles/mean-most-likely-interval.html), число интервалов варьируется в зависимости от объема выборки — чем она больше, тем больше интервалов.
-* **Заменять на 0** — выявленные пропуски заменяются значением 0.
-* **Заменять случайными значениями** — выявленные пропуски заменяются случайными значениями, которые формируются из диапазона от наименьшего до наибольшего значения столбца.
-* **Линейная интерполяция** — выявленные пропуски заменяются на вычисленные промежуточные значения линейной функции, полученной по известным значениям (условно проведя прямую между ними).
-* **Кубическая интерполяция** — выявленные пропуски заменяются на промежуточные значения кубического сплайна (сплайны третьей степени с непрерывной первой производной), полученного по известным значениям.
-* **Сплайн-интерполяция** — выявленные пропуски заменяются на промежуточные значения сплайн-функции , полученной по известным значениям.
-* **Оставить без изменения** — выявленные пропуски заполняться не будут.
-* **Удалять записи** — строки с выявленными пропусками исключаются из выходного набора данных.
-* **Заменять значением "Не задано"** — выявленные пропуски заменяются значением "Не задано".
+* **Replace with average**: replace detected null data with the average column value.
+* **Replace with median**: replace detected null data with the median calculated for the column.
+* **Replace with most frequent**: replace detected null data with the most frequent column value. Replacement is performed using the [average value from the most frequent bin](https://wiki.loginom.ru/articles/mean-most-likely-interval.html). The bin count varies according to the sample size: the larger the sample size, the higher number of bins.
+* **Replace with 0**: replace detected null data with 0 value.
+* **Replace with random values**: replace detected null data with the random values that are formed from the range from the lowest to the highest column value.
+* **Linear interpolation**: detected null data is replaced with the calculated intermediate values of the linear function received using the known values (drawing a conditional line between them).
+* **Cubic interpolation**: detected null data is replaced with the intermediate values of the cubic spline (the third degree splines with the continuous first derivative) received using the known values.
+* **Spline interpolation**: detected null data is replaced with the intermediate values of the spline function received using the known values.
+* **Leave unchanged**: detected null data will not be filled in.
+* **Delete records**: delete the rows with detected null data from the output data set.
+* **Replace with "Not defined"**: replace detected null data with "Not defined" value.
 
 The spectrum of available methods is defined for each field by three data characteristics simultaneously (refer to [data](./../../data/README.md)):
 
-* упорядоченностью;
-* типом;
-* видом.
+* degree of order;
+* type;
+* kind.
 
 Applicability table by the following features:
 
@@ -72,7 +72,7 @@ Applicability table by the following features:
 
 <tr><td align="left">Replace with most frequent</td><td align="center"><img src="../../images/icons/common/data-types/boolean_default.svg"> <img src="../../images/icons/common/data-types/datetime_default.svg"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"> <img src="../../images/icons/common/data-types/string_default.svg"></td><td align="center"><img src="../../images/icons/common/data-types/datetime_default.svg"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"></td><td align="center"><img src="../../images/icons/common/data-types/boolean_default.svg"> <img src="../../images/icons/common/data-types/datetime_default.svg"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"> <img src="../../images/icons/common/data-types/string_default.svg"></td><td align="center"><img src="../../images/icons/common/data-types/datetime_default.svg"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"></td></tr>
 
-<tr><td align="left">Заменять на 0</td><td align="center">  <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"> <td align="center"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"></td><td align="center"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"> <td align="center"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"></td></tr>
+<tr><td align="left">Replace with 0</td><td align="center">  <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"> <td align="center"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"></td><td align="center"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"> <td align="center"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"></td></tr>
 
 <tr><td align="left">Replace with random values</td><td align="center"><img src="../../images/icons/common/data-types/boolean_default.svg"> <img src="../../images/icons/common/data-types/datetime_default.svg"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"> <img src="../../images/icons/common/data-types/string_default.svg"></td><td align="center"><img src="../../images/icons/common/data-types/datetime_default.svg"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"></td><td align="center"><img src="../../images/icons/common/data-types/boolean_default.svg"> <img src="../../images/icons/common/data-types/datetime_default.svg"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"> <img src="../../images/icons/common/data-types/string_default.svg"></td><td align="center"><img src="../../images/icons/common/data-types/datetime_default.svg"> <img src="../../images/icons/common/data-types/float_default.svg"> <img src="../../images/icons/common/data-types/integer_default.svg"></td></tr>
 

@@ -14,9 +14,9 @@ The imported text file must meet the following requirements:
 
 %spoiler%Example:%spoiler%
 
-Файл замены:
+Replacement file:
 ```
-Средний балл	Новый средний балл
+Average score	New average score
 4,99	5
 4,99	4,69
 4,97	4,51
@@ -28,7 +28,7 @@ The imported text file must meet the following requirements:
 4,84	4,25
 4,79	4,20
 ```
-> Примечание: Десятичный разделитель зависит от локали. Для русской — это запятая, для английской — точка.
+> Note: Decimal separator depends on locale. It is a comma for the Russian one, it is a dot for the English one.
 
 %/spoiler%
 

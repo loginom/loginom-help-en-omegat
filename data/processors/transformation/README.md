@@ -3,4 +3,4 @@ description: Трансформация. Оглавление.
 ---
 # Transformation
 
-Группа компонентов для первоначальной подготовки и простой обработки исходных наборов данных.
+A set of components for the initial preparation and ordinary processing of the source data sets.

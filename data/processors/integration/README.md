@@ -4,4 +4,4 @@ description: Интеграция. Оглавление
 
 # Integration
 
-Компоненты данной группы позволяют осуществлять обмен данными между платформой Loginom и сторонними внешними системами.
+Components included into this group provide data exchange between the third party external systems and Megaladata platform.

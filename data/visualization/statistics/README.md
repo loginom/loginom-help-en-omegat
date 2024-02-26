@@ -24,7 +24,7 @@ description: Просмотр статистических показателе�
 
 The following eight indicators are displayed by default:
 * Histogram.
-* [Диаграмма размаха](https://wiki.loginom.ru/articles/box-plot.html);
+* [Box plot](https://wiki.loginom.ru/articles/box-plot.html).
 * Minimum.
 * Maximum.
 * Average.
@@ -53,4 +53,4 @@ The following options are available:
 * Set the own bin count (when the field refers to the continuous type).
 * Include Null values into the histogram (for the discrete field).
 
-> **Note:** When the options specified above have been changed, the histogram visualisation changes only in the detailed window, whereas it is the same in the main visualizer window.
+> **Note:** When the options specified above have been changed, the histogram visualization changes only in the detailed window, whereas it is the same in the main visualizer window.
