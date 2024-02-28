@@ -434,3 +434,4 @@ P-значение	P-value
 Диапазоны квантования = интервалы квантования	Binning ranges	Раньше использовался ошибочный термин binning bins
 Верхняя граница диапазонов открыта	Upper bin bound open
 Нижняя граница диапазонов открыта	Lower bin bound open
+контур	environment	В смысле Контур разработки, тестирования, продакшн... https://en.wikipedia.org/wiki/Deployment_environment
